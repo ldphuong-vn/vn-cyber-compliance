@@ -18,7 +18,7 @@ Bộ tài liệu dùng chung để **xác định cấp độ hệ thống thôn
 | [`docs/02-ho-so-cap-do/`](docs/02-ho-so-cap-do/README.md) | Mẫu 01–08 NĐ 331; khung thuyết minh tổng quan, đề xuất cấp độ, phương án bảo đảm ANM; báo cáo đánh giá rủi ro | Lập hồ sơ đề xuất cấp độ |
 | [`docs/03-yeu-cau-theo-cap-do/`](docs/03-yeu-cau-theo-cap-do/README.md) | Ma trận yêu cầu TCVN 14423:2026 theo 5 cấp, bảng ngưỡng định lượng, ánh xạ NĐ 331 Đ29–30, checklist tự đánh giá cấp 1–5 | Xây dựng phương án ANM, đánh giá khoảng trống |
 | [`docs/04-chinh-sach-quy-trinh/`](docs/04-chinh-sach-quy-trinh/README.md) | Quyết định (chủ quản, bộ phận chuyên trách, hội đồng thẩm định, đơn vị vận hành), **Quy chế bảo đảm ANM**, các quy trình (sự cố, rủi ro, đánh giá trước vận hành, yêu cầu của cơ quan chức năng, nhà cung cấp), đào tạo–diễn tập, RACI | Ban hành văn bản nội bộ |
-| [`docs/05-nghia-vu-lien-quan/`](docs/05-nghia-vu-lien-quan/README.md) | Nghĩa vụ doanh nghiệp theo NĐ 333 (lưu trữ dữ liệu tại VN, nhật ký, xác thực tài khoản, gỡ nội dung…), bảng mức phạt NĐ 330, giao thoa với bảo vệ DLCN | Rà soát nghĩa vụ ngoài phạm vi cấp độ |
+| [`docs/05-nghia-vu-lien-quan/`](docs/05-nghia-vu-lien-quan/README.md) | Nghĩa vụ doanh nghiệp theo NĐ 333 (lưu trữ dữ liệu tại VN, nhật ký, xác thực tài khoản, gỡ nội dung…), bảng mức phạt NĐ 330, giao thoa với bảo vệ DLCN, điều kiện kinh doanh dịch vụ xử lý DLCN | Rà soát nghĩa vụ ngoài phạm vi cấp độ |
 | [`docs/06-kiem-tra-bao-cao/`](docs/06-kiem-tra-bao-cao/README.md) | Kiểm tra, đánh giá định kỳ; báo cáo năm (Mẫu 08, hạn 25/12); danh mục hồ sơ, bằng chứng cần lưu | Vận hành thường xuyên, chuẩn bị thanh tra |
 | [`sources/van-ban-goc/`](sources/van-ban-goc/README.md) | Toàn văn các văn bản quy phạm pháp luật để tra cứu | Kiểm tra trích dẫn |
 

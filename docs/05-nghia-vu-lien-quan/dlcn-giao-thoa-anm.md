@@ -48,6 +48,8 @@ Tài liệu này **chỉ trình bày phần giao thoa** giữa tuân thủ ANM v
 
 > **Không thuộc diện miễn:** miễn trừ **không** bao gồm hồ sơ **chuyển DLCN xuyên biên giới** (Luật 91 Đ20) và **thông báo vi phạm 72 giờ** (Luật 91 Đ23). Doanh nghiệp nhỏ dùng cloud/SaaS đặt ở nước ngoài để xử lý dữ liệu khách hàng vẫn phải lập hồ sơ chuyển xuyên biên giới, trừ khi thuộc trường hợp miễn tại dòng 3a. Tiêu chí "doanh nghiệp nhỏ, siêu nhỏ, khởi nghiệp": **[CẦN ĐỐI CHIẾU]** pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa (không có trong bộ nguồn).
 
+> **Ngoại lệ quan trọng nhất là "kinh doanh dịch vụ xử lý DLCN".** Một tổ chức siêu nhỏ nhưng cung cấp một trong 9 dịch vụ tại NĐ 356 Đ21 thì mất toàn bộ miễn trừ, đồng thời phải xin Giấy chứng nhận đủ điều kiện. Phạm vi 9 dịch vụ, ranh giới với việc xử lý cho chính mình, điều kiện, thủ tục và mức phạt: [`dich-vu-xu-ly-dlcn.md`](dich-vu-xu-ly-dlcn.md).
+
 ### 3.2. Hiệu lực của thủ tục theo NQ 22
 
 - NQ 22 có hiệu lực **từ 29/4/2026 đến hết 01/3/2027**; trong thời gian này, thủ tục trong NQ khác văn bản khác thì áp dụng NQ (NQ 22 Đ6.1–6.2). Bộ Công an phải trình văn bản/ban hành thông tư thay thế có hiệu lực trước 01/3/2027 (NQ 22 Đ4.1.b–c).
