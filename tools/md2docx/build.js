@@ -3,7 +3,7 @@
 //
 // Dùng:  node build.js                 -> build toàn bộ danh sách TARGETS
 //        node build.js <file.md> ...   -> build các file chỉ định
-// Kết quả ghi vào  word/<thư mục docs tương ứng>/<tên file>.docx
+// Kết quả ghi vào  templates/<thư mục docs tương ứng>/<tên file>.docx (chung thư mục với bản Excel)
 //
 // Phạm vi xuất của mỗi file Markdown:
 //   - Mẫu biểu (mau-0x): phần giữa hai dòng "---" đầu tiên.
@@ -40,7 +40,7 @@ const CFG = {
 };
 
 const ROOT = path.resolve(__dirname, "../..");
-const OUT_DIR = path.join(ROOT, "word");
+const OUT_DIR = path.join(ROOT, "templates");
 // Dữ liệu mẫu: khóa chung + "_theo_file" (giá trị riêng cho từng văn bản, theo tên file không đuôi .md).
 // Giá trị dạng mảng: lần xuất hiện thứ k của placeholder trong văn bản nhận phần tử thứ k (vd. danh sách thành viên).
 const SAMPLE_ALL = CFG.sampleData ? JSON.parse(fs.readFileSync(path.join(__dirname, "du-lieu-mau.json"), "utf8")) : {};

@@ -20,7 +20,7 @@ Bộ tài liệu dùng chung để **xác định cấp độ hệ thống thôn
 | [`docs/04-chinh-sach-quy-trinh/`](docs/04-chinh-sach-quy-trinh/README.md) | Quyết định (chủ quản, bộ phận chuyên trách, hội đồng thẩm định, đơn vị vận hành), **Quy chế bảo đảm ANM**, các quy trình (sự cố, rủi ro, đánh giá trước vận hành, yêu cầu của cơ quan chức năng, nhà cung cấp), đào tạo–diễn tập, RACI | Ban hành văn bản nội bộ |
 | [`docs/05-nghia-vu-lien-quan/`](docs/05-nghia-vu-lien-quan/README.md) | Nghĩa vụ doanh nghiệp theo NĐ 333 (lưu trữ dữ liệu tại VN, nhật ký, xác thực tài khoản, gỡ nội dung…), bảng mức phạt NĐ 330, giao thoa với bảo vệ DLCN, điều kiện kinh doanh dịch vụ xử lý DLCN | Rà soát nghĩa vụ ngoài phạm vi cấp độ |
 | [`docs/06-kiem-tra-bao-cao/`](docs/06-kiem-tra-bao-cao/README.md) | Kiểm tra, đánh giá định kỳ; báo cáo năm (Mẫu 08, hạn 25/12); danh mục hồ sơ, bằng chứng cần lưu | Vận hành thường xuyên, chuẩn bị thanh tra |
-| [`word/`](word/) · [`excel/`](excel/) | Bản Word các mẫu văn bản (thể thức NĐ 30/2020, Times New Roman 13, có dữ liệu mẫu tô vàng) và bản Excel checklist, ma trận, sổ rủi ro, RACI — sinh tự động bằng [`tools/`](tools/md2docx/README.md) | Soạn văn bản thực tế, tự đánh giá |
+| [`templates/`](templates/README.md) | **Bộ mẫu tải về dùng ngay:** 24 văn bản Word (thể thức NĐ 30/2020, có dữ liệu mẫu tô vàng) và 4 bảng tính Excel (checklist tự đánh giá cấp 1–5, ma trận yêu cầu, sổ đăng ký rủi ro, RACI) — sinh tự động từ `docs/` bằng [`tools/`](tools/md2docx/README.md) | Soạn văn bản thực tế, tự đánh giá |
 | [`sources/van-ban-goc/`](sources/van-ban-goc/README.md) | Toàn văn các văn bản quy phạm pháp luật để tra cứu | Kiểm tra trích dẫn |
 
 ## Quy trình sử dụng

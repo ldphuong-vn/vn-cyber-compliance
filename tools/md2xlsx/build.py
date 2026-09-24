@@ -1,7 +1,7 @@
 """Xuất các checklist, ma trận, sổ đăng ký trong docs/ sang Excel (.xlsx).
 
 Dùng:  python3 tools/md2xlsx/build.py
-Kết quả ghi vào excel/<thư mục docs tương ứng>/.
+Kết quả ghi vào templates/<thư mục docs tương ứng>/ (chung thư mục với bản Word).
 
 - checklist-tu-danh-gia-cap-1-5.xlsx : checklist cấp 1–5 (cột Kết quả chọn từ danh sách) + sheet Tổng hợp tính bằng công thức
 - ma-tran-yeu-cau-theo-cap-do.xlsx   : ma trận 18 nhóm × 5 cấp, ngưỡng định lượng, ánh xạ NĐ 331 ↔ TCVN
@@ -20,7 +20,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / "docs"
-OUT = ROOT / "excel"
+OUT = ROOT / "templates"
 SAMPLE_FILE = ROOT / "tools" / "md2docx" / "du-lieu-mau.json"
 SAMPLE = json.loads(SAMPLE_FILE.read_text(encoding="utf-8")) if SAMPLE_FILE.exists() else {}
 
