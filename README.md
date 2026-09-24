@@ -57,9 +57,31 @@ Quy chế bảo đảm ANM phải được ban hành **trước** khi phê duy�
 - **Bản quyền TCVN:** repo này công khai, nên TCVN 14423:2026 chỉ được tóm lược bằng lời riêng, kèm số mục, không chép nguyên văn. Toàn văn tiêu chuẩn không được lưu trong repo (xem `.gitignore`).
 - Hồ sơ riêng của từng tổ chức (tên, IP, sơ đồ mạng, nhân sự) nên lưu trong **repo riêng tư**, dựng từ các mẫu trong bộ khung này.
 
+## Cập nhật định kỳ
+
+Văn bản hướng dẫn Luật An ninh mạng và Luật Bảo vệ dữ liệu cá nhân còn đang được ban hành tiếp (thông tư của Bộ Công an về đánh giá rủi ro, giám sát, ứng cứu sự cố…). Vì vậy bộ khung được **rà soát hằng tháng**:
+
+- **Ngày 01 hằng tháng:** rà soát văn bản mới ban hành, sửa đổi, hết hiệu lực và các hướng dẫn chính thức liên quan.
+- Kết quả mỗi kỳ được ghi thành báo cáo trong [`docs/00-tong-quan/cap-nhat-dinh-ky/`](docs/00-tong-quan/cap-nhat-dinh-ky/README.md) — kể cả khi không có thay đổi.
+- Thay đổi nội dung chỉ được đưa vào khi đã đối chiếu **toàn văn** văn bản; mỗi thay đổi đi qua Pull Request được rà soát trước khi hợp nhất, bộ mẫu Word/Excel được sinh lại theo.
+- Muốn nhận thông báo khi có cập nhật: bấm **Watch → Custom → Releases / Pull requests** trên trang repo.
+
+Mỗi tài liệu ghi ngày **đối chiếu văn bản gốc** ở đầu file; nếu ngày đó đã cũ so với văn bản bạn đang áp dụng, hãy kiểm tra [nhật ký cập nhật](docs/00-tong-quan/cap-nhat-dinh-ky/README.md) hoặc báo cho nhóm duy trì.
+
+## Đóng góp ý kiến
+
+Mọi góp ý đều được ghi nhận — đặc biệt từ người đang trực tiếp làm hồ sơ cấp độ, thẩm định hoặc tư vấn pháp lý:
+
+- **Phát hiện văn bản mới, sửa đổi hoặc trích dẫn sai:** mở [Issue "Văn bản mới / trích dẫn"](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new?template=van-ban-moi-hoac-trich-dan.yml).
+- **Góp ý nội dung, mẫu biểu, kinh nghiệm thực tế** (ví dụ cách cơ quan thẩm định đang hiểu một vùng xám): mở [Issue "Góp ý nội dung"](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new?template=gop-y-noi-dung.yml).
+- **Tự sửa trực tiếp:** gửi Pull Request theo hướng dẫn trong [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Người đóng góp được ghi nhận trong mô tả Pull Request, báo cáo cập nhật tháng tương ứng và danh sách [Contributors](https://github.com/ldphuong-vn/vn-cyber-compliance/graphs/contributors) của repo. Vui lòng **không** gửi thông tin nội bộ, dữ liệu cá nhân hay hồ sơ thật của tổ chức vào Issue — repo này công khai.
+
 ## Ghi nhận
 
 - Tài trợ và duy trì: **Công ty cổ phần Giải pháp Công nghệ Turbo**.
+- Cảm ơn những người đã góp ý, phát hiện lỗi và chia sẻ kinh nghiệm thực tế — xem [Contributors](https://github.com/ldphuong-vn/vn-cyber-compliance/graphs/contributors) và phần ghi nhận trong từng [báo cáo cập nhật tháng](docs/00-tong-quan/cap-nhat-dinh-ky/README.md).
 - Bộ khung được xây dựng với sự hỗ trợ của [Claude Code](https://claude.com/claude-code) (Anthropic): nghiên cứu, đối chiếu văn bản, soạn tài liệu và sinh bản Word/Excel. Nội dung đã được rà soát đối chiếu văn bản gốc nhưng không phải ý kiến pháp lý; Anthropic không bảo trợ nội dung này.
 
 ## Giấy phép
