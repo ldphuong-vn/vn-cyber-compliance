@@ -1,6 +1,6 @@
 # md2docx — xuất mẫu văn bản sang Word
 
-Chuyển các mẫu Markdown trong `docs/` sang `.docx` theo thể thức văn bản hành chính (NĐ 30/2020/NĐ-CP, Phụ lục I). Kết quả nằm trong `word/`, cùng cấu trúc thư mục với `docs/`.
+Chuyển các mẫu Markdown trong `docs/` sang `.docx` theo thể thức văn bản hành chính (NĐ 30/2020/NĐ-CP, Phụ lục I). Kết quả nằm trong `templates/`, cùng cấu trúc thư mục với `docs/`.
 
 ```bash
 cd tools/md2docx
@@ -33,11 +33,11 @@ Nhận diện Markdown: bảng 2 cột đầu tiên là khối quốc hiệu; b�
 
 ## Excel (`tools/md2xlsx/build.py`)
 
-Checklist, ma trận và sổ đăng ký xuất sang Excel (thư mục `excel/`): `python3 tools/md2xlsx/build.py` (cần `openpyxl`).
+Checklist, ma trận và sổ đăng ký xuất sang Excel (thư mục `templates/`, chung với bản Word): `python3 tools/md2xlsx/build.py` (cần `openpyxl`).
 
 | File | Nội dung |
 |---|---|
-| `excel/03-yeu-cau-theo-cap-do/checklist-tu-danh-gia-cap-1-5.xlsx` | Checklist cấp 1–5, cột Kết quả chọn từ danh sách (Đạt/Một phần/Chưa/N/A), tô màu tự động; sheet Tổng hợp tính bằng công thức |
-| `excel/03-yeu-cau-theo-cap-do/ma-tran-yeu-cau-theo-cap-do.xlsx` | Ma trận 18 nhóm × 5 cấp, ngưỡng định lượng, ánh xạ NĐ 331 ↔ TCVN |
-| `excel/02-ho-so-cap-do/so-dang-ky-rui-ro.xlsx` | Sổ đăng ký rủi ro; Mức rủi ro = Khả năng × Tác động và phân loại bằng công thức |
-| `excel/04-chinh-sach-quy-trinh/ma-tran-raci.xlsx` | Ma trận RACI |
+| `templates/03-yeu-cau-theo-cap-do/checklist-tu-danh-gia-cap-1-5.xlsx` | Checklist cấp 1–5, cột Kết quả chọn từ danh sách (Đạt/Một phần/Chưa/N/A), tô màu tự động; sheet Tổng hợp tính bằng công thức |
+| `templates/03-yeu-cau-theo-cap-do/ma-tran-yeu-cau-theo-cap-do.xlsx` | Ma trận 18 nhóm × 5 cấp, ngưỡng định lượng, ánh xạ NĐ 331 ↔ TCVN |
+| `templates/02-ho-so-cap-do/so-dang-ky-rui-ro.xlsx` | Sổ đăng ký rủi ro; Mức rủi ro = Khả năng × Tác động và phân loại bằng công thức |
+| `templates/04-chinh-sach-quy-trinh/ma-tran-raci.xlsx` | Ma trận RACI |
