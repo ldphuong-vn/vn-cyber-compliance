@@ -1,0 +1,8 @@
+{
+  "name": "md2docx-vn-admin",
+  "private": true,
+  "description": "Chuyển các mẫu Markdown trong docs/ sang Word theo thể thức văn bản hành chính (NĐ 30/2020/NĐ-CP)",
+  "scripts": { "build": "node build.js" },
+  "dependencies": { "docx": "^9.0.0",
+    "jszip": "^3.10.1" }
+}

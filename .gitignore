@@ -3,3 +3,4 @@
 **/tcvn-14423*.pdf
 *.docx~
 .DS_Store
+node_modules/
