@@ -135,7 +135,7 @@ Bảng đầy đủ: [../05-nghia-vu-lien-quan/nd-330-muc-phat.md](../05-nghia-v
 
 > Chủ quản có thể **chủ động đề nghị** lực lượng chuyên trách BCA kiểm tra (Luật 116 Đ12.1.b), ví dụ sau sự cố nghi do tấn công có chủ đích.
 
-**HTTT quan trọng về ANQG** có trình tự riêng: kiểm tra đột xuất được báo trước ít nhất **12 giờ** (sự cố, hành vi xâm phạm) hoặc **72 giờ** (yêu cầu quản lý nhà nước, hết hạn khắc phục lỗ hổng); kết quả thông báo trong **25 ngày làm việc** sau khi kết thúc; kiểm tra theo kế hoạch: thông báo kết quả trong **03 ngày làm việc** sau khi hoàn thành (NĐ 333 Đ8.6.a–b, Đ8.7.đ).
+**HTTT quan trọng về ANQG** có trình tự riêng: kiểm tra đột xuất được báo trước ít nhất **12 giờ** (sự cố, hành vi xâm phạm) hoặc **72 giờ** (yêu cầu quản lý nhà nước, hết hạn khắc phục lỗ hổng); kết quả thông báo trong **25 ngày làm việc** sau khi kết thúc; kiểm tra theo kế hoạch: thông báo kết quả trong **03 ngày làm việc** sau khi hoàn thành (NĐ 333 Đ8.6.a–b, Đ8.7.đ). **[CẦN ĐỐI CHIẾU]** Đ8.7.đ là trình tự chung nên hai mốc 03 và 25 ngày làm việc chồng nhau trong chính nghị định; cách chia theo loại kiểm tra ở đây là diễn giải.
 
 ## 6. Kế hoạch kiểm tra, đánh giá năm (mẫu)
 
@@ -150,6 +150,7 @@ Chủ quản: {{TEN_TO_CHUC}} · Đơn vị chủ trì: {{DON_VI_CHUYEN_TRACH_AN
 | II | Kiểm tra hiệu quả: Quy chế, tuân thủ quy trình, cấu hình, hardening | Cấp ≥ 3 | Bộ phận độc lập | NĐ 331 Đ27.2 | Báo cáo đánh giá hiệu quả |
 | II | Kiểm thử xâm nhập (hộp đen từ bên ngoài) | Cấp 3–5 có dịch vụ công khai | Tổ chức có giấy phép | NĐ 331 Đ27.4.a; TCVN 6.18.2.2/7.18.2.2 | Báo cáo pentest |
 | III | Kiểm thử xâm nhập (hộp xám/từ bên trong); đánh giá an toàn mã nguồn phần mềm nội bộ | Cấp 3–5; phần mềm tự phát triển | Tổ chức chuyên môn / nội bộ độc lập | NĐ 331 Đ27.3.c, Đ27.4.b–c; TCVN 6.18.2.5/7.18.2.5 | Báo cáo kiểm thử, báo cáo rà soát mã nguồn |
+| IV (chỉ cấp 5) | Lặp lại kiểm thử xâm nhập từ bên ngoài và từ bên trong (cấp 5: mỗi loại ≥ 1 lần/6 tháng) | Cấp 5 | Tổ chức có giấy phép | TCVN 7.18.2.2, 7.18.2.5 | Báo cáo pentest đợt 2 |
 | III | Diễn tập ứng phó sự cố | Cấp ≥ 3 | Nội bộ; tham gia diễn tập do BCA tổ chức | NĐ 331 Đ31.3; TCVN 6.17.2.6/7.17.2.6 | Biên bản diễn tập, bài học |
 | III (trước 01/10) | Tự kiểm tra và **gửi thông báo kết quả** (chỉ HTTT quan trọng về ANQG) | HTTT quan trọng ANQG | Tổ chức chuyên môn | Luật 116 Đ11.1.b; NĐ 333 Đ8.5.b; NĐ 331 Đ31.2.c | Văn bản thông báo |
 | IV | Kiểm tra khắc phục (re-test); tổng hợp kết quả năm | Tất cả | Bộ phận độc lập | NĐ 331 Đ27.3.b, Đ28.5.c | Báo cáo kết quả tự đánh giá (mục 7) |

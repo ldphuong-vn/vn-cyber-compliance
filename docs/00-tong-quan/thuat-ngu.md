@@ -73,7 +73,7 @@
 | Hành vi vi phạm pháp luật về an ninh thông tin mạng | Hành vi vi phạm pháp luật về ANM phát sinh trong hoạt động bảo đảm an ninh thông tin mạng, thực hiện qua không gian mạng…, thuộc trường hợp tại Luật 116 Đ7 hoặc Đ13 | NĐ 333 Đ3.6 |
 | Chuyên ngành an ninh mạng | Các chuyên ngành đào tạo thuộc nhóm ngành an ninh mạng, an toàn thông tin, ngành an ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao | NĐ 333 Đ3.7 |
 
-> Ba định nghĩa dịch vụ (Đ3.3–3.5) dẫn chiếu "theo quy định của pháp luật" (pháp luật viễn thông) — **[CẦN ĐỐI CHIẾU]** Luật Viễn thông 24/2023/QH15 khi xác định một dịch vụ trực tuyến cụ thể có thuộc phạm vi NĐ 333 Chương III hay không.
+> Ba định nghĩa dịch vụ (Đ3.3–3.5) dẫn chiếu "theo quy định của pháp luật" (pháp luật viễn thông) — **[CẦN ĐỐI CHIẾU]** Luật Viễn thông 24/2023/QH15 khi xác định một dịch vụ trực tuyến cụ thể có thuộc phạm vi NĐ 333 Chương III hay không. Tham khảo: Luật Viễn thông 24/2023/QH15 Đ3.7 (dịch vụ viễn thông cơ bản, giá trị gia tăng), Đ3.12 (dịch vụ ứng dụng viễn thông — phạm vi rộng, gồm ứng dụng trong CNTT, thương mại, tài chính, ngân hàng, y tế, giáo dục…).
 
 ## 5. Dữ liệu cá nhân (Luật 91, NĐ 356)
 
