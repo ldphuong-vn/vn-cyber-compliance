@@ -14,7 +14,7 @@ Một câu trả lời "có" kéo theo ba hệ quả **cùng lúc**:
 |---|---|---|
 | 1 | **Mất quyền miễn trừ** dành cho doanh nghiệp nhỏ, khởi nghiệp, siêu nhỏ và hộ kinh doanh. Phải lập DPIA (Đ21), cập nhật hồ sơ (Đ22) và chỉ định bộ phận, nhân sự BVDLCN hoặc thuê dịch vụ (Đ33.2) — bất kể quy mô | Luật 91 Đ38.2, Đ38.3; NĐ 356 Đ41 |
 | 2 | Phải có **Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ xử lý DLCN** do Bộ Công an cấp trước khi cung cấp dịch vụ | NĐ 356 Đ22, Đ24, Đ25 |
-| 3 | Hoạt động trở thành **ngành, nghề kinh doanh có điều kiện** trên thực tế, nên hệ thống thông tin phục vụ dịch vụ này có khả năng rơi vào **cấp độ 3** thay vì cấp độ 2 | NĐ 331 Đ13.2.a — **[CẦN ĐỐI CHIẾU]** xem mục 7 |
+| 3 | Có **khả năng** bị coi là cung cấp dịch vụ thuộc **ngành, nghề đầu tư kinh doanh có điều kiện** (do hoạt động này phải có Giấy chứng nhận). Nếu đúng vậy, hệ thống thông tin phục vụ dịch vụ rơi vào **cấp độ 3** thay vì cấp độ 2. Lưu ý: NĐ 331 Đ13.2.a dẫn chiếu *danh mục* ngành, nghề đầu tư kinh doanh có điều kiện; việc phải xin giấy phép **không tự động** có nghĩa là hoạt động nằm trong danh mục đó — phải tra danh mục của luật đầu tư đang có hiệu lực | NĐ 331 Đ13.2.a — **[CẦN ĐỐI CHIẾU]** xem mục 8 dòng 7 |
 
 Hai hệ quả đầu **khóa vào nhau**: điều kiện cấp Giấy chứng nhận là hồ sơ DPIA (và hồ sơ chuyển xuyên biên giới, nếu có chuyển) **có kết quả đạt yêu cầu** (NĐ 356 Đ22.4). Nghĩa là không thể vừa xin Giấy chứng nhận vừa viện dẫn miễn trừ DPIA.
 
@@ -79,7 +79,9 @@ Nội dung **đề án** (Đ25.2) trùng nhiều với tài liệu tuân thủ A
 
 ## 6. Mức phạt (NĐ 330 Đ59)
 
-| Hành vi | Mức |
+Mức phạt tại Đ59 quy định **cho tổ chức** (lĩnh vực bảo vệ DLCN; cá nhân vi phạm bị phạt bằng một nửa — NĐ 330 Đ7).
+
+| Hành vi | Mức phạt tổ chức |
 |---|---|
 | Đã có Giấy chứng nhận nhưng không có khung quản trị rủi ro, không có quy định trách nhiệm, không áp dụng tiêu chuẩn, không xác thực danh tính tổ chức | 20–30 triệu (Đ59.1) |
 | Không yêu cầu bên kiểm soát xin đồng ý trước khi cung cấp dịch vụ · xử lý sai mục đích, không giới hạn thu thập, chuyển giao, lưu trữ · **không đánh giá tuân thủ và mức độ tín nhiệm 01 năm/lần** | 30–50 triệu (Đ59.2) |
