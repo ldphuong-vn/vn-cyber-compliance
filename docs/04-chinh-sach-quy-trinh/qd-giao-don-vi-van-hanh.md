@@ -29,7 +29,7 @@ flowchart TD
 | 6 | Phối hợp lực lượng chuyên trách BCA; thiết lập kết nối, đấu nối đường truyền, truyền tải dữ liệu phục vụ giám sát | Đ33.5 |
 | 7 | Báo cáo định kỳ/đột xuất; báo cáo năm gửi chủ quản trước 20/12 | Đ33.6, Đ35.4.a |
 
-Việc thực hiện Đ33.1 là nội dung kiểm tra tuân thủ (NĐ 331 Đ27.1.c). Cản trở/không trao đổi thông tin, dữ liệu giám sát giữa **đơn vị được chủ quản thuê** và lực lượng chuyên trách có thể bị phạt 30–50 triệu đồng (NĐ 330 Đ23.2.d) → hợp đồng thuê phải có điều khoản buộc nhà cung cấp phối hợp giám sát.
+Việc thực hiện Đ33.1 là nội dung kiểm tra tuân thủ (NĐ 331 Đ27.1.c). Cản trở/không trao đổi thông tin, dữ liệu giám sát giữa **đơn vị được chủ quản thuê** và lực lượng chuyên trách có thể bị phạt tổ chức 60–100 triệu đồng (NĐ 330 Đ23.2.d; khung cá nhân 30–50 — Đ7.1) → hợp đồng thuê phải có điều khoản buộc nhà cung cấp phối hợp giám sát.
 
 ### Trường hợp thuê dịch vụ — yêu cầu bổ sung
 

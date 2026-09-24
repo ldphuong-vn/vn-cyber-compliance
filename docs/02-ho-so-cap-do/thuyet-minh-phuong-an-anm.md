@@ -63,7 +63,7 @@ Thành phần 4 của hồ sơ (Đ21.4), phần c) của thuyết minh (Đ22.2.c
 | KT-2 | Kiểm tra, giám sát tuân thủ và đánh giá hiệu quả: định kỳ theo cấp độ và rủi ro, thường xuyên qua giám sát, đột xuất, theo yêu cầu | Đ28.5.a | *Tần suất: {{...}}* | | | |
 | KT-3 | Nội dung kiểm tra tuân thủ (Đ27.1), đánh giá hiệu quả (Đ27.2) | Đ27.1, Đ27.2 | | | | |
 | KT-4 | Dò quét mã độc, lỗ hổng, điểm yếu; kiểm thử xâm nhập; đánh giá an toàn mã nguồn phần mềm nội bộ; kế hoạch xử lý | Đ27.3 | *Hình thức: hộp đen/xám/trắng (Đ27.4)* | | | |
-| KT-5 | Tự đánh giá do bộ phận độc lập với đơn vị vận hành; hoặc tổ chức chuyên môn đánh giá (bắt buộc với cấp 5/ANQG và các trường hợp Đ31.2.c) | Đ31.2.c | | | | |
+| KT-5 | Tự đánh giá do bộ phận độc lập với đơn vị vận hành; hoặc tổ chức chuyên môn đánh giá (thực hiện với cấp 5/ANQG và các trường hợp khác liệt kê tại Đ31.2.c) | Đ31.2.c | | | | |
 | KT-6 | Quản lý kiểm tra ANM (cấp 3–5) | TCVN 14423:2026 mục 5.18 / 6.18 / 7.18 | | | | |
 
 ### A.4. Quản lý rủi ro ANM (Đ29.2.d)

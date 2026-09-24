@@ -99,7 +99,7 @@ Cấp độ 2 gồm **15 nhóm** (mục 4.1–4.15). So với cấp 1 bổ sung:
 | 4.6.2.2 a) | Cấu hình bắt đổi mật khẩu mặc định; quy tắc độ dài, loại ký tự; thời hạn đổi và thời hạn hiệu lực mật khẩu | | Chính sách mật khẩu (GPO/IdP) | **Mới/khác so với cấp 1** |
 | 4.6.2.2 b) | Gợi ý: mật khẩu riêng cho từng tài sản hoặc xác thực tập trung; bắt đổi ở lần đăng nhập đầu | | Cấu hình IdP/SSO |  |
 | 4.6.2.2 b) | Gợi ý độ dài: ≥ 8 ký tự nếu có MFA; ≥ 14 ký tự gồm đủ 4 loại ký tự nếu không có MFA | | Chính sách mật khẩu |  |
-| 4.6.2.2 b) | Tài khoản quản trị đổi mật khẩu ít nhất 2 tháng/lần | | Cấu hình MFA/lịch sử mật khẩu |  |
+| 4.6.2.2 b) | Tài khoản quản trị đổi mật khẩu ít nhất 2 tháng/lần | | Chính sách hết hạn mật khẩu tài khoản quản trị |  |
 | 4.6.2.3 | Đổi hoặc vô hiệu hóa tài khoản mặc định (root, administrator, tài khoản cài sẵn của hãng) | | Danh sách tài khoản mặc định đã xử lý |  |
 | 4.6.2.3 | Tách biệt quản lý 4 loại tài khoản | | Quy định + danh sách phân loại |  |
 | 4.6.2.3 | Mỗi tài khoản gắn một người; dùng chung phải được phê duyệt và truy vết được người dùng từng thời điểm | | Phê duyệt tài khoản dùng chung, sổ theo dõi |  |

@@ -18,7 +18,7 @@ Mã quy trình: **QT-DGTVH** · Ban hành kèm Quy chế bảo đảm ANM (Đi�
 | Lồng ghép vào đầu tư | Thuyết minh đề xuất cấp độ lồng ghép vào báo cáo nghiên cứu khả thi/báo cáo đầu tư/kế hoạch thuê dịch vụ | Đ19.1–19.2 |
 | Thời điểm phê duyệt | **Khuyến khích** phê duyệt Hồ sơ đề xuất cấp độ trước khi phê duyệt BCKTKT/thiết kế cơ sở/kế hoạch thuê dịch vụ/đề cương dự toán | Đ37 |
 | Mức áp dụng theo luật | "Đánh giá điều kiện ANM" (Luật 116 Đ10.2.c): cấp 1–2 tùy chọn; cấp 3–4 không thuộc danh mục quan trọng về ANQG: **theo nhu cầu, khả năng**; thuộc danh mục quan trọng về ANQG: **bắt buộc** | Luật 116 Đ10.3–10.5 |
-| Chế tài | Đưa HTTT cấp 3–5 vào vận hành khi chưa được phê duyệt cấp độ; không triển khai đầy đủ biện pháp như hồ sơ đã phê duyệt: 20–30 triệu đồng | NĐ 330 Đ23.1.c–d |
+| Chế tài | Đưa HTTT cấp 3–5 vào vận hành khi chưa được phê duyệt cấp độ; không triển khai đầy đủ biện pháp như hồ sơ đã phê duyệt: tổ chức 40–60 triệu đồng (khung cá nhân 20–30 — NĐ 330 Đ7.1) | NĐ 330 Đ23.1.c–d |
 
 > **Mâu thuẫn cần lưu ý:** Luật 116 Đ10.4 cho phép chủ quản cấp 3–4 (không thuộc danh mục ANQG) *lựa chọn* áp dụng biện pháp "đánh giá điều kiện ANM", trong khi NĐ 331 Đ28.3 mô tả đánh giá điều kiện "trước khi đưa vào vận hành" và Đ30.6 yêu cầu triển khai đầy đủ phương án trước vận hành với mọi cấp. Cách tiếp cận an toàn: **luôn thực hiện cổng nội bộ** (tự đánh giá độc lập) cho mọi hệ thống cấp 3 trở lên; việc thuê đánh giá bên ngoài theo Đ31.2.c. **[CẦN ĐỐI CHIẾU]** hướng dẫn của BCA.
 

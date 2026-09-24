@@ -10,12 +10,12 @@ Mã quy trình: **QT-SC** · Ban hành kèm Quy chế bảo đảm ANM (Điều 
 
 | Nghĩa vụ | Căn cứ | Chế tài nếu vi phạm |
 |---|---|---|
-| Báo cáo sự cố với cơ quan chuyên trách của Bộ Công an (hệ thống do BQP quản lý: báo cáo lực lượng chuyên trách BQP) | Luật 116 Đ40.1.c; NĐ 331 Đ31.2.d | NĐ 330 Đ21.2.a: 20–30 triệu đồng |
-| Mốc 72h / 24h / "ngay" | NĐ 331 Đ31.2.d | NĐ 330 Đ21.3.c (không báo cáo đúng quy trình): 30–50 triệu đồng |
+| Báo cáo sự cố với cơ quan chuyên trách của Bộ Công an (hệ thống do BQP quản lý: báo cáo lực lượng chuyên trách BQP) | Luật 116 Đ40.1.c; NĐ 331 Đ31.2.d | NĐ 330 Đ21.2.a: tổ chức 40–60 triệu đồng (khung cá nhân 20–30 — NĐ 330 Đ7.1) |
+| Mốc 72h / 24h / "ngay" | NĐ 331 Đ31.2.d | NĐ 330 Đ21.3.c (không báo cáo đúng quy trình): tổ chức 60–100 triệu đồng (khung cá nhân 30–50) |
 | DN cung cấp dịch vụ trên không gian mạng: phương án ứng cứu khẩn cấp; khi xảy ra sự cố **triển khai ngay** và **báo cáo ngay** | Luật 116 Đ41.2–41.3 | |
 | Tình huống nguy hiểm về ANM: kịp thời thông báo lực lượng chuyên trách, áp dụng ngay phương án ứng phó khẩn cấp | Luật 116 Đ20.4.a, Đ20.3.a–b | NĐ 330 Đ18 |
 | Xây dựng, duy trì phương án ứng phó; thông báo ngay khi vượt khả năng xử lý; báo cáo kết quả (quy định cho HTTT quan trọng về ANQG — khuyến nghị áp dụng cho mọi hệ thống) | NĐ 333 Đ9.3, Đ9.7 | |
-| Đội ứng cứu sự cố, kế hoạch ứng phó, đầu mối, địa chỉ tiếp nhận sự cố | NĐ 330 Đ21.1, Đ21.3.b, Đ21.3.d, Đ21.4.a, Đ21.4.k (hành vi bị xử phạt) | 10–70 triệu đồng tùy hành vi |
+| Đội ứng cứu sự cố, kế hoạch ứng phó, đầu mối, địa chỉ tiếp nhận sự cố | NĐ 330 Đ21.1, Đ21.3.b, Đ21.3.d, Đ21.4.a, Đ21.4.k (hành vi bị xử phạt) | Tổ chức 20–140 triệu đồng tùy hành vi (khung cá nhân 10–70) |
 | Thông báo vi phạm DLCN chậm nhất 72 giờ | Luật 91 Đ23.1 | NĐ 330 Đ54.3: 40–60 triệu đồng |
 | Đánh giá lại rủi ro sau sự cố nghiêm trọng | NĐ 331 Đ10.2.d | |
 | Diễn tập | NĐ 331 Đ31.3; TCVN 5.16.1, 6.17.2.6, 7.17.2.6 | |

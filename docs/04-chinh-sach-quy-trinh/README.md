@@ -44,7 +44,7 @@ flowchart TD
 
 **Điểm then chốt:**
 
-- [ ] Quy chế bảo đảm ANM phải được xây dựng đáp ứng yêu cầu quản lý theo cấp độ và **được cấp có thẩm quyền phê duyệt, ban hành trước khi Hồ sơ đề xuất cấp độ được phê duyệt** (NĐ 331 Đ30.7). Không ban hành Quy chế → vừa không đủ điều kiện phê duyệt hồ sơ, vừa có thể bị phạt 20–30 triệu đồng vì "không ban hành quy định về bảo đảm ANM trong thiết kế, xây dựng, quản lý, vận hành, sử dụng, nâng cấp, hủy bỏ HTTT" (NĐ 330 Đ23.1.a).
+- [ ] Quy chế bảo đảm ANM phải được xây dựng đáp ứng yêu cầu quản lý theo cấp độ và **được cấp có thẩm quyền phê duyệt, ban hành trước khi Hồ sơ đề xuất cấp độ được phê duyệt** (NĐ 331 Đ30.7). Không ban hành Quy chế → vừa không đủ điều kiện phê duyệt hồ sơ, vừa có thể bị phạt 40–60 triệu đồng đối với tổ chức (khung 20–30 triệu đồng ghi trong điều là mức cho cá nhân, tổ chức gấp đôi — NĐ 330 Đ7.1) vì "không ban hành quy định về bảo đảm ANM trong thiết kế, xây dựng, quản lý, vận hành, sử dụng, nâng cấp, hủy bỏ HTTT" (NĐ 330 Đ23.1.a).
 - [ ] Quy chế là **đối tượng kiểm tra** về tính đầy đủ, phù hợp và việc tuân thủ (NĐ 331 Đ27.2.a–b) và là **nội dung báo cáo năm** ("Danh sách HTTT có Quy chế", "Thông tin Quyết định ban hành và Quy chế" — NĐ 331 Đ36.6, Đ36.7, Đ36.11).
 - [ ] Đơn vị chuyên trách ANM phải tồn tại trước khi thẩm định (thẩm định cấp 1–3 do đơn vị này làm — NĐ 331 Đ18.1, Đ18.2.a).
 - [ ] Nếu chủ quản dùng mô hình "đơn vị CNTT kiêm chuyên trách ANM kiêm vận hành", phải xử lý xung đột vai trò bằng văn bản (4) trước khi thẩm định (NĐ 331 Đ18.4).

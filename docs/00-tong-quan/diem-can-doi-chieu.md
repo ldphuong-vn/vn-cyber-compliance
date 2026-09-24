@@ -8,8 +8,8 @@ Tổng hợp các điểm phát hiện khi soạn bộ khung. Mỗi điểm đ�
 
 | # | Vấn đề | Căn cứ | Cách xử lý tạm trong bộ khung |
 |---|---|---|---|
-| A1 | Dịch vụ trực tuyến, SaaS, cloud, trung tâm dữ liệu có thuộc "ngành, nghề đầu tư kinh doanh có điều kiện" không? Đây là ranh giới giữa cấp 2 và cấp 3 | NĐ 331 Đ12.2.a, Đ13.2.a; Luật Đầu tư (Phụ lục IV); Luật Viễn thông 24/2023 Đ3 k10–12, Đ20 | Tra danh mục ngành nghề. Nếu doanh nghiệp đã thông báo hoặc được cấp phép dịch vụ viễn thông (kể cả điện toán đám mây), nên xếp cấp 3 |
-| A2 | Cách đếm chủ thể dữ liệu (ngưỡng 100.000 / 10.000) khi tổ chức là bên xử lý DLCN cho khách hàng: đếm tích lũy hay số đang hoạt động, đếm riêng từng khách hàng thuê hay gộp chung | NĐ 331 Đ12.2.b, Đ13.2.c | Đếm gộp, tích lũy (cách thận trọng) và ghi rõ phương pháp đếm trong thuyết minh |
+| A1 | Dịch vụ trực tuyến, SaaS, cloud, trung tâm dữ liệu có thuộc "ngành, nghề đầu tư kinh doanh có điều kiện" không? Đây là ranh giới giữa cấp 2 và cấp 3 | NĐ 331 Đ12.2.a, Đ13.2.a; Luật Đầu tư (Phụ lục IV — danh mục ngành, nghề đầu tư kinh doanh có điều kiện; cần kiểm tra luật đầu tư đang có hiệu lực và số phụ lục hiện hành); Luật Viễn thông 24/2023 Đ3 k9–12, Đ20 | Tra danh mục ngành nghề. Nếu doanh nghiệp đã thông báo hoặc được cấp phép dịch vụ viễn thông (kể cả trung tâm dữ liệu, điện toán đám mây), nên xếp cấp 3 — **[CẦN ĐỐI CHIẾU]** Phụ lục IV Luật Đầu tư chưa có trong `sources/` |
+| A2 | Cách đếm chủ thể dữ liệu (ngưỡng 100.000 / 10.000) khi tổ chức là bên xử lý DLCN cho khách hàng: đếm tích lũy hay số đang hoạt động, đếm riêng từng khách hàng thuê hay gộp chung | NĐ 331 Đ12.2.b, Đ13.2.c | Đếm số chủ thể duy nhất đang lưu trữ, gộp mọi khách hàng thuê, cộng dự báo tăng trưởng (cách thận trọng, như `01-xac-dinh-cap-do/tieu-chi-cap-do.md` mục 6.3); ghi rõ phương pháp đếm trong thuyết minh |
 | A3 | Phạm vi áp dụng: NĐ 331 Đ2 chỉ "khuyến khích" tổ chức ngoài hai nhóm (HTTT nhà nước, dịch vụ trực tuyến). Nhưng Luật 116 Đ10 giao nghĩa vụ cho mọi chủ quản và NĐ 330 xử phạt không phân biệt | NĐ 331 Đ2; Luật 116 Đ1.2, Đ10.1.a; NĐ 330 Đ23–24 | HTTT nội bộ vẫn nên xác định cấp độ và gộp chung vào Quy chế |
 | A4 | Tiêu chí hạ tầng thông tin viết theo phạm vi hành chính (bộ, ngành, tỉnh), chưa rõ áp dụng thế nào cho cloud thương mại | NĐ 331 Đ13.3, Đ14.2 | Luận giải trong thuyết minh đề xuất cấp độ |
 | A5 | Một hệ thống có thể cùng khớp Đ12.2.a (cấp 2) và Đ13.2.c (cấp 3) | NĐ 331 Đ8.2 | Lấy cấp cao nhất |
@@ -20,10 +20,10 @@ Tổng hợp các điểm phát hiện khi soạn bộ khung. Mỗi điểm đ�
 
 | # | Vấn đề | Căn cứ |
 |---|---|---|
-| B1 | NĐ 331 không có điều khoản bãi bỏ NĐ 85/2016 (Đ39.1 vẫn dẫn chiếu NĐ 85). Tương tự, NĐ 333 không bãi bỏ NĐ 53/2022. Cần đối chiếu bản Công báo | NĐ 331 Đ38–39; NĐ 333 Đ31 |
+| B1 | NĐ 331 không có điều khoản bãi bỏ NĐ 85/2016 (Đ39.1 vẫn dẫn chiếu NĐ 85). Tương tự, NĐ 333 không bãi bỏ NĐ 53/2022. Cần đối chiếu bản Công báo | NĐ 331 Đ38–39; NĐ 333 Đ30–31 |
 | B2 | HTTT **đang vận hành nhưng chưa từng xác định cấp độ** không được nhắc trong quy định chuyển tiếp. Nghĩa vụ coi như áp dụng ngay từ 19/8/2026; mốc 30/6/2027 chỉ dùng làm hạn nội bộ | Luật 116 Đ45.1; NĐ 331 Đ39.1 |
 | B3 | Không quy định thời hạn thẩm định cho cấp 1–2, cũng không quy định thời hạn cho ý kiến chuyên môn ở cấp 4–5. Không có mẫu quyết định phê duyệt cho cấp 1–2 | NĐ 331 Đ23.3; Phụ lục |
-| B4 | Lệch giữa Mẫu biểu và thân Nghị định: Mẫu 05 ghi "cơ quan phối hợp", Đ24.1.b ghi "cơ quan chủ trì". Mẫu 04 hẹp hơn Đ23.1. Mẫu 01/02/03/05 không nhắc thiết kế sơ bộ. Mẫu 08 không có khối chữ ký và ghi nơi nhận khác Đ35.4.b. Đ22.5 dẫn chiếu "khoản 3", về logic phải là khoản 4 | NĐ 331 Đ21–24, Đ35; Phụ lục Mẫu 01–08 |
+| B4 | Lệch giữa Mẫu biểu và thân Nghị định: Mẫu 05 ghi "cơ quan phối hợp", Đ24.1.b ghi "cơ quan chủ trì". Mẫu 04 hẹp hơn Đ23.1. Mẫu 01/02/03/05 không nhắc thiết kế sơ bộ. Mẫu 08 không có khối chữ ký và ghi nơi nhận khác Đ35.4.b. Đ22.5 dẫn chiếu "khoản 3", về logic có thể là khoản 4 | NĐ 331 Đ21–24, Đ35; Phụ lục Mẫu 01–08 |
 | B5 | Kỳ số liệu báo cáo năm 2026 (15/12/2025–14/12/2026) bắt đầu trước khi NĐ 331 có hiệu lực. Chưa có địa chỉ phần mềm báo cáo của BCA | NĐ 331 Đ35 |
 | B6 | Hội đồng thẩm định độc lập: NĐ 331 không quy định cơ cấu. Tổ chức nhỏ dễ vướng yêu cầu độc lập (Đ18.4, Đ31.2.c) | NĐ 331 Đ18.4 |
 
@@ -38,7 +38,7 @@ Tổng hợp các điểm phát hiện khi soạn bộ khung. Mỗi điểm đ�
 | C5 | Gỡ nội dung vi phạm | NĐ 333 Đ16.4.b: 24h, khẩn cấp 6h · Đ18.2.a (hosting/DC): 24h | Theo mốc chặt hơn |
 | C6 | Diễn tập | NĐ 331 Đ31.3: bắt buộc, không nêu chu kỳ · TCVN: cấp 3 "định kỳ", cấp 4–5 ≥ 1 lần/năm | Ít nhất 1 lần/năm |
 | C7 | Kiểm thử xâm nhập cấp 3 | TCVN 5.18 để tổ chức tự chọn tần suất | Khuyến nghị ≥ 1 lần/năm |
-| C8 | Trùng điều khoản phạt trong NĐ 330 | Đ23.1.b trùng Đ24.1 · Đ29.2.c (100–140 tr) trùng Đ33.1.a (60–100 tr) · Cơ sở tính 5% doanh thu: Đ7.4.b ("năm trước liền kề") khác Đ56.3 ("tại thị trường VN") | `05-nghia-vu-lien-quan/nd-330-muc-phat.md` |
+| C8 | Trùng điều khoản phạt trong NĐ 330 | Đ23.1.b trùng Đ24.1 · Đ29.2.c (100–140 tr, mức tổ chức) trùng Đ33.1.a (60–100 tr, mức tổ chức) · Cơ sở tính 5% doanh thu: Đ7.4.b ("năm trước liền kề") khác Đ56.3 ("tại thị trường VN") | `05-nghia-vu-lien-quan/nd-330-muc-phat.md` |
 | C9 | Nơi nộp hồ sơ DPIA | NĐ 330 Đ55.1.b ghi Cục A05; NQ 22 Phụ lục I.7 phân cấp cho BCA tiếp nhận rồi chuyển Công an tỉnh | Nộp qua Cổng DVC quốc gia theo NQ 22 |
 | C10 | Các nghĩa vụ bị phạt nhưng chưa có quy định chi tiết: địa chỉ tiếp nhận sự cố, khai báo đầu mối 24/7, đội ứng cứu sự cố, kế hoạch ứng phó | NĐ 330 Đ21 | Vẫn triển khai (chi phí thấp) và lưu bằng chứng |
 
@@ -50,4 +50,4 @@ Tổng hợp các điểm phát hiện khi soạn bộ khung. Mỗi điểm đ�
 
 ## E. Văn bản chưa có trong bộ nguồn
 
-NĐ 329/2026, NĐ 332/2026; Luật Đầu tư (Phụ lục IV); các thông tư hướng dẫn của Bộ Công an. Luật Viễn thông 24/2023, NĐ 163/2024 và Luật 64/2025 đã được bổ sung vào `sources/` nhưng chưa được đối chiếu chi tiết trong các tài liệu `docs/`.
+NĐ 329/2026, NĐ 332/2026; Luật Đầu tư (Phụ lục IV — danh mục ngành, nghề đầu tư kinh doanh có điều kiện; cần kiểm tra luật đầu tư đang có hiệu lực và số phụ lục hiện hành); các thông tư hướng dẫn của Bộ Công an. Luật Viễn thông 24/2023, NĐ 163/2024 và Luật 64/2025 đã được bổ sung vào `sources/` nhưng chưa được đối chiếu chi tiết trong các tài liệu `docs/`.

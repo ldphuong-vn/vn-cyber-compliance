@@ -15,7 +15,7 @@ flowchart TD
     Q1 -- Có --> Q2{"Q2. Một chủ quản, hoạt động độc lập,<br/>phạm vi đúng thực tế (Đ7.2, Đ8.1, Đ8.3)?"}
     Q2 -- Không --> X2["Xác định lại phạm vi / tách-gộp<br/>theo 4 căn cứ Đ7.2.a rồi quay lại Q1"]
     Q2 -- Có --> Q3{"Q3. Có dấu hiệu HTTT quan trọng<br/>về ANQG (Đ16.1–16.3)?"}
-    Q3 -- Có --> L5A["Cấp 5 / Danh mục ANQG (Đ16.4)<br/>→ trao đổi Bộ Công an (Đ17)"]
+    Q3 -- Có --> L5A["Đề nghị Danh mục ANQG (Đ17)<br/>thủ tục như cấp 5 (Đ20.4); cấp độ vẫn xét tiếp<br/>(cấp 5 luôn thuộc Danh mục — Đ16.4)"]
     Q3 -- Không/chưa rõ --> Q4{"Q4. Xử lý BMNN hoặc phục vụ QP-AN? (Đ9.1.d)"}
     Q4 -- Có --> Q4a{"Mức tổn hại ANQG khi bị phá hoại?"}
     Q4a -- "Tổn hại" --> L3A["Cấp 3 (Đ13.1)"]
@@ -71,7 +71,7 @@ flowchart TD
 | Q2.1 | Chỉ có một chủ quản? | Đ8.1.a | ☐/☐ | Tiếp tục; nếu KHÔNG → tách theo chủ quản | Quyết định đầu tư / văn bản giao |
 | Q2.2 | Phạm vi đã xét đủ 4 căn cứ Đ7.2.a và liên thông (Đ7.2.b)? | Đ7.2 | ☐/☐ | Tiếp tục | Biên bản xác định phạm vi |
 | Q2.3 | Có tách/gộp nào nhằm hạ cấp độ? | Đ8.3 | ☐/☐ | **Dừng**, xác định lại phạm vi | — |
-| Q3 | Có dấu hiệu một trong các tiêu chí Đ16.1–Đ16.3? | Đ16; Luật 116 Đ9.2 | ☐/☐ | Cấp 5 / hồ sơ Danh mục (Đ17) | Phân tích hậu quả |
+| Q3 | Có dấu hiệu một trong các tiêu chí Đ16.1–Đ16.3? | Đ16; Luật 116 Đ9.2 | ☐/☐ | Hồ sơ đề nghị Danh mục (Đ17); thủ tục như cấp 5 (Đ20.4); xét tiếp cấp độ theo Đ11–Đ15 **[CẦN ĐỐI CHIẾU]** quan hệ Danh mục–cấp 5 (Đ16.4 vs Đ20.4) | Phân tích hậu quả |
 | Q4.1 | Xử lý thông tin BMNN? | Đ9.1.d | ☐/☐ | ≥ Cấp 3 (Đ13.1–Đ15.1 theo mức tổn hại ANQG) | Văn bản xác định độ mật |
 | Q4.2 | Phục vụ quốc phòng, an ninh? | Đ13.1–Đ15.1 | ☐/☐ | ≥ Cấp 3 | — |
 | Q5.a1 | Chỉ phục vụ nội bộ? | Đ9.2.a | ☐/☐ | Xét Q5.a2 | — |

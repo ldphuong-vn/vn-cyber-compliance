@@ -6,7 +6,7 @@
 
 ## Hướng dẫn sử dụng mẫu
 
-**Vì sao bắt buộc.** Quy chế là "quy định về bảo đảm ANM trong thiết kế, xây dựng, quản lý, vận hành, sử dụng, nâng cấp, hủy bỏ HTTT" (Luật 116 Đ10.2.a; NĐ 331 Đ28.1). Quy chế phải đáp ứng yêu cầu quản lý theo cấp độ và **được cấp có thẩm quyền phê duyệt, ban hành trước khi Hồ sơ đề xuất cấp độ được phê duyệt** (NĐ 331 Đ30.7). Không ban hành: phạt 20–30 triệu đồng (NĐ 330 Đ23.1.a).
+**Vì sao bắt buộc.** Quy chế là "quy định về bảo đảm ANM trong thiết kế, xây dựng, quản lý, vận hành, sử dụng, nâng cấp, hủy bỏ HTTT" (Luật 116 Đ10.2.a; NĐ 331 Đ28.1). Quy chế phải đáp ứng yêu cầu quản lý theo cấp độ và **được cấp có thẩm quyền phê duyệt, ban hành trước khi Hồ sơ đề xuất cấp độ được phê duyệt** (NĐ 331 Đ30.7). Không ban hành: phạt tổ chức 40–60 triệu đồng (NĐ 330 Đ23.1.a; khung 20–30 triệu đồng ghi trong điều là mức cho cá nhân, tổ chức gấp đôi — NĐ 330 Đ7.1).
 
 **Bố cục bắt buộc về nội dung** — 7 nhóm yêu cầu cơ bản về quản lý (NĐ 331 Đ30.3):
 
@@ -195,7 +195,7 @@ Thực hiện trách nhiệm tại Điều 33 Nghị định số 331/2026/NĐ-C
 
 1. Áp dụng quy trình phát triển an toàn (kiểm tra dữ liệu vào/ra, chống tấn công phổ biến, kiểm soát lỗi, không lưu bí mật trong mã nguồn); kiểm tra lỗ hổng mã nguồn và thư viện bên thứ ba trước khi vận hành chính thức; đánh giá an toàn mã nguồn phần mềm nội bộ (điểm c khoản 3 Điều 27 Nghị định số 331/2026/NĐ-CP; TCVN 14423:2026 mục 5.17, 6.16).
 2. Có kênh tiếp nhận báo cáo lỗ hổng từ bên ngoài: {{KENH_BAO_CAO_LO_HONG}} *(ví dụ security@…, security.txt)*.
-3. Phần mềm thuê khoán: hợp đồng có cam kết bảo mật, yêu cầu mã nguồn hoặc bằng chứng đánh giá độc lập (TCVN 14423:2026 mục 5.17.2.1).
+3. Phần mềm thuê khoán: hợp đồng có cam kết bảo mật, yêu cầu mã nguồn hoặc bằng chứng đánh giá độc lập (TCVN 14423:2026 mục 5.17.2.1 c; **áp dụng từ cấp 2** — mục 4.3.2.3).
 
 **Điều 21. Thử nghiệm, nghiệm thu**
 
@@ -228,17 +228,17 @@ Thực hiện trách nhiệm tại Điều 33 Nghị định số 331/2026/NĐ-C
 
 1. **Danh sách tài khoản** của mọi tài sản (quản trị, tác nghiệp, kỹ thuật, dịch vụ) gồm: loại, tên, trạng thái, tài sản, người quản lý, đơn vị, ngày kích hoạt/vô hiệu. Rà soát `{{CHU_KY_RA_SOAT_TAI_KHOAN}}`.
 2. **Cấp, thay đổi, thu hồi quyền** theo phiếu yêu cầu được phê duyệt (Phụ lục 2 — BM-TK-01); quyền gán theo vai trò, đặc quyền tối thiểu, phân tách nhiệm vụ; tài liệu hóa quyền theo chức danh.
-3. **Tài khoản đặc quyền:** tách biệt với tài khoản tác nghiệp; mỗi tài khoản gắn một người (tài khoản dùng chung phải được phê duyệt, ghi rõ trách nhiệm từng thời điểm); đổi/vô hiệu tài khoản mặc định; **[C3+]** bắt buộc xác thực đa yếu tố (MFA) cho tài khoản quản trị và truy cập từ Internet/bên thứ ba; đổi mật khẩu quản trị `{{CHU_KY_DOI_MK_QUAN_TRI}}`, không trùng `{{SO_MK_CU_KHONG_TRUNG}}` mật khẩu trước.
+3. **Tài khoản đặc quyền:** tách biệt với tài khoản tác nghiệp; mỗi tài khoản gắn một người (tài khoản dùng chung phải được phê duyệt, ghi rõ trách nhiệm từng thời điểm); đổi/vô hiệu tài khoản mặc định; bắt buộc xác thực đa yếu tố (MFA) cho truy cập tài khoản quản trị và truy cập từ bên ngoài tổ chức, từ bên thứ ba, từ Internet — **áp dụng từ cấp 1** (TCVN 14423:2026 mục 3.6.2.4 … 7.6.2.4); đổi mật khẩu quản trị `{{CHU_KY_DOI_MK_QUAN_TRI}}`, không trùng `{{SO_MK_CU_KHONG_TRUNG}}` mật khẩu trước.
 4. **Mật khẩu:** đổi mật khẩu mặc định; đổi ở lần đăng nhập đầu; độ dài tối thiểu `{{DO_DAI_MK_CO_MFA}}` ký tự khi có MFA, `{{DO_DAI_MK_KHONG_MFA}}` ký tự (đủ 4 loại ký tự) khi không có MFA; mật khẩu riêng cho từng tài sản hoặc quản lý tập trung.
 5. Vô hiệu hóa tài khoản không hoạt động sau `{{SO_NGAY_VO_HIEU_TK}}` ngày hoặc ngay khi thay đổi nhân sự. **[C3+]** Quản lý tài khoản tập trung.
 6. Ghi nhật ký và giám sát hoạt động tài khoản.
-7. **Tài khoản người sử dụng dịch vụ** *(áp dụng nếu {{TEN_TO_CHUC}} là doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, Internet, dịch vụ gia tăng tại Việt Nam)*: xác thực thông tin người dùng khi đăng ký tài khoản số; xác thực bằng số điện thoại di động tại Việt Nam hoặc số định danh cá nhân/định danh điện tử hợp pháp; livestream thương mại xác thực bằng số định danh cá nhân; chỉ tài khoản đã xác thực được đăng tải, chia sẻ, tương tác; bảo mật thông tin, tài khoản người dùng (điểm a khoản 2 Điều 25 Luật An ninh mạng; khoản 2 Điều 16 Nghị định số 333/2026/NĐ-CP). Không xác thực/không bảo mật tài khoản: phạt 30–50 triệu đồng (khoản 1 Điều 29 Nghị định số 330/2026/NĐ-CP).
+7. **Tài khoản người sử dụng dịch vụ** *(áp dụng nếu {{TEN_TO_CHUC}} là doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, Internet, dịch vụ gia tăng tại Việt Nam)*: xác thực thông tin người dùng khi đăng ký tài khoản số; xác thực bằng số điện thoại di động tại Việt Nam hoặc số định danh cá nhân/định danh điện tử hợp pháp; livestream thương mại xác thực bằng số định danh cá nhân; chỉ tài khoản đã xác thực được đăng tải, chia sẻ, tương tác; bảo mật thông tin, tài khoản người dùng (điểm a khoản 2 Điều 25 Luật An ninh mạng; khoản 2 Điều 16 Nghị định số 333/2026/NĐ-CP). Không xác thực/không bảo mật tài khoản: phạt tổ chức 60–100 triệu đồng (khoản 1 Điều 29, khoản 1 Điều 7 Nghị định số 330/2026/NĐ-CP).
 
 *(Tham chiếu TCVN 14423:2026 mục 3.6, 4.6, 5.6, 6.6, 7.6. Các con số về mật khẩu, khóa phiên trong TCVN là cấu hình "có thể" áp dụng dựa trên đánh giá rủi ro — ghi lập luận khi chọn khác.)*
 
 **Điều 26. Quản lý nhật ký (log)**
 
-1. Quy định cách ghi, thu thập, kiểm tra, lưu trữ nhật ký; tối thiểu: nhật ký truy cập tài sản phần cứng/phần mềm, cảnh báo thiết bị bảo mật; **[C3+]** thêm nhật ký tiến trình và thông tin hành vi; lưu trữ, phân tích tập trung (SIEM hoặc tương đương).
+1. Quy định cách ghi, thu thập, kiểm tra, lưu trữ nhật ký; tối thiểu: nhật ký truy cập tài sản phần cứng/phần mềm, cảnh báo thiết bị bảo mật; **[C2+]** nhật ký truy cập hệ thống, nhật ký ứng dụng, có các trường thông tin tối thiểu (nguồn, đích, tài khoản, thời điểm, hành vi); **[C3+]** thêm nhật ký tiến trình; lưu trữ, phân tích tập trung (SIEM hoặc tương đương); **[C4+]** thêm nhật ký truy cập dữ liệu (TCVN 14423:2026 mục 3.8.2.1 … 7.8.2.1).
 2. Đồng bộ thời gian (NTP) cho mọi thành phần tham gia giám sát.
 3. **Thời gian lưu nhật ký:** không dưới `{{THOI_GIAN_LUU_NHAT_KY}}`. Giá trị này lấy **mức cao hơn** giữa:
    - mức theo cấp độ tại TCVN 14423:2026 (cấp 2: 01 tháng — mục 4.8.2.1; cấp 3: 03 tháng — mục 5.8.2.1; cấp 4: 06 tháng — mục 6.8.2.1; cấp 5: 12 tháng — mục 7.8.2.1); và
@@ -246,7 +246,7 @@ Thực hiện trách nhiệm tại Điều 33 Nghị định số 331/2026/NĐ-C
    - Doanh nghiệp viễn thông, Internet cấp phát IP: nhật ký cấp phát/NAT ≥ 12 tháng, đồng bộ chuẩn thời gian quốc gia (Điều 22 Nghị định số 333/2026/NĐ-CP).
 4. Theo dõi dung lượng, chống đầy bộ nhớ lưu log; bảo vệ log khỏi sửa đổi, xóa.
 5. Rà soát nhật ký `{{CHU_KY_RA_SOAT_NHAT_KY}}`.
-6. Không lưu trữ hoặc không cung cấp log file, nhật ký DNS… khi được yêu cầu có thể bị phạt 50–70 triệu đồng (điểm h khoản 4 Điều 21 Nghị định số 330/2026/NĐ-CP); không lưu trữ nhật ký hệ thống theo quy định: 30–50 triệu đồng (điểm a khoản 2 Điều 23).
+6. Không lưu trữ hoặc không cung cấp log file, nhật ký DNS… khi được yêu cầu có thể bị phạt 100–140 triệu đồng đối với tổ chức (điểm h khoản 4 Điều 21 Nghị định số 330/2026/NĐ-CP); không lưu trữ nhật ký hệ thống theo quy định: 60–100 triệu đồng đối với tổ chức (điểm a khoản 2 Điều 23). Mức ghi trong các điều này là mức cho cá nhân, tổ chức bị phạt gấp đôi (khoản 1 Điều 7 Nghị định số 330/2026/NĐ-CP).
 
 **Điều 27. Giám sát an ninh mạng**
 
@@ -269,7 +269,7 @@ Thực hiện trách nhiệm tại Điều 33 Nghị định số 331/2026/NĐ-C
 2. Rà quét lỗ hổng toàn hệ thống `{{CHU_KY_DO_QUET}}`; **[C4+]** rà quét tài sản quan trọng `{{CHU_KY_DO_QUET_TAI_SAN_QUAN_TRONG}}`; rà quét bổ sung sau mỗi thay đổi lớn.
 3. Đánh giá mức nghiêm trọng, ưu tiên khắc phục theo thời hạn: Nghiêm trọng ≤ `{{SLA_VA_NGHIEM_TRONG}}`; Cao ≤ `{{SLA_VA_CAO}}`; Trung bình ≤ `{{SLA_VA_TRUNG_BINH}}`; Thấp ≤ `{{SLA_VA_THAP}}` *(tổ chức tự quy định — TCVN cấp 3 không ấn định thời hạn)*; đánh giá lại sau khắc phục.
 4. Quản lý bản vá tập trung; đánh giá tác động, kiểm thử, phương án phục hồi trước khi vá hệ thống có dữ liệu quan trọng; vá máy tính, thiết bị di động cấp cho người dùng `{{CHU_KY_VA_MAY_NGUOI_DUNG}}`.
-5. Thực hiện yêu cầu khắc phục điểm yếu, lỗ hổng của lực lượng chuyên trách bảo vệ ANM (không thực hiện: phạt 25–50 triệu đồng — điểm c khoản 1 Điều 27 Nghị định số 330/2026/NĐ-CP).
+5. Thực hiện yêu cầu khắc phục điểm yếu, lỗ hổng của lực lượng chuyên trách bảo vệ ANM (không thực hiện: phạt tổ chức 50–100 triệu đồng — điểm c khoản 1 Điều 27, khoản 1 Điều 7 Nghị định số 330/2026/NĐ-CP).
 6. Nội dung kiểm tra: dò quét, phát hiện mã độc, lỗ hổng, điểm yếu; việc duy trì, cập nhật, khắc phục tồn tại; kế hoạch xử lý nội dung chưa đạt (khoản 3 Điều 27 Nghị định số 331/2026/NĐ-CP).
 
 **Điều 30. Phòng chống phần mềm độc hại**
@@ -299,7 +299,7 @@ Thực hiện theo [Quy trình quản lý nhà cung cấp](quy-trinh-quan-ly-nha
 
 **Điều 34. Ứng phó sự cố an ninh mạng**
 
-1. Thành lập lực lượng/đội ứng cứu sự cố: 01 người chủ chốt, ≥ 01 người dự phòng; phân công vai trò; đầu mối liên lạc với cơ quan quản lý nhà nước về ANM và cơ quan điều phối ứng phó sự cố quốc gia (TCVN 14423:2026 mục 3.15.2.1, 5.16.2.1). Không thành lập đội ứng cứu sự cố, không xây dựng kế hoạch ứng phó sự cố có thể bị phạt 30–50 triệu đồng (điểm b, d khoản 3 Điều 21 Nghị định số 330/2026/NĐ-CP).
+1. Thành lập lực lượng/đội ứng cứu sự cố: 01 người chủ chốt, ≥ 01 người dự phòng; phân công vai trò; đầu mối liên lạc với cơ quan quản lý nhà nước về ANM và cơ quan điều phối ứng phó sự cố quốc gia (TCVN 14423:2026 mục 3.15.2.1; đầu mối với cơ quan nhà nước nêu tại 4.15.2.1 b, 5.16.2.1 b). Không thành lập đội ứng cứu sự cố, không xây dựng kế hoạch ứng phó sự cố có thể bị phạt tổ chức 60–100 triệu đồng (điểm b, d khoản 3 Điều 21, khoản 1 Điều 7 Nghị định số 330/2026/NĐ-CP).
 2. Công bố địa chỉ tiếp nhận sự cố trên trang/cổng thông tin điện tử; khai báo, cập nhật đầu mối ứng cứu sự cố với lực lượng chuyên trách thuộc Bộ Công an (các hành vi bị xử phạt tại điểm a, b, c khoản 1 Điều 21 Nghị định số 330/2026/NĐ-CP) **[CẦN ĐỐI CHIẾU: nội dung, thời hạn khai báo chờ quy định của Bộ trưởng Bộ Công an — khoản 6 Điều 28 Nghị định số 331/2026/NĐ-CP]**.
 3. Phát hiện, phân loại, xử lý, báo cáo sự cố theo [Quy trình ứng phó sự cố](quy-trinh-ung-pho-su-co.md), bảo đảm các mốc: thông báo ban đầu sự cố nghiêm trọng trong **24 giờ**; báo cáo nguyên nhân, phạm vi ảnh hưởng, biện pháp khắc phục trong **72 giờ** kể từ khi phát hiện; báo cáo **ngay khi phát hiện** nếu sự cố có dấu hiệu xâm phạm an ninh quốc gia, trật tự, an toàn xã hội hoặc gây gián đoạn nghiêm trọng (điểm d khoản 2 Điều 31 Nghị định số 331/2026/NĐ-CP). Doanh nghiệp cung cấp dịch vụ trên không gian mạng: triển khai ngay phương án ứng cứu khẩn cấp và **báo cáo ngay** với lực lượng chuyên trách (khoản 3 Điều 41 Luật An ninh mạng).
 4. Vi phạm DLCN có thể gây tổn hại: thông báo cơ quan chuyên trách bảo vệ DLCN chậm nhất **72 giờ** (khoản 1 Điều 23 Luật Bảo vệ dữ liệu cá nhân).
@@ -371,7 +371,7 @@ Quy chế được rà soát `{{CHU_KY_RA_SOAT_QUY_CHE}}` và khi: thay đổi p
 
 | Tham số | Placeholder | C1 | C2 | C3 | C4 | C5 | Nguồn |
 |---|---|---|---|---|---|---|---|
-| Rà soát quy định/quy trình (chung) | `{{CHU_KY_RA_SOAT_QUY_DINH}}` | 1 năm | 1 năm | 1 năm | 1 năm | 1 năm (QLRR: 6 tháng) | TCVN các mục "đánh giá và cập nhật"; 7.1.2.1 |
+| Rà soát quy định/quy trình (chung) | `{{CHU_KY_RA_SOAT_QUY_DINH}}` | 1 năm | 1 năm | 1 năm | 1 năm | 1 năm (6 tháng với: quy trình QLRR, quy trình tài sản thông tin, danh sách phần mềm được phép, quy trình cấp quyền, ngưỡng sự cố) | TCVN các mục "đánh giá và cập nhật"; 7.1.2.1 b, 7.4.2.1 e, 7.3.2.2 d, 7.6.2.5 b, 7.17.2.7 b |
 | Xác định rủi ro định kỳ | `{{CHU_KY_DANH_GIA_RUI_RO}}` | — | — | 1 năm | 6 tháng | 6 tháng | TCVN 5.1.2.2, 6.1.2.2, 7.1.2.2; NĐ 331 Đ10.2 (theo sự kiện) |
 | Đánh giá hiệu quả biện pháp kiểm soát | (trong QT rủi ro) | — | — | 1 năm | 6 tháng | 6 tháng | TCVN 5.1.2.4, 6.1.2.4, 7.1.2.4 |
 | Kiểm kê tài sản phần cứng | `{{CHU_KY_KIEM_KE_PHAN_CUNG}}` | 1 năm | 1 năm | 1 năm | 1 năm | 6 tháng | TCVN 3.2.1, 4.2.1, 5.2.1, 6.2.1, 7.2.1 |
@@ -382,8 +382,8 @@ Quy chế được rà soát `{{CHU_KY_RA_SOAT_QUY_CHE}}` và khi: thay đổi p
 | Rà soát danh sách tài khoản | `{{CHU_KY_RA_SOAT_TAI_KHOAN}}` | 1 năm | 1 năm | 6 tháng | quý | tháng | TCVN 3.6.2.1 … 7.6.2.1 |
 | Vô hiệu tài khoản không hoạt động | `{{SO_NGAY_VO_HIEU_TK}}` | 45 ngày | 45 ngày | 45 ngày | 45 ngày | 45 ngày | TCVN x.6.2.3 |
 | Đổi mật khẩu tài khoản quản trị | `{{CHU_KY_DOI_MK_QUAN_TRI}}` | 2 tháng | 2 tháng | 2 tháng | 2 tháng | 2 tháng | TCVN x.6.2.2 (mức "có thể") |
-| MFA cho tài khoản quản trị | — | khuyến nghị | khuyến nghị | bắt buộc | bắt buộc | bắt buộc | TCVN 5.6.2.2, 6.6.2.2, 7.6.2.2 |
-| Mật khẩu không trùng N lần trước | `{{SO_MK_CU_KHONG_TRUNG}}` | — | — | 10 | 10 | 10 | TCVN 5.6.2.2, 7.6.2.2 |
+| MFA cho truy cập tài khoản quản trị và truy cập từ bên ngoài, bên thứ ba, Internet | — | bắt buộc | bắt buộc | bắt buộc | bắt buộc | bắt buộc | TCVN x.6.2.4 (mọi cấp); nhắc lại ở 5.6.2.2, 6.6.2.2, 7.6.2.2 cho tài khoản quản trị; MFA cho kết nối truy cập từ xa: 6.12.2.5, 7.12.2.6 |
+| Mật khẩu không trùng N lần trước | `{{SO_MK_CU_KHONG_TRUNG}}` | — | — | 10 | 10 | 10 | TCVN 5.6.2.2, 6.6.2.2, 7.6.2.2 |
 | Độ dài mật khẩu (có MFA / không MFA) | `{{DO_DAI_MK_CO_MFA}}` / `{{DO_DAI_MK_KHONG_MFA}}` | 8 / 14 | 8 / 14 | 8 / 14 | 8 / 14 | 8 / 14 | TCVN x.6.2.2 (mức "có thể") |
 | Khóa phiên máy người dùng / phiên quản trị | `{{TIMEOUT_MAY_NGUOI_DUNG}}` / `{{TIMEOUT_PHIEN_QUAN_TRI}}` | 15 / 5 phút | 15 / 5 phút | 15 / 5 phút | 15 / 5 phút | 15 / 5 phút | TCVN x.5.2.2 (mức "có thể") |
 | Rà quét lỗ hổng toàn hệ thống | `{{CHU_KY_DO_QUET}}` | 1 năm | 1 năm | 6 tháng | 6 tháng | quý | TCVN 3.7.2.1, 4.7.2.1, 5.7.2.1, 6.7.2.1, 7.7.2.1 |
@@ -458,7 +458,7 @@ Quy chế được rà soát `{{CHU_KY_RA_SOAT_QUY_CHE}}` và khi: thay đổi p
 
 - [ ] Đủ 7 nhóm Đ30.3 (Chương II–VIII).
 - [ ] Tham số Phụ lục 1 đã điền theo cấp độ cao nhất/từng hệ thống; không để trống placeholder.
-- [ ] Đối chiếu với phương án ANM trong Hồ sơ đề xuất cấp độ (Quy chế là "phương án bảo đảm ANM về quản lý" — NĐ 331 Đ27.2.a).
+- [ ] Đối chiếu với phương án ANM trong Hồ sơ đề xuất cấp độ (Quy chế được kiểm tra về tính đầy đủ, phù hợp "theo phương án bảo đảm an ninh mạng về quản lý được phê duyệt" — NĐ 331 Đ27.2.a).
 - [ ] Các điều khoản chỉ áp dụng cho DN cung cấp dịch vụ (Điều 25.7, 26.3, 36, 37) đã giữ/bỏ đúng.
 - [ ] Người ký là cấp có thẩm quyền của chủ quản; ban hành **trước** ngày phê duyệt Hồ sơ đề xuất cấp độ (NĐ 331 Đ30.7).
 - [ ] Có kế hoạch phổ biến Quy chế cho toàn bộ người dùng (biên bản/ký nhận).

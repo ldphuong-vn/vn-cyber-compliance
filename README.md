@@ -43,10 +43,10 @@ Quy chế bảo đảm ANM phải được ban hành **trước** khi phê duy�
 | Mốc | Nội dung | Căn cứ |
 |---|---|---|
 | 01/7/2026 | Luật An ninh mạng 116/2025 có hiệu lực | Luật 116 Đ44 |
-| 19/8/2026 | NĐ 330, 331, 333 có hiệu lực. Nghĩa vụ theo cấp độ áp dụng ngay | NĐ 331 Đ38 |
+| 19/8/2026 | NĐ 330, 331, 333 có hiệu lực. Nghĩa vụ theo cấp độ áp dụng từ ngày này, trừ các trường hợp chuyển tiếp | NĐ 331 Đ38; NĐ 330 Đ80; NĐ 333 Đ30 |
 | 20/12 hằng năm | Đơn vị chuyên trách ANM và đơn vị vận hành gửi báo cáo cho chủ quản | NĐ 331 Đ35.4.a |
 | 25/12 hằng năm | Chủ quản gửi báo cáo năm cho Bộ Công an (kỳ số liệu 15/12 năm trước đến 14/12) | NĐ 331 Đ35.3, 35.4.b |
-| 30/6/2027 | Hết thời hạn 12 tháng để bảo đảm điều kiện, biện pháp theo cấp độ (với HTTT đã có cấp độ hoặc đang đầu tư trước 01/7/2026) | Luật 116 Đ45.1; NĐ 331 Đ39.1 |
+| ~30/6/2027 **[CẦN ĐỐI CHIẾU cách tính thời hạn]** | Hết thời hạn 12 tháng để bảo đảm điều kiện, biện pháp theo cấp độ (với HTTT đã có cấp độ hoặc đang đầu tư trước 01/7/2026) | Luật 116 Đ45.1; NĐ 331 Đ39.1 |
 | ≤ 24h / ≤ 72h | Thông báo ban đầu sự cố nghiêm trọng / báo cáo sự cố cho BCA | NĐ 331 Đ31.2.d |
 
 ## Quy ước

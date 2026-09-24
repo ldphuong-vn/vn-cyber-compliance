@@ -24,7 +24,7 @@
 4. Thẩm định, phê duyệt hoặc cho ý kiến chuyên môn đối với hồ sơ đề xuất cấp độ theo thẩm quyền: **thẩm định và phê duyệt** cấp 1–2 (Đ18.1, Đ20.3.a); **thẩm định** cấp 3 (Đ18.2.a); **cho ý kiến chuyên môn** cấp 4–5 (Đ20.1.d, Đ21.5).
 5. Phối hợp đơn vị vận hành kiểm tra, đánh giá ANM, quản lý rủi ro; dò quét điểm yếu, lỗ hổng; kiểm thử xâm nhập.
 
-Việc thực hiện các nhiệm vụ này là **nội dung kiểm tra tuân thủ** (NĐ 331 Đ27.1.b). Không tổ chức thực thi, đôn đốc, kiểm tra, giám sát công tác bảo đảm ANM có thể bị phạt 30–50 triệu đồng (NĐ 330 Đ23.2.c).
+Việc thực hiện các nhiệm vụ này là **nội dung kiểm tra tuân thủ** (NĐ 331 Đ27.1.b). Không tổ chức thực thi, đôn đốc, kiểm tra, giám sát công tác bảo đảm ANM có thể bị phạt tổ chức 60–100 triệu đồng (NĐ 330 Đ23.2.c; khung cá nhân 30–50 — Đ7.1).
 
 ### Yêu cầu nhân sự cần phản ánh
 

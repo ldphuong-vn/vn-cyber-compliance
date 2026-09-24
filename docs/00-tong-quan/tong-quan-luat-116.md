@@ -72,7 +72,7 @@ Xử phạt hành chính các hành vi vi phạm: NĐ 330/2026 — xem [../05-ng
 | Kiểm soát nội dung gây hại cho trẻ em; ngăn chặn, xóa bỏ; hệ thống kỹ thuật hỗ trợ; thông báo lực lượng chuyên trách | Chủ quản HTTT, DN cung cấp dịch vụ | Luật 116 Đ16.3 |
 | Chủ động phòng ngừa, phát hiện, ngăn chặn phần mềm độc hại | Mọi cơ quan, tổ chức, cá nhân; DN thư điện tử, truyền đưa, lưu trữ thông tin phải có **hệ thống lọc mã độc** và báo cáo; DN dịch vụ Internet có biện pháp ngăn chặn phát tán | Luật 116 Đ17.1, Đ17.3, Đ17.4 |
 | Áp dụng biện pháp kỹ thuật phòng ngừa, ngăn chặn tấn công mạng | Chủ quản HTTT | Luật 116 Đ18.2 |
-| Thường xuyên rà soát, kiểm tra HTTT để loại trừ nguy cơ khủng bố mạng; báo ngay khi phát hiện dấu hiệu | Chủ quản HTTT; mọi tổ chức | Luật 116 Đ19.2–19.3 |
+| Thường xuyên rà soát, kiểm tra HTTT để loại trừ nguy cơ khủng bố mạng; kịp thời báo lực lượng bảo vệ ANM khi phát hiện dấu hiệu | Chủ quản HTTT; mọi tổ chức | Luật 116 Đ19.2–19.3 |
 | Khi phát hiện tình huống nguy hiểm về ANM: thông báo lực lượng chuyên trách, **triển khai ngay** phương án ứng phó khẩn cấp và thông báo bên liên quan | Mọi cơ quan, tổ chức, cá nhân | Luật 116 Đ20.4.a (dẫn Đ20.3.a–b) |
 | Ngăn chặn xung đột thông tin xuất phát từ HTTT của mình; hợp tác xác định nguồn tấn công | Tổ chức, cá nhân | Luật 116 Đ22.3 |
 

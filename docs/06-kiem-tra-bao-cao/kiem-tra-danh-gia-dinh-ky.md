@@ -62,14 +62,14 @@ NĐ 331 **không quy định số lần cụ thể**; hoạt động kiểm tra,
 
 | Hoạt động | Cấp 1 | Cấp 2 | Cấp 3 | Cấp 4 | Cấp 5 | Mục TCVN 14423:2026 |
 |---|---|---|---|---|---|---|
-| Rà quét lỗ hổng, rà soát quy trình quản lý lỗ hổng | ≥ 1 lần/năm | ≥ 1 lần/năm | ≥ 1 lần/6 tháng | ≥ 1 lần/6 tháng | ≥ 1 lần/quý | 3.7.2.1, 4.7.2.1, 5.7.2.1, 6.7.2.1, 7.7.2.1 |
+| Rà quét lỗ hổng, rà soát quy trình quản lý lỗ hổng | ≥ 1 lần/năm | ≥ 1 lần/năm | ≥ 1 lần/6 tháng | ≥ 1 lần/6 tháng (tài sản quan trọng: ≥ 1 lần/quý) | ≥ 1 lần/quý (tài sản quan trọng: ≥ 1 lần/tháng) | 3.7.2.1, 4.7.2.1, 5.7.2.1, 6.7.2.1, 7.7.2.1 |
 | Rà soát nhật ký ANM | ≥ 1 lần/năm | ≥ 1 lần/năm | ≥ 1 lần/6 tháng | ≥ 1 lần/tháng | ≥ 1 lần/tháng | 3.8.2.1, 4.8.2.1, 5.8.2.1, 6.8.2.1, 7.8.2.1 |
 | Dung lượng lưu nhật ký tối thiểu | Không nêu số | 01 tháng | 03 tháng | 06 tháng | 12 tháng | 4.8.2.1, 5.8.2.1, 6.8.2.1, 7.8.2.1 |
 | Xác định rủi ro ANM định kỳ | — | — | ≥ 1 lần/năm | ≥ 1 lần/6 tháng | ≥ 1 lần/6 tháng | 5.1.2.2, 6.1.2.2, 7.1.2.2 |
 | Kiểm thử xâm nhập | — (không có nhóm "Quản lý kiểm tra ANM") | — | Có chương trình kiểm thử được phê duyệt (tần suất do tổ chức chọn: quý/nửa năm/năm/đột xuất) | **Từ bên ngoài ≥ 1 lần/năm; từ bên trong ≥ 1 lần/năm** | **Từ bên ngoài ≥ 1 lần/6 tháng; từ bên trong ≥ 1 lần/6 tháng** | 5.18, 6.18.2.2, 6.18.2.5, 7.18.2.2, 7.18.2.5 |
 | Diễn tập ứng phó sự cố | — | — | Định kỳ (không nêu số) | ≥ 1 lần/năm | ≥ 1 lần/năm | 5.16, 6.17.2.6, 7.17.2.6 |
 
-> Với HTTT quan trọng về ANQG: **tự kiểm tra hằng năm** và thông báo kết quả bằng văn bản **trước 01/10** (Luật 116 Đ11.1.b; NĐ 333 Đ8.5.b). Ô "—" nghĩa là không tìm thấy yêu cầu có số cụ thể ở cấp đó trong bản đã đọc; kiểm tra lại với bản chính thức và checklist tại [`../03-yeu-cau-theo-cap-do/`](../03-yeu-cau-theo-cap-do/README.md). TCVN 14423:2026 mục 3.1/4.1 (cấp 1–2) có yêu cầu quản lý rủi ro nhưng bảng này chưa ghi tần suất — **[CẦN ĐỐI CHIẾU]**.
+> Với HTTT quan trọng về ANQG: **tự kiểm tra hằng năm** và thông báo kết quả bằng văn bản **trước 01/10** (Luật 116 Đ11.1.b; NĐ 333 Đ8.5.b). Ô "—" nghĩa là không tìm thấy yêu cầu có số cụ thể ở cấp đó trong bản đã đọc; kiểm tra lại với bản chính thức và checklist tại [`../03-yeu-cau-theo-cap-do/`](../03-yeu-cau-theo-cap-do/README.md). Cấp 1–2 (TCVN 14423:2026 mục 3.1 b, 4.1 b) chỉ yêu cầu rà soát, cập nhật quy trình quản lý rủi ro ≥ 1 lần/năm hoặc khi có thay đổi; không đặt chu kỳ riêng cho việc xác định lại rủi ro (nên thực hiện cùng kỳ rà soát).
 
 ## 3. Ai được thực hiện: tự đánh giá nội bộ hay tổ chức chuyên môn? (NĐ 331 Đ31.2.c)
 

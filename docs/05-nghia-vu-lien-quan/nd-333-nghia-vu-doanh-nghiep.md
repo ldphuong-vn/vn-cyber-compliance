@@ -117,5 +117,5 @@ Không thấy hành vi xử phạt riêng về tập huấn trong NĐ 330. Khung
 - [ ] Nhật ký có đủ trường tối thiểu (tài khoản, đăng nhập/đăng xuất, IP, cổng nguồn, xử lý nội dung) và truy xuất được ≥ 12 tháng (NĐ 333 Đ16.6, Đ20.3).
 - [ ] Dữ liệu tại NĐ 333 Đ19.1 lưu tại Việt Nam (DN trong nước) — ghi rõ vị trí trong sơ đồ luồng dữ liệu.
 - [ ] Có phương án ứng cứu khẩn cấp; báo cáo ngay khi có sự cố (Luật 116 Đ41.2–41.3).
-- [ ] Đối chiếu với nghĩa vụ DLCN (tài khoản số, IP, lịch sử giao dịch là DLCN; dữ liệu theo dõi hành vi là DLCN nhạy cảm — NĐ 356 Đ3.10, Đ4.1.l): [dlcn-giao-thoa-anm.md](dlcn-giao-thoa-anm.md).
+- [ ] Đối chiếu với nghĩa vụ DLCN (thông tin tài khoản số là DLCN cơ bản — NĐ 356 Đ3.10; IP, log gắn với một người cụ thể có thể là DLCN theo Đ3.11; lịch sử giao dịch tài khoản ngân hàng, dữ liệu theo dõi hành vi sử dụng dịch vụ là DLCN nhạy cảm — NĐ 356 Đ4.1.k, Đ4.1.l): [dlcn-giao-thoa-anm.md](dlcn-giao-thoa-anm.md).
 - [ ] Lưu bằng chứng theo [../06-kiem-tra-bao-cao/ho-so-luu-tru-bang-chung.md](../06-kiem-tra-bao-cao/ho-so-luu-tru-bang-chung.md).
