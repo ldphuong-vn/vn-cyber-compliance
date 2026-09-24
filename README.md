@@ -57,6 +57,11 @@ Quy chế bảo đảm ANM phải được ban hành **trước** khi phê duy�
 - **Bản quyền TCVN:** repo này công khai, nên TCVN 14423:2026 chỉ được tóm lược bằng lời riêng, kèm số mục, không chép nguyên văn. Toàn văn tiêu chuẩn không được lưu trong repo (xem `.gitignore`).
 - Hồ sơ riêng của từng tổ chức (tên, IP, sơ đồ mạng, nhân sự) nên lưu trong **repo riêng tư**, dựng từ các mẫu trong bộ khung này.
 
+## Ghi nhận
+
+- Tài trợ và duy trì: **Công ty cổ phần Giải pháp Công nghệ Turbo**.
+- Bộ khung được xây dựng với sự hỗ trợ của [Claude Code](https://claude.com/claude-code) (Anthropic): nghiên cứu, đối chiếu văn bản, soạn tài liệu và sinh bản Word/Excel. Nội dung đã được rà soát đối chiếu văn bản gốc nhưng không phải ý kiến pháp lý; Anthropic không bảo trợ nội dung này.
+
 ## Giấy phép
 
 Apache License 2.0. Xem [LICENSE](LICENSE). Văn bản quy phạm pháp luật trong `sources/` không thuộc đối tượng bảo hộ quyền tác giả.
