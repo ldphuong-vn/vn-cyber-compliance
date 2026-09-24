@@ -219,36 +219,71 @@ function signatureBlock(rows, W_TOTAL) {
 const plain = (t) => t
   .replace(/<br\s*\/?>/gi, " ").replace(/\*\*|<\/?[biu]>|`/g, "")
   .replace(/\{\{([A-Za-z0-9_]+)\}\}/g, (m, k) => { const v = sampleValue(k, false); return v !== undefined ? String(v) : m; });
+// Thuật toán giống "AutoFit to contents" của Word/HTML:
+//   natural = độ rộng khi không xuống dòng (ô dài nhất trong thân bảng); min = từ dài nhất (kể cả tiêu đề).
+//   Nếu tổng natural vừa khổ: mỗi cột lấy natural, phần dư chia cho các cột nhiều chữ.
+//   Nếu không vừa: mỗi cột lấy min, phần còn lại chia theo (natural − min) — cột ngắn như STT giữ nhỏ.
 function columnWidths(rows, total, size) {
   const n = Math.max(...rows.map((r) => r.length));
-  const charTw = size * 11; // bề rộng trung bình 1 ký tự (twip) ở cỡ chữ size
-  const stats = Array.from({ length: n }, (_, j) => {
+  const charTw = size * 11;           // ~ bề rộng trung bình 1 ký tự Times New Roman (twip)
+  const pad = 200;                    // lề trong ô + đường kẻ
+  const tw = (chars) => Math.ceil(chars * charTw) + pad;
+  const cols0 = Array.from({ length: n }, (_, j) => {
     const cells = rows.map((r) => plain(r[j] || ""));
-    const longestWord = Math.max(...cells.flatMap((c) => c.split(/\s+/).map((x) => x.length)), 2);
-    const lens = cells.map((c) => c.length);
-    const avg = lens.reduce((a, b) => a + b, 0) / lens.length;
-    const body = lens.slice(1);
-    const emptyCol = body.length && body.filter((x) => x > 1).length <= body.length / 3; // cột để trống cho người dùng điền
-    let weight = Math.min(Math.max(longestWord * 1.1, 0.6 * avg + 0.4 * Math.max(...lens), 5), 45);
-    if (emptyCol) weight = Math.max(weight, 14);
-    return { weight, minTw: Math.min(longestWord, 14) * charTw + 160 };
+    const head = cells[0] || "";
+    const body = cells.slice(1);
+    const words = (c) => c.split(/\s+/).map((x) => x.length);
+    const minChars = Math.max(...words(head).map((x) => x * 1.3), ...body.flatMap(words), 3);
+    const lines = body.flatMap((c) => c.split("\n"));
+    let natChars = Math.max(...lines.map((c) => c.length), minChars);
+    const filled = body.filter((c) => c.trim() && !/^[….\s]+$/.test(c)).length;
+    if (body.length && filled === 0) natChars = Math.max(natChars, 10); // cột để trống cho người điền
+    const empty = body.length > 0 && filled === 0;
+    return { min: tw(Math.min(minChars, 22)), nat: tw(Math.min(natChars, 80)), empty };
   });
-  const sum = stats.reduce((a, s) => a + s.weight, 0);
-  let cols = stats.map((s) => Math.floor((s.weight / sum) * total));
-  // bảo đảm cột đủ rộng cho từ dài nhất (tránh ngắt giữa tên người, mã số)
-  for (let pass = 0; pass < 3; pass++) {
-    const need = cols.map((c, j) => Math.max(0, stats[j].minTw - c));
-    const deficit = need.reduce((a, b) => a + b, 0);
-    if (!deficit) break;
-    const donors = cols.map((c, j) => (need[j] ? 0 : Math.max(0, c - stats[j].minTw)));
-    const pool = donors.reduce((a, b) => a + b, 0);
-    if (!pool) break;
-    const take = Math.min(deficit, pool);
-    cols = cols.map((c, j) => (need[j] ? c + Math.floor((need[j] / deficit) * take) : c - Math.floor((donors[j] / pool) * take)));
+  const sumNat = cols0.reduce((a, c) => a + c.nat, 0);
+  const sumMin = cols0.reduce((a, c) => a + c.min, 0);
+  let cols;
+  if (sumNat <= total) {
+    const spare = total - sumNat;
+    const flex = cols0.map((c) => Math.max(0, c.nat - 1200));   // chỉ cột nhiều chữ nhận thêm chỗ
+    const fsum = flex.reduce((a, b) => a + b, 0) || 1;
+    cols = cols0.map((c, j) => c.nat + Math.floor((spare * flex[j]) / fsum));
+  } else if (sumMin <= total) {
+    // "đổ nước": cột ngắn được đủ độ rộng tự nhiên trước (tên người, đơn vị, mã số không bị ngắt dòng),
+    // cột nhiều chữ chia phần còn lại.
+    cols = cols0.map((c) => c.min);
+    let spare = total - sumMin;
+    const fill = (group) => {
+      let open = group.slice();
+      while (open.length && spare > 0) {
+        // chia theo tỷ lệ độ dài nội dung: cột càng nhiều chữ nhận càng nhiều chỗ
+        const wsum = open.reduce((a, j) => a + cols0[j].nat, 0);
+        const share = (j) => (spare * cols0[j].nat) / wsum;
+        const done = open.filter((j) => cols0[j].nat - cols[j] <= share(j));
+        if (!done.length) { const sp = spare; open.forEach((j) => { cols[j] += Math.floor((sp * cols0[j].nat) / wsum); }); spare = 0; break; }
+        done.forEach((j) => { spare -= cols0[j].nat - cols[j]; cols[j] = cols0[j].nat; });
+        open = open.filter((j) => !done.includes(j));
+      }
+    };
+    // 1) cột ngắn (tên người, đơn vị, ngày, mã số…) được đủ độ rộng tự nhiên để không xuống dòng
+    const shortCols = cols0.map((c, j) => j)
+      .filter((j) => !cols0[j].empty && cols0[j].nat <= total * 0.2)
+      .sort((a, b) => cols0[a].nat - cols0[b].nat);
+    for (const j of shortCols) {
+      const need = cols0[j].nat - cols[j];
+      if (need <= spare * 0.5) { cols[j] += need; spare -= need; }
+    }
+    // 2) cột nhiều chữ chia phần còn lại theo tỷ lệ độ dài nội dung
+    fill(cols0.map((c, j) => (c.empty ? -1 : j)).filter((j) => j >= 0)); // cột có nội dung trước
+    fill(cols0.map((c, j) => (c.empty ? j : -1)).filter((j) => j >= 0)); // cột để trống sau
+  } else {
+    cols = cols0.map((c) => Math.floor((c.min / sumMin) * total));
   }
   cols[n - 1] += total - cols.reduce((a, b) => a + b, 0);
   return cols;
 }
+
 function tableFontSize(nCols) {
   if (nCols <= 3) return CFG.size - 1; // 12
   if (nCols <= 5) return 11;

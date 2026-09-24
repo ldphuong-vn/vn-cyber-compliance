@@ -17,7 +17,7 @@ Tham số trình bày (font, cỡ chữ, lề, giãn dòng) nằm trong `CFG` �
 | Lề | Normal của Word: 2,54 cm mỗi cạnh | Theo yêu cầu dùng lề Normal. NĐ 30/2020 quy định trên/dưới 20–25, trái 30–35, phải 15–20 mm — đổi `CFG.margin` nếu cần đúng tuyệt đối |
 | Font | Times New Roman 13 | Theo NĐ 30/2020/NĐ-CP (phông Unicode TCVN 6909:2001) |
 | Cỡ chữ | nội dung 13, quốc hiệu/tên cơ quan 12, nơi nhận 11 | NĐ 30/2020: 13–14 |
-| Bảng dữ liệu | AutoFit, rộng 100% khổ trang (vừa cửa sổ); cỡ chữ tự giảm theo số cột: ≤3 cột 12 · 4–5 cột 11 · 6–7 cột 10 · ≥8 cột 9 | Hàng tiêu đề lặp lại khi sang trang; cột để trống cho người điền được nới rộng |
+| Bảng dữ liệu | AutoFit, rộng 100% khổ trang (vừa cửa sổ); cỡ chữ tự giảm theo số cột: ≤3 cột 12 · 4–5 cột 11 · 6–7 cột 10 · ≥8 cột 9 | Độ rộng cột theo nội dung: cột ngắn (STT, mã, tên người, đơn vị, ngày) vừa đủ để không xuống dòng; cột nhiều chữ chia phần còn lại theo độ dài; cột để trống cho người điền nhận phần dư. Hàng tiêu đề lặp lại khi sang trang |
 | Chỗ cần điền `{{...}}` | thay bằng **dữ liệu mẫu** trong `du-lieu-mau.json` và tô vàng | Tắt dữ liệu mẫu: `CFG.sampleData = false` (giữ nguyên `{{...}}`); tắt tô vàng: `CFG.highlightPlaceholders = false` |
 
 Nhận diện Markdown: bảng 2 cột đầu tiên là khối quốc hiệu; bảng có "Nơi nhận" là khối ký; `<p align="center">` là tên loại/trích yếu; phần nội dung mẫu nằm giữa hai dòng `---` đầu tiên (phần "Hướng dẫn điền" không được xuất).
