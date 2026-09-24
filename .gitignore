@@ -1,0 +1,5 @@
+# Tiêu chuẩn quốc gia có bản quyền (VSQI) — không đưa lên repo public
+**/tcvn-14423*.txt
+**/tcvn-14423*.pdf
+*.docx~
+.DS_Store
