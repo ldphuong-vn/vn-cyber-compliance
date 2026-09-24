@@ -60,3 +60,9 @@ Quy chế bảo đảm ANM phải được ban hành **trước** khi phê duy�
 ## Giấy phép
 
 Apache License 2.0. Xem [LICENSE](LICENSE). Văn bản quy phạm pháp luật trong `sources/` không thuộc đối tượng bảo hộ quyền tác giả.
+
+## Từ khóa tìm kiếm
+
+Bộ khung này dành cho ai đang tìm: **Luật An ninh mạng 2025** (Luật số 116/2025/QH15) · **Nghị định 331/2026/NĐ-CP** bảo vệ an ninh mạng hệ thống thông tin theo cấp độ (thay Nghị định 85/2016) · **Nghị định 333/2026/NĐ-CP** hướng dẫn Luật An ninh mạng · **Nghị định 330/2026/NĐ-CP** xử phạt vi phạm hành chính an ninh mạng và dữ liệu cá nhân · **TCVN 14423:2026** An ninh mạng – Hệ thống thông tin – Yêu cầu cơ bản (thay TCVN 11930:2017) · xác định cấp độ hệ thống thông tin, **hồ sơ đề xuất cấp độ**, thuyết minh phương án bảo đảm an ninh mạng, **quy chế bảo đảm an ninh mạng**, quy trình ứng phó sự cố, báo cáo năm gửi Bộ Công an · **Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15**, **Nghị định 356/2025/NĐ-CP**, đánh giá tác động xử lý dữ liệu cá nhân (DPIA), kinh doanh dịch vụ xử lý dữ liệu cá nhân.
+
+*English:* Vietnam cybersecurity law compliance toolkit — information system security levels (Decree 331/2026), cybersecurity requirements by level (TCVN 14423:2026), Word/Excel templates, self-assessment checklists, Vietnam personal data protection law (PDPL, Law 91/2025).
