@@ -114,7 +114,7 @@ Danh mục hồ sơ, bằng chứng mà chủ quản HTTT nên lưu để chứn
 | I2 | **Hồ sơ đánh giá tác động chuyển DLCN xuyên biên giới** (Mẫu 09 + hợp đồng với bên nhận) và căn cứ miễn (nếu có) | Luật 91 Đ20; NĐ 356 Đ17–Đ18 | "Luôn có sẵn" (NĐ 356 Đ18.4) | Suốt thời gian còn chuyển dữ liệu + ≥ 02 năm | Nhân sự BVDLCN |
 | I3 | **Nhật ký sự đồng ý** của chủ thể (thời điểm, nội dung đồng ý) | NĐ 330 Đ43.1.g | Không quy định (bị phạt nếu không ghi nhận, lưu trữ, không chứng minh được) | Suốt thời gian xử lý + ≥ 01 năm sau khi rút lại đồng ý | Nhân sự BVDLCN |
 | I4 | Hồ sơ căn cứ miễn trừ DN nhỏ/siêu nhỏ (quy mô, không xử lý DLCN nhạy cảm, số chủ thể < 100.000) | Luật 91 Đ38.2–38.3; NĐ 356 Đ41 | Không quy định | Cập nhật hằng năm | Pháp chế |
-| I5 | Hợp đồng xử lý DLCN, hợp đồng cloud có điều khoản BVDLCN | Luật 91 Đ37.2.a; NĐ 356 Đ12.2 | Không quy định | Suốt hợp đồng + ≥ 02 năm | Mua sắm |
+| I5 | Hợp đồng xử lý DLCN, hợp đồng cloud có điều khoản BVDLCN | Luật 91 Đ37.1.a, Đ37.2.a; NĐ 356 Đ12.2 | Không quy định | Suốt hợp đồng + ≥ 02 năm | Mua sắm |
 
 ## 3. Tổng hợp thời gian lưu **có quy định trong văn bản**
 

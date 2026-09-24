@@ -85,7 +85,7 @@ Cột "Bằng chứng" là tài liệu phải có trong hồ sơ cổng. Đánh 
 | ☐ | Mọi hạng mục của phương án ANM đã triển khai (đối chiếu từng dòng) | Đ30.6 | Bảng đối chiếu phương án – hiện trạng |
 | ☐ | Danh mục tài sản phần cứng, phần mềm, tài sản thông tin đã lập | TCVN 5.2–5.4 | Danh mục |
 | ☐ | Cấu hình chuẩn/hardening đã áp dụng; tài khoản mặc định đã đổi/vô hiệu | Đ27.2.đ; TCVN 5.5, 5.6 | Báo cáo kiểm tra cấu hình |
-| ☐ | Danh sách tài khoản, quyền được phê duyệt; MFA tài khoản quản trị (cấp 3+) | TCVN 5.6 | Danh sách, ảnh cấu hình |
+| ☐ | Danh sách tài khoản, quyền được phê duyệt; MFA tài khoản quản trị (mọi cấp) | TCVN x.6.2.4 (3.6.2.4–7.6.2.4) | Danh sách, ảnh cấu hình |
 | ☐ | Phân vùng mạng, tường lửa, WAF/IPS/DDoS theo cấp; thuê DC/đám mây: tách lô-gic (C3–4)/vật lý (C5) | Đ30.8–30.9; TCVN 5.12 | Sơ đồ mạng, rule set |
 | ☐ | Nhật ký được thu thập tập trung, đồng bộ thời gian, thời gian lưu đạt tham số | TCVN 5.8; NĐ 333 Đ16.6 | Cấu hình SIEM/log |
 | ☐ | Sao lưu tự động, lưu tách biệt, **đã khôi phục thử thành công** | TCVN 5.11 | Biên bản khôi phục thử |

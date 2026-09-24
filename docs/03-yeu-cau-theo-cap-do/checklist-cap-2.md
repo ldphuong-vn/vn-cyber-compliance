@@ -173,7 +173,7 @@ Cấp độ 2 gồm **15 nhóm** (mục 4.1–4.15). So với cấp 1 bổ sung:
 | 4.12.2.1 d) | Khi đổi thiết kế, đánh giá lại sự phù hợp với yêu cầu an toàn | | Biên bản đánh giá thay đổi | **Mới/khác so với cấp 1** |
 | 4.12.2.1 e) | Cập nhật sơ đồ mạng 1 lần/năm hoặc khi thay đổi | | Lịch sử phiên bản sơ đồ |  |
 | 4.12.2.2 a) | Có phương án dự phòng cho thiết bị mạng chính | | Sơ đồ HA, hợp đồng kênh truyền |  |
-| 4.12.2.2 a) | Tường lửa có IPS (hoặc tương đương) kiểm soát truy cập, chống xâm nhập giữa các vùng mạng | | Cấu hình NGFW/IPS | **Mới/khác so với cấp 1** |
+| 4.12.2.2 a) | Tường lửa có IPS (hoặc tương đương) kiểm soát truy cập, chống xâm nhập giữa các vùng mạng | | Cấu hình NGFW/IPS |  |
 | 4.12.2.2 a) | WAF (hoặc tương đương) cho ứng dụng web (nếu có) | | Cấu hình WAF | **Mới/khác so với cấp 1** |
 | 4.12.2.2 a) | Cập nhật định kỳ CSDL nhận diện tấn công cho các giải pháp ANM | | Nhật ký cập nhật signature |  |
 | 4.12.2.2 a) | Quản lý thay đổi | | Phiếu thay đổi (change request) |  |
