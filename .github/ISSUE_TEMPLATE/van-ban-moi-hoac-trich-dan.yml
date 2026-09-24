@@ -1,0 +1,42 @@
+name: Văn bản mới / trích dẫn
+description: Báo văn bản pháp luật, tiêu chuẩn mới hoặc sửa đổi; báo trích dẫn sai trong bộ khung
+title: "[Văn bản] "
+labels: ["van-ban", "can-doi-chieu"]
+body:
+  - type: dropdown
+    id: loai
+    attributes:
+      label: Loại góp ý
+      options:
+        - Văn bản mới ban hành
+        - Văn bản sửa đổi, bổ sung, thay thế
+        - Văn bản hết hiệu lực
+        - Trích dẫn sai điều khoản / con số trong bộ khung
+    validations:
+      required: true
+  - type: input
+    id: van-ban
+    attributes:
+      label: Văn bản liên quan
+      description: Số hiệu, tên, ngày ban hành, ngày hiệu lực (ví dụ "Thông tư số …/2026/TT-BCA ngày …")
+    validations:
+      required: true
+  - type: input
+    id: nguon
+    attributes:
+      label: Nguồn chính thức
+      description: Liên kết vanban.chinhphu.vn, congbao.chinhphu.vn, cổng thông tin bộ, ngành…
+  - type: textarea
+    id: noi-dung
+    attributes:
+      label: Nội dung và tài liệu bị ảnh hưởng
+      description: Điều khoản nào thay đổi, file nào trong repo cần sửa (nếu biết)
+    validations:
+      required: true
+  - type: checkboxes
+    id: cam-ket
+    attributes:
+      label: Xác nhận
+      options:
+        - label: Tôi không gửi thông tin nội bộ, dữ liệu cá nhân hay tài liệu có bản quyền vào Issue này
+          required: true

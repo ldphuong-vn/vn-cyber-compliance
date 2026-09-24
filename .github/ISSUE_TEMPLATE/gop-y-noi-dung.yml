@@ -1,0 +1,34 @@
+name: Góp ý nội dung
+description: Góp ý tài liệu, mẫu biểu, checklist; chia sẻ kinh nghiệm thực tế khi lập, thẩm định hồ sơ
+title: "[Góp ý] "
+labels: ["gop-y"]
+body:
+  - type: input
+    id: tai-lieu
+    attributes:
+      label: Tài liệu / mẫu liên quan
+      description: Đường dẫn file trong repo (ví dụ docs/01-xac-dinh-cap-do/tieu-chi-cap-do.md, templates/02-ho-so-cap-do/mau-06-...docx)
+  - type: textarea
+    id: gop-y
+    attributes:
+      label: Nội dung góp ý
+      description: Điều chưa đúng, chưa rõ hoặc nên bổ sung; nếu có, nêu căn cứ điều khoản
+    validations:
+      required: true
+  - type: textarea
+    id: thuc-te
+    attributes:
+      label: Kinh nghiệm thực tế (nếu có)
+      description: Ví dụ cơ quan thẩm định, Bộ Công an đã hướng dẫn hoặc yêu cầu thế nào — không nêu tên tổ chức nếu không muốn công khai
+  - type: input
+    id: ghi-nhan
+    attributes:
+      label: Ghi nhận đóng góp
+      description: Tên (và đơn vị) bạn muốn được ghi trong báo cáo cập nhật; để trống nếu muốn ẩn danh
+  - type: checkboxes
+    id: cam-ket
+    attributes:
+      label: Xác nhận
+      options:
+        - label: Tôi không gửi thông tin nội bộ, dữ liệu cá nhân hay hồ sơ thật của tổ chức vào Issue này
+          required: true
