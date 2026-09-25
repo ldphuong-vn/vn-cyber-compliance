@@ -1,6 +1,6 @@
 # Mẫu Tờ trình triển khai các nghĩa vụ bảo vệ dữ liệu cá nhân
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ20–Đ23, Đ33.2, Đ38, Đ39.2; NĐ 356/2025/NĐ-CP Đ13, Đ14, Đ17–Đ22, Đ41; NQ 22/2026/NQ-CP Đ6.1, Phụ lục I.7; NĐ 330/2026/NĐ-CP Đ3.1–3.2, Đ7.1, Đ7.4, Đ54, Đ55, Đ56, Đ57, Đ59 · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ20–Đ23, Đ33.2, Đ38, Đ39.2; NĐ 356/2025/NĐ-CP Đ4.1, Đ13, Đ14, Đ17–Đ22, Đ41; NQ 22/2026/NQ-CP Đ6.1, Phụ lục I.7; NĐ 330/2026/NĐ-CP Đ3.1–3.2, Đ7.1, Đ7.4, Đ54, Đ55, Đ56, Đ57, Đ59 · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Khi nào dùng
 
@@ -24,7 +24,7 @@ Kính gửi: {{CHUC_DANH_LANH_DAO}}
 
 *Căn cứ Nghị định số 356/2025/NĐ-CP ngày 31 tháng 12 năm 2025 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Bảo vệ dữ liệu cá nhân;*
 
-*Căn cứ Nghị quyết số 22/2026/NQ-CP của Chính phủ về cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính và điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Công an;*
+*Căn cứ Nghị quyết số 22/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính và cắt giảm, đơn giản hóa điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Công an;*
 
 *Căn cứ Nghị định số 330/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh mạng và bảo vệ dữ liệu cá nhân;*
 
@@ -67,7 +67,7 @@ a) Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được **lựa chọn*
 
 b) Không được hưởng miễn trừ nếu: kinh doanh dịch vụ xử lý DLCN; trực tiếp xử lý DLCN nhạy cảm; hoặc xử lý DLCN kể từ thời điểm quy mô đạt từ 100.000 chủ thể trở lên, tính trên kết quả tích lũy (NĐ 356 Đ41).
 
-c) Miễn trừ **không** bao gồm hồ sơ chuyển DLCN xuyên biên giới (Luật 91 Đ20) và nghĩa vụ thông báo vi phạm (Luật 91 Đ23).
+c) Miễn trừ **không** bao gồm hồ sơ chuyển DLCN xuyên biên giới (Luật 91 Đ20) và nghĩa vụ thông báo vi phạm (Luật 91 Đ23). Đây là cách đọc theo câu chữ Luật 91 Đ38.2–38.3 (xem Hướng dẫn điền, điểm C14).
 
 d) Kết luận đối với {{TEN_TO_CHUC}}: {{KET_LUAN_MIEN_TRU}}.
 
@@ -160,7 +160,7 @@ Kính trình {{CHUC_DANH_LANH_DAO}} xem xét, phê duyệt:
 **Cách điền**
 
 - **Đếm chủ thể tích lũy.** NĐ 356 Đ41 tính ngưỡng 100.000 chủ thể theo "kết quả tích lũy tổng lượng dữ liệu cá nhân đã xử lý", không phải số đang hoạt động. Ghi rõ phương pháp đếm.
-- **DLCN nhạy cảm dễ bị bỏ sót:** ảnh căn cước (eKYC), lịch sử giao dịch, dữ liệu theo dõi hành vi sử dụng dịch vụ trực tuyến, vị trí (NĐ 356 Đ4.1). Chỉ cần "trực tiếp xử lý DLCN nhạy cảm" là mất miễn trừ.
+- **DLCN nhạy cảm dễ bị bỏ sót:** ảnh thẻ căn cước (eKYC), tên đăng nhập và mật khẩu tài khoản định danh điện tử, thông tin thẻ và lịch sử giao dịch tài khoản ngân hàng, tài chính, dữ liệu theo dõi hành vi sử dụng dịch vụ trên không gian mạng, vị trí xác định qua dịch vụ định vị (NĐ 356 Đ4.1.h, i, k, l). Chỉ cần "trực tiếp xử lý DLCN nhạy cảm" là mất miễn trừ.
 - `{{KET_LUAN_MIEN_TRU}}`: ghi một trong ba kết luận: "không thuộc diện miễn trừ", "thuộc diện được lựa chọn, đề nghị vẫn thực hiện", hoặc "thuộc diện được lựa chọn, đề nghị chưa thực hiện Đ21, Đ22, Đ33.2". Kèm căn cứ về quy mô doanh nghiệp. **[CẦN ĐỐI CHIẾU]** Tiêu chí doanh nghiệp nhỏ, siêu nhỏ, khởi nghiệp nằm trong pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa, chưa có trong bộ nguồn.
 - **[CẦN ĐỐI CHIẾU]** Miễn trừ gồm Luật 91 Đ22 (cập nhật hồ sơ, gồm cả hồ sơ chuyển xuyên biên giới) nhưng không gồm Đ20 (lập hồ sơ chuyển xuyên biên giới). Đọc theo câu chữ thì vẫn phải lập hồ sơ Đ20 (điểm C14 tại [`../00-tong-quan/diem-can-doi-chieu.md`](../00-tong-quan/diem-can-doi-chieu.md)).
 - **[CẦN ĐỐI CHIẾU]** Bên xử lý có phải nộp DPIA không: Luật 91 Đ21.3 chỉ yêu cầu bên xử lý lập, lưu theo thỏa thuận; NĐ 356 Đ19 yêu cầu cả ba bên nộp. Khuyến nghị vẫn nộp (điểm C13).
@@ -172,7 +172,7 @@ Kính trình {{CHUC_DANH_LANH_DAO}} xem xét, phê duyệt:
 **Mẹo thuyết phục lãnh đạo**
 
 - Nhấn mạnh **hệ quả vận hành** trước tiền phạt: không lập DPIA có thể bị **buộc dừng xử lý DLCN** (NĐ 330 Đ55.3.b); không lập hồ sơ chuyển xuyên biên giới có thể bị **buộc ngừng chuyển**, tức là dừng dùng cloud hoặc SaaS ở nước ngoài (Đ56.6.b).
-- Mức phạt theo **doanh thu** (1–5%) chỉ áp dụng khi chuyển xuyên biên giới không lập hồ sơ, khai sai hoặc tiếp tục chuyển sau quyết định ngừng, **dẫn đến lộ, mất DLCN** (NĐ 330 Đ56.3). Trình bày đúng điều kiện này, không nói chung chung "phạt 5% doanh thu".
+- Mức phạt theo **doanh thu** (1–5%) chỉ áp dụng khi chuyển xuyên biên giới không lập hồ sơ, che giấu hoặc khai sai dòng dữ liệu **dẫn đến lộ, mất DLCN** (từ 10.000 chủ thể trở lên), hoặc tiếp tục chuyển sau quyết định yêu cầu ngừng của cơ quan chuyên trách (NĐ 330 Đ56.3). Trình bày đúng điều kiện này, không nói chung chung "phạt 5% doanh thu".
 - Mốc 60 ngày tính từ ngày đầu xử lý. Với hoạt động đã bắt đầu từ lâu, nên nộp ngay. Thời hiệu xử phạt là 01 năm, tính từ ngày tổ chức thực hiện xong nghĩa vụ (NĐ 330 Đ3.1–3.2), nên việc nộp muộn vẫn có thể bị xử lý trong thời hạn này.
 
 **Tài liệu đính kèm**

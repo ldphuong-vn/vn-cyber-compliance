@@ -1,6 +1,6 @@
 # Mẫu Tờ trình phê duyệt kinh phí giải pháp kỹ thuật an ninh mạng
 
-> **Căn cứ:** NĐ 331/2026/NĐ-CP Đ5.3.a, Đ6.2–6.3, Đ28.4, Đ28.6, Đ29.1, Đ30.1–30.2, Đ30.4–30.6, Đ30.8–30.9, Đ37, Đ39.1; Luật 116/2025/QH15 Đ29.1, Đ38.2, Đ40.1.b, Đ45.1, Đ45.3; NĐ 333/2026/NĐ-CP Đ7.2, Đ19; NĐ 330/2026/NĐ-CP Đ7.1, Đ22.1.a, Đ23.1.c–d, Đ23.2.a, Đ35.2.đ, Đ69.1.b, Đ69.2; TCVN 14423:2026 mục 5.1–5.18 (tham chiếu số mục) · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** NĐ 331/2026/NĐ-CP Đ5.3.a, Đ6.2–6.3, Đ28.4, Đ28.6, Đ29.1, Đ30.1–30.2, Đ30.4–30.6, Đ30.8–30.9, Đ37, Đ39.1; Luật 116/2025/QH15 Đ25.3, Đ29.1–29.3, Đ38.2, Đ40.1.b, Đ45.1, Đ45.3; NĐ 333/2026/NĐ-CP Đ3.3–3.5, Đ7.2, Đ19; NĐ 330/2026/NĐ-CP Đ7.1, Đ22.1.a, Đ23.1.c–d, Đ23.2.a, Đ35.2.đ, Đ69.1.b, Đ69.2; TCVN 14423:2026 mục 5.1–5.18 (tham chiếu số mục) · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
 
 > Phần TCVN 14423:2026 là tóm lược để tra cứu; khi lập hồ sơ phải đối chiếu bản chính thức TCVN 14423:2026 (mua tại VSQI). Tờ trình chỉ nêu tên nhóm yêu cầu và số mục, không chép nội dung tiêu chuẩn.
 
@@ -192,9 +192,9 @@ Kính trình {{CHUC_DANH_LANH_DAO}} xem xét, phê duyệt:
 - `{{SO_MUC}}`: đếm từ checklist của cấp tương ứng. Cột "Kết quả" trong bản Excel có sẵn công thức tổng hợp.
 - Chỉ đưa vào Mục II.2 các hạng mục thực sự lấp khoảng thiếu hụt đã ghi nhận. Mỗi dòng phải trỏ được về một mục TCVN hoặc điều khoản cụ thể. Không đề xuất sản phẩm theo tên thương mại trong tờ trình; nêu tên sản phẩm trong phụ lục báo giá.
 - NĐ 331 Đ30.8 chỉ áp dụng cho HTTT **cấp 3, cấp 4** thuê trung tâm dữ liệu hoặc điện toán đám mây. Cấp 5 và HTTT quan trọng về an ninh quốc gia phải tách biệt **vật lý** (Đ30.9). Cấp 1–2 không có yêu cầu riêng về vấn đề này.
-- Mục II.4.d: nghĩa vụ lưu trữ dữ liệu tại Việt Nam áp dụng cho doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, Internet, dịch vụ gia tăng (NĐ 333 Đ19). Xem [to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam.md](to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam.md). Nếu tổ chức không thuộc diện này, xóa điểm d.
+- Mục II.4.d: nghĩa vụ lưu trữ dữ liệu tại Việt Nam áp dụng cho doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, Internet, dịch vụ gia tăng trên không gian mạng tại Việt Nam (Luật 116 Đ25.3; NĐ 333 Đ19). Phạm vi này dẫn chiếu định nghĩa của pháp luật viễn thông (NĐ 333 Đ3.3–3.5) và là **vùng xám** với website, ứng dụng, SaaS **[CẦN ĐỐI CHIẾU]**. Xem [to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam.md](to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam.md). Chỉ xóa điểm d khi đã có kết luận pháp lý rằng tổ chức không thuộc diện này.
 - Dòng 10 (kết nối giám sát): Luật 116 Đ40.1.b đặt nghĩa vụ, nhưng thủ tục kết nối cụ thể **chờ quy định của Bộ trưởng Bộ Công an về giám sát ANM** (NĐ 331 Đ28.6). Chỉ dự trù kinh phí, không cam kết thời hạn.
-- **[CẦN ĐỐI CHIẾU]** Sản phẩm ANM có phải chứng nhận hoặc công bố hợp quy trước khi lưu thông hay không (NĐ 330 Đ35.2.đ xử phạt nhà cung cấp vi phạm việc này). Danh mục sản phẩm và điều kiện kinh doanh quy định tại NĐ 332/2026, chưa có toàn văn trong bộ nguồn. Khi lựa chọn nhà cung cấp, yêu cầu họ xuất trình giấy phép và giấy tờ hợp quy (nếu có).
+- **[CẦN ĐỐI CHIẾU]** Sản phẩm ANM có phải chứng nhận hoặc công bố hợp quy trước khi lưu thông hay không (NĐ 330 Đ35.2.đ xử phạt nhà cung cấp vi phạm việc này; Luật 116 Đ29.2.b). Việc kinh doanh sản phẩm, dịch vụ ANM do Chính phủ quy định (Luật 116 Đ29.3); NĐ 332/2026 được ghi nhận là văn bản về lĩnh vực này nhưng chưa có toàn văn trong bộ nguồn, nên tờ trình không nêu nội dung cụ thể của nghị định này. Khi lựa chọn nhà cung cấp, yêu cầu họ xuất trình giấy phép và giấy tờ hợp quy (nếu có).
 - Luật 116 Đ45.3: sản phẩm, giải pháp an toàn thông tin mạng đã đưa vào sử dụng trước 01/7/2026 được tiếp tục sử dụng, nhưng phải đáp ứng điều kiện ANM trong 12 tháng. Nên rà lại các giải pháp đang dùng trước khi mua mới.
 
 **Mẹo thuyết phục lãnh đạo**
