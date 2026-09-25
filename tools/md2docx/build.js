@@ -74,6 +74,13 @@ const TARGETS = [
     "quy-trinh-danh-gia-truoc-van-hanh", "quy-trinh-tiep-nhan-yeu-cau-co-quan-chuc-nang", "quy-trinh-quan-ly-nha-cung-cap",
     "ke-hoach-dao-tao-dien-tap",
   ].map((f) => `docs/04-chinh-sach-quy-trinh/${f}.md`),
+  ...[
+    "to-trinh-trien-khai-chuong-trinh-tuan-thu-anm", "to-trinh-thanh-lap-bo-phan-chuyen-trach-anm",
+    "to-trinh-ban-hanh-quy-che-bao-dam-anm", "to-trinh-phe-duyet-kinh-phi-giai-phap-ky-thuat-anm",
+    "to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm", "to-trinh-thanh-lap-hoi-dong-tham-dinh",
+    "to-trinh-ke-hoach-dao-tao-dien-tap", "to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan",
+    "to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam",
+  ].map((f) => `docs/07-to-trinh-lanh-dao/${f}.md`),
 ];
 
 const STOP_HEADINGS = /^#{1,4}\s+(Hướng dẫn điền|Bằng chứng cần lưu|Checklist rà soát|Checklist thẩm định|Checklist trước khi ký)/i;
@@ -233,7 +240,8 @@ function columnWidths(rows, total, size) {
     const head = cells[0] || "";
     const body = cells.slice(1);
     const words = (c) => c.split(/\s+/).map((x) => x.length);
-    const minChars = Math.max(...words(head).map((x) => x * 1.3), ...body.flatMap(words), 3);
+    // tiêu đề dài được xuống dòng nhưng không quá 3 dòng
+    const minChars = Math.max(...words(head).map((x) => x * 1.3), head.length / 3, ...body.flatMap(words), 3);
     const lines = body.flatMap((c) => c.split("\n"));
     let natChars = Math.max(...lines.map((c) => c.length), minChars);
     const filled = body.filter((c) => c.trim() && !/^[….\s]+$/.test(c)).length;
@@ -296,6 +304,7 @@ function dataTable(rows, total) {
   const n = Math.max(...rows.map((r) => r.length));
   const size = tableFontSize(n);
   const cols = columnWidths(rows, total, size);
+  const keepTogether = rows.length <= 8;
   return new Table({
     layout: TableLayoutType.AUTOFIT,
     width: { size: 100, type: WidthType.PERCENTAGE },
@@ -311,6 +320,7 @@ function dataTable(rows, total) {
         margins: { left: 70, right: 70, top: 30, bottom: 30 },
         children: splitCell(r[j] || "").map((ln) => para(ln, {
           align: ri === 0 ? AlignmentType.CENTER : AlignmentType.LEFT, after: 0, line: 1,
+          keepNext: keepTogether && ri < rows.length - 1, // bảng ngắn không bị tách sang trang sau
           run: { size, bold: ri === 0 },
         })),
       })),
