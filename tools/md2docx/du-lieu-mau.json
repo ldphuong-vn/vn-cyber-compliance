@@ -86,7 +86,7 @@
   "SO_VAN_BAN": "25/2026/CV-TURBO",
   "SO_QUYET_DINH": "30/2026/QĐ-TURBO",
   "SO_VB": "18/2026",
-  "SO_TO_TRINH": "22/2026/TTr-PANM",
+  "SO_TO_TRINH": "02/2026/TTr-PANM",
   "SO_QD_CHU_QUAN": "15/2026/QĐ-TURBO",
   "SO_QD_CHUYEN_TRACH": "16/2026/QĐ-TURBO",
   "SO_QD_VAN_HANH": "17/2026/QĐ-TURBO",
@@ -288,6 +288,52 @@
   "THOI_GIAN_LUU_BIEN_BAN_HUY": "05 năm",
   "THOI_GIAN_LUU_HO_SO_SU_CO": "05 năm",
   "THOI_GIAN_LUU_SO_YEU_CAU": "05 năm",
+  "TEN_PHONG_TRINH": "Phòng An ninh mạng",
+  "VIET_TAT_PHONG": "PANM",
+  "CHUC_DANH_LANH_DAO": "Tổng Giám đốc Công ty",
+  "CHUC_DANH_NGUOI_TRINH_IN_HOA": "TRƯỞNG PHÒNG AN NINH MẠNG",
+  "HO_TEN_NGUOI_TRINH": "Trần Thị Bình",
+  "PHONG_PHAP_CHE": "Phòng Pháp chế",
+  "PHONG_NHAN_SU": "Phòng Hành chính – Nhân sự",
+  "PHONG_TAI_CHINH": "Phòng Tài chính – Kế toán",
+  "NGUON_KINH_PHI": "Ngân sách hoạt động năm 2026 của Công ty",
+  "TONG_KINH_PHI": "—",
+  "TONG_KINH_PHI_HANG_NAM": "—",
+  "CHU_KY_BAO_CAO_TIEN_DO": "hằng tháng",
+  "HIEN_TRANG_NHAN_SU_ANM": "02 kỹ sư thuộc Phòng Vận hành hệ thống kiêm nhiệm",
+  "PHUONG_AN_TO_CHUC": "B",
+  "TIEU_CHUAN_NHAN_SU": "tốt nghiệp đại học CNTT/ATTT, ≥ 03 năm kinh nghiệm an ninh mạng",
+  "NGUON_NHAN_SU": "Điều động nội bộ",
+  "HIEN_TRANG_QUY_DINH": "Quy định sử dụng máy tính và thư điện tử (ban hành năm 2022)",
+  "SO_CHUONG": "09",
+  "SO_DIEU": "43",
+  "DANH_SACH_DON_VI_GOP_Y": "Phòng Vận hành hệ thống, Phòng Pháp chế, Phòng Hành chính – Nhân sự, Phòng Tài chính – Kế toán và Ban Kiểm soát nội bộ",
+  "NGAY_TU_DANH_GIA": "20/09/2026",
+  "SO_MUC": "—",
+  "UU_TIEN": "Cao",
+  "SO_NAM_TINH_CHI_PHI": "03",
+  "HANG_MUC_DUNG_CHUNG": "SIEM, EDR, sao lưu tập trung",
+  "DANH_SACH_HTTT_DUNG_CHUNG": "CRM Online và Cổng thông tin nội bộ (Intranet)",
+  "CACH_PHAN_BO_CHI_PHI": "theo số máy chủ của từng hệ thống",
+  "HANG_MUC_DOT_1": "SIEM, EDR, WAF và chống DDoS, MFA cho quản trị viên, sao lưu tập trung, phân vùng mạng",
+  "HANG_MUC_DOT_2": "Rà quét lỗ hổng và quản lý bản vá, mã hóa dữ liệu, kiểm tra an toàn mã nguồn",
+  "HANG_MUC_DOT_3": "Kết nối giám sát với Trung tâm An ninh mạng; mở rộng giải pháp dùng chung cho Intranet",
+  "SO_BAO_GIA": "03",
+  "LY_DO_THUE_NGOAI": "Phòng An ninh mạng chưa đủ nhân sự và công cụ kiểm thử xâm nhập; Phòng Vận hành hệ thống trực tiếp vận hành CRM Online nên không bảo đảm tính độc lập khi tự đánh giá (NĐ 331 Đ31.2.c); kết quả đánh giá độc lập cần có trước kỳ báo cáo năm 2026.",
+  "PHAM_VI_KIEM_NHIEM": "quản trị tường lửa, máy chủ và hệ thống sao lưu",
+  "NGAY_HOAN_THANH_HO_SO": "20/10/2026",
+  "THOI_GIAN_HOAT_DONG_HOI_DONG": "từ ngày Quyết định thành lập có hiệu lực đến khi ban hành Ý kiến thẩm định hồ sơ đề xuất cấp độ của HTTT CRM Online",
+  "NAM_KE_HOACH": "2027",
+  "TAN_SUAT": "01 lần/năm",
+  "TY_LE_DAT": "85%",
+  "KET_LUAN_MIEN_TRU": "không thuộc diện miễn trừ (xử lý DLCN của khoảng 150.000 chủ thể — NĐ 356 Đ41)",
+  "PHAM_VI_DPIA": "Hệ thống CRM Online",
+  "LUONG_CHUYEN_XUYEN_BIEN_GIOI": "dịch vụ gửi thư điện tử giao dịch đặt máy chủ tại Singapore",
+  "KET_LUAN_PHAM_VI": "chưa kết luận — đang đối chiếu Luật Viễn thông, dự kiến xin ý kiến cơ quan có thẩm quyền",
+  "PHUONG_AN_LUU_TRU": "máy chủ tại TTDL Công ty TNHH Dữ liệu Mẫu, TP. Hồ Chí Minh",
+  "CHU_KY_KIEM_THU_TRUY_XUAT": "06 tháng/lần",
+  "CHUC_DANH_DUOC_UY_QUYEN": "Trưởng phòng An ninh mạng",
+  "VAN_BAN_CHU_TRUONG": "Tờ trình số 05/2026/TTr-PVH đã được Tổng Giám đốc phê duyệt ngày 29/08/2026",
   "_theo_file": {
     "mau-01-de-nghi-tham-dinh-phe-duyet": {
       "NGAY": "01",
@@ -326,7 +372,8 @@
       ]
     },
     "qd-chi-dinh-don-vi-bo-phan-chuyen-trach-anm": {
-      "CHUC_VU": "Trưởng phòng An ninh mạng"
+      "CHUC_VU": "Trưởng phòng An ninh mạng",
+      "SO_VB": "16/2026"
     },
     "qd-thanh-lap-hoi-dong-tham-dinh": {
       "HO_TEN": [
@@ -345,7 +392,11 @@
         "Phòng Pháp chế",
         "Phòng Tài chính – Kế toán",
         "Ban Kiểm soát nội bộ"
-      ]
+      ],
+      "NGAY": "26",
+      "THANG": "09",
+      "SO_TO_TRINH": "02/2026/TTr-PANM",
+      "SO_VB": "19/2026"
     },
     "quy-trinh-ung-pho-su-co": {
       "HO_TEN": [
@@ -362,6 +413,400 @@
     "thuyet-minh-de-xuat-cap-do": {
       "N": "150.000",
       "X": "24"
+    },
+    "to-trinh-trien-khai-chuong-trinh-tuan-thu-anm": {
+      "SO_TO_TRINH": "05/2026",
+      "NGAY": "25",
+      "THANG": "08",
+      "THOI_HAN": [
+        "25/12/2026",
+        "31/10/2026",
+        "30/06/2027",
+        "15/10/2026",
+        "20/10/2026",
+        "25/10/2026",
+        "30/10/2026",
+        "30/06/2027"
+      ],
+      "TINH_TRANG": [
+        "Không thuộc diện (CRM Online đã vận hành)",
+        "Không thuộc diện (chưa xác định cấp độ theo Luật 86/2015)",
+        "Có một phần",
+        "Đang làm",
+        "Có một phần (quy định năm 2022)",
+        "Chưa có",
+        "Chưa có",
+        "Có một phần",
+        "Chưa có"
+      ],
+      "KINH_PHI": [
+        "80.000.000",
+        "55.000.000",
+        "1.930.000.000",
+        "410.000.000",
+        "330.000.000",
+        "195.000.000"
+      ],
+      "TONG_KINH_PHI": [
+        "3.000.000.000",
+        "3.000.000.000 đồng"
+      ],
+      "TEN_PHONG_TRINH": "Phòng Vận hành hệ thống",
+      "VIET_TAT_PHONG": "PVH",
+      "CHUC_DANH_NGUOI_TRINH_IN_HOA": "TRƯỞNG PHÒNG VẬN HÀNH HỆ THỐNG",
+      "HO_TEN_NGUOI_TRINH": "Lê Minh Cường"
+    },
+    "to-trinh-thanh-lap-bo-phan-chuyen-trach-anm": {
+      "SO_TO_TRINH": "06/2026",
+      "NGAY": "28",
+      "THANG": "08",
+      "SO_LUONG": [
+        "01",
+        "02",
+        "01",
+        "01"
+      ],
+      "NGUON_NHAN_SU": [
+        "Bổ nhiệm nội bộ",
+        "01 điều động từ Phòng Vận hành hệ thống, 01 tuyển mới",
+        "Tuyển mới",
+        "Chỉ định nội bộ (Phòng Pháp chế)"
+      ],
+      "KINH_PHI": [
+        "480.000.000",
+        "90.000.000",
+        "20.000.000",
+        "60.000.000",
+        "0"
+      ],
+      "TONG_KINH_PHI": "650.000.000",
+      "THOI_HAN": [
+        "15/10/2026",
+        "15/10/2026",
+        "31/12/2026",
+        "31/10/2026",
+        "15/10/2026"
+      ],
+      "TEN_PHONG_TRINH": "Phòng Vận hành hệ thống",
+      "VIET_TAT_PHONG": "PVH",
+      "CHUC_DANH_NGUOI_TRINH_IN_HOA": "TRƯỞNG PHÒNG VẬN HÀNH HỆ THỐNG",
+      "HO_TEN_NGUOI_TRINH": "Lê Minh Cường"
+    },
+    "to-trinh-ban-hanh-quy-che-bao-dam-anm": {
+      "SO_TO_TRINH": "01/2026",
+      "NGAY": "08",
+      "THANG": "09",
+      "KINH_PHI": [
+        "30.000.000",
+        "15.000.000",
+        "10.000.000"
+      ],
+      "TONG_KINH_PHI": [
+        "55.000.000",
+        "55.000.000 đồng"
+      ],
+      "THOI_HAN": [
+        "15/09/2026",
+        "30/09/2026",
+        "31/10/2026"
+      ]
+    },
+    "to-trinh-thanh-lap-hoi-dong-tham-dinh": {
+      "SO_TO_TRINH": "02/2026",
+      "NGAY": "26",
+      "THANG": "09",
+      "HO_TEN": [
+        "Vũ Hải Long",
+        "Hoàng Quốc Em",
+        "Ngô Thanh Hà",
+        "Bùi Minh Khoa",
+        "Đặng Thu Lan",
+        "Mai Ngọc Hân"
+      ],
+      "DON_VI": [
+        "Phó Tổng Giám đốc",
+        "Ban Kiểm soát nội bộ",
+        "Chuyên gia độc lập (bên ngoài)",
+        "Phòng Pháp chế",
+        "Phòng Tài chính – Kế toán",
+        "Ban Kiểm soát nội bộ"
+      ],
+      "LINH_VUC": [
+        "Quản trị doanh nghiệp",
+        "Kiểm soát nội bộ",
+        "An ninh mạng",
+        "Pháp chế",
+        "Tài chính",
+        "Kiểm soát nội bộ"
+      ],
+      "KINH_PHI": [
+        "15.000.000",
+        "5.000.000",
+        "10.000.000"
+      ],
+      "TONG_KINH_PHI": [
+        "30.000.000",
+        "30.000.000 đồng"
+      ],
+      "THOI_HAN": [
+        "26/09/2026",
+        "01/10/2026",
+        "22/10/2026"
+      ],
+      "NGAY_HOAN_THANH_HO_SO": "30/09/2026"
+    },
+    "to-trinh-phe-duyet-kinh-phi-giai-phap-ky-thuat-anm": {
+      "SO_TO_TRINH": "03/2026",
+      "NGAY": "15",
+      "THANG": "10",
+      "SO_MUC": [
+        "11",
+        "6",
+        "22",
+        "8",
+        "18",
+        "9",
+        "8",
+        "3",
+        "20",
+        "7",
+        "7",
+        "4",
+        "10",
+        "6",
+        "13",
+        "5",
+        "8",
+        "3",
+        "34",
+        "12",
+        "7",
+        "7",
+        "12",
+        "5",
+        "11",
+        "4",
+        "9",
+        "5",
+        "5",
+        "5",
+        "195",
+        "89"
+      ],
+      "UU_TIEN": [
+        "Cao",
+        "Cao",
+        "Cao",
+        "Cao",
+        "Trung bình",
+        "Cao",
+        "Trung bình",
+        "Cao",
+        "Trung bình",
+        "Thấp"
+      ],
+      "KINH_PHI": [
+        "450.000.000",
+        "280.000.000",
+        "320.000.000",
+        "180.000.000",
+        "120.000.000",
+        "200.000.000",
+        "90.000.000",
+        "150.000.000",
+        "110.000.000",
+        "30.000.000",
+        "1.250.000.000",
+        "380.000.000",
+        "300.000.000",
+        "360.000.000",
+        "230.000.000",
+        "40.000.000",
+        "150.000.000",
+        "20.000.000"
+      ],
+      "THOI_HAN": [
+        "31/12/2026",
+        "31/12/2026",
+        "31/12/2026",
+        "31/12/2026",
+        "31/03/2027",
+        "31/12/2026",
+        "31/03/2027",
+        "31/12/2026",
+        "31/03/2027",
+        "31/12/2026",
+        "31/03/2027",
+        "30/06/2027"
+      ],
+      "TONG_KINH_PHI": [
+        "1.930.000.000",
+        "1.930.000.000",
+        "1.930.000.000 đồng"
+      ],
+      "TONG_KINH_PHI_HANG_NAM": [
+        "800.000.000",
+        "800.000.000 đồng"
+      ]
+    },
+    "to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm": {
+      "SO_TO_TRINH": "05/2026",
+      "NGAY": "20",
+      "THANG": "10",
+      "KINH_PHI": [
+        "80.000.000",
+        "60.000.000",
+        "90.000.000",
+        "70.000.000",
+        "80.000.000",
+        "30.000.000"
+      ],
+      "TONG_KINH_PHI": [
+        "410.000.000",
+        "410.000.000 đồng"
+      ],
+      "THOI_HAN": [
+        "10/11/2026",
+        "15/11/2026",
+        "30/11/2026",
+        "10/12/2026"
+      ]
+    },
+    "to-trinh-ke-hoach-dao-tao-dien-tap": {
+      "SO_TO_TRINH": "06/2026",
+      "NGAY": "01",
+      "THANG": "11",
+      "SO_LUONG": [
+        "120",
+        "112",
+        "04",
+        "02",
+        "02",
+        "01",
+        "06"
+      ],
+      "TY_LE_DAT": [
+        "90%",
+        "85%"
+      ],
+      "TAN_SUAT": [
+        "01 lần/năm, 02 giờ",
+        "Trong 05 ngày làm việc kể từ ngày tiếp nhận",
+        "01 khóa/người, hoàn thành trước 19/8/2029",
+        "01 khóa/người/năm",
+        "01 lần/năm, 08 giờ",
+        "01 lần/năm, 04 giờ",
+        "01 lần/năm, 02 giờ"
+      ],
+      "KICH_BAN": [
+        "Mã độc tống tiền mã hóa CSDL khách hàng CRM Online",
+        "Lộ lọt DLCN khách hàng qua lỗ hổng cổng web CRM Online"
+      ],
+      "THOI_HAN": [
+        "15/06/2027",
+        "15/11/2027"
+      ],
+      "KINH_PHI": [
+        "40.000.000",
+        "120.000.000",
+        "60.000.000",
+        "25.000.000",
+        "70.000.000",
+        "15.000.000"
+      ],
+      "TONG_KINH_PHI": [
+        "330.000.000",
+        "330.000.000 đồng"
+      ]
+    },
+    "to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan": {
+      "SO_TO_TRINH": "03/2026",
+      "NGAY": "10",
+      "THANG": "10",
+      "TEN_PHONG_TRINH": "Phòng Pháp chế",
+      "VIET_TAT_PHONG": "PPC",
+      "CHUC_DANH_NGUOI_TRINH_IN_HOA": "TRƯỞNG PHÒNG PHÁP CHẾ",
+      "HO_TEN_NGUOI_TRINH": "Bùi Minh Khoa",
+      "TINH_TRANG": [
+        "Bên kiểm soát và xử lý (DLCN khách hàng, người lao động)",
+        "Chưa có",
+        "01 luồng (thư điện tử giao dịch, Singapore); chưa lập hồ sơ",
+        "Chưa có văn bản chỉ định",
+        "Chưa kết luận",
+        "Chưa có"
+      ],
+      "KINH_PHI": [
+        "60.000.000",
+        "20.000.000",
+        "15.000.000",
+        "30.000.000",
+        "0"
+      ],
+      "TONG_KINH_PHI": [
+        "125.000.000",
+        "125.000.000 đồng"
+      ],
+      "THOI_HAN": [
+        "31/10/2026",
+        "15/10/2026",
+        "20/10/2026",
+        "25/10/2026",
+        "31/10/2026",
+        "31/10/2026",
+        "30/10/2026"
+      ]
+    },
+    "to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam": {
+      "SO_TO_TRINH": "04/2026",
+      "NGAY": "15",
+      "THANG": "10",
+      "TEN_DICH_VU": "CRM Online",
+      "VI_TRI_LUU_TRU": "TTDL Công ty TNHH Dữ liệu Mẫu, TP. Hồ Chí Minh; riêng thư điện tử giao dịch gửi qua dịch vụ đặt tại Singapore",
+      "TINH_TRANG": [
+        "Lưu 03 tháng; thiếu trường cổng nguồn",
+        "Xác thực email; chưa xác thực số điện thoại",
+        "Chưa có đầu mối ngoài giờ",
+        "Chưa kiểm thử"
+      ],
+      "KINH_PHI": [
+        "20.000.000",
+        "0",
+        "80.000.000",
+        "24.000.000",
+        "40.000.000",
+        "60.000.000",
+        "0",
+        "120.000.000",
+        "30.000.000",
+        "0"
+      ],
+      "TONG_KINH_PHI": [
+        "170.000.000",
+        "170.000.000 đồng"
+      ],
+      "TONG_KINH_PHI_HANG_NAM": [
+        "204.000.000",
+        "204.000.000 đồng"
+      ],
+      "THOI_HAN": [
+        "31/10/2026",
+        "31/10/2026",
+        "30/11/2026",
+        "31/12/2026",
+        "31/12/2026"
+      ]
+    },
+    "qd-chi-dinh-chu-quan-uy-quyen": {
+      "SO_VB": "15/2026"
+    },
+    "qd-giao-don-vi-van-hanh": {
+      "SO_VB": "17/2026"
+    },
+    "quy-che-bao-dam-anm": {
+      "SO_VB": "18/2026"
+    },
+    "ke-hoach-dao-tao-dien-tap": {
+      "SO_VB": "01/2026"
     }
   }
 }
