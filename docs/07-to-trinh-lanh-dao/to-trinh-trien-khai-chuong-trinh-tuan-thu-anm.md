@@ -1,6 +1,6 @@
 # Mẫu Tờ trình triển khai chương trình tuân thủ an ninh mạng
 
-> **Căn cứ:** Luật 116/2025/QH15 Đ10, Đ38.2, Đ44, Đ45; NĐ 331/2026/NĐ-CP Đ2, Đ4, Đ6.3, Đ10.2, Đ20–Đ24, Đ30.6–30.7, Đ31, Đ35, Đ38, Đ39; NĐ 330/2026/NĐ-CP Đ7, Đ21, Đ23, Đ24, Đ80 · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 116/2025/QH15 Đ10, Đ35.2, Đ38.2, Đ44, Đ45; NĐ 331/2026/NĐ-CP Đ2, Đ4, Đ6.3, Đ10.2, Đ20–Đ24, Đ30.6–30.7, Đ31, Đ35, Đ38, Đ39; NĐ 330/2026/NĐ-CP Đ7, Đ21, Đ23, Đ24, Đ80 · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Khi nào dùng
 
@@ -51,7 +51,7 @@ Các nghĩa vụ chính của chủ quản HTTT:
 | 5 | Triển khai đầy đủ phương án bảo đảm ANM đã phê duyệt trước khi đưa HTTT xây mới, nâng cấp vào vận hành | NĐ 331 Đ30.6 |
 | 6 | Tổ chức kiểm tra, đánh giá ANM và quản lý rủi ro; chịu trách nhiệm về tính trung thực của kết quả | NĐ 331 Đ31.2.c |
 | 7 | Báo cáo sự cố: thông báo ban đầu sự cố nghiêm trọng trong 24 giờ; báo cáo trong 72 giờ | NĐ 331 Đ31.2.d |
-| 8 | Đào tạo, tuyên truyền, diễn tập ANM | NĐ 331 Đ31.3 |
+| 8 | Đào tạo, tuyên truyền, diễn tập ANM (NĐ 331 Đ31.3 nêu đối tượng là "cán bộ, công chức, viên chức"; doanh nghiệp áp dụng tương ứng cho người lao động **[CẦN ĐỐI CHIẾU]**); phổ biến kiến thức ANM cho người lao động | NĐ 331 Đ31.3; Luật 116 Đ35.2 |
 | 9 | Báo cáo định kỳ hằng năm: nội bộ trước 20/12, gửi Bộ Công an trước 25/12 | NĐ 331 Đ35.4 |
 | 10 | Tự bảo đảm kinh phí bảo vệ ANM (tổ chức ngoài khu vực nhà nước) | Luật 116 Đ38.2 |
 
@@ -65,7 +65,7 @@ Các nghĩa vụ chính của chủ quản HTTT:
 | 06 tháng kể từ 01/7/2026 | HTTT đang đầu tư, xây dựng trước 01/7/2026: hoàn thành thẩm định, phê duyệt cấp độ theo NĐ 85/2016 | NĐ 331 Đ39.1 | {{TINH_TRANG}} |
 | 12 tháng kể từ 01/7/2026 | HTTT đã xác định cấp độ theo Luật 86/2015, hoặc đang đầu tư trước 01/7/2026: phải đáp ứng điều kiện, biện pháp bảo vệ ANM tương ứng cấp độ | Luật 116 Đ45.1; NĐ 331 Đ39.1 | {{TINH_TRANG}} |
 
-HTTT đang vận hành nhưng chưa từng được xác định cấp độ không thuộc hai trường hợp chuyển tiếp nêu trên, nên nghĩa vụ xác định cấp độ áp dụng ngay từ ngày 19/8/2026.
+HTTT đang vận hành nhưng chưa từng được xác định cấp độ không thuộc hai trường hợp chuyển tiếp nêu trên, nên nghĩa vụ xác định cấp độ được hiểu là áp dụng ngay từ ngày 19/8/2026 **[CẦN ĐỐI CHIẾU]** (văn bản không có điều khoản chuyển tiếp riêng cho trường hợp này).
 
 **3. Hiện trạng**
 

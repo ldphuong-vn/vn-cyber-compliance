@@ -1,6 +1,6 @@
 # 07 — Mẫu tờ trình lãnh đạo
 
-> **Căn cứ:** Luật 116/2025/QH15 Đ10, Đ25, Đ34, Đ38.2, Đ44, Đ45; NĐ 331/2026/NĐ-CP Đ2, Đ18.4, Đ30.5–30.8, Đ31, Đ32, Đ35, Đ39; NĐ 333/2026/NĐ-CP Đ16, Đ19, Đ20, Đ24; NĐ 330/2026/NĐ-CP Đ7, Đ21, Đ23, Đ24, Đ29, Đ30, Đ33, Đ55–Đ57; Luật 91/2025/QH15 Đ20, Đ21, Đ23, Đ33, Đ38; NĐ 356/2025/NĐ-CP Đ13, Đ21, Đ41 · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 116/2025/QH15 Đ10, Đ25, Đ34, Đ35.2, Đ38.2, Đ44, Đ45; NĐ 331/2026/NĐ-CP Đ2, Đ18.4, Đ30.5–30.8, Đ31, Đ32, Đ35, Đ39; NĐ 333/2026/NĐ-CP Đ16, Đ19, Đ20, Đ24; NĐ 330/2026/NĐ-CP Đ7, Đ21, Đ23, Đ24, Đ29, Đ30, Đ33, Đ55–Đ57; Luật 91/2025/QH15 Đ20, Đ21, Đ23, Đ33, Đ38; NĐ 356/2025/NĐ-CP Đ13, Đ21, Đ41 · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Bộ **mẫu tờ trình nội bộ** giúp bộ phận IT, an ninh mạng (ANM), pháp chế, nhân sự, tài chính đề xuất với ban lãnh đạo các việc cần làm để tuân thủ pháp luật về ANM và bảo vệ dữ liệu cá nhân (DLCN). Mỗi tờ trình nêu căn cứ pháp lý, hiện trạng, rủi ro (có mức phạt đối với tổ chức), nội dung đề xuất, kinh phí, tiến độ, phân công và kiến nghị. Cuối mỗi tờ trình có ô ý kiến phê duyệt của lãnh đạo.
 
@@ -19,7 +19,7 @@ Bộ **mẫu tờ trình nội bộ** giúp bộ phận IT, an ninh mạng (ANM)
 | 4 | [to-trinh-thanh-lap-hoi-dong-tham-dinh.md](to-trinh-thanh-lap-hoi-dong-tham-dinh.md) | Đơn vị chuyên trách ANM | Thành lập Hội đồng thẩm định độc lập (khi chuyên trách ANM kiêm vận hành) | NĐ 331 Đ18.4, Đ23 | **4** — chỉ khi có xung đột vai trò |
 | 5 | [to-trinh-phe-duyet-kinh-phi-giai-phap-ky-thuat-anm.md](to-trinh-phe-duyet-kinh-phi-giai-phap-ky-thuat-anm.md) | Chuyên trách ANM, Vận hành | Đầu tư, thuê giải pháp kỹ thuật theo cấp độ, dựa trên kết quả checklist | NĐ 331 Đ29, Đ30.4–30.6, Đ30.8; TCVN 14423:2026 | **5** — sau tự đánh giá |
 | 6 | [to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm.md](to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm.md) | Chuyên trách ANM hoặc Kiểm soát nội bộ | Thuê tổ chức chuyên môn đánh giá, kiểm thử xâm nhập độc lập | NĐ 331 Đ27, Đ31.2.c; Luật 116 Đ29.1 | **6** — theo kế hoạch năm hoặc khi bắt buộc |
-| 7 | [to-trinh-ke-hoach-dao-tao-dien-tap.md](to-trinh-ke-hoach-dao-tao-dien-tap.md) | Chuyên trách ANM, Nhân sự | Kế hoạch và kinh phí đào tạo, tuyên truyền, diễn tập năm | NĐ 331 Đ31.3; Luật 116 Đ34; NĐ 333 Đ24 | Hằng năm, quý IV |
+| 7 | [to-trinh-ke-hoach-dao-tao-dien-tap.md](to-trinh-ke-hoach-dao-tao-dien-tap.md) | Chuyên trách ANM, Nhân sự | Kế hoạch và kinh phí đào tạo, tuyên truyền, diễn tập năm | NĐ 331 Đ31.3; Luật 116 Đ34, Đ35.2; NĐ 333 Đ24 | Hằng năm, quý IV |
 | 8 | [to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.md](to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.md) | Pháp chế, nhân sự BVDLCN | DPIA, hồ sơ chuyển DLCN xuyên biên giới, nhân sự BVDLCN, rà soát kinh doanh dịch vụ xử lý DLCN, miễn trừ | Luật 91 Đ20–Đ23, Đ33, Đ38; NĐ 356 Đ13, Đ21–Đ22, Đ41 | Song song với (1); **hạn 60 ngày** kể từ ngày đầu xử lý |
 | 9 | [to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam.md](to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam.md) | Chuyên trách ANM, Pháp chế | Lưu dữ liệu tại Việt Nam, nhật ký ≥ 12 tháng, xác thực tài khoản, tiếp nhận yêu cầu 24h/03h, 24h/06h | Luật 116 Đ25.2–25.3; NĐ 333 Đ16, Đ19, Đ20 | Song song với (1), nếu thuộc diện NĐ 333 Đ16.1 |
 
@@ -60,7 +60,7 @@ Mức phạt dưới đây là mức áp dụng cho **tổ chức**. Trong NĐ 3
 | DN cung cấp dịch vụ: cung cấp thông tin người dùng khi có yêu cầu | Luật 116 Đ25.2.a; NĐ 333 Đ16.3 | 50–100 triệu đồng (NĐ 330 Đ30.1.a) | 24 giờ; khẩn cấp 03 giờ |
 | DN cung cấp dịch vụ: gỡ thông tin, dịch vụ vi phạm | Luật 116 Đ25.2.b; NĐ 333 Đ16.4 | 100–140 triệu đồng; có thể buộc ngừng dịch vụ tại Việt Nam (NĐ 330 Đ29.2.a, Đ29.3) | 24 giờ; khẩn cấp 06 giờ |
 | DN cung cấp dịch vụ: nhật ký hệ thống | NĐ 333 Đ16.6, Đ20.3 | 60–100 triệu đồng (NĐ 330 Đ33.1.c) | Lưu ít nhất 12 tháng |
-| DN trong nước cung cấp dịch vụ: lưu dữ liệu người dùng tại Việt Nam | Luật 116 Đ25.3; NĐ 333 Đ19.2, Đ20.1 | 60–100 triệu đồng (NĐ 330 Đ33.1.a) hoặc 100–140 triệu đồng (Đ29.2.c) **[CẦN ĐỐI CHIẾU]** điều áp dụng | Tối thiểu 24 tháng |
+| DN trong nước cung cấp dịch vụ: lưu dữ liệu người dùng tại Việt Nam | Luật 116 Đ25.3; NĐ 333 Đ19.2, Đ20.1 | 60–100 triệu đồng (NĐ 330 Đ33.1.a) hoặc 100–140 triệu đồng (Đ29.2.c) **[CẦN ĐỐI CHIẾU]** điều áp dụng | Tối thiểu 24 tháng (NĐ 333 Đ20.1; mốc bắt đầu tính gắn với "yêu cầu lưu trữ" **[CẦN ĐỐI CHIẾU]**) |
 | DPIA | Luật 91 Đ21; NĐ 356 Đ19 | 20–30 triệu đồng; có thể buộc dừng xử lý (NĐ 330 Đ55.1, Đ55.3.b) | 60 ngày kể từ ngày đầu xử lý; cập nhật 06 tháng / 10 ngày |
 | Hồ sơ chuyển DLCN xuyên biên giới | Luật 91 Đ20; NĐ 356 Đ18 | 30–50 triệu đồng; nếu dẫn đến lộ, mất DLCN: 1–5% doanh thu tại Việt Nam (NĐ 330 Đ56.1, Đ56.3) | 60 ngày kể từ ngày đầu chuyển |
 | Chỉ định nhân sự BVDLCN đủ điều kiện | Luật 91 Đ33.2; NĐ 356 Đ13 | 20–30 triệu đồng (NĐ 330 Đ57.2) | Khi xử lý DLCN (trừ diện miễn trừ — Luật 91 Đ38; NĐ 356 Đ41) |

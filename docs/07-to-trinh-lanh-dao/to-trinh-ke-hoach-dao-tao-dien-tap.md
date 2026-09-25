@@ -1,6 +1,6 @@
 # Mẫu Tờ trình phê duyệt kế hoạch đào tạo, tuyên truyền và diễn tập an ninh mạng năm
 
-> **Căn cứ:** NĐ 331/2026/NĐ-CP Đ27.1.a, Đ31.1.a, Đ31.2.d, Đ31.3, Đ32.3; Luật 116/2025/QH15 Đ10.1.e, Đ30.1, Đ34; NĐ 333/2026/NĐ-CP Đ24.1–24.6, Đ24.8, Đ25.1, Đ28; Luật 91/2025/QH15 Đ23.1; NĐ 356/2025/NĐ-CP Đ13.6, Đ14.1.đ; NĐ 330/2026/NĐ-CP Đ7.1, Đ21.3.d, Đ23.1.d, Đ57.1.b; TCVN 14423:2026 mục 5.14, 5.16, 6.14, 6.17, 7.14, 7.17 (tham chiếu số mục) · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** NĐ 331/2026/NĐ-CP Đ27.1.a, Đ31.1.a, Đ31.2.d, Đ31.3, Đ32.3; Luật 116/2025/QH15 Đ10.1.e, Đ30.1, Đ34, Đ35.2; NĐ 333/2026/NĐ-CP Đ24.1–24.6, Đ24.8, Đ25.1, Đ28; Luật 91/2025/QH15 Đ23.1; NĐ 356/2025/NĐ-CP Đ13.6, Đ14.1.đ; NĐ 330/2026/NĐ-CP Đ7.1, Đ21.3.d, Đ23.1.d, Đ57.1.b; TCVN 14423:2026 mục 5.14, 5.16, 6.14, 6.17, 7.14, 7.17 (tham chiếu số mục) · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
 
 > Phần TCVN 14423:2026 là tóm lược để tra cứu; khi lập hồ sơ phải đối chiếu bản chính thức TCVN 14423:2026 (mua tại VSQI).
 
@@ -40,7 +40,7 @@ Kính gửi: {{CHUC_DANH_LANH_DAO}}
 
 **1. Cơ sở pháp lý**
 
-a) Chủ quản HTTT chỉ đạo tổ chức tuyên truyền, nâng cao nhận thức về ANM và thường xuyên bồi dưỡng, cập nhật kỹ năng cho nhân sự liên quan, gồm: đào tạo ngắn hạn cho người làm về ANM; tuyên truyền, phổ biến cho người trong tổ chức; diễn tập bảo đảm ANM trong tổ chức; tham gia diễn tập quốc gia và quốc tế do Bộ Công an tổ chức (NĐ 331 Đ31.3). Tổ chức tuyên truyền, nâng cao nhận thức là một nhiệm vụ bảo vệ ANM đối với HTTT (Luật 116 Đ10.1.e).
+a) Chủ quản HTTT chỉ đạo tổ chức tuyên truyền, nâng cao nhận thức về ANM và thường xuyên bồi dưỡng, cập nhật kỹ năng cho nhân sự liên quan, gồm: đào tạo ngắn hạn cho cán bộ, công chức, viên chức làm về ANM; tuyên truyền, phổ biến cho cán bộ, công chức, viên chức trong tổ chức; diễn tập bảo đảm ANM trong tổ chức; tham gia diễn tập quốc gia và quốc tế do Bộ Công an tổ chức (NĐ 331 Đ31.3). Với doanh nghiệp, các nội dung này áp dụng tương ứng cho người lao động. Tổ chức tuyên truyền, nâng cao nhận thức là một nhiệm vụ bảo vệ ANM đối với HTTT (Luật 116 Đ10.1.e). Cơ quan, tổ chức có trách nhiệm phổ biến kiến thức về ANM cho cán bộ, công chức, viên chức, người lao động của mình (Luật 116 Đ35.2).
 
 b) Việc tổ chức đào tạo, tuyên truyền, diễn tập là nội dung kiểm tra tuân thủ đối với chủ quản (NĐ 331 Đ27.1.a). Đơn vị chuyên trách ANM bảo đảm người thực hiện nhiệm vụ ANM đáp ứng tiêu chuẩn chuyên môn, nghiệp vụ (NĐ 331 Đ32.3).
 
@@ -77,7 +77,7 @@ Mức phạt ANM trong NĐ 330 là mức cho cá nhân, tổ chức bị phạt 
 
 | STT | Đối tượng | Nội dung | Hình thức | Tần suất, thời lượng | Căn cứ |
 |---|---|---|---|---|---|
-| 1 | Toàn bộ người lao động | Nhận thức ANM; Quy chế bảo đảm ANM; nhận diện lừa đảo; báo cáo sự cố | Trực tuyến, kèm bài kiểm tra | {{TAN_SUAT}} | NĐ 331 Đ31.3; TCVN 5.14 |
+| 1 | Toàn bộ người lao động | Nhận thức ANM; Quy chế bảo đảm ANM; nhận diện lừa đảo; báo cáo sự cố | Trực tuyến, kèm bài kiểm tra | {{TAN_SUAT}} | NĐ 331 Đ31.3; Luật 116 Đ35.2; TCVN 5.14 |
 | 2 | Người lao động mới | Như dòng 1; ký xác nhận Quy chế | Khi tiếp nhận | {{TAN_SUAT}} | NĐ 331 Đ31.3 |
 | 3 | Người quản trị, vận hành HTTT cấp 3 trở lên | Kiến thức nền tảng và chuyên sâu theo vị trí | Khóa tập huấn có chứng nhận | {{TAN_SUAT}} | Luật 116 Đ34.2; NĐ 333 Đ24 |
 | 4 | Nhân sự đơn vị chuyên trách ANM | Ứng cứu sự cố, giám sát, kiểm thử | Khóa chuyên sâu, chứng chỉ | {{TAN_SUAT}} | NĐ 331 Đ32.3 |
@@ -158,12 +158,12 @@ Kính trình {{CHUC_DANH_LANH_DAO}} xem xét, phê duyệt:
 | Người trực tiếp quản trị, vận hành HTTT cấp 3–5 trong **cơ quan, tổ chức, doanh nghiệp Nhà nước** | **Có**: tập huấn chuyên sâu có chứng nhận, trong 36 tháng kể từ 19/8/2026 | Luật 116 Đ34.2; NĐ 333 Đ24.8.b |
 | Lực lượng bảo vệ ANM tại Luật 116 Đ30.1.a–b (lực lượng chuyên trách của Bộ Công an, Bộ Quốc phòng; lực lượng tại Bộ, ngành, UBND tỉnh, cơ quan quản lý trực tiếp HTTT quan trọng về an ninh quốc gia) | **Có**: đáp ứng 01 trong 04 tiêu chí; rà soát, tập huấn trong 24 tháng | Luật 116 Đ34.1; NĐ 333 Đ24.1, Đ24.8.a |
 | Người quản trị, vận hành HTTT cấp 3–5 tại **doanh nghiệp tư nhân** | Theo câu chữ: **không bắt buộc**. Khuyến nghị vẫn tập huấn | **[CẦN ĐỐI CHIẾU]** vùng 3.6 tại [`../05-nghia-vu-lien-quan/nd-333-nghia-vu-doanh-nghiep.md`](../05-nghia-vu-lien-quan/nd-333-nghia-vu-doanh-nghiep.md) |
-| Toàn bộ người lao động | Tuyên truyền, nâng cao nhận thức: có | NĐ 331 Đ31.3 (với tổ chức thuộc phạm vi NĐ 331 Đ2) |
+| Toàn bộ người lao động | Tuyên truyền, nâng cao nhận thức: có | NĐ 331 Đ31.3 (với tổ chức thuộc phạm vi NĐ 331 Đ2); Luật 116 Đ35.2 (phổ biến kiến thức ANM cho người lao động) |
 | Nhân sự BVDLCN | Có, nếu tổ chức đã chỉ định nhân sự BVDLCN | NĐ 356 Đ13.6 |
 
 - **[CẦN ĐỐI CHIẾU]** NĐ 331 Đ31.3 dùng cụm "cán bộ, công chức, viên chức", là thuật ngữ của khu vực nhà nước. Với doanh nghiệp, bộ khung hiểu tương đương là người lao động, nhân sự làm ANM. Chưa có hướng dẫn chính thức.
 - NĐ 331 Đ31.3 **không quy định chu kỳ** diễn tập (điểm C6 tại [`../00-tong-quan/diem-can-doi-chieu.md`](../00-tong-quan/diem-can-doi-chieu.md)). TCVN chỉ ấn định ít nhất 01 lần/năm cho cấp 4–5. Cấp 3 ghi "định kỳ"; bộ khung khuyến nghị ít nhất 01 lần/năm.
-- Khung chương trình, chuẩn kiến thức tập huấn chuyên sâu: **chờ Bộ trưởng Bộ Công an ban hành** (NĐ 333 Đ24.6). Chứng nhận chỉ được cấp khi học viên dự ít nhất 80% thời lượng và đạt kiểm tra cuối khóa (NĐ 333 Đ28.1). Chỉ chọn cơ sở tập huấn đáp ứng điều kiện NĐ 333 Đ25.1.
+- Khung chương trình, chuẩn kiến thức tập huấn chuyên sâu: **chờ Bộ trưởng Bộ Công an ban hành** (NĐ 333 Đ24.6). Chứng nhận chỉ được cấp khi học viên dự ít nhất 80% thời lượng, hoàn thành đủ bài tập, bài thực hành và đạt kiểm tra cuối khóa (NĐ 333 Đ28.1). Chỉ chọn cơ sở tập huấn đáp ứng điều kiện NĐ 333 Đ25.1.
 - Người có chứng chỉ ANM nước ngoài còn hiệu lực, được Bộ Công an công nhận tương đương, chỉ phải học khối nền tảng (NĐ 333 Đ24.5). Rà danh sách trước khi dự trù kinh phí.
 - `{{KICH_BAN}}`: chọn từ rủi ro cao nhất trong sổ đăng ký rủi ro (ví dụ mã độc tống tiền trên máy chủ cơ sở dữ liệu; lộ dữ liệu khách hàng từ hệ thống {{TEN_HE_THONG}}).
 
