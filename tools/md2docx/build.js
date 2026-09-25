@@ -74,6 +74,13 @@ const TARGETS = [
     "quy-trinh-danh-gia-truoc-van-hanh", "quy-trinh-tiep-nhan-yeu-cau-co-quan-chuc-nang", "quy-trinh-quan-ly-nha-cung-cap",
     "ke-hoach-dao-tao-dien-tap",
   ].map((f) => `docs/04-chinh-sach-quy-trinh/${f}.md`),
+  ...[
+    "to-trinh-trien-khai-chuong-trinh-tuan-thu-anm", "to-trinh-thanh-lap-bo-phan-chuyen-trach-anm",
+    "to-trinh-ban-hanh-quy-che-bao-dam-anm", "to-trinh-phe-duyet-kinh-phi-giai-phap-ky-thuat-anm",
+    "to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm", "to-trinh-thanh-lap-hoi-dong-tham-dinh",
+    "to-trinh-ke-hoach-dao-tao-dien-tap", "to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan",
+    "to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam",
+  ].map((f) => `docs/07-to-trinh-lanh-dao/${f}.md`),
 ];
 
 const STOP_HEADINGS = /^#{1,4}\s+(Hướng dẫn điền|Bằng chứng cần lưu|Checklist rà soát|Checklist thẩm định|Checklist trước khi ký)/i;
