@@ -179,7 +179,7 @@ Ghi chú: Đ23.1.b–d (không xây dựng hồ sơ, đưa vào vận hành khi 
 
 ## 8. Dữ liệu mẫu
 
-Các file trong bộ được điền sẵn bằng một kịch bản **giả lập** để bản Word dễ hình dung. Chỉ tên **Công ty cổ phần Giải pháp Công nghệ TURBO** là thật; họ tên, phòng ban, số văn bản, địa chỉ, email (`example.vn`), địa chỉ IP (`192.0.2.0/24`, dải riêng `10.x`) và mọi số liệu đều mô phỏng, không phản ánh thực tế. Giá trị mẫu riêng của từng file nằm trong mục `_theo_file` của `tools/md2docx/du-lieu-mau.json`. Không đưa dữ liệu thật lên repo công khai.
+Các file trong bộ được điền sẵn bằng một kịch bản **giả lập** để bản Word dễ hình dung. Chỉ tên **Công ty cổ phần Giải pháp Công nghệ TURBO** là thật; họ tên, phòng ban, số văn bản, địa chỉ, email (`example.vn`), địa chỉ IP (`192.0.2.0/24`, dải riêng `10.x`) và mọi số liệu đều mô phỏng, không phản ánh thực tế. Giá trị mẫu của bộ nằm trong `tools/md2docx/du-lieu-mau.json`, mục `_theo_thu_muc` (khóa chung của thư mục này) và `_theo_file` (khóa riêng từng văn bản). Không đưa dữ liệu thật lên repo công khai.
 
 **Hệ thống thông tin** (một hồ sơ gồm nhiều HTTT — NĐ 331 Đ22.4.a; khoảng 120 nhân viên; máy chủ tại phòng máy trụ sở, Tầng 3):
 
