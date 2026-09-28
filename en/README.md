@@ -61,6 +61,8 @@ flowchart LR
 | [06-personal-data.md](06-personal-data.md) | PDPL and Decree 356 interplay with cybersecurity: DPIA, cross-border transfer, 72-hour breach notice, SME exemptions |
 | [07-governance-inspection-reporting.md](07-governance-inspection-reporting.md) | Roles and internal decisions, periodic inspection, evidence retention, annual report Form 08, internal submissions |
 | [08-level-1-2-toolkit.md](08-level-1-2-toolkit.md) | Simplified toolkit for Level 1–2 systems |
+| [09-templates-catalog.md](09-templates-catalog.md) | Catalog of all Word/Excel templates: purpose, who signs, whether filed with an authority |
+| [10-form-reading-guide.md](10-form-reading-guide.md) | How to read Vietnamese forms, decisions and internal submissions before signing |
 | [gray-areas.md](gray-areas.md) | Points to verify: conflicting provisions and the toolkit's position |
 
 ## What is not translated, and why
