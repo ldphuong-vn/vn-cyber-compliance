@@ -198,6 +198,6 @@ File này là **nguồn dữ liệu cho một file Excel** gồm 5 sheet (A–E)
 
 | STT | HTTT | Mã yêu cầu (sheet B) | Tồn tại, chưa đáp ứng | Biện pháp khắc phục | Chủ trì | Hạn hoàn thành (→ Mẫu 08 cột 11) | Tình trạng (→ Mẫu 08 cột 10) |
 |---|---|---|---|---|---|---|---|
-| 1 | HT-03-ERP | C12-11-05 | Bản sao lưu ERP nằm trên NAS cùng phòng máy, chưa tách biệt, chưa quản lý phiên bản | Bổ sung bản sao lưu tách biệt có quản lý phiên bản (ổ lưu trữ luân phiên cất ngoài phòng máy hoặc dịch vụ lưu trữ đặt tại Việt Nam) | Phòng Vận hành hệ thống | 31/03/2027 | Đang thực hiện |
+| 1 | HT-03-ERP | C12-11-05 | Bản sao lưu ERP nằm trên NAS cùng phòng máy, chưa tách biệt, chưa quản lý phiên bản | Bổ sung bản sao lưu tách biệt có quản lý phiên bản (ổ lưu trữ luân phiên cất ngoài phòng máy hoặc dịch vụ lưu trữ đặt tại Việt Nam) | Phòng Vận hành hệ thống | 31/12/2026 (theo QĐ 03/2026/QĐ-PANM) | Đã hoàn thành |
 | 2 | HT-04-LAN | C12-02-09 | Chưa có quy trình xóa sạch dữ liệu khi thanh lý, chuyển giao máy tính, ổ cứng | Ban hành quy trình xóa dữ liệu, dùng công cụ xóa an toàn, lập biên bản cho từng lần thanh lý | Phòng Vận hành hệ thống | 30/06/2027 | Chưa thực hiện |
 | 3 | HT-02-INTRANET | C12-08-05 | Nhật ký Intranet chỉ lưu 7 ngày | Chuyển nhật ký về máy chủ nhật ký tập trung, giữ theo thời hạn của Quy chế | Phòng Vận hành hệ thống | 28/02/2027 | Đã hoàn thành |

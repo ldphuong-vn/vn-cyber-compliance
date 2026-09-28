@@ -53,7 +53,7 @@
 
 | STT | Hoạt động | Căn cứ | Thời gian | Chủ trì | Phối hợp | Sản phẩm |
 |---|---|---|---|---|---|---|
-| 1 | Rà soát, đánh giá lại rủi ro an ninh mạng; cập nhật sổ rủi ro | NĐ 331 Đ10; TCVN 3.1, 4.1 | Tháng 3 | Phòng An ninh mạng | Phòng Vận hành hệ thống | Sổ rủi ro cập nhật, biên bản rà soát |
+| 1 | Rà soát, đánh giá lại rủi ro an ninh mạng; cập nhật sổ rủi ro | NĐ 331 Đ10; TCVN 3.1, 4.1 | Tháng 3 | Phòng Vận hành hệ thống | Phòng An ninh mạng | Sổ rủi ro cập nhật, biên bản rà soát |
 | 2 | Kiểm kê tài sản phần cứng, phần mềm, thông tin; rà thiết bị lạ, phần mềm trái phép | TCVN 3.2–3.4, 4.2–4.4 | Tháng 3 | Phòng Vận hành hệ thống | Phòng Hành chính – Nhân sự | Danh mục tài sản, biên bản kiểm kê |
 | 3 | Rà soát tài khoản, phân quyền; vô hiệu hóa tài khoản không dùng quá 45 ngày | TCVN 3.4.2.1, 3.6.2, 4.4.2.1, 4.6.2 | Tháng 4 và tháng 10 | Phòng Vận hành hệ thống | Phòng Hành chính – Nhân sự | Danh sách tài khoản, biên bản rà soát |
 | 4 | Rà quét lỗ hổng bảo mật toàn bộ hệ thống; quét lại sau khi khắc phục | NĐ 331 Đ32.5; TCVN 3.7.2.1, 4.7.2.1 | Tháng 5 và sau thay đổi lớn | Phòng An ninh mạng | Phòng Vận hành hệ thống | Báo cáo rà quét, danh sách lỗ hổng |
@@ -89,7 +89,7 @@ Kinh phí thực hiện Kế hoạch dự kiến {{C12_KINH_PHI}}, từ {{C12_NG
 
 ## Hướng dẫn điền
 
-- `{{SO_VAN_BAN}}`, ngày ký: kịch bản mẫu 52/2026/KH-TURBO ngày 15/11/2026, ban hành trước năm kế hoạch để kịp bố trí kinh phí.
+- `{{SO_VAN_BAN}}`, ngày ký: kịch bản mẫu 52/2026/KH-TURBO ngày 16/11/2026, ban hành trước năm kế hoạch để kịp bố trí kinh phí.
 - `{{C12_SO_QD_PHAN_CONG}}`, `{{C12_SO_QD_QUY_CHE}}`, `{{C12_SO_QD_PHE_DUYET}}` và các khóa `C12_NGAY_…` tương ứng: số, ngày các QĐ tại các file `02-qd-phan-cong-anm.md`, `03-quy-che-anm-cap-1-2.md`, `07-qd-phe-duyet-cap-do.md`. Nếu hồ sơ cấp độ chưa được phê duyệt, bỏ căn cứ cuối và thêm hoạt động "Hoàn thành hồ sơ đề xuất cấp độ" vào bảng.
 - **Bảng hoạt động:** giữ đủ các hoạt động 1–15; hoạt động 16 chỉ phát sinh khi có thay đổi. Doanh nghiệp chỉ có một phòng IT (vừa vận hành vừa là chuyên trách ANM): hoạt động 14 phải giao **Ban Kiểm soát nội bộ** hoặc người/đơn vị độc lập khác chủ trì (NĐ 331 Đ31.2.c), hoặc thuê ngoài.
 - **Tần suất gợi ý cao hơn mức tối thiểu TCVN** ở hoạt động 3 (2 lần/năm) và 7 (2 lần/năm); TCVN chỉ yêu cầu rà tài khoản ≥ 01 lần/năm và khôi phục thử "định kỳ". Có thể giảm còn 1 lần nếu Quy chế cho phép.

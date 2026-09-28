@@ -914,6 +914,7 @@
       "C12_THOI_GIAN_LUU_NHAT_KY": "06 tháng",
       "C12_HIEU_LUC_MAT_KHAU": "90 ngày",
       "C12_VI_TRI_PHONG_MAY": "phòng máy chủ Tầng 3 trụ sở Công ty",
+      "DON_VI_DANH_GIA_DOC_LAP": "Phòng An ninh mạng",
       "C12_MA_HTTT": [
         "HT-02-INTRANET",
         "HT-03-ERP",
@@ -1033,7 +1034,7 @@
         "VLAN 10",
         "VLAN 99",
         "VLAN 20, 30",
-        "VLAN 40",
+        "VLAN 40 (triển khai trước 30/11/2026)",
         "VLAN 50",
         "—"
       ],
@@ -1102,7 +1103,7 @@
       "C12_BO_PHAN_DANH_GIA": "Phòng An ninh mạng",
       "C12_SO_QD_PHAN_CONG": "40/2026/QĐ-TURBO",
       "C12_PA_HIEN_TRANG": [
-        "Đã đáp ứng: quy trình tại Quy chế; đánh giá lần đầu tháng 9/2026",
+        "Đã đáp ứng: quy trình tại Quy chế; đánh giá lần đầu tháng 10/2026",
         "Đáp ứng một phần: có danh mục máy chủ, thiết bị mạng; thiếu máy trạm, thiết bị di động",
         "Đáp ứng một phần: chưa có danh mục phần mềm được phép; hợp đồng ERP chưa có cam kết bảo mật",
         "Đáp ứng một phần: chưa phân loại tài sản thông tin; phân quyền ERP chưa rà soát",
@@ -1113,7 +1114,7 @@
         "Đã đáp ứng",
         "Đã đáp ứng",
         "Đáp ứng một phần: sao lưu hằng ngày lên NAS cùng phòng máy; chưa khôi phục thử",
-        "Đáp ứng một phần: đã phân VLAN; chưa giới hạn nguồn quản trị; tường lửa chưa có thiết bị dự phòng",
+        "Đáp ứng một phần: đã phân VLAN máy chủ, người dùng; Wi-Fi khách chưa tách vùng riêng; chưa giới hạn nguồn quản trị; tường lửa chưa có thiết bị dự phòng",
         "Đáp ứng một phần: đã phân công theo QĐ 40/2026; chưa đào tạo nhận thức năm 2026",
         "Chưa đáp ứng: chưa có danh sách, phân loại nhà cung cấp",
         "Đáp ứng một phần: đã chỉ định người chính, người dự phòng; quy trình đang hoàn thiện"
@@ -1381,7 +1382,7 @@
     },
     "08-bo-mau-cap-1-2/09-ke-hoach-anm-nam": {
       "SO_VAN_BAN": "52/2026/KH-TURBO",
-      "NGAY": "15",
+      "NGAY": "16",
       "THANG": "11",
       "NAM": "2026",
       "NAM_KE_HOACH": "2027",

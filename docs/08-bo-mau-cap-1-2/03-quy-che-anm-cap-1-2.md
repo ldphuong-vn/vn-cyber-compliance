@@ -139,7 +139,7 @@ Phân công theo Chương II và Quyết định số {{C12_SO_QD_PHAN_CONG}}. L
 2. **An toàn máy chủ, máy trạm:** cấu hình chuẩn tăng cường bảo mật, giao thức an toàn, tường lửa trên máy; cấp 2 tắt giao thức, dịch vụ không dùng và chống đăng nhập tự động trên tài sản xử lý dữ liệu quan trọng; phần mềm phòng chống mã độc bảo vệ thời gian thực, tự cập nhật; tắt tự chạy thiết bị lưu trữ ngoài (mục 3.5, 3.10, 4.5, 4.10).
 3. **An toàn ứng dụng:** trình duyệt, dịch vụ thư điện tử trong danh sách được phép, còn hỗ trợ, được vá; lọc tên miền độc hại; khóa phiên, khóa đăng nhập sai theo Điều 15 (mục 3.9, 4.9).
 4. **An toàn dữ liệu:** mã hóa thông tin xác thực khi lưu; cấp 2 mã hóa cả dữ liệu không công khai (trừ trường hợp có biện pháp tương đương); sao lưu theo loại dữ liệu với tần suất: {{C12_TAN_SUAT_SAO_LUU}}; bảo vệ bản sao lưu; cấp 2 lưu bản sao trên hạ tầng tách biệt, có định danh, phiên bản (mục 3.4.2.4, 3.11, 4.4.2.4, 4.11).
-5. **Nhật ký:** ghi nhật ký truy cập và cảnh báo thiết bị bảo mật; đồng bộ thời gian (NTP); cấp 2 thêm nhật ký ứng dụng với trường tối thiểu (nguồn, đích, tài khoản, thời điểm, hành vi). Công ty lưu nhật ký tối thiểu {{C12_THOI_GIAN_LUU_NHAT_KY}} (mục 3.8, 4.8).
+5. **Nhật ký:** ghi nhật ký truy cập và cảnh báo thiết bị bảo mật; đồng bộ thời gian (NTP); cấp 2 thêm nhật ký ứng dụng; nhật ký truy cập ghi tối thiểu nguồn, đích, tài khoản, thời điểm, hành vi; nhật ký cảnh báo ghi tối thiểu tên, thiết bị, mức độ, nguồn, loại, thời điểm. Công ty lưu nhật ký tối thiểu {{C12_THOI_GIAN_LUU_NHAT_KY}} (mục 3.8, 4.8).
 
 **Điều 15. Tham số theo cấp độ**
 
@@ -157,7 +157,7 @@ Phân công theo Chương II và Quyết định số {{C12_SO_QD_PHAN_CONG}}. L
 | Kiểm kê tài sản; phát hiện phần cứng, phần mềm trái phép | 01 lần/năm | 01 lần/năm | 3.2, 3.3, 4.2, 4.3 |
 | Rà quét lỗ hổng | 01 lần/năm | 01 lần/năm | 3.7.2.1, 4.7.2.1 |
 | Vá hệ điều hành, ứng dụng máy người dùng | 01 lần/tháng | 01 lần/tháng | 3.7.2.2, 4.7.2.2 |
-| Lưu nhật ký (tối thiểu) | tự chọn | 01 tháng (*) | 4.8.2.1 |
+| Lưu nhật ký (tối thiểu) | tự chọn | 01 tháng (xem ghi chú) | 4.8.2.1 |
 | Rà soát nhật ký | 01 lần/năm | 01 lần/năm | 3.8.2.1, 4.8.2.1 |
 | Khôi phục thử bản sao lưu | {{CHU_KY_KHOI_PHUC_THU}} | {{CHU_KY_KHOI_PHUC_THU}} | 3.11.2.1, 4.11.2.1 |
 | Cập nhật sơ đồ mạng | 01 lần/năm | 01 lần/năm | 3.12.2.1, 4.12.2.1 |
@@ -166,7 +166,7 @@ Phân công theo Chương II và Quyết định số {{C12_SO_QD_PHAN_CONG}}. L
 | Cập nhật quy trình sự cố, xác minh danh bạ đầu mối | 01 lần/năm | 01 lần/năm | 3.15.2, 4.15.2 |
 | Rà soát quy trình quản lý rủi ro và các quy định khác | 01 lần/năm | 01 lần/năm | 3.1, 4.1 và các mục "đánh giá, cập nhật" |
 
-*(\*) HTTT dùng để cung cấp dịch vụ trên mạng viễn thông, Internet, dịch vụ gia tăng trên không gian mạng: nhật ký hệ thống phải truy xuất được ít nhất 12 tháng (điểm c khoản 6 Điều 16 Nghị định số 333/2026/NĐ-CP), thay cho mức 01 tháng. "—": TCVN 14423 không yêu cầu ở cấp độ đó.*
+*Ghi chú: HTTT dùng để cung cấp dịch vụ trên mạng viễn thông, Internet, dịch vụ gia tăng trên không gian mạng: nhật ký hệ thống phải truy xuất được ít nhất 12 tháng (điểm c khoản 6 Điều 16 Nghị định số 333/2026/NĐ-CP), thay cho mức 01 tháng. "—": TCVN 14423 không yêu cầu ở cấp độ đó.*
 
 **Điều 16. Quản lý rủi ro ANM** *(điểm e khoản 3 Điều 30; Điều 10 Nghị định 331)*
 
@@ -245,6 +245,6 @@ Báo cáo định kỳ hằng năm theo Mẫu số 08: số liệu tính từ 15
 
 - [ ] Đủ 7 nhóm Đ30.3 (Điều 9–13, 16, 17), 4 nhóm Đ30.4 (Điều 14) và 6 nhiệm vụ Luật 116 Đ10.1 (Điều 4).
 - [ ] Không còn placeholder trống; bảng Điều 15 khớp phương án ANM trong [Hồ sơ đề xuất cấp độ](04-ho-so-de-xuat-cap-do.md).
-- [ ] Phụ lục đủ HTTT, không có HTTT cấp 3 trở lên (nếu có → Quy chế đầy đủ); đã xác định Công ty có/không cung cấp dịch vụ trên mạng (ghi chú (\*) Điều 15; các điều khoản NĐ 333 Đ16, Đ19–Đ20).
+- [ ] Phụ lục đủ HTTT, không có HTTT cấp 3 trở lên (nếu có → Quy chế đầy đủ); đã xác định Công ty có/không cung cấp dịch vụ trên mạng (ghi chú dưới bảng Điều 15; các điều khoản NĐ 333 Đ16, Đ19–Đ20).
 - [ ] Người ký là người đại diện có thẩm quyền của chủ quản; ngày ký **trước** ngày phê duyệt cấp độ (NĐ 331 Đ30.7).
 - [ ] Kế hoạch phổ biến, ký nhận; lưu QĐ + Quy chế làm bằng chứng cho Mẫu 08 (NĐ 331 Đ36.6, Đ36.11).

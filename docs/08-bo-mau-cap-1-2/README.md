@@ -117,18 +117,18 @@ Không cần: Mẫu 02, 03, 05, 07; ý kiến chuyên môn (Đ21.5 chỉ cấp 4
 
 ## 5. Lịch trong năm
 
-Lịch cho năm vận hành ổn định. Năm đầu (dữ liệu mẫu): QĐ phân công 01/10/2026 → Quy chế 05/10 → hồ sơ 12/10 → Mẫu 01 15/10 → biên bản 22/10 → QĐ phê duyệt 26/10 → báo cáo chủ quản 27/10 → kế hoạch năm 2027 ngày 15/11 → báo cáo năm 2026 trước 20/12 và 25/12.
+Lịch cho năm vận hành ổn định, khớp [kế hoạch mẫu 09](09-ke-hoach-anm-nam.md) (tháng chỉ là gợi ý). Năm đầu (dữ liệu mẫu): QĐ phân công 01/10/2026 → Quy chế 05/10 → hồ sơ 12/10 → Mẫu 01 15/10 → biên bản 22/10 → QĐ phê duyệt 26/10 → báo cáo chủ quản 27/10 → kế hoạch năm 2027 ngày 15/11 → báo cáo năm 2026 trước 20/12 và 25/12.
 
 | Tháng | Việc | Căn cứ | Phụ trách |
 |---|---|---|---|
 | Hằng tháng | Vá máy người dùng; vô hiệu tài khoản không hoạt động 45 ngày; theo dõi cảnh báo | TCVN mục 3.6, 3.7 / 4.6, 4.7 | Đơn vị vận hành |
-| 1 | Triển khai kế hoạch năm; cập nhật danh mục HTTT, tài sản, nhà cung cấp | TCVN mục 3.2, 3.14 / 4.2, 4.14 | Đơn vị vận hành |
-| 3 | Đào tạo nâng cao nhận thức ANM cho toàn bộ nhân viên (tối thiểu 01 lần/năm) | NĐ 331 Đ31.3; TCVN mục 3.13.2.2 / 4.13.2.2 | Đơn vị chuyên trách |
-| 5 | Diễn tập ứng phó sự cố (tabletop); cập nhật quy trình sự cố, đầu mối liên hệ | Đ31.3; TCVN mục 3.15 / 4.15 | Đơn vị chuyên trách |
-| 6 | Rà quét lỗ hổng; khôi phục thử bản sao lưu | TCVN mục 3.7, 3.11 / 4.7, 4.11 | Đơn vị vận hành, chuyên trách phối hợp |
-| 8 | Rà soát tài khoản, phân quyền, nhật ký; cập nhật sơ đồ mạng | TCVN mục 3.4, 3.6, 3.8, 3.12 / 4.4, 4.6, 4.8, 4.12 | Đơn vị vận hành |
-| 9 | Tự đánh giá độc lập theo checklist; đánh giá hiệu quả biện pháp | Đ28.5.a, Đ31.2.c, Đ33.3 | Đơn vị chuyên trách (độc lập với vận hành) |
-| 10 | Đánh giá lại rủi ro; rà soát Quy chế; xem xét xác định lại cấp độ nếu có thay đổi | Đ10.2.b–c, Đ25; TCVN mục 3.1 / 4.1 | Đơn vị vận hành, chuyên trách |
+| 3 | Rà soát, đánh giá lại rủi ro; kiểm kê tài sản, rà thiết bị lạ, phần mềm trái phép | Đ10; TCVN mục 3.1–3.4 / 4.1–4.4 | Đơn vị vận hành, chuyên trách phối hợp |
+| 4 | Đào tạo nâng cao nhận thức ANM cho toàn bộ nhân viên (tối thiểu 01 lần/năm); rà soát tài khoản, phân quyền | NĐ 331 Đ31.3; TCVN mục 3.13.2.2 / 4.13.2.2; 3.6 / 4.6 | Đơn vị chuyên trách; đơn vị vận hành |
+| 5 | Rà quét lỗ hổng | Đ32.5; TCVN mục 3.7 / 4.7 | Đơn vị chuyên trách, vận hành phối hợp |
+| 6 | Rà soát nhật ký; khôi phục thử bản sao lưu | TCVN mục 3.8, 3.11 / 4.8, 4.11 | Đơn vị chuyên trách; đơn vị vận hành |
+| 7 | Cập nhật danh sách, phân loại nhà cung cấp | TCVN mục 3.14 / 4.14 | Đơn vị vận hành |
+| 9 | Diễn tập ứng phó sự cố (tabletop); cập nhật quy trình sự cố, đầu mối liên hệ | Đ31.3; TCVN mục 3.15 / 4.15 | Đơn vị chuyên trách |
+| 10–11 | Tự đánh giá độc lập theo checklist; đánh giá hiệu quả biện pháp; rà soát Quy chế, quy trình, sơ đồ mạng; xem xét xác định lại cấp độ nếu có thay đổi | Đ28.5.a, Đ31.2.c, Đ33.3; Đ10.2.b–c, Đ25; TCVN mục 3.12 / 4.12 | Đơn vị chuyên trách (độc lập với vận hành), đơn vị vận hành |
 | 11 | Lập, trình kế hoạch ANM năm sau | Luật 116 Đ10.1 | Đơn vị chuyên trách |
 | 12 | Chốt số liệu 14/12; báo cáo nội bộ trước 20/12; chủ quản gửi Bộ Công an trước 25/12 | Đ35.3, Đ35.4 | Chuyên trách, vận hành, chủ quản |
 | Khi phát sinh | Sự cố: thông báo ban đầu sự cố nghiêm trọng 24 giờ, báo cáo 72 giờ; vi phạm DLCN: thông báo 72 giờ; thay đổi hệ thống: đánh giá rủi ro | Đ31.2.d; Luật 91 Đ23.1; Đ10.2.b–đ | Đầu mối sự cố |
@@ -179,7 +179,7 @@ Ghi chú: Đ23.1.b–d (không xây dựng hồ sơ, đưa vào vận hành khi 
 
 ## 8. Dữ liệu mẫu
 
-Các file trong bộ được điền sẵn bằng một kịch bản **giả lập** để bản Word dễ hình dung. Chỉ tên **Công ty cổ phần Giải pháp Công nghệ TURBO** là thật; họ tên, phòng ban, số văn bản, địa chỉ, email (`example.vn`), địa chỉ IP (`192.0.2.0/24`, dải riêng `10.x`) và mọi số liệu đều mô phỏng, không phản ánh thực tế. Giá trị mẫu của bộ nằm trong `tools/md2docx/du-lieu-mau.json`, mục `_theo_thu_muc` (khóa chung của thư mục này) và `_theo_file` (khóa riêng từng văn bản). Không đưa dữ liệu thật lên repo công khai.
+Các file trong bộ được điền sẵn bằng một kịch bản **giả lập** để bản Word dễ hình dung. Chỉ tên **Công ty cổ phần Giải pháp Công nghệ TURBO** là thật; họ tên, phòng ban, số văn bản, địa chỉ, email (`example.vn`), địa chỉ IP (`192.0.2.0/24`, dải riêng `10.x`) và mọi số liệu đều mô phỏng, không phản ánh thực tế. Giá trị mẫu của bộ nằm trong `tools/md2docx/du-lieu-mau.json`, mục `_theo_file` (khóa riêng từng văn bản, dạng `08-bo-mau-cap-1-2/<tên file>`); khóa nào không khai ở đó sẽ lấy khóa chung (đang mang kịch bản cấp 3). Không đưa dữ liệu thật lên repo công khai.
 
 **Hệ thống thông tin** (một hồ sơ gồm nhiều HTTT — NĐ 331 Đ22.4.a; khoảng 120 nhân viên; máy chủ tại phòng máy trụ sở, Tầng 3):
 
@@ -205,7 +205,7 @@ Thư điện tử dùng dịch vụ đám mây: nếu máy chủ đặt ở nư�
 | 06 Biên bản thẩm định | 01/2026/BB-PANM | 22/10/2026 | Trưởng phòng An ninh mạng |
 | 07 QĐ phê duyệt cấp độ | 03/2026/QĐ-PANM | 26/10/2026 | Trưởng phòng An ninh mạng (theo QĐ 40/2026) |
 | 07 kèm: Báo cáo chủ quản | 04/2026/BC-PANM | 27/10/2026 | Trưởng phòng An ninh mạng |
-| 09 Kế hoạch ANM năm 2027 | 52/2026/KH-TURBO | 15/11/2026 | Tổng Giám đốc |
+| 09 Kế hoạch ANM năm 2027 | 52/2026/KH-TURBO | 16/11/2026 | Tổng Giám đốc |
 | Báo cáo năm (Mẫu 08) | — | nội bộ trước 20/12; gửi Bộ Công an trước 25/12 | Chủ quản |
 
 ## 9. Điểm cần lưu ý

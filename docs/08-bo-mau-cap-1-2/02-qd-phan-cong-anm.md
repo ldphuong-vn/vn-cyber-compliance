@@ -120,7 +120,7 @@
 
 1. {{C12_NGUOI_PHU_TRACH_TAI_SAN}} chịu trách nhiệm lập, cập nhật danh mục tài sản phần cứng, phần mềm, tài sản thông tin; quản lý tài khoản và quyền truy cập của các hệ thống thông tin nêu tại Phụ lục; tổ chức kiểm kê, rà soát tối thiểu 01 lần/năm.
 
-2. Nhân sự vận hành, quản trị hệ thống và bảo vệ an ninh mạng phải ký cam kết bảo mật thông tin trong quá trình làm việc và sau khi nghỉ việc. {{TEN_DON_VI_CHUYEN_TRACH_ANM}} hoạt động độc lập về chuyên môn với {{TEN_DON_VI_VAN_HANH}} và báo cáo trực tiếp {{CHUC_DANH_NGUOI_DUNG_DAU}}.
+2. Nhân sự vận hành, quản trị hệ thống và bảo vệ an ninh mạng phải ký cam kết bảo mật thông tin, có hiệu lực cả trong thời gian làm việc và sau khi nghỉ việc. {{TEN_DON_VI_CHUYEN_TRACH_ANM}} hoạt động độc lập về chuyên môn với {{TEN_DON_VI_VAN_HANH}} và báo cáo trực tiếp {{CHUC_DANH_NGUOI_DUNG_DAU}}.
 
 3. {{DON_VI_NHAN_SU}} thông báo cho {{TEN_DON_VI_VAN_HANH}} và {{TEN_DON_VI_CHUYEN_TRACH_ANM}} ngay khi người lao động nghỉ việc hoặc thay đổi công việc để thu hồi thiết bị, thẻ truy cập và vô hiệu hóa quyền truy cập, quyền quản trị.
 
