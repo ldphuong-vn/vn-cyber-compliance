@@ -7,6 +7,7 @@ Kết quả ghi vào templates/<thư mục docs tương ứng>/ (chung thư mụ
 - ma-tran-yeu-cau-theo-cap-do.xlsx   : ma trận 18 nhóm × 5 cấp, ngưỡng định lượng, ánh xạ NĐ 331 ↔ TCVN
 - so-dang-ky-rui-ro.xlsx             : sổ đăng ký rủi ro, Mức rủi ro = Khả năng × Tác động (công thức)
 - ma-tran-raci.xlsx                  : ma trận RACI
+- checklist-cap-1-2.xlsx             : bộ mẫu cấp 1–2: danh mục HTTT, checklist TCVN mục 3/4 (tự lọc theo cấp), tổng hợp, lịch, sổ sự cố, kế hoạch khắc phục
 """
 import json
 import re
@@ -346,6 +347,152 @@ def build_raci():
     save(wb, "04-chinh-sach-quy-trinh/ma-tran-raci.xlsx")
 
 
+# ------------------------------------------------------------------ 5. bộ mẫu cấp 1–2
+def _fmt_sheet(ws, top, last, ncol, landscape=True):
+    ws.freeze_panes = ws.cell(row=top + 1, column=2)
+    ws.auto_filter.ref = f"A{top}:{get_column_letter(ncol)}{last}"
+    ws.print_title_rows = f"{top}:{top}"
+    if landscape:
+        ws.page_setup.orientation = "landscape"
+    ws.page_setup.fitToWidth, ws.page_setup.fitToHeight = 1, 0
+    ws.sheet_properties.pageSetUpPr.fitToPage = True
+
+
+def _result_rules(ws, rng):
+    dv = DataValidation(type="list", formula1='"' + ",".join(KET_QUA) + '"', allow_blank=True)
+    dv.error, dv.errorTitle = "Chọn: Đạt, Một phần, Chưa hoặc N/A", "Giá trị không hợp lệ"
+    ws.add_data_validation(dv)
+    dv.add(rng)
+    for val, color in (("Đạt", "C6EFCE"), ("Một phần", "FFEB9C"), ("Chưa", "FFC7CE"), ("N/A", "D9D9D9")):
+        ws.conditional_formatting.add(rng, CellIsRule(operator="equal", formula=[f'"{val}"'], fill=PatternFill("solid", fgColor=color)))
+
+
+def _log_sheet(wb, name, heading, note, rows, blank=20, widths=None):
+    """Sheet dạng sổ: bảng mẫu từ Markdown + dòng trống tô vàng để điền."""
+    ws = wb.create_sheet(name)
+    top = title(ws, heading, note)
+    last = write_table(ws, top, rows, widths or auto_widths(rows, max_w=40)) - 1
+    for r in range(last + 1, last + 1 + blank):
+        for c in range(len(rows[0])):
+            cell = ws.cell(row=r, column=c + 1)
+            cell.border, cell.fill, cell.alignment, cell.font = BORDER, FILL_INPUT, WRAP, F_BODY
+    _fmt_sheet(ws, top, last + blank, len(rows[0]))
+    return ws
+
+
+def build_cap12():
+    src = DOCS / "08-bo-mau-cap-1-2" / "checklist-cap-1-2.md"
+    tables = {h[:1]: rows for h, rows in md_tables(src)}
+    wb = Workbook()
+    guide = wb.active
+    guide.title = "Hướng dẫn"
+    r = title(guide, "BẢNG TÍNH QUẢN LÝ AN NINH MẠNG — HTTT CẤP ĐỘ 1, CẤP ĐỘ 2", BAN_QUYEN)
+    guide.cell(row=r, column=1, value="Tổ chức (chủ quản)").font = F_BOLD
+    guide.cell(row=r, column=2, value=fill_sample("{{TEN_TO_CHUC}}")).fill = FILL_INPUT
+    r += 1
+    guide.cell(row=r, column=1, value="Cấp độ đánh giá (nhập 1 hoặc 2)").font = F_BOLD
+    lv = guide.cell(row=r, column=2, value=2)
+    lv.fill, lv.border = FILL_INPUT, BORDER
+    dv = DataValidation(type="whole", operator="between", formula1="1", formula2="2")
+    dv.error = "Nhập 1 hoặc 2"
+    guide.add_data_validation(dv)
+    dv.add(lv.coordinate)
+    lv_ref = f"'Hướng dẫn'!$B${r}"
+    r += 2
+    for line in [
+        "1. Sheet 'A. Danh mục HTTT': danh sách hệ thống, cấp độ, tình trạng phê duyệt (nguồn cột 6 Mẫu 08).",
+        "2. Sheet 'B. Checklist': mỗi dòng là một yêu cầu TCVN 14423:2026 (mục 3 cấp 1, mục 4 cấp 2), diễn giải ngắn. "
+        "Cột 'Áp dụng cho cấp đã chọn' tự tính theo ô Cấp độ ở trên. Ô vàng là ô cần điền; cột Kết quả chọn Đạt · Một phần · Chưa · N/A.",
+        "3. Dòng 'Chưa' / 'Một phần': chuyển sang sheet 'E. Kế hoạch khắc phục' (nguồn cột 10–11 Mẫu 08).",
+        "4. Sheet 'Tổng hợp' tự tính theo công thức; % Đạt = Đạt / (Số yêu cầu áp dụng − N/A).",
+        "5. Sheet 'C. Lịch định kỳ', 'D. Sổ sự cố': dùng quanh năm; căn cứ Kế hoạch ANM năm và Quy trình sự cố rút gọn.",
+        "6. Hệ thống nhiều cấp khác nhau: sao chép file, mỗi file một cấp; hoặc thêm cột Kết quả cho từng HTTT.",
+        "Nguồn: docs/08-bo-mau-cap-1-2/checklist-cap-1-2.md. Căn cứ: NĐ 331/2026/NĐ-CP Đ28.5, Đ29, Đ30, Đ31.2.c, Đ33.3, Đ36.",
+    ]:
+        guide.cell(row=r, column=1, value=line).font = F_BODY
+        guide.cell(row=r, column=1).alignment = Alignment(wrap_text=True, vertical="top")
+        guide.merge_cells(start_row=r, start_column=1, end_row=r, end_column=2)
+        guide.row_dimensions[r].height = 32
+        r += 1
+    guide.column_dimensions["A"].width = 60
+    guide.column_dimensions["B"].width = 60
+
+    # A. danh mục
+    rows = [[fill_sample(x) for x in row] for row in tables["A"]]
+    _log_sheet(wb, "A. Danh mục HTTT", "A. DANH MỤC HỆ THỐNG THÔNG TIN", "Hàng mẫu minh họa (dữ liệu mô phỏng) — thay bằng dữ liệu của tổ chức.", rows, blank=10)
+
+    # B. checklist
+    ws = wb.create_sheet("B. Checklist")
+    top = title(ws, "B. CHECKLIST TCVN 14423:2026 MỤC 3 (CẤP 1) VÀ MỤC 4 (CẤP 2)", BAN_QUYEN)
+    src_rows = tables["B"]
+    head = src_rows[0] + ["Áp dụng cho cấp đã chọn", "Kết quả", "Ghi chú, bằng chứng thực tế", "Người phụ trách", "Hạn khắc phục"]
+    write_table(ws, top, [head])
+    i_ap = src_rows[0].index("Áp dụng")
+    col_ap = get_column_letter(i_ap + 1)
+    n0 = len(src_rows[0])
+    row = top + 1
+    for data in src_rows[1:]:
+        for c, v in enumerate(data):
+            cell = ws.cell(row=row, column=c + 1, value=v)
+            cell.font, cell.alignment, cell.border = F_BODY, WRAP, BORDER
+        f = (f'=IF({lv_ref}=1,IF(LEFT({col_ap}{row},6)="chỉ C2","Không","Có"),'
+             f'IF(LEFT({col_ap}{row},6)="chỉ C1","Khuyến nghị","Có"))')
+        cell = ws.cell(row=row, column=n0 + 1, value=f)
+        cell.font, cell.alignment, cell.border = F_BODY, CENTER, BORDER
+        for c in range(n0 + 2, n0 + 6):
+            cell = ws.cell(row=row, column=c)
+            cell.fill, cell.border, cell.alignment, cell.font = FILL_INPUT, BORDER, WRAP, F_BODY
+        row += 1
+    last = row - 1
+    c_ap, c_kq = get_column_letter(n0 + 1), get_column_letter(n0 + 2)
+    _result_rules(ws, f"{c_kq}{top + 1}:{c_kq}{last}")
+    ws.conditional_formatting.add(f"A{top + 1}:{get_column_letter(n0 + 5)}{last}",
+                                  FormulaRule(formula=[f'${c_ap}{top + 1}="Không"'], font=Font(name=FONT, size=11, color="999999")))
+    for c, w in enumerate((11, 20, 52, 11, 11, 13, 30, 11, 11, 28, 16, 12)):
+        ws.column_dimensions[get_column_letter(c + 1)].width = w
+    _fmt_sheet(ws, top, last, n0 + 5)
+    ws.freeze_panes = ws.cell(row=top + 1, column=4)
+
+    # Tổng hợp theo nhóm
+    s = wb.create_sheet("Tổng hợp", 1)
+    r = title(s, "TỔNG HỢP KẾT QUẢ TỰ ĐÁNH GIÁ", "Tự tính từ sheet B theo cấp độ đã chọn ở sheet Hướng dẫn. % Đạt = Đạt / (Áp dụng − N/A).")
+    hd = ["Nhóm", "Số yêu cầu áp dụng", "Đạt", "Một phần", "Chưa", "N/A", "Chưa điền", "% Đạt"]
+    write_table(s, r, [hd])
+    r += 1
+    start = r
+    q = "'B. Checklist'"
+    rg = lambda col: f"{q}!${col}${top + 1}:${col}${last}"
+    groups = list(dict.fromkeys(d[1] for d in src_rows[1:]))
+    for g in groups:
+        vals = [g, f'=COUNTIFS({rg("B")},A{r},{rg(c_ap)},"Có")']
+        vals += [f'=COUNTIFS({rg("B")},A{r},{rg(c_ap)},"Có",{rg(c_kq)},"{k}")' for k in KET_QUA]
+        vals += [f"=B{r}-SUM(C{r}:F{r})", f'=IF(B{r}-F{r}=0,"",C{r}/(B{r}-F{r}))']
+        for c, v in enumerate(vals):
+            cell = s.cell(row=r, column=c + 1, value=v)
+            cell.font, cell.border, cell.alignment = F_BODY, BORDER, WRAP
+        s.cell(row=r, column=8).number_format = "0%"
+        r += 1
+    tot = ["Tổng"] + [f"=SUM({get_column_letter(c)}{start}:{get_column_letter(c)}{r - 1})" for c in range(2, 8)]
+    tot.append(f'=IF(B{r}-F{r}=0,"",C{r}/(B{r}-F{r}))')
+    for c, v in enumerate(tot):
+        cell = s.cell(row=r, column=c + 1, value=v)
+        cell.font, cell.border, cell.fill = F_BOLD, BORDER, FILL_GROUP
+    s.cell(row=r, column=8).number_format = "0%"
+    for c, w in enumerate((34, 12, 9, 10, 9, 9, 10, 9)):
+        s.column_dimensions[get_column_letter(c + 1)].width = w
+
+    # C, D, E
+    _log_sheet(wb, "C. Lịch định kỳ", "C. LỊCH HOẠT ĐỘNG ĐỊNH KỲ", "Tần suất tối thiểu theo TCVN 14423:2026 và NĐ 331; Quy chế của tổ chức có thể quy định dày hơn.",
+               tables["C"], blank=5)
+    _log_sheet(wb, "D. Sổ sự cố", "D. SỔ THEO DÕI SỰ CỐ AN NINH MẠNG",
+               "Hàng đầu là ví dụ mô phỏng. Sự cố nghiêm trọng: thông báo ban đầu 24 giờ, báo cáo 72 giờ (NĐ 331 Đ31.2.d); vi phạm DLCN: 72 giờ (Luật 91 Đ23).",
+               [[fill_sample(x) for x in row] for row in tables["D"]], blank=30)
+    _log_sheet(wb, "E. Kế hoạch khắc phục", "E. KẾ HOẠCH KHẮC PHỤC TỒN TẠI",
+               "Hai cột cuối là nguồn cột 10–11 Mẫu 08 (báo cáo năm, NĐ 331 Đ36).",
+               [[fill_sample(x) for x in row] for row in tables["E"]], blank=30)
+    save(wb, "08-bo-mau-cap-1-2/checklist-cap-1-2.xlsx")
+
+
 def save(wb, rel):
     dest = OUT / rel
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -358,3 +505,4 @@ if __name__ == "__main__":
     build_matrix()
     build_risk_register()
     build_raci()
+    build_cap12()

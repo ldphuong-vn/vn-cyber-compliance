@@ -112,7 +112,7 @@
 
 2. Kênh tiếp nhận báo cáo sự cố nội bộ: {{KENH_BAO_SU_CO_NOI_BO}}. Người chủ chốt (hoặc người dự phòng khi người chủ chốt vắng mặt) làm đầu mối liên hệ với lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an.
 
-3. Đầu mối có trách nhiệm tham mưu {{CHUC_DANH_NGUOI_DUNG_DAU}} thực hiện báo cáo sự cố theo điểm d khoản 2 Điều 31 Nghị định số 331/2026/NĐ-CP (thông báo ban đầu sự cố nghiêm trọng trong 24 giờ; báo cáo nguyên nhân, phạm vi ảnh hưởng, biện pháp khắc phục trong 72 giờ kể từ khi phát hiện); phối hợp với {{NHAN_SU_BVDLCN}} thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân chậm nhất 72 giờ kể từ khi phát hiện (khoản 1 Điều 23 Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15).
+3. Đầu mối có trách nhiệm tham mưu {{CHUC_DANH_NGUOI_DUNG_DAU}} thực hiện báo cáo sự cố theo điểm d khoản 2 Điều 31 Nghị định số 331/2026/NĐ-CP (thông báo ban đầu sự cố nghiêm trọng trong 24 giờ; báo cáo nguyên nhân, phạm vi ảnh hưởng, biện pháp khắc phục trong 72 giờ kể từ khi phát hiện); phối hợp với {{NHAN_SU_BVDLCN}} thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân chậm nhất 72 giờ kể từ khi phát hiện (khoản 1 Điều 23 Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15). Người chủ chốt (hoặc người dự phòng khi người chủ chốt vắng mặt) được ký thừa ủy quyền {{CHUC_DANH_NGUOI_DUNG_DAU}} các báo cáo nhanh sự cố gửi cơ quan có thẩm quyền và báo cáo ngay cho {{CHUC_DANH_NGUOI_DUNG_DAU}} sau khi gửi.
 
 4. Thông tin liên hệ của đầu mối và của các cơ quan, tổ chức hỗ trợ ứng phó sự cố được rà soát, cập nhật tối thiểu 01 lần/năm và ngay khi có thay đổi.
 

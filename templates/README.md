@@ -7,7 +7,7 @@ Toàn bộ mẫu văn bản (Word) và bảng tính (Excel) để **tải về, 
 - **Dữ liệu mẫu:** các chỗ cần điền đã được điền sẵn một hồ sơ **mô phỏng** của Công ty cổ phần Giải pháp Công nghệ TURBO để dễ hình dung, và **tô vàng**. Chỉ tên công ty là thật; họ tên, phòng ban, địa chỉ, số văn bản, số liệu đều giả lập — thay bằng thông tin của tổ chức mình trước khi dùng.
 - **Bản quyền:** các file liên quan TCVN 14423:2026 chỉ tóm lược kèm số mục; khi lập hồ sơ phải đối chiếu bản chính thức (mua tại VSQI).
 
-> Thứ tự thực hiện gợi ý: 5 (tờ trình xin chủ trương, nhân lực, ngân sách) → 4 (quyết định tổ chức, **Quy chế** — phải ban hành trước khi phê duyệt cấp độ, NĐ 331 Đ30.7) → 1 → 2 → 3, rồi báo cáo năm Mẫu 08. Xem [README gốc](../README.md#quy-trình-sử-dụng).
+> Thứ tự thực hiện gợi ý: 5 (tờ trình xin chủ trương, nhân lực, ngân sách) → 4 (quyết định tổ chức, **Quy chế** — phải ban hành trước khi phê duyệt cấp độ, NĐ 331 Đ30.7) → 1 → 2 → 3, rồi báo cáo năm Mẫu 08. Tổ chức chỉ có HTTT cấp độ 1–2: dùng mục 6. Xem [README gốc](../README.md#quy-trình-sử-dụng).
 
 ## 1. Xác định cấp độ
 
@@ -70,6 +70,23 @@ Toàn bộ mẫu văn bản (Word) và bảng tính (Excel) để **tải về, 
 | [to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm.docx](07-to-trinh-lanh-dao/to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm.docx) | Word | Thuê đánh giá, kiểm thử xâm nhập độc lập | Chuyên trách ANM → lãnh đạo | [to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm.md](../docs/07-to-trinh-lanh-dao/to-trinh-thue-dich-vu-danh-gia-kiem-thu-anm.md) |
 | [to-trinh-ke-hoach-dao-tao-dien-tap.docx](07-to-trinh-lanh-dao/to-trinh-ke-hoach-dao-tao-dien-tap.docx) | Word | Kế hoạch, kinh phí đào tạo – diễn tập năm | Chuyên trách ANM → lãnh đạo | [to-trinh-ke-hoach-dao-tao-dien-tap.md](../docs/07-to-trinh-lanh-dao/to-trinh-ke-hoach-dao-tao-dien-tap.md) |
 | [to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.docx](07-to-trinh-lanh-dao/to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.docx) | Word | Tuân thủ bảo vệ dữ liệu cá nhân (DPIA, xuyên biên giới, nhân sự) | Pháp chế → lãnh đạo | [to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.md](../docs/07-to-trinh-lanh-dao/to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.md) |
+
+## 6. Bộ mẫu rút gọn cho HTTT cấp độ 1–2
+
+Dành cho tổ chức chỉ có HTTT cấp độ 1–2 (điển hình doanh nghiệp vừa và nhỏ). Đơn vị chuyên trách ANM tự thẩm định và phê duyệt (NĐ 331 Đ18.1, Đ20.3.a); không dùng Mẫu 02–05, 07. Báo cáo năm dùng [Mẫu 08](02-ho-so-cap-do/mau-08-bao-cao.docx). Hướng dẫn tổng thể: [docs/08-bo-mau-cap-1-2/README.md](../docs/08-bo-mau-cap-1-2/README.md).
+
+| File | Loại | Dùng để | Người ký/lập | Hướng dẫn |
+|---|---|---|---|---|
+| [01-phieu-sang-loc-cap-do.docx](08-bo-mau-cap-1-2/01-phieu-sang-loc-cap-do.docx) | Word | Sàng lọc cấp 1/2, dấu hiệu phải lên cấp 3 | Đơn vị vận hành lập, chuyên trách xác nhận | [01-phieu-sang-loc-cap-do.md](../docs/08-bo-mau-cap-1-2/01-phieu-sang-loc-cap-do.md) |
+| [02-qd-phan-cong-anm.docx](08-bo-mau-cap-1-2/02-qd-phan-cong-anm.docx) | Word | QĐ phân công: chuyên trách thẩm định, phê duyệt; đơn vị vận hành; đầu mối sự cố | Người đứng đầu (chủ quản) | [02-qd-phan-cong-anm.md](../docs/08-bo-mau-cap-1-2/02-qd-phan-cong-anm.md) |
+| [03-quy-che-anm-cap-1-2.docx](08-bo-mau-cap-1-2/03-quy-che-anm-cap-1-2.docx) | Word | QĐ ban hành + Quy chế ANM rút gọn (bảng tham số cấp 1/cấp 2) | Người đứng đầu | [03-quy-che-anm-cap-1-2.md](../docs/08-bo-mau-cap-1-2/03-quy-che-anm-cap-1-2.md) |
+| [04-ho-so-de-xuat-cap-do.docx](08-bo-mau-cap-1-2/04-ho-so-de-xuat-cap-do.docx) | Word | Hồ sơ đề xuất cấp độ gộp: tổng quan, đề xuất cấp độ, phương án ANM, nhiều HTTT | Đơn vị vận hành lập | [04-ho-so-de-xuat-cap-do.md](../docs/08-bo-mau-cap-1-2/04-ho-so-de-xuat-cap-do.md) |
+| [mau-01-de-nghi-tham-dinh-phe-duyet.docx](08-bo-mau-cap-1-2/mau-01-de-nghi-tham-dinh-phe-duyet.docx) | Word | Mẫu 01 NĐ 331 — đề nghị thẩm định, phê duyệt | Đơn vị vận hành → chuyên trách ANM | [mau-01-de-nghi-tham-dinh-phe-duyet.md](../docs/08-bo-mau-cap-1-2/mau-01-de-nghi-tham-dinh-phe-duyet.md) |
+| [06-bien-ban-tham-dinh.docx](08-bo-mau-cap-1-2/06-bien-ban-tham-dinh.docx) | Word | Biên bản thẩm định nội bộ (thay Mẫu 04, không bắt buộc với cấp 1–2) | Đơn vị chuyên trách ANM | [06-bien-ban-tham-dinh.md](../docs/08-bo-mau-cap-1-2/06-bien-ban-tham-dinh.md) |
+| [07-qd-phe-duyet-cap-do.docx](08-bo-mau-cap-1-2/07-qd-phe-duyet-cap-do.docx) | Word | QĐ phê duyệt cấp độ do đơn vị chuyên trách ban hành + báo cáo chủ quản | Đơn vị chuyên trách ANM | [07-qd-phe-duyet-cap-do.md](../docs/08-bo-mau-cap-1-2/07-qd-phe-duyet-cap-do.md) |
+| [08-quy-trinh-su-co-rut-gon.docx](08-bo-mau-cap-1-2/08-quy-trinh-su-co-rut-gon.docx) | Word | Quy trình sự cố 6 bước, mốc 24h/72h, mẫu báo cáo nhanh | Chuyên trách ANM | [08-quy-trinh-su-co-rut-gon.md](../docs/08-bo-mau-cap-1-2/08-quy-trinh-su-co-rut-gon.md) |
+| [09-ke-hoach-anm-nam.docx](08-bo-mau-cap-1-2/09-ke-hoach-anm-nam.docx) | Word | Kế hoạch ANM năm: rà soát định kỳ, đào tạo, diễn tập, tự đánh giá, báo cáo | Người đứng đầu | [09-ke-hoach-anm-nam.md](../docs/08-bo-mau-cap-1-2/09-ke-hoach-anm-nam.md) |
+| [checklist-cap-1-2.xlsx](08-bo-mau-cap-1-2/checklist-cap-1-2.xlsx) | Excel | Danh mục HTTT, checklist TCVN mục 3/4 tự lọc theo cấp, tổng hợp, lịch, sổ sự cố, kế hoạch khắc phục | — | [checklist-cap-1-2.md](../docs/08-bo-mau-cap-1-2/checklist-cap-1-2.md) |
 
 ## Cập nhật bộ mẫu
 

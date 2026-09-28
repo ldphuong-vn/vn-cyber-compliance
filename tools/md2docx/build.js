@@ -244,8 +244,16 @@ function columnWidths(rows, total, size) {
   const charTw = size * 11;           // ~ bề rộng trung bình 1 ký tự Times New Roman (twip)
   const pad = 200;                    // lề trong ô + đường kẻ
   const tw = (chars) => Math.ceil(chars * charTw) + pad;
+  // Giá trị mẫu dạng mảng: ước lượng theo đúng phần tử mà từng ô sẽ nhận (đọc theo hàng), không chỉ phần tử đầu.
+  const seen = {};
+  const texts = rows.map((r) => r.map((c) => plain((c || "").replace(/\{\{([A-Za-z0-9_]+)\}\}/g, (m, k) => {
+    const v = SAMPLE[k];
+    if (!Array.isArray(v)) return m;
+    const i = (USED[k] || 0) + (seen[k] = (seen[k] || 0) + 1) - 1;
+    return String(v[Math.min(i, v.length - 1)]);
+  }))));
   const cols0 = Array.from({ length: n }, (_, j) => {
-    const cells = rows.map((r) => plain(r[j] || ""));
+    const cells = texts.map((r) => r[j] || "");
     const head = cells[0] || "";
     const body = cells.slice(1);
     const words = (c) => c.split(/\s+/).map((x) => x.length);
