@@ -93,6 +93,7 @@ Bản Word/Excel được sinh bằng `tools/md2docx` và `tools/md2xlsx` vào `
 | [08-quy-trinh-su-co-rut-gon.md](08-quy-trinh-su-co-rut-gon.md) | [.docx](../../templates/08-bo-mau-cap-1-2/08-quy-trinh-su-co-rut-gon.docx) | Quy trình sự cố, mẫu báo cáo 24 giờ/72 giờ, vi phạm DLCN 72 giờ | Đ31.2.d; Luật 91 Đ23 | Đơn vị chuyên trách |
 | [09-ke-hoach-anm-nam.md](09-ke-hoach-anm-nam.md) | [.docx](../../templates/08-bo-mau-cap-1-2/09-ke-hoach-anm-nam.docx) | Đào tạo, tuyên truyền, diễn tập, tự đánh giá, rà soát định kỳ, lịch báo cáo | Luật 116 Đ10.1; Đ28.5, Đ31.2.c, Đ31.3, Đ33.3 | Người đứng đầu chủ quản |
 | [checklist-cap-1-2.md](checklist-cap-1-2.md) | [.xlsx](../../templates/08-bo-mau-cap-1-2/checklist-cap-1-2.xlsx) | Checklist TCVN mục 3/4, danh mục HTTT, lịch định kỳ, sổ sự cố, kế hoạch khắc phục | TCVN mục 3, 4; Đ33.3 | — |
+| [bao-ve-du-lieu-ca-nhan-cap-1-2.md](bao-ve-du-lieu-ca-nhan-cap-1-2.md) | — | Bảo vệ dữ liệu cá nhân với tổ chức có HTTT cấp 1–2: nghĩa vụ không ai được miễn, miễn trừ DN nhỏ, dữ liệu nhân sự nhạy cảm, cloud, 10 việc nên làm | Luật 91; NĐ 356; NĐ 330 Mục 6 | — |
 | [Mẫu 08 (bộ đầy đủ)](../02-ho-so-cap-do/mau-08-bao-cao.md) | [.docx](../../templates/02-ho-so-cap-do/mau-08-bao-cao.docx) | Báo cáo năm — dùng mẫu hiện có, không tạo file mới | Đ35, Đ36 | Chủ quản |
 
 Số thứ tự 05 là Mẫu 01 (giữ tên `mau-01-…` để công cụ xuất Word nhận diện đúng biểu mẫu nguyên văn).
