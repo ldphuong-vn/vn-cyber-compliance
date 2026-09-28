@@ -275,7 +275,7 @@ Each violation is sanctioned separately; do **not** add fines into one "total ri
 | Head of the owner directs and is accountable for cybersecurity | Art. 31.1(a) Decree 331 | — (management responsibility) | From 19/8/2026 |
 | Designated unit or staff; implementation, supervision, inspection | Art. 31.1(b)–(c), 32 Decree 331 | VND 60–100 million (Art. 23.2(c) Decree 330) | Before dossier appraisal |
 | Cybersecurity regulation issued before dossier approval | Art. 30.7 Decree 331 | VND 40–60 million (Art. 23.1(a)) | Before approval date |
-| Prepare level dossier; organize appraisal and approval | Art. 20, 31.2(a) Decree 331 | VND 40–60 million (Art. 23.1(b), 24.1) | IS in operation without a level: from 19/8/2026 [TO VERIFY]; IS under investment before 01/7/2026: 06 months from 01/7/2026 (Art. 39.1) |
+| Prepare level dossier; organize appraisal and approval | Art. 20, 31.2(a) Decree 331 | VND 40–60 million (Art. 24.1; for Levels 3–5, not preparing the dossier: Art. 23.1(b)) | IS in operation without a level: from 19/8/2026 [TO VERIFY]; IS under investment before 01/7/2026: 06 months from 01/7/2026 (Art. 39.1) |
 | No Level 3–5 IS in operation without level approval | Art. 30.6 Decree 331 | VND 40–60 million (Art. 23.1(c)) | Before go-live |
 | Fully implement approved measures (Level 3–5) | Art. 30.6 Decree 331; Art. 45.1 Law 116 | VND 40–60 million (Art. 23.1(d)) | 12 months from 01/7/2026, **only** for IS classified under Law 86/2015 or under investment before 01/7/2026 |
 | Compliance checks, logs, effectiveness assessment | Art. 27, 28.5, 31.2(c) Decree 331 | VND 60–100 million (Art. 23.2(a)) | Periodic by level and risk |

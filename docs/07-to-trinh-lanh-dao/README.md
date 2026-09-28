@@ -6,7 +6,7 @@ Bộ **mẫu tờ trình nội bộ** giúp bộ phận IT, an ninh mạng (ANM)
 
 > **Lưu ý:**
 > - Tờ trình là **văn bản nội bộ** của doanh nghiệp (phòng ban trình ban lãnh đạo), không phải hồ sơ gửi cơ quan nhà nước. Bố cục theo thể thức văn bản hành chính phổ biến; doanh nghiệp điều chỉnh theo quy chế văn thư nội bộ. **[CẦN ĐỐI CHIẾU]** NĐ 30/2020/NĐ-CP về công tác văn thư không có trong bộ nguồn của repo.
-> - Bản Word điền sẵn dữ liệu mẫu (tô vàng) sẽ nằm trong `templates/07-to-trinh-lanh-dao/`. Thư mục này **sẽ được sinh sau** bằng công cụ [`tools/md2docx`](../../tools/md2docx/README.md).
+> - Bản Word điền sẵn dữ liệu mẫu (tô vàng) nằm trong [`templates/07-to-trinh-lanh-dao/`](../../templates/07-to-trinh-lanh-dao/), sinh bằng công cụ [`tools/md2docx`](../../tools/md2docx/README.md).
 > - Đây là tài liệu tham khảo, không phải ý kiến pháp lý. Trước khi trình, đối chiếu lại văn bản gốc và các điểm còn mở tại [`../00-tong-quan/diem-can-doi-chieu.md`](../00-tong-quan/diem-can-doi-chieu.md).
 
 ## 1. Danh mục tờ trình
@@ -50,7 +50,7 @@ Mức phạt dưới đây là mức áp dụng cho **tổ chức**. Trong NĐ 3
 | Người đứng đầu chủ quản trực tiếp chỉ đạo, chịu trách nhiệm trước pháp luật về bảo vệ ANM | NĐ 331 Đ31.1.a | — (trách nhiệm quản lý) | Từ 19/8/2026 (NĐ 331 Đ38) |
 | Bố trí bộ phận/nhân sự chuyên trách ANM; tổ chức thực thi, đôn đốc, kiểm tra | NĐ 331 Đ31.1.b–c, Đ32 | 60–100 triệu đồng (NĐ 330 Đ23.2.c) | Trước khi thẩm định hồ sơ cấp độ |
 | Ban hành Quy chế bảo đảm ANM trước khi phê duyệt hồ sơ cấp độ | NĐ 331 Đ30.7 | 40–60 triệu đồng (NĐ 330 Đ23.1.a) | Trước ngày phê duyệt hồ sơ |
-| Lập hồ sơ đề xuất cấp độ; tổ chức thẩm định, phê duyệt | NĐ 331 Đ20, Đ31.2.a | 40–60 triệu đồng (NĐ 330 Đ23.1.b, Đ24.1) | HTTT đang vận hành chưa có cấp độ: từ 19/8/2026 **[CẦN ĐỐI CHIẾU]**; HTTT đang đầu tư trước 01/7/2026: 06 tháng kể từ 01/7/2026 (NĐ 331 Đ39.1) |
+| Lập hồ sơ đề xuất cấp độ; tổ chức thẩm định, phê duyệt | NĐ 331 Đ20, Đ31.2.a | 40–60 triệu đồng (NĐ 330 Đ24.1; riêng không lập hồ sơ cấp 3–5: Đ23.1.b) | HTTT đang vận hành chưa có cấp độ: từ 19/8/2026 **[CẦN ĐỐI CHIẾU]**; HTTT đang đầu tư trước 01/7/2026: 06 tháng kể từ 01/7/2026 (NĐ 331 Đ39.1) |
 | Không đưa HTTT cấp 3–5 vào vận hành khi chưa được phê duyệt cấp độ | NĐ 331 Đ30.6 | 40–60 triệu đồng (NĐ 330 Đ23.1.c) | Trước khi vận hành |
 | Triển khai đầy đủ biện pháp theo hồ sơ đã phê duyệt (cấp 3–5) | NĐ 331 Đ30.6; Luật 116 Đ45.1 | 40–60 triệu đồng (NĐ 330 Đ23.1.d) | 12 tháng kể từ 01/7/2026, **chỉ** với HTTT đã có cấp độ theo Luật 86/2015 hoặc đang đầu tư trước 01/7/2026 (Luật 116 Đ45.1; NĐ 331 Đ39.1) |
 | Kiểm tra, giám sát tuân thủ; lưu nhật ký; đánh giá hiệu quả biện pháp | NĐ 331 Đ27, Đ28.5, Đ31.2.c | 60–100 triệu đồng (NĐ 330 Đ23.2.a) | Định kỳ theo cấp độ và rủi ro |
