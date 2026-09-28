@@ -89,6 +89,8 @@ const TARGETS = [
     "01-phieu-sang-loc-cap-do", "02-qd-phan-cong-anm", "03-quy-che-anm-cap-1-2", "04-ho-so-de-xuat-cap-do",
     "mau-01-de-nghi-tham-dinh-phe-duyet", "06-bien-ban-tham-dinh", "07-qd-phe-duyet-cap-do",
     "08-quy-trinh-su-co-rut-gon", "09-ke-hoach-anm-nam",
+    "10-thong-bao-xu-ly-dlcn-nguoi-lao-dong", "11-thong-bao-xu-ly-dlcn-ung-vien", "12-phieu-dong-y-xu-ly-dlcn",
+    "13-quy-trinh-yeu-cau-chu-the-du-lieu", "15-phu-luc-hop-dong-bvdlcn", "16-bien-bao-camera",
   ].map((f) => `docs/08-bo-mau-cap-1-2/${f}.md`),
 ];
 

@@ -490,6 +490,10 @@ def build_cap12():
     _log_sheet(wb, "E. Kế hoạch khắc phục", "E. KẾ HOẠCH KHẮC PHỤC TỒN TẠI",
                "Hai cột cuối là nguồn cột 10–11 Mẫu 08 (báo cáo năm, NĐ 331 Đ36).",
                [[fill_sample(x) for x in row] for row in tables["E"]], blank=30)
+    if "F" in tables:
+        _log_sheet(wb, "F. Kiểm kê DLCN", "F. KIỂM KÊ DỮ LIỆU CÁ NHÂN",
+                   "Hàng mẫu mô phỏng. Nhạy cảm theo NĐ 356 Đ4.1; dùng làm đầu vào cho DPIA, hồ sơ chuyển xuyên biên giới và xác định miễn trừ DN nhỏ (Luật 91 Đ38).",
+                   [[fill_sample(x) for x in row] for row in tables["F"]], blank=20)
     save(wb, "08-bo-mau-cap-1-2/checklist-cap-1-2.xlsx")
 
 
