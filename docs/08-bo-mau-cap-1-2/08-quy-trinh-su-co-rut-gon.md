@@ -32,58 +32,52 @@
 
 <p align="center"><b>QUY TRÌNH ỨNG PHÓ SỰ CỐ AN NINH MẠNG</b><br/><b>ÁP DỤNG CHO HỆ THỐNG THÔNG TIN CẤP ĐỘ 1, CẤP ĐỘ 2</b><br/><i>(Ban hành kèm theo Quyết định số {{C12_SO_QD_QUY_CHE}} ngày {{C12_NGAY_QD_QUY_CHE}} của {{TEN_TO_CHUC}})</i></p>
 
-| Mã quy trình | Phiên bản | Đơn vị chủ trì | Áp dụng cho |
-|---|---|---|---|
-| QT-SC-C12 | {{PHIEN_BAN}} | {{TEN_DON_VI_CHUYEN_TRACH_ANM}} | {{C12_DANH_SACH_HTTT}} |
+Mã: QT-SC-C12 · Phiên bản: {{PHIEN_BAN}} · Chủ trì: {{TEN_DON_VI_CHUYEN_TRACH_ANM}} · Áp dụng: {{C12_DANH_SACH_HTTT}}.
 
-**1. Phạm vi.** Mọi sự cố an ninh mạng (sự việc bất ngờ trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của tổ chức, cá nhân — Luật An ninh mạng Đ2.17) và mọi vi phạm quy định về bảo vệ dữ liệu cá nhân xảy ra trên các hệ thống thông tin nêu trên, kể cả sự cố phát sinh tại nhà cung cấp dịch vụ. **T0** là thời điểm phát hiện sự cố; mọi thời hạn tính từ T0, ghi đến phút.
+**1. Phạm vi.** Mọi sự cố an ninh mạng (Luật An ninh mạng Đ2.17) và vi phạm quy định về bảo vệ dữ liệu cá nhân (DLCN) trên các hệ thống nêu trên, kể cả sự cố phát sinh tại nhà cung cấp dịch vụ. **T0** = thời điểm phát hiện; mọi thời hạn tính từ T0, ghi đến phút.
 
 **2. Vai trò và liên hệ**
 
-| Vai trò | Người / đơn vị | Liên hệ |
+| Vai trò | Người | Liên hệ |
 |---|---|---|
-| Đầu mối chính — chỉ huy ứng phó, phân loại, báo cáo ra ngoài | {{HO_TEN_TRUONG_DON_VI}}, Trưởng {{TEN_DON_VI_CHUYEN_TRACH_ANM}} | {{SDT}} · {{EMAIL}} |
-| Đầu mối dự phòng (thay khi đầu mối chính vắng) | {{HO_TEN_DU_PHONG}}, {{C12_CHUC_DANH_DU_PHONG}} | {{C12_SDT_DU_PHONG}} |
-| Xử lý kỹ thuật: cô lập, khôi phục, vá | {{C12_TRUONG_PHONG_VAN_HANH}}, Trưởng {{TEN_DON_VI_VAN_HANH}} | {{C12_SDT_VAN_HANH}} |
-| Đánh giá tác động DLCN, biên bản, thông báo 72 giờ | {{NHAN_SU_BVDLCN}} | {{C12_EMAIL_BVDLCN}} |
-| Phê duyệt báo cáo, quyết định ngừng dịch vụ | {{HO_TEN_NGUOI_KY}}, {{CHUC_DANH}} | {{DIEN_THOAI}} |
-| Kênh báo sự cố nội bộ (mọi nhân viên) | {{KENH_BAO_SU_CO_NOI_BO}} | Trực: {{SDT_TRUC_24_7}} |
-| Cơ quan chuyên trách của Bộ Công an (nhận báo cáo sự cố) | {{CO_QUAN_CHUYEN_TRACH_BCA}} | {{LIEN_HE_BCA}} |
-| Cơ quan chuyên trách bảo vệ DLCN | Qua Cổng thông tin quốc gia về bảo vệ DLCN | {{LIEN_HE_BVDLCN}} |
-| Nhà cung cấp dịch vụ liên quan | {{C12_NCC_LIEN_QUAN}} | Theo hợp đồng |
+| Đầu mối chính (chỉ huy, báo cáo) | {{HO_TEN_TRUONG_DON_VI}} | {{SDT}}, {{EMAIL}} |
+| Đầu mối dự phòng | {{HO_TEN_DU_PHONG}} | {{C12_SDT_DU_PHONG}} |
+| Xử lý kỹ thuật | {{C12_TRUONG_PHONG_VAN_HANH}} ({{TEN_DON_VI_VAN_HANH}}) | {{C12_SDT_VAN_HANH}} |
+| Bảo vệ DLCN | {{NHAN_SU_BVDLCN}} | {{C12_EMAIL_BVDLCN}} |
+| Phê duyệt báo cáo | {{HO_TEN_NGUOI_KY}}, {{CHUC_DANH}} | {{DIEN_THOAI}} |
+| Báo sự cố nội bộ | Mọi nhân viên | {{KENH_BAO_SU_CO_NOI_BO}} |
+| Bộ Công an | {{CO_QUAN_CHUYEN_TRACH_BCA}} | {{LIEN_HE_BCA}} |
+| Cơ quan bảo vệ DLCN | Cổng thông tin quốc gia về bảo vệ DLCN | {{LIEN_HE_BVDLCN}} |
+| Nhà cung cấp | {{C12_NCC_LIEN_QUAN}} | Theo hợp đồng |
 
-Các phòng, ban có trách nhiệm báo ngay sự việc bất thường qua kênh nội bộ, không tự xử lý, không xóa dữ liệu, và phối hợp theo yêu cầu của đầu mối chính. Danh bạ được xác minh ít nhất mỗi năm một lần và khi có thay đổi.
+Các phòng, ban báo ngay việc bất thường, không tự xử lý, không xóa dữ liệu. Danh bạ được xác minh mỗi năm một lần và khi thay đổi.
 
-**3. Phân nhóm và phân loại**
-
-- Nhóm sự cố: (1) mã độc, mã hóa tống tiền; (2) xâm nhập, chiếm tài khoản; (3) lộ, mất dữ liệu; (4) lừa đảo, giả mạo; (5) gián đoạn dịch vụ; (6) sự cố từ nhà cung cấp; (7) vi phạm nội bộ; (8) khác.
-- **Nghiêm trọng** (tiêu chí nội bộ, thỏa một): chiếm quyền quản trị; dữ liệu bị mã hóa hoặc bị lộ ra ngoài; có DLCN nhạy cảm hoặc DLCN của từ {{C12_NGUONG_CHU_THE}} người trở lên bị ảnh hưởng; hệ thống ngừng quá {{C12_NGUONG_GIAN_DOAN}} giờ. Khi phân vân, xếp mức cao hơn.
-- **Thông thường:** sự cố đã xác nhận nhưng không thuộc trường hợp trên. **Sự kiện:** đã bị chặn tự động, không có tác động — chỉ ghi sổ, tổng hợp vào báo cáo năm.
+**3. Phân loại.** Nhóm: mã độc; xâm nhập, chiếm tài khoản; lộ, mất dữ liệu; lừa đảo, giả mạo; gián đoạn dịch vụ; sự cố từ nhà cung cấp; vi phạm nội bộ; khác. **Nghiêm trọng** (thỏa một): chiếm quyền quản trị; dữ liệu bị mã hóa hoặc lộ ra ngoài; DLCN nhạy cảm hoặc DLCN của từ {{C12_NGUONG_CHU_THE}} người trở lên bị ảnh hưởng; hệ thống ngừng quá {{C12_NGUONG_GIAN_DOAN}} giờ. **Thông thường:** sự cố khác. **Sự kiện:** đã bị chặn, không có tác động — chỉ ghi sổ. Khi phân vân, xếp mức cao hơn.
 
 **4. Các bước xử lý**
 
-| Bước | Việc chính | Thực hiện | Thời hạn |
+| Bước | Việc chính | Người làm | Thời hạn |
 |---|---|---|---|
-| 1. Phát hiện, tiếp nhận | Nhận tin từ người dùng, cảnh báo phần mềm, nhà cung cấp, cơ quan chức năng; ghi T0, mở sổ sự cố | Người phát hiện; đầu mối chính | Ngay |
-| 2. Phân loại | Xác định nhóm, mức (nghiêm trọng/thông thường/sự kiện); có DLCN bị ảnh hưởng không; có dấu hiệu xâm phạm an ninh quốc gia, trật tự, an toàn xã hội hoặc gián đoạn nghiêm trọng không | Đầu mối chính (dự phòng khi vắng); {{NHAN_SU_BVDLCN}} | ≤ {{C12_THOI_HAN_PHAN_LOAI}} từ T0 |
-| 3. Ngăn chặn | Cô lập máy, tài khoản bị ảnh hưởng; đổi mật khẩu; giữ lại nhật ký, bản sao đĩa trước khi cài lại; báo nhà cung cấp nếu liên quan | {{TEN_DON_VI_VAN_HANH}} | Ngay sau bước 2 |
-| 4. Báo cáo | Báo cáo Tổng Giám đốc; gửi cơ quan chuyên trách theo mục 5 bằng Mẫu báo cáo nhanh; DLCN: biên bản xác nhận + Mẫu số 08 NĐ 356 | Đầu mối chính | Theo mục 5 |
-| 5. Khắc phục | Loại bỏ nguyên nhân, vá lỗ hổng, khôi phục từ bản sao lưu sạch, theo dõi tăng cường; gửi báo cáo cập nhật/kết thúc nếu sự cố phức tạp | {{TEN_DON_VI_VAN_HANH}} | Theo mục tiêu khôi phục của từng hệ thống |
-| 6. Rút kinh nghiệm | Họp đánh giá; cập nhật sổ sự cố, kế hoạch khắc phục, quy trình này; sự cố nghiêm trọng: đánh giá lại rủi ro (NĐ 331 Đ10.2.d) | Đầu mối chính | ≤ {{C12_THOI_HAN_RUT_KINH_NGHIEM}} ngày làm việc sau khi khắc phục xong |
+| 1. Phát hiện | Tiếp nhận tin báo, cảnh báo; ghi T0, mở sổ sự cố | Đầu mối chính | Ngay |
+| 2. Phân loại | Nhóm, mức; có DLCN bị ảnh hưởng không; có dấu hiệu xâm phạm an ninh quốc gia, trật tự xã hội hoặc gián đoạn nghiêm trọng không | Đầu mối chính, bảo vệ DLCN | ≤ {{C12_THOI_HAN_PHAN_LOAI}} |
+| 3. Ngăn chặn | Cô lập máy, khóa tài khoản, đổi mật khẩu; giữ nhật ký, bản sao đĩa trước khi cài lại | Xử lý kỹ thuật | Ngay sau bước 2 |
+| 4. Báo cáo | Báo cáo {{CHUC_DANH}}; gửi báo cáo theo mục 5 | Đầu mối chính | Theo mục 5 |
+| 5. Khắc phục | Loại bỏ nguyên nhân, vá, khôi phục từ bản sao lưu sạch, theo dõi tăng cường | Xử lý kỹ thuật | Theo mục tiêu khôi phục |
+| 6. Rút kinh nghiệm | Họp đánh giá; cập nhật sổ sự cố, kế hoạch khắc phục, quy trình; sự cố nghiêm trọng: đánh giá lại rủi ro | Đầu mối chính | ≤ {{C12_THOI_HAN_RUT_KINH_NGHIEM}} ngày làm việc |
 
-**5. Thời hạn báo cáo ra bên ngoài**
+**5. Báo cáo ra bên ngoài**
 
-| Trường hợp | Thời hạn (từ T0) | Gửi | Căn cứ |
+| Trường hợp | Thời hạn | Gửi | Căn cứ |
 |---|---|---|---|
-| Có dấu hiệu xâm phạm an ninh quốc gia, trật tự, an toàn xã hội hoặc gián đoạn nghiêm trọng hệ thống | Ngay khi phát hiện | Cơ quan chuyên trách của Bộ Công an | NĐ 331 Đ31.2.d |
-| Sự cố nghiêm trọng — thông báo ban đầu | ≤ 24 giờ | Như trên | NĐ 331 Đ31.2.d |
-| Mọi sự cố — báo cáo nguyên nhân, phạm vi ảnh hưởng, biện pháp khắc phục (phức tạp: sơ bộ → cập nhật → kết thúc) | ≤ 72 giờ | Như trên | NĐ 331 Đ31.2.d; Luật An ninh mạng Đ40.1.c |
-| Vi phạm DLCN có thể gây tổn hại cho chủ thể dữ liệu hoặc quốc phòng, an ninh | ≤ 72 giờ, kèm biên bản xác nhận | Cơ quan chuyên trách bảo vệ DLCN (Mẫu số 08 NĐ 356) | Luật Bảo vệ DLCN Đ23; NĐ 356 Đ28 |
-| Tổng hợp sự cố trong năm | Trước 20/12 (nội bộ); trước 25/12 (Bộ Công an) | Chủ quản; Bộ Công an | NĐ 331 Đ35.4 |
+| Dấu hiệu xâm phạm an ninh quốc gia, trật tự, an toàn xã hội hoặc gián đoạn nghiêm trọng | Ngay | Bộ Công an | NĐ 331 Đ31.2.d |
+| Sự cố nghiêm trọng: thông báo ban đầu | ≤ 24 giờ | Bộ Công an | NĐ 331 Đ31.2.d |
+| Mọi sự cố: nguyên nhân, phạm vi, biện pháp khắc phục (phức tạp: sơ bộ, cập nhật, kết thúc) | ≤ 72 giờ | Bộ Công an | NĐ 331 Đ31.2.d; Luật 116 Đ40.1.c |
+| Vi phạm DLCN có thể gây tổn hại: thông báo (Mẫu số 08 NĐ 356) + biên bản xác nhận | ≤ 72 giờ | Cơ quan bảo vệ DLCN | Luật 91 Đ23; NĐ 356 Đ28 |
+| Tổng hợp sự cố trong năm (Mẫu 08 NĐ 331) | 20/12; 25/12 | Chủ quản; Bộ Công an | NĐ 331 Đ35.4 |
 
-Hai mốc 72 giờ (an ninh mạng và DLCN) cùng tính từ khi phát hiện nhưng gửi hai nơi khác nhau: dùng một bộ dữ kiện chung trong Mẫu báo cáo nhanh để lập cả hai văn bản.
+Hai mốc 72 giờ cùng tính từ T0 nhưng gửi hai nơi: dùng chung dữ kiện của Mẫu báo cáo nhanh.
 
-**6. Lưu hồ sơ.** Sổ sự cố, báo cáo đã gửi và bằng chứng gửi (email, phiếu nhận), biên bản xác nhận vi phạm DLCN, biên bản rút kinh nghiệm được lưu tại {{TEN_DON_VI_CHUYEN_TRACH_ANM}} tối thiểu {{THOI_GIAN_LUU_HO_SO_SU_CO}}. Quy trình được rà soát ít nhất mỗi năm một lần, sau mỗi sự cố nghiêm trọng và sau mỗi lần diễn tập.
+**6. Lưu hồ sơ.** Sổ sự cố, báo cáo và bằng chứng đã gửi, biên bản xác nhận vi phạm DLCN, biên bản rút kinh nghiệm lưu tại {{TEN_DON_VI_CHUYEN_TRACH_ANM}} tối thiểu {{THOI_GIAN_LUU_HO_SO_SU_CO}}. Quy trình được rà soát mỗi năm, sau sự cố nghiêm trọng và sau diễn tập.
 
 ---
 

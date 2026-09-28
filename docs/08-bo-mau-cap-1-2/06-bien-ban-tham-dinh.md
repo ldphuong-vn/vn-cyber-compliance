@@ -20,7 +20,7 @@
 
 *Căn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống thông tin;*
 
-*Căn cứ Quyết định số {{C12_SO_QD_PHAN_CONG}} ngày {{C12_NGAY_QD_PHAN_CONG}} về phân công nhiệm vụ bảo đảm an ninh mạng đối với hệ thống thông tin cấp độ 1, cấp độ 2;*
+*Căn cứ Quyết định số {{C12_SO_QD_PHAN_CONG}} ngày {{C12_NGAY_QD_PHAN_CONG}} về phân công nhiệm vụ bảo đảm an ninh mạng đối với các hệ thống thông tin cấp độ 1, cấp độ 2;*
 
 *Căn cứ Quy chế bảo đảm an ninh mạng ban hành kèm theo Quyết định số {{C12_SO_QD_QUY_CHE}} ngày {{C12_NGAY_QD_QUY_CHE}};*
 
@@ -79,7 +79,7 @@ Biên bản kết thúc vào hồi {{C12_GIO_KET_THUC}} cùng ngày, được l�
 | {{C12_TD_HO_TEN}} | {{C12_TD_VAI_TRO}} | |
 | {{C12_TD_HO_TEN}} | {{C12_TD_VAI_TRO}} | |
 
-| *Nơi nhận:*<br/>- {{TEN_DON_VI_VAN_HANH}};<br/>- {{NOI_NHAN_KHAC}} | **{{C12_CHUC_DANH_KY_IN_HOA}}**<br/>*(Chủ trì thẩm định; ký, ghi rõ họ tên)*<br/><br/><br/>{{HO_TEN_NGUOI_KY}} |
+| *Nơi nhận:*<br/>- {{TEN_DON_VI_VAN_HANH}};<br/>- {{NOI_NHAN_KHAC}} | **TRƯỞNG PHÒNG AN NINH MẠNG**<br/>*(Chủ trì thẩm định; ký, ghi rõ họ tên)*<br/><br/><br/>{{HO_TEN_NGUOI_KY}} |
 |:---|:---:|
 
 ---
@@ -95,7 +95,7 @@ Biên bản kết thúc vào hồi {{C12_GIO_KET_THUC}} cùng ngày, được l�
   - (c) phương án vận hành mô tả cho **từng yêu cầu** (Đ22.6), có người thực hiện, tần suất, bằng chứng.
 - **Bảng kết quả:** cột "Kết luận" ghi "Phù hợp cấp độ …" hoặc "Chưa phù hợp — …". Cột "Yêu cầu" ghi mã mục TCVN và hạn khắc phục; không có thì ghi "Không".
 - **Mục IV:** phân biệt (1) nội dung **chưa phù hợp** làm hồ sơ không thể phê duyệt (sai cấp, thiếu thành phần, phương án bỏ trống yêu cầu) — phải trả hồ sơ và chỉ rõ nội dung; với (2) **tồn tại triển khai** của HTTT đang vận hành — có thể phê duyệt kèm lộ trình khắc phục ghi trong QĐ. Nếu phát hiện dấu hiệu cấp 3 trở lên → kết luận chưa phù hợp, chuyển sang bộ đầy đủ ([../02-ho-so-cap-do/](../02-ho-so-cap-do/)).
-- **Ký:** bảng chữ ký cho mọi thành phần; người chủ trì ký ở khối cuối. Đơn vị không có con dấu thì không đóng dấu **[CẦN ĐỐI CHIẾU]** quy định nội bộ về con dấu.
+- **Ký:** bảng chữ ký cho mọi thành phần; người chủ trì ký ở khối cuối (sửa chức danh "TRƯỞNG PHÒNG AN NINH MẠNG" nếu đơn vị/Hội đồng khác chủ trì theo Đ18.4). Đơn vị không có con dấu thì không đóng dấu **[CẦN ĐỐI CHIẾU]** quy định nội bộ về con dấu.
 - Thời hạn thẩm định cấp 1–2: NĐ 331 không quy định (Đ23.3 chỉ quy định cấp 3: 15 ngày, cấp 4–5: 25 ngày làm việc) → theo Quy chế nội bộ (gợi ý 10 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ).
 
 ## Checklist thẩm định

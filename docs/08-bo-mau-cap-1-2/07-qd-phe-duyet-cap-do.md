@@ -29,7 +29,7 @@ File gồm hai văn bản, cùng do Trưởng phòng An ninh mạng ký:
 
 *Căn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống thông tin (khoản 1 Điều 18, điểm a khoản 3 Điều 20);*
 
-*Căn cứ Quyết định số {{C12_SO_QD_PHAN_CONG}} ngày {{C12_NGAY_QD_PHAN_CONG}} của {{CHUC_DANH_NGUOI_KY}} về phân công nhiệm vụ bảo đảm an ninh mạng đối với hệ thống thông tin cấp độ 1, cấp độ 2;*
+*Căn cứ Quyết định số {{C12_SO_QD_PHAN_CONG}} ngày {{C12_NGAY_QD_PHAN_CONG}} của {{CHUC_DANH_NGUOI_KY}} về phân công nhiệm vụ bảo đảm an ninh mạng đối với các hệ thống thông tin cấp độ 1, cấp độ 2;*
 
 *Căn cứ Quy chế bảo đảm an ninh mạng ban hành kèm theo Quyết định số {{C12_SO_QD_QUY_CHE}} ngày {{C12_NGAY_QD_QUY_CHE}} của {{CHUC_DANH_NGUOI_KY}};*
 
@@ -91,7 +91,7 @@ File gồm hai văn bản, cùng do Trưởng phòng An ninh mạng ký:
 
 2. {{TEN_DON_VI_CHUYEN_TRACH_ANM}} kiểm tra, giám sát việc thực hiện Quyết định này và báo cáo {{CHUC_DANH_NGUOI_KY}} kết quả thẩm định, phê duyệt; báo cáo tiến độ khắc phục tồn tại trong báo cáo định kỳ hằng năm.
 
-| *Nơi nhận:*<br/>- Như Điều 3;<br/>- {{CHUC_DANH_NGUOI_KY}} (để báo cáo);<br/>- {{NOI_NHAN_KHAC}} | **{{C12_CHUC_DANH_KY_IN_HOA}}**<br/>*(Ký, ghi rõ họ tên)*<br/><br/><br/>{{HO_TEN_NGUOI_KY}} |
+| *Nơi nhận:*<br/>- Như Điều 3;<br/>- {{CHUC_DANH_NGUOI_KY}} (để báo cáo);<br/>- {{NOI_NHAN_KHAC}} | **TRƯỞNG PHÒNG AN NINH MẠNG**<br/>*(Ký, ghi rõ họ tên)*<br/><br/><br/>{{HO_TEN_NGUOI_KY}} |
 |:---|:---:|
 
 ---
@@ -127,13 +127,13 @@ Thực hiện khoản 1 Điều 18 và điểm a khoản 3 Điều 20 Nghị đ�
 
 {{C12_KIEN_NGHI_CHU_QUAN}}
 
-| *Nơi nhận:*<br/>- Như trên;<br/>- {{TEN_DON_VI_VAN_HANH}};<br/>- {{NOI_NHAN_KHAC}} | **{{C12_CHUC_DANH_KY_IN_HOA}}**<br/>*(Ký, ghi rõ họ tên)*<br/><br/><br/>{{HO_TEN_NGUOI_KY}} |
+| *Nơi nhận:*<br/>- Như trên;<br/>- {{TEN_DON_VI_VAN_HANH}};<br/>- {{NOI_NHAN_KHAC}} | **TRƯỞNG PHÒNG AN NINH MẠNG**<br/>*(Ký, ghi rõ họ tên)*<br/><br/><br/>{{HO_TEN_NGUOI_KY}} |
 |:---|:---:|
 
 ## Hướng dẫn điền
 
 - **Số, ngày:** QĐ theo sổ văn bản của đơn vị chuyên trách (mẫu `03/2026/QĐ-PANM` ngày 26/10/2026); báo cáo ký ngay sau (mẫu `04/2026/BC-PANM` ngày 27/10/2026). Ngày QĐ phải sau ngày biên bản thẩm định và sau ngày ban hành Quy chế (Đ30.7).
-- **Người ký:** `{{C12_CHUC_DANH_KY_IN_HOA}}` = chức danh được QĐ phân công giao ký (mẫu: TRƯỞNG PHÒNG AN NINH MẠNG). Khi áp dụng Đ18.4 (đơn vị/Hội đồng độc lập thẩm định), đơn vị chuyên trách ANM **vẫn** là bên phê duyệt theo Đ18.1 — chỉ phần thẩm định chuyển cho đơn vị độc lập; căn cứ bổ sung QĐ giao đơn vị/thành lập Hội đồng **[CẦN ĐỐI CHIẾU]** (Đ18.4 chỉ nói về "tổ chức thẩm định").
+- **Người ký:** `{{C12_CHUC_DANH_KY_IN_HOA}}` (dòng thẩm quyền ban hành dưới tên loại) và chức danh ở khối ký = chức danh được QĐ phân công giao ký (mẫu: TRƯỞNG PHÒNG AN NINH MẠNG) — sửa cả hai nơi nếu khác. Khi áp dụng Đ18.4 (đơn vị/Hội đồng độc lập thẩm định), đơn vị chuyên trách ANM **vẫn** là bên phê duyệt theo Đ18.1 — chỉ phần thẩm định chuyển cho đơn vị độc lập; căn cứ bổ sung QĐ giao đơn vị/thành lập Hội đồng **[CẦN ĐỐI CHIẾU]** (Đ18.4 chỉ nói về "tổ chức thẩm định").
 - **Điều 1 khoản 2:** mỗi HTTT một dòng; cột "Yêu cầu cơ bản áp dụng" ghi mục TCVN 14423:2026 theo cấp (cấp 1: mục 3; cấp 2: mục 4). `{{TEN_TIEU_CHUAN}}` ghi tên tiêu chuẩn **không kèm mục** (khóa chung đang ghi "mục 5 – cấp độ 3" cho kịch bản cấp 3 — phải đổi). `{{TEN_QUY_CHUAN}}`: nếu chưa có QCVN tương ứng ghi "(chưa có quy chuẩn kỹ thuật quốc gia tương ứng)" **[CẦN ĐỐI CHIẾU]** danh mục QCVN hiện hành.
 - **Điều 2:** giữ điểm a dẫn Đ33 như Mẫu 06. Lưu ý Đ33.1 viết "theo phương án đã được **chủ quản** phê duyệt" — với cấp 1–2 phương án do đơn vị chuyên trách phê duyệt theo Đ18.1; cách hiểu hợp lý là phê duyệt nhân danh hệ thống của chủ quản **[CẦN ĐỐI CHIẾU]**. Điểm c chỉ ghi tồn tại **không làm thay đổi cấp độ**; mỗi tồn tại có mục TCVN, HTTT, hạn. Không có tồn tại → xóa bảng, ghi "Không có".
 - **Điều 3:** khoản 2 tương ứng Điều 3 khoản 2 Mẫu 06 và nghĩa vụ "gửi báo cáo chủ quản" của Đ18.1.
