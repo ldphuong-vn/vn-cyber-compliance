@@ -3,7 +3,7 @@
 > **Status:** v1.0 — approved 28/09/2026. Every page under `en/` uses these renderings consistently.
 > **Unofficial translation.** Vietnam has not published official English versions of the laws and decrees cited here. The renderings below are this toolkit's working translations; the Vietnamese texts prevail. Vietnamese definitions and sources: [`docs/00-tong-quan/thuat-ngu.md`](../docs/00-tong-quan/thuat-ngu.md).
 
-Legend: **★** = a translation choice that needs the maintainer's decision (alternatives listed); "keep VN" = the Vietnamese term is kept in italics after the first use because readers will meet it in official documents.
+Legend: **★** = a translation choice decided by the maintainer in v1.0 (alternatives listed for reference). On first use in a page, Vietnamese-specific terms are followed once by the Vietnamese in italics, because readers will meet them in official documents.
 
 ## 1. Legal instruments and citation style
 
@@ -17,9 +17,9 @@ Legend: **★** = a translation choice that needs the maintainer's decision (alt
 | Nghị định số 356/2025/NĐ-CP | **Decree 356/2025** guiding the PDPL | Replaces Decree 13/2023 |
 | Nghị quyết số 22/2026/NQ-CP | **Resolution 22/2026** on simplifying administrative procedures of the Ministry of Public Security | |
 | TCVN 14423:2026 | **TCVN 14423:2026** Cybersecurity — Information systems — Basic requirements (national standard) | Keep the code; paraphrase only (copyright) |
-| NĐ 85/2016, NĐ 53/2022, Luật 86/2015, Luật 24/2018 | Decree 85/2016 (former security-level regime), Decree 53/2022, Law on Network Information Security 2015, Law on Cybersecurity 2018 | Repealed / superseded instruments |
+| NĐ 85/2016, NĐ 53/2022, Luật 86/2015, Luật 24/2018 | Decree 85/2016 (former security-level regime), Decree 53/2022, Law on Network Information Security 2015, Law on Cybersecurity 2018 | Superseded instruments; Decree 85/2016 and Decree 53/2022 have no express repeal clause [TO VERIFY] — see [01-overview.md](01-overview.md) |
 | Văn bản quy phạm pháp luật | legal normative document | |
-| Điều / khoản / điểm; viết tắt **Đ18.1.a** | Article / clause / point; written **Art. 18.1(a)** | ★ Alternative: "Art. 18(1)(a)". Proposed: `Art. 18.1(a) Decree 331` — short, close to the Vietnamese pages |
+| Điều / khoản / điểm; viết tắt **Đ18.1.a** | Article / clause / point; written **Art. 18.1(a)** | ★ Alternative: "Art. 18(1)(a)". Adopted: `Art. 18.1(a) Decree 331` — short, close to the Vietnamese pages |
 | Phụ lục, Mẫu số 01 | Appendix, Form No. 01 | Forms are described, not translated |
 | Hiệu lực thi hành | effective date | |
 
@@ -60,7 +60,7 @@ Legend: **★** = a translation choice that needs the maintainer's decision (alt
 
 | Vietnamese | English | Notes |
 |---|---|---|
-| **Chủ quản hệ thống thông tin** | **★ system owner** | Alternatives: "information system governing body", "managing authority". "System owner" is familiar to ISO/NIST readers; the Vietnamese meaning is the body with direct management authority — for enterprises, the level that decides the investment (Decree 331 Art. 4.2). First use: "system owner (*chủ quản hệ thống thông tin*)" |
+| **Chủ quản hệ thống thông tin** | **★ system owner** | Alternatives: "information system governing body", "managing authority". "System owner" is familiar to ISO/NIST readers; the Vietnamese meaning is the body with direct management authority — for enterprises, the management level that decides the investment (Decree 331 Art. 4.2). First use: "system owner (*chủ quản hệ thống thông tin*)" |
 | Người đứng đầu | head of the organization | For companies: typically the General Director / CEO |
 | **Đơn vị chuyên trách về an ninh mạng** | **★ designated cybersecurity unit** | Alternatives: "dedicated cybersecurity unit", "cybersecurity function". Internal unit of the system owner; appraises (and for Levels 1–2 approves) dossiers |
 | Bộ phận chuyên trách về an ninh mạng | designated cybersecurity team | Team inside the IT / digital transformation unit (Art. 3.3) |
@@ -91,7 +91,7 @@ Legend: **★** = a translation choice that needs the maintainer's decision (alt
 |---|---|---|
 | **Hồ sơ đề xuất cấp độ** | **security level proposal dossier** | Short: "level dossier" |
 | Thuyết minh tổng quan / đề xuất cấp độ / phương án | general description / level proposal statement / security plan statement | |
-| **Phương án bảo đảm an ninh mạng** | **cybersecurity assurance plan** | ★ Alternative: "security plan". Proposed full term on first use, "security plan" afterwards |
+| **Phương án bảo đảm an ninh mạng** | **cybersecurity assurance plan** | ★ Alternative: "security plan". Full term on first use, "security plan" afterwards |
 | **Thẩm định** | **appraisal** | ★ Alternative: "review", "assessment". "Appraisal" keeps it distinct from *đánh giá* (assessment) and *kiểm tra* (inspection) |
 | **Phê duyệt** | **approval** | |
 | Ý kiến thẩm định / ý kiến chuyên môn | appraisal opinion / professional opinion | |
@@ -114,7 +114,7 @@ Legend: **★** = a translation choice that needs the maintainer's decision (alt
 
 | Vietnamese | English | Notes |
 |---|---|---|
-| Doanh nghiệp trong nước / nước ngoài | domestic / foreign enterprise | Domestic = established under Vietnamese law, incl. FDI companies |
+| Doanh nghiệp trong nước / nước ngoài | domestic / foreign enterprise | Toolkit reading (inference, no statutory definition): domestic = established under Vietnamese law, incl. FDI companies — see [04-enterprise-obligations.md](04-enterprise-obligations.md) |
 | Dịch vụ trên mạng viễn thông, mạng Internet, dịch vụ gia tăng trên không gian mạng | services on telecommunications networks, the Internet and value-added services in cyberspace | |
 | Dịch vụ ứng dụng viễn thông | telecommunications application service | |
 | Lưu trữ dữ liệu tại Việt Nam | **data localization** (storage of data in Vietnam) | |
@@ -155,14 +155,14 @@ Legend: **★** = a translation choice that needs the maintainer's decision (alt
 | Vietnamese | English | Notes |
 |---|---|---|
 | [CẦN ĐỐI CHIẾU] | **[TO VERIFY]** | Marks readings not yet confirmed by official guidance |
-| Vùng xám / điểm cần đối chiếu | grey areas / points to verify | |
+| Vùng xám / điểm cần đối chiếu | gray areas / points to verify | |
 | Dữ liệu mẫu (mô phỏng) | sample data (simulated) | |
 | Bộ khung | toolkit | |
 | Bộ mẫu cấp 1–2 | Level 1–2 toolkit | |
 
-## Decisions requested (★)
+## Decisions (★) — adopted in v1.0
 
-| # | Term | Proposed | Alternatives |
+| # | Term | Adopted | Alternatives considered |
 |---|---|---|---|
 | 1 | Cấp độ | security level (Level 1–5) | protection level; classification level |
 | 2 | Chủ quản HTTT | system owner | information system governing body; managing authority |

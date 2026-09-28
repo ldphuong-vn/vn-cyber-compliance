@@ -95,7 +95,7 @@ This guide is for orientation only and is not legal advice. The Vietnamese pages
 Feedback is welcome, especially from people preparing level dossiers, appraising them or advising on them. English-language feedback is fine.
 
 - **New or amended instrument, or a wrong citation:** open an issue ["New instrument / citation"](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new?template=van-ban-moi-hoac-trich-dan.yml).
-- **Content, templates, practical experience** (for example how an appraising body reads a grey area): open an issue ["Content feedback"](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new?template=gop-y-noi-dung.yml).
+- **Content, templates, practical experience** (for example how an appraising body reads a gray area): open an issue ["Content feedback"](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new?template=gop-y-noi-dung.yml).
 - **Direct edits:** send a Pull Request following [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 Contributors are credited in the Pull Request, the matching monthly update report and the repository's [Contributors](https://github.com/ldphuong-vn/vn-cyber-compliance/graphs/contributors) list. Do **not** post internal information, personal data or real dossiers in issues — the repository is public.

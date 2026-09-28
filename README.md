@@ -89,7 +89,7 @@ Người đóng góp được ghi nhận trong mô tả Pull Request, báo cáo 
 
 ## Ghi nhận
 
-- Tài trợ và duy trì: **Công ty cổ phần Giải pháp Công nghệ Turbo**.
+- Tài trợ và duy trì: **Công ty cổ phần Giải pháp Công nghệ TURBO**.
 - Cảm ơn những người đã góp ý, phát hiện lỗi và chia sẻ kinh nghiệm thực tế — xem [Contributors](https://github.com/ldphuong-vn/vn-cyber-compliance/graphs/contributors) và phần ghi nhận trong từng [báo cáo cập nhật tháng](docs/00-tong-quan/cap-nhat-dinh-ky/README.md).
 - Bộ khung được xây dựng với sự hỗ trợ của [Claude Code](https://claude.com/claude-code) (Anthropic): nghiên cứu, đối chiếu văn bản, soạn tài liệu và sinh bản Word/Excel. Nội dung đã được rà soát đối chiếu văn bản gốc nhưng không phải ý kiến pháp lý; Anthropic không bảo trợ nội dung này.
 

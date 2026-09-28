@@ -14,9 +14,9 @@ Decree 331 applies to organizations and individuals involved in building, operat
 - IT applications in the activities of **state agencies and organizations**; and
 - IT applications in the provision of **online services to citizens and businesses**.
 
-Other organizations are **encouraged** to apply it (Art. 2 Decree 331). A private company whose systems are purely internal (ERP, email, HRM) can therefore argue that it falls in the "encouraged" category. The Vietnamese pages treat this as a grey area and point to factors that weigh against relying on it:
+Other organizations are **encouraged** to apply it (Art. 2 Decree 331). A private company whose systems are purely internal (ERP, email, HRM) can therefore argue that it falls in the "encouraged" category. The Vietnamese pages treat this as a gray area and point to factors that weigh against relying on it:
 
-- Law 116 applies to all Vietnamese agencies, organizations and individuals (Art. 1.2(a) Law 116) and assigns the task of "determining the security level of the information system" to the system owner (Art. 10.1(a) Law 116). Art. 10.3 Law 116 requires owners of Level 1–2 systems to "fully perform the tasks" of Art. 10.1. So the duty to determine a level may arise from the Law itself, not only from Decree 331.
+- Law 116 applies to all Vietnamese agencies, organizations and individuals (Art. 1.2(a) Law 116) and assigns the task of "determining the security level of the information system" to the system owner (*chủ quản hệ thống thông tin*) (Art. 10.1(a) Law 116). Art. 10.3 Law 116 requires owners of Level 1–2 systems to "fully perform the tasks" of Art. 10.1. So the duty to determine a level may arise from the Law itself, not only from Decree 331.
 - The penalty provisions do not distinguish between types of system owner (Arts. 23, 24 Decree 330).
 - Most companies run a website or app for customers. That is an "online service" (Art. 3.5 Decree 331), so **that system** is in mandatory scope.
 
@@ -50,9 +50,9 @@ Key points of each step:
 4. **Risk assessment** is mandatory at first determination (Art. 10.2(a)); minimum content in Art. 10.3. The method awaits MPS guidance (Art. 10.8 Decree 331).
 5. **Match criteria** in Arts. 11–15 (and Art. 16 if there are national-security indicators); apply the aggregation rules (section 5).
 6. **Dossier** per Arts. 21–22. The system's cybersecurity regulation (internal) must be issued **before** the dossier is approved (Art. 30.7).
-7. **Appraisal and approval** per level (Arts. 18, 20, 23, 24). Then implement the approved plan in full before operation (Art. 30.6) and report annually (Art. 35, Form 08).
+7. **Appraisal and approval** per level (Arts. 18, 20, 23, 24). Then implement the approved cybersecurity assurance plan (*phương án bảo đảm an ninh mạng*; "security plan" below) in full before operation (Art. 30.6) and report annually (Art. 35, Form 08).
 
-**Roles.** The system owner (*chủ quản hệ thống thông tin*) of an enterprise is the level with authority to decide the investment in building, establishing, upgrading or expanding the system (Art. 4.2 Decree 331). It may delegate in writing to a subordinate organization (Art. 4.3). The operating unit (*đơn vị vận hành hệ thống thông tin*) is assigned by the owner; where IT services are rented, it is determined by the contract (Art. 5.3). The designated cybersecurity unit (*đơn vị chuyên trách về an ninh mạng*) is the owner's internal unit that appraises dossiers, and for Levels 1–2 also approves them.
+**Roles.** The system owner of an enterprise is the management level with authority to decide the investment in building, establishing, upgrading or expanding the system (Art. 4.2 Decree 331). It may delegate in writing to a subordinate organization (Art. 4.3). The operating unit (*đơn vị vận hành hệ thống thông tin*) is assigned by the owner; where IT services are rented, it is determined by the contract (Art. 5.3). The designated cybersecurity unit (*đơn vị chuyên trách về an ninh mạng*) is the owner's internal unit that appraises dossiers, and for Levels 1–2 also approves them.
 
 ## 3. Classification inputs
 
@@ -173,7 +173,7 @@ flowchart TD
     B2 -- "No / unclear" --> B3{"≥100,000 basic OR<br/>≥10,000 sensitive data subjects?"}
     B3 -- Yes --> L3D["Level 3 (Art. 13.2(c))"]
     B3 -- No --> L2B["Level 2 (Art. 12.2(a) / 12.2(b))"]
-    B2 -.->|"unclear"| N1["Record grey area; consider Level 3 (Art. 8.2)<br/>or ask the appraising unit"]
+    B2 -.->|"unclear"| N1["Record gray area; consider Level 3 (Art. 8.2)<br/>or ask the appraising unit"]
 
     Q5 -- "c. Information infrastructure" --> C1{"Scope served?"}
     C1 -- "One organization" --> L2C["Level 2 (Art. 12.3)"]
@@ -185,7 +185,7 @@ flowchart TD
     D1 -- "Grade II, III, IV" --> L3F["Level 3 (Art. 13.4)"]
     D1 -- "Grade I" --> L4C["Level 4 (Art. 14.3)"]
     D1 -- "Special grade / important NS works" --> L5D["Level 5 (Art. 15.4)"]
-    D1 -- "Not construction works" --> N2["Grey area: consider type đ + risk assessment"]
+    D1 -- "Not construction works" --> N2["Gray area: consider type đ + risk assessment"]
 
     Q5 -- "đ. Other" --> E1["PM decision or risk assessment under the<br/>risk management framework (Arts. 11.2-15.5)<br/>framework awaits MPS guidance (Art. 10.8)"]
 
@@ -199,7 +199,7 @@ Illustrative examples (hypothetical):
 
 | Hypothetical system | Matching branches | Preliminary level | Note |
 |---|---|---|---|
-| Static corporate website, no login, no forms | Grey area: not "only internal" (Art. 9.2(a)), hard to call an "online service" (Art. 3.5, 9.2(b)); only public information | 1 or 2, reasoning recorded | With a contact/sign-up form collecting personal information: treat as type b, at least Level 2 |
+| Static corporate website, no login, no forms | Gray area: not "only internal" (Art. 9.2(a)), hard to call an "online service" (Art. 3.5, 9.2(b)); only public information | 1 or 2, reasoning recorded | With a contact/sign-up form collecting personal information: treat as type b, at least Level 2 |
 | Internal email / HRM | a + employees' personal information | 2 (Art. 12.1) | — |
 | E-commerce platform, 300,000 customer accounts | b + ≥ 100,000 data subjects | 3 (Art. 13.2(c)) | Also check Art. 13.2(a) |
 | Telemedicine app, 8,000 patients (health data = sensitive) | b; < 10,000 sensitive | ≥ 2; check Art. 13.2(a) | Is the medical service a conditional business line? |
@@ -207,7 +207,7 @@ Illustrative examples (hypothetical):
 
 The Vietnamese [worksheet](../docs/01-xac-dinh-cap-do/phieu-xac-dinh-cap-do.md) (*phiếu xác định cấp độ*) is an internal working document (not a statutory form), one per system: it records the inputs above, the matched criteria and proposed level, and is signed by the operating unit and reviewed by the designated cybersecurity unit. It feeds the dossier statements.
 
-## 7. Grey areas in classification
+## 7. Gray areas in classification
 
 Each is detailed in the Vietnamese criteria page (section 6) and in [gray-areas.md](gray-areas.md). Any choice below the cautious reading should be justified, kept on file (Art. 10.6 Decree 331) and preferably discussed with the appraising unit.
 

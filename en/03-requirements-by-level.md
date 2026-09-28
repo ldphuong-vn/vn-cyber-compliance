@@ -217,7 +217,7 @@ Art. 22.6 requires the plan to describe how **each requirement** is met. For eac
 |---|---|---|---|
 | Art. 29.2(a) | Design and build | Network architecture, testing, hardening, secure development | Art. 28.3, 30.5, 30.6, 30.8–30.9 |
 | Art. 29.2(b) | Operation | Operational groups, personnel, suppliers | Art. 33 (operating unit duties) |
-| Art. 29.2(c) | Inspection and assessment | Pentest, vulnerability scans, control effectiveness | Art. 27 (content; black / grey / white box); Art. 28.5; Art. 31.2(c) |
+| Art. 29.2(c) | Inspection and assessment | Pentest, vulnerability scans, control effectiveness | Art. 27 (content; black / gray / white box); Art. 28.5; Art. 31.2(c) |
 | Art. 29.2(d) | Risk management | Risk group | Art. 10 |
 | Art. 29.2(đ) | Monitoring | Monitoring, logs / SIEM, EDR | Art. 28.6, 33.5 (awaiting MPS guidance) |
 | Art. 29.2(e) | Contingency, incident response, disaster recovery | Incident response, backup, redundancy | Art. 31.2(d) (24h / 72h); Art. 31.3 (exercises); RTO / RPO — TCVN sets no targets |
@@ -244,4 +244,4 @@ Not in any TCVN checklist, but legal obligations:
 
 - Many TCVN requirements allow an "equivalent solution" or give configurations only as examples tied to the risk assessment; the checklists flag these as "suggested". Any different choice must be argued in the security plan.
 - Detailed MPS guidance on risk assessment, monitoring and incident response had not been issued at the time of checking; follow it once issued (Art. 10.8, 28.6 Decree 331).
-- Grey areas on TCVN (non-inheritance between levels; whether Appendix A is normative or informative): see [gray-areas.md](gray-areas.md).
+- Gray areas on TCVN (non-inheritance between levels; whether Appendix A is normative or informative): see [gray-areas.md](gray-areas.md).
