@@ -165,7 +165,7 @@ Hai bên thống nhất ký Phụ lục này với các nội dung sau:
 
 2. Thông báo gồm: thời gian, địa điểm, hành vi; loại và số lượng dữ liệu cá nhân, số chủ thể bị ảnh hưởng (ước tính); hậu quả có thể xảy ra; biện pháp đã làm; người liên hệ. Bên B bổ sung ngay khi có thêm thông tin, để Bên A thông báo cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất 72 giờ kể từ khi phát hiện.
 
-3. Bên B phối hợp ngăn chặn, khắc phục hậu quả, bảo toàn chứng cứ; phối hợp với Bên A lập biên bản xác nhận vi phạm và làm việc với cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Trường hợp Bên B cũng thông báo cho cơ quan chuyên trách, hai bên thống nhất nội dung trước khi gửi, trừ trường hợp khẩn cấp. Bên B không tự thông báo cho chủ thể dữ liệu hoặc công khai sự việc khi chưa thống nhất với Bên A, trừ trường hợp pháp luật yêu cầu.
+3. Bên B phối hợp ngăn chặn, khắc phục hậu quả, bảo toàn chứng cứ; phối hợp với Bên A lập biên bản xác nhận vi phạm và làm việc với cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Trường hợp Bên B cũng thông báo cho cơ quan chuyên trách, hai bên trao đổi nội dung trước khi gửi nếu kịp; việc trao đổi không được làm chậm thời hạn thông báo theo pháp luật (Điều 23 Luật Bảo vệ dữ liệu cá nhân). Bên B không tự thông báo cho chủ thể dữ liệu hoặc công khai sự việc khi chưa thống nhất với Bên A, trừ trường hợp pháp luật yêu cầu.
 
 **Điều 8. Hỗ trợ thực hiện quyền của chủ thể dữ liệu**
 
@@ -199,7 +199,7 @@ Hai bên thống nhất ký Phụ lục này với các nội dung sau:
 
 **Điều 11. Đánh giá tác động và đánh giá tuân thủ**
 
-1. Bên B lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân của mình đối với hoạt động xử lý cho Bên A (khoản 3 Điều 21 Luật Bảo vệ dữ liệu cá nhân) và gửi hồ sơ cho cơ quan chuyên trách khi pháp luật yêu cầu; cung cấp cho Bên A bản tóm tắt khi được đề nghị.
+1. Bên B lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân của mình đối với hoạt động xử lý cho Bên A (khoản 3 Điều 21 Luật Bảo vệ dữ liệu cá nhân) và gửi hồ sơ cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân theo Điều 19 Nghị định số 356/2025/NĐ-CP; cung cấp cho Bên A bản tóm tắt khi được đề nghị.
 
 2. Đối với dịch vụ điện toán đám mây: Bên B thực hiện đánh giá tuân thủ các quy định về bảo vệ dữ liệu cá nhân định kỳ 01 năm/lần (điểm d khoản 3 Điều 12 Nghị định số 356/2025/NĐ-CP) và gửi kết quả tóm tắt cho Bên A trong {{C12_HAN_GUI_KET_QUA_DANH_GIA}} kể từ khi hoàn thành.
 
