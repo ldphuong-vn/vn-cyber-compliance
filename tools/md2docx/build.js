@@ -44,12 +44,16 @@ const OUT_DIR = path.join(ROOT, "templates");
 // Dữ liệu mẫu: khóa chung + "_theo_file" (giá trị riêng cho từng văn bản, theo tên file không đuôi .md).
 // Giá trị dạng mảng: lần xuất hiện thứ k của placeholder trong văn bản nhận phần tử thứ k (vd. danh sách thành viên).
 const SAMPLE_ALL = CFG.sampleData ? JSON.parse(fs.readFileSync(path.join(__dirname, "du-lieu-mau.json"), "utf8")) : {};
+// "_theo_thu_muc": giá trị chung cho mọi văn bản trong một thư mục docs (vd. bộ mẫu cấp 1–2 dùng kịch bản riêng).
+// Khóa trong "_theo_file" có thể kèm thư mục ("08-bo-mau-cap-1-2/mau-01-...") khi trùng tên file ở thư mục khác.
 const PER_FILE = SAMPLE_ALL._theo_file || {};
+const PER_DIR = SAMPLE_ALL._theo_thu_muc || {};
 let SAMPLE = {};
 let USED = {};
 function useSampleFor(rel) {
-  SAMPLE = { ...SAMPLE_ALL, ...(PER_FILE[path.basename(rel, ".md")] || {}) };
-  delete SAMPLE._ghi_chu; delete SAMPLE._theo_file;
+  const dir = path.basename(path.dirname(rel)), base = path.basename(rel, ".md");
+  SAMPLE = { ...SAMPLE_ALL, ...(PER_DIR[dir] || {}), ...(PER_FILE[`${dir}/${base}`] || PER_FILE[base] || {}) };
+  delete SAMPLE._ghi_chu; delete SAMPLE._theo_file; delete SAMPLE._theo_thu_muc;
   USED = {};
 }
 function sampleValue(key, consume = true) {
@@ -81,6 +85,11 @@ const TARGETS = [
     "to-trinh-ke-hoach-dao-tao-dien-tap", "to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan",
     "to-trinh-luu-tru-du-lieu-va-nhat-ky-tai-viet-nam",
   ].map((f) => `docs/07-to-trinh-lanh-dao/${f}.md`),
+  ...[
+    "01-phieu-sang-loc-cap-do", "02-qd-phan-cong-anm", "03-quy-che-anm-cap-1-2", "04-ho-so-de-xuat-cap-do",
+    "mau-01-de-nghi-tham-dinh-phe-duyet", "06-bien-ban-tham-dinh", "07-qd-phe-duyet-cap-do",
+    "08-quy-trinh-su-co-rut-gon", "09-ke-hoach-anm-nam",
+  ].map((f) => `docs/08-bo-mau-cap-1-2/${f}.md`),
 ];
 
 const STOP_HEADINGS = /^#{1,4}\s+(Hướng dẫn điền|Bằng chứng cần lưu|Checklist rà soát|Checklist thẩm định|Checklist trước khi ký)/i;
