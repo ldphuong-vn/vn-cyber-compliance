@@ -67,6 +67,14 @@ The Vietnamese page records these issues without a separate working-position col
 
 Still pending: MPS guidance and forms (Art. 40.1). **Where handled:** [08-level-1-2-toolkit.md](08-level-1-2-toolkit.md); Vietnamese files [02-qd-phan-cong-anm.md](../docs/08-bo-mau-cap-1-2/02-qd-phan-cong-anm.md), [03-quy-che-anm-cap-1-2.md](../docs/08-bo-mau-cap-1-2/03-quy-che-anm-cap-1-2.md), [07-qd-phe-duyet-cap-do.md](../docs/08-bo-mau-cap-1-2/07-qd-phe-duyet-cap-do.md).
 
+### C19. Does an SME lose the PDPL exemption by keeping its own employees' sensitive data?
+
+**Provisions:** Art. 38.2–38.3 PDPL; Art. 4.1, 41 Decree 356.
+
+**Issue:** Small, micro and start-up enterprises and household businesses may skip (or need not do) the processing impact assessment (Art. 21), its updates (Art. 22) and the appointment of personal data protection staff (Art. 33.2) — unless they "directly process sensitive personal data". Decree 356 Art. 4.1 lists as sensitive: images of ID cards (point i), health status (d), biometrics (đ) and location via positioning services (h). Almost every employer holds some of these in HR files or time-attendance systems, and the texts do not distinguish employee data from customer data.
+
+**Toolkit's position:** read literally, the exemption is **lost** [TO VERIFY]. Alternatively, stop keeping unnecessary sensitive data (record the ID number instead of an ID image; non-biometric attendance) to keep the exemption, and record the conclusion in writing. **Where handled:** [08-level-1-2-toolkit.md](08-level-1-2-toolkit.md) §10; Vietnamese analysis [bao-ve-du-lieu-ca-nhan-cap-1-2.md](../docs/08-bo-mau-cap-1-2/bao-ve-du-lieu-ca-nhan-cap-1-2.md).
+
 ## D. TCVN 14423:2026
 
 - The standard is copyrighted. The toolkit only summarizes it with clause numbers, so **buy the official copy from VSQI** before signing off a security plan.

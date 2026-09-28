@@ -61,7 +61,7 @@ Căn cứ Luật An ninh mạng số 116/2025/QH15;
 - `{{CAP_DO_DE_XUAT}}`: ghi cấp đề xuất **cho từng HTTT** (không ghi chung "cấp độ 1–2"). HTTT nào có dấu hiệu cấp 3 trở lên (Đ13; nhiều tiêu chí → cấp cao nhất, Đ8.2) thì tách khỏi công văn này, chuyển sang bộ đầy đủ ([../02-ho-so-cap-do/](../02-ho-so-cap-do/)).
 - `{{DIA_CHI}}`: địa chỉ nơi đặt HTTT (trụ sở, phòng máy); HTTT dùng dịch vụ đám mây ghi thêm "dịch vụ đám mây của nhà cung cấp …".
 - **Phần 2:** giữ nguyên câu chữ của mẫu. Với HTTT đang vận hành không có thiết kế thi công được phê duyệt, mục 2 là "tài liệu có giá trị tương đương" (Đ21.2.b) — sơ đồ mạng, quy hoạch IP, hồ sơ cấu hình tại phụ lục hồ sơ. Không cần ý kiến chuyên môn (Đ21.5 chỉ áp dụng cấp 4–5).
-- **Người ký:** thủ trưởng đơn vị vận hành (Trưởng phòng Vận hành hệ thống). Mẫu ghi "đóng dấu": phòng không có con dấu riêng thì ký theo phân cấp tại QĐ phân công, không đóng dấu **[CẦN ĐỐI CHIẾU]** quy định con dấu, thể thức nội bộ của Công ty.
+- **Người ký:** thủ trưởng đơn vị vận hành (Trưởng phòng Vận hành hệ thống). Mẫu ghi "đóng dấu": phòng không có con dấu riêng thì ký theo phân cấp tại QĐ phân công, không đóng dấu, hoặc dùng dấu/chữ ký số theo quy chế của Công ty — doanh nghiệp tự quyết định loại dấu, số lượng, hình thức dấu của doanh nghiệp và đơn vị khác của doanh nghiệp (Luật Doanh nghiệp 2020 Đ43.1–43.3); NĐ 30/2020/NĐ-CP chỉ bắt buộc với cơ quan, tổ chức nhà nước và doanh nghiệp nhà nước (Đ2.1), doanh nghiệp khác tham khảo.
 - `{{NOI_NHAN_KHAC}}`: nên thêm Tổng Giám đốc (để biết) khi Quy chế yêu cầu; lưu VT, đơn vị soạn.
 
 ## Bằng chứng cần lưu
