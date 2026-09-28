@@ -117,7 +117,7 @@ Không cần: Mẫu 02, 03, 05, 07; ý kiến chuyên môn (Đ21.5 chỉ cấp 4
 
 ## 5. Lịch trong năm
 
-Lịch cho năm vận hành ổn định, khớp [kế hoạch mẫu 09](09-ke-hoach-anm-nam.md) (tháng chỉ là gợi ý). Năm đầu (dữ liệu mẫu): QĐ phân công 01/10/2026 → Quy chế 05/10 → hồ sơ 12/10 → Mẫu 01 15/10 → biên bản 22/10 → QĐ phê duyệt 26/10 → báo cáo chủ quản 27/10 → kế hoạch năm 2027 ngày 15/11 → báo cáo năm 2026 trước 20/12 và 25/12.
+Lịch cho năm vận hành ổn định, khớp [kế hoạch mẫu 09](09-ke-hoach-anm-nam.md) (tháng chỉ là gợi ý). Năm đầu (dữ liệu mẫu): QĐ phân công 01/10/2026 → Quy chế 05/10 → hồ sơ 12/10 → Mẫu 01 15/10 → biên bản 22/10 → QĐ phê duyệt 26/10 → báo cáo chủ quản 27/10 → kế hoạch năm 2027 ngày 16/11 → báo cáo năm 2026 trước 20/12 và 25/12.
 
 | Tháng | Việc | Căn cứ | Phụ trách |
 |---|---|---|---|

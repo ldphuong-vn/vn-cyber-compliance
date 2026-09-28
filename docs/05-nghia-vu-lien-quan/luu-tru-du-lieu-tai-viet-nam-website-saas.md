@@ -72,9 +72,9 @@ Hai điều kiện cộng dồn: (1) là DN cung cấp một trong ba loại d�
 | Đ33.1.a | Không lưu trữ dữ liệu, hoặc lưu "dữ liệu nhạy cảm về an ninh quốc gia" không đầy đủ theo NĐ quy định chi tiết Luật ANM | 60–100 triệu | Buộc lưu trữ; **buộc ngừng cung cấp dịch vụ viễn thông, Internet** hoặc ngừng kết nối tại VN (Đ33.3) |
 | Đ33.1.b | Không thực hiện **quyết định yêu cầu** lưu trữ, đặt chi nhánh/VPĐD | 60–100 triệu | Như trên |
 | Đ33.1.c | Không bảo đảm thời gian lưu nhật ký hệ thống | 60–100 triệu | Như trên |
-| Đ34.1.c | Không lưu thông tin thiết bị, IP, thời gian đăng nhập của tài khoản số tối thiểu 90 ngày (không gắn địa điểm) | Theo khung Đ34.1 ×2 | — |
+| Đ34.1.c | Không lưu thông tin thiết bị, IP, thời gian đăng nhập của tài khoản số tối thiểu 90 ngày (không gắn địa điểm) | 40–60 triệu (khung gốc cá nhân 20–30 triệu) | Buộc khôi phục lại tình trạng ban đầu (Đ34.3) |
 | Đ56.1–56.4 | Chuyển DLCN xuyên biên giới không lập/không nộp hồ sơ… | 30–100 triệu; **1–5% doanh thu** tại VN (Đ56.3, hai nhánh: không lập/che giấu/khai sai dẫn đến lộ, mất từ 10.000 chủ thể; hoặc tiếp tục chuyển sau quyết định ngừng) | Đình chỉ chuyển 06–12 tháng |
-| Đ69.1.b, 69.2.b–c | Dùng cloud: không mã hóa khi lưu/truyền; hợp đồng không xác định luồng dữ liệu, vai trò | Theo khung Đ69 | — |
+| Đ69.1.b, 69.2.b–c | Dùng cloud: không mã hóa khi lưu/truyền; hợp đồng không xác định luồng dữ liệu, vai trò | 20–50 triệu (Đ69.1); 50–70 triệu (Đ69.2) — Mục 6, mức ghi trong điều đã là mức tổ chức | Buộc bổ sung hợp đồng (Đ69.5.a); buộc mã hóa, xác thực, phân quyền (Đ69.5.b) |
 
 Cấu trúc Đ33.1.a (không cần quyết định) tách khỏi Đ33.1.b (không thực hiện quyết định) chỉ có nghĩa nếu tồn tại một nghĩa vụ lưu trữ **không cần quyết định** — tức Đ19.2 cho DN trong nước. Cụm "dữ liệu nhạy cảm về an ninh quốc gia" không xuất hiện trong Luật 116 hay NĐ 333 — một điểm mơ hồ mới. Tham chiếu chi tiết mức phạt: [`nd-330-muc-phat.md`](nd-330-muc-phat.md).
 
