@@ -90,6 +90,20 @@ const TARGETS = [
     "mau-01-de-nghi-tham-dinh-phe-duyet", "06-bien-ban-tham-dinh", "07-qd-phe-duyet-cap-do",
     "08-quy-trinh-su-co-rut-gon", "09-ke-hoach-anm-nam",
   ].map((f) => `docs/08-bo-mau-cap-1-2/${f}.md`),
+  ...[
+    "a1-qd-chi-dinh-nhan-su-bvdlcn", "a2-chinh-sach-bvdlcn", "a3-so-dang-ky-hoat-dong-xu-ly",
+    "a6-de-an-cap-giay-chung-nhan-dich-vu-xu-ly-dlcn", "a7-quy-trinh-su-co-dlcn-sinh-trac-hoc",
+    "a8-bao-cao-danh-gia-tuan-thu-he-thong-ai",
+    "b1-mo-ta-luong-du-lieu-kien-truc", "b2-phan-loai-rui-ro-he-thong-ai", "b3-giai-thich-thuat-toan",
+    "b4-tai-lieu-bao-mat-san-pham", "b7-tuyen-bo-du-lieu-huan-luyen",
+    "c1-phu-luc-xu-ly-du-lieu-ca-nhan", "c3-thoa-thuan-ho-tro-tu-xa", "c4-cam-ket-bao-mat-nhan-su-dai-ly",
+    "c5-dieu-khoan-dai-ly-tich-hop",
+    "k1-bien-bao-camera", "k2-thong-bao-va-dong-y-sinh-trac-hoc", "k3-dieu-khoan-noi-quy-lao-dong-giam-sat",
+    "k4-chinh-sach-luu-tru-xoa", "k5-quy-trinh-yeu-cau-chu-the", "k6-dpia-dien-san-phan-ky-thuat",
+    "k7-thong-bao-su-co-sinh-trac-hoc", "k8-checklist-trien-khai-ban-giao",
+    "k9-quy-trinh-cung-cap-video-co-quan-chuc-nang", "k10-hoi-dap-khach-hang",
+    "p1-phieu-danh-gia-nhanh-khach-hang",
+  ].map((f) => `docs/09-ai-vision/${f}.md`),
 ];
 
 const STOP_HEADINGS = /^#{1,4}\s+(Hướng dẫn điền|Bằng chứng cần lưu|Checklist rà soát|Checklist thẩm định|Checklist trước khi ký)/i;

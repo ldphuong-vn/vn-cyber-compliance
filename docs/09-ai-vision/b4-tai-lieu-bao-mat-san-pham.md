@@ -144,7 +144,7 @@ Dữ liệu sau khi mã hóa vẫn là dữ liệu cá nhân (khoản 1 Điều 
 
 **Khách hàng cần cấu hình**
 
-- Bật đầy đủ nhật ký; đặt thời hạn lưu nhật ký {{THOI_HAN_LUU_NHAT_KY_HE_THONG}} tháng hoặc theo quy chế của khách hàng.
+- Bật đầy đủ nhật ký; đặt thời hạn lưu nhật ký {{THOI_HAN_LUU_NHAT_KY_HE_THONG}} hoặc theo quy chế của khách hàng.
 - Chỉ định người nhận cảnh báo; kết nối với hệ thống giám sát an ninh nếu có.
 - Nhân sự BVDLCN rà soát nhật ký xuất dữ liệu, tra cứu người {{CHU_KY_RA_SOAT_NHAT_KY}}.
 

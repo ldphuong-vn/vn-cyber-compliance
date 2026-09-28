@@ -1,6 +1,6 @@
 # Mẫu Phụ lục thỏa thuận xử lý dữ liệu cá nhân (DPA) — hợp đồng cung cấp giải pháp AI vision
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ3, Đ9, Đ14.3, Đ17.1.d, Đ20, Đ21.3, Đ23.1, Đ25.3, Đ31.4, Đ32.2, Đ37; NĐ 356/2025/NĐ-CP Đ5, Đ7.1–7.2, Đ10.1, Đ12.2–12.4, Đ19.3, Đ22, Đ23.7, Đ27, Đ28, Đ29; NĐ 330/2026/NĐ-CP Đ52.1.a, Đ52.3, Đ59.2.a, Đ59.3.a, Đ69.1.b, Đ70.2.b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ3, Đ9, Đ14.3, Đ17.1.d, Đ20, Đ21.3, Đ23.1, Đ25.3, Đ31.4, Đ32.2, Đ37; NĐ 356/2025/NĐ-CP Đ5, Đ7.1–7.2, Đ10.1, Đ12.2–12.4, Đ19.3, Đ22, Đ23.7, Đ27, Đ28, Đ29; NĐ 330/2026/NĐ-CP Đ44.2–44.3, Đ52.1.a, Đ52.3, Đ59.2.a, Đ59.3.a, Đ69.1.b, Đ70.2.b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -29,7 +29,7 @@ Phụ lục này gắn vào hợp đồng cung cấp giải pháp AI vision (cam
 | Bên xử lý phát hiện vi phạm phải thông báo kịp thời cho bên kiểm soát | Luật 91 Đ23.1 | Điều 9 |
 | Bảo vệ dữ liệu sinh trắc học: bảo mật vật lý, hạn chế truy cập, hệ thống theo dõi phát hiện xâm phạm | Luật 91 Đ31.4.a | Điều 5; Phụ lục 2 |
 | Xóa, hủy bằng biện pháp an toàn, ngăn khôi phục trái phép | Luật 91 Đ14.3 | Điều 13 |
-| Thời hạn thực hiện yêu cầu của chủ thể khi phải yêu cầu bên xử lý: ngừng xử lý 20 ngày; chỉnh sửa 15 ngày; cung cấp, xóa, hạn chế 30 ngày | NĐ 356 Đ5.2–5.4 | Điều 8 |
+| Thời hạn thực hiện yêu cầu của chủ thể khi phải yêu cầu bên xử lý: ngừng xử lý 20 ngày; xem, chỉnh sửa, cung cấp 15 ngày; xóa 30 ngày. Bên xử lý bị phạt nếu không làm đúng thời hạn bên kiểm soát xác định | NĐ 356 Đ5.2–5.4; NĐ 330 Đ44.2, Đ44.3 | Điều 8 |
 
 ### Rủi ro phạt nếu thiếu (mức cho tổ chức)
 
@@ -38,6 +38,7 @@ Phụ lục này gắn vào hợp đồng cung cấp giải pháp AI vision (cam
 | Thỏa thuận chuyển giao không xác định trách nhiệm bảo vệ, trách nhiệm thực hiện quyền chủ thể, trách nhiệm phối hợp khi vi phạm | 20–30 triệu | NĐ 330 Đ52.1.a |
 | Chuyển giao DLCN nhạy cảm (template khuôn mặt) không có bảo mật vật lý, mã hóa, ẩn danh | 50–80 triệu | NĐ 330 Đ52.3 |
 | Dùng cloud mà hợp đồng không xác định luồng dữ liệu, vai trò, yêu cầu bảo mật | 20–50 triệu | NĐ 330 Đ69.1.b |
+| Bên xử lý không ngừng xử lý, không chỉnh sửa, cung cấp, xóa, hạn chế trong thời hạn bên kiểm soát xác định | 20–30 triệu | NĐ 330 Đ44.2 |
 | [M3/M4] Không yêu cầu bên kiểm soát xin đồng ý trước khi cung cấp dịch vụ | 30–50 triệu | NĐ 330 Đ59.2.a |
 | [M3/M4] Kinh doanh dịch vụ xử lý DLCN khi chưa có Giấy chứng nhận | 50–80 triệu | NĐ 330 Đ59.3.a |
 | Dùng dữ liệu sinh trắc học vượt mục đích ban đầu mà chưa có đồng ý (ví dụ tự ý dùng để huấn luyện) | 70–150 triệu | NĐ 330 Đ70.2.b |
@@ -142,7 +143,7 @@ Hai bên thống nhất ký Phụ lục này với các nội dung sau:
 ### Điều 8. Hỗ trợ thực hiện quyền của chủ thể dữ liệu
 
 1. Khi nhận trực tiếp yêu cầu của chủ thể dữ liệu, Bên B chuyển cho Bên A trong {{SO_NGAY_LAM_VIEC_CHUYEN_YEU_CAU}} ngày làm việc và không tự trả lời nội dung, trừ khi Bên A yêu cầu.
-2. Theo yêu cầu của Bên A, Bên B thực hiện việc xem, cung cấp, chỉnh sửa, xóa (kể cả xóa template khuôn mặt), hạn chế, ngừng xử lý Dữ liệu trong thời hạn Bên A yêu cầu, **không vượt quá** thời hạn áp dụng cho bên xử lý tại khoản 2, khoản 3, khoản 4 Điều 5 Nghị định số 356/2025/NĐ-CP: ngừng xử lý 20 ngày; chỉnh sửa 15 ngày; cung cấp, xóa, hạn chế xử lý 30 ngày.
+2. Theo yêu cầu của Bên A, Bên B thực hiện việc xem, cung cấp, chỉnh sửa, xóa (kể cả xóa template khuôn mặt), hạn chế, ngừng xử lý Dữ liệu trong thời hạn Bên A yêu cầu, **không vượt quá** thời hạn áp dụng khi phải yêu cầu bên xử lý thực hiện theo khoản 2, khoản 3, khoản 4 Điều 5 Nghị định số 356/2025/NĐ-CP và khoản 3 Điều 44 Nghị định số 330/2026/NĐ-CP: ngừng xử lý, hạn chế xử lý 20 ngày; xem, chỉnh sửa, cung cấp 15 ngày; xóa 30 ngày.
 3. Bên B cung cấp trên Hệ thống công cụ để Bên A: tìm và xuất hình ảnh của một chủ thể có làm mờ người không liên quan; xóa template theo từng người; xóa hàng loạt khi người lao động nghỉ việc; tạm ngừng xử lý tự động đối với một chủ thể.
 
 ### Điều 9. Thông báo và xử lý sự cố dữ liệu

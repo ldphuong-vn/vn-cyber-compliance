@@ -1,6 +1,6 @@
 # Mẫu Thông báo và văn bản đồng ý xử lý dữ liệu sinh trắc học (nhận diện khuôn mặt)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9, Đ10, Đ11.1, Đ14.1, Đ24, Đ25.2.c, Đ25.3, Đ31.2, Đ31.4, Đ39.1; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.2, Đ6, Đ10.3, Đ23.7; NĐ 330/2026/NĐ-CP Đ43, Đ45, Đ61.2, Đ67.2.a–b, Đ67.3.b, Đ70.2.b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9, Đ10, Đ11.1, Đ14.1, Đ24, Đ25.2.c, Đ25.3, Đ31.2, Đ31.4, Đ39.1; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.2, Đ6, Đ10.3, Đ23.7; NĐ 330/2026/NĐ-CP Đ43, Đ45, Đ60, Đ61.2, Đ67.2.a–b, Đ67.3.b, Đ70.2.b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -32,7 +32,7 @@ Bộ mẫu do **khách hàng** (bên kiểm soát) ban hành trước khi đăng
 | Thông báo việc xử lý tự động, giải thích nguyên tắc thuật toán và ảnh hưởng; cho lựa chọn không tham gia | NĐ 356 Đ10.3; NĐ 330 Đ67.2.a–b | Mục 4; tài liệu giải thích [`b3-giai-thich-thuat-toan.md`](b3-giai-thich-thuat-toan.md) |
 | Người lao động biết rõ biện pháp công nghệ, kỹ thuật được áp dụng | Luật 91 Đ25.3.a; NĐ 330 Đ61.2.c | Mẫu A; kèm điều khoản nội quy [`k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md`](k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md) |
 | [M3/M4] Chủ thể biết tên **tổ chức cung cấp dịch vụ xử lý dữ liệu cá nhân** | NĐ 356 Đ23.7 | Dòng "Đơn vị cung cấp dịch vụ xử lý" ở mục 2 |
-| Trẻ em: người đại diện theo pháp luật thực hiện quyền thay | Luật 91 Đ24.2 | Mẫu C |
+| Trẻ em: người đại diện theo pháp luật thực hiện quyền thay; **trẻ từ đủ 07 tuổi: cần đồng thời đồng ý của trẻ và người đại diện**; xác minh tuổi trước khi xử lý | Luật 91 Đ24.2; NĐ 330 Đ60.1.a–c | Mẫu C, phần xác nhận của học sinh |
 
 ### Rủi ro phạt (mức cho tổ chức)
 
@@ -43,6 +43,8 @@ Bộ mẫu do **khách hàng** (bên kiểm soát) ban hành trước khi đăng
 | Không cho từ chối xử lý tự động; không giải thích thuật toán | 50–70 triệu | NĐ 330 Đ67.2.a–b |
 | Quyết định tự động bất lợi mà không cho yêu cầu người xem xét lại | 70–100 triệu; có thể đình chỉ hệ thống 03–06 tháng | NĐ 330 Đ67.3.b, Đ67.4.b |
 | Dùng sinh trắc học vượt mục đích ban đầu mà chưa có đồng ý | 70–150 triệu | NĐ 330 Đ70.2.b |
+| Xử lý dữ liệu trẻ em không xác minh tuổi; trẻ dưới 07 tuổi không có đồng ý của người đại diện; trẻ từ đủ 07 tuổi không có **đồng thời** đồng ý của trẻ và người đại diện | 30–50 triệu | NĐ 330 Đ60.1 |
+| Không xóa dữ liệu trẻ em khi phụ huynh rút lại sự đồng ý hoặc đã hoàn thành mục đích | 100–200 triệu | NĐ 330 Đ60.3 |
 | Không xóa dữ liệu người lao động khi chấm dứt hợp đồng | 50–70 triệu | NĐ 330 Đ61.2.b |
 
 ### Lưu ý khi điền
@@ -149,7 +151,7 @@ Họ tên khách: ...................................... Thời điểm: ....../
 
 Kính gửi: Quý phụ huynh học sinh ...................................... Lớp: ..........
 
-{{TEN_KHACH_HANG}} dự kiến sử dụng hệ thống {{TEN_SAN_PHAM}} để điểm danh học sinh bằng khuôn mặt. Theo khoản 2 Điều 24 Luật Bảo vệ dữ liệu cá nhân, quý phụ huynh là người đại diện theo pháp luật, thay mặt học sinh quyết định việc đồng ý.
+{{TEN_KHACH_HANG}} dự kiến sử dụng hệ thống {{TEN_SAN_PHAM}} để điểm danh học sinh bằng khuôn mặt. Theo khoản 2 Điều 24 Luật Bảo vệ dữ liệu cá nhân, quý phụ huynh là người đại diện theo pháp luật, thay mặt học sinh thực hiện các quyền. Với học sinh **từ đủ 07 tuổi trở lên**, nhà trường cần **đồng thời** sự đồng ý của học sinh và của phụ huynh (điểm c khoản 1 Điều 60 Nghị định số 330/2026/NĐ-CP), vì vậy phiếu có thêm phần xác nhận của học sinh.
 
 1. **Dữ liệu:** ảnh khuôn mặt và đặc trưng khuôn mặt của học sinh — **dữ liệu sinh trắc học, là dữ liệu cá nhân nhạy cảm**; họ tên, lớp; thời điểm điểm danh.
 2. **Mục đích duy nhất:** điểm danh {{vào lớp/ra vào cổng trường}}. Hệ thống **không** chấm điểm hành vi, **không** nhận diện cảm xúc, **không** dùng để huấn luyện mô hình, **không** chia sẻ cho bên thứ ba trừ khi cơ quan nhà nước có thẩm quyền yêu cầu theo quy định của pháp luật.
@@ -164,6 +166,12 @@ Kính gửi: Quý phụ huynh học sinh ...................................... 
 | ☐ Tôi đồng ý cho con tôi được điểm danh bằng nhận diện khuôn mặt theo nội dung trên, biết rằng đây là dữ liệu cá nhân nhạy cảm | ☐ Tôi không đồng ý — con tôi điểm danh bằng {{điểm danh thủ công/thẻ học sinh}} |
 
 Họ tên phụ huynh: ...................................... Quan hệ với học sinh: ................ Điện thoại: ....................
+
+Ngày sinh của học sinh: ....../....../............ *(nhà trường đối chiếu với hồ sơ học sinh)*
+
+**Xác nhận của học sinh từ đủ 07 tuổi trở lên:** Em đã được thầy cô, bố mẹ giải thích và **đồng ý** ☐ / **không đồng ý** ☐ dùng khuôn mặt để điểm danh. Họ tên học sinh: ...................................... Chữ ký: ....................
+
+*Chỉ đăng ký khuôn mặt khi cả phụ huynh và học sinh (nếu từ đủ 07 tuổi) cùng chọn đồng ý.*
 
 | **PHỤ HUYNH HỌC SINH**<br/>*(Ký, ghi rõ họ tên)*<br/><br/><br/><br/> | **ĐẠI DIỆN BÊN NHÀ TRƯỜNG**<br/>*(Ký, ghi rõ họ tên)*<br/><br/><br/><br/>**{{NHAN_SU_BVDLCN_KH}}** |
 |:---:|:---:|
@@ -207,7 +215,7 @@ Tôi hiểu rằng việc rút lại không ảnh hưởng tới hoạt động 
 2. **Dòng "Đơn vị cung cấp dịch vụ xử lý dữ liệu cá nhân"**: bắt buộc khi nhà cung cấp vận hành cloud hoặc vận hành hộ (M3/M4 — NĐ 356 Đ23.7). Với M1 thuần (nhà cung cấp không tiếp cận dữ liệu) có thể bỏ dòng này.
 3. **Thời hạn** tại mục 5 lấy theo chính sách lưu trữ đã ban hành ([`k4-chinh-sach-luu-tru-xoa.md`](k4-chinh-sach-luu-tru-xoa.md)); thời hạn lưu hồ sơ chấm công theo pháp luật lao động, kế toán — **[CẦN ĐỐI CHIẾU]** (chưa có trong bộ nguồn).
 4. **Cấu hình hệ thống khớp với phiếu:** chỉ bật nhận diện cho người có ô "Đồng ý" tương ứng; người chọn "Không đồng ý" được cấp phương thức thay thế trước ngày áp dụng.
-5. **Mẫu C:** dùng ngôn ngữ đơn giản; khuyến nghị giải thích thêm cho học sinh phù hợp lứa tuổi. Phần mềm giáo dục có điểm danh, ghi hình là dịch vụ tại NĐ 356 Đ21.5 — nhà cung cấp vận hành hộ phải có Giấy chứng nhận.
+5. **Mẫu C:** dùng ngôn ngữ đơn giản; giải thích cho học sinh phù hợp lứa tuổi. **Xác minh tuổi** bằng hồ sơ học sinh trước khi xử lý (NĐ 330 Đ60.1.a). Học sinh từ đủ 07 tuổi phải cùng đồng ý (NĐ 330 Đ60.1.c) — quy định xử phạt này rộng hơn câu chữ Luật 91 Đ24.2 (Luật chỉ nêu đồng ý của trẻ khi công bố thông tin đời sống riêng tư); bộ khung theo mức chặt hơn. Phần mềm giáo dục có điểm danh, ghi hình là dịch vụ tại NĐ 356 Đ21.5 — nhà cung cấp vận hành hộ phải có Giấy chứng nhận.
 6. **Đưa mẫu đã dùng vào hồ sơ DPIA** (mục II.4 Mẫu 10 NĐ 356: "kèm theo biểu mẫu liên quan").
 
 ## Bằng chứng cần lưu

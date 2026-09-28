@@ -175,7 +175,7 @@ Phụ lục này là bộ phận không tách rời của Hợp đồng số {{S
 
 - Chọn cấu trúc tại Điều 2 theo mô hình kinh doanh thực tế. Nếu một đại lý có cả dự án tự ký và dự án làm nhà thầu phụ, đánh dấu cả hai và ghi cấu trúc trên phiếu dự án.
 - Tài liệu dẫn chiếu: Phụ lục xử lý dữ liệu mẫu (C1), Thỏa thuận hỗ trợ (C3), Cam kết bảo mật (C4), Danh mục kiểm tra triển khai (K8), Phân loại rủi ro tính năng (B2). Ghi phiên bản đang áp dụng vào {{PHIEN_BAN_PHU_LUC_XU_LY_DU_LIEU_MAU}}, {{PHIEN_BAN_DANH_MUC_KIEM_TRA}}.
-- {{SO_GIO_THONG_BAO_DAI_LY}}: nên ngắn hơn thời hạn nhà cung cấp cam kết với khách hàng tại C3 ({{SO_GIO_THONG_BAO_NCC}}), vì ở cấu trúc II nhà cung cấp còn phải chuyển tiếp thông báo.
+- {{SO_GIO_THONG_BAO_DAI_LY}}: nên ngắn hơn thời hạn nhà cung cấp cam kết với khách hàng tại C3 ({{SO_GIO_THONG_BAO_NCC}} giờ), vì ở cấu trúc II nhà cung cấp còn phải chuyển tiếp thông báo.
 - {{MUC_PHAT_VI_PHAM_HOP_DONG}}: theo thỏa thuận và giới hạn của pháp luật dân sự, thương mại — **[CẦN ĐỐI CHIẾU]** (văn bản chưa có trong `sources/`).
 - Với đại lý là hộ kinh doanh, doanh nghiệp siêu nhỏ: miễn trừ tại Luật 91 Đ38.3 (không phải lập DPIA, chỉ định nhân sự BVDLCN) không áp dụng cho tổ chức trực tiếp xử lý dữ liệu nhạy cảm. Đại lý đăng ký khuôn mặt hộ khách hàng có thể bị coi là trực tiếp xử lý — **[CẦN ĐỐI CHIẾU]**. Dù được miễn hay không, đại lý vẫn phải có đầu mối nhận thông báo sự cố và thực hiện Phụ lục này.
 
