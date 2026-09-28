@@ -28,6 +28,7 @@ Nhận diện Markdown: bảng 2 cột đầu tiên là khối quốc hiệu; b�
 
 - Khóa chung: `"TEN_PLACEHOLDER": "giá trị"`.
 - Giá trị riêng cho từng văn bản: `"_theo_file": { "<tên file không đuôi .md>": { ... } }` (ví dụ ngày ký khác nhau giữa Mẫu 01, 04, 06).
+- Giá trị chung cho mọi văn bản trong một thư mục: `"_theo_thu_muc": { "<thư mục docs>": { ... } }`. Khóa trong `_theo_file` có thể kèm thư mục (`"08-bo-mau-cap-1-2/mau-01-de-nghi-tham-dinh-phe-duyet"`) khi hai thư mục có file trùng tên; bộ mẫu cấp 1–2 dùng kiểu khóa này.
 - Giá trị dạng mảng: lần xuất hiện thứ k của placeholder trong văn bản nhận phần tử thứ k (ví dụ danh sách thành viên Hội đồng).
 - Đổi sang dữ liệu thật của tổ chức mình: sao chép file, sửa giá trị, chạy lại `node build.js`. **Không** đưa dữ liệu thật lên repo công khai.
 
@@ -41,3 +42,4 @@ Checklist, ma trận và sổ đăng ký xuất sang Excel (thư mục `template
 | `templates/03-yeu-cau-theo-cap-do/ma-tran-yeu-cau-theo-cap-do.xlsx` | Ma trận 18 nhóm × 5 cấp, ngưỡng định lượng, ánh xạ NĐ 331 ↔ TCVN |
 | `templates/02-ho-so-cap-do/so-dang-ky-rui-ro.xlsx` | Sổ đăng ký rủi ro; Mức rủi ro = Khả năng × Tác động và phân loại bằng công thức |
 | `templates/04-chinh-sach-quy-trinh/ma-tran-raci.xlsx` | Ma trận RACI |
+| `templates/08-bo-mau-cap-1-2/checklist-cap-1-2.xlsx` | Bộ mẫu cấp 1–2: danh mục HTTT, checklist TCVN mục 3/4 (chọn cấp 1 hoặc 2 ở sheet Hướng dẫn, cột Áp dụng tự tính), tổng hợp theo nhóm, lịch định kỳ, sổ sự cố, kế hoạch khắc phục (nguồn cột 10–11 Mẫu 08) |
