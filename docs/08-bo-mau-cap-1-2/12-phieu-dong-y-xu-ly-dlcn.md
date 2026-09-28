@@ -4,7 +4,7 @@
 
 ## Hướng dẫn sử dụng
 
-**Khi nào dùng.** Phiếu này chỉ dùng cho những việc xử lý dữ liệu cá nhân (DLCN) **cần sự đồng ý** của người lao động hoặc ứng viên. Những việc Công ty làm để thực hiện hợp đồng lao động (tính lương, chấm công) hoặc để làm nghĩa vụ luật định (khai thuế, đóng bảo hiểm xã hội) **không cần đồng ý** (Luật 91 Đ19.1.d, đ) — chỉ cần **thông báo** trong Thông báo xử lý DLCN người lao động (file `10-thong-bao-xu-ly-dlcn-nguoi-lao-dong.md`, số 53/2026/TB-TURBO). Không đưa những việc đó vào phiếu: xin đồng ý cho việc mà người lao động không có quyền từ chối là gây hiểu lầm.
+**Khi nào dùng.** Phiếu này chỉ dùng cho những việc xử lý dữ liệu cá nhân (DLCN) **cần sự đồng ý** của người lao động hoặc ứng viên. Những việc Công ty làm để thực hiện hợp đồng lao động (tính lương, chấm công) hoặc để làm nghĩa vụ luật định (khai thuế, đóng bảo hiểm xã hội) **không cần đồng ý** (Luật 91 Đ19.1.d, đ) — chỉ cần **thông báo** trong Thông báo xử lý DLCN người lao động ([10-thong-bao-xu-ly-dlcn-nguoi-lao-dong.md](10-thong-bao-xu-ly-dlcn-nguoi-lao-dong.md), số 53/2026/TB-TURBO). Không đưa những việc đó vào phiếu: xin đồng ý cho việc mà người lao động không có quyền từ chối là gây hiểu lầm.
 
 **Nguyên tắc đã kiểm với văn bản gốc**
 
@@ -26,7 +26,7 @@
 
 **Mức phạt (NĐ 330 Mục 6 — mức cho tổ chức, Đ7.1):** đặt sẵn đồng ý, chỉ dẫn gây hiểu lầm; không cho đồng ý từng mục đích; không lưu nhật ký đồng ý; không báo dữ liệu nhạy cảm: 30–50 triệu đồng (Đ43.1.c, e, g, h). Coi im lặng là đồng ý, hoặc cố ý tiếp tục xử lý sau khi đã có yêu cầu ngừng: 50–70 triệu đồng (Đ43.2). Gây cản trở hoặc không ngừng xử lý sau khi rút lại đồng ý: 20–30 triệu đồng (Đ45.1). Xử lý dữ liệu ứng viên khi chưa có đồng ý, dùng vào mục đích khác, không xóa khi không tuyển: 20–50 triệu đồng (Đ61.1.b–d).
 
-**Cách dùng trong kịch bản mẫu.** Công ty cổ phần Giải pháp Công nghệ TURBO đưa phiếu cho người lao động mới cùng hợp đồng lao động và Thông báo 53/2026/TB-TURBO; người lao động hiện có ký bổ sung. Ứng viên chỉ điền dòng 5 (hoặc dùng câu đồng ý trên form ứng tuyển — file `11-thong-bao-xu-ly-dlcn-ung-vien.md`). Công ty đã **bỏ chấm công vân tay**, chuyển sang thẻ từ, và chỉ lưu **số** CCCD trong hồ sơ nhân sự, nên phiếu không có dòng sinh trắc học. Nếu tổ chức của bạn còn dùng vân tay/khuôn mặt, thêm một dòng "Dữ liệu sinh trắc học — NHẠY CẢM (NĐ 356 Đ4.1.đ)" và luôn có cách chấm công thay thế cho người không đồng ý.
+**Cách dùng trong kịch bản mẫu.** Công ty cổ phần Giải pháp Công nghệ TURBO đưa phiếu cho người lao động mới cùng hợp đồng lao động và Thông báo 53/2026/TB-TURBO; người lao động hiện có ký bổ sung. Ứng viên chỉ điền dòng 5 (hoặc dùng câu đồng ý trên form ứng tuyển — [11-thong-bao-xu-ly-dlcn-ung-vien.md](11-thong-bao-xu-ly-dlcn-ung-vien.md)). Công ty đã **bỏ chấm công vân tay**, chuyển sang thẻ từ, và chỉ lưu **số** CCCD trong hồ sơ nhân sự, nên phiếu không có dòng sinh trắc học. Nếu tổ chức của bạn còn dùng vân tay/khuôn mặt, thêm một dòng "Dữ liệu sinh trắc học — NHẠY CẢM (NĐ 356 Đ4.1.đ)" và luôn có cách chấm công thay thế cho người không đồng ý.
 
 **Về miễn trừ của doanh nghiệp nhỏ.** Xin được đồng ý **không** làm mất tính chất "trực tiếp xử lý DLCN nhạy cảm". Nếu doanh nghiệp nhỏ muốn giữ miễn trừ DPIA và nhân sự BVDLCN (Luật 91 Đ38.2), cách chắc chắn hơn là **không lưu** ảnh CCCD và giấy khám sức khỏe (bỏ dòng 1, 2) — xem [bao-ve-du-lieu-ca-nhan-cap-1-2.md](bao-ve-du-lieu-ca-nhan-cap-1-2.md) mục 5.a và C19 trong [diem-can-doi-chieu.md](../00-tong-quan/diem-can-doi-chieu.md) **[CẦN ĐỐI CHIẾU]**.
 
@@ -72,7 +72,7 @@ Anh/chị đọc từng dòng và đánh dấu ☑ vào **một** ô. Mỗi dòn
 
 **4. Rút lại đồng ý**
 
-Anh/chị có thể rút lại đồng ý bất cứ lúc nào, cho một hoặc nhiều dòng, bằng một trong các cách: gửi email tới {{C12_EMAIL_BVDLCN}}; điền Phiếu yêu cầu (mẫu BM-DLCN-01) nộp tại {{C12_NOI_NOP_PHIEU}}; hoặc chọn "Rút lại đồng ý" trên {{C12_KENH_DIEN_TU}}. Công ty trả lời anh/chị trong **02 ngày làm việc** và ngừng xử lý trong **15 ngày** (tối đa **20 ngày** nếu phải yêu cầu nhà cung cấp dịch vụ cùng ngừng). Việc rút lại không làm ảnh hưởng đến việc Công ty đã làm đúng theo đồng ý trước đó.
+Anh/chị có thể rút lại đồng ý bất cứ lúc nào, cho một hoặc nhiều dòng, bằng một trong các cách: gửi email tới {{C12_EMAIL_BVDLCN}}; điền Phiếu yêu cầu (mẫu BM-DLCN-01) nộp tại {{C12_NOI_NOP_PHIEU}}; hoặc chọn "Rút lại đồng ý" trên {{C12_KENH_DIEN_TU}}. Công ty trả lời anh/chị trong **02 ngày làm việc** và ngừng xử lý trong **15 ngày** (**20 ngày** nếu phải yêu cầu nhà cung cấp dịch vụ cùng ngừng; nếu yêu cầu phức tạp, Công ty có thể gia hạn một lần và sẽ báo lý do). Việc rút lại không làm ảnh hưởng đến việc Công ty đã làm đúng theo đồng ý trước đó.
 
 **5. Xác nhận**
 
@@ -93,7 +93,7 @@ Tôi đã đọc, hiểu nội dung phiếu này và tự nguyện lựa chọn 
 - **Dòng 5 — ứng viên:** `{{C12_HAN_LUU_NGUON_UV}}` do Công ty tự đặt (gợi ý 12 tháng); hết hạn thì xóa. Phải khớp với thời hạn nêu ở file 11.
 - `{{C12_NOI_LUU}}`: hệ thống và vị trí lưu thực tế (khớp bảng kiểm kê DLCN). Nếu lưu trên dịch vụ đám mây có máy chủ ở nước ngoài thì phải ghi rõ và xem nghĩa vụ chuyển DLCN xuyên biên giới (Luật 91 Đ20).
 - `{{C12_NGUOI_DUOC_XEM}}`: ghi chức danh, không ghi tên (ví dụ "chuyên viên phụ trách bảo hiểm xã hội của Phòng Hành chính – Nhân sự").
-- `{{C12_NOI_NOP_PHIEU}}`, `{{C12_KENH_DIEN_TU}}`: phải khớp với kênh tiếp nhận tại Quy trình 54/2026 (file 13, mục 2).
+- `{{C12_NOI_NOP_PHIEU}}`, `{{C12_KENH_DIEN_TU}}`: phải khớp với kênh tiếp nhận tại Quy trình 54/2026 ([file 13](13-quy-trinh-yeu-cau-chu-the-du-lieu.md), mục 2).
 - **Phiếu điện tử** (trên intranet HT-02): hai lựa chọn cho mỗi dòng, **không chọn sẵn**, nút gửi chỉ bật khi đã chọn đủ các dòng hoặc cho phép bỏ trống (bỏ trống = không đồng ý). Hệ thống phải ghi được: tài khoản đăng nhập (xác định ai đồng ý), thời điểm, nội dung phiên bản phiếu (NĐ 356 Đ6.1) và gửi lại bản sao cho người đồng ý qua email.
 - **Không cần** ô "đồng ý tất cả". Nếu có, đặt ở dưới và vẫn phải hiển thị từng dòng.
 - Người lao động, ứng viên là **trẻ em** hoặc người bị mất, hạn chế năng lực hành vi dân sự: người đại diện theo pháp luật thay mặt thực hiện quyền (Luật 91 Đ24.2) — phải sửa phần ký. Luật 91 không định nghĩa tuổi trẻ em; theo Luật Trẻ em là dưới 16 tuổi **[CẦN ĐỐI CHIẾU]**.
