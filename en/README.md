@@ -15,6 +15,30 @@ This English layer is a **condensed guide**, not a translation. It explains obli
 
 > **Status:** toolkit v0.1. Vietnamese pages checked against the original legal texts on 24/09/2026. This is reference material, **not legal advice**. Before signing anything, re-check the original texts, the official TCVN 14423:2026 (sold by VSQI) and the open points in [gray-areas.md](gray-areas.md).
 
+## Limitations — read before use
+
+The toolkit helps organizations **understand their obligations, self-assess and draft documents faster**. It does **not replace** lawyers, compliance advisers or the views of the competent authorities.
+
+| What the toolkit does | What it does not do |
+|---|---|
+| Summarizes and cites provisions from the full legal texts; flags where texts are inconsistent | Give **legal advice** on your organization's specific situation |
+| Proposes a **cautious reading** of gray areas ([gray-areas.md](gray-areas.md)) | Guarantee that appraising or inspecting authorities **read them the same way** |
+| Provides templates, checklists and illustrative sample data | Guarantee that a dossier is **approved**, a system **passes** inspection, or the organization **avoids penalties** |
+| Paraphrases TCVN 14423:2026 with clause numbers | Replace the **official standard** (copyrighted, sold by VSQI) |
+| Is updated monthly when new texts appear | Reflect newly issued texts or guidance **immediately**; there is always a lag |
+
+Also note:
+
+- **The rules are new and guidance is incomplete.** Law 116/2025 and Decrees 330, 331 and 333/2026 have only just taken effect; several MPS circulars and forms are still pending. Official guidance may differ from the toolkit's reading.
+- **Limited scope.** Sector rules (banking, telecommunications, health, securities…), state-secret protection and the separate procedures for information systems critical to national security are not covered in depth. Level 4–5 systems require direct engagement with the MPS.
+- **Sources.** Some full texts in `sources/` come from public legal websites; check the Official Gazette or the issuing body's version before citing formally.
+- **Templates are starting points.** Adapt them to your structure, charter, internal rules and actual systems. Sample data is **simulated** (only the company name TURBO is real).
+- **Errors are possible.** Content was drafted with AI assistance (Claude Code) and cross-checked against the original texts, but mistakes may remain. Each page shows its check date; please report errors via [Issues](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new/choose).
+- **This English guide is unofficial**; the Vietnamese pages and the original Vietnamese legal texts prevail.
+- **No warranty, no liability.** Provided "as is" under the Apache License 2.0. Users remain responsible for their own decisions and filings.
+
+**Consult a lawyer or the competent authority when:** a system sits near the Level 2/Level 3 boundary or falls in a conditional business line; you must decide on data localization, cross-border transfer of personal data or a personal data processing service business; a serious incident or data breach occurs; you face an inspection or penalty; or you sign contracts with cybersecurity or data clauses with vendors or customers.
+
 ## The legal landscape in 10 lines
 
 1. **Law on Cybersecurity 2025** (Law 116) — effective **01/7/2026**. It replaces the Law on Network Information Security 2015 and the Law on Cybersecurity 2018.
@@ -90,7 +114,7 @@ Every page shows the date it was checked against the original texts. English pag
 
 ## Disclaimer
 
-This guide is for orientation only and is not legal advice. The Vietnamese pages and, above all, the original Vietnamese legal texts prevail. Translations of legal terms are the toolkit's working renderings.
+This guide is for orientation only and is not legal advice (see [Limitations](#limitations--read-before-use)). The Vietnamese pages and, above all, the original Vietnamese legal texts prevail. Translations of legal terms are the toolkit's working renderings.
 
 ## Contributing
 
