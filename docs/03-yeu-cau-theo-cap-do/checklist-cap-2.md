@@ -90,7 +90,8 @@ Cấp độ 2 gồm **15 nhóm** (mục 4.1–4.15). So với cấp 1 bổ sung:
 
 | Mục TCVN | Yêu cầu (tóm lược) | Kết quả | Bằng chứng cần lưu | Ghi chú |
 |---|---|---|---|---|
-| 4.6.1 a) | Quy trình, công cụ cấp/thu hồi quyền cho 4 loại tài khoản (quản trị, tác nghiệp, kỹ thuật, dịch vụ) theo vai trò | | Quy trình quản lý tài khoản |  |
+| 4.6.1 a) | Có quy trình, công cụ phân quyền và quản lý quyền truy cập cho 4 loại tài khoản (quản trị, tác nghiệp, kỹ thuật, dịch vụ) | | Quy trình quản lý tài khoản, công cụ quản lý tập trung |  |
+| 4.6.1 b) | Quy trình tạo, gán, quản lý, thu hồi đặc quyền và quyền truy cập; quyền của từng loại tài khoản nhất quán theo vai trò, chỉ đủ cho dữ liệu, tài sản cần thiết | | Quy trình cấp/thu hồi quyền, phiếu yêu cầu đã duyệt |  |
 | 4.6.1 c) | Ghi log và giám sát hoạt động của tài khoản người dùng | | Cấu hình audit log đăng nhập |  |
 | 4.6.2.1 a) | Danh sách mọi tài khoản trên phần cứng và phần mềm | | Danh sách tài khoản |  |
 | 4.6.2.1 b) | Danh sách gồm tối thiểu: tài khoản quản trị, tác nghiệp, kỹ thuật | | Danh sách tài khoản phân loại | **Mới/khác so với cấp 1** |
@@ -114,6 +115,7 @@ Cấp độ 2 gồm **15 nhóm** (mục 4.1–4.15). So với cấp 1 bổ sung:
 
 | Mục TCVN | Yêu cầu (tóm lược) | Kết quả | Bằng chứng cần lưu | Ghi chú |
 |---|---|---|---|---|
+| 4.7.1 a) | Xây dựng, phát triển kế hoạch đánh giá, theo dõi lỗ hổng thường xuyên để khắc phục và giảm nguy cơ bị tấn công | | Kế hoạch đánh giá lỗ hổng (phạm vi, lịch rà quét) |  |
 | 4.7.1 b) | Theo dõi thông tin mối đe dọa, lỗ hổng mới từ nhiều nguồn | | Nguồn tin đăng ký (NCSC, CVE, hãng…) |  |
 | 4.7.2.1 a) | Quy trình quản lý lỗ hổng: rà quét phát hiện, chấm mức nghiêm trọng, chia sẻ/tiếp nhận báo cáo, khắc phục theo ưu tiên và kiểm tra lại | | Quy trình quản lý lỗ hổng |  |
 | 4.7.2.1 b) | Rà soát quy trình và thực hiện rà quét lỗ hổng ≥ 1 lần/năm hoặc khi thay đổi | | Báo cáo rà quét, biên bản rà soát |  |
@@ -167,8 +169,8 @@ Cấp độ 2 gồm **15 nhóm** (mục 4.1–4.15). So với cấp 1 bổ sung:
 
 | Mục TCVN | Yêu cầu (tóm lược) | Kết quả | Bằng chứng cần lưu | Ghi chú |
 |---|---|---|---|---|
-| 4.12.2.1 a) | Lập, duy trì sơ đồ kiến trúc mạng và hồ sơ mạng | | Sơ đồ mạng; biên bản thẩm tra thiết kế (cấp 4–5) |  |
-| 4.12.2.1 b) | Kiến trúc mạng an toàn theo 3 nguyên tắc: phân vùng, đặc quyền tối thiểu, sẵn sàng | | Tài liệu kiến trúc |  |
+| 4.12.2.1 a) | Thiết lập và duy trì thực tế sơ đồ kiến trúc mạng và hồ sơ mạng | | Sơ đồ mạng hiện hành, hồ sơ mạng | **Mới/khác so với cấp 1** (cấp 1 chỉ yêu cầu có phương án) |
+| 4.12.2.1 b) | Triển khai, duy trì kiến trúc mạng an toàn theo 3 nguyên tắc: phân vùng, đặc quyền tối thiểu, sẵn sàng | | Tài liệu kiến trúc, cấu hình phân vùng | **Mới/khác so với cấp 1** (cấp 1 chỉ yêu cầu có phương án) |
 | 4.12.2.1 c) | Hồ sơ mạng gồm: tổng quan kiến trúc, sơ đồ chi tiết, tài liệu kỹ thuật, mô tả phương án ANM | | Bộ hồ sơ mạng |  |
 | 4.12.2.1 d) | Khi đổi thiết kế, đánh giá lại sự phù hợp với yêu cầu an toàn | | Biên bản đánh giá thay đổi | **Mới/khác so với cấp 1** |
 | 4.12.2.1 e) | Cập nhật sơ đồ mạng 1 lần/năm hoặc khi thay đổi | | Lịch sử phiên bản sơ đồ |  |
@@ -191,12 +193,14 @@ Cấp độ 2 gồm **15 nhóm** (mục 4.1–4.15). So với cấp 1 bổ sung:
 | 4.12.2.5 | Thiết bị truy cập từ xa phải có chống mã độc và cấu hình theo chính sách của tổ chức | | Chính sách posture check | **Mới/khác so với cấp 1** |
 | 4.12.2.5 | Chỉ cho phép một số địa chỉ được quản trị thiết bị từ xa (nếu hỗ trợ) | | ACL quản trị | **Mới/khác so với cấp 1** |
 
+> **Lưu ý so với cấp 1:** mục 4.12 của TCVN không nhắc lại hai yêu cầu có ở cấp 1 — kiểm soát truy cập của thiết bị đầu cuối, máy tính người dùng khi kết nối vào mạng (3.12.2.2) và bật xác thực khi quản trị thiết bị tại chỗ hoặc từ xa (3.12.2.4 b). Khuyến nghị giữ cả hai như thực hành tốt (ghi vào cột Ghi chú của dòng liên quan hoặc vào phương án ANM); việc không áp dụng không bị coi là thiếu yêu cầu cấp 2.
+
 ## 4.13 Nhân sự vận hành, quản trị, bảo vệ an ninh mạng
 
 | Mục TCVN | Yêu cầu (tóm lược) | Kết quả | Bằng chứng cần lưu | Ghi chú |
 |---|---|---|---|---|
 | 4.13.1 a) | Các bộ phận vận hành, quản trị, bảo vệ ANM độc lập về chuyên môn | | Quy chế phân định nhiệm vụ | **Mới/khác so với cấp 1** |
-| 4.13.2.1 a) | Phân công người phụ trách vận hành, quản trị và bảo vệ ANM cho hệ thống | | Quyết định phân công |  |
+| 4.13.2.1 a) | Có bộ phận (không chỉ cá nhân) phụ trách vận hành, quản trị hệ thống và bảo vệ ANM, có nhân sự cụ thể | | Quyết định giao nhiệm vụ cho bộ phận, danh sách nhân sự | **Mới/khác so với cấp 1** |
 | 4.13.2.1 b) | Nhân sự có trình độ ANM/CNTT; ký cam kết bảo mật trong và sau khi nghỉ việc | | Hồ sơ năng lực, cam kết bảo mật |  |
 | 4.13.2.2 a) | Chương trình nâng cao nhận thức ANM cho mọi người dùng HTTT | | Tài liệu, danh sách tham dự |  |
 | 4.13.2.2 b) | Đào tạo nhận thức ≥ 1 lần/năm | | Danh sách, bài kiểm tra |  |
@@ -238,8 +242,8 @@ Cấp độ 2 gồm **15 nhóm** (mục 4.1–4.15). So với cấp 1 bổ sung:
 | 4.3 | Quản lý tài sản phần mềm | 9 | | | | |
 | 4.4 | Quản lý tài sản thông tin | 9 | | | | |
 | 4.5 | Cấu hình an toàn phần cứng, phần mềm | 7 | | | | |
-| 4.6 | Quản lý tài khoản và quyền truy cập | 19 | | | | |
-| 4.7 | Quản lý lỗ hổng bảo mật | 7 | | | | |
+| 4.6 | Quản lý tài khoản và quyền truy cập | 20 | | | | |
+| 4.7 | Quản lý lỗ hổng bảo mật | 8 | | | | |
 | 4.8 | Quản lý nhật ký an ninh mạng | 7 | | | | |
 | 4.9 | Bảo vệ trình duyệt web, thư điện tử | 4 | | | | |
 | 4.10 | Phòng chống phần mềm độc hại | 5 | | | | |
@@ -248,7 +252,7 @@ Cấp độ 2 gồm **15 nhóm** (mục 4.1–4.15). So với cấp 1 bổ sung:
 | 4.13 | Nhân sự vận hành, quản trị, bảo vệ an ninh mạng | 7 | | | | |
 | 4.14 | Quản lý nhà cung cấp sản phẩm, dịch vụ | 5 | | | | |
 | 4.15 | Quản trị ứng phó sự cố an ninh mạng | 11 | | | | |
-| | **Tổng** | **129** | | | | |
+| | **Tổng** | **131** | | | | |
 
 ## Bước tiếp theo
 

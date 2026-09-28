@@ -82,7 +82,8 @@ Cấp độ 1 gồm **15 nhóm** yêu cầu (mục 3.1–3.15). Đây là mức 
 
 | Mục TCVN | Yêu cầu (tóm lược) | Kết quả | Bằng chứng cần lưu | Ghi chú |
 |---|---|---|---|---|
-| 3.6.1 a) | Quy trình, công cụ cấp/thu hồi quyền cho 4 loại tài khoản (quản trị, tác nghiệp, kỹ thuật, dịch vụ) theo vai trò | | Quy trình quản lý tài khoản |  |
+| 3.6.1 a) | Có quy trình, công cụ phân quyền và quản lý quyền truy cập cho 4 loại tài khoản (quản trị, tác nghiệp, kỹ thuật, dịch vụ) | | Quy trình quản lý tài khoản, công cụ quản lý tập trung |  |
+| 3.6.1 b) | Quy trình tạo, gán, quản lý, thu hồi đặc quyền và quyền truy cập; quyền của từng loại tài khoản nhất quán theo vai trò, chỉ đủ cho dữ liệu, tài sản cần thiết | | Quy trình cấp/thu hồi quyền, phiếu yêu cầu đã duyệt |  |
 | 3.6.1 c) | Ghi log và giám sát hoạt động của tài khoản người dùng | | Cấu hình audit log đăng nhập |  |
 | 3.6.2.1 a) | Danh sách mọi tài khoản trên phần cứng và phần mềm | | Danh sách tài khoản |  |
 | 3.6.2.1 b) | Danh sách gồm đủ loại: quản trị, tác nghiệp, dịch vụ, kỹ thuật | | Danh sách tài khoản phân loại |  |
@@ -106,6 +107,7 @@ Cấp độ 1 gồm **15 nhóm** yêu cầu (mục 3.1–3.15). Đây là mức 
 
 | Mục TCVN | Yêu cầu (tóm lược) | Kết quả | Bằng chứng cần lưu | Ghi chú |
 |---|---|---|---|---|
+| 3.7.1 a) | Có kế hoạch đánh giá, theo dõi lỗ hổng thường xuyên để khắc phục và giảm nguy cơ bị tấn công | | Kế hoạch đánh giá lỗ hổng (phạm vi, lịch rà quét) |  |
 | 3.7.1 b) | Theo dõi thông tin mối đe dọa, lỗ hổng mới từ nhiều nguồn | | Nguồn tin đăng ký (NCSC, CVE, hãng…) |  |
 | 3.7.2.1 a) | Quy trình quản lý lỗ hổng: rà quét phát hiện, chấm mức nghiêm trọng, chia sẻ/tiếp nhận báo cáo, khắc phục theo ưu tiên và kiểm tra lại | | Quy trình quản lý lỗ hổng |  |
 | 3.7.2.1 b) | Rà soát quy trình và thực hiện rà quét lỗ hổng ≥ 1 lần/năm hoặc khi thay đổi | | Báo cáo rà quét, biên bản rà soát |  |
@@ -154,8 +156,8 @@ Cấp độ 1 gồm **15 nhóm** yêu cầu (mục 3.1–3.15). Đây là mức 
 
 | Mục TCVN | Yêu cầu (tóm lược) | Kết quả | Bằng chứng cần lưu | Ghi chú |
 |---|---|---|---|---|
-| 3.12.2.1 a) | Lập, duy trì sơ đồ kiến trúc mạng và hồ sơ mạng | | Sơ đồ mạng; biên bản thẩm tra thiết kế (cấp 4–5) |  |
-| 3.12.2.1 b) | Kiến trúc mạng an toàn theo 3 nguyên tắc: phân vùng, đặc quyền tối thiểu, sẵn sàng | | Tài liệu kiến trúc |  |
+| 3.12.2.1 a) | Có phương án lập và duy trì sơ đồ kiến trúc mạng và hồ sơ mạng | | Phương án (trong Quy chế/phương án ANM); sơ đồ mạng hiện có |  |
+| 3.12.2.1 b) | Có phương án triển khai, duy trì kiến trúc mạng an toàn theo 3 nguyên tắc: phân vùng, đặc quyền tối thiểu, sẵn sàng | | Phương án kiến trúc mạng |  |
 | 3.12.2.1 c) | Hồ sơ mạng gồm: tổng quan kiến trúc, sơ đồ chi tiết, tài liệu kỹ thuật, mô tả phương án ANM | | Bộ hồ sơ mạng |  |
 | 3.12.2.1 d) | Cập nhật sơ đồ mạng 1 lần/năm hoặc khi thay đổi | | Lịch sử phiên bản sơ đồ |  |
 | 3.12.2.2 | Có phương án dự phòng cho thiết bị mạng chính | | Sơ đồ HA, hợp đồng kênh truyền |  |
@@ -215,8 +217,8 @@ Cấp độ 1 gồm **15 nhóm** yêu cầu (mục 3.1–3.15). Đây là mức 
 | 3.3 | Quản lý tài sản phần mềm | 7 | | | | |
 | 3.4 | Quản lý tài sản thông tin | 8 | | | | |
 | 3.5 | Cấu hình an toàn phần cứng, phần mềm | 6 | | | | |
-| 3.6 | Quản lý tài khoản và quyền truy cập | 19 | | | | |
-| 3.7 | Quản lý lỗ hổng bảo mật | 5 | | | | |
+| 3.6 | Quản lý tài khoản và quyền truy cập | 20 | | | | |
+| 3.7 | Quản lý lỗ hổng bảo mật | 6 | | | | |
 | 3.8 | Quản lý nhật ký an ninh mạng | 5 | | | | |
 | 3.9 | Bảo vệ trình duyệt web, thư điện tử | 4 | | | | |
 | 3.10 | Phòng chống phần mềm độc hại | 5 | | | | |
@@ -225,7 +227,7 @@ Cấp độ 1 gồm **15 nhóm** yêu cầu (mục 3.1–3.15). Đây là mức 
 | 3.13 | Nhân sự vận hành, quản trị, bảo vệ an ninh mạng | 5 | | | | |
 | 3.14 | Quản lý nhà cung cấp sản phẩm, dịch vụ | 5 | | | | |
 | 3.15 | Quản trị ứng phó sự cố an ninh mạng | 9 | | | | |
-| | **Tổng** | **109** | | | | |
+| | **Tổng** | **111** | | | | |
 
 ## Bước tiếp theo
 
