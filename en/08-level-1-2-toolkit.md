@@ -153,7 +153,7 @@ Months are suggestions; the "at least yearly" cycles come from TCVN 14423:2026 c
 | December | Data cut-off 14/12; internal reports before 20/12; system owner to the MPS before 25/12 (Art. 35.3, 35.4) | All three |
 | On event | Incident: serious-incident notice 24h, report 72h; personal data breach: 72h notice (Art. 23.1 PDPL); system change: risk assessment (Art. 10.2(b)–(đ)) | Incident contact |
 
-**Sample first-year timeline (simulated data):** assignment decision 01/10/2026 → regulation 05/10 → dossier 12/10 → Form 01 15/10 → appraisal minutes 22/10 → approval decision 26/10 → report to system owner 27/10 → 2027 annual plan on 16 November → 2026 annual report before 20/12 and 25/12.
+**Sample first-year timeline (simulated data):** assignment decision 01/10/2026 → regulation 05/10 → dossier 12/10 → Form 01 15/10 → appraisal minutes 22/10 → approval decision 26/10 → report to system owner 27/10 → 2027 annual plan 16/11 → 2026 annual report before 20/12 and 25/12.
 
 ## 7. Related penalties (Decree 330)
 
