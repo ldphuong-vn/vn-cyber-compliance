@@ -11,6 +11,30 @@ Bộ tài liệu dùng chung để **xác định cấp độ hệ thống thôn
 
 > **Trạng thái: bản khung v0.1.** Đã đối chiếu với văn bản gốc ngày 24/09/2026. Đây là tài liệu tham khảo, **không phải ý kiến pháp lý**. Trước khi ký ban hành, phải đối chiếu lại văn bản gốc và bản chính thức TCVN 14423:2026 (mua tại VSQI), đồng thời xem các điểm còn mở trong [`docs/00-tong-quan/diem-can-doi-chieu.md`](docs/00-tong-quan/diem-can-doi-chieu.md).
 
+## Giới hạn của bộ khung — đọc trước khi dùng
+
+Bộ khung giúp tổ chức **hiểu nghĩa vụ, tự rà soát và soạn nhanh hồ sơ**. Bộ khung **không thay thế** luật sư, tư vấn tuân thủ hay ý kiến của cơ quan có thẩm quyền.
+
+| Bộ khung làm được | Bộ khung không làm được |
+|---|---|
+| Tổng hợp, trích dẫn điều khoản từ toàn văn văn bản; chỉ ra chỗ các văn bản chưa thống nhất | Đưa ra **ý kiến pháp lý** cho trường hợp cụ thể của tổ chức anh chị |
+| Đề xuất **cách hiểu thận trọng** cho các vùng xám ([C1–C18](docs/00-tong-quan/diem-can-doi-chieu.md)) | Bảo đảm cơ quan thẩm định, thanh tra, kiểm tra **hiểu giống vậy** |
+| Cung cấp mẫu văn bản, checklist, dữ liệu mẫu minh họa | Bảo đảm hồ sơ được **phê duyệt**, hệ thống **đạt** khi kiểm tra, hay tổ chức **không bị xử phạt** |
+| Tóm lược yêu cầu TCVN 14423:2026 kèm số mục | Thay cho **bản chính thức** của tiêu chuẩn (có bản quyền, mua tại VSQI) |
+| Cập nhật hằng tháng khi có văn bản mới | Phản ánh **ngay** văn bản, hướng dẫn vừa ban hành; luôn có độ trễ |
+
+Cần lưu ý thêm:
+
+- **Văn bản còn mới, chưa đủ hướng dẫn.** Luật 116/2025 và các NĐ 330, 331, 333/2026 mới có hiệu lực; nhiều thông tư, biểu mẫu của Bộ Công an chưa ban hành. Hướng dẫn chính thức có thể khác cách hiểu của bộ khung.
+- **Phạm vi có giới hạn.** Bộ khung không bao quát quy định chuyên ngành (ngân hàng, viễn thông, y tế, chứng khoán…), bảo vệ bí mật nhà nước, hay thủ tục riêng của HTTT quan trọng về an ninh quốc gia. HTTT cấp 4–5 cần làm việc trực tiếp với Bộ Công an.
+- **Nguồn văn bản.** Một số toàn văn trong `sources/` lấy từ trang pháp luật công khai. Trước khi trích dẫn chính thức, đối chiếu Công báo hoặc bản do cơ quan ban hành công bố.
+- **Mẫu là khung tham khảo.** Phải điều chỉnh theo cơ cấu, Điều lệ, quy chế nội bộ và hệ thống thực tế của tổ chức. Dữ liệu mẫu là **mô phỏng**, chỉ tên công ty TURBO là thật.
+- **Có thể còn sai sót.** Nội dung được soạn với sự hỗ trợ của AI (Claude Code) và đã rà soát chéo với văn bản gốc, nhưng vẫn có thể sai. Mỗi trang ghi ngày "Đối chiếu văn bản gốc"; gặp lỗi xin báo qua [Issue](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new/choose).
+- **Bản tiếng Anh** trong [`en/`](en/README.md) là bản hướng dẫn không chính thức; bản tiếng Việt và văn bản gốc có giá trị.
+- **Không bảo đảm, không chịu trách nhiệm.** Bộ khung phát hành "nguyên trạng" theo Apache License 2.0. Người dùng tự chịu trách nhiệm về quyết định và hồ sơ của mình.
+
+**Nên hỏi luật sư hoặc cơ quan có thẩm quyền khi:** hệ thống nằm sát ranh giới cấp 2/cấp 3 hoặc thuộc ngành nghề kinh doanh có điều kiện; phải quyết định về lưu trữ dữ liệu tại Việt Nam, chuyển dữ liệu cá nhân ra nước ngoài hay kinh doanh dịch vụ xử lý dữ liệu cá nhân; xảy ra sự cố nghiêm trọng hoặc lộ lọt dữ liệu; bị thanh tra, kiểm tra, xử phạt; hoặc ký hợp đồng có điều khoản an ninh mạng, dữ liệu với nhà cung cấp, khách hàng.
+
 ## Cấu trúc
 
 | Thư mục | Nội dung | Dùng khi |

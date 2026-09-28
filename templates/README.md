@@ -6,6 +6,7 @@ Toàn bộ mẫu văn bản (Word) và bảng tính (Excel) để **tải về, 
 - **Excel:** checklist có danh sách chọn và công thức tổng hợp; ô nền vàng là ô cần điền.
 - **Dữ liệu mẫu:** các chỗ cần điền đã được điền sẵn một hồ sơ **mô phỏng** của Công ty cổ phần Giải pháp Công nghệ TURBO để dễ hình dung, và **tô vàng**. Chỉ tên công ty là thật; họ tên, phòng ban, địa chỉ, số văn bản, số liệu đều giả lập — thay bằng thông tin của tổ chức mình trước khi dùng.
 - **English:** danh mục tiếng Anh của toàn bộ file và hướng dẫn đọc hiểu biểu mẫu cho người nước ngoài: [en/09-templates-catalog.md](../en/09-templates-catalog.md), [en/10-form-reading-guide.md](../en/10-form-reading-guide.md). Bản nộp cơ quan nhà nước vẫn dùng tiếng Việt.
+- **Giới hạn:** mẫu là khung tham khảo, không phải ý kiến pháp lý và không bảo đảm hồ sơ được phê duyệt — xem [Giới hạn của bộ khung](../README.md#giới-hạn-của-bộ-khung--đọc-trước-khi-dùng).
 - **Bản quyền:** các file liên quan TCVN 14423:2026 chỉ tóm lược kèm số mục; khi lập hồ sơ phải đối chiếu bản chính thức (mua tại VSQI).
 
 > Thứ tự thực hiện gợi ý: 5 (tờ trình xin chủ trương, nhân lực, ngân sách) → 4 (quyết định tổ chức, **Quy chế** — phải ban hành trước khi phê duyệt cấp độ, NĐ 331 Đ30.7) → 1 → 2 → 3, rồi báo cáo năm Mẫu 08. Tổ chức chỉ có HTTT cấp độ 1–2: dùng mục 6. Xem [README gốc](../README.md#quy-trình-sử-dụng).
