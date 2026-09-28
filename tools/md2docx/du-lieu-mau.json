@@ -875,7 +875,7 @@
       "C12_THANG_QD": "10",
       "C12_NAM_QD": "2026",
       "C12_CHUC_DANH_NGUOI_DE_NGHI": "Trưởng phòng An ninh mạng",
-      "C12_HAN_THAM_DINH": "10 ngày làm việc",
+      "C12_HAN_THAM_DINH": "05 ngày làm việc",
       "C12_HAN_BAO_CAO_CHU_QUAN": "03 ngày làm việc",
       "C12_CHUC_DANH_KY_PHE_DUYET": "Trưởng phòng An ninh mạng",
       "C12_TINH_TRANG_D18_4": "không phát sinh, do Phòng An ninh mạng không được giao quản lý, vận hành hệ thống thông tin nào nêu tại Phụ lục. Khi phát sinh, Phòng An ninh mạng trình Tổng Giám đốc quyết định phương án trước khi tiếp nhận hồ sơ.",
@@ -901,7 +901,8 @@
         "Cấp độ 2",
         "Cấp độ 2",
         "Cấp độ 1"
-      ]
+      ],
+      "C12_SU_DUNG_DAU": "không đóng dấu; đăng ký số và lưu tại văn thư Công ty"
     },
     "08-bo-mau-cap-1-2/03-quy-che-anm-cap-1-2": {
       "C12_SO_QD_QUY_CHE": "41/2026/QĐ-TURBO",

@@ -6,7 +6,7 @@
 
 **Mục đích.** Một quyết định duy nhất thay cho ba văn bản của bộ đầy đủ ([QĐ chỉ định đơn vị chuyên trách](../04-chinh-sach-quy-trinh/qd-chi-dinh-don-vi-bo-phan-chuyen-trach-anm.md), [QĐ giao đơn vị vận hành](../04-chinh-sach-quy-trinh/qd-giao-don-vi-van-hanh.md), [QĐ thành lập Hội đồng thẩm định](../04-chinh-sach-quy-trinh/qd-thanh-lap-hoi-dong-tham-dinh.md)) khi mọi HTTT của tổ chức chỉ ở cấp độ 1–2. Quyết định do **người đứng đầu chủ quản** ký (NĐ 331 Đ31.1–31.2) và phải có trước khi đơn vị chuyên trách thẩm định, phê duyệt hồ sơ, vì đây là căn cứ phân cấp để Trưởng đơn vị chuyên trách ký Quyết định phê duyệt cấp độ ([mẫu 07](07-qd-phe-duyet-cap-do.md)).
 
-**Vì sao cần phân cấp ký.** Đ18.1 và Đ20.3.a giao **đơn vị chuyên trách về ANM** thẩm định, phê duyệt hồ sơ cấp 1–2 rồi báo cáo chủ quản. Phòng/ban trong doanh nghiệp thường không có con dấu và không có thẩm quyền ban hành văn bản riêng; Điều 1 khoản 3 của Quyết định giao rõ người ký và hình thức văn bản. NĐ 331 không có mẫu quyết định phê duyệt cho cấp 1–2 **[CẦN ĐỐI CHIẾU]** thể thức: đơn vị không có con dấu thì ký theo phân cấp tại Quyết định này, có thể đóng dấu treo của tổ chức nếu Điều lệ, quy chế văn thư cho phép.
+**Vì sao cần phân cấp ký.** Đ18.1 và Đ20.3.a giao **đơn vị chuyên trách về ANM** thẩm định, phê duyệt hồ sơ cấp 1–2 rồi báo cáo chủ quản. Phòng/ban trong doanh nghiệp thường không có con dấu và không có thẩm quyền ban hành văn bản riêng; Điều 1 khoản 3 của Quyết định giao rõ người ký và hình thức văn bản. Thẩm quyền phê duyệt của đơn vị chuyên trách đến trực tiếp từ NĐ 331 (Đ18.1, Đ20.3.a, Đ32.4) — không phải ủy quyền của chủ quản — nên văn bản phê duyệt ký nhân danh đơn vị chuyên trách, không ký "TL./TUQ." người đứng đầu. NĐ 331 không có mẫu quyết định phê duyệt cho cấp 1–2 (Mẫu 06 dành cho chủ quản ký ở cấp 3–4); hình thức Quyết định được chọn vì Đ36.10 (nội dung báo cáo năm) yêu cầu "thông tin Quyết định phê duyệt". Con dấu: Luật Doanh nghiệp 2020 Đ43 cho doanh nghiệp tự quyết định loại dấu, số lượng, hình thức dấu của doanh nghiệp và "đơn vị khác" của doanh nghiệp (kể cả chữ ký số); NĐ 30/2020/NĐ-CP (thể thức văn bản) áp dụng cho cơ quan, tổ chức nhà nước và doanh nghiệp nhà nước, doanh nghiệp khác tham khảo. Vì vậy Điều 1 khoản 3 ghi rõ người ký, việc đăng ký số và việc dùng dấu (hoặc không) theo quy chế văn thư của tổ chức. Không dùng "dấu treo" thay cho thẩm quyền ký.
 
 ### Chọn mô hình tổ chức
 
@@ -62,7 +62,7 @@
 
    b) Thẩm định hồ sơ đề xuất cấp độ theo các nội dung quy định tại khoản 1 Điều 23 Nghị định số 331/2026/NĐ-CP, hoàn thành trong thời hạn {{C12_HAN_THAM_DINH}} kể từ ngày nhận đủ hồ sơ hợp lệ; kết quả thẩm định lập thành biên bản;
 
-   c) Phê duyệt đề xuất cấp độ đối với hệ thống thông tin được đề xuất cấp độ 1, cấp độ 2 theo khoản 1 Điều 18 và điểm a khoản 3 Điều 20 Nghị định số 331/2026/NĐ-CP;
+   c) Phê duyệt đề xuất cấp độ, bao gồm phương án bảo đảm an ninh mạng, đối với hệ thống thông tin được đề xuất cấp độ 1, cấp độ 2 theo khoản 1 Điều 18, điểm a khoản 3 Điều 20 và khoản 4 Điều 32 Nghị định số 331/2026/NĐ-CP; việc thẩm định và phê duyệt hoàn thành trong thời hạn tối đa 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ (khoản 2 Điều 24 Nghị định số 331/2026/NĐ-CP);
 
    d) Báo cáo {{CHUC_DANH_NGUOI_DUNG_DAU}} kết quả thẩm định, phê duyệt trong thời hạn {{C12_HAN_BAO_CAO_CHU_QUAN}} kể từ ngày ký quyết định phê duyệt;
 
@@ -72,9 +72,11 @@
 
    g) Tổng hợp báo cáo định kỳ hằng năm gửi {{CHUC_DANH_NGUOI_DUNG_DAU}} trước ngày 20 tháng 12 (điểm a khoản 4 Điều 35 Nghị định số 331/2026/NĐ-CP); kiểm tra, giám sát việc thực hiện các quyết định phê duyệt cấp độ.
 
-3. Giao {{C12_CHUC_DANH_KY_PHE_DUYET}} ký các văn bản sau nhân danh đơn vị chuyên trách về an ninh mạng: biên bản thẩm định; quyết định phê duyệt cấp độ hệ thống thông tin cấp độ 1, cấp độ 2; báo cáo chủ quản kết quả phê duyệt. Văn bản được đăng ký số, phát hành và lưu theo quy chế văn thư của {{TEN_TO_CHUC}}.
+3. Giao {{C12_CHUC_DANH_KY_PHE_DUYET}} ký các văn bản sau nhân danh đơn vị chuyên trách về an ninh mạng: biên bản thẩm định; quyết định phê duyệt cấp độ hệ thống thông tin cấp độ 1, cấp độ 2; báo cáo chủ quản kết quả phê duyệt. Văn bản được đăng ký số, phát hành và lưu theo quy chế văn thư của {{TEN_TO_CHUC}}; việc sử dụng dấu đối với các văn bản này: {{C12_SU_DUNG_DAU}}.
 
 4. Trường hợp qua thẩm định xét thấy hệ thống thông tin phải được đề xuất cấp độ 3 trở lên, {{TEN_DON_VI_CHUYEN_TRACH_ANM}} dừng việc phê duyệt, báo cáo {{CHUC_DANH_NGUOI_DUNG_DAU}} và hướng dẫn đơn vị vận hành thực hiện theo khoản 2 hoặc khoản 3 Điều 18 Nghị định số 331/2026/NĐ-CP.
+
+5. Phương án bảo đảm an ninh mạng được phê duyệt tại quyết định phê duyệt cấp độ theo khoản 1 Điều 18 Nghị định số 331/2026/NĐ-CP là phương án đã được chủ quản hệ thống thông tin phê duyệt để thực hiện khoản 1 Điều 33 Nghị định số 331/2026/NĐ-CP.
 
 **Điều 2. Giao đơn vị vận hành hệ thống thông tin**
 
@@ -104,7 +106,9 @@
 
    b) {{TEN_DON_VI_CHUYEN_TRACH_ANM}} trình {{CHUC_DANH_NGUOI_DUNG_DAU}} thành lập Hội đồng thẩm định độc lập.
 
-2. Tình trạng tại thời điểm ban hành Quyết định này: {{C12_TINH_TRANG_D18_4}}
+2. Trong trường hợp quy định tại khoản 1 Điều này, {{CHUC_DANH_NGUOI_DUNG_DAU}} trực tiếp ký quyết định phê duyệt cấp độ trên cơ sở kết quả thẩm định độc lập; {{TEN_DON_VI_CHUYEN_TRACH_ANM}} trình dự thảo quyết định kèm biên bản thẩm định.
+
+3. Tình trạng tại thời điểm ban hành Quyết định này: {{C12_TINH_TRANG_D18_4}}
 
 **Điều 4. Đầu mối ứng phó sự cố an ninh mạng**
 
@@ -152,10 +156,11 @@
 |---|---|
 | `{{CAN_CU_THAM_QUYEN}}` | Văn bản quy định thẩm quyền người ký: Điều lệ công ty, nghị quyết HĐQT, quyết định phân cấp. Với cơ quan nhà nước: quyết định quy định chức năng, nhiệm vụ. |
 | `{{C12_CHUC_DANH_NGUOI_DE_NGHI}}` | Đơn vị trình dự thảo, thường là trưởng đơn vị dự kiến được chỉ định làm chuyên trách ANM. |
-| `{{C12_HAN_THAM_DINH}}` | NĐ 331 **không quy định** thời hạn thẩm định cho cấp 1–2 (Đ23.3 chỉ quy định cấp 3: 15 ngày, cấp 4–5: 25 ngày làm việc) → tự đặt; gợi ý 10 ngày làm việc. Thống nhất với Quy chế ([03](03-quy-che-anm-cap-1-2.md)). |
-| `{{C12_HAN_BAO_CAO_CHU_QUAN}}` | Đ18.1, Đ20.3.a chỉ ghi "gửi báo cáo chủ quản", không có thời hạn → tự đặt; gợi ý 03 ngày làm việc. Thời hạn xử lý hồ sơ phê duyệt tối đa 07 ngày làm việc (Đ24.2) được viết chung, không phân biệt cấp **[CẦN ĐỐI CHIẾU]** việc áp dụng cho cấp 1–2 — nên tuân thủ. |
+| `{{C12_HAN_THAM_DINH}}` | Đ23.3 chỉ đặt thời hạn thẩm định cho cấp 3 (15 ngày) và cấp 4–5 (25 ngày làm việc). Nhưng Đ24.2 (07 ngày làm việc xử lý hồ sơ phê duyệt, kể từ khi nhận đủ hồ sơ hợp lệ) áp dụng cho mọi cấp — Đ24.1.b phải ghi riêng "từ cấp độ 3 trở lên" cho ý kiến thẩm định, nên phần còn lại của Đ24 không giới hạn cấp. Với cấp 1–2, hồ sơ phê duyệt chính là hồ sơ đề xuất (Đ24.1.a) và cùng một đơn vị nhận hồ sơ để thẩm định và phê duyệt, nên cách đọc thận trọng: **07 ngày làm việc bao gồm cả thẩm định**. Gợi ý thẩm định 05 ngày làm việc, ký quyết định trong 02 ngày làm việc còn lại. Thống nhất với Quy chế ([03](03-quy-che-anm-cap-1-2.md)). |
+| `{{C12_HAN_BAO_CAO_CHU_QUAN}}` | Đ18.1, Đ20.3.a chỉ ghi "gửi báo cáo chủ quản", không có thời hạn → tự đặt; gợi ý 03 ngày làm việc. Thời hạn này tính sau khi ký quyết định, không nằm trong 07 ngày của Đ24.2. |
+| `{{C12_SU_DUNG_DAU}}` | Theo quy chế văn thư của tổ chức (Luật Doanh nghiệp 2020 Đ43 cho doanh nghiệp tự quyết định dấu của "đơn vị khác" của doanh nghiệp, kể cả chữ ký số). Ví dụ: "không đóng dấu; lưu tại văn thư Công ty" hoặc "đóng dấu Công ty theo quy chế văn thư" hoặc "ký số". |
 | `{{C12_CHUC_DANH_KY_PHE_DUYET}}` | Người ký nhân danh đơn vị chuyên trách, thường là Trưởng đơn vị. Có thể thêm "hoặc Phó Trưởng đơn vị được ủy quyền bằng văn bản". |
-| Điều 3 | Dữ liệu mẫu: không phát sinh. **DN chỉ có một phòng CNTT/một người IT:** đơn vị chuyên trách đồng thời vận hành → khoản 2 ghi rõ phương án đã chọn, ví dụ: "{{TEN_DON_VI_CHUYEN_TRACH_ANM}} đồng thời vận hành toàn bộ hệ thống tại Phụ lục; giao Ban Kiểm soát nội bộ chủ trì thẩm định theo điểm a khoản 1 Điều này" hoặc "thành lập Hội đồng thẩm định độc lập theo Quyết định riêng" (dùng [mẫu QĐ thành lập Hội đồng](../04-chinh-sach-quy-trinh/qd-thanh-lap-hoi-dong-tham-dinh.md)). Đ18.4 chỉ nói về **thẩm định**; việc phê duyệt vẫn do đơn vị chuyên trách theo Đ18.1 trên cơ sở kết quả thẩm định độc lập **[CẦN ĐỐI CHIẾU]** — cách thận trọng hơn là đề nghị người đứng đầu chủ quản trực tiếp ký phê duyệt. |
+| Điều 3 | Dữ liệu mẫu: không phát sinh. **DN chỉ có một phòng CNTT/một người IT:** đơn vị chuyên trách đồng thời vận hành → khoản 3 ghi rõ phương án đã chọn, ví dụ: "{{TEN_DON_VI_CHUYEN_TRACH_ANM}} đồng thời vận hành toàn bộ hệ thống tại Phụ lục; giao Ban Kiểm soát nội bộ chủ trì thẩm định theo điểm a khoản 1 Điều này" hoặc "thành lập Hội đồng thẩm định độc lập theo Quyết định riêng" (dùng [mẫu QĐ thành lập Hội đồng](../04-chinh-sach-quy-trinh/qd-thanh-lap-hoi-dong-tham-dinh.md)). Đ18.4 chỉ thay bên **thẩm định**, không đổi người phê duyệt; theo câu chữ Đ18.1, đơn vị chuyên trách vẫn phê duyệt — tức là tự phê duyệt hệ thống mình vận hành (xung đột lợi ích). Khoản 2 chọn cách **người đứng đầu chủ quản trực tiếp ký** quyết định phê duyệt: người đứng đầu chịu trách nhiệm trước pháp luật và tổ chức thẩm định, phê duyệt (Đ31.1.a, Đ31.2.a), đơn vị chuyên trách là đơn vị "của chủ quản" (Đ3.2), nên cấp trên tự thực hiện ít rủi ro sai thẩm quyền. Cách khác (bám câu chữ): giữ đơn vị chuyên trách ký nhưng chỉ khi kết luận thẩm định độc lập là "phù hợp" và không được sửa kết luận — khi đó sửa khoản 2. |
 | Điều 4 | Hai người khác nhau, có thể liên lạc ngoài giờ. Nếu tổ chức chỉ có một người IT, người dự phòng có thể là lãnh đạo phụ trách hoặc nhà cung cấp dịch vụ theo hợp đồng (ghi rõ trong [quy trình sự cố](08-quy-trinh-su-co-rut-gon.md)). |
 | `{{C12_NGUOI_PHU_TRACH_TAI_SAN}}` | Họ tên, chức danh người phụ trách danh mục tài sản, tài khoản (TCVN 14423:2026 mục 3.2, 3.3, 3.4, 3.6 / 4.2, 4.3, 4.4, 4.6). Thường là trưởng đơn vị vận hành. |
 | Điều 5 khoản 2 | Với cấp 2, TCVN mục 4.13.1 yêu cầu cơ chế độc lập chuyên môn giữa vận hành, quản trị và bảo vệ ANM; cấp 1 chỉ yêu cầu có nhân sự phụ trách (mục 3.13). Nếu chỉ có HTTT cấp 1 có thể lược câu thứ hai. |
@@ -164,7 +169,7 @@
 
 ## Checklist trước khi ký
 
-- [ ] Đơn vị chuyên trách và đơn vị vận hành là hai đơn vị khác nhau; nếu trùng → Điều 3 khoản 2 đã ghi phương án Đ18.4.a hoặc b.
+- [ ] Đơn vị chuyên trách và đơn vị vận hành là hai đơn vị khác nhau; nếu trùng → Điều 3 khoản 3 đã ghi phương án Đ18.4.a hoặc b; quyết định phê duyệt do người đứng đầu ký (Điều 3 khoản 2).
 - [ ] Người ký biên bản thẩm định, QĐ phê duyệt (Điều 1 khoản 3) không phải người lập hồ sơ.
 - [ ] Thời hạn thẩm định, báo cáo chủ quản khớp với Quy chế.
 - [ ] Đầu mối sự cố có người chủ chốt và người dự phòng, có kênh tiếp nhận hoạt động.

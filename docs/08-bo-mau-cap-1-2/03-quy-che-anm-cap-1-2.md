@@ -203,7 +203,7 @@ Báo cáo định kỳ hằng năm theo Mẫu số 08: số liệu tính từ 15
 **Điều 22. Xác định, xác định lại cấp độ**
 
 1. Đơn vị vận hành lập Hồ sơ đề xuất cấp độ, gửi đơn vị chuyên trách ANM kèm văn bản đề nghị (Mẫu số 01).
-2. Đơn vị chuyên trách ANM: hướng dẫn bổ sung hồ sơ chưa hợp lệ trong 05 ngày làm việc (khoản 2 Điều 23 Nghị định 331); **thẩm định trong 10 ngày làm việc** kể từ khi nhận đủ hồ sơ hợp lệ (thời hạn nội bộ của Công ty) theo nội dung tại khoản 1 Điều 23; ban hành quyết định phê duyệt trong 07 ngày làm việc (khoản 2 Điều 24) và báo cáo chủ quản (khoản 1 Điều 18).
+2. Đơn vị chuyên trách ANM: hướng dẫn bổ sung hồ sơ chưa hợp lệ trong 05 ngày làm việc (khoản 2 Điều 23 Nghị định 331); thẩm định theo nội dung tại khoản 1 Điều 23 và ban hành quyết định phê duyệt, **tổng thời gian không quá 07 ngày làm việc** kể từ khi nhận đủ hồ sơ hợp lệ (khoản 2 Điều 24 Nghị định 331; thẩm định không quá 05 ngày làm việc), sau đó báo cáo chủ quản (khoản 1 Điều 18).
 3. Xác định lại cấp độ theo trình tự như lần đầu (Điều 25 Nghị định 331) khi có thay đổi tại điểm b, c, d, đ khoản 2 Điều 10 Nghị định 331 hoặc kết quả đánh giá rủi ro cho thấy cấp độ không còn phù hợp.
 
 ### Chương V. ĐIỀU KHOẢN THI HÀNH
@@ -237,7 +237,7 @@ Báo cáo định kỳ hằng năm theo Mẫu số 08: số liệu tính từ 15
 
 - **Chỉ có một phòng CNTT** (vừa chuyên trách vừa vận hành): phòng đó không tự thẩm định hồ sơ của mình — giao đơn vị trực thuộc khác (ví dụ Ban Kiểm soát nội bộ) hoặc lập Hội đồng thẩm định độc lập (NĐ 331 Đ18.4); sửa khoản 2 Điều 22 và Điều 6.
 - Doanh nghiệp không có Hội đồng quản trị: sửa dòng "Nơi nhận" cho phù hợp (ví dụ Hội đồng thành viên, chủ sở hữu).
-- Thời hạn thẩm định 10 ngày làm việc (khoản 2 Điều 22) là **tự quy định**: NĐ 331 Đ23.3 chỉ đặt thời hạn cho cấp 3 (15 ngày) và cấp 4–5 (25 ngày). Thời hạn 07 ngày làm việc của Đ24.2 được áp dụng cho cấp 1–2 như một chuẩn nội bộ **[CẦN ĐỐI CHIẾU: Đ24.2 có áp dụng bắt buộc cho cấp 1–2 hay không]**.
+- Thời hạn (khoản 2 Điều 22): NĐ 331 Đ23.3 chỉ đặt thời hạn thẩm định cho cấp 3 (15 ngày) và cấp 4–5 (25 ngày), nhưng Đ24.2 (07 ngày làm việc xử lý hồ sơ phê duyệt) áp dụng mọi cấp — Đ24.1.b phải ghi riêng "từ cấp độ 3 trở lên". Với cấp 1–2, cùng một đơn vị nhận hồ sơ để thẩm định và phê duyệt, nên Quy chế chọn cách đọc thận trọng: **07 ngày làm việc gồm cả thẩm định** (thẩm định ≤ 05 ngày làm việc). Xem [diem-can-doi-chieu.md C18](../00-tong-quan/diem-can-doi-chieu.md).
 - Giám sát ANM: NĐ 333 Đ7.2 giao chủ quản tổ chức giám sát, tự cảnh báo; mức bắt buộc đối với cấp 1–2 chưa rõ **[CẦN ĐỐI CHIẾU]** — Quy chế rút gọn chỉ yêu cầu nhật ký và cảnh báo theo TCVN mục 3.8/4.8.
 - Phạm vi NĐ 331 Đ2: HTTT thuần nội bộ của doanh nghiệp tư thuộc diện "khuyến khích", nhưng Luật 116 Đ10 áp dụng cho mọi tổ chức (Luật 116 Đ1.2). Thư điện tử đám mây có máy chủ ở nước ngoài: kiểm tra nghĩa vụ chuyển DLCN xuyên biên giới ([`../05-nghia-vu-lien-quan/`](../05-nghia-vu-lien-quan/)).
 

@@ -213,7 +213,9 @@ Thư điện tử dùng dịch vụ đám mây: nếu máy chủ đặt ở nư�
 | Vấn đề | Cách xử lý trong bộ | Tham chiếu |
 |---|---|---|
 | Luật 116 Đ10.3 cho cấp 1–2 chọn biện pháp Đ10.2 "theo nhu cầu, khả năng thực tế", nhưng NĐ 331 Đ30.7 buộc có Quy chế trước khi phê duyệt và NĐ 330 Đ23.1.a phạt việc không ban hành quy định | Ban hành Quy chế rút gọn (03) | [diem-can-doi-chieu.md C16](../00-tong-quan/diem-can-doi-chieu.md) |
-| NĐ 331 không có mẫu quyết định phê duyệt cho cấp 1–2; phòng ban không có con dấu | Phân cấp ký tại QĐ 02 Điều 1 khoản 3; QĐ 07 theo cấu trúc Mẫu 06 | **[CẦN ĐỐI CHIẾU]** |
-| Không có thời hạn thẩm định cho cấp 1–2 (Đ23.3 chỉ cấp 3–5); thời hạn 07 ngày làm việc xử lý hồ sơ phê duyệt (Đ24.2) viết chung | Tự đặt 10 ngày làm việc trong QĐ 02/Quy chế; vẫn tuân thủ 07 ngày của Đ24.2 | **[CẦN ĐỐI CHIẾU]** |
+| NĐ 331 không có mẫu quyết định phê duyệt cho cấp 1–2 (Mẫu 06 dành cho chủ quản ký); phòng ban không có con dấu | Thẩm quyền đến trực tiếp từ Đ18.1, Đ32.4 → đơn vị chuyên trách ký nhân danh mình (không "TUQ."); người ký, số văn bản, việc dùng dấu ghi tại QĐ 02 Điều 1 khoản 3 (Luật Doanh nghiệp 2020 Đ43); QĐ 07 theo cấu trúc Mẫu 06 | [diem-can-doi-chieu.md C18](../00-tong-quan/diem-can-doi-chieu.md) |
+| Không có thời hạn thẩm định cho cấp 1–2 (Đ23.3 chỉ cấp 3–5), nhưng Đ24.2 (07 ngày làm việc) áp dụng mọi cấp | Thẩm định và phê duyệt trong tổng 07 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ (thẩm định ≤ 05 ngày) — QĐ 02, Quy chế Điều 22 | C18 |
+| Đơn vị chuyên trách đồng thời vận hành (Đ18.4 chỉ nói về thẩm định) | Đơn vị/Hội đồng độc lập thẩm định; **người đứng đầu ký** quyết định phê duyệt — QĐ 02 Điều 3 | C18 |
+| Đ33.1 "phương án đã được chủ quản phê duyệt" trong khi cấp 1–2 do đơn vị chuyên trách phê duyệt | Không mâu thuẫn: phê duyệt hồ sơ gồm cả phương án, thực hiện trong tổ chức chủ quản — QĐ 02 Điều 1 khoản 5 | C18 |
 | HTTT đang vận hành nhưng chưa từng xác định cấp độ không có mốc chuyển tiếp; HTTT đã có cấp độ theo Luật 86/2015 giữ cấp và đáp ứng yêu cầu mới trong 12 tháng kể từ 01/7/2026 | Làm ngay; dùng 30/6/2027 làm hạn nội bộ | Luật 116 Đ45.1; NĐ 331 Đ39.1; [diem-can-doi-chieu.md B2](../00-tong-quan/diem-can-doi-chieu.md) |
 | Khung quản lý rủi ro ANM (tiêu chí Đ11.2, Đ12.4) chưa có trong repo | Không dùng tiêu chí này cho đến khi có văn bản | NĐ 331 Đ34.1.c; **[CẦN ĐỐI CHIẾU]** |

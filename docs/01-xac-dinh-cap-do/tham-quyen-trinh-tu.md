@@ -34,7 +34,7 @@ Khi **đơn vị chuyên trách ANM đồng thời được giao quản lý, v�
 | Phản hồi, hướng dẫn bổ sung hồ sơ chưa hợp lệ | **05 ngày làm việc** | Ngày nhận hồ sơ | HTTT đề xuất cấp độ (không phân biệt cấp) | NĐ 331 Đ23.2 |
 | Thẩm định cấp 3 | **15 ngày làm việc** | Ngày nhận đủ hồ sơ hợp lệ | Cấp 3 | Đ23.3.a |
 | Thẩm định cấp 4, 5 | **25 ngày làm việc** | Ngày nhận đủ hồ sơ hợp lệ | Cấp 4, 5 | Đ23.3.b |
-| Thẩm định cấp 1, 2 | Không quy định | — | Cấp 1, 2 — nên tự đặt trong quy chế nội bộ | **[CẦN ĐỐI CHIẾU]** Đ23.3 không nêu |
+| Thẩm định cấp 1, 2 | Không quy định riêng; nhưng thẩm định + phê duyệt nên nằm trong **07 ngày làm việc** của Đ24.2 (gợi ý thẩm định ≤ 05 ngày) | Ngày nhận đủ hồ sơ hợp lệ | Cấp 1, 2 — đặt trong Quy chế nội bộ | Đ23.3 không nêu; Đ24.2 áp dụng mọi cấp (Đ24.1.b ghi riêng "từ cấp độ 3") — xem [C18](../00-tong-quan/diem-can-doi-chieu.md) |
 | Xử lý hồ sơ phê duyệt | **07 ngày làm việc** | Ngày nhận đủ hồ sơ hợp lệ | Hồ sơ phê duyệt đề xuất cấp độ | Đ24.2 |
 | Thẩm định ANM HTTT quan trọng về ANQG (thủ tục riêng) | 03 ngày LV kiểm tra hợp lệ; 25 ngày LV thẩm định; khảo sát thực tế ≤ 07 ngày LV (không tính vào thời hạn) | Nhận hồ sơ / cấp giấy tiếp nhận | HTTT thuộc Danh mục ANQG | NĐ 333 Đ5.7, Đ5.8 |
 
@@ -77,7 +77,7 @@ sequenceDiagram
     VH->>VH: Triển khai phương án ANM, tổng hợp báo cáo năm (Đ35, Mẫu 08)
 ```
 
-> **[CẦN ĐỐI CHIẾU]** Hình thức văn bản phê duyệt của đơn vị chuyên trách cho cấp 1–2 không được quy định riêng; Mẫu 06 để tên "(CHỦ QUẢN HTTT)" ở phần đầu. Có thể điều chỉnh Mẫu 06 cho đơn vị chuyên trách ban hành theo phân cấp nội bộ.
+> Hình thức văn bản phê duyệt của đơn vị chuyên trách cho cấp 1–2 không có mẫu riêng (Mẫu 06 để tên "(CHỦ QUẢN HTTT)", dùng cho cấp 3–4). Thẩm quyền đến trực tiếp từ Đ18.1, Đ32.4 nên đơn vị chuyên trách ban hành Quyết định nhân danh mình theo cấu trúc Mẫu 06; khi đơn vị chuyên trách đồng thời vận hành (Đ18.4), nên để người đứng đầu ký phê duyệt. Mẫu và phân tích: [../08-bo-mau-cap-1-2/07-qd-phe-duyet-cap-do.md](../08-bo-mau-cap-1-2/07-qd-phe-duyet-cap-do.md), [C18](../00-tong-quan/diem-can-doi-chieu.md).
 
 ### 4.2. Cấp 3
 

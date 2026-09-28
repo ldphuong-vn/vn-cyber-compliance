@@ -95,8 +95,8 @@ Biên bản kết thúc vào hồi {{C12_GIO_KET_THUC}} cùng ngày, được l�
   - (c) phương án vận hành mô tả cho **từng yêu cầu** (Đ22.6), có người thực hiện, tần suất, bằng chứng.
 - **Bảng kết quả:** cột "Kết luận" ghi "Phù hợp cấp độ …" hoặc "Chưa phù hợp — …". Cột "Yêu cầu" ghi mã mục TCVN và hạn khắc phục; không có thì ghi "Không".
 - **Mục IV:** phân biệt (1) nội dung **chưa phù hợp** làm hồ sơ không thể phê duyệt (sai cấp, thiếu thành phần, phương án bỏ trống yêu cầu) — phải trả hồ sơ và chỉ rõ nội dung; với (2) **tồn tại triển khai** của HTTT đang vận hành — có thể phê duyệt kèm lộ trình khắc phục ghi trong QĐ. Nếu phát hiện dấu hiệu cấp 3 trở lên → kết luận chưa phù hợp, chuyển sang bộ đầy đủ ([../02-ho-so-cap-do/](../02-ho-so-cap-do/)).
-- **Ký:** bảng chữ ký cho mọi thành phần; người chủ trì ký ở khối cuối (sửa chức danh "TRƯỞNG PHÒNG AN NINH MẠNG" nếu đơn vị/Hội đồng khác chủ trì theo Đ18.4). Đơn vị không có con dấu thì không đóng dấu **[CẦN ĐỐI CHIẾU]** quy định nội bộ về con dấu.
-- Thời hạn thẩm định cấp 1–2: NĐ 331 không quy định (Đ23.3 chỉ quy định cấp 3: 15 ngày, cấp 4–5: 25 ngày làm việc) → theo Quy chế nội bộ (gợi ý 10 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ).
+- **Ký:** bảng chữ ký cho mọi thành phần; người chủ trì ký ở khối cuối (sửa chức danh "TRƯỞNG PHÒNG AN NINH MẠNG" nếu đơn vị/Hội đồng khác chủ trì theo Đ18.4). Việc đóng dấu theo QĐ phân công (Điều 1 khoản 3) và quy chế văn thư của tổ chức (Luật Doanh nghiệp 2020 Đ43).
+- Thời hạn: Đ23.3 không đặt thời hạn thẩm định cho cấp 1–2, nhưng Đ24.2 (07 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ) áp dụng mọi cấp; với cấp 1–2 nên hiểu 07 ngày gồm cả thẩm định → lập biên bản trong 05 ngày làm việc để còn thời gian ký quyết định (Quy chế Điều 22).
 
 ## Checklist thẩm định
 
