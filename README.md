@@ -1,5 +1,7 @@
 # Bộ khung tuân thủ An ninh mạng Việt Nam
 
+**Tiếng Việt** · [English](en/README.md)
+
 Bộ tài liệu dùng chung để **xác định cấp độ hệ thống thông tin (HTTT)**, **lập hồ sơ đề xuất cấp độ** và **tuân thủ** các văn bản sau:
 
 - **Luật An ninh mạng số 116/2025/QH15** (hiệu lực 01/7/2026);
@@ -22,6 +24,7 @@ Bộ tài liệu dùng chung để **xác định cấp độ hệ thống thôn
 | [`docs/06-kiem-tra-bao-cao/`](docs/06-kiem-tra-bao-cao/README.md) | Kiểm tra, đánh giá định kỳ; báo cáo năm (Mẫu 08, hạn 25/12); danh mục hồ sơ, bằng chứng cần lưu | Vận hành thường xuyên, chuẩn bị thanh tra |
 | [`docs/07-to-trinh-lanh-dao/`](docs/07-to-trinh-lanh-dao/README.md) | **9 mẫu tờ trình nội bộ** để bộ phận IT/an ninh mạng, pháp chế… trình ban lãnh đạo phê duyệt: chương trình tuân thủ, bộ phận chuyên trách, Quy chế, kinh phí giải pháp kỹ thuật, thuê đánh giá/kiểm thử, Hội đồng thẩm định, đào tạo–diễn tập, bảo vệ DLCN, lưu trữ dữ liệu và nhật ký tại VN; bảng luận cứ (nghĩa vụ – căn cứ – mức phạt – mốc) | Xin chủ trương, nhân lực, ngân sách |
 | [`docs/08-bo-mau-cap-1-2/`](docs/08-bo-mau-cap-1-2/README.md) | **Bộ mẫu rút gọn cho HTTT cấp độ 1–2** (doanh nghiệp vừa và nhỏ: email, văn phòng điện tử, kế toán, nhân sự, mạng nội bộ): phiếu sàng lọc, QĐ phân công, Quy chế rút gọn, hồ sơ đề xuất cấp độ gộp một file, Mẫu 01, biên bản thẩm định, QĐ phê duyệt do đơn vị chuyên trách ban hành, quy trình sự cố, kế hoạch năm, bảng tính Excel |
+| [`en/`](en/README.md) | **Bản hướng dẫn tiếng Anh** (không chính thức, cô đọng) cho doanh nghiệp FDI, tập đoàn mẹ, kiểm toán, tư vấn nước ngoài: tổng quan luật, cấp độ, yêu cầu theo cấp, nghĩa vụ doanh nghiệp, mức phạt, dữ liệu cá nhân, vùng xám, bảng thuật ngữ Việt–Anh. Biểu mẫu nộp cơ quan quản lý giữ tiếng Việt | Người đọc tiếng Anh |
 | [`templates/`](templates/README.md) | **Bộ mẫu tải về dùng ngay:** 42 văn bản Word (thể thức NĐ 30/2020, có dữ liệu mẫu tô vàng) và 5 bảng tính Excel (checklist tự đánh giá cấp 1–5, ma trận yêu cầu, sổ đăng ký rủi ro, RACI, bảng tính quản lý ANM cấp 1–2) — sinh tự động từ `docs/` bằng [`tools/`](tools/md2docx/README.md) | Soạn văn bản thực tế, tự đánh giá |
 | [`sources/van-ban-goc/`](sources/van-ban-goc/README.md) | Toàn văn các văn bản quy phạm pháp luật để tra cứu | Kiểm tra trích dẫn |
 
@@ -98,4 +101,4 @@ Apache License 2.0. Xem [LICENSE](LICENSE). Văn bản quy phạm pháp luật t
 
 Bộ khung này dành cho ai đang tìm: **Luật An ninh mạng 2025** (Luật số 116/2025/QH15) · **Nghị định 331/2026/NĐ-CP** bảo vệ an ninh mạng hệ thống thông tin theo cấp độ (thay Nghị định 85/2016) · **Nghị định 333/2026/NĐ-CP** hướng dẫn Luật An ninh mạng · **Nghị định 330/2026/NĐ-CP** xử phạt vi phạm hành chính an ninh mạng và dữ liệu cá nhân · **TCVN 14423:2026** An ninh mạng – Hệ thống thông tin – Yêu cầu cơ bản (thay TCVN 11930:2017) · xác định cấp độ hệ thống thông tin, **hồ sơ đề xuất cấp độ**, thuyết minh phương án bảo đảm an ninh mạng, **quy chế bảo đảm an ninh mạng**, quy trình ứng phó sự cố, báo cáo năm gửi Bộ Công an · **Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15**, **Nghị định 356/2025/NĐ-CP**, đánh giá tác động xử lý dữ liệu cá nhân (DPIA), kinh doanh dịch vụ xử lý dữ liệu cá nhân.
 
-*English:* Vietnam cybersecurity law compliance toolkit — information system security levels (Decree 331/2026), cybersecurity requirements by level (TCVN 14423:2026), Word/Excel templates, self-assessment checklists, Vietnam personal data protection law (PDPL, Law 91/2025).
+*English:* Vietnam cybersecurity law compliance toolkit — information system security levels (Decree 331/2026), cybersecurity requirements by level (TCVN 14423:2026), Word/Excel templates, self-assessment checklists, Vietnam personal data protection law (PDPL, Law 91/2025). **English guide:** [en/README.md](en/README.md) — condensed, unofficial; forms filed with Vietnamese authorities stay in Vietnamese.

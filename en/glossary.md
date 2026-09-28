@@ -1,6 +1,6 @@
 # Glossary — Vietnamese–English terminology
 
-> **Status:** DRAFT v0.1 for maintainer approval (28/09/2026). Once approved, every page under `en/` must use these renderings consistently.
+> **Status:** v1.0 — approved 28/09/2026. Every page under `en/` uses these renderings consistently.
 > **Unofficial translation.** Vietnam has not published official English versions of the laws and decrees cited here. The renderings below are this toolkit's working translations; the Vietnamese texts prevail. Vietnamese definitions and sources: [`docs/00-tong-quan/thuat-ngu.md`](../docs/00-tong-quan/thuat-ngu.md).
 
 Legend: **★** = a translation choice that needs the maintainer's decision (alternatives listed); "keep VN" = the Vietnamese term is kept in italics after the first use because readers will meet it in official documents.
