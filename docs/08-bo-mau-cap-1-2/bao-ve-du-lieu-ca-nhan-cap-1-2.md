@@ -56,7 +56,14 @@ Khi xử lý DLCN nhạy cảm phải có quy định phân quyền giới hạn
 | Chỉ định bộ phận, nhân sự BVDLCN hoặc thuê dịch vụ (Đ33.2) | Bắt buộc | Được chọn | Không phải làm |
 | **Mất miễn trừ khi** (Luật 91 Đ38.2–38.3; NĐ 356 Đ41) | — | Kinh doanh dịch vụ xử lý DLCN; **trực tiếp xử lý DLCN nhạy cảm**; hoặc xử lý DLCN từ khi đạt **100.000 chủ thể** (tích lũy) | Như bên trái |
 
-Tiêu chí DN nhỏ, siêu nhỏ, khởi nghiệp theo pháp luật hỗ trợ doanh nghiệp nhỏ và vừa (số lao động, doanh thu, nguồn vốn theo lĩnh vực) — văn bản chưa có trong `sources/` **[CẦN ĐỐI CHIẾU]**. Kịch bản mẫu TURBO (khoảng 120 lao động) thường **không** phải DN nhỏ tùy lĩnh vực → phải làm đủ DPIA và chỉ định nhân sự BVDLCN.
+Tiêu chí phân loại (Luật Hỗ trợ DNNVV 04/2017/QH14 Đ4; NĐ 80/2021/NĐ-CP Đ5 — số lao động tham gia BHXH bình quân năm **và** một trong hai: doanh thu năm trước hoặc tổng nguồn vốn):
+
+| Quy mô | Nông, lâm, thủy sản; công nghiệp, xây dựng | Thương mại, dịch vụ |
+|---|---|---|
+| Siêu nhỏ | ≤ 10 lao động; doanh thu ≤ 3 tỷ hoặc vốn ≤ 3 tỷ đồng | ≤ 10 lao động; doanh thu ≤ 10 tỷ hoặc vốn ≤ 3 tỷ đồng |
+| Nhỏ | ≤ 100 lao động; doanh thu ≤ 50 tỷ hoặc vốn ≤ 20 tỷ đồng | ≤ 50 lao động; doanh thu ≤ 100 tỷ hoặc vốn ≤ 50 tỷ đồng |
+
+"Doanh nghiệp khởi nghiệp" trong Luật 91 không được định nghĩa riêng; gần nhất là "doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo" (Luật 04/2017 Đ3.2) **[CẦN ĐỐI CHIẾU]**. Tiêu chí trên đối chiếu qua nguồn thứ cấp (chưa có toàn văn trong `sources/`). Kịch bản mẫu TURBO (dịch vụ CNTT, khoảng 120 lao động) **không** phải DN nhỏ → phải làm đủ DPIA và chỉ định nhân sự BVDLCN.
 
 Nếu đã chỉ định nhân sự BVDLCN: phải bằng văn bản nêu chức năng, nhiệm vụ; nhân sự từ cao đẳng trở lên, **≥ 02 năm** kinh nghiệm ở lĩnh vực liên quan (pháp chế, CNTT, an ninh mạng, quản trị rủi ro, nhân sự…), đã được đào tạo BVDLCN; ký thỏa thuận bảo mật (NĐ 356 Đ13). Vi phạm: cảnh cáo hoặc 10–20 tr (NĐ 330 Đ57.1).
 
@@ -79,7 +86,7 @@ Nếu đã chỉ định nhân sự BVDLCN: phải bằng văn bản nêu chức
 | [02 QĐ phân công](02-qd-phan-cong-anm.md): đầu mối sự cố | Có thể giao thêm nhiệm vụ nhân sự BVDLCN (nếu đủ điều kiện NĐ 356 Đ13) |
 | [Bảng tính cấp 1–2](../../templates/08-bo-mau-cap-1-2/checklist-cap-1-2.xlsx): danh mục HTTT | Thêm cột: loại DLCN (cơ bản/nhạy cảm), số chủ thể, vị trí lưu trữ (VN/nước ngoài) |
 
-**Chưa có trong bộ cấp 1–2 (tổ chức tự bổ sung):** thông báo xử lý DLCN cho người lao động và ứng viên; biểu mẫu đồng ý; bảng kiểm kê dữ liệu; quy trình tiếp nhận yêu cầu của chủ thể dữ liệu; hồ sơ DPIA (Mẫu 10 NĐ 356) và hồ sơ chuyển xuyên biên giới (Mẫu 09); điều khoản BVDLCN trong hợp đồng với nhà cung cấp cloud, phần mềm nhân sự, kế toán; biển báo camera. Hướng dẫn chi tiết: [dlcn-giao-thoa-anm.md](../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md); tờ trình: [to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.md](../07-to-trinh-lanh-dao/to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.md).
+**Mẫu BVDLCN trong bộ cấp 1–2:** [10 Thông báo cho người lao động](10-thong-bao-xu-ly-dlcn-nguoi-lao-dong.md), [11 Thông báo cho ứng viên](11-thong-bao-xu-ly-dlcn-ung-vien.md), [12 Phiếu đồng ý](12-phieu-dong-y-xu-ly-dlcn.md), [13 Quy trình yêu cầu của chủ thể dữ liệu](13-quy-trinh-yeu-cau-chu-the-du-lieu.md), [14 Cam kết bảo mật của nhân sự](14-cam-ket-bao-mat-du-lieu-nhan-su.md), [15 Phụ lục hợp đồng BVDLCN](15-phu-luc-hop-dong-bvdlcn.md), [16 Biển báo camera](16-bien-bao-camera.md), bảng kiểm kê DLCN (mục F [bảng tính cấp 1–2](checklist-cap-1-2.md)). **Chưa có (tổ chức tự lập theo mẫu của NĐ 356):** hồ sơ DPIA (Mẫu 10) và hồ sơ chuyển DLCN xuyên biên giới (Mẫu 09). Hướng dẫn chi tiết: [dlcn-giao-thoa-anm.md](../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md); tờ trình: [to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.md](../07-to-trinh-lanh-dao/to-trinh-tuan-thu-bao-ve-du-lieu-ca-nhan.md).
 
 ## 7. Mười việc nên làm trước
 

@@ -49,6 +49,22 @@ flowchart TD
 
 Điểm giao thoa quan trọng: tiêu chí cấp độ 2 và cấp độ 3 dùng ngưỡng số chủ thể **DLCN cơ bản / DLCN nhạy cảm** (NĐ 331 Đ12.2.b, Đ13.2.c) — khái niệm của Luật 91 Đ2.2–2.3 và danh mục tại NĐ 356 Đ3–Đ4.
 
+## 3a. Văn bản dẫn chiếu ngoài — chưa có toàn văn trong `sources/`
+
+Các điều khoản dưới đây được bộ mẫu dẫn chiếu. Câu chữ đã **đối chiếu qua ít nhất 2 nguồn** (cổng thông tin cơ quan nhà nước, Tạp chí Luật sư, cơ sở dữ liệu pháp luật) ngày 28/09/2026, nhưng **chưa có toàn văn** trong repo vì proxy chặn các trang văn bản. Trước khi trích dẫn chính thức, đối chiếu bản gốc.
+
+| Văn bản | Điều khoản dùng | Nội dung | Trạng thái sửa đổi | Dùng ở |
+|---|---|---|---|---|
+| Bộ luật Lao động 45/2019/QH14 | Đ21.2 | Thỏa thuận bằng văn bản về nội dung, thời hạn bảo vệ bí mật kinh doanh, bí mật công nghệ, quyền lợi, bồi thường | Đã sửa đổi năm 2025 (Luật 71/2025, 113/2025, 124/2025; hợp nhất 18/VBHN-VPQH/2026); không thấy sửa các điều này | 08 — mẫu 14 |
+| nt | Đ118–119 | Nội quy lao động; từ 10 lao động: bằng văn bản, đăng ký tại cơ quan lao động cấp tỉnh | nt | 08 — mẫu 14 |
+| nt | Đ124; **Đ125.2** | 4 hình thức kỷ luật; sa thải khi tiết lộ bí mật kinh doanh, bí mật công nghệ… **được quy định trong nội quy lao động** | nt | 08 — mẫu 14 |
+| nt | Đ129 | Bồi thường thiệt hại theo pháp luật hoặc nội quy lao động | nt | 08 — mẫu 14 |
+| Bộ luật Hình sự 100/2015/QH13 (sửa đổi 2017, 2025) | Đ159; Đ288.1.b; Đ289.1 | Xâm phạm bí mật thư tín…; mua bán, trao đổi, công khai hóa trái phép thông tin riêng trên mạng; xâm nhập trái phép | Luật 86/2025/QH15 không thấy sửa các điều này; **tội riêng về DLCN (Đ159a–159c) mới là dự thảo 2026** | 08 — mẫu 14 (hướng dẫn) |
+| Luật Hỗ trợ DNNVV 04/2017/QH14 | Đ3.2; Đ4 | DNNVV khởi nghiệp sáng tạo; tiêu chí DNNVV (≤ 200 lao động BHXH; vốn ≤ 100 tỷ hoặc doanh thu ≤ 300 tỷ) | Không thấy sửa Đ3, Đ4 | 08 — trang BVDLCN mục 4 |
+| NĐ 80/2021/NĐ-CP | Đ5 | Tiêu chí DN siêu nhỏ, nhỏ, vừa theo lĩnh vực | Chưa thấy sửa, thay thế | nt |
+| NĐ 30/2020/NĐ-CP | Đ2.1 | Áp dụng với cơ quan, tổ chức nhà nước và doanh nghiệp nhà nước; doanh nghiệp khác tham khảo | Chưa thấy sửa | Thể thức các mẫu Word |
+| Luật Doanh nghiệp 59/2020/QH14 | Đ43.1–43.3 | Dấu gồm dấu khắc hoặc chữ ký số; doanh nghiệp quyết định loại, số lượng, hình thức, nội dung dấu của doanh nghiệp và đơn vị khác; quản lý dấu theo Điều lệ, quy chế | Luật 76/2025/QH15 không thấy sửa Đ43 (chưa kiểm toàn văn) | 08 — mẫu 01, 02, 07 |
+
 ## 3. Văn bản đã bị thay thế — không dùng làm căn cứ
 
 | Văn bản | Tình trạng | Căn cứ | Trường hợp còn được viện dẫn |
