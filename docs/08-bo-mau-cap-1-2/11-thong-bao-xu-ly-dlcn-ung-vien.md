@@ -13,7 +13,7 @@
 
 **Cách dùng.**
 - **Biểu mẫu trực tuyến:** đặt toàn văn thông báo (hoặc liên kết mở được) ngay trên nút "Nộp hồ sơ". Hai ô đồng ý **để trống mặc định** (NĐ 356 Đ6.3). Ô 1 bắt buộc để nộp hồ sơ (đồng ý cho chính mục đích tuyển dụng); ô 2 tùy chọn và không được là điều kiện để nộp (Luật 91 Đ9.4.b). Hệ thống phải lưu họ tên, email, thời điểm, phiên bản thông báo và lựa chọn của từng ô (NĐ 356 Đ6.1–6.2).
-- **Nhận hồ sơ qua email:** tin tuyển dụng dẫn liên kết thông báo; ngay khi nhận hồ sơ, gửi thư phản hồi kèm thông báo và đề nghị ứng viên trả lời "Đồng ý" (thư trả lời là bằng chứng — NĐ 356 Đ6.1.d). Chưa có đồng ý thì chỉ lưu hồ sơ, chưa sàng lọc.
+- **Nhận hồ sơ qua email:** tin tuyển dụng dẫn liên kết thông báo; ngay khi nhận hồ sơ, gửi thư phản hồi kèm thông báo và đề nghị ứng viên trả lời "Đồng ý" (thư trả lời là bằng chứng — NĐ 356 Đ6.1.d). Chưa có đồng ý thì không sàng lọc; không nhận được trả lời trong thời hạn nêu trong thư thì xóa hồ sơ — im lặng không phải là đồng ý (Luật 91 Đ9.4.d; NĐ 330 Đ43.2.b).
 - **Hồ sơ giấy, phỏng vấn trực tiếp:** in thông báo, ứng viên đánh dấu và ký.
 - **Qua trang tuyển dụng của bên thứ ba** (việc làm trực tuyến, công ty săn đầu người): thông báo của họ không thay thông báo của Công ty; khi tải hồ sơ về hệ thống của Công ty, gửi thông báo này cho ứng viên.
 
@@ -35,7 +35,7 @@ Khi Anh/Chị ứng tuyển vào {{TEN_TO_CHUC}} (địa chỉ: {{DIA_CHI}}), C�
 
 **4. Lưu bao lâu.** Nếu **không trúng tuyển**, Công ty xóa, hủy hồ sơ trong **{{DL_HAN_XOA_UNG_VIEN}}** kể từ ngày thông báo kết quả — trừ khi Anh/Chị chọn ô 2 bên dưới; khi đó hồ sơ được lưu trong nguồn ứng viên **{{DL_HAN_NGUON_UNG_VIEN}}** để mời ứng tuyển vị trí phù hợp khác, hết hạn thì xóa. Nếu **trúng tuyển**, hồ sơ chuyển thành hồ sơ nhân sự.
 
-**5. Quyền của Anh/Chị.** Xem, chỉnh sửa, yêu cầu cung cấp, xóa hồ sơ; rút lại sự đồng ý bất kỳ lúc nào (rút ô 1 đồng nghĩa với rút hồ sơ ứng tuyển). Gửi yêu cầu tới {{C12_EMAIL_BVDLCN}}. Công ty phản hồi trong 02 ngày làm việc; xóa dữ liệu trong 20 ngày, xem hoặc chỉnh sửa trong 10 ngày.
+**5. Quyền của Anh/Chị.** Xem, chỉnh sửa, yêu cầu cung cấp, xóa hồ sơ; rút lại sự đồng ý bất kỳ lúc nào (rút ô 1 đồng nghĩa với rút hồ sơ ứng tuyển). Gửi yêu cầu tới {{C12_EMAIL_BVDLCN}}. Công ty phản hồi trong 02 ngày làm việc; xóa dữ liệu trong 20 ngày, xem hoặc chỉnh sửa trong 10 ngày (dài hơn nếu phải yêu cầu nhà cung cấp dịch vụ cùng thực hiện).
 
 **6. Liên hệ.** {{NHAN_SU_BVDLCN}}, email {{C12_EMAIL_BVDLCN}}, điện thoại {{DL_DIEN_THOAI_BVDLCN}}.
 

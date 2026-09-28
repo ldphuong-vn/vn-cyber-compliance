@@ -18,7 +18,7 @@
 
 **Khi nào gửi.** (1) Người lao động mới: giao cùng hợp đồng lao động, ký xác nhận (Phụ lục). (2) Người lao động hiện có: gửi qua email nội bộ và đăng Intranet, thu xác nhận theo danh sách trong 10 ngày làm việc. (3) Khi thay đổi mục đích, loại dữ liệu, bên nhận, nơi lưu trữ hoặc thêm biện pháp theo dõi: ban hành bản sửa đổi và thông báo **trước** khi áp dụng.
 
-**Thông báo không thay cho sự đồng ý.** Phần lớn việc xử lý dữ liệu nhân sự dựa trên việc **thực hiện hợp đồng lao động** (Luật 91 Đ19.1.d) hoặc **nghĩa vụ theo pháp luật** (Đ19.1.đ) nên không cần xin đồng ý; khi đó Công ty phải có quy trình, biện pháp bảo vệ, kiểm tra định kỳ và kênh tiếp nhận phản ánh (Đ19.2). Các mục đích **tự nguyện** (đăng ảnh lên Intranet, website; lưu ảnh CCCD khi thủ tục cần) phải xin đồng ý riêng từng mục đích, không mặc định đồng ý (Luật 91 Đ9.4; NĐ 356 Đ6.3) — dùng [Phiếu đồng ý xử lý DLCN](12-phieu-dong-y-xu-ly-dlcn.md). Không đưa câu "đồng ý" vào thông báo này.
+**Thông báo không thay cho sự đồng ý.** Phần lớn việc xử lý dữ liệu nhân sự dựa trên việc **thực hiện hợp đồng lao động** (Luật 91 Đ19.1.d) hoặc **nghĩa vụ theo pháp luật** (Đ19.1.đ) nên không cần xin đồng ý; khi đó Công ty phải có quy trình, biện pháp bảo vệ, kiểm tra định kỳ và kênh tiếp nhận phản ánh (Đ19.2). Các mục đích **tự nguyện** (đăng ảnh lên Intranet, website; lưu ảnh CCCD khi thủ tục cần; lưu bản giấy khám sức khỏe ngoài phần pháp luật buộc lưu) phải xin đồng ý riêng từng mục đích, không mặc định đồng ý (Luật 91 Đ9.4; NĐ 356 Đ6.3) — dùng [Phiếu đồng ý xử lý DLCN](12-phieu-dong-y-xu-ly-dlcn.md). Không đưa câu "đồng ý" vào thông báo này.
 
 **Nhất quán với trang phân tích.** Mục 2 và mục 6 phản ánh lựa chọn "giảm dữ liệu nhạy cảm" tại [bao-ve-du-lieu-ca-nhan-cap-1-2.md](bao-ve-du-lieu-ca-nhan-cap-1-2.md) mục 2 và mục 5.a: chấm công bằng thẻ từ (không vân tay), lưu số CCCD (không lưu ảnh, trừ khi thủ tục bảo hiểm xã hội cần). Nếu tổ chức vẫn dùng vân tay, khuôn mặt, định vị GPS hoặc phần mềm theo dõi thiết bị, phải thêm dòng tương ứng vào mục 2 (loại **nhạy cảm**, NĐ 356 Đ4.1.đ, h, l) và mục 6, và cân nhắc việc mất miễn trừ của doanh nghiệp nhỏ (C19 tại [diem-can-doi-chieu.md](../00-tong-quan/diem-can-doi-chieu.md)).
 
@@ -69,7 +69,7 @@ Dữ liệu **nhạy cảm** là dữ liệu gắn với quyền riêng tư, n�
 | Đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp; khấu trừ thuế thu nhập cá nhân; khám sức khỏe, giải quyết chế độ ốm đau, thai sản, tai nạn lao động; báo cáo lao động | Nhân thân, lương, thuế, bảo hiểm, sức khỏe | Nghĩa vụ theo pháp luật về lao động, bảo hiểm xã hội, thuế (điểm đ khoản 1 Điều 19 Luật Bảo vệ dữ liệu cá nhân) |
 | Bảo đảm an ninh, an toàn cho người và tài sản tại trụ sở | Hình ảnh camera, giờ ra vào | Bảo vệ quyền, lợi ích hợp pháp của Công ty và người lao động (điểm a khoản 1 Điều 32 Luật Bảo vệ dữ liệu cá nhân); Anh/Chị được thông báo tại mục 6 |
 | Bảo đảm an ninh mạng: phát hiện truy cập trái phép, mã độc, thư lừa đảo; điều tra sự cố | Tài khoản, nhật ký hệ thống, thư điện tử (quét tự động) | Nghĩa vụ bảo vệ an ninh mạng theo pháp luật và Quy chế bảo đảm an ninh mạng của Công ty |
-| Đăng ảnh, thông tin giới thiệu lên Intranet, website; lưu ảnh chụp thẻ căn cước | Ảnh chân dung, ảnh thẻ căn cước | **Chỉ khi Anh/Chị đồng ý** bằng Phiếu đồng ý riêng. Không đồng ý **không** ảnh hưởng đến hợp đồng lao động |
+| Đăng ảnh, thông tin giới thiệu lên Intranet, website; lưu ảnh chụp thẻ căn cước; lưu bản giấy khám sức khỏe (ngoài phần pháp luật buộc lưu) | Ảnh chân dung, ảnh thẻ căn cước, giấy khám sức khỏe | **Chỉ khi Anh/Chị đồng ý** bằng Phiếu đồng ý riêng. Không đồng ý **không** ảnh hưởng đến hợp đồng lao động |
 
 Công ty không dùng dữ liệu của Anh/Chị cho mục đích khác các mục đích nêu trên. Khi cần mục đích mới, Công ty thông báo trước và xin đồng ý nếu pháp luật yêu cầu.
 
@@ -120,7 +120,7 @@ d) Hộp thư, Intranet dùng cho công việc. Anh/Chị không nên lưu thôn
 | Hồ sơ nhân sự | Trong thời gian làm việc và {{DL_HAN_HO_SO_SAU_NGHI}} sau khi chấm dứt hợp đồng lao động |
 | Chứng từ tiền lương, bảo hiểm, thuế, chấm công | Theo thời hạn pháp luật về kế toán, thuế, bảo hiểm quy định |
 | Giấy khám sức khỏe, hồ sơ nghỉ ốm, thai sản | {{DL_HAN_SUC_KHOE}} |
-| Ảnh chụp thẻ căn cước | Xóa ngay khi hoàn thành thủ tục bảo hiểm xã hội hoặc khi Anh/Chị rút lại đồng ý |
+| Ảnh chụp thẻ căn cước | Xóa khi hoàn thành thủ tục bảo hiểm xã hội (chậm nhất khi Anh/Chị nghỉ việc), hoặc sớm hơn khi Anh/Chị rút lại đồng ý (thời hạn tại mục 8) |
 | Tài khoản thư điện tử, Intranet | Khóa trong ngày nghỉ việc; hộp thư lưu {{DL_HAN_HOP_THU}} để bàn giao công việc, sau đó xóa |
 | Hình ảnh camera, nhật ký hệ thống | Như mục 6 |
 
@@ -130,9 +130,9 @@ Khi chấm dứt hợp đồng lao động, Công ty xóa, hủy dữ liệu cá
 
 a) Anh/Chị có quyền: được biết về việc xử lý dữ liệu; đồng ý, không đồng ý, rút lại sự đồng ý; xem, chỉnh sửa hoặc yêu cầu chỉnh sửa; yêu cầu cung cấp, xóa, hạn chế xử lý; phản đối xử lý; khiếu nại, tố cáo, khởi kiện, yêu cầu bồi thường; yêu cầu Công ty áp dụng biện pháp bảo vệ dữ liệu của mình (khoản 1 Điều 4 Luật Bảo vệ dữ liệu cá nhân).
 
-b) Cách gửi yêu cầu: gửi email tới {{C12_EMAIL_BVDLCN}} hoặc nộp Phiếu yêu cầu tại {{DON_VI_NHAN_SU}}, theo Quy trình tiếp nhận yêu cầu của chủ thể dữ liệu ban hành kèm Quyết định số {{DL_SO_QD_QUY_TRINH}}.
+b) Cách gửi yêu cầu: gửi email tới {{C12_EMAIL_BVDLCN}} hoặc nộp Phiếu yêu cầu tại {{C12_NOI_NOP_PHIEU}}, theo Quy trình tiếp nhận yêu cầu của chủ thể dữ liệu ban hành kèm Quyết định số {{DL_SO_QD_QUY_TRINH}}.
 
-c) Thời hạn: Công ty **phản hồi trong 02 ngày làm việc**. Thời hạn thực hiện: xem, chỉnh sửa, cung cấp dữ liệu: 10 ngày; rút lại đồng ý, hạn chế, phản đối xử lý: 15 ngày; xóa dữ liệu: 20 ngày. Yêu cầu phức tạp có thể gia hạn tối đa 01 lần; Công ty sẽ báo lý do (Điều 5 Nghị định số 356/2025/NĐ-CP).
+c) Thời hạn: Công ty **phản hồi trong 02 ngày làm việc**. Thời hạn thực hiện: xem, chỉnh sửa, cung cấp dữ liệu: 10 ngày; rút lại đồng ý, hạn chế, phản đối xử lý: 15 ngày; xóa dữ liệu: 20 ngày. Nếu phải yêu cầu nhà cung cấp dịch vụ cùng thực hiện, thời hạn dài hơn (15, 20, 30 ngày tương ứng). Yêu cầu phức tạp có thể gia hạn tối đa 01 lần; Công ty sẽ báo lý do (Điều 5 Nghị định số 356/2025/NĐ-CP).
 
 d) Lưu ý: rút lại đồng ý không ảnh hưởng việc xử lý đã thực hiện trước đó (khoản 4 Điều 10 Luật Bảo vệ dữ liệu cá nhân). Công ty có thể không xóa, không ngừng xử lý dữ liệu mà pháp luật buộc phải lưu hoặc cần để thực hiện hợp đồng lao động (Điều 19, khoản 2 Điều 14 Luật Bảo vệ dữ liệu cá nhân); khi đó Công ty báo lý do cho Anh/Chị.
 

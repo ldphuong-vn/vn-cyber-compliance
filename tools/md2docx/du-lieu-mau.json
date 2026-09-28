@@ -1436,8 +1436,9 @@
       "DL_HAN_SUC_KHOE": "Trong thời gian làm việc; xóa, hủy khi chấm dứt hợp đồng lao động, trừ hồ sơ pháp luật buộc lưu",
       "DL_HAN_HOP_THU": "30 ngày",
       "DL_SO_QD_QUY_TRINH": "54/2026/QĐ-TURBO ngày 02/11/2026",
-      "DL_DON_VI_SOAN_THAO": "PC",
-      "DL_PHONG_XAC_NHAN": "Phòng Vận hành hệ thống"
+      "DL_DON_VI_SOAN_THAO": "PPC",
+      "DL_PHONG_XAC_NHAN": "Phòng Vận hành hệ thống",
+      "C12_NOI_NOP_PHIEU": "Phòng Pháp chế (Tầng 4)"
     },
     "08-bo-mau-cap-1-2/11-thong-bao-xu-ly-dlcn-ung-vien": {
       "C12_EMAIL_BVDLCN": "dlcn@example.vn",
@@ -1463,7 +1464,7 @@
       "C12_DY_BO_PHAN": "Phòng Tài chính – Kế toán",
       "C12_DY_LIEN_HE": "hanh.vt@example.vn",
       "C12_DY_NGUOI_TIEP_NHAN": "Phạm Thu Dung, Chuyên viên bảo vệ DLCN",
-      "C12_HAN_LUU_CCCD": "30 ngày sau khi xong thủ tục, hoặc khi anh/chị nghỉ việc",
+      "C12_HAN_LUU_CCCD": "Khi xong thủ tục bảo hiểm xã hội (chậm nhất khi anh/chị nghỉ việc)",
       "C12_HAN_LUU_SUC_KHOE": "Khi anh/chị nghỉ việc",
       "C12_HAN_LUU_NGUON_UV": "12 tháng kể từ ngày thông báo kết quả",
       "C12_NGUOI_DUOC_XEM": "chuyên viên phụ trách bảo hiểm xã hội và Trưởng phòng Hành chính – Nhân sự",

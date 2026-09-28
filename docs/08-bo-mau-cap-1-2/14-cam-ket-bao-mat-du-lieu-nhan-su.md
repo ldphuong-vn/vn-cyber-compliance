@@ -124,7 +124,7 @@ a) Khi phát hiện hoặc nghi ngờ thông tin bị lộ, bị mất, bị g�
 
 b) Tôi hiểu rằng Công ty phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất **72 giờ** kể từ khi phát hiện vi phạm, nên mọi chậm trễ của tôi đều có thể làm Công ty vi phạm thời hạn.
 
-c) Không tự điều tra, không xóa dấu vết, không tự liên hệ bên ngoài; làm theo hướng dẫn của người xử lý sự cố.
+c) Không tự điều tra, không xóa dấu vết, không tự liên hệ bên ngoài; làm theo hướng dẫn của người xử lý sự cố. Điều này không hạn chế quyền của tôi thông báo, phản ánh với cơ quan nhà nước có thẩm quyền theo quy định của pháp luật.
 
 *3.7. Hỗ trợ khi có yêu cầu của chủ thể dữ liệu*
 
@@ -156,9 +156,9 @@ c) Nghĩa vụ bảo mật **bí mật kinh doanh và thông tin nội bộ** ti
 
 **6. Nếu tôi vi phạm**
 
-a) Công ty có thể xử lý kỷ luật lao động theo {{NOI_QUY_LAO_DONG_QUY_CHE_KY_LUAT}} và Bộ luật Lao động (Điều 124, khoản 2 Điều 125), kể cả sa thải nếu tiết lộ bí mật kinh doanh, bí mật công nghệ của Công ty (với cộng tác viên, nhân sự nhà cung cấp: theo hợp đồng đã ký).
+a) Công ty có thể xử lý kỷ luật lao động theo {{NOI_QUY_LAO_DONG_QUY_CHE_KY_LUAT}} và Bộ luật Lao động (Điều 124, khoản 2 Điều 125), kể cả sa thải nếu tiết lộ bí mật kinh doanh, bí mật công nghệ của Công ty và hành vi này được quy định trong nội quy lao động (với cộng tác viên, nhân sự nhà cung cấp: theo hợp đồng đã ký).
 
-b) Tôi phải bồi thường thiệt hại do mình gây ra theo quy định của pháp luật và nội quy lao động (Điều 129 Bộ luật Lao động); bồi thường theo thỏa thuận bảo vệ bí mật kinh doanh, bí mật công nghệ nếu có (khoản 2 Điều 21 Bộ luật Lao động).
+b) Tôi phải bồi thường thiệt hại do mình gây ra theo quy định của pháp luật hoặc nội quy lao động (Điều 129 Bộ luật Lao động); bồi thường theo thỏa thuận bảo vệ bí mật kinh doanh, bí mật công nghệ nếu có (khoản 2 Điều 21 Bộ luật Lao động).
 
 c) Tùy tính chất, mức độ, hậu quả, tôi có thể bị xử phạt vi phạm hành chính hoặc bị truy cứu trách nhiệm hình sự (khoản 1 Điều 8 Luật Bảo vệ dữ liệu cá nhân).
 
