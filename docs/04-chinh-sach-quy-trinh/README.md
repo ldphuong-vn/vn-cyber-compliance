@@ -1,6 +1,6 @@
 # 04 — Chính sách, quy chế, quyết định và quy trình mẫu
 
-> **Căn cứ:** Luật An ninh mạng 116/2025/QH15 Đ10, Đ25, Đ26, Đ34, Đ40, Đ41; NĐ 331/2026/NĐ-CP Đ3–Đ5, Đ10, Đ18.4, Đ26–Đ33, Đ35–Đ36; NĐ 333/2026/NĐ-CP Đ7, Đ9, Đ16, Đ19–Đ20, Đ24; NĐ 330/2026/NĐ-CP Đ21, Đ23, Đ54; Luật 91/2025/QH15 Đ23, Đ33; NĐ 356/2025/NĐ-CP Đ8, Đ12–Đ14, Đ28–Đ29; TCVN 14423:2026 (phần quản lý) · **Đối chiếu văn bản gốc:** 24/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật An ninh mạng 116/2025/QH15 Đ10, Đ25, Đ26, Đ34, Đ40, Đ41; NĐ 331/2026/NĐ-CP Đ3–Đ5, Đ10, Đ18.4, Đ26–Đ33, Đ35–Đ36; NĐ 333/2026/NĐ-CP Đ7, Đ9, Đ16, Đ19–Đ20, Đ24; NĐ 330/2026/NĐ-CP Đ21, Đ23, Đ54; Luật 91/2025/QH15 Đ23, Đ33; NĐ 356/2025/NĐ-CP Đ8, Đ12–Đ14, Đ28–Đ29; TCVN 14423:2026 (phần quản lý) · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Bộ văn bản mẫu **cấp tổ chức**, dùng chung cho mọi hệ thống thông tin (HTTT) của một chủ quản. Mọi thông tin riêng được thay bằng placeholder `{{...}}`. Các mẫu quyết định theo thể thức văn bản hành chính (quốc hiệu, tiêu ngữ, số/ký hiệu, căn cứ, điều khoản, nơi nhận); quy chế và quy trình trình bày theo chương – điều hoặc theo bước.
 
@@ -77,7 +77,7 @@ flowchart TD
 
 ## 5. Lưu ý về thể thức
 
-Mẫu quyết định trong thư mục này trình bày theo bố cục văn bản hành chính phổ biến (và bố cục của Mẫu số 06, 07 Phụ lục NĐ 331). Cơ quan nhà nước áp dụng quy định về công tác văn thư (NĐ 30/2020/NĐ-CP) **[CẦN ĐỐI CHIẾU — văn bản này không có trong bộ nguồn của repo; doanh nghiệp tham khảo và áp dụng quy chế văn thư nội bộ]**. Doanh nghiệp tư nhân có thể dùng thể thức nội bộ, miễn thể hiện rõ: người có thẩm quyền, căn cứ, nội dung, hiệu lực, nơi nhận.
+Mẫu quyết định trong thư mục này trình bày theo bố cục văn bản hành chính phổ biến (và bố cục của Mẫu số 06, 07 Phụ lục NĐ 331). Cơ quan, tổ chức nhà nước và doanh nghiệp nhà nước áp dụng quy định về công tác văn thư (NĐ 30/2020/NĐ-CP Đ2.1; toàn văn: `sources/van-ban-goc/toan-van/nd-30-2020-nd-cp-cong-tac-van-thu.txt`, thể thức tại Phụ lục I). Nghị định không áp dụng bắt buộc với doanh nghiệp ngoài khu vực nhà nước; doanh nghiệp tham khảo và áp dụng quy chế văn thư nội bộ. Doanh nghiệp tư nhân có thể dùng thể thức nội bộ, miễn thể hiện rõ: người có thẩm quyền, căn cứ, nội dung, hiệu lực, nơi nhận.
 
 ## 6. Điểm chờ hướng dẫn / cần đối chiếu (tổng hợp)
 

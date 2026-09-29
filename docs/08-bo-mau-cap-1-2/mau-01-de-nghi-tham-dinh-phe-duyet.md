@@ -1,6 +1,6 @@
 # Mẫu số 01 — Đề nghị thẩm định, phê duyệt hồ sơ đề xuất cấp độ (HTTT cấp độ 1, cấp độ 2)
 
-> **Căn cứ:** NĐ 331/2026/NĐ-CP Phụ lục, Mẫu số 01; Đ18.1, Đ20.1.a–b, Đ21, Đ22.4.a, Đ23.2, Đ30.7 · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** NĐ 331/2026/NĐ-CP Phụ lục, Mẫu số 01; Đ18.1, Đ20.1.a–b, Đ21, Đ22.4.a, Đ23.2, Đ30.7; Luật Doanh nghiệp 59/2020/QH14 Đ43; NĐ 30/2020/NĐ-CP Đ2 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Phần văn bản dưới đây chép nguyên văn Mẫu số 01 Phụ lục NĐ 331/2026/NĐ-CP (đã đối chiếu với bản gốc); phần trong ngoặc đơn/chỗ trống của mẫu gốc được thay bằng `{{...}}`. Điểm điều chỉnh duy nhất về thể thức: ô tên cơ quan ghi thêm dòng tổ chức (chủ quản) phía trên tên đơn vị gửi, vì bên gửi là một phòng thuộc công ty. Bản dùng cho bộ hồ sơ cấp 3 trở lên: [../02-ho-so-cap-do/mau-01-de-nghi-tham-dinh-phe-duyet.md](../02-ho-so-cap-do/mau-01-de-nghi-tham-dinh-phe-duyet.md).
 
@@ -61,7 +61,7 @@ Căn cứ Luật An ninh mạng số 116/2025/QH15;
 - `{{CAP_DO_DE_XUAT}}`: ghi cấp đề xuất **cho từng HTTT** (không ghi chung "cấp độ 1–2"). HTTT nào có dấu hiệu cấp 3 trở lên (Đ13; nhiều tiêu chí → cấp cao nhất, Đ8.2) thì tách khỏi công văn này, chuyển sang bộ đầy đủ ([../02-ho-so-cap-do/](../02-ho-so-cap-do/)).
 - `{{DIA_CHI}}`: địa chỉ nơi đặt HTTT (trụ sở, phòng máy); HTTT dùng dịch vụ đám mây ghi thêm "dịch vụ đám mây của nhà cung cấp …".
 - **Phần 2:** giữ nguyên câu chữ của mẫu. Với HTTT đang vận hành không có thiết kế thi công được phê duyệt, mục 2 là "tài liệu có giá trị tương đương" (Đ21.2.b) — sơ đồ mạng, quy hoạch IP, hồ sơ cấu hình tại phụ lục hồ sơ. Không cần ý kiến chuyên môn (Đ21.5 chỉ áp dụng cấp 4–5).
-- **Người ký:** thủ trưởng đơn vị vận hành (Trưởng phòng Vận hành hệ thống). Mẫu ghi "đóng dấu": phòng không có con dấu riêng thì ký theo phân cấp tại QĐ phân công, không đóng dấu, hoặc dùng dấu/chữ ký số theo quy chế của Công ty — doanh nghiệp tự quyết định loại dấu, số lượng, hình thức dấu của doanh nghiệp và đơn vị khác của doanh nghiệp (Luật Doanh nghiệp 2020 Đ43.1–43.3); NĐ 30/2020/NĐ-CP chỉ bắt buộc với cơ quan, tổ chức nhà nước và doanh nghiệp nhà nước (Đ2.1), doanh nghiệp khác tham khảo.
+- **Người ký:** thủ trưởng đơn vị vận hành (Trưởng phòng Vận hành hệ thống). Mẫu ghi "đóng dấu": phòng không có con dấu riêng thì ký theo phân cấp tại QĐ phân công, không đóng dấu, hoặc dùng dấu/chữ ký số theo quy chế của Công ty — dấu gồm dấu làm tại cơ sở khắc dấu hoặc dấu dưới hình thức chữ ký số; doanh nghiệp tự quyết định loại dấu, số lượng, hình thức và nội dung dấu của doanh nghiệp, chi nhánh, văn phòng đại diện và đơn vị khác của doanh nghiệp; quản lý, lưu giữ dấu theo Điều lệ hoặc quy chế (Luật Doanh nghiệp 59/2020/QH14 Đ43.1–43.3; Đ43 không bị Luật 03/2022/QH15 Điều 7 hay Luật 76/2025/QH15 sửa). NĐ 30/2020/NĐ-CP áp dụng với cơ quan, tổ chức nhà nước và doanh nghiệp nhà nước (Đ2.1); Đ2.2 chỉ nêu thêm tổ chức chính trị, chính trị – xã hội, xã hội, xã hội – nghề nghiệp. Nghị định không nói gì về doanh nghiệp khác, nên với doanh nghiệp ngoài nhà nước bộ khung dùng thể thức NĐ 30 để tham khảo.
 - `{{NOI_NHAN_KHAC}}`: nên thêm Tổng Giám đốc (để biết) khi Quy chế yêu cầu; lưu VT, đơn vị soạn.
 
 ## Bằng chứng cần lưu

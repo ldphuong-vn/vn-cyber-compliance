@@ -1,6 +1,6 @@
 # Templates Catalog (Word and Excel)
 
-> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 28/09/2026.
+> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 29/09/2026.
 > **Vietnamese source:** [templates/README.md](../templates/README.md) · [tools/md2docx/README.md](../tools/md2docx/README.md) · [docs/02-ho-so-cap-do/README.md](../docs/02-ho-so-cap-do/README.md) · [docs/04-chinh-sach-quy-trinh/README.md](../docs/04-chinh-sach-quy-trinh/README.md) · [docs/07-to-trinh-lanh-dao/README.md](../docs/07-to-trinh-lanh-dao/README.md) · [docs/08-bo-mau-cap-1-2/README.md](../docs/08-bo-mau-cap-1-2/README.md)
 
 This page lists **every file** in [templates/](../templates/README.md): 49 Word (.docx) and 5 Excel (.xlsx) files. For each one it gives an English title, its purpose, who prepares, signs and receives it, whether it is filed with an authority, and its main legal basis. The documents themselves are **not translated**. Use the Vietnamese files. To read a Vietnamese form before signing it, see [10-form-reading-guide.md](10-form-reading-guide.md).

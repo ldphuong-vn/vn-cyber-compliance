@@ -1,6 +1,6 @@
 # Bảo vệ dữ liệu cá nhân với tổ chức có HTTT cấp độ 1–2
 
-> **Căn cứ:** Luật 91/2025/QH15 (Luật BVDLCN) Đ9, Đ19, Đ20, Đ21, Đ22, Đ23, Đ25, Đ32, Đ33, Đ38; NĐ 356/2025/NĐ-CP Đ4, Đ5, Đ6, Đ12, Đ13, Đ17, Đ19, Đ28, Đ41; NĐ 330/2026/NĐ-CP Đ7.1, Đ39, Đ43, Đ44, Đ52.3, Đ54, Đ55, Đ56, Đ57, Đ61, Đ69, Đ71; NĐ 331/2026/NĐ-CP Đ9.1.c, Đ12, Đ13.2.c · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 (Luật BVDLCN) Đ9, Đ19, Đ20, Đ21, Đ22, Đ23, Đ25, Đ32, Đ33, Đ38; NĐ 356/2025/NĐ-CP Đ4, Đ5, Đ6, Đ12, Đ13, Đ17, Đ19, Đ28, Đ41; NĐ 330/2026/NĐ-CP Đ7.1, Đ39, Đ43, Đ44, Đ52.3, Đ54, Đ55, Đ56, Đ57, Đ61, Đ69, Đ71; NĐ 331/2026/NĐ-CP Đ9.1.c, Đ12, Đ13.2.c; Luật 04/2017/QH14 Đ3.2, Đ4; NĐ 80/2021/NĐ-CP Đ5–Đ9 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Cấp độ an ninh mạng và nghĩa vụ bảo vệ dữ liệu cá nhân (DLCN) là **hai chế độ độc lập**. Hệ thống cấp 1–2 không có nghĩa là nghĩa vụ DLCN nhẹ đi. Phần lớn nghĩa vụ của Luật BVDLCN áp dụng cho **mọi** tổ chức xử lý DLCN, kể cả doanh nghiệp nhỏ. Trang này tóm tắt những gì một tổ chức chỉ có HTTT cấp 1–2 (email, văn phòng điện tử, kế toán, nhân sự, mạng nội bộ, camera, website giới thiệu) cần làm. Phân tích đầy đủ: [../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md](../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md).
 
@@ -56,14 +56,16 @@ Khi xử lý DLCN nhạy cảm phải có quy định phân quyền giới hạn
 | Chỉ định bộ phận, nhân sự BVDLCN hoặc thuê dịch vụ (Đ33.2) | Bắt buộc | Được chọn | Không phải làm |
 | **Mất miễn trừ khi** (Luật 91 Đ38.2–38.3; NĐ 356 Đ41) | — | Kinh doanh dịch vụ xử lý DLCN; **trực tiếp xử lý DLCN nhạy cảm**; hoặc xử lý DLCN từ khi đạt **100.000 chủ thể** (tích lũy) | Như bên trái |
 
-Tiêu chí phân loại (Luật Hỗ trợ DNNVV 04/2017/QH14 Đ4; NĐ 80/2021/NĐ-CP Đ5 — số lao động tham gia BHXH bình quân năm **và** một trong hai: doanh thu năm trước hoặc tổng nguồn vốn):
+Tiêu chí phân loại (Luật Hỗ trợ DNNVV 04/2017/QH14 Đ4; NĐ 80/2021/NĐ-CP Đ5 — số lao động **có tham gia BHXH bình quân năm** **và** một trong hai: tổng doanh thu **hoặc** tổng nguồn vốn của năm). Cách tính (NĐ 80 Đ6–Đ9): lĩnh vực theo **ngành, nghề kinh doanh chính đã đăng ký**; số lao động bình quân = tổng số lao động tham gia BHXH của các tháng trong **năm trước liền kề** chia 12 (số của tháng lấy tại cuối tháng, theo chứng từ nộp BHXH); doanh thu và tổng nguồn vốn lấy trên **báo cáo tài chính năm trước liền kề** nộp cơ quan thuế (DN hoạt động dưới 01 năm: theo số tháng hoạt động và nguồn vốn cuối quý liền kề):
 
 | Quy mô | Nông, lâm, thủy sản; công nghiệp, xây dựng | Thương mại, dịch vụ |
 |---|---|---|
 | Siêu nhỏ | ≤ 10 lao động; doanh thu ≤ 3 tỷ hoặc vốn ≤ 3 tỷ đồng | ≤ 10 lao động; doanh thu ≤ 10 tỷ hoặc vốn ≤ 3 tỷ đồng |
 | Nhỏ | ≤ 100 lao động; doanh thu ≤ 50 tỷ hoặc vốn ≤ 20 tỷ đồng | ≤ 50 lao động; doanh thu ≤ 100 tỷ hoặc vốn ≤ 50 tỷ đồng |
 
-"Doanh nghiệp khởi nghiệp" trong Luật 91 không được định nghĩa riêng; gần nhất là "doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo" (Luật 04/2017 Đ3.2) **[CẦN ĐỐI CHIẾU]**. Tiêu chí trên đối chiếu qua nguồn thứ cấp (chưa có toàn văn trong `sources/`). Kịch bản mẫu TURBO (dịch vụ CNTT, khoảng 120 lao động) **không** phải DN nhỏ → phải làm đủ DPIA và chỉ định nhân sự BVDLCN.
+DN **vừa** (thương mại, dịch vụ: ≤ 100 lao động; doanh thu ≤ 300 tỷ hoặc vốn ≤ 100 tỷ đồng — NĐ 80 Đ5.3) không thuộc diện miễn trừ của Luật 91 Đ38.2–38.3, vì điều này chỉ nêu doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp, hộ kinh doanh, doanh nghiệp siêu nhỏ.
+
+"Doanh nghiệp khởi nghiệp" trong Luật 91 không được định nghĩa riêng; gần nhất là "doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo" — "doanh nghiệp nhỏ và vừa được thành lập để thực hiện ý tưởng trên cơ sở khai thác tài sản trí tuệ, công nghệ, mô hình kinh doanh mới và có khả năng tăng trưởng nhanh" (Luật 04/2017 Đ3.2). Việc dùng định nghĩa này cho Luật 91 là suy luận **[CẦN ĐỐI CHIẾU]**. Ngưỡng trong bảng đã đối chiếu toàn văn NĐ 80/2021 Đ5 (`sources/van-ban-goc/toan-van/nd-80-2021-nd-cp-ho-tro-dnnvv.txt`) và bản PDF Luật 04/2017 Đ3.2, Đ4 (`ban-goc-tai-ve/luat-04-2017-qh14-ho-tro-dnnvv.pdf`, bản scan, đọc trực tiếp trang 1–2). Kịch bản mẫu TURBO (dịch vụ CNTT, khoảng 120 lao động) **không** phải DN nhỏ → phải làm đủ DPIA và chỉ định nhân sự BVDLCN.
 
 Nếu đã chỉ định nhân sự BVDLCN: phải bằng văn bản nêu chức năng, nhiệm vụ; nhân sự từ cao đẳng trở lên, **≥ 02 năm** kinh nghiệm ở lĩnh vực liên quan (pháp chế, CNTT, an ninh mạng, quản trị rủi ro, nhân sự…), đã được đào tạo BVDLCN; ký thỏa thuận bảo mật (NĐ 356 Đ13). Vi phạm: cảnh cáo hoặc 10–20 tr (NĐ 330 Đ57.1).
 

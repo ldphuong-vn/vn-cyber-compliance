@@ -1,6 +1,6 @@
 # Governance, Inspection and Reporting
 
-> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 28/09/2026.
+> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 29/09/2026.
 > **Vietnamese source:** [docs/04-chinh-sach-quy-trinh/README.md](../docs/04-chinh-sach-quy-trinh/README.md) · [docs/06-kiem-tra-bao-cao/README.md](../docs/06-kiem-tra-bao-cao/README.md) · [docs/06-kiem-tra-bao-cao/kiem-tra-danh-gia-dinh-ky.md](../docs/06-kiem-tra-bao-cao/kiem-tra-danh-gia-dinh-ky.md) · [docs/06-kiem-tra-bao-cao/bao-cao-nam-mau-08.md](../docs/06-kiem-tra-bao-cao/bao-cao-nam-mau-08.md) · [docs/06-kiem-tra-bao-cao/ho-so-luu-tru-bang-chung.md](../docs/06-kiem-tra-bao-cao/ho-so-luu-tru-bang-chung.md) · [docs/07-to-trinh-lanh-dao/README.md](../docs/07-to-trinh-lanh-dao/README.md)
 
 This page covers what happens around the level dossier: who does what inside the organization, which internal documents must exist, how systems are inspected and assessed, what evidence to keep, how to file the annual report (Form 08), and how to get management approval through internal submissions. The documents themselves are **not translated**; each is described here with a link to the Vietnamese page and the Word template.
@@ -18,7 +18,7 @@ This page covers what happens around the level dossier: who does what inside the
 
 ## 2. Internal documents to issue
 
-Twelve organization-level templates, shared by all IS of one system owner. All personal details are placeholders (`{{...}}`). Decisions follow the usual Vietnamese administrative layout (national header, number, legal basis, articles, recipients). State bodies follow the clerical-work rules of Decree 30/2020 [TO VERIFY — not in the source set]; private companies may use their own format as long as it shows the signing authority, legal basis, content, effective date and recipients.
+Twelve organization-level templates, shared by all IS of one system owner. All personal details are placeholders (`{{...}}`). Decisions follow the usual Vietnamese administrative layout (national header, number, legal basis, articles, recipients). State bodies, state organizations and state-owned enterprises follow the clerical-work rules of Decree 30/2020 (Art. 2.1); private companies may use their own format as long as it shows the signing authority, legal basis, content, effective date and recipients.
 
 | # | Document (described, not translated) | Signed by | When | Basis | Vietnamese page · Word |
 |---|---|---|---|---|---|
@@ -234,7 +234,7 @@ Vietnamese page: [bao-cao-nam-mau-08.md](../docs/06-kiem-tra-bao-cao/bao-cao-nam
 
 ## 6. Internal submissions to management
 
-Nine templates of **internal submissions** (*tờ trình*: memos seeking approval) help the IT, cybersecurity, legal, HR and finance teams ask management for decisions, staff and budget. They are internal company documents, not filings with the State. Each states the legal basis, current situation, risks (with **organization** fines), proposal, budget, timeline, assignments and recommendation, and ends with a box for management's decision. Layout follows common Vietnamese administrative style; adjust to the company's clerical rules [TO VERIFY — Decree 30/2020 not in the source set]. **Not translated** — use the Vietnamese files.
+Nine templates of **internal submissions** (*tờ trình*: memos seeking approval) help the IT, cybersecurity, legal, HR and finance teams ask management for decisions, staff and budget. They are internal company documents, not filings with the State. Each states the legal basis, current situation, risks (with **organization** fines), proposal, budget, timeline, assignments and recommendation, and ends with a box for management's decision. Layout follows common Vietnamese administrative style; adjust to the company's clerical rules (Decree 30/2020 binds only state bodies and state-owned enterprises, Art. 2.1). **Not translated** — use the Vietnamese files.
 
 | # | Submission (described) | Submitted by | Purpose | Main basis | Order | Vietnamese page · Word |
 |---|---|---|---|---|---|---|
