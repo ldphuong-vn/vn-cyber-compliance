@@ -12,7 +12,7 @@ Thực hiện theo handoff `handoff-tai-van-ban-dan-chieu-2026-09-28.md` của c
 
 ## 1. Phát hiện quan trọng nhất: Phụ lục IV đã có, và có cả hai mục bộ khung đang cần
 
-Không chỉ lấy được Phụ lục IV, mà **Luật Đầu tư đã được thay bằng luật mới**: **Luật Đầu tư số 143/2025/QH15** ban hành 11/12/2025, hiệu lực **01/3/2026**, riêng **Điều 7 và Phụ lục IV** (Danh mục ngành, nghề đầu tư kinh doanh có điều kiện) hiệu lực **01/7/2026** (Điều 76 khoản 2 của Luật). Phụ lục IV mới có **187 ngành, nghề**, trong đó:
+Không chỉ lấy được Phụ lục IV, mà **Luật Đầu tư đã được thay bằng luật mới**: **Luật Đầu tư số 143/2025/QH15** ban hành 11/12/2025, hiệu lực **01/3/2026**, riêng **Điều 7 và Phụ lục IV** (Danh mục ngành, nghề đầu tư kinh doanh có điều kiện) hiệu lực **01/7/2026** (Điều 51 khoản 2 của Luật). Đăng Công báo số 42 ngày 22-01-2026. Phụ lục IV mới có **187 ngành, nghề**, trong đó:
 
 | Số TT trong Phụ lục IV | Ngành, nghề | Ý nghĩa với bộ khung |
 |---|---|---|
