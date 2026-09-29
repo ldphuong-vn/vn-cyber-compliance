@@ -57,7 +57,7 @@ Ngày tháng trong hai cột cuối lấy từ metadata trang Công báo, trừ 
 
 | Việc | Lý do | Gợi ý xử lý |
 |---|---|---|
-| Bản text của **Luật 04/2017**, **NĐ 85/2016**, **NĐ 53/2022** | Bản ký số trên cổng chính phủ là ảnh scan; máy không có tesseract; các cổng còn lại không có toàn văn dạng chữ hoặc chặn truy cập | Mua/dùng bản của một CSDL thương mại, hoặc cài tesseract + tiếng Việt rồi OCR 82 trang này. Với Luật 04/2017 thì NĐ 80/2021 Đ5 đã đủ cho tiêu chí DNNVV |
+| Bản text của **Luật 04/2017**, **NĐ 85/2016**, **NĐ 53/2022** | Bản ký số trên cổng chính phủ là ảnh scan; các cổng còn lại không có toàn văn dạng chữ hoặc chặn truy cập | **Không OCR** — xem nguyên tắc ở mục 4.6. Giữ nguyên PDF; khi cần trích dẫn thì đọc trực tiếp trên PDF. Với Luật 04/2017 thì NĐ 80/2021 Đ5 đã đủ cho tiêu chí DNNVV |
 | **VBHN Luật Doanh nghiệp** | Chưa tìm thấy VBHN nào hợp nhất Luật DN 59/2020 với Luật 03/2022 và Luật 76/2025 trên Công báo | Tra lại; nếu chưa có thì ghép tay từ ba văn bản đã có: **59/2020 + 03/2022 (Điều 7) + 76/2025**, đều nằm trong lượt tải này |
 | Rà văn bản sửa đổi **TT 09/2020/TT-NHNN** | Ngoài phạm vi thời gian của lượt này | Kiểm "Sơ đồ văn bản" trên Công báo trước khi dẫn |
 
@@ -68,6 +68,7 @@ Ngày tháng trong hai cột cuối lấy từ metadata trang Công báo, trừ 
 3. **Một số dòng tiêu đề bị trích giãn cách từng chữ**, ví dụ Điều 286 trong VBHN 135 ra thành `Đ i ề u  2 8 6 .  T ộ i  p h á t  t á n ...`. Tỷ lệ rất nhỏ (≤ 0,4% số dòng) và chỉ ở dòng tiêu đề; thân điều vẫn bình thường. Các tệp có hiện tượng này: `luat-143-2025-qh15-dau-tu` (11 dòng), `vbhn-09-vpqh-luat-dau-tu` (13), `vbhn-135-2025-vpqh-bo-luat-hinh-su` (10), `luat-86-2025-qh15-sua-doi-bo-luat-hinh-su` (2), `tt-12-2022-tt-btttt` (1), `nd-30-2020-nd-cp-cong-tac-van-thu` (1), `nd-147-2024-nd-cp` (1). **Tìm theo tên tội, tên chương thay vì chỉ theo "Điều NNN".**
 4. **Văn bản đăng nhiều số Công báo** thì PDF chia thành `-p1`, `-p2`… và bản text đã ghép đúng thứ tự thành một tệp. Áp dụng cho: VBHN 135 (4 phần), NĐ 147/2024 (3), Luật DN 59/2020 (2), VBHN 09 Luật Đầu tư (2).
 5. Không có tiêu chuẩn TCVN nào trong lượt tải này.
+6. **Không OCR văn bản scan.** Bản text trong kho chỉ được trích từ lớp chữ có sẵn trong PDF gốc. Chữ do OCR sinh ra là chữ máy đoán, không còn là bản gốc để trích dẫn, và sai một chữ số trong mức phạt hay số điều là hỏng cả lập luận. Văn bản nào chỉ có bản scan thì để nguyên PDF và đọc trực tiếp khi cần trích.
 
 ## 5. Cách tải lại
 
