@@ -1,6 +1,6 @@
 # Nhà cung cấp giải pháp AI vision — bộ tài liệu tuân thủ BVDLCN và phương án hỗ trợ khách hàng
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2, Đ8, Đ9, Đ11, Đ14, Đ17, Đ19–Đ25, Đ30–Đ33, Đ37–Đ39; NĐ 356/2025/NĐ-CP Đ3–Đ7, Đ10, Đ12, Đ13, Đ15, Đ16, Đ19–Đ23, Đ28, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39, Đ43, Đ52, Đ55, Đ58, Đ59, Đ61, Đ67, Đ69–Đ71; NĐ 331/2026/NĐ-CP Đ12.2.b, Đ13.2 · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản thảo luận v0.1 — chưa phải mẫu ban hành
+> **Căn cứ:** Luật 91/2025/QH15 Đ2, Đ8, Đ9, Đ11, Đ14, Đ17, Đ19–Đ25, Đ30–Đ33, Đ37–Đ39; NĐ 356/2025/NĐ-CP Đ3–Đ7, Đ10, Đ12, Đ13, Đ15, Đ16, Đ19–Đ23, Đ28, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39, Đ43, Đ52, Đ55, Đ58, Đ59, Đ61, Đ67, Đ69–Đ71; NĐ 331/2026/NĐ-CP Đ12.2.b, Đ13.2; Luật 134/2025/QH15 Đ3, Đ7, Đ9–Đ15, Đ35; NĐ 142/2026/NĐ-CP Đ6, Đ12, Đ19; QĐ 33/2026/QĐ-TTg · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản thảo luận v0.1 — chưa phải mẫu ban hành
 
 Tài liệu này dành cho **nhà cung cấp giải pháp AI vision**: camera giám sát, phần mềm quản lý video (VMS), nhận diện khuôn mặt, nhận diện biển số (LPR), dùng cho kiểm soát ra vào, chấm công, điểm danh, bãi xe. Tài liệu trả lời ba câu hỏi:
 
@@ -56,6 +56,21 @@ Luật 91 phân vai theo **ai quyết định mục đích, phương tiện** v�
 **Mô hình AI mua hoặc nhập từ nước ngoài:** nhận tệp mô hình vào Việt Nam tự nó không phải chuyển DLCN xuyên biên giới, nhưng phát sinh nghĩa vụ nếu suy luận chạy trên API ở nước ngoài, dữ liệu chẩn đoán gửi về bên nước ngoài, bên nước ngoài truy cập từ xa, hoặc gửi dữ liệu sang để tinh chỉnh. Cần thẩm định nguồn dữ liệu huấn luyện và kiểm thử lại độ chính xác trên người dùng tại Việt Nam — xem [`b7-tuyen-bo-du-lieu-huan-luyen.md`](b7-tuyen-bo-du-lieu-huan-luyen.md) mục 1.1.
 
 **Lớp chuyển dữ liệu xuyên biên giới** áp lên M2–M5 khi: máy chủ cloud đặt ở nước ngoài; đội hỗ trợ hoặc công ty mẹ ở nước ngoài truy cập dữ liệu; hoặc gọi API nhận diện, mô hình AI đặt ở nước ngoài (Luật 91 Đ20.1.a–c). Phải lập hồ sơ đánh giá tác động chuyển xuyên biên giới và nộp trong 60 ngày. Mức phạt tối đa đến **5% doanh thu năm trước** (Luật 91 Đ8.4). Miễn trừ "lưu DLCN của người lao động trên cloud" (Đ20.6.b) chỉ áp cho **khách hàng tự lưu dữ liệu nhân viên của mình**; không nên dựa vào miễn trừ này cho nền tảng của nhà cung cấp (xem V6 mục 8).
+
+## 2a. Luật Trí tuệ nhân tạo — nhà cung cấp camera AI chịu thêm nghĩa vụ gì
+
+Luật Trí tuệ nhân tạo số 134/2025/QH15 có hiệu lực từ 01/3/2026; chi tiết tại NĐ 142/2026/NĐ-CP; Danh mục hệ thống rủi ro cao tại QĐ 33/2026/QĐ-TTg (hiệu lực 15/8/2026).
+
+| Nội dung | Áp dụng cho giải pháp AI vision | Căn cứ |
+|---|---|---|
+| **Vai trò** | Công ty bán hệ thống dưới thương hiệu của mình là **nhà cung cấp**, kể cả khi mô hình do bên thứ ba (trong hoặc ngoài nước) phát triển; thường đồng thời là **nhà phát triển**. Khách hàng là **bên triển khai** | Luật 134 Đ3.3–3.5 |
+| **Mức rủi ro** | Ba mức. Mức **cao** chỉ khi thuộc Danh mục QĐ 33. Kiểm soát ra vào, chấm công tại văn phòng, nhà máy, nhận diện biển số bãi xe: **rủi ro thấp** (Danh mục không có lĩnh vực lao động). Lên **cao** khi: giám sát, phân tích hành vi người học bằng khuôn mặt, cảm xúc (mục I.3 — điểm danh học sinh là vùng xám); nhận diện sinh trắc học theo thời gian thực tại đầu mối giao thông, công trình công cộng quan trọng mà kết quả thực thi **không qua xác minh độc lập của con người** (mục VI.6) | Luật 134 Đ9; NĐ 142 Đ6.3; QĐ 33 Phụ lục |
+| **Nghĩa vụ ở mọi mức** | Tự phân loại trước khi đưa vào sử dụng; người dùng nhận biết đang tương tác với hệ thống AI; khắc phục, thông báo **sự cố nghiêm trọng** (báo cáo sơ bộ 72 giờ hoặc 05 ngày làm việc kể từ khi xác nhận sự cố, báo cáo chính thức sau 15 ngày); giải trình khi được yêu cầu | Luật 134 Đ10.1, Đ11.1, Đ12, Đ15; NĐ 142 Đ19 |
+| **Thêm khi rủi ro cao** | Hồ sơ phân loại (được dùng hồ sơ DPIA), thông báo qua Cổng một cửa, đánh giá sự phù hợp, hồ sơ kỹ thuật, quản lý rủi ro, dữ liệu huấn luyện có tính đại diện, nhật ký hoạt động, cơ chế con người giám sát, can thiệp | Luật 134 Đ10.3, Đ13, Đ14; NĐ 142 Đ12.7, Đ15 |
+| **Hành vi cấm liên quan** | Dùng dữ liệu trái pháp luật về bảo vệ DLCN để huấn luyện, **vận hành** hệ thống AI; vô hiệu hóa cơ chế giám sát của con người | Luật 134 Đ7.3, Đ7.4 |
+| **Chuyển tiếp** | Hệ thống đã hoạt động trước 01/3/2026: hoàn thành nghĩa vụ trước **01/3/2027**; y tế, giáo dục, tài chính: trước **01/9/2027** | Luật 134 Đ35.1 |
+
+Luật 134 **không cấm riêng** nhận diện khuôn mặt hay nhận diện cảm xúc. Giới hạn cứng với nhận diện khuôn mặt ở nơi công cộng vẫn nằm ở Luật 91 và NĐ 330 (Đ71.2.a). Thiết kế "xác minh của con người trước khi thực thi" vừa đáp ứng NĐ 330 Đ67.3.b, vừa giúp cấu hình triển khai không rơi vào mục VI.6 của Danh mục. Phân loại chi tiết từng tính năng: [`b2-phan-loai-rui-ro-he-thong-ai.md`](b2-phan-loai-rui-ro-he-thong-ai.md).
 
 ## 3. Nghĩa vụ của khách hàng theo tình huống sử dụng
 
@@ -179,7 +194,7 @@ Cần tách **hỗ trợ kỹ thuật sản phẩm** khỏi **dịch vụ bảo 
 | V8 | Tự đánh giá tuân thủ hằng năm (NĐ 356 Đ10.5.đ) cho khách có bị coi là **dịch vụ BVDLCN** không | NĐ 356 Đ10.5.đ, Đ16 | Làm qua đối tác đủ điều kiện hoặc chỉ cung cấp công cụ tự đánh giá |
 | V10 | Trọng số mô hình sau khi tinh chỉnh trên ảnh khuôn mặt của khách hàng có phải dữ liệu cá nhân không; rút lại sự đồng ý áp dụng thế nào với mô hình đã tinh chỉnh | NĐ 356 Đ10.2; Luật 91 Đ10.4 | Chỉ dùng mô hình tinh chỉnh cho chính khách hàng đó; giữ khả năng quay về mô hình gốc; lần tinh chỉnh sau loại dữ liệu của người đã rút đồng ý |
 | V11 | Độ chính xác của nhận diện 1:N giảm khi danh sách lớn: nhận nhầm người lạ có phải vi phạm nguyên tắc chính xác (Luật 91 Đ3.3) không, và ở mức nào | Luật 91 Đ3.3; NĐ 330 Đ39.1.b, Đ67.3.b | Công bố quy mô danh sách tối đa theo ngưỡng (B3 mục B.3); dùng 1:1 hoặc chia danh sách khi vượt; không tự động kết luận bất lợi |
-| V9 | Văn bản chưa có trong `sources/`: pháp luật về trí tuệ nhân tạo, tiêu chuẩn, quy chuẩn an toàn thông tin cho camera giám sát, quy định về thời hạn lưu hồ sơ chấm công | — | **[CẦN ĐỐI CHIẾU]** trước khi soạn mẫu chính thức; bổ sung vào danh mục văn bản nếu áp dụng |
+| V9 | Văn bản đã tra cứu ngày 29/09/2026 nhưng **chưa có toàn văn** trong `sources/`: pháp luật lao động, kế toán (thời hạn lưu bảng chấm công, thủ tục nội quy lao động); QCVN 11:2026/BCA về camera giám sát và danh mục sản phẩm phải công bố hợp quy; quy định ngành về thời hạn lưu hình ảnh. Pháp luật về trí tuệ nhân tạo (Luật 134/2025, NĐ 142/2026, QĐ 33/2026) **đã có toàn văn** — xem mục 2a | — | Nội dung liên quan trong K3, K4, K8, B4 gắn nhãn **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**; lưu toàn văn và bỏ nhãn khi tải được văn bản gốc |
 
 ## 9. Lộ trình đề xuất và câu hỏi cần quyết định
 

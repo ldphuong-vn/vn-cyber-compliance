@@ -1,6 +1,6 @@
 # 09 — Giải pháp AI vision: camera, nhận diện khuôn mặt, nhận diện biển số
 
-> **Căn cứ:** Luật 91/2025/QH15; NĐ 356/2025/NĐ-CP; NĐ 330/2026/NĐ-CP; NĐ 331/2026/NĐ-CP; NQ 22/2026/NQ-CP · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15; NĐ 356/2025/NĐ-CP; NĐ 330/2026/NĐ-CP; NĐ 331/2026/NĐ-CP; NQ 22/2026/NQ-CP; Luật 134/2025/QH15; NĐ 142/2026/NĐ-CP; QĐ 33/2026/QĐ-TTg · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Hướng dẫn theo ngành cho **nhà cung cấp** camera giám sát, phần mềm quản lý video, nhận diện khuôn mặt, nhận diện biển số dùng cho kiểm soát ra vào, chấm công, điểm danh, bãi xe; và bộ công cụ cho **khách hàng** triển khai các giải pháp này. Bản Word: [`templates/09-ai-vision/`](../../templates/README.md#7-ngành-ai-vision-camera-nhận-diện-khuôn-mặt-nhận-diện-biển-số).
 
@@ -72,6 +72,8 @@ B5 (ma trận tính năng ↔ điều khoản) nằm trong bản thảo luận m
 
 ## Lưu ý chung
 
+- Ngoài Luật 91 và các nghị định về BVDLCN, bộ mẫu áp dụng **Luật Trí tuệ nhân tạo 134/2025/QH15**, NĐ 142/2026/NĐ-CP và Danh mục hệ thống AI rủi ro cao (QĐ 33/2026/QĐ-TTg) — toàn văn trong `sources/`. Tóm tắt: bản thảo luận mục 2a.
+- Nội dung lấy từ pháp luật lao động, kế toán và quy chuẩn camera (QCVN 11:2026/BCA) mới tra cứu qua nguồn thứ cấp, gắn nhãn **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**.
 - Mẫu là **khung tham khảo**, không phải ý kiến pháp lý. Các khoản ghi [M2], [M3/M4] phải chọn theo mô hình thực tế trước khi ký.
 - Thời hạn lưu trữ trong mẫu là **placeholder**: nhà cung cấp chỉ gợi ý, khách hàng quyết định theo mục đích. Thời hạn lưu hồ sơ chấm công theo pháp luật lao động, kế toán chưa có trong bộ nguồn — **[CẦN ĐỐI CHIẾU]**.
 - Các điểm chưa rõ phát sinh khi soạn mẫu được ghi **[CẦN ĐỐI CHIẾU]** trong từng file. Vùng xám chính V1–V9 xem bản thảo luận mục 8; sẽ được đưa vào [`../00-tong-quan/diem-can-doi-chieu.md`](../00-tong-quan/diem-can-doi-chieu.md) khi bộ mẫu được duyệt.

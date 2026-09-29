@@ -16,6 +16,9 @@ Các file trong `toan-van/` là bản text trích từ trang nguồn nên **còn
 | `toan-van/nd-163-2024-nd-cp-chi-tiet-luat-vien-thong.txt` | NĐ 163/2024/NĐ-CP — Chi tiết Luật Viễn thông (24/12/2024) | luatvietnam.vn | Đ28 (thông tin người dùng dịch vụ cloud/DC), Đ45 (thông báo cung cấp dịch vụ viễn thông) |
 | `toan-van/luat-64-2025-qh15-ban-hanh-vbqppl.txt` | Luật Ban hành văn bản QPPL số 64/2025/QH15 | Công báo số 603+604 ngày 26/3/2025 | Đ58 — nguyên tắc áp dụng khi văn bản quy định khác nhau |
 | `toan-van/nq-22-2026-nq-cp-cat-giam-tthc-bo-cong-an.txt` | NQ 22/2026/NQ-CP — Cắt giảm, đơn giản hóa TTHC, điều kiện kinh doanh thuộc Bộ Công an (29/4/2026) | luatvietnam.vn | Bản ký số là ảnh scan. Phần liên quan: Phụ lục I.7 |
+| `toan-van/luat-134-2025-qh15-tri-tue-nhan-tao.txt` | **Luật Trí tuệ nhân tạo số 134/2025/QH15** (thông qua 10/12/2025, hiệu lực 01/3/2026) | PDF ký số datafiles.chinhphu.vn (vanban.chinhphu.vn docid 216334), tải 29/9/2026 qua bản sao GitHub có mã SHA-256 khớp; text đối chiếu với OCR bản ký số | 35 điều. Bãi bỏ Chương IV và các khoản về AI của Luật Công nghiệp công nghệ số 71/2025/QH15 (Đ33) |
+| `toan-van/nd-142-2026-nd-cp-chi-tiet-luat-tri-tue-nhan-tao.txt` | NĐ 142/2026/NĐ-CP — Quy định chi tiết Luật Trí tuệ nhân tạo (30/4/2026, hiệu lực 01/5/2026) | Như trên (docid 218029) | Phân loại rủi ro (Đ6–Đ11), hồ sơ phân loại (Đ12), đánh giá sự phù hợp (Đ13), thông báo (Đ14), sự cố nghiêm trọng (Đ19) |
+| `toan-van/qd-33-2026-qd-ttg-danh-muc-ai-rui-ro-cao.txt` | QĐ 33/2026/QĐ-TTg — Danh mục hệ thống AI có rủi ro cao (hiệu lực 15/8/2026) | Như trên (docid 218658) | **Bản OCR, có lỗi chính tả.** Cột "Đánh giá sự phù hợp" không đọc được bằng OCR — đối chiếu bản PDF ký số trước khi trích |
 
 ## TCVN 14423:2026 — không lưu trong repo
 
@@ -31,4 +34,6 @@ Các file trong `toan-van/` là bản text trích từ trang nguồn nên **còn
 |---|---|
 | Luật Đầu tư (Phụ lục IV — danh mục ngành, nghề đầu tư kinh doanh có điều kiện) | Cần để kết luận ranh giới cấp 2/3 (NĐ 331 Đ12.2.a, Đ13.2.a) |
 | NĐ 329/2026/NĐ-CP (lực lượng bảo vệ ANM), NĐ 332/2026/NĐ-CP (kinh doanh sản phẩm, dịch vụ ANM) | Chưa cần cho bộ khung; bổ sung khi thuê/cung cấp dịch vụ đánh giá, kiểm thử ANM |
+| Bộ luật Lao động 45/2019/QH14 (Đ12, Đ118–Đ121, Đ190); NĐ 145/2020/NĐ-CP (Đ3, Đ69); Luật Kế toán 88/2015/QH13 (Đ41) và NĐ 174/2016/NĐ-CP (Đ10–Đ14); TT 99/2025/TT-BTC; NĐ 283/2026/NĐ-CP (xử phạt lao động) | Dùng cho thời hạn lưu chấm công, thủ tục nội quy lao động trong `docs/09-ai-vision/` (K3, K4). Đã tra cứu ngày 29/09/2026 nhưng **chưa tải được toàn văn** (mạng của phiên làm việc chặn trang văn bản pháp luật); nội dung trong mẫu đang gắn nhãn [CẦN ĐỐI CHIẾU] |
+| QCVN 11:2026/BCA (Thông tư 48/2026/TT-BCA) về an ninh mạng cơ bản cho camera giám sát; Thông tư 125/2026/TT-BCA (danh mục sản phẩm phải công bố hợp quy); các quy định ngành về thời hạn lưu hình ảnh camera (NĐ 134/2016 sửa đổi, NĐ 68/2016 sửa đổi, TT 36/2012/TT-NHNN sửa đổi, TT 34/2024/TT-BGTVT…) | Dùng cho B4, K4, K8 trong `docs/09-ai-vision/`. Đã tra cứu, **chưa tải được toàn văn**; nguồn thứ cấp — [CẦN ĐỐI CHIẾU] |
 | Thông tư hướng dẫn của Bộ Công an (đánh giá rủi ro, giám sát, ứng cứu sự cố, Khung quản lý rủi ro ANM) | **Chưa ban hành** tại ngày 24/09/2026 (NĐ 331 Đ10.8, Đ28.6, Đ34.1.c) |
