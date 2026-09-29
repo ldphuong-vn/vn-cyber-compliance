@@ -1,0 +1,1059 @@
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 35 
+ 
+BỘ THÔNG TIN VÀ TRUYỀN THÔNG 
+ 
+BỘ THÔNG TIN  
+VÀ TRUYỀN THÔNG 
+ 
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+Độc lập - Tự do - Hạnh phúc 
+ 
+Số: 12/2022/TT-BTTTT Hà Nội, ngày 12 tháng 8 năm 2022 
+ 
+THÔNG TƯ 
+Quy định chi tiết và hướng dẫn một số điều của 
+Nghị định số 85/2016/NĐ-CP ngày 01/7/2016 của Chính phủ 
+về bảo đảm an toàn hệ thống thông tin theo cấp độ 
+ 
+Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015; 
+Căn cứ Nghị định số 85/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ về 
+bảo đảm an toàn hệ thống thông tin theo cấp độ; 
+Căn cứ Nghị định số 48/2022/NĐ-CP ngày 26 tháng 7 năm 2022 của Chính phủ 
+quy định chức năng, nhiệm vụ, quyền hạn và c ơ cấu tổ chức của Bộ Thông tin và 
+Truyền thông; 
+Theo đề nghị của Cục trưởng Cục An toàn thông tin; 
+Bộ tr ưởng B ộ Thông tin và Truy ền thông ban hành Thông t ư quy định chi 
+tiết và h ướng dẫn một số điều của Nghị định số 85/2016/NĐ-CP ngày 01 tháng 7 
+năm 2016 v ề bảo đảm an toàn h ệ thống thông tin theo c ấp độ. 
+ 
+Chương I 
+QUY ĐỊNH CHUNG 
+ 
+Điều 1. Phạm vi điều chỉnh 
+Thông tư này quy định chi ti ết và h ướng dẫn bảo đảm an toàn h ệ thống thông 
+tin theo c ấp độ, bao g ồm: Xác định hệ thống thông tin và thuy ết minh c ấp độ an 
+toàn hệ thống thông tin; yêu c ầu bảo đảm an toàn h ệ thống thông tin theo c ấp độ; 
+kiểm tra, đánh giá an toàn thông tin; chế độ báo cáo. 
+ 
+36 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+Điều 2. Đối tượng áp dụng 
+Đối tượng áp dụng Thông tư này được thực hiện theo quy định tại Điều 2 Nghị 
+định số 85/2016/NĐ-CP ngày 01 tháng 7 n ăm 2016 của Chính phủ về bảo đảm an 
+toàn hệ thống thông tin theo cấp độ (sau đây gọi tắt là Nghị định 85/2016/NĐ-CP). 
+Điều 3. Giải thích từ ngữ 
+Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau: 
+1. Dự phòng nóng là khả năng thay thế chức năng của thiết bị khi xảy ra sự cố 
+mà không làm gián đoạn hoạt động của hệ thống. 
+2. Thiết b ị m ạng chính ho ặc quan tr ọng là các thi ết b ị trong h ệ th ống khi b ị 
+ngừng hoạt động mà không có kế hoạch trước sẽ làm gián đoạn hoạt động của toàn 
+bộ hệ thống thông tin. Thành ph ần thiết bị mạng chính được xác định theo c ấp độ 
+của hệ th ống thông tin, bao g ồm tối thi ểu: Thi ết b ị chuy ển mạch trung tâm ho ặc 
+tương đương, thiết bị tường lửa trung tâm, t ường lửa ứng dụng web, h ệ thống lưu 
+trữ tập trung, tường lửa cơ sở dữ liệu. 
+Điều 4. Chủ quản hệ thống thông tin 
+1. Đối v ới các B ộ, c ơ quan ngang b ộ, c ơ quan thu ộc Chính ph ủ, Ủy ban 
+nhân dân các t ỉnh, thành ph ố trực thuộc Trung ương, chủ quản hệ thống thông tin 
+là một trong các trường hợp sau:  
+a) Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; 
+b) Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương; 
+c) Cấp có th ẩm quyền quyết định đầu tư dự án xây d ựng, thiết lập, nâng c ấp, 
+mở r ộng h ệ th ống thông tin. B ộ, c ơ quan ngang b ộ, c ơ quan thu ộc Chính ph ủ, 
+Ủy ban nhân dân các t ỉnh, thành ph ố trực thuộc Trung ương quyết định chủ quản 
+hệ thống thông tin theo quy định của khoản này, b ảo đảm cơ quan, t ổ chức được 
+giao chủ quản hệ thống thông tin có đủ năng lực để thực thi đầy đủ các quy định 
+tại Điều 20 Nghị định số 85/2016/NĐ-CP. 
+2. Đối với doanh nghi ệp và t ổ chức khác (không ph ải Bộ, cơ quan ngang b ộ, 
+cơ quan thu ộc Chính ph ủ, Ủy ban nhân dân các t ỉnh, thành ph ố tr ực thu ộc 
+Trung ương), chủ quản hệ thống thông tin là c ấp có thẩm quyền quyết định đầu tư 
+xây dựng, thiết lập, nâng cấp, mở rộng hệ thống thông tin. 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 37 
+ 
+3. Trong tr ường hợp cần thiết, chủ quản hệ thống thông tin ủy quyền cho m ột 
+tổ chức trực thuộc có đủ năng lực để thay mặt thực hiện trách nhiệm của chủ quản 
+hệ thống thông tin quy định tại khoản 2 Điều 20 Nghị định 85/2016/NĐ-CP.  
+Việc ủy quyền trách nhi ệm chủ quản hệ thống thông tin ph ải được thực hiện 
+bằng văn bản, trong đó nêu rõ phạm vi của hệ thống, trách nhiệm của tổ chức được 
+ủy quyền và thời hạn ủy quyền. 
+Điều 5. Đơn vị vận hành hệ thống thông tin 
+1. Đơn vị vận hành h ệ thống thông tin là c ơ quan, t ổ chức được chủ quản hệ 
+thống thông tin giao nhiệm vụ vận hành hệ thống thông tin. 
+2. Trong tr ường hợp hệ thống thông tin g ồm nhiều hệ thống thành ph ần hoặc 
+phân tán, có nhiều hơn một đơn vị vận hành hệ thống thông tin, chủ quản hệ thống 
+thông tin có trách nhi ệm chỉ định một đơn vị chủ trì th ực hiện quyền và ngh ĩa vụ 
+của đơn vị vận hành hệ thống thông tin theo quy định của pháp luật. 
+3. Trong tr ường h ợp thuê d ịch v ụ công ngh ệ thông tin, đơn v ị v ận hành h ệ 
+thống thông tin được xác định như sau: 
+a) Trường hợp chưa xác định được đơn vị cung cấp dịch vụ theo quy định của 
+pháp luật, đơn vị chủ trì thuê dịch vụ đóng vai trò là đơn vị vận hành; 
+b) Trường hợp đã xác định được đơn vị cung c ấp d ịch vụ theo quy định của 
+pháp luật thì đơn vị vận hành là đơn vị cung cấp dịch vụ; 
+c) Trường hợp hết thời hạn cung cấp dịch vụ, nếu hệ thống thông tin được thiết 
+lập qua hình th ức thuê d ịch v ụ v ẫn ti ếp t ục duy trì ho ạt động, đơn v ị v ận hành 
+được xác định là đơn vị chủ trì thuê dịch vụ. 
+Điều 6. Thẩm định Hồ sơ đề xuất cấp độ trong trường hợp đơn vị chuyên 
+trách về an toàn thông tin đồng thời được chủ quản hệ thống thông tin giao 
+quản lý, vận hành hệ thống thông tin 
+Trường hợp đơn vị chuyên trách về an toàn thông tin, đồng thời được chủ quản 
+hệ th ống thông tin giao qu ản lý, v ận hành h ệ th ống thông tin, vi ệc tổ chức thẩm 
+định Hồ sơ đề xuất cấp độ được thực hiện theo một trong các phương án sau đây: 
+1. Đơn vị chuyên trách v ề an toàn thông tin trình ch ủ quản hệ thống thông tin 
+giao một đơn vị trực thuộc có đủ năng lực chủ trì, tổ chức thẩm định. 
+ 
+38 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+2. Đơn vị chuyên trách v ề an toàn thông tin trình ch ủ quản hệ thống thông tin 
+thành lập Hội đồng thẩm định độc lập thực hiện nhiệm vụ thẩm định Hồ sơ đề xuất 
+cấp độ. 
+ 
+Chương II 
+XÁC ĐỊNH HỆ THỐNG THÔNG TIN VÀ THUYẾT MINH 
+CẤP ĐỘ AN TOÀN HỆ THỐNG THÔNG TIN 
+ 
+Điều 7. Xác định hệ thống thông tin  
+1. Việc xác định hệ thống thông tin để xác định cấp độ căn cứ trên nguyên t ắc 
+được quy định tại khoản 1 Điều 5 Nghị định số 85/2016/NĐ-CP. 
+2. Hệ thống thông tin ph ục vụ hoạt động nội bộ là h ệ thống chỉ phục vụ hoạt 
+động quản trị, vận hành nội bộ của cơ quan, tổ chức. 
+3. Hệ thống thông tin ph ục vụ người dân, doanh nghi ệp là h ệ thống trực tiếp 
+hoặc hỗ trợ cung cấp dịch vụ trực tuyến, bao gồm dịch vụ công trực tuyến và dịch 
+vụ trực tuyến khác trong các lĩnh vực viễn thông, công nghệ thông tin, thương mại, 
+tài chính, ngân hàng, y tế, giáo dục và các lĩnh vực chuyên ngành khác. 
+4. Hệ thống cơ sở hạ tầng thông tin là t ập hợp trang thiết bị, đường truyền dẫn 
+kết nối phục vụ chung hoạt động của nhiều cơ quan, t ổ chức như mạng diện rộng, 
+cơ sở dữ liệu, trung tâm d ữ liệu, điện toán đám mây; xác th ực điện tử, chứng thực 
+điện tử, chữ ký số; kết nối liên thông các hệ thống thông tin. 
+5. H ệ th ống thông tin Điều khi ển công nghi ệp là h ệ th ống có ch ức n ăng 
+giám sát, thu th ập dữ liệu, quản lý và ki ểm soát các h ạng mục quan trọng phục vụ 
+Điều khiển, vận hành hoạt động bình thường của các công trình xây dựng. 
+6. H ệ th ống thông tin khác là h ệ th ống thông tin không thu ộc các lo ại hình 
+được nêu tại các khoản 2, 3, 4, 5 Điều này, được sử dụng để trực tiếp phục vụ hoặc 
+hỗ trợ hoạt động nghiệp vụ, sản xuất, kinh doanh c ụ thể của cơ quan, tổ chức theo 
+lĩnh vực chuyên ngành. 
+7. Định k ỳ hàng quý (ngày đầu tiên c ủa quý), C ục An toàn thông tin - B ộ 
+Thông tin và Truy ền thông có trách nhi ệm c ập nh ật, b ổ sung danh m ục các h ệ 
+thống thông tin theo quy định tại các kho ản 2, 3, 4, 5, 6 Điều này và công b ố trên 
+Cổng thông tin điện tử của Bộ Thông tin và Truyền thông. 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 39 
+ 
+Điều 8. Thuyết minh cấp độ an toàn hệ thống thông tin 
+1. Đối với hệ thống thông tin được đầu tư xây d ựng mới hoặc mở rộng, nâng 
+cấp, tùy thuộc vào hình thức đầu tư, phương án kỹ thuật trong Báo cáo kinh tế - kỹ 
+thuật (trường hợp dự án đầu tư áp d ụng phương án thi ết kế 01 b ước), trong Thi ết 
+kế c ơ s ở thu ộc Báo cáo nghiên c ứu kh ả thi (tr ường h ợp d ự án đầu t ư áp d ụng 
+phương án thi ết k ế 02 b ước), trong K ế ho ạch thuê d ịch v ụ công ngh ệ thông tin 
+(trong trường hợp thuê d ịch vụ công ngh ệ thông tin) ho ặc trong Đề cương và d ự 
+toán chi tiết (trong trường hợp đầu tư ứng dụng công nghệ thông tin không phải lập 
+dự án) phải đáp ứng các yêu cầu của phương án bảo đảm an toàn thông tin theo cấp 
+độ được đề xuất, được thuyết minh trong Hồ sơ đề xuất cấp độ. 
+2. Thuyết minh Hồ sơ đề xuất cấp độ, bao gồm các thành phần sau đây: 
+a) Thuyết minh tổng quan về hệ thống thông tin;  
+b) Thuyết minh về việc đề xuất cấp độ; 
+c) Thuyết minh phương án bảo đảm an toàn thông tin. 
+3. Thuyết minh tổng quan về hệ thống thông tin, bao gồm các nội dung: 
+a) Thông tin v ề ch ủ qu ản h ệ th ống thông tin, g ồm: Tên ch ủ qu ản h ệ th ống 
+thông tin; quy định chức năng, nhiệm vụ và quy ền hạn; người đại diện, chức vụ; 
+địa chỉ; thông tin liên hệ (bao gồm số điện thoại, thư điện tử); 
+b) Thông tin về đơn vị vận hành hệ thống thông tin, gồm: Tên đơn vị vận hành; 
+quy định ch ức n ăng, nhi ệm v ụ và quy ền h ạn; ng ười đại di ện, ch ức v ụ; địa ch ỉ; 
+thông tin liên hệ (bao gồm số điện thoại, thư điện tử); 
+c) Mô tả phạm vi, quy mô của hệ thống thông tin, trong đó cần làm rõ phạm vi 
+của hệ thống, quy mô của hệ thống và đối tượng phục vụ của hệ thống; 
+d) Mô t ả hi ện tr ạng ki ến trúc h ệ th ống ( đối v ới h ệ th ống đang v ận hành) 
+hoặc mô t ả ki ến trúc h ệ thống ( đối với h ệ th ống được xây d ựng m ới ho ặc nâng 
+cấp, m ở r ộng), trong đó mô t ả c ụ th ể mô hình lô-gic, mô hình v ật lý c ủa h ệ 
+thống, danh m ục thi ết b ị và thi ết b ị m ạng chính trong h ệ th ống (bao g ồm tên 
+thiết bị/chủng loại, vị trí tri ển khai, m ục đích sử dụng), danh m ục ứng dụng/dịch 
+vụ cung c ấp b ởi h ệ th ống (bao g ồm tên d ịch v ụ, máy ch ủ tri ển khai/v ị trí tri ển 
+khai/hệ điều hành máy ch ủ, m ục đích s ử d ụng d ịch v ụ), quy ho ạch các vùng 
+mạng và địa chỉ IP trong hệ thống (bao gồm vùng mạng, đại chỉ IP nội bộ (IP Private), 
+địa chỉ IP công khai (IP Public)). 
+ 
+40 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+4. Thuyết minh về việc đề xuất cấp độ, bao gồm các nội dung: 
+a) Danh m ục các h ệ th ống thông tin và c ấp độ t ương ứng, bao g ồm: Tên h ệ 
+thống thông tin, cấp độ đề xuất, căn cứ đề xuất đối với từng hệ thống thông tin; 
+b) Thuyết minh chi tiết đối với các hệ thống thông tin, trong đó cần làm rõ loại 
+thông tin được xử lý, loại hệ thống thông tin, căn cứ đề xuất cấp độ đối với từng hệ 
+thống thông tin. 
+5. Thuyết minh về việc đề xuất cấp độ đối với hệ thống thông tin được đề xuất 
+cấp độ 4 ho ặc cấp độ 5, ngoài các n ội dung được quy định tại khoản 3 Điều này, 
+cần làm rõ thêm các nội dung sau đây: 
+a) Xác định các hệ thống thông tin khác có liên quan ho ặc có kết nối đến hoặc 
+có ảnh hưởng quan trọng tới hoạt động bình thường của hệ thống thông tin được đề 
+xuất cấp độ; 
+b) Thuyết minh v ề các nguy c ơ tấn công m ạng và m ức độ ảnh hưởng đối với 
+hệ thống thông tin được đề xuất cấp độ; 
+c) Đánh giá phạm vi và mức độ ảnh hưởng tới lợi ích công cộng, trật tự an toàn 
+xã hội hoặc quốc phòng, an ninh qu ốc gia khi b ị tấn công m ạng gây m ất an toàn 
+thông tin hoặc gián đoạn hoạt động của hệ thống thông tin được đề xuất cấp độ; 
+d) Thuy ết minh yêu c ầu c ần ph ải v ận hành 24/7 và không ch ấp nh ận ng ừng 
+vận hành mà không có kế hoạch trước đối với các hệ thống thông tin theo quy định 
+tại khoản 2 và khoản 3 Điều 10 của Nghị định số 85/2016/NĐ-CP. 
+6. Thuyết minh phương án bảo đảm an toàn thông tin, bao gồm các nội dung: 
+a) Thuyết minh phương án đáp ứng các yêu c ầu về quản lý tương ứng với cấp 
+độ đề xuất; 
+b) Thuyết minh phương án đáp ứng các yêu cầu về kỹ thuật tương ứng với cấp 
+độ đề xuất. 
+ 
+Chương III 
+YÊU CẦU BẢO ĐẢM AN TOÀN 
+HỆ THỐNG THÔNG TIN THEO CẤP ĐỘ 
+ 
+Điều 9. Yêu cầu chung 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 41 
+ 
+1. Việc bảo đảm an toàn hệ thống thông tin theo cấp độ thực hiện theo yêu cầu 
+cơ bản quy định tại Thông t ư này và Tiêu chu ẩn quốc gia TCVN 11930:2017 v ề 
+Công nghệ thông tin - các k ỹ thuật an toàn - yêu c ầu cơ bản về an toàn h ệ thống 
+thông tin theo cấp độ. 
+2. Yêu c ầu cơ bản đối với từng cấp độ quy định tại Thông t ư này là các yêu 
+cầu tối thiểu để bảo đảm an toàn h ệ thống thông tin, bao g ồm yêu c ầu cơ bản về 
+quản lý, yêu c ầu c ơ b ản v ề kỹ thu ật và không bao g ồm các yêu c ầu b ảo đảm an 
+toàn vật lý. 
+3. Yêu cầu cơ bản về quản lý, bao gồm: 
+a) Thiết lập chính sách an toàn thông tin; 
+b) Tổ chức bảo đảm an toàn thông tin; 
+c) Bảo đảm nguồn nhân lực; 
+d) Quản lý thiết kế, xây dựng hệ thống; 
+đ) Quản lý vận hành hệ thống; 
+e) Phương án Quản lý rủi ro an toàn thông tin; 
+g) Phương án Kết thúc vận hành, khai thác, thanh lý, hủy bỏ hệ thống thông tin. 
+4. Yêu cầu cơ bản về kỹ thuật, bao gồm: 
+a) Bảo đảm an toàn mạng; 
+b) Bảo đảm an toàn máy chủ; 
+c) Bảo đảm an toàn ứng dụng; 
+d) Bảo đảm an toàn dữ liệu. 
+5. Vi ệc xây d ựng ph ương án b ảo đảm an toàn thông tin đáp ứng yêu c ầu 
+cơ b ản theo t ừng c ấp độ th ực hi ện theo nguyên t ắc quy định t ại kho ản 2 Điều 4 
+Nghị định số 85/2016/NĐ-CP, cụ thể như sau:  
+a) Đối với hệ thống thông tin cấp độ 1, 2, 3: Phương án bảo đảm an toàn thông 
+tin phải xem xét khả năng dùng chung gi ữa các hệ thống thông tin đối với các giải 
+pháp bảo vệ, chia s ẻ tài nguyên để tối ưu hiệu năng, tránh đầu tư thừa, trùng l ặp, 
+lãng phí; 
+ 
+42 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+b) Đối với hệ thống thông tin c ấp độ 4, 5: Ph ương án b ảo đảm an toàn thông 
+tin cần được thiết kế bảo đảm tính s ẵn sàng, phân tách và h ạn chế ảnh hưởng đến 
+toàn bộ hệ thống khi một thành phần trong hệ thống hoặc có liên quan tới hệ thống 
+bị mất an toàn thông tin. 
+6. Hệ thống thông tin khi được đầu tư xây d ựng mới hoặc mở rộng, nâng c ấp 
+phải triển khai đầy đủ phương án bảo đảm an toàn thông tin đã được phê duyệt tại 
+Hồ sơ đề xuất cấp độ và đáp ứng các yêu cầu an toàn tại Điều 9 và Điều 10 Thông 
+tư này trước khi đưa vào vận hành, khai thác.  
+7. Quy ch ế b ảo đảm an toàn h ệ th ống thông tin cho h ệ th ống ph ải được xây 
+dựng, đáp ứng các yêu c ầu an toàn v ề quản lý theo c ấp độ an toàn h ệ thống thông 
+tin tương ứng và được cấp có thẩm quyền phê duyệt, ban hành tr ước khi Hồ sơ đề 
+xuất cấp độ được phê duyệt. 
+8. Yêu c ầu bảo đảm an toàn thông tin đối với phần mềm nội bộ khi xây d ựng 
+mới hoặc mở rộng, nâng cấp: 
+a) Phần mềm nội bộ được xây dựng mới hoặc mở rộng, nâng cấp phải tuân thủ 
+Khung phát triển phần mềm an toàn; 
+b) Đáp ứng yêu cầu an toàn cơ bản đối với Phần mềm nội bộ. 
+9. Trường hợp hệ thống thông tin cấp độ 3 được triển khai dưới hình thức thuê 
+dịch vụ công ngh ệ thông tin t ại Trung tâm d ữ liệu hoặc Điện toán đám mây, thi ết 
+kế hệ thống phải đáp ứng các yêu cầu sau: 
+a) Phải được thiết kế tách riêng, độc lập với các hệ thống khác về lô-gic và có 
+biện pháp quản lý truy cập giữa các hệ thống; 
+b) Các vùng m ạng trong h ệ th ống ph ải được thi ết k ế tách riêng, độc l ập v ới 
+nhau về lô-gic và có biện pháp quản lý truy cập giữa các vùng mạng; 
+c) Có phân vùng lưu trữ được phân tách độc lập về lô-gic. 
+10. Trường hợp hệ thống thông tin cấp độ 4 hoặc cấp độ 5 được triển khai dưới 
+hình thức thuê d ịch vụ công ngh ệ thông tin t ại Trung tâm d ữ liệu hoặc Điện toán 
+đám mây, thiết kế hệ thống phải đáp ứng các yêu cầu sau: 
+a) Phải được thiết kế tách riêng, độc lập với các hệ thống khác về vật lý và có 
+biện pháp quản lý truy cập giữa các hệ thống; 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 43 
+ 
+b) Các vùng m ạng trong h ệ th ống ph ải được thi ết k ế tách riêng, độc l ập v ới 
+nhau về lô-gic và có biện pháp quản lý truy cập giữa các vùng mạng; 
+c) Có phân vùng lưu trữ được phân tách độc lập về vật lý; 
+d) Các thiết bị mạng chính phải được phân tách độc lập về vật lý. 
+Điều 10. Phương án bảo đảm an toàn thông tin đối với từng cấp độ 
+1. Phương án b ảo đảm an toàn h ệ thống thông tin c ấp độ 1 ph ải đáp ứng yêu 
+cầu quy định chi ti ết tại Phụ lục I ban hành kèm theo Thông t ư này. 
+2. Phương án b ảo đảm an toàn h ệ thống thông tin c ấp độ 2 ph ải đáp ứng yêu 
+cầu quy định chi ti ết tại Phụ lục II ban hành kèm theo Thông t ư này. 
+3. Phương án b ảo đảm an toàn h ệ thống thông tin c ấp độ 3 ph ải đáp ứng yêu 
+cầu quy định chi ti ết tại Phụ lục III ban hành kèm theo Thông t ư này. 
+4. Phương án b ảo đảm an toàn h ệ thống thông tin c ấp độ 4 ph ải đáp ứng yêu 
+cầu quy định chi ti ết tại Phụ lục IV ban hành kèm theo Thông t ư này. 
+5. Phương án b ảo đảm an toàn h ệ thống thông tin c ấp độ 5 ph ải đáp ứng yêu 
+cầu quy định chi ti ết tại Phụ lục V ban hành kèm theo Thông t ư này. 
+ 
+Chương IV 
+KIỂM TRA, ĐÁNH GIÁ AN TOÀN THÔNG TIN 
+ 
+Điều 11. Quy định chung về hoạt động kiểm tra, đánh giá 
+1. Nội dung kiểm tra, đánh giá: 
+a) Kiểm tra, đánh giá việc tuân thủ quy định của pháp luật về bảo đảm an toàn 
+hệ thống thông tin theo cấp độ; 
+b) Kiểm tra, đánh giá hi ệu quả của các bi ện pháp b ảo đảm an toàn thông tin 
+theo phương án bảo đảm an toàn thông tin được phê duyệt; 
+c) Kiểm tra, đánh giá phát hi ện mã độc, lỗ hổng, điểm yếu, th ử nghi ệm xâm 
+nhập hệ thống thông tin. 
+2. Tần suất kiểm tra, đánh giá: 
+a) Ki ểm tra, đánh giá định k ỳ theo quy định t ại điểm c kho ản 2 Điều 20 
+Nghị định số 85/2016/N Đ-CP; 
+b) Kiểm tra, đánh giá đột xuất theo yêu cầu của cấp có thẩm quyền. 
+ 
+44 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+3. Hình th ức ki ểm tra, đánh giá phát hi ện mã độc, l ỗ h ổng, điểm y ếu, th ử 
+nghiệm xâm nhập hệ thống thông tin, gồm 03 hình thức sau: 
+a) Kiểm tra, đánh giá hộp đen (Black box); 
+b) Kiểm tra, đánh giá hộp xám (Gray box); 
+c) Kiểm tra, đánh giá hộp trắng (White box). 
+Điều 12. Nội dung kiểm tra, đánh giá về an toàn thông tin 
+1. N ội dung ki ểm tra, đánh giá vi ệc tuân th ủ quy định c ủa pháp lu ật v ề b ảo 
+đảm an toàn hệ thống thông tin theo cấp độ, bao gồm: 
+a) Kiểm tra, đánh giá tuân th ủ đối với Chủ quản hệ thống thông tin theo quy 
+định t ại Điều 20 Ngh ị định s ố 85/2016/N Đ-CP, bao g ồm: Vi ệc th ực hi ện thành 
+lập/chỉ định đơn vị chuyên trách/bộ phận chuyên trách về an toàn thông tin của chủ 
+quản hệ thống thông tin theo quy định tại khoản 1 Điều 20 Nghị định 85/2016/NĐ-CP; 
+việc thực hiện lập Hồ sơ đề xuất cấp độ, tổ chức thẩm định, phê duy ệt Hồ sơ đề 
+xuất cấp độ theo quy định đối với các h ệ thống thông tin thu ộc phạm vi qu ản lý; 
+việc triển khai ph ương án b ảo đảm an toàn thông tin theo ph ương án trong H ồ sơ 
+đề xuất cấp độ được phê duyệt đối với các hệ thống thông tin thu ộc phạm vi quản 
+lý; việc tổ chức thực hiện kiểm tra, đánh giá an toàn thông tin và qu ản lý rủi ro an 
+toàn thông tin trong ph ạm vi c ơ quan, t ổ ch ức mình theo quy định t ại điểm c 
+khoản 2 Điều 20 Ngh ị định s ố 85/2016/N Đ-CP; vi ệc t ổ ch ức th ực hi ện đào t ạo 
+ngắn hạn, tuyên truyền, phổ biến, nâng cao nhận thức và diễn tập về an toàn thông 
+tin theo quy định tại điểm d Khoản 2 Điều 20 Nghị định số 85/2016/NĐ-CP; 
+b) Kiểm tra, đánh giá tuân thủ đối với Đơn vị chuyên trách về an toàn thông tin của 
+chủ quản hệ thống thông tin theo quy định tại Điều 21 Nghị định số 85/2016/NĐ-CP, 
+bao g ồm các n ội dung: Công tác tham m ưu, tổ chức thực thi, đôn đốc, ki ểm tra, 
+giám sát công tác b ảo đảm an toàn thông tin; Công tác th ẩm định, phê duy ệt 
+hoặc cho ý ki ến v ề m ặt chuyên môn đối v ới H ồ s ơ đề xu ất c ấp độ theo th ẩm 
+quyền quy định; 
+c) Ki ểm tra, đánh giá tuân th ủ đối v ới Đơn v ị v ận hành theo quy định t ại 
+Điều 22 Nghị định số 85/2016/NĐ-CP; 
+d) Ki ểm tra, đánh giá vi ệc t ổ ch ức th ực thi các bi ện pháp b ảo đảm an toàn 
+thông tin theo phương án bảo đảm an toàn thông tin được phê duyệt. 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 45 
+ 
+2. N ội dung ki ểm tra, đánh giá hi ệu qu ả c ủa các bi ện pháp b ảo đảm an toàn 
+thông tin theo phương án bảo đảm an toàn thông tin được phê duyệt, bao gồm: 
+a) Ki ểm tra tính đầy đủ và phù h ợp c ủa Quy ch ế b ảo đảm an toàn thông tin 
+theo phương án bảo đảm an toàn thông tin về quản lý được phê duyệt; 
+b) Đánh giá vi ệc tuân th ủ các quy định, quy trình trong Quy ch ế bảo đảm an 
+toàn thông tin tr ong quá trình v ận hành, khai thác, k ết thúc ho ặc hủy bỏ hệ thống 
+thông tin; 
+c) Đánh giá vi ệc thiết kế hệ thống theo ph ương án b ảo đảm an toàn thông tin 
+được phê duyệt; 
+d) Đánh giá việc thiết lập, cấu hình hệ thống theo phương án bảo đảm an toàn 
+thông tin được phê duyệt; 
+đ) Kiểm tra vi ệc cấu hình, t ăng cường bảo mật cho thi ết bị hệ thống, hệ điều 
+hành, ứng d ụng, c ơ s ở d ữ li ệu và các thành ph ần khác liên quan trong h ệ th ống 
+theo hướng dẫn của Bộ Thông tin và Truyền thông. 
+3. N ội dung ki ểm tra, đánh giá phát hi ện mã độc, l ỗ h ổng, điểm y ếu, th ử 
+nghiệm xâm nhập hệ thống thông tin, bao gồm: 
+a) Dò quét, phát hi ện mã độc, lỗ hổng, điểm yếu của hệ thống, thử nghiệm tấn 
+công xâm nhập đối với các thiết bị hệ thống, hệ điều hành, ứng dụng, cơ sở dữ liệu 
+và các thành phần khác liên quan trong hệ thống; 
+b) Đánh giá an toàn mã nguồn đối với phần mềm nội bộ; 
+c) Đưa ra ph ương án và k ế hoạch xử lý l ỗ hổng, điểm yếu và ph ương án c ấu 
+hình, tăng cường bảo mật đối với các nội dung kiểm tra được đánh giá là chưa đạt. 
+ 
+Chương V 
+CHẾ ĐỘ BÁO CÁO 
+ 
+Điều 13. Quy định chung về chế độ báo cáo 
+1. Phương thức gửi, nhận báo cáo:  
+a) Gửi qua hệ thống quản lý văn bản và điều hành; 
+b) G ửi qua h ệ th ống ph ần m ềm báo cáo do B ộ Thông tin và Truy ền thông 
+triển khai; 
+ 
+46 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+c) Gửi qua hệ thống thư điện tử; 
+d) Các phương thức khác theo quy định của pháp luật. 
+2. Tần suất thực hiện báo cáo: 
+a) Định kỳ hàng năm; 
+b) Đột xuất theo đề nghị của cơ quan có thẩm quyền. 
+3. Thời gian chốt số liệu báo cáo định kỳ hàng năm: 
+Tính từ ngày 15 tháng 12 n ăm trước kỳ báo cáo đến ngày 14 tháng 12 c ủa kỳ 
+báo cáo. 
+4. Thời hạn gửi báo cáo đối với báo cáo định kỳ hàng năm: 
+a) Đơn vị chuyên trách v ề an toàn thông tin, đơn vị vận hành h ệ thống thông 
+tin gửi báo cáo tới chủ quản hệ thống thông tin trước ngày 20 tháng 12 hàng năm; 
+b) Ch ủ qu ản h ệ th ống thông tin g ửi báo cáo B ộ Thông tin và Truy ền thông 
+trước ngày 25 tháng 12 hàng năm. 
+Điều 14. Nội dung báo cáo  
+1. Thông tin chung v ề chủ quản hệ thống thông tin, đơn vị chuyên trách v ề an 
+toàn thông tin, đơn vị vận hành đối với từng hệ thống thông thông tin thu ộc phạm 
+vi qu ản lý, g ồm: Tên ch ủ qu ản h ệ th ống thông tin, đơn v ị chuyên trách an toàn 
+thông tin, đơn vị vận hành; quy định chức năng, nhiệm vụ và quyền hạn; người đại 
+diện, chức vụ; địa chỉ; thông tin liên hệ (bao gồm số điện thoại, thư điện tử). 
+2. Danh sách các h ệ th ống thông tin thu ộc ph ạm vi qu ản lý, g ồm: Tên h ệ 
+thống, đơn vị vận hành, cấp độ đề xuất. 
+3. Danh sách h ệ thống thông tin được phê duy ệt Hồ sơ đề xuất cấp độ theo 
+quy định. 
+4. Danh sách h ệ thống thông tin đã triển khai đầy đủ, mới triển khai một phần 
+hoặc ch ưa tri ển khai các bi ện pháp b ảo v ệ đáp ứng các yêu c ầu an toàn theo 
+phương án bảo đảm an toàn thông tin theo cấp độ đã được phê duyệt. 
+5. Danh sách h ệ th ống thông tin có Quy ch ế bảo đảm an toàn thông tin theo 
+quy định. 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 47 
+ 
+6. Danh sách hệ thống thông tin tuân thủ các quy định, quy trình trong Quy chế 
+bảo đảm an toàn thông tin trong quá trình v ận hành, khai thác, k ết thúc ho ặc hủy 
+bỏ hệ thống thông tin. 
+7. Danh sách hệ thống thông tin được kiểm tra, đánh giá theo quy định. 
+8. Đánh giá v ề vi ệc tri ển khai các bi ện pháp b ảo đảm an toàn thông tin theo 
+phương án b ảo đảm an toàn thông tin được phê duy ệt trong H ồ sơ đề xuất cấp độ 
+theo từng tiêu chí, yêu cầu. 
+9. Thông tin Quy ết định phê duy ệt Hồ sơ đề xuất cấp độ, phương án b ảo đảm 
+an toàn thông tin được phê duy ệt trong H ồ sơ đề xu ất cấp độ theo t ừng tiêu chí, 
+yêu c ầu ( đã đáp ứng đầy đủ/chưa đáp ứng đầy đủ; k ế ho ạch ho ặc l ộ trình hoàn 
+thiện tiêu chí, yêu cầu chưa đáp ứng). 
+10. Thông tin Quyết định ban hành và Quy chế bảo đảm an toàn thông tin. 
+11. Các thông tin khác theo yêu cầu của cơ quan có thẩm quyền. 
+ 
+Chương VI 
+TỔ CHỨC THỰC HIỆN 
+ 
+Điều 15. Th ời điểm phê duy ệt H ồ s ơ đề xu ất c ấp độ khi xây d ựng m ới 
+hoặc mở rộng, nâng cấp hệ thống thông tin 
+Hồ sơ đề xuất cấp độ an toàn thông tin khuy ến khích được phê duyệt trước khi 
+cấp có th ẩm quyền phê duy ệt Báo cáo kinh t ế - k ỹ thuật hoặc thiết kế cơ sở thuộc 
+Báo cáo nghiên c ứu khả thi hoặ
+c Kế hoạch thuê dịch vụ công nghệ thông tin ho ặc 
+Đề cương và dự toán chi tiết tương ứng. 
+Điều 16. Điều khoản chuyển tiếp 
+1. Đối v ới các h ệ th ống thông tin đang v ận hành, khai thác, đã được phê 
+duyệt cấp độ từ trước ngày Thông t ư này có hi ệu lực: Ch ủ quản hệ thống thông 
+tin ti ến hành rà soát H ồ sơ đề xuất cấp độ và Ph ương án đảm bảo an toàn thông 
+tin đã được phê duy ệt. Vi ệc rà soát, điều chỉnh, phê duy ệt lại Hồ sơ đề xuất cấp 
+độ và Ph ương án b ảo đảm an toàn thông tin (n ếu c ần) ph ải hoàn thành tr ước 
+tháng 6 năm 2023. 
+ 
+48 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+2. Đối với các h ệ thống thông tin đang vận hành, khai thác nh ưng chưa được 
+phê duyệt Hồ sơ đề xuất cấp độ: Thực hiện xây dựng, thẩm định, phê duyệt Hồ sơ 
+đề xuất cấp độ và triển khai phương án bảo đảm an toàn thông tin theo ph ương án 
+được phê duyệt trong Hồ sơ đề xuất cấp độ đáp ứng các yêu c ầu theo quy định tại 
+Thông t ư s ố 03/2017/TT-BTTTT ngày 24/4/2017 c ủa B ộ Thông tin và Truy ền 
+thông Quy định chi tiết và hướng dẫn một số điều của Nghị định số 85/2016/NĐ-CP 
+ngày 01/7/2016 của Chính phủ về bảo đảm an toàn h ệ thống thông tin theo c ấp độ 
+và đồng bộ với quy định tại Thông tư này, bảo đảm khi Thông t ư này có hi ệu lực, 
+không phải thực hiện lại quy trình xây d ựng, thẩm định, phê duy ệt Hồ sơ đề xuất 
+cấp độ. 
+Điều 17. Hiệu lực và trách nhiệm thi hành 
+1. Thông t ư này có hi ệu l ực t ừ ngày 01 tháng 10 n ăm 2022 và thay th ế cho 
+Thông tư số 03/2017/TT-BTTTT ngày 24/4/2017 của Bộ Thông tin và Truyền thông 
+Quy định chi ti ết và h ướng d ẫn m ột s ố điều c ủa Ngh ị định s ố 85/2016/N Đ-CP 
+ngày 01/7/2016 của Chính phủ về bảo đảm an toàn hệ thống thông tin theo cấp độ. 
+2. Trong quá trình th ực hi ện Thông t ư này, n ếu có v ướng m ắc, các c ơ quan, 
+đơn vị liên h ệ với Bộ Thông tin và Truy ền thông (C ục An toàn thông tin) để phối 
+hợp giải quyết./. 
+ 
+ BỘ TRƯỞNG 
+ 
+Nguyễn Mạnh Hùng 
+ 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 49 
+ 
+Phụ lục I 
+YÊU CẦU CƠ BẢN BẢO ĐẢM AN TOÀN HỆ THỐNG THÔNG TIN 
+ĐỐI VỚI HỆ THỐNG THÔNG TIN CẤP ĐỘ 1 
+ (Ban hành kèm theo Thông tư số 12/2022/TT-BTTTT 
+ngày 12 tháng 8 năm 2022 của Bộ trưởng Bộ Thông tin và Truyền thông) 
+ 
+I. YÊU CẦU QUẢN LÝ 
+ 
+STT Yêu cầu TCVN 11930:2017 
+1.1 Thiết lập chính sách an toàn thông tin Mục 5.1.1 
+1.1.1 Chính sách an toàn thông tin M ục 5.1.1.1 
+1.1.2 Xây d ựng và công bố M ục 5.1.1.2 
+1.1.3 Rà soát, s ửa đổi M ục 5.1.1.3 
+1.2 Tổ chức bảo đảm an toàn thông tin Mục 5.1.2 
+1.2.1 Đơn vị chuyên trách về an toàn thông tin M ục 5.1.2.1 
+1.2.2 Ph ối hợp với cơ quan/tổ chức có thẩm quyền M ục 5.1.2.2 
+1.3 Bảo đảm nguồn nhân lực Mục 5.1.3 
+1.3.1 Tuy ển dụng M ục 5.1.3.1 
+1.3.2 Trong quá trình làm vi ệc M ục 5.1.3.2 
+1.3.3 Ch ấm dứt hoặc thay đổi công việc M ục 5.1.3.3 
+1.4 Quản lý thiết kế, xây dựng hệ thống Mục 5.1.4 
+1.4.1 Thi ết kế an toàn hệ thống thông tin M ục 5.1.4.1 
+1.4.2 Th ử nghiệm và nghiệm thu hệ thống M ục 5.1.4.2 
+1.5 Quản lý vận hành hệ thống Mục 5.1.5 
+1.5.1 Qu ản lý an toàn mạng M ục 5.1.5.1 
+1.5.2 Qu ản lý an toàn máy chủ và ứng dụng M ục 5.1.5.2 
+1.5.3 Qu ản lý an toàn dữ liệu M ục 5.1.5.3 
+1.6 Phương án Quản lý rủi ro an toàn thông tin 
+1.7 Phương án Kết thúc vận hành, khai thác, thanh lý, hủy bỏ 
+ 
+50 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+II. YÊU CẦU KỸ THUẬT 
+1. Yêu cầu về thiết kế hệ thống 
+a) Thiết kế các vùng m ạng trong h ệ thống theo ch ức năng, các vùng m ạng tối 
+thiểu bao gồm: 
+i. Vùng mạng nội bộ; 
+ii. Vùng mạng biên; 
+iii. Vùng DMZ. 
+b) Có phương án thiết kế bảo đảm các yêu cầu sau: 
+i. Có ph ương án qu ản lý truy c ập, qu ản tr ị h ệ th ống t ừ x a  a n  t o à n  sử d ụng 
+mạng riêng ảo hoặc phương án tương đương; 
+ii. Có ph ương án qu ản lý truy c ập giữa các vùng m ạng và phòng ch ống xâm 
+nhập, sử dụng sản phẩm Tường lửa có tích hợp chức năng phòng, chống xâm nhập 
+hoặc phương án tương đương; 
+iii. Có phương án phòng ch ống mã độc cho máy ch ủ và máy tr ạm sử dụng sản 
+phẩm Phòng chống mã độc hoặc phương án tương đương. 
+2. Yêu cầu về thiết lập, cấu hình hệ thống 
+STT Yêu c ầu TCVN 11930:2017 
+1.1 B ảo đảm an toàn mạng M ục 5.2.1 
+1.1.1 Ki ểm soát truy cập từ bên ngoài mạng M ục 5.2.1.2 
+1.1.2 Nh ật ký hệ thống M ục 5.2.1.3 
+1.1.3 Phòng ch ống xâm nhập M ục 5.2.1.4 
+1.1.4 B ảo vệ thiết bị hệ thống M ục 5.2.1.5 
+1.2 B ảo đảm an toàn máy chủ M ục 5.2.2 
+1.2.1 Xác th ực M ục 5.2.2.1 
+1.2.2 Ki ểm soát truy cập M ục 5.2.2.2 
+1.2.3 Nh ật ký hệ thống M ục 5.2.2.3 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 51 
+ 
+STT Yêu c ầu TCVN 11930:2017 
+1.2.4 Phòng ch ống xâm nhập M ục 5.2.2.4 
+1.2.5 Phòng ch ống phần mềm độc hại M ục 5.2.2.5 
+1.3 B ảo đảm an toàn ứng dụng M ục 5.2.3 
+1.3.1 Xác th ực M ục 5.2.3.1 
+1.3.2 Ki ểm soát truy cập M ục 5.2.3.2 
+1.3.3 Nh ật ký hệ thống M ục 5.2.3.3 
+1.4 B ảo đảm an toàn dữ liệu M ục 5.2.4 
+1.4.1 Sao l ưu dự phòng M ục 5.2.4.1 
+ 
+ 
+52 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+Phụ lục II 
+YÊU CẦU CƠ BẢN BẢO ĐẢM AN TOÀN HỆ THỐNG THÔNG TIN 
+ĐỐI VỚI HỆ THỐNG THÔNG TIN CẤP ĐỘ 2 
+(Ban hành kèm theo Thông tư số 12/2022/TT-BTTTT 
+ngày 12 tháng 8 năm 2022 của Bộ trưởng Bộ Thông tin và Truyền thông) 
+ 
+I. YÊU CẦU QUẢN LÝ 
+ 
+STT Yêu c ầu TCVN 11930:2017 
+1.1 Thi ết lập chính sách an toàn thông tin M ục 6.1.1 
+1.1.1 Chính sách an toàn thông tin M ục 6.1.1.1 
+1.1.2 Xây d ựng và công bố M ục 6.1.1.2 
+1.1.3 Rà soát, s ửa đổi M ục 6.1.1.3 
+1.2 T ổ chức bảo đảm an toàn thông tin M ục 6.1.2 
+1.2.1 Đơn vị chuyên trách về an toàn thông tin M ục 6.1.2.1 
+1.2.2 Ph ối hợp với cơ quan/tổ chức có thẩm quyền M ục 6.1.2.2 
+1.3 B ảo đảm nguồn nhân lực M ục 6.1.3 
+1.3.1 Tuy ển dụng M ục 6.1.3.1 
+1.3.2 Trong quá trình làm vi ệc M ục 6.1.3.2 
+1.3.3 Ch ấm dứt hoặc thay đổi công việc M ục 6.1.3.3 
+1.4 Qu ản lý thiết kế, xây dựng hệ thống M ục 6.1.4 
+1.4.1 Thi ết kế an toàn hệ thống thông tin M ục 6.1.4.1 
+1.4.2 Phát tri ển phần mềm thuê khoán M ục 6.1.4.2 
+1.4.3 Th ử nghiệm và nghiệm thu hệ thống M ục 6.1.4.3 
+1.5 Qu ản lý vận hành hệ thống M ục 6.1.5 
+1.5.1 Qu ản lý an toàn mạng M ục 6.1.5.1 
+1.5.2 Qu ản lý an toàn máy chủ và ứng dụng M ục 6.1.5.2 
+1.5.3 Qu ản lý an toàn dữ liệu M ục 6.1.5.3 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 53 
+ 
+STT Yêu c ầu TCVN 11930:2017 
+1.5.4 Qu ản lý sự cố an toàn thông tin M ục 6.1.5.4 
+1.5.5 Qu ản lý an toàn người sử dụng đầu cuối M ục 6.1.5.5 
+1.6 Ph ương án Quản lý rủi ro an toàn thông tin 
+1.7 Ph ương án Kết thúc vận hành, khai thác, thanh lý, hủy bỏ 
+II. YÊU CẦU KỸ THUẬT 
+1. Yêu cầu về thiết kế hệ thống 
+a) Thiết kế các vùng m ạng trong h ệ thống theo ch ức năng, các vùng m ạng tối 
+thiểu bao gồm: 
+i. Vùng mạng nội bộ; 
+ii. Vùng mạng biên; 
+iii. Vùng DMZ; 
+iv. Vùng máy chủ nội bộ; 
+v. Vùng mạng không dây (nếu có) tách riêng, độc lập với các vùng mạng khác. 
+b) Có phương án thiết kế bảo đảm các yêu cầu sau: 
+i. Có ph ương án qu ản lý truy c ập, qu ản tr ị h ệ th ố
+ng t ừ x a  a n  t o à n  sử d ụng 
+mạng riêng ảo hoặc phương án tương đương; 
+ii. Có ph ương án qu ản lý truy c ập giữa các vùng m ạng và phòng ch ống xâm 
+nhập, sử dụng sản phẩm Tường lửa có tích hợp chức năng phòng, chống xâm nhập 
+hoặc phương án tương đương; 
+iii. Có phương án phòng ch ống mã độc cho máy chủ và máy trạm sử dụng sản 
+phẩm Phòng chống mã độc hoặc phương án tương đương; 
+iv. Có phương án phòng chống tấn công mạng cho ứng dụng web; sử dụng sản 
+phẩm T ường l ửa ứng d ụng web đối v ới h ệ th ống thông tin theo quy định t ại 
+khoản 2 Điều 8 Nghị định 85/2016/NĐ-CP; 
+v. Có phương án bảo đảm an toàn thông tin cho hệ thống thư điện tử đối với hệ 
+thống thư điện tử; 
+ 
+54 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+vi. Có ph ương án d ự phòng cho các thi ết b ị m ạng chính, bao g ồm thi ết b ị 
+chuyển mạch trung tâm hoặc tương đương, thiết bị tường lửa trung tâm. 
+2. Yêu cầu về thiết lập, cấu hình hệ thống 
+STT Yêu c ầu TCVN 11930:2017 
+1.1 B ảo đảm an toàn mạng M ục 6.2.1 
+1.1.1 Ki ểm soát truy cập từ bên ngoài mạng M ục 6.2.1.2 
+1.1.2 Ki ểm soát truy cập từ bên trong mạng M ục 6.2.1.3 
+1.1.3 Nh ật ký hệ thống M ục 6.2.1.4 
+1.1.4 Phòng ch ống xâm nhập M ục 6.2.1.5 
+1.1.5 B ảo vệ thiết bị hệ thống M ục 6.2.1.6 
+1.2 B ảo đảm an toàn máy chủ M ục 6.2.2 
+1.2.1 Xác th ực M ục 6.2.2.1 
+1.2.2 Ki ểm soát truy cập M ục 6.2.2.2 
+1.2.3 Nh ật ký hệ thống M ục 6.2.2.3 
+1.2.4 Phòng ch ống xâm nhập M ục 6.2.2.4 
+1.2.5 Phòng ch ống phần mềm độc hại M ục 6.2.2.5 
+1.2.6 X ử lý máy chủ khi chuyển giao M ục 6.2.2.6 
+1.3 B ảo đảm an toàn ứng dụng M ục 6.2.3 
+1.3.1 Xác th ực M ục 6.2.3.1 
+1.3.2 Ki ểm soát truy cập M ục 6.2.3.2 
+1.3.3 Nh ật ký hệ thống M ục 6.2.3.3 
+1.3.4 An toàn ứng dụng và mã nguồn M ục 6.2.3.4 
+1.4 B ảo đảm an toàn dữ liệu M ục 6.2.4 
+1.4.1 B ảo mật dữ liệu M ục 6.2.4.1 
+1.4.2 Sao l ưu dự phòng M ục 6.2.4.2 
+ 
+ 
+ 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 55 
+ 
+Phụ lục III 
+YÊU CẦU CƠ BẢN BẢO ĐẢM AN TOÀN HỆ THỐNG THÔNG TIN 
+ĐỐI VỚI HỆ THỐNG THÔNG TIN CẤP ĐỘ 3 
+(Ban hành kèm theo Thông tư số 12/2022/TT-BTTTT 
+ngày 12 tháng 8 năm 2022 của Bộ trưởng Bộ Thông tin và Truyền thông) 
+I. YÊU CẦU QUẢN LÝ 
+STT Yêu c ầu TCVN 11930:2017 
+1.1 Thi ết lập chính sách an toàn thông tin M ục 7.1.1 
+1.1.1 Chính sách an toàn thông tin M ục 7.1.1.1 
+1.1.2 Xây d ựng và công bố M ục 7.1.1.2 
+1.1.3 Rà soát, s ửa đổi M ục 7.1.1.3 
+1.2 T ổ chức bảo đảm an toàn thông tin M ục 7.1.2 
+1.2.1 Đơn vị chuyên trách về an toàn thông tin M ục 7.1.2.1 
+1.2.2 Ph ối hợp với cơ quan/tổ chức có thẩm quyền M ục 7.1.2.2 
+1.3 B ảo đảm nguồn nhân lực M ục 7.1.3 
+1.3.1 Tuy ển dụng M ục 7.1.3.1 
+1.3.2 Trong quá trình làm vi ệc M ục 7.1.3.2 
+1.3.3 Ch ấm dứt hoặc thay đổi công việc M ục 7.1.3.3 
+1.4 Qu ản lý thiết kế, xây dựng hệ thống M ục 7.1.4 
+1.4.1 Thi ết kế an toàn hệ thống thông tin M ục 7.1.4.1 
+1.4.2 Phát tri ển phần mềm thuê khoán M ục 7.1.4.2 
+1.4.3 Th ử nghiệm và nghiệm thu hệ thống M ục 7.1.4.3 
+1.5 Qu ản lý vận hành hệ thống M ục 7.1.5 
+1.5.1 Qu ản lý an toàn mạng M ục 7.1.5.1 
+1.5.2 Qu ản lý an toàn máy chủ và ứng dụng M ục 7.1.5.2 
+1.5.3 Qu ản lý an toàn dữ liệu M ục 7.1.5.3 
+1.5.4 Qu ản lý an toàn thiết bị đầu cuối M ục 7.1.5.4 
+ 
+56 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+STT Yêu c ầu TCVN 11930:2017 
+1.5.5 Qu ản lý phòng chống phần mềm độc hại M ục 7.1.5.5 
+1.5.6 Qu ản lý giám sát an toàn hệ thống thông tin M ục 7.1.5.6 
+1.5.7 Qu ản lý điểm yếu an toàn thông tin M ục 7.1.5.7 
+1.5.8 Qu ản lý sự cố an toàn thông tin M ục 7.1.5.8 
+1.5.9 Qu ản lý an toàn người sử dụng đầu cuối M ục 7.1.5.9 
+1.6 Ph ương án Quản lý rủi ro an toàn thông tin 
+1.7 Ph ương án Kết thúc vận hành, khai thác, thanh lý, hủy bỏ 
+ 
+II. YÊU CẦU KỸ THUẬT 
+1. Yêu cầu về thiết kế hệ thống 
+a) Thiết kế các vùng m ạng trong h ệ thống theo ch ức năng, các vùng m ạng tối 
+thiểu bao gồm: 
+i. Vùng mạng nội bộ; 
+ii. Vùng mạng biên; 
+iii. Vùng DMZ; 
+iv. Vùng máy chủ nội bộ; 
+v. Vùng mạng không dây (nếu có) tách riêng, độc lập với các vùng mạng khác; 
+vi. Vùng mạng máy chủ cơ sở dữ liệu; 
+vii. Vùng quản trị. 
+b) Có phương án thiết kế bảo đảm các yêu cầu sau: 
+i. Có ph ương án qu ản lý truy c ập, qu ản tr ị h ệ th ống t ừ x a  a n  t o à n  sử d ụng 
+mạng riêng ảo hoặc phương án tương đương; sử dụng sản phẩm Mạng riêng ảo đối 
+với hệ thống thông tin có x ử lý thông tin bí m ật nhà nước hoặc hệ thống thông tin 
+quy định tại điểm c khoản 2 Điều 9 Nghị định số 85/2016/NĐ-CP; 
+ii. Có ph ương án qu ản lý truy c ập giữa các vùng m ạng và phòng ch ống xâm 
+nhập sử dụng sản phẩm Tường lửa có tích h ợp chức năng phòng, chống xâm nhập 
+hoặc sản phẩm Phòng, chống xâm nhập lớp mạng; 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 57 
+ 
+iii. Có phương án cân bằng tải, dự phòng nóng cho các thi ết bị mạng chính, tối 
+thiểu bao g ồm thi ết b ị chuy ển m ạch trung tâm ho ặc t ương đương, thi ết b ị t ường 
+lửa trung tâm, tường lửa ứng dụng web, hệ thống lưu trữ tập trung, tường lửa cơ sở 
+dữ liệu (nếu có); 
+iv. Có ph ương án b ảo đảm an toàn cho máy ch ủ c ơ s ở d ữ li ệu; s ử d ụng s ản 
+phẩm Tường lửa cơ sở dữ liệu đối với hệ thống cơ sở dữ liệu tập trung, đáp ứng 
+tiêu chí quy định tại khoản 3 Điều 9 Nghị định số 85/2016/NĐ-CP; 
+v. Có ph ương án ch ặn lọc phần mềm độc hại trên môi tr ường mạng sử dụng 
+Tường lửa tích h ợp chức năng phòng, ch ống mã độc trên môi tr ường mạng hoặc 
+phương án tương đương;  
+vi. Có ph ương án phòng ch ống tấn công t ừ chối dịch vụ; sử dụng dịch vụ của 
+doanh nghiệp hoặc sản phẩm Phòng, chống tấn công từ chối dịch vụ đối với các hệ 
+thống Trung tâm d ữ liệu, điện toán đám mây, h ệ thống Định danh, xác th ực điện 
+tử, chứng thực điện tử, chữ ký số và hệ thống Kết nối tích hợp, chia sẻ dữ liệu, đáp 
+ứng tiêu chí quy định tại khoản 3 Điều 9 Nghị định số 85/2016/NĐ-CP; 
+vii. Có ph ương án phòng ch ống t ấn công m ạng cho ứng d ụng web; s ử d ụng 
+sản phẩm Tường lửa ứng dụng web đối với các h ệ thống thông tin được quy định 
+tại khoản 2, Điều 9 Nghị định số 85/2016/NĐ-CP; 
+viii. Có ph ương án b ảo đảm an toàn thông tin cho h ệ th ống th ư điện t ử; s ử 
+dụng s ản ph ẩm B ảo đảm an toàn thông tin cho h ệ th ống th ư điện t ử đối v ới h ệ 
+thống Th ư điện t ử, đáp ứng tiêu chí quy định t ại kho ản 2 Điều 9 Ngh ị định s ố 
+85/2016/NĐ-CP; 
+ix. Có ph ương án qu ản lý truy c ập lớp mạng; sử dụng sản phẩm Quản lý truy 
+cập lớp mạng đối với hệ thống Mạng nội bộ, Trung tâm giám sát điều hành an toàn 
+thông tin m ạng, đáp ứng tiêu chí quy định t ại kho ản 3 Điều 9 Ngh ị định s ố 
+85/2016/NĐ-CP; 
+x. Có phương án giám sát hệ thống thông tin tập trung; 
+xi. Có ph ương án giám sát an toàn h ệ th ống thông tin t ập trung s ử dụng s ản 
+phẩm Quản lý và phân tích sự kiện an toàn thông tin hoặc sản phẩm tương đương; 
+ 
+58 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+xii. Có phương án quản lý sao lưu dự phòng tập trung sử dụng hệ thống lưu trữ 
+tập trung và sản phẩm quản lý lưu trữ tập trung; 
+xiii. Có phương án quản lý phần mềm phòng chống mã độc trên máy ch ủ/máy 
+tính người dùng, s ử dụng sản phẩm Phòng, ch ống mã độc và/hoặc sản phẩm Phát 
+hiện và phản ứng sự cố an toàn thông tin trên thi ết bị đầu cuối, có chức năng quản 
+lý tập trung; 
+xiv. Có ph ương án phòng, ch ống thất thoát d ữ liệu; sử dụng sản phẩm Phòng, 
+chống thất thoát d ữ liệu đối với hệ thống thông tin có x ử lý thông tin bí m ật nhà 
+nước ho ặc h ệ th ống thông tin quy định t ại điểm c kho ản 2 Điều 9 Ngh ị định s ố 
+85/2016/NĐ-CP; 
+xv. Có phương án dự phòng kết nối mạng Internet cho các máy chủ dịch vụ; 
+xvi. Có phương án bảo đảm an toàn cho mạng không dây (nếu có). 
+2. Yêu cầu về thiết lập, cấu hình hệ thống 
+STT Yêu c ầu TCVN 11930:2017
+1.1 B ảo đảm an toàn mạng M ục 7.2.1 
+1.1.1 Ki ểm soát truy cập từ bên ngoài mạng M ục 7.2.1.2 
+1.1.2 Ki ểm soát truy cập từ bên trong mạng M ục 7.2.1.3 
+1.1.3 Nh ật ký hệ thống M ục 7.2.1.4 
+1.1.4 Phòng ch ống xâm nhập M ục 7.2.1.5 
+1.1.5 Phòng ch ống ph ần m ềm độc h ại trên môi tr ường 
+mạng Mục 7.2.1.6 
+1.1.6 B ảo vệ thiết bị hệ thống M ục 7.2.1.7 
+1.2 B ảo đảm an toàn máy chủ M ục 7.2.2 
+1.2.1 Xác th ực M ục 7.2.2.1 
+1.2.2 Ki ểm soát truy cập M ục 7.2.2.2 
+1.2.3 Nh ật ký hệ thống M ục 7.2.2.3 
+1.2.4 Phòng ch ống xâm nhập M ục 7.2.2.4 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 59 
+ 
+STT Yêu c ầu TCVN 11930:2017
+1.2.5 Phòng ch ống phần mềm độc hại M ục 7.2.2.5 
+1.2.6 X ử lý máy chủ khi chuyển giao M ục 7.2.2.6 
+1.3 B ảo đảm an toàn ứng dụng M ục 7.2.3 
+1.3.1 Xác th ực M ục 7.2.3.1 
+1.3.2 Ki ểm soát truy cập M ục 7.2.3.2 
+1.3.3 Nh ật ký hệ thống M ục 7.2.3.3 
+1.3.4 B ảo mật thông tin liên lạc M ục 7.2.3.4 
+1.3.5 Ch ống chối bỏ M ục 7.2.3.5 
+1.3.6 An toàn ứng dụng và mã nguồn M ục 7.2.3.6 
+1.4 B ảo đảm an toàn dữ liệu M ục 7.2.4 
+1.4.1 Nguyên v ẹn dữ liệu M ục 7.2.4.1 
+1.4.2 B ảo mật dữ liệu M ục 7.2.4.2 
+1.4.3 Sao l ưu dự phòng M ục 7.2.4.3 
+  
+ 
+60 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+Phụ lục IV 
+YÊU CẦU CƠ BẢN BẢO ĐẢM AN TOÀN HỆ THỐNG THÔNG TIN 
+ĐỐI VỚI HỆ THỐNG THÔNG TIN CẤP ĐỘ 4 
+(Ban hành kèm theo Thông tư số 12/2022/TT-BTTTT 
+ngày 12 tháng 8 năm 2022 của Bộ trưởng Bộ Thông tin và Truyền thông) 
+ 
+I. YÊU CẦU QUẢN LÝ 
+STT Yêu c ầu TCVN 11930:2017 
+1.1 Thi ết lập chính sách an toàn thông tin M ục 8.1.1 
+1.1.1 Chính sách an toàn thông tin M ục 8.1.1.1 
+1.1.2 Xây d ựng và công bố M ục 8.1.1.2 
+1.1.3 Rà soát, s ửa đổi M ục 8.1.1.3 
+1.2 T ổ chức bảo đảm an toàn thông tin M ục 8.1.2 
+1.2.1 Đơn vị chuyên trách về an toàn thông tin M ục 8.1.2.1 
+1.2.2 Ph ối hợp với cơ quan/tổ chức có thẩm quyền M ục 8.1.2.2 
+1.3 B ảo đảm nguồn nhân lực M ục 8.1.3 
+1.3.1 Tuy ển dụng M ục 8.1.3.1 
+1.3.2 Trong quá trình làm vi ệc M ục 8.1.3.2 
+1.3.3 Ch ấm dứt hoặc thay đổi công việc M ục 8.1.3.3 
+1.4 Qu ản lý thiết kế, xây dựng hệ thống M ục 8.1.4 
+1.4.1 Thi ết kế an toàn hệ thống thông tin M ục 8.1.4.1 
+1.4.2 Phát tri ển phần mềm thuê khoán M ục 8.1.4.2 
+1.4.3 Th ử nghiệm và nghiệm thu hệ thống M ục 8.1.4.3 
+1.5 Qu ản lý vận hành hệ thống M ục 8.1.5 
+1.5.1 Qu ản lý an toàn mạng M ục 8.1.5.1 
+1.5.2 Qu ản lý an toàn máy chủ và ứng dụng M ục 8.1.5.2 
+1.5.3 Qu ản lý an toàn dữ liệu M ục 8.1.5.3 
+1.5.4 Qu ản lý an toàn thiết bị đầu cuối M ục 8.1.5.4 
+1.5.5 Qu ản lý phòng chống phần mềm độc hại M ục 8.1.5.5 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 61 
+ 
+STT Yêu c ầu TCVN 11930:2017 
+1.5.6 Qu ản lý giám sát an toàn hệ thống thông tin M ục 8.1.5.6 
+1.5.7 Qu ản lý điểm yếu an toàn thông tin M ục 8.1.5.7 
+1.5.8 Qu ản lý sự cố an toàn thông tin M ục 8.1.5.8 
+1.5.9 Qu ản lý an toàn người sử dụng đầu cuối M ục 8.1.5.9 
+1.6 Ph ương án Quản lý rủi ro an toàn thông tin 
+1.7 Ph ương án Kết thúc vận hành, khai thác, thanh lý, hủy bỏ 
+ 
+II. YÊU CẦU KỸ THUẬT 
+1. Yêu cầu về thiết kế hệ thống 
+a) Thiết kế các vùng m ạng trong h ệ thống theo ch ức năng, các vùng m ạng tối 
+thiểu bao gồm: 
+i. Vùng mạng nội bộ; 
+ii. Vùng mạng biên; 
+iii. Vùng DMZ; 
+iv. Vùng máy chủ nội bộ; 
+v. Vùng mạng không dây (nếu có) tách riêng, độc lập với các vùng mạng khác; 
+vi. Vùng mạng máy chủ cơ sở dữ liệu; 
+vii. Vùng quản trị; 
+viii. Vùng quản trị thiết bị
+ hệ thống. 
+b) Có phương án thiết kế bảo đảm các yêu cầu sau: 
+i. Có ph ương án qu ản lý truy c ập, qu ản tr ị h ệ th ống t ừ x a  a n  t o à n  sử d ụng 
+mạng riêng ảo hoặc phương án tương đương; sử dụng sản phẩm Mạng riêng ảo đối 
+với hệ thống thông tin có xử lý thông tin bí mật nhà nước; 
+ii. Có ph ương án qu ản lý truy c ập giữa các vùng m ạng và phòng ch ống xâm 
+nhập sử dụng sản phẩm Tường lửa có tích h ợp chức năng phòng, chống xâm nhập 
+hoặc sản phẩm Phòng, chống xâm nhập lớp mạng; 
+ 
+62 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+iii. Có phương án cân bằng tải, dự phòng nóng cho các thi ết bị mạng chính, tối 
+thiểu bao g ồm thi ết b ị chuy ển m ạch trung tâm ho ặc t ương đương, thi ết b ị t ường 
+lửa trung tâm, tường lửa ứng dụng web, hệ thống lưu trữ tập trung, tường lửa cơ sở 
+dữ liệu (nếu có); 
+iv. Có ph ương án b ảo đảm an toàn cho máy ch ủ c ơ s ở d ữ li ệu; s ử d ụng s ản 
+phẩm Tường lửa cơ sở dữ liệu đối với hệ thống Cơ sở dữ liệu dùng chung đáp ứng 
+tiêu chí quy định tại khoản 3 Điều 10 Nghị định số 85/2016/NĐ-CP;  
+v. Có ph ương án ch ặn lọc phần mềm độc hại trên môi tr ường mạng sử dụng 
+Sản ph ẩm T ường l ửa tích h ợp ch ức n ăng phòng, ch ống mã độc trên môi tr ường 
+mạng hoặc phương án tương đương;  
+vi. Có ph ương án phòng ch ống tấn công t ừ chối dịch vụ; sử dụng dịch vụ của 
+doanh nghiệp hoặc sản phẩm Phòng, chống tấn công từ chối dịch vụ đối với các hệ 
+thống thông tin được quy định tại khoản 2 Điều 10 Ngh ị định số 85/2016/NĐ-CP 
+hoặc Hệ thống Trung tâm dữ liệu, điện toán đám mây, Định danh, xác thực điện tử, 
+chứng thực điện tử, chữ ký s ố, Kết nối tích h ợp, chia s ẻ dữ liệu đáp ứng tiêu chí 
+quy định tại khoản 3 Điều 10 Nghị định số 85/2016/NĐ-CP; 
+vii. Có ph ương án phòng ch ống t ấn công m ạng cho ứng d ụng web; s ử d ụng 
+sản phẩm Tường lửa ứng dụng web đối với các h ệ thống thông tin được quy định 
+tại kho ản 2 Điều 10 Ngh ị định s ố 85/2016/N Đ-CP ho ặc H ệ th ống Trung tâm d ữ 
+liệu, điện toán đám mây, Định danh, xác th ực điện tử, chứng thực điện tử, chữ ký 
+số, Kết nối tích hợp, chia sẻ dữ liệu đáp ứng tiêu chí quy định tại khoản 3 Điều 10 
+Nghị định số 85/2016/NĐ-CP; 
+viii. Có ph ương án b ảo đảm an toàn thông tin cho h ệ th ống th ư điện t ử; s ử 
+dụng sản phẩm Bảo đảm an toàn thông tin cho hệ thống thư điện tử;  
+ix. Có ph ương án qu ản lý truy c ập lớp mạng; sử dụng sản phẩm Quản lý truy 
+cập lớp mạng đối với hệ thống Mạng nội bộ, Trung tâm giám sát điều hành an toàn 
+thông tin m ạng, đáp ứng tiêu chí quy định t ại kho ản 3 Điều 10 Ngh ị định s ố 
+85/2016/NĐ-CP; 
+x. Có phương án giám sát hệ thống thông tin tập trung sử dụng sản phẩm Giám 
+sát hệ thống thông tin tập trung; 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 63 
+ 
+xi. Có ph ương án giám sát an toàn h ệ th ống thông tin t ập trung s ử dụng s ản 
+phẩm Quản lý và phân tích sự kiện an toàn thông tin hoặc sản phẩm tương đương; 
+xii. Có phương án quản lý sao lưu dự phòng tập trung sử dụng hệ thống lưu trữ 
+tập trung và sản phẩm quản lý lưu trữ tập trung; 
+xiii. Có phương án quản lý phần mềm phòng chống mã độc trên máy ch ủ/máy 
+tính người dùng, s ử dụng sản phẩm Phòng, ch ống mã độc và/hoặc sản phẩm Phát 
+hiện và phản ứng sự cố an toàn thông tin trên thi ết bị đầu cuối, có chức năng quản 
+lý tập trung; 
+xiv. Có ph ương án phòng, ch ống thất thoát d ữ liệu; sử dụng sản phẩm Phòng, 
+chống thất thoát d ữ liệu đối với hệ thống thông tin có x ử lý thông tin bí m ật nhà 
+nước ho ặc h ệ th ống C ơ s ở d ữ li ệu dùng chung đáp ứng tiêu chí quy định t ại 
+khoản 3 Điều 10 Nghị định số 85/2016/NĐ-CP; 
+xv. Có phương án dự phòng kết nối mạng Internet cho các máy chủ dịch vụ; 
+xvi. Có phương án bảo đảm an toàn cho mạng không dây (nếu có); 
+xvii. Có phương án quản lý tài khoản đặc quyền, sử dụng sản phẩm Quản lý tài 
+khoản đặc quyền. 
+2. Yêu cầu về thiết lập, cấu hình hệ thống 
+STT Yêu c ầu TCVN 11930:2017
+1.1 B ảo đảm an toàn mạng M ục 8.2.1 
+1.1.1 Ki ểm soát truy cập từ bên ngoài mạng M ục 8.2.1.2 
+1.1.2 Ki ểm soát truy cập từ bên trong mạng M ục 8.2.1.3 
+1.1.3 Nh ật ký hệ thống M ục 8.2.1.4 
+1.1.4 Phòng ch ống xâm nhập M ục 8.2.1.5 
+1.1.5 Phòng ch ống ph ần m ềm độc h ại trên môi tr ường 
+mạng Mục 8.2.1.6 
+1.1.6 B ảo vệ thiết bị hệ thống M ục 8.2.1.7 
+1.2 B ảo đảm an toàn máy chủ M ục 8.2.2 
+1.2.1 Xác th ực M ục 8.2.2.1 
+ 
+64 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+STT Yêu c ầu TCVN 11930:2017
+1.2.2 Ki ểm soát truy cập M ục 8.2.2.2 
+1.2.3 Nh ật ký hệ thống M ục 8.2.2.3 
+1.2.4 Phòng ch ống xâm nhập M ục 8.2.2.4 
+1.2.5 Phòng ch ống phần mềm độc hại M ục 8.2.2.5 
+1.2.6 X ử lý máy chủ khi chuyển giao M ục 8.2.2.6 
+1.3 B ảo đảm an toàn ứng dụng M ục 8.2.3 
+1.3.1 Xác th ực M ục 8.2.3.1 
+1.3.2 Ki ểm soát truy cập M ục 8.2.3.2 
+1.3.3 Nh ật kí hệ thống M ục 8.2.3.3 
+1.3.4 B ảo mật thông tin liên lạc M ục 8.2.3.4 
+1.3.5 Ch ống chối bỏ M ục 8.2.3.5 
+1.3.6 An toàn ứng dụng và mã nguồn M ục 8.2.3.6 
+1.4 B ảo đảm an toàn dữ liệu M ục 8.2.4 
+1.4.1 Nguyên v ẹn dữ liệu M ục 8.2.4.1 
+1.4.2 B ảo mật dữ liệu M ục 8.2.4.2 
+1.4.3 Sao l ưu dự phòng M ục 8.2.4.3 
+ 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 65 
+ 
+Phụ lục V 
+YÊU CẦU CƠ BẢN BẢO ĐẢM AN TOÀN HỆ THỐNG THÔNG TIN 
+ĐỐI VỚI HỆ THỐNG THÔNG TIN CẤP ĐỘ 5 
+(Ban hành kèm theo Thông tư số 12/2022/TT-BTTTT 
+ngày 12 tháng 8 năm 2022 của Bộ trưởng Bộ Thông tin và Truyền thông) 
+ 
+I. YÊU CẦU QUẢN LÝ 
+STT Yêu c ầu TCVN 11930:2017 
+1.1 Thi ết lập chính sách an toàn thông tin M ục 9.1.1 
+1.1.1 Chính sách an toàn thông tin M ục 9.1.1.1 
+1.1.2 Xây d ựng và công bố M ục 9.1.1.2 
+1.1.3 Rà soát, s ửa đổi M ục 9.1.1.3 
+1.2 T ổ chức bảo đảm an toàn thông tin M ục 9.1.2 
+1.2.1 Đơn vị chuyên trách về an toàn thông tin M ục 9.1.2.1 
+1.2.2 Ph ối hợp với cơ quan/tổ chức có thẩm quyền M ục 9.1.2.2 
+1.3 B ảo đảm nguồn nhân lực M ục 9.1.3 
+1.3.1 Tuy ển dụng M ục 9.1.3.1 
+1.3.2 Trong quá trình làm vi ệc M ục 9.1.3.2 
+1.3.3 Ch ấm dứt hoặc thay đổi công việc M ục 9.1.3.3 
+1.4 Qu ản lý thiết kế, xây dựng hệ thống M ục 9.1.4 
+1.4.1 Thi ết kế an toàn hệ thống thông tin M ục 9.1.4.1 
+1.4.2 Phát tri ển phần mềm thuê khoán M ục 9.1.4.2 
+1.4.3 Th ử nghiệm và nghiệm thu hệ thống M ục 9.1.4.3 
+1.5 Qu ản lý vận hành hệ thống M ục 9.1.5 
+1.5.1 Qu ản lý an toàn mạng M ục 9.1.5.1 
+1.5.2 Qu ản lý an toàn máy chủ và ứng dụng M ục 9.1.5.2 
+1.5.3 Qu ản lý an toàn dữ liệu M ục 9.1.5.3 
+ 
+66 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+STT Yêu c ầu TCVN 11930:2017 
+1.5.4 Qu ản lý an toàn thiết bị đầu cuối M ục 9.1.5.4 
+1.5.5 Qu ản lý phòng chống phần mềm độc hại M ục 9.1.5.5 
+1.5.6 Qu ản lý giám sát an toàn hệ thống thông tin M ục 9.1.5.6 
+1.5.7 Qu ản lý điểm yếu an toàn thông tin M ục 9.1.5.7 
+1.5.8 Qu ản lý sự cố an toàn thông tin M ục 9.1.5.8 
+1.5.9 Qu ản lý an toàn người sử dụng đầu cuối M ục 9.1.5.9 
+1.6 Ph ương án Quản lý rủi ro an toàn thông tin 
+1.7 Ph ương án Kết thúc vận hành, khai thác, thanh lý, hủy bỏ 
+II. YÊU CẦU KỸ THUẬT 
+1. Yêu cầu về thiết kế hệ thống 
+a) Thiết kế các vùng m ạng trong h ệ thống theo ch ức năng, các vùng m ạng tối 
+thiểu bao gồm: 
+i. Vùng mạng nội bộ; 
+ii. Vùng mạng biên; 
+iii. Vùng DMZ; 
+iv. Vùng máy chủ nội bộ; 
+v. Vùng mạng không dây (nếu có) tách riêng, độc lập với các vùng mạng khác; 
+vi. Vùng mạng máy chủ cơ sở dữ liệu; 
+vii. Vùng quản trị; 
+viii. Vùng quản trị thiết bị hệ thống. 
+b) Có phương án thiết kế bảo đảm các yêu cầu sau: 
+i. Có phương án quản lý truy c ập, quản trị hệ thống từ xa an toàn s ử dụng sản 
+phẩm Mạng riêng ảo; 
+ii. Có ph ương án qu ản lý truy c ập giữa các vùng m ạng và phòng ch ống xâm 
+nhập, sử dụng sản phẩm Phòng, chống xâm nhập lớp mạng; 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 67 
+ 
+iii. Có phương án cân bằng tải, dự phòng nóng cho các thiết bị mạng; 
+iv. Có ph ương án b ảo đảm an toàn cho máy ch ủ c ơ s ở d ữ li ệu; s ử d ụng s ản 
+phẩm T ường l ửa c ơ s ở d ữ li ệu đối v ới h ệ th ống thông tin được quy định t ại 
+khoản 2 Điều 11 Nghị định số 85/2016/NĐ-CP; 
+v. Có ph ương án ch ặn lọc phần mềm độc hại trên môi tr ường m ạng sử dụng 
+sản ph ẩm T ường l ửa tích h ợp ch ức n ăng phòng, ch ống mã độc trên môi tr ường 
+mạng hoặc phương án tương đương;  
+vi. Có ph ương án phòng ch ống t ấn công t ừ ch ối d ịch v ụ; s ử d ụng d ịch v ụ 
+của doanh nghi ệp hoặc sản phẩm Phòng, ch ống tấn công t ừ chối dịch vụ đối với 
+các h ệ th ống thông tin được quy định t ại kho ản 2, kho ản 3 Điều 11 Ngh ị 
+định số 85/2016/N Đ-CP;  
+vii. Có ph ương án phòng ch ống t ấn công m ạng cho ứng d ụng web; s ử d ụng 
+sản ph ẩm Tường l ửa ứng dụng web đối với h ệ thống thông tin theo quy định t ại 
+khoản 2 Điều 11 Nghị định số 85/2016/NĐ-CP; 
+viii. Có ph ương án b ảo đảm an toàn thông tin cho h ệ th ống th ư điện t ử, s ử 
+dụng sản phẩm Bảo đảm an toàn thông tin cho hệ thống thư điện tử;  
+ix. Có ph ương án qu ản lý truy c ập lớp mạng, sử dụng sản phẩm Quản lý truy 
+cập lớp mạng; 
+x. Có phương án giám sát hệ thống thông tin tập trung sử dụng sản phẩm Giám 
+sát hệ thống thông tin tập trung; 
+xi. Có ph ương án giám sát an toàn h ệ th ống thông tin t ập trung s ử dụng s ản 
+phẩm Quản lý và phân tích sự kiện an toàn thông tin hoặc sản phẩm tương đương; 
+xii. Có phương án quản lý sao lưu dự phòng tập trung sử dụng hệ thống lưu trữ 
+tập trung và sản phẩm quản lý lưu trữ tập trung; 
+xiii. Có phương án quản lý phần mềm phòng chống mã độc trên máy ch ủ/máy 
+tính người dùng, s ử dụng sản phẩm Phòng, ch ống mã độc và/hoặc sản phẩm Phát 
+hiện và phản ứng sự cố an toàn thông tin trên thi ết bị đầu cuối, có chức năng quản 
+lý tập trung; 
+ 
+68 CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 
+  
+xiv. Có ph ương án phòng, ch ống th ất thoát d ữ li ệu; s ử d ụng s ản ph ẩm 
+Phòng, ch ống th ất thoát d ữ liệu đối với hệ thống thông tin có x ử lý thông tin bí 
+mật nhà n ước ho ặc h ệ th ống thông tin quy định t ại kho ản 2 Điều 11 Ngh ị định 
+số 85/2016/N Đ-CP; 
+xv. Có phương án dự phòng kết nối mạng Internet cho các máy chủ dịch vụ; 
+xvi. Có phương án bảo đảm an toàn cho mạng không dây (nếu có); 
+xvii. Có phương án quản lý tài khoản đặc quyền, sử dụng sản phẩm Quản lý tài 
+khoản đặc quyền; 
+xviii. Có phương án dự phòng hệ thống ở vị trí địa lý khác nhau, cách nhau t ối 
+thiểu 30 km; 
+xix. Có ph ương án d ự phòng cho k ết n ối m ạng gi ữa các h ệ th ống chính và 
+dự phòng. 
+2. Yêu cầu về thiết lập, cấu hình hệ thống 
+STT Yêu c ầu TCVN 11930:2017 
+1.1 B ảo đảm an toàn mạng M ục 9.2.1 
+1.1.1 Ki ểm soát truy cập từ bên ngoài mạng M ục 9.2.1.2 
+1.1.2 Ki ểm soát truy cập từ bên trong mạng M ục 9.2.1.3 
+1.1.3 Nh ật kí hệ thống M ục 9.2.1.4 
+1.1.4 Phòng ch ống xâm nhập M ục 9.2.1.5 
+1.1.5 Phòng chống phần mềm độc hại trên môi tr ường 
+mạng Mục 9.2.1.6 
+1.1.6 B ảo vệ thiết bị hệ thống M ục 9.2.1.7 
+1.2 B ảo đảm an toàn máy chủ M ục 9.2.2 
+1.2.1 Xác th ực M ục 9.2.2.1 
+1.2.2 Ki ểm soát truy cập M ục 9.2.2.2 
+1.2.3 Nh ật ký hệ thống M ục 9.2.2.3 
+1.2.4 Phòng ch ống xâm nhập M ục 9.2.2.4 
+ 
+ CÔNG BÁO/Số 705 + 706/Ngày 28-8-2022 69 
+ 
+STT Yêu c ầu TCVN 11930:2017 
+1.2.5 Phòng ch ống phần mềm độc hại M ục 9.2.2.5 
+1.2.6 X ử lý máy chủ khi chuyển giao M ục 9.2.2.6 
+1.3 B ảo đảm an toàn ứng dụng M ục 9.2.3 
+1.3.1 Xác th ực M ục 9.2.3.1 
+1.3.2 Ki ểm soát truy cập M ục 9.2.3.2 
+1.3.3 Nh ật ký hệ thống M ục 9.2.3.3 
+1.3.4 B ảo mật thông tin liên lạc M ục 9.2.3.4 
+1.3.5 Ch ống chối bỏ M ục 9.2.3.5 
+1.3.6 An toàn ứng dụng và mã nguồn M ục 9.2.3.6 
+1.4 B ảo đảm an toàn dữ liệu M ục 9.2.4 
+1.4.1 Nguyên v ẹn dữ liệu M ục 9.2.4.1 
+1.4.2 B ảo mật dữ liệu M ục 9.2.4.2 
+1.4.3 Sao l ưu dự phòng M ục 9.2.4.3 
+ 
+ 

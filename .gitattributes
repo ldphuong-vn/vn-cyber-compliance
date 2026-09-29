@@ -1,0 +1,8 @@
+# Ban goc van ban phap luat: giu nguyen tung byte, khong chuyen doi dau dong.
+*.pdf binary
+*.doc binary
+*.docx binary
+
+# Toan van dang text: chuan hoa ve LF trong repo.
+*.txt text eol=lf
+*.md text eol=lf
