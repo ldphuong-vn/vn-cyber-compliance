@@ -1,6 +1,6 @@
 # Mẫu Hỏi đáp cho khách hàng về bảo vệ dữ liệu cá nhân khi dùng camera và nhận diện (K10)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ49, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71; Luật Kế toán 88/2015/QH13 Đ41.5; BLLĐ 2019 Đ190; văn bản chuyên ngành về thời hạn lưu hình ảnh (bảng tại K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ49, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71; Luật Kế toán 88/2015/QH13 Đ41.5; BLLĐ 2019 Đ190; văn bản chuyên ngành về thời hạn lưu hình ảnh (bảng tại K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -32,7 +32,7 @@ Nếu chỉ dùng camera **không nhận diện**: doanh nghiệp nhỏ, khởi 
 
 Không lập DPIA: phạt 20–30 triệu đồng và có thể bị **buộc dừng xử lý** đến khi hoàn thành hồ sơ.
 
-*Căn cứ:* khoản 2, khoản 3 Điều 38, khoản 2 Điều 31, khoản 1 Điều 21 Luật BVDLCN; điểm đ khoản 1 Điều 4, Điều 41 Nghị định 356; khoản 1, điểm b khoản 3 Điều 55 Nghị định 330. Tiêu chí doanh nghiệp nhỏ, siêu nhỏ, khởi nghiệp theo pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa — **[CẦN ĐỐI CHIẾU]**.
+*Căn cứ:* khoản 2, khoản 3 Điều 38, khoản 2 Điều 31, khoản 1 Điều 21 Luật BVDLCN; điểm đ khoản 1 Điều 4, Điều 41 Nghị định 356; khoản 1, điểm b khoản 3 Điều 55 Nghị định 330. Tiêu chí doanh nghiệp nhỏ, siêu nhỏ: Điều 4 Luật Hỗ trợ doanh nghiệp nhỏ và vừa số 04/2017/QH14 và Điều 5 Nghị định số 80/2021/NĐ-CP (số lao động tham gia bảo hiểm xã hội bình quân năm và doanh thu hoặc tổng nguồn vốn). "Doanh nghiệp khởi nghiệp" chưa được Luật BVDLCN định nghĩa — **[CẦN ĐỐI CHIẾU]**.
 
 **Câu 2. Nhân sự bảo vệ dữ liệu cá nhân phải đáp ứng điều kiện gì? Có thuê ngoài được không?**
 

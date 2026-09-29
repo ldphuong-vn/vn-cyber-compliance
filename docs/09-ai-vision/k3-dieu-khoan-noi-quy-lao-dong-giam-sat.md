@@ -1,6 +1,6 @@
 # Mẫu Quy định bổ sung Nội quy lao động về giám sát bằng camera và nhận diện khuôn mặt (K3)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ4.1, Đ9.2, Đ9.4, Đ14.3, Đ25.2–25.3, Đ31.4.a, Đ37.2.a; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.đ, Đ4.2, Đ5, Đ6.4, Đ10.3, Đ10.6, Đ23.7; NĐ 330/2026/NĐ-CP Đ7.1, Đ39.1.a, Đ43.1.a, Đ43.1.h, Đ61.2–61.3, Đ67.2.a–c, Đ67.3.b, Đ70.2.b; BLLĐ 2019 (45/2019/QH14) Đ118–Đ121, Đ190; NĐ 145/2020/NĐ-CP Đ69.1; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ4.1, Đ9.2, Đ9.4, Đ14.3, Đ25.2–25.3, Đ31.4.a, Đ37.2.a; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.đ, Đ4.2, Đ5, Đ6.4, Đ10.3, Đ10.6, Đ23.7; NĐ 330/2026/NĐ-CP Đ7.1, Đ39.1.a, Đ43.1.a, Đ43.1.h, Đ61.2–61.3, Đ67.2.a–c, Đ67.3.b, Đ70.2.b; BLLĐ 2019 (45/2019/QH14) Đ118–Đ121, Đ190; NĐ 145/2020/NĐ-CP Đ69.1; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -56,7 +56,7 @@ Không gộp hai nội dung vào một chữ ký. Ký chung làm sự đồng ý
 
 ### Thủ tục ban hành theo pháp luật lao động
 
-**[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** — áp cho cả mục này. Nội dung lấy từ kết quả tra cứu ngày 29/09/2026 (đoạn trích trên trang văn bản pháp luật, nguồn thứ cấp), chưa đối chiếu Công báo. Đối chiếu BLLĐ 2019 Đ118–Đ121, NĐ 145/2020 Đ69 và thủ tục hành chính đang công bố trên Cổng dịch vụ công trước khi nộp.
+**Đã đối chiếu toàn văn** BLLĐ 2019 Đ118–Đ121 (văn bản hợp nhất 18/VBHN-VPQH, Công báo số 131 ngày 28/02/2026 — `sources/van-ban-goc/toan-van/vbhn-18-2026-vpqh-bo-luat-lao-dong.txt`) ngày 29/09/2026. **Chưa có toàn văn trong sources/ — [CẦN ĐỐI CHIẾU]:** NĐ 145/2020 Đ69.1 (dưới 10 người lao động); thẩm quyền của cơ quan nội vụ sau sắp xếp bộ máy (NĐ 129/2025/NĐ-CP; QĐ 628/QĐ-BNV) — văn bản hợp nhất BLLĐ vẫn ghi "cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh" và "cấp huyện". Kiểm tra thủ tục đang công bố trên Cổng dịch vụ công trước khi nộp.
 
 | Bước | Nội dung | Căn cứ |
 |---|---|---|

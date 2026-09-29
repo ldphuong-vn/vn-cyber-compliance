@@ -1,6 +1,6 @@
 # Mẫu Chính sách lưu trữ, xóa, hủy dữ liệu hệ thống camera và nhận diện (K4)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ14.1–14.5, Đ19.1, Đ25.2.b–c, Đ31.4.a, Đ32.4, Đ37.2; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.i, Đ6.2, Đ12.2.đ, Đ19.3.d, Đ29.1.c; NĐ 333/2026/NĐ-CP Đ16.1, Đ16.6.c; NĐ 330/2026/NĐ-CP Đ7.1, Đ39.1.c, Đ39.4.a, Đ51.1–51.3, Đ61.2.a–b, Đ69.1.d; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190; BLDS 2015 Đ588; văn bản chuyên ngành tại bảng "Thời hạn tối thiểu theo ngành" **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ14.1–14.5, Đ19.1, Đ25.2.b–c, Đ31.4.a, Đ32.4, Đ37.2; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.i, Đ6.2, Đ12.2.đ, Đ19.3.d, Đ29.1.c; NĐ 333/2026/NĐ-CP Đ16.1, Đ16.6.c; NĐ 330/2026/NĐ-CP Đ7.1, Đ39.1.c, Đ39.4.a, Đ51.1–51.3, Đ61.2.a–b, Đ69.1.d; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190; BLDS 2015 Đ588; văn bản chuyên ngành tại bảng "Thời hạn tối thiểu theo ngành" **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 

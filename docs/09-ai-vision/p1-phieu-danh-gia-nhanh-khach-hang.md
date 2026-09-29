@@ -29,7 +29,7 @@
 | 5 | **10.000 chủ thể dữ liệu nhạy cảm**: ngưỡng cấp độ 3 của hệ thống thông tin cung cấp dịch vụ trực tuyến — quan trọng khi khách hàng (hoặc nhà cung cấp ở M3/M4) vận hành dịch vụ trực tuyến | NĐ 331 Đ12.2.b, Đ13.2.c |
 | 6 | **100.000 chủ thể** (tích lũy): doanh nghiệp nhỏ, khởi nghiệp, siêu nhỏ mất miễn trừ kể cả khi không xử lý dữ liệu nhạy cảm | NĐ 356 Đ41 |
 | 7 | Lưu, xử lý ở nước ngoài: hồ sơ chuyển dữ liệu xuyên biên giới | Luật 91 Đ20.1; vùng xám V6 |
-| 10 | Loại hình doanh nghiệp quyết định miễn trừ; tiêu chí nhỏ, siêu nhỏ, khởi nghiệp theo pháp luật hỗ trợ doanh nghiệp nhỏ và vừa — **[CẦN ĐỐI CHIẾU]** | Luật 91 Đ38.2–38.3 |
+| 10 | Loại hình doanh nghiệp quyết định miễn trừ; tiêu chí nhỏ, siêu nhỏ theo Luật 04/2017/QH14 Đ4 và NĐ 80/2021/NĐ-CP Đ5 (bảng ngưỡng: [`../08-bo-mau-cap-1-2/bao-ve-du-lieu-ca-nhan-cap-1-2.md`](../08-bo-mau-cap-1-2/bao-ve-du-lieu-ca-nhan-cap-1-2.md) mục 4); "khởi nghiệp" chưa được Luật 91 định nghĩa — **[CẦN ĐỐI CHIẾU]** | Luật 91 Đ38.2–38.3; NĐ 80/2021 Đ5 |
 | 11, 12 | Năng lực sẵn có: nhân sự BVDLCN đủ điều kiện, DPIA | Luật 91 Đ21.1, Đ33.2; NĐ 356 Đ13 |
 | 15 | Hệ thống cũ có đồng ý theo NĐ 13/2023: không phải xin lại, nhưng cần rà soát | Luật 91 Đ39.1 |
 

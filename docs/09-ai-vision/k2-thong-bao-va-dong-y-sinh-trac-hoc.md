@@ -1,6 +1,6 @@
 # Mẫu Thông báo và văn bản đồng ý xử lý dữ liệu sinh trắc học (nhận diện khuôn mặt)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9, Đ10, Đ11.1, Đ14.1, Đ24, Đ25.2.b–c, Đ25.3, Đ31.2, Đ31.4, Đ39.1; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.2, Đ6, Đ10.3, Đ23.7; NĐ 330/2026/NĐ-CP Đ43, Đ45, Đ60, Đ61.2, Đ67.2.a–b, Đ67.3.b, Đ70.2.b; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9, Đ10, Đ11.1, Đ14.1, Đ24, Đ25.2.b–c, Đ25.3, Đ31.2, Đ31.4, Đ39.1; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.2, Đ6, Đ10.3, Đ23.7; NĐ 330/2026/NĐ-CP Đ43, Đ45, Đ60, Đ61.2, Đ67.2.a–b, Đ67.3.b, Đ70.2.b; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 

@@ -1,6 +1,6 @@
 # Mẫu Sổ đăng ký hoạt động xử lý dữ liệu cá nhân của nhà cung cấp giải pháp AI vision
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ3, Đ17.1, Đ19.1, Đ20.1, Đ25, Đ31.2, Đ32.1, Đ37.2; NĐ 356/2025/NĐ-CP Đ3, Đ4, Đ10.2, Đ12.4, Đ19.3.c, Đ20.1, Đ41, Phụ lục Mẫu số 10 mục I–II; NĐ 331/2026/NĐ-CP Đ13.2.c; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ3, Đ17.1, Đ19.1, Đ20.1, Đ25, Đ31.2, Đ32.1, Đ37.2; NĐ 356/2025/NĐ-CP Đ3, Đ4, Đ10.2, Đ12.4, Đ19.3.c, Đ20.1, Đ41, Phụ lục Mẫu số 10 mục I–II; NĐ 331/2026/NĐ-CP Đ13.2.c; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
