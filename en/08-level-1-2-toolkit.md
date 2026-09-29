@@ -1,6 +1,6 @@
 # Level 1–2 Toolkit
 
-> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 28/09/2026.
+> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 29/09/2026.
 > **Vietnamese source:** [docs/08-bo-mau-cap-1-2/README.md](../docs/08-bo-mau-cap-1-2/README.md) · [docs/00-tong-quan/diem-can-doi-chieu.md](../docs/00-tong-quan/diem-can-doi-chieu.md) (point C18)
 
 **Legal basis:** Law 116 Art. 1.2, 8.1, 10, 45.1; Decree 331 Art. 2, 8, 10, 11–13, 18, 20–25, 29–33, 35–36 and Appendix (Forms 01, 08); Decree 330 Art. 7, 21–24, 27, 54; PDPL Art. 23; TCVN 14423:2026 clauses 3 and 4. Checked against originals on 28/09/2026.
@@ -60,7 +60,7 @@ For Levels 1–2, appraisal and approval take place inside the system owner's or
 - **Seal:** a department has no seal. Art. 43 Law on Enterprises 2020 lets a company decide seals for its "other units" (Decree 30/2020 covers state bodies and state-owned enterprises). Decision 02 names the signer, numbering and seal use.
 - **Art. 18.4 case** (cybersecurity unit also operates the system): Art. 18.4 replaces only the appraiser; literally the unit still approves — a conflict of interest, not a gap. Toolkit: an independent unit or council appraises and the **head of the organization signs** the approval (Art. 31.1(a), 31.2(a)).
 - **Art. 33.1** ("plan approved by the system owner") is not a real conflict: at Levels 1–2 the approved dossier includes the cybersecurity assurance plan (*phương án bảo đảm an ninh mạng*; "security plan") and is approved by a unit of the system owner (Art. 3.2); only Level 5 has separate plan approval (Art. 18.3(d), Form 07).
-- A similar mechanism existed under Decree 85/2016 (Art. 12.1, 14.3(a) — per a legal Q&A source, not checked against the full text). MPS guidance and forms are still pending (Art. 40.1).
+- The same mechanism existed under Decree 85/2016 (Art. 12.1, 14.3(a) — checked against the original, 29/09/2026: the designated information security unit appraised and approved Level 1–2 dossiers and sent a report to the system owner); Art. 17.2 Decree 85 likewise set 07 working days for approval with no Level 1–2 appraisal limit. MPS guidance and forms are still pending (Art. 40.1).
 
 ## 3. Six-step flow
 
