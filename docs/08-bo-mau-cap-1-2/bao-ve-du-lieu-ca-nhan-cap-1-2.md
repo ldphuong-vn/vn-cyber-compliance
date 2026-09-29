@@ -93,12 +93,12 @@ Nếu đã chỉ định nhân sự BVDLCN: phải bằng văn bản nêu chức
 ## 7. Mười việc nên làm trước
 
 1. **Kiểm kê dữ liệu:** mỗi HTTT xử lý loại DLCN nào (cơ bản/nhạy cảm), của ai, bao nhiêu chủ thể, lưu ở đâu (VN/nước ngoài), ai truy cập.
-2. **Xác định có phải DN nhỏ/siêu nhỏ và còn được miễn trừ không** (mục 4, mục 5.a); ghi kết luận bằng văn bản.
+2. **Xác định có phải DN nhỏ/siêu nhỏ và còn được miễn trừ không** (mục 4, mục 5.a); ghi kết luận bằng [phiếu 17](17-phieu-xac-dinh-mien-tru-bvdlcn.md).
 3. **Giảm dữ liệu nhạy cảm không cần thiết:** thôi lưu ảnh CCCD khi không bắt buộc; cân nhắc chấm công không sinh trắc học.
 4. **Thông báo xử lý DLCN** cho người lao động (kèm hợp đồng lao động, nội quy) và ứng viên (trên tin tuyển dụng); lấy và lưu đồng ý khi cần.
 5. **Quy trình quyền chủ thể dữ liệu:** kênh tiếp nhận, phản hồi 02 ngày làm việc, thời hạn thực hiện 10/15/20 ngày.
 6. **Thời hạn lưu và xóa:** hồ sơ ứng viên không trúng tuyển; dữ liệu nhân viên nghỉ việc; video camera.
 7. **Cloud, nhà cung cấp:** rà hợp đồng (vai trò, luồng dữ liệu, bảo mật, xóa khi kết thúc); bật mã hóa; xác định dữ liệu nào ra nước ngoài.
 8. **Hồ sơ chuyển DLCN xuyên biên giới** nếu có dữ liệu khách hàng, đối tác trên cloud nước ngoài — nộp trong 60 ngày.
-9. **DPIA và nhân sự BVDLCN** nếu không thuộc diện miễn (hoặc đã mất miễn trừ).
-10. **Gộp vào quy trình sự cố:** nhánh vi phạm DLCN 72 giờ, biên bản xác nhận; biển báo camera; đào tạo nhận thức gộp chung với đào tạo ANM hằng năm.
+9. **DPIA và nhân sự BVDLCN** nếu không thuộc diện miễn (hoặc đã mất miễn trừ): [QĐ chỉ định (18)](18-qd-chi-dinh-nhan-su-bvdlcn.md), [hồ sơ DPIA (20)](20-ho-so-dpia.md); ở mọi quy mô nên ban hành [Quy định BVDLCN (19)](19-quy-dinh-bvdlcn.md).
+10. **Gộp vào quy trình sự cố:** nhánh vi phạm DLCN 72 giờ, biên bản xác nhận ([mẫu 21](21-thong-bao-vi-pham-dlcn.md)); biển báo camera; đào tạo nhận thức gộp chung với đào tạo ANM hằng năm.
