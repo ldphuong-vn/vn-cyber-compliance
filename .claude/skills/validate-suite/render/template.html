@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Validation Dossier</title>
+<!--
+  render/template.html — template render cho Validation Dossier.
+  Cách dùng: lớp render thay khối `const DOSSIER = {...}` bên dưới bằng Dossier thật
+  (cùng schema dossier-schema.md), ghi ra file .html. Template tự đổ dữ liệu ra DOM,
+  tự verify lại weighted_totals, và chịu được Dossier khuyết tầng.
+  template_version: 1.0.0
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBFBFD; --ink:#16181D; --ink-soft:#3C414B; --line:#E2E3E9;
+    --rail:#2B3A67;                 /* indigo cấu trúc */
+    --rail-soft:#46567F;
+    --go:#1F8A4C; --nogo:#C0392B; --pivot:#C77B0A; --park:#5B6B7B;
+    --hat-white:#9AA0AC; --hat-red:#C0392B; --hat-black:#16181D;
+    --hat-yellow:#C77B0A; --hat-green:#1F8A4C; --hat-blue:#2B3A67;
+    --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+    --disp:'Space Grotesk',system-ui,sans-serif;
+    --body:'Inter',system-ui,-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+    line-height:1.55;font-size:16px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px 96px}
+  a{color:var(--rail)}
+  abbr.term{border-bottom:1px dotted var(--rail-soft);cursor:help;text-decoration:none}
+  .pf-verdict{margin-top:12px;padding:12px 14px;border-left:3px solid var(--go);background:rgba(31,138,76,.06);
+    font-family:var(--disp);font-size:15px}
+  h1,h2,h3{font-family:var(--disp);font-weight:600;letter-spacing:-0.01em;line-height:1.15;margin:0}
+  .mono{font-family:var(--mono)}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--rail-soft)}
+
+  /* ---- Verdict band (signature element) ---- */
+  .band{border-bottom:1px solid var(--line);margin-bottom:8px}
+  .band-inner{max-width:1040px;margin:0 auto;padding:40px 24px 32px;
+    display:grid;grid-template-columns:1fr auto;gap:32px;align-items:end}
+  .title-block .eyebrow{margin-bottom:14px}
+  .title-block h1{font-size:clamp(26px,3.5vw,36px);font-weight:700}
+  .title-block .oneliner{color:var(--ink-soft);margin-top:10px;max-width:48ch}
+  .makers{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px}
+  .maker{font-family:var(--mono);font-size:12px;border:1px solid var(--line);
+    border-radius:999px;padding:3px 10px;color:var(--ink-soft)}
+  .maker b{color:var(--ink);font-weight:500}
+
+  .verdict-seal{text-align:right;min-width:230px}
+  .verdict-word{font-family:var(--disp);font-weight:700;font-size:clamp(34px,6vw,56px);
+    line-height:1;letter-spacing:-0.02em}
+  .verdict-sub{font-family:var(--mono);font-size:13px;margin-top:8px;color:var(--ink-soft)}
+  .v-GO{color:var(--go)} .v-NO_GO{color:var(--nogo)}
+  .v-PIVOT{color:var(--pivot)} .v-PARK{color:var(--park)}
+
+  /* confidence gauge */
+  .gauge{margin-top:18px}
+  .gauge-track{height:8px;border-radius:6px;background:var(--line);overflow:hidden}
+  .gauge-fill{height:100%;width:0;border-radius:6px;transition:width 900ms cubic-bezier(.2,.7,.2,1)}
+  .gauge-meta{display:flex;justify-content:space-between;font-family:var(--mono);
+    font-size:12px;color:var(--ink-soft);margin-top:6px}
+  .gauge-meta b{color:var(--ink);font-size:15px;font-weight:700}
+  .below{color:var(--nogo)!important}
+
+  /* ---- section scaffold ---- */
+  section{padding-top:44px}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:18px;
+    border-bottom:1px solid var(--line);padding-bottom:10px}
+  .sec-num{font-family:var(--mono);font-size:13px;color:var(--rail-soft);font-weight:500}
+  .sec-head h3{font-size:17.5px}
+
+  .rationale{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+  .rationale li{display:flex;gap:12px;align-items:flex-start;font-size:16px}
+  .rationale .n{font-family:var(--mono);color:var(--rail);font-weight:700;flex:none}
+
+  /* 5W1H grid */
+  .w-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .w-cell{background:var(--paper);padding:16px 18px}
+  .w-cell .k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--rail-soft);margin-bottom:6px;font-weight:600}
+  .problem{margin-top:18px;padding:16px 18px;border-left:3px solid var(--rail);
+    background:#F3F5FB;border-radius:0 8px 8px 0}
+  .problem .k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--rail-soft);margin-bottom:4px;font-weight:600}
+
+  /* assumption table */
+  table.asm{width:100%;border-collapse:collapse;font-size:14px;margin-top:18px}
+  table.asm th,table.asm td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  table.asm thead th{font-family:var(--mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--rail-soft);font-weight:500}
+  table.asm .aid{font-family:var(--mono);color:var(--rail-soft);white-space:nowrap}
+  table.asm .lv{font-family:var(--mono);font-size:12px}
+  .lv-H{color:var(--nogo)} .lv-M{color:var(--pivot)} .lv-L{color:var(--go)}
+  tr.asm-hot{background:#FBE9E7}
+  .asm-note{font-size:13.5px;color:var(--ink-soft);margin-top:6px}
+
+  /* question & context block (container tái dùng .problem) */
+  .qs .q{font-family:var(--disp);font-size:20px;font-weight:600;line-height:1.35}
+  .qs-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+  .mode-chip{font-family:var(--mono);font-size:11px;padding:3px 10px;border-radius:999px;white-space:nowrap}
+  .mode-STATELESS{background:#EDEFF6;color:var(--park)}
+  .mode-STATEFUL{background:#E6F4EC;color:var(--go)}
+  .mode-note{font-size:14px;color:var(--ink-soft)}
+
+  /* routing / pipeline ledger */
+  .pipe{display:grid;gap:6px}
+  .pipe-row{display:grid;grid-template-columns:30px 1fr auto auto;gap:14px;align-items:center;
+    padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:#fff}
+  .pipe-row .sid{font-family:var(--mono);color:var(--rail-soft);font-size:13px}
+  .pipe-row .pname{font-family:var(--disp);font-weight:500}
+  .pipe-row .pscore{font-family:var(--mono);font-size:13px;color:var(--ink-soft)}
+  .pill{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+    padding:3px 9px;border-radius:999px;white-space:nowrap}
+  .st-PASSED{background:#E6F4EC;color:var(--go)}
+  .st-FAILED{background:#FBE9E7;color:var(--nogo)}
+  .st-ASSERTED{background:#EDEFF6;color:var(--rail)}
+  .st-REVIEW_NEEDED{background:#FBF1E2;color:var(--pivot)}
+  .st-SKIPPED{background:#F1F2F5;color:var(--ink-soft)}
+  .st-PENDING{background:#F1F2F5;color:var(--ink-soft)}
+
+  /* gate detail (collapsible) */
+  details.gates{margin-top:8px}
+  details.gates>summary{cursor:pointer;font-family:var(--mono);font-size:12px;color:var(--rail);
+    padding:4px 0;list-style:none}
+  details.gates>summary::-webkit-details-marker{display:none}
+  details.gates>summary::before{content:'▸ ';color:var(--rail-soft)}
+  details.gates[open]>summary::before{content:'▾ '}
+  .gate{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start;
+    padding:10px 0;border-top:1px solid var(--line)}
+  .gate .gid{font-family:var(--mono);font-size:12px;color:var(--rail-soft)}
+  .gate .gq{font-size:14.5px}
+  .gate .gev{font-size:14px;color:var(--ink-soft);margin-top:3px}
+  .gate .gv{font-family:var(--mono);font-size:11px;padding:2px 8px;border-radius:6px;white-space:nowrap}
+  .gv-PASS{background:#E6F4EC;color:var(--go)} .gv-FAIL{background:#FBE9E7;color:var(--nogo)}
+  .gv-REVIEW{background:#FBF1E2;color:var(--pivot)}
+  .ev{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;padding:1px 6px;border-radius:5px;
+    margin-left:6px;vertical-align:middle;border:1px solid transparent}
+  .ev-MEASURED{background:#E6F4EC;color:var(--go);border-color:#bfe3cd}
+  .ev-CITED{background:#EDEFF6;color:var(--rail);border-color:#cfd6ea}
+  .ev-USER_STATED{background:#F1F2F5;color:var(--ink-soft);border-color:#e0e1e7}
+  .ev-ASSUMED{background:#FBF1E2;color:var(--pivot);border-color:#ecd9b3}
+  .ev-UNKNOWN{background:#FBE9E7;color:var(--nogo);border-color:#eccac4}
+  .evq{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px;
+    font-family:var(--mono);font-size:11px;color:var(--ink-soft)}
+  .evq .lbl{letter-spacing:.1em;text-transform:uppercase;color:var(--rail-soft)}
+  .evq .warn{color:var(--nogo)}
+
+  /* critique block — dark, prominent */
+  .critique{background:var(--ink);color:#E9EAEE;border-radius:14px;padding:28px 30px;margin-top:6px}
+  .critique h3{color:#fff;font-size:20px}
+  .critique .sub{color:#9AA0AC;font-family:var(--mono);font-size:12px;letter-spacing:.08em;
+    text-transform:uppercase;margin-top:4px}
+  .crit-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:22px}
+  .crit-col h3{font-size:14px;color:#fff;font-family:var(--mono);letter-spacing:.06em;
+    text-transform:uppercase;margin-bottom:10px;font-weight:500}
+  .crit-col h3 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;
+    background:var(--nogo);margin-right:7px;vertical-align:middle}
+  .pm{border-left:2px solid #3a3d46;padding:2px 0 2px 14px;margin-bottom:14px}
+  .pm .fm{font-weight:600;color:#fff}
+  .pm .cz{color:#B8BDC9;font-size:14px;margin-top:2px}
+  .pm .mt{color:#8FCBAA;font-size:14px;margin-top:4px}
+  .crit-list{margin:0;padding-left:18px;color:#D3D7DF}
+  .crit-list li{margin-bottom:8px;font-size:15px}
+
+  /* six hats */
+  .hats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:4px}
+  .hat{border:1px solid var(--line);border-radius:10px;padding:16px;background:#fff;
+    border-top:3px solid var(--ink)}
+  .hat .hl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    margin-bottom:8px;font-weight:500}
+  .hat p{margin:0;font-size:14px;color:var(--ink-soft)}
+  .hat-white{border-top-color:var(--hat-white)} .hat-white .hl{color:var(--hat-white)}
+  .hat-red{border-top-color:var(--hat-red)} .hat-red .hl{color:var(--hat-red)}
+  .hat-black{border-top-color:var(--hat-black)} .hat-black .hl{color:var(--hat-black)}
+  .hat-yellow{border-top-color:var(--hat-yellow)} .hat-yellow .hl{color:var(--hat-yellow)}
+  .hat-green{border-top-color:var(--hat-green)} .hat-green .hl{color:var(--hat-green)}
+  .hat-blue{border-top-color:var(--hat-blue)} .hat-blue .hl{color:var(--hat-blue)}
+
+  /* SWOT 2x2 */
+  .swot-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .swot{border:1px solid var(--line);border-radius:10px;padding:16px;background:#fff;border-top:3px solid var(--ink)}
+  .swot .hl{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;font-weight:600}
+  .swot ul{margin:0;padding-left:18px}
+  .swot li{margin-bottom:5px;font-size:14px;color:var(--ink-soft)}
+  .swot-S{border-top-color:var(--go)} .swot-S .hl{color:var(--go)}
+  .swot-W{border-top-color:var(--nogo)} .swot-W .hl{color:var(--nogo)}
+  .swot-O{border-top-color:var(--rail)} .swot-O .hl{color:var(--rail)}
+  .swot-T{border-top-color:var(--pivot)} .swot-T .hl{color:var(--pivot)}
+
+  /* Porter five forces */
+  .forces{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .force{border:1px solid var(--line);border-radius:10px;padding:15px 16px;background:#fff}
+  .force .fh{margin-bottom:6px}
+  .force .fn{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--rail);font-weight:600}
+  .force p{margin:0;font-size:14px;color:var(--ink-soft)}
+
+  /* decision matrix */
+  table.matrix{width:100%;border-collapse:collapse;font-size:14px;margin-top:4px}
+  table.matrix th,table.matrix td{padding:10px 12px;text-align:center;border-bottom:1px solid var(--line)}
+  table.matrix th:first-child,table.matrix td:first-child{text-align:left;font-weight:500}
+  table.matrix thead th{font-family:var(--mono);font-size:11px;letter-spacing:.04em;
+    text-transform:uppercase;color:var(--rail-soft);font-weight:500}
+  table.matrix .wt{font-family:var(--mono);font-size:11px;color:var(--rail-soft);display:block}
+  table.matrix td.val{font-family:var(--mono);color:var(--ink-soft)}
+  table.matrix tr.winner{background:#F3F5FB}
+  table.matrix td.total{font-family:var(--mono);font-weight:700;color:var(--ink)}
+  .verify{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;
+    margin-top:10px;color:var(--go)}
+  .verify.bad{color:var(--nogo)}
+
+  /* party mode */
+  .party{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .pcard{border:1px solid var(--line);border-radius:10px;padding:15px 16px;background:#fff;
+    border-left:3px solid var(--rail-soft)}
+  .pcard.lean-GO{border-left-color:var(--go)} .pcard.lean-NO_GO{border-left-color:var(--nogo)}
+  .pcard.lean-PIVOT{border-left-color:var(--pivot)} .pcard.lean-PARK{border-left-color:var(--park)}
+  .pcard .ph{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:7px}
+  .pcard .pn{font-family:var(--disp);font-weight:600;font-size:15px}
+  .pcard .prole{font-family:var(--mono);font-size:11px;color:var(--rail-soft);text-transform:uppercase;letter-spacing:.06em}
+  .pcard .plean{font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:5px;white-space:nowrap}
+  .plean.lean-GO{background:#E6F4EC;color:var(--go)} .plean.lean-NO_GO{background:#FBE9E7;color:var(--nogo)}
+  .plean.lean-PIVOT{background:#FBF1E2;color:var(--pivot)} .plean.lean-PARK{background:#EDEFF6;color:var(--park)}
+  .pcard .parg{font-size:14px;color:var(--ink-soft)}
+  .pcard .pcon{font-size:13.5px;color:var(--nogo);margin-top:6px}
+  .clashes{margin-top:16px;border:1px dashed var(--rail-soft);border-radius:10px;padding:14px 16px;background:#F8F9FC}
+  .clashes .ct{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--rail);margin-bottom:8px}
+  .clash{font-size:14px;margin-bottom:6px}
+  .clash b{font-family:var(--disp)}
+  .psyn{margin-top:14px;padding-left:14px;border-left:3px solid var(--rail);font-size:14.5px}
+
+  /* coaching — warm advisor block */
+  .coach{background:linear-gradient(180deg,#F3F5FB 0%,#FBFBFD 100%);border:1px solid #d8deef;
+    border-radius:14px;padding:28px 30px}
+  .coach .ch{font-family:var(--disp);font-weight:600;font-size:20px;margin-bottom:6px}
+  .coach .stance{font-size:16px;color:var(--ink);border-left:3px solid var(--rail);padding-left:14px;margin:14px 0 22px}
+  .moves{display:grid;gap:12px;margin:0;padding:0;list-style:none}
+  .move{display:flex;gap:13px;align-items:flex-start}
+  .move .mi{font-family:var(--mono);font-weight:700;color:var(--rail);flex:none;font-size:15px}
+  .move .ma{font-weight:600}
+  .move .mw{color:var(--ink-soft);font-size:14px}
+  .move .mt{font-family:var(--mono);font-size:11px;color:var(--rail-soft);margin-left:6px}
+  .coach-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+  .coach-grid .ck{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--rail-soft);margin-bottom:7px;font-weight:600}
+  .watch{padding:12px 14px;background:#FBE9E7;border-radius:8px;font-size:14px;color:var(--ink)}
+  .gaps{margin:0;padding-left:18px} .gaps li{margin-bottom:4px;font-size:14px}
+  .advisor{margin-top:22px;padding:18px 20px;background:#16181D;color:#E9EAEE;border-radius:10px;font-size:15px;line-height:1.6}
+  .advisor .al{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8FCBAA;margin-bottom:8px}
+
+  /* journal */
+  .journal{border:1px solid var(--line);border-radius:12px;padding:22px 24px;background:#fff}
+  .journal .meta{font-family:var(--mono);font-size:13px;color:var(--ink-soft);margin-bottom:14px}
+  .jrow{margin-bottom:14px}
+  .jrow .jk{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--rail-soft);margin-bottom:5px;font-weight:600}
+  .jrow ul{margin:0;padding-left:18px}
+  .jrow li{margin-bottom:4px}
+  .tag-type{font-family:var(--mono);font-size:11px;padding:3px 9px;border-radius:6px;
+    background:#EDEFF6;color:var(--rail)}
+
+  /* gtm / lifecycle generic */
+  .kv{display:grid;gap:20px}
+  .kv>.row:not(:last-child){padding-bottom:18px;border-bottom:1px dashed var(--line)}
+  .kv .row .k{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--rail-soft);margin-bottom:4px;font-weight:600}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{border:1px solid var(--line);border-radius:7px;padding:5px 12px;font-size:14px;background:#F6F7FA}
+  .steps{margin:0;padding-left:18px}
+  .steps li{margin-bottom:4px;font-size:14px}
+
+  /* ===== chapters + navigation ===== */
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  .skip-link{position:absolute;left:-9999px;top:0;background:var(--rail);color:#fff;
+    padding:8px 14px;border-radius:0 0 8px 0;z-index:100}
+  .skip-link:focus{left:0}
+  .layout{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:40px;align-items:start}
+  .toc{display:none}
+  @media (min-width:1024px){
+    .toc{display:block;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;
+      font-size:13px;padding:8px 0}
+    .toc a{display:block;padding:4px 10px;color:var(--ink-soft);text-decoration:none;
+      border-left:2px solid var(--line)}
+    .toc a.toc-ch{font-family:var(--disp);font-weight:600;color:var(--ink);margin-top:10px}
+    .toc a.toc-sub{padding-left:24px;font-size:12.5px}
+    .toc a:hover{color:var(--rail)}
+    .toc a.active{border-left-color:var(--rail);color:var(--rail);background:#F3F5FB}
+  }
+  @media (max-width:1023px){.layout{grid-template-columns:1fr}}
+  .ch-pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:16px}
+  @media (min-width:1024px){.ch-pills{display:none}}
+  .ch-pills a{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:999px;
+    padding:4px 12px;color:var(--ink-soft);text-decoration:none;background:#fff}
+  .ch-pills a:hover{border-color:var(--rail);color:var(--rail)}
+  .chapter{padding-top:48px}
+  .ch-head{display:flex;gap:16px;align-items:flex-start;border-bottom:2px solid var(--ink);
+    padding-bottom:14px;margin-bottom:6px}
+  .ch-num{font-family:var(--mono);font-size:28px;font-weight:700;color:var(--rail);line-height:1.1}
+  .ch-t h2{font-size:23px}
+  .ch-q{margin:4px 0 0;color:var(--ink-soft);font-size:14.5px}
+  .chapter section{padding-top:30px}
+  .gauge-note{font-size:12.5px;color:var(--ink-soft);margin-top:8px}
+  .ev-legend{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13px;
+    color:var(--ink-soft);margin-bottom:16px}
+  .ev-legend .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--rail-soft)}
+  .ev-legend .it{display:inline-flex;gap:6px;align-items:center}
+
+  /* ===== plan diagrams ===== */
+  .pv-sub{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--rail);font-weight:600;margin:24px 0 12px}
+  .stepper{counter-reset:st;list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:14px}
+  .stepper li{counter-increment:st;display:flex;gap:10px;align-items:center;background:#fff;
+    border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:14px;position:relative}
+  .stepper .n::before{content:counter(st)}
+  .stepper .n{font-family:var(--mono);font-weight:700;color:var(--rail);background:#EDEFF6;
+    border-radius:50%;width:22px;height:22px;display:flex;align-items:center;justify-content:center;
+    font-size:12px;flex:none}
+  .stepper li+li::before{content:"↓";position:absolute;left:24px;top:-18px;
+    color:var(--rail-soft);font-weight:600}
+  .ns-card{margin:0;padding:14px 16px;border-left:3px solid var(--rail);background:#F3F5FB;
+    border-radius:0 8px 8px 0}
+  .ns-card .nk{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--rail-soft);margin-bottom:4px;font-weight:600}
+  .ns-card .nv{font-family:var(--disp);font-size:17px;font-weight:600}
+  .funnel{display:flex;flex-direction:column;gap:16px}
+  .funnel-step{background:#fff;border:1px solid var(--line);border-left:3px solid var(--rail);
+    border-radius:8px;padding:10px 12px;position:relative}
+  .funnel-step+.funnel-step::before{content:"↓";position:absolute;left:24px;top:-21px;
+    color:var(--rail-soft);font-weight:600}
+  .funnel-step .fl{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--rail);font-weight:600;margin-bottom:4px}
+  .funnel-step p{margin:0;font-size:13.5px;color:var(--ink-soft)}
+  .branches{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .branch{border:1px solid var(--line);border-radius:10px;padding:14px 16px;background:#fff;
+    border-left:3px solid var(--park)}
+  .branch-ok{border-left-color:var(--go)}
+  .branch-stop{border-left-color:var(--nogo)}
+  .branch .bh{font-family:var(--disp);font-weight:600;font-size:15px;margin-bottom:8px}
+  .branch ul{margin:0;padding-left:18px}
+  .branch li{font-size:14px;color:var(--ink-soft);margin-bottom:4px}
+  .loop{display:flex;gap:10px;align-items:flex-start;margin-top:14px;padding:12px 14px;
+    background:#F3F5FB;border:1px dashed var(--rail-soft);border-radius:10px;font-size:14px;
+    color:var(--ink-soft)}
+  .loop svg{flex:none;margin-top:2px;color:var(--rail)}
+
+  footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
+    font-family:var(--mono);font-size:12px;color:var(--rail-soft);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:720px){
+    .band-inner{grid-template-columns:1fr;gap:22px}
+    .verdict-seal{text-align:left;min-width:0}
+    .w-grid{grid-template-columns:1fr}
+    .hats{grid-template-columns:1fr}
+    .swot-grid{grid-template-columns:1fr}
+    .forces{grid-template-columns:1fr}
+    .branches{grid-template-columns:1fr}
+    .ch-head{gap:12px}
+    .ch-num{font-size:22px}
+    .crit-grid{grid-template-columns:1fr}
+    .party{grid-template-columns:1fr}
+    .coach-grid{grid-template-columns:1fr}
+    .pipe-row{grid-template-columns:26px 1fr auto;gap:10px}
+    .pipe-row .pscore{display:none}
+  }
+  @media (prefers-reduced-motion:reduce){.gauge-fill{transition:none}}
+  :focus-visible{outline:2px solid var(--rail);outline-offset:2px}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ tới nội dung</a>
+  <div class="band">
+    <div class="band-inner">
+      <div class="title-block">
+        <div class="eyebrow" id="eyebrow">Validation Dossier</div>
+        <h1 id="title"></h1>
+        <div class="oneliner" id="oneliner"></div>
+        <div class="makers" id="makers"></div>
+      </div>
+      <div class="verdict-seal">
+        <div class="verdict-word" id="verdict"></div>
+        <div class="verdict-sub" id="verdict-sub"></div>
+        <div class="gauge">
+          <div class="gauge-track"><div class="gauge-fill" id="gfill"></div></div>
+          <div class="gauge-meta">
+            <span>Confidence</span>
+            <span><b id="gval"></b> <span id="gthr"></span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <nav class="ch-pills" id="ch-pills" aria-label="Mục lục rút gọn"></nav>
+    <div class="layout">
+      <div id="main" tabindex="-1"></div>
+      <nav class="toc" id="toc" aria-label="Mục lục"></nav>
+    </div>
+  </main>
+
+<script>
+/* ===== DOSSIER: lớp render thay khối này bằng Dossier thật ===== */
+const DOSSIER = {
+  "meta":{"schema_version":"1.0.0","dossier_id":"d-9f2a","revision":0,
+    "mode":"STATELESS",
+    "title":"Template Designer cho Product X",
+    "one_liner":"Trình thiết kế template ZNS + gọi API gửi, tận dụng ~80% hạ tầng Product X hiện có",
+    "created_at":"2026-06-13T09:00:00Z","updated_at":"2026-06-13T09:40:00Z"},
+  "intake":{"case_type":"C_FEATURE",
+    "objective":"Quyết định có ưu tiên build ZNS Designer ngay trong sprint tới không",
+    "decision_makers":[{"name":"Founder","role":"DECIDE"},{"name":"Team sản phẩm","role":"PERFORM"}],
+    "routing":{"0":"MUST_RUN","1":"MUST_RUN","2":"ASSERT","3":"MUST_RUN","4":"SKIP","5":"ASSERT","6":"MUST_RUN","7":"SKIP","8":"ASSERT"}},
+  "framing":{"five_w_one_h":{
+      "what":"UI thiết kế template ZNS + tích hợp API gửi qua Zalo OA",
+      "why":"Khách hiện tại cần gửi ZNS có thương hiệu; hiện chưa tự làm được",
+      "who":"SMB đang dùng Product X; người quyết: Founder",
+      "when":"Sprint tới; ~2–3 tuần do hạ tầng đã sẵn",
+      "where":"Thị trường VN, kênh Zalo OA",
+      "how":"Tái dùng OAuth token + job queue + PostgreSQL + web framework; thêm UI designer + API calls"},
+    "problem_statement":"Khách hiện tại không thể tự tạo và gửi template ZNS có thương hiệu trong sản phẩm.",
+    "assumptions":[
+      {"id":"A1","text":"Khách hiện tại thực sự cần gửi ZNS, không chỉ chat","risk":"H","uncertainty":"M","status":"PARTIAL"},
+      {"id":"A2","text":"Hạ tầng tái dùng được ~80% như ước tính","risk":"H","uncertainty":"L","status":"VALIDATED"},
+      {"id":"A3","text":"Khách sẵn lòng trả thêm cho add-on ZNS (chưa đo mức giá chấp nhận)","risk":"H","uncertainty":"H","status":"UNTESTED"}]},
+  "stages":[
+    {"stage_id":0,"name":"FRAMING","mode":"MUST_RUN","status":"PASSED","score":0.8,"gates":[],"ran_at":"2026-06-13T09:05:00Z"},
+    {"stage_id":1,"name":"HARD_GATE","mode":"MUST_RUN","status":"PASSED","score":1.0,"gates":[
+      {"id":"G1.1","question":"Vấn đề có THẬT không?","verdict":"PASS","score":1.0,"threshold":1.0,"evidence":"Khách hỏi tính năng ZNS qua support 3 tháng liền","evidence_type":"MEASURED"},
+      {"id":"G1.2","question":"Có ĐAU đủ để trả tiền / đổi hành vi?","verdict":"PASS","score":1.0,"threshold":1.0,"evidence":"Nhu cầu gửi ZNS có thương hiệu nêu trong phiếu hỗ trợ","evidence_type":"USER_STATED"},
+      {"id":"G1.3","question":"VỚI-TỚI-ĐƯỢC qua kênh nào?","verdict":"PASS","score":1.0,"threshold":1.0,"evidence":"Upsell in-app tới chính tập khách hiện có","evidence_type":"MEASURED"},
+      {"id":"G1.4","question":"Hợp portfolio Product X?","verdict":"PASS","score":1.0,"threshold":1.0,"evidence":"Fast-follow đã nêu trong roadmap sản phẩm","evidence_type":"CITED","evidence_refs":["roadmap-2026.md#q2"]},
+      {"id":"G1.5","question":"Khả thi kỹ thuật trong khung thời gian hợp lý?","verdict":"PASS","score":1.0,"threshold":1.0,"evidence":"~80% hạ tầng sẵn, ước tính 2–3 tuần","evidence_type":"ASSUMED"},
+      {"id":"G1.6","question":"Có chướng ngại pháp lý / tuân thủ?","verdict":"PASS","score":1.0,"threshold":1.0,"evidence":"ZNS là kênh chính thống của Zalo OA, không vi phạm chính sách","evidence_type":"CITED","evidence_refs":["zalo.ca/docs/zns"]}]},
+    {"stage_id":2,"name":"PROBLEM_VAL","mode":"ASSERT","status":"ASSERTED","score":0.7,"gates":[],"notes":"Khách hỏi tính năng ZNS qua support — bằng chứng gián tiếp"},
+    {"stage_id":3,"name":"SOLUTION_VAL","mode":"MUST_RUN","status":"REVIEW_NEEDED","score":0.6,"gates":[
+      {"id":"G3.1","question":"RAT: khách sẽ tự dùng designer thay vì nhờ support?","verdict":"REVIEW","score":0.6,"threshold":0.65,"evidence":"Chưa có test thực, cần phỏng vấn 5 khách"}],"lenses_applied":["PREMORTEM"]},
+    {"stage_id":4,"name":"MARKET_GTM","mode":"SKIP","status":"SKIPPED","score":null,"gates":[]},
+    {"stage_id":5,"name":"BIZ_MODEL","mode":"ASSERT","status":"ASSERTED","score":0.75,"gates":[],"notes":"Bán như add-on trên gói Product X hiện có"},
+    {"stage_id":6,"name":"DECISION_GATE","mode":"MUST_RUN","status":"PASSED","score":0.78,"gates":[],"lenses_applied":["SIX_HATS","PREMORTEM","DECISION_MATRIX"]}
+  ],
+  "lenses":{
+    "six_hats":{"attached_to_stage":6,
+      "white":"80% hạ tầng sẵn; ước tính 2–3 tuần; chưa có số cầu thực tế",
+      "red":"Cảm giác đây là quick win đáng làm",
+      "black":"Rủi ro: build xong nhưng cầu ZNS thấp hơn kỳ vọng",
+      "yellow":"Chi phí thấp, mở đường cho ZNS Trigger + Mini App sau",
+      "green":"Pre-sell ZNS như add-on trước khi build full UI",
+      "blue":"Kết luận: GO có điều kiện — kèm phỏng vấn cầu song song"},
+    "swot":{"attached_to_stage":6,
+      "strengths":["~80% hạ tầng Product X tái dùng được","Đã có tập khách active + kênh in-app sẵn"],
+      "weaknesses":["Chưa đo được mức cầu ZNS thật","Team chưa từng làm UI designer"],
+      "opportunities":["Zalo đang đẩy ZNS cho SMB — xu hướng kênh","Mở đường ZNS Trigger + Mini App sau này"],
+      "threats":["Agency làm template ZNS giá rẻ","Zalo đổi chính sách/pricing ZNS"]},
+    "premortem":[
+      {"failure_mode":"Ship xong ít người dùng","cause":"Giả định A1 (cầu thực) chưa được xác thực","mitigation":"Phỏng vấn 5 khách hiện tại trước khi build UI đầy đủ"},
+      {"failure_mode":"Vượt timeline 2–3 tuần","cause":"Phần API ZNS phức tạp hơn ước tính","mitigation":"Spike kỹ thuật 2 ngày trước khi cam kết sprint"}],
+    "inversion":["Cam kết full sprint mà chưa spike API ZNS — gần như chắc chắn vỡ timeline"],
+    "red_team":["Cầu ZNS có thể đã được giải quyết bằng cách khách tự gửi qua Zalo OA console — feature này thừa"],
+    "second_order":[
+      {"action":"Build ZNS Designer vào Product X","then":"Khách chuyển chăm sóc khách sang ZNS tự phục vụ","and_then":"Ticket support giảm nhưng kỳ vọng phản hồi nhanh dâng lên ở mọi kênh"},
+      {"action":"Định giá add-on tách khỏi gói chính","then":"Khách gói thấp muốn mua lẻ ZNS","and_then":"Áp lực mở pricing theo module — phải tính lại hàng rào giữa các gói"}],
+    "decision_matrix":{"attached_to_stage":6,
+      "criteria":[{"name":"Cầu thực","weight":0.4},{"name":"Chi phí build","weight":0.3},{"name":"Mở đường chiến lược","weight":0.3}],
+      "options":["Build now","Pre-sell rồi build","Defer"],
+      "scores":{"Build now":{"Cầu thực":0.6,"Chi phí build":0.9,"Mở đường chiến lược":0.9},
+        "Pre-sell rồi build":{"Cầu thực":0.85,"Chi phí build":0.8,"Mở đường chiến lược":0.9},
+        "Defer":{"Cầu thực":0.5,"Chi phí build":1.0,"Mở đường chiến lược":0.3}},
+      "weighted_totals":{"Build now":0.78,"Pre-sell rồi build":0.85,"Defer":0.59}}},
+  "decision":{"verdict":"GO","confidence":0.752,"confidence_threshold":0.65,
+    "rationale":["Chi phí thấp do tái dùng ~80% hạ tầng","Mở đường cho ZNS Trigger + Mini App","Rủi ro cầu được kiểm soát bằng pre-sell + phỏng vấn"],
+    "decision_type":"TYPE_2",
+    "journal":{"decided_by":"Founder","decided_at":"2026-06-13T09:40:00Z",
+      "key_assumptions":["Cầu ZNS đủ lớn trong tập khách hiện tại"],
+      "reversal_conditions":["Phỏng vấn 5 khách cho thấy <2 sẵn lòng trả tiền cho ZNS","Spike kỹ thuật cho thấy >4 tuần"]}},
+  "gtm_plan":{"positioning":"ZNS có thương hiệu, tự phục vụ, ngay trong Product X",
+    "beachhead":"Khách hiện tại đang active có nhu cầu nhắn chăm sóc",
+    "channels":["In-app upsell","Zalo OA"],
+    "messaging":["Tạo ZNS có thương hiệu ngay trong Product X — không cần nhờ agency","Dùng dữ liệu khách sẵn có để gửi đúng người, đúng lúc"],
+    "north_star_metric":"Số ZNS gửi thành công / khách / tháng",
+    "launch_steps":["Phỏng vấn 5 khách có nhu cầu ZNS (kiểm giả định A1, A3)","Pre-sell add-on cho 10 khách hiện tại","Beta 2 tuần với 5 khách","Công bố toàn bộ"],
+    "aarrr":{"acquisition":"Upsell in-app tới khách đang active","activation":"Tạo template ZNS đầu tiên trong 7 ngày đầu","retention":"Gửi ZNS đều đặn ≥2 lần/tháng","referral":"Khách giới thiệu bạn cùng ngành","revenue":"Tỷ lệ khách active trả tiền add-on"},
+    "okrs":[{"objective":"Chứng minh cầu ZNS trả tiền trong 1 quý","key_results":["≥10 khách trả tiền add-on","≥500 ZNS gửi thành công mỗi tháng","Điểm hài lòng add-on ≥ 40/100"]}]},
+  "lifecycle":{"funnel_metrics":["Phần trăm khách active thấy chỗ giới thiệu add-on","Phần trăm bấm tìm hiểu rồi dùng thử","Phần trăm dùng thử chuyển trả tiền"],
+    "cohort_retention":"Theo từng tháng: phần trăm khách còn gửi ZNS sau 30/60/90 ngày",
+    "expand_criteria":["Tỷ lệ adopt >30% trong 60 ngày"],
+    "sunset_criteria":["<5% khách dùng sau 90 ngày"],
+    "revalidation":{"trigger":"Sau 60 ngày hoặc khi Zalo đổi chính sách ZNS","stages_to_recheck":[3,5,8]}},
+  "render":{"rendered_at":"2026-06-13T09:41:00Z","output_path":"zns-designer-validation.html","template_version":"1.0.0",
+    "glossary":{"North Star":"Một số duy nhất nói lên giá trị khách nhận được — mọi nỗ lực soi về số này","AARRR":"Khung đo 5 bước khách đi qua: biết đến → khởi động → ở lại → giới thiệu → trả tiền"}}
+};
+/* ===== hết khối DOSSIER ===== */
+
+const STAGE_LABEL={0:"Đóng khung",1:"Cổng cứng",2:"Xác thực vấn đề",3:"Xác thực giải pháp",
+  4:"Thị trường & GTM",5:"Mô hình KD",6:"Cổng quyết định",7:"Kế hoạch GTM",8:"Vòng đời"};
+const VERDICT_LABEL={GO:"Tiến hành",NO_GO:"Dừng",PIVOT:"Xoay hướng",PARK:"Tạm gác"};
+const EV_LABEL={MEASURED:"đo được",CITED:"có dẫn nguồn",USER_STATED:"người dùng nêu",ASSUMED:"giả định",UNKNOWN:"chưa rõ"};
+const GVERDICT_LABEL={PASS:"Đạt",FAIL:"Không đạt",REVIEW:"Cần xem lại"};
+const STATUS_LABEL={PENDING:"Chờ",RUNNING:"Đang chạy",PASSED:"Đạt",FAILED:"Không đạt",REVIEW_NEEDED:"Cần xem lại",ASSERTED:"Đã ghi nhận",SKIPPED:"Bỏ qua"};
+const TYPE_LABEL={TYPE_1:"Khó đảo ngược",TYPE_2:"Đảo được"};
+const ASM_STATUS_LABEL={UNTESTED:"Chưa kiểm",VALIDATED:"Đã xác thực",INVALIDATED:"Đã bác bỏ",PARTIAL:"Một phần"};
+const AARRR_LABEL={acquisition:"Biết đến",activation:"Khởi động",retention:"Ở lại",referral:"Giới thiệu",revenue:"Trả tiền"};
+const CASE_LABEL={A_IDEA:"Ý tưởng mới",B_PRODUCT:"Sản phẩm đang chạy",C_FEATURE:"Tính năng trên sản phẩm",
+  D_PIVOT:"Xoay hướng",E_DECISION:"Quyết định điểm"};
+const MODE_NOTE={STATELESS:"Chế độ một lần — dữ liệu không lưu; ngưỡng mặc định quần thể, không cá nhân hóa",
+  STATEFUL:"Chế độ có trí nhớ — Dossier đã ghi vào sổ quyết định ~/.validate-suite/; ngưỡng được hiệu chỉnh theo kết quả thật"};
+const FORCE_LABEL={rivalry:"Đối thủ hiện tại",new_entrants:"Đối thủ mới tiêm nhập",
+  substitutes:"Sản phẩm thay thế",supplier_power:"Quyền lực nhà cung cấp",buyer_power:"Quyền lực khách hàng"};
+const MEANS_LABEL={GO:"Cứ tiến hành — canh chừng rủi ro ở chương 3",NO_GO:"Dừng — đọc lý do và bài học bên dưới",
+  PIVOT:"Xoay hướng — giữ bằng chứng đã thu được",PARK:"Tạm gác — còn thiếu đầu vào, xem phần cố vấn"};
+// Lớp chú giải: thuật ngữ → nghĩa đời thường (bộ fallback, rút từ glossary.md). Renderer tự gạch chân + tooltip.
+const FALLBACK_TERMS={
+  "CAC":"Chi phí để có được 1 khách hàng","LTV":"Tổng tiền một khách mang lại trong suốt thời gian gắn bó",
+  "WTP":"Mức khách sẵn lòng trả","ROAS":"Doanh thu thu về trên mỗi đồng quảng cáo",
+  "CPA":"Chi phí cho mỗi hành động (vd 1 đăng ký)","CPM":"Chi phí cho 1000 lượt hiển thị quảng cáo",
+  "CTR":"Tỉ lệ người bấm vào quảng cáo","CVR":"Tỉ lệ chuyển đổi (vd bấm → mua)",
+  "beachhead":"Nhóm khách đầu cầu — nhóm hẹp đánh thắng trước rồi mới lan ra",
+  "Van Westendorp":"Cách hỏi 4 câu để đo mức giá khách chấp nhận","payback":"Thời gian thu hồi vốn bỏ ra để có 1 khách",
+  "value-based":"Định giá theo giá trị khách nhận được (không theo chi phí/đối thủ)",
+  "competitor-based":"Định giá bằng cách nhìn theo đối thủ","cost-plus":"Định giá theo chi phí cộng biên lợi nhuận",
+  "MVP":"Bản nhỏ nhất chạy được để học từ thị trường","TAM":"Tổng quy mô thị trường",
+  "SAM":"Phần thị trường phục vụ được","SOM":"Phần thị trường thực tế chiếm được",
+  "learning phase":"Giai đoạn thuật toán quảng cáo 'học' lúc đầu (đốt ngân sách chưa hiệu quả)",
+  "incrementality":"Phần chuyển đổi THẬT do quảng cáo tạo thêm (không tính công của kênh khác)",
+  "margin":"Biên lợi nhuận — phần còn lại sau khi trừ chi phí trực tiếp","fence":"Hàng rào ngăn cách giữa các gói giá",
+  "Profit First":"Nguyên tắc: thiết kế để có lời ngay từ nhỏ, lấy lợi nhuận ra trước"
+};
+// Nguồn duy nhất của chú giải là render.glossary (orchestrator đổ từ glossary.md);
+// bộ fallback chỉ lấp thuật ngữ thiếu khi mở file trực tiếp không kèm Dossier thật.
+const TERMS=Object.assign({},FALLBACK_TERMS,DOSSIER.render?.glossary||{});
+function glossify(root){
+  const keys=Object.keys(TERMS).sort((a,b)=>b.length-a.length);
+  const rx=new RegExp("\\b("+keys.map(k=>k.replace(/[.*+?^${}()|[\\]\\\\]/g,"\\$&")).join("|")+")\\b","g");
+  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+  const targets=[]; let n;
+  while(n=walker.nextNode()){
+    if(n.parentNode&&n.parentNode.closest&&n.parentNode.closest("abbr.term")) continue;
+    rx.lastIndex=0; if(rx.test(n.nodeValue)) targets.push(n);
+  }
+  targets.forEach(t=>{
+    const frag=document.createDocumentFragment(); let last=0,m; rx.lastIndex=0;
+    while(m=rx.exec(t.nodeValue)){
+      if(m.index>last) frag.appendChild(document.createTextNode(t.nodeValue.slice(last,m.index)));
+      const ab=document.createElement("abbr"); ab.className="term"; ab.title=TERMS[m[0]]; ab.textContent=m[0];
+      frag.appendChild(ab); last=m.index+m[0].length;
+    }
+    if(last<t.nodeValue.length) frag.appendChild(document.createTextNode(t.nodeValue.slice(last)));
+    t.parentNode.replaceChild(frag,t);
+  });
+}
+const HAT_ORDER=[["white","Mũ trắng · Dữ liệu"],["red","Mũ đỏ · Trực giác"],["black","Mũ đen · Rủi ro"],
+  ["yellow","Mũ vàng · Lợi ích"],["green","Mũ xanh lá · Phương án"],["blue","Mũ xanh dương · Điều phối"]];
+const esc=s=>String(s==null?"":s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const fmt=n=>n==null?"—":Number(n).toFixed(2);
+
+// Tái tạo công thức confidence của dossier-schema.md §4.6 — renderer tự đối chiếu.
+function computeConfidence(d){
+  const ok=new Set(["PASSED","ASSERTED","REVIEW_NEEDED"]);
+  const vals=(d.stages||[]).filter(s=>s.stage_id<=5&&ok.has(s.status))
+    .map(s=>(s.status==="REVIEW_NEEDED"?0.85:1)*(s.score||0));
+  if(!vals.length) return null;
+  const m=vals.reduce((a,b)=>a+b,0)/vals.length;
+  return Math.min(1,Math.max(0,Math.round(m*1000)/1000));
+}
+
+function renderHeader(d){
+  const m=d.meta||{}, dec=d.decision||{};
+  document.getElementById("title").textContent=m.title||"(không tiêu đề)";
+  document.getElementById("oneliner").textContent=m.one_liner||"";
+  document.getElementById("eyebrow").textContent=
+    "Validation Dossier · "+(CASE_LABEL[d.intake?.case_type]||d.intake?.case_type||"")+(m.revision?(" · rev "+m.revision):"");
+  const v=dec.verdict||"PENDING";
+  const vw=document.getElementById("verdict");
+  vw.textContent=VERDICT_LABEL[v]||v; vw.className="verdict-word v-"+v;
+  document.getElementById("verdict-sub").textContent=MEANS_LABEL[v]||v;
+  // gauge
+  const c=dec.confidence, thr=dec.confidence_threshold??(dec.decision_type==="TYPE_1"?0.75:0.65);
+  document.getElementById("gval").textContent=c==null?"—":fmt(c);
+  document.getElementById("gthr").textContent="/ ngưỡng "+fmt(thr);
+  const fill=document.getElementById("gfill");
+  const below=c!=null&&c<thr;
+  fill.style.background=below?"var(--nogo)":"var(--go)";
+  if(below) document.getElementById("gval").classList.add("below");
+  requestAnimationFrame(()=>{fill.style.width=((c==null?0:c)*100).toFixed(0)+"%";});
+  // self-verify confidence
+  const oldCv=document.getElementById("confverify"); if(oldCv) oldCv.remove();
+  const cc=computeConfidence(d);
+  if(c!=null&&cc!=null){
+    const okc=Math.abs(c-cc)<=0.005;
+    const badge=document.createElement("div");
+    badge.className="verify"+(okc?"":" bad"); badge.id="confverify";
+    badge.textContent=(okc?"✓ Confidence khớp":"⚠ Confidence LỆCH")+" với số hệ thống tự tính lại ("+fmt(cc)+")";
+    document.querySelector(".gauge").appendChild(badge);
+  }
+  const oldGn=document.getElementById("gauge-note"); if(oldGn) oldGn.remove();
+  if(c!=null){
+    const gn=document.createElement("div");
+    gn.className="gauge-note"; gn.id="gauge-note";
+    gn.textContent=below?"Chưa đủ tự tin để tiến hành sạch — verdict bị hạ thành xem lại":"Đủ tự tin so với ngưỡng cần đạt";
+    document.querySelector(".gauge").appendChild(gn);
+  }
+  // makers
+  const mk=document.getElementById("makers");
+  (d.intake?.decision_makers||[]).forEach(p=>{
+    const el=document.createElement("span"); el.className="maker";
+    el.innerHTML="<b>"+esc(p.name)+"</b> · "+esc(p.role); mk.appendChild(el);});
+}
+
+let SEC_N=0;
+function sec(num,title,inner,cls){
+  return `<section${cls?` class="${cls}"`:""} id="s${++SEC_N}">
+    <div class="sec-head"><span class="sec-num">${num}</span><h3>${title}</h3></div>
+    ${inner}</section>`;
+}
+const CH_META={1:{title:"Kết luận",q:"Vậy nên làm gì?"},2:{title:"Vì sao",q:"Căn cứ đâu?"},
+  3:{title:"Rủi ro & phản biện",q:"Có gì đáng sợ?"},4:{title:"Làm gì tiếp",q:"Kế hoạch ra sao?"}};
+function chapter(num,inner){
+  const m=CH_META[num];
+  return `<section class="chapter" id="ch${num}">
+    <div class="ch-head"><span class="ch-num">${num}</span>
+      <div class="ch-t"><h2>${m.title}</h2><p class="ch-q">${m.q}</p></div></div>${inner}</section>`;
+}
+function buildNav(){
+  const toc=document.getElementById("toc"), pills=document.getElementById("ch-pills");
+  let th="",ph="";
+  const chapters=document.querySelectorAll("#main .chapter");
+  chapters.forEach(ch=>{
+    const num=ch.querySelector(".ch-num").textContent, title=ch.querySelector(".ch-t h2").textContent;
+    th+=`<a class="toc-ch" href="#${ch.id}"><b>${num}</b> · ${esc(title)}</a>`;
+    ph+=`<a href="#${ch.id}">${num} · ${esc(title)}</a>`;
+    ch.querySelectorAll("[data-toc], .sec-head").forEach(el=>{
+      if(el.dataset&&el.dataset.toc)
+        th+=`<a class="toc-sub" href="#${el.id}">${esc(el.dataset.toc)}</a>`;
+      else{
+        const s=el.closest("section");
+        th+=`<a class="toc-sub" href="#${s.id}">${esc(el.querySelector(".sec-num").textContent)} ${esc(el.querySelector("h3").textContent)}</a>`;
+      }
+    });
+  });
+  toc.innerHTML=th; pills.innerHTML=ph;
+  const links=[...toc.querySelectorAll("a")];
+  const obs=new IntersectionObserver(es=>{
+    es.forEach(e=>{ if(e.isIntersecting)
+      links.forEach(a=>a.classList.toggle("active",a.getAttribute("href")==="#"+e.target.id));
+    });
+  },{rootMargin:"-15% 0px -75% 0px"});
+  chapters.forEach(ch=>obs.observe(ch));
+}
+
+function renderContext(d){
+  const o=d.intake?.objective; const mode=d.meta?.mode;
+  const caseLab=CASE_LABEL[d.intake?.case_type];
+  if(!o&&!mode) return "";
+  const q=o?`<div class="problem qs"><div class="k">Câu hỏi được thẩm định</div><div class="q">${esc(o)}</div></div>`:"";
+  const chips=[];
+  if(caseLab) chips.push(`<span class="chip">${esc(caseLab)}</span>`);
+  if(mode) chips.push(`<span class="mode-chip mode-${esc(mode)}">${mode==="STATEFUL"?"Có trí nhớ":"Một lần"}</span>`);
+  const note=mode?`<span class="mode-note">${esc(MODE_NOTE[mode]||mode)}</span>`:"";
+  const meta=(chips.length||note)?`<div class="qs-meta">${chips.join("")}${note}</div>`:"";
+  return sec("1.1","Câu hỏi & bối cảnh",`${q}${meta}`);
+}
+
+function renderExec(d){
+  const r=(d.decision?.rationale||[]);
+  if(!r.length) return "";
+  const li=r.map((x,i)=>`<li><span class="n">${String(i+1).padStart(2,"0")}</span><span>${esc(x)}</span></li>`).join("");
+  return sec("1.2","Tóm tắt điều hành",`<ul class="rationale">${li}</ul>`);
+}
+
+function renderFraming(d){
+  const w=d.framing?.five_w_one_h;
+  const as=d.framing?.assumptions||[];
+  if(!w&&!as.length) return "";
+  const map=[["what","What · Cái gì"],["why","Why · Vì sao"],["who","Who · Ai"],
+    ["when","When · Khi nào"],["where","Where · Ở đâu"],["how","How · Thế nào"]];
+  const cells=w?map.map(([k,lab])=>`<div class="w-cell"><div class="k">${lab}</div><div>${esc(w[k])}</div></div>`).join(""):"";
+  let extra="";
+  if(d.framing.problem_statement)
+    extra=`<div class="problem"><div class="k">Vấn đề cốt lõi</div><div>${esc(d.framing.problem_statement)}</div></div>`;
+  let asm="";
+  if(as.length){
+    const lv=x=>`<span class="lv lv-${esc(x)}">${esc(x)}</span>`;
+    const rows=as.map(a=>`<tr class="${(a.risk==="H"&&a.uncertainty==="H")?"asm-hot":""}">
+      <td class="aid">${esc(a.id)}</td><td>${esc(a.text)}</td>
+      <td>${lv(a.risk)}</td><td>${lv(a.uncertainty)}</td>
+      <td>${esc(ASM_STATUS_LABEL[a.status]||a.status||"—")}</td></tr>`).join("");
+    asm=`<table class="asm"><thead><tr><th>ID</th><th>Giả định</th><th>Rủi ro</th><th>Bất định</th><th>Trạng thái</th></tr></thead>
+      <tbody>${rows}</tbody></table>
+      <p class="asm-note">Dòng đỏ = giả định rủi ro cao và chưa rõ — cần kiểm chứng gấp nhất, tầng xác thực giải pháp sẽ nhắm vào nó trước.</p>`;
+  }
+  return sec("2.2","Đóng khung vấn đề (6 câu hỏi nền)",`<div class="w-grid">${cells}</div>${extra}${asm}`);
+}
+
+function renderPipeline(d){
+  const stages=(d.stages||[]).slice().sort((a,b)=>a.stage_id-b.stage_id);
+  if(!stages.length) return "";
+  // evidence-quality summary across all gates
+  const counts={MEASURED:0,CITED:0,USER_STATED:0,ASSUMED:0,UNKNOWN:0};
+  stages.forEach(s=>(s.gates||[]).forEach(g=>{if(g.evidence_type&&counts[g.evidence_type]!=null)counts[g.evidence_type]++;}));
+  const total=Object.values(counts).reduce((a,b)=>a+b,0);
+  let evq="";
+  if(total){
+    const soft=counts.ASSUMED+counts.UNKNOWN, hard=counts.MEASURED+counts.CITED;
+    const parts=Object.entries(counts).filter(([,n])=>n>0)
+      .map(([k,n])=>`<span class="ev ev-${k}">${EV_LABEL[k]} ${n}</span>`).join("");
+    const warn=soft>hard?`<span class="warn">⚠ bằng chứng nghiêng về giả định — đọc verdict thận trọng</span>`:"";
+    evq=`<div class="evq"><span class="lbl">Chất lượng bằng chứng:</span>${parts}${warn}</div>`;
+  }
+  // legend màu bằng chứng — đọc màu không cần đoán (color-not-only)
+  const LEGEND=[["MEASURED","số liệu thật"],["CITED","trích nguồn ngoài"],["USER_STATED","nói lời anh"],
+    ["ASSUMED","chưa kiểm chứng"],["UNKNOWN","không có cơ sở"]];
+  const legend=`<div class="ev-legend"><span class="lbl">Đọc màu bằng chứng:</span>`+
+    LEGEND.map(([k,t])=>`<span class="it"><span class="ev ev-${k}">${EV_LABEL[k]}</span> = ${t}</span>`).join("")+`</div>`;
+  const rows=stages.map(s=>{
+    const gates=(s.gates||[]);
+    let gd="";
+    if(gates.length){
+      const items=gates.map(g=>{
+        const ev=g.evidence_type?`<span class="ev ev-${g.evidence_type}" title="nguồn bằng chứng">${EV_LABEL[g.evidence_type]||g.evidence_type}</span>`:"";
+        return `<div class="gate">
+        <span class="gid">${esc(g.id)}</span>
+        <div><div class="gq">${esc(g.question)}</div>${g.evidence?`<div class="gev">${esc(g.evidence)}${ev}</div>`:ev}</div>
+        <span class="gv gv-${g.verdict}">${GVERDICT_LABEL[g.verdict]||esc(g.verdict)} ${g.score!=null?fmt(g.score):""}</span>
+      </div>`;}).join("");
+      gd=`<details class="gates"><summary>${gates.length} cổng — xem chi tiết</summary>${items}</details>`;
+    } else if(s.notes){
+      gd=`<details class="gates"><summary>ghi chú</summary><div class="gate"><span class="gid">—</span><div class="gev">${esc(s.notes)}</div><span></span></div></details>`;
+    }
+    return `<div>
+      <div class="pipe-row">
+        <span class="sid">${s.stage_id}</span>
+        <span class="pname">${STAGE_LABEL[s.stage_id]||esc(s.name)}</span>
+        <span class="pscore">${s.score!=null?"điểm "+fmt(s.score):s.mode}</span>
+        <span class="pill st-${s.status}">${STATUS_LABEL[s.status]||esc(s.status)}</span>
+      </div>${gd}</div>`;
+  }).join("");
+  return sec("2.1","Bằng chứng theo tầng",`${legend}<div class="evq">${evq}</div><div class="pipe">${rows}</div>`);
+}
+
+function renderCritique(d){
+  const L=d.lenses||{}; const pm=L.premortem||[]; const inv=L.inversion||[]; const rt=L.red_team||[]; const so=L.second_order||[];
+  if(!pm.length&&!inv.length&&!rt.length&&!so.length) return "";
+  const pmHtml=pm.map(p=>`<div class="pm"><div class="fm">${esc(p.failure_mode)}</div>
+    <div class="cz">Nguyên nhân: ${esc(p.cause)}</div>
+    ${p.mitigation?`<div class="mt">↪ Giảm thiểu: ${esc(p.mitigation)}</div>`:""}</div>`).join("");
+  const invHtml=inv.length?`<h3 style="margin-top:18px"><span class="dot"></span>Nghĩ ngược (điều gì chắc chắn làm hỏng)</h3>
+    <ul class="crit-list">${inv.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
+  const rtHtml=rt.length?`<h3 style="margin-top:18px"><span class="dot"></span>Phản biện gắt (phe chống)</h3>
+    <ul class="crit-list">${rt.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
+  const soHtml=so.length?`<h3 style="margin-top:18px"><span class="dot"></span>Hệ quả dây chuyền (rồi sao nữa?)</h3>
+    <ul class="crit-list">${so.map(x=>`<li><b>${esc(x.action)}</b> → ${esc(x.then)} → ${esc(x.and_then)}</li>`).join("")}</ul>`:"";
+  return `<section class="critique-sec" id="s${++SEC_N}" data-toc="3.1 · Mổ xẻ cách thất bại">
+    <div class="critique">
+      <h3>Cách ý tưởng này có thể thất bại</h3>
+      <div class="sub">Mổ xẻ trước · Nghĩ ngược · Phản biện gắt</div>
+      <div class="crit-grid">
+        <div class="crit-col"><h3><span class="dot"></span>Giả định đã thất bại (mổ xẻ trước)</h3>${pmHtml||'<p class="cz">—</p>'}</div>
+        <div class="crit-col">${invHtml}${rtHtml}${soHtml}</div>
+      </div>
+    </div></section>`;
+}
+
+function renderHats(d){
+  const h=d.lenses?.six_hats; if(!h) return "";
+  const cards=HAT_ORDER.map(([k,lab])=>`<div class="hat hat-${k}">
+    <div class="hl">${lab}</div><p>${esc(h[k])}</p></div>`).join("");
+  return sec("3.2","Sáu chiếc mũ",`<div class="hats">${cards}</div>`);
+}
+
+function renderSwot(d){
+  const s=d.lenses?.swot; if(!s) return "";
+  const cells=[["S","swot-S","Điểm mạnh · nội lực","strengths"],["W","swot-W","Điểm yếu · nội lực","weaknesses"],
+    ["O","swot-O","Cơ hội · bên ngoài","opportunities"],["T","swot-T","Đe dọa · bên ngoài","threats"]];
+  const q=cells.map(([tag,cls,lab,key])=>{
+    const items=(s[key]||[]).map(x=>`<li>${esc(x)}</li>`).join("")||"<li>—</li>";
+    return `<div class="swot ${cls}"><div class="hl">${tag} · ${lab}</div><ul>${items}</ul></div>`;
+  }).join("");
+  return sec("3.3","SWOT — nội lực & bên ngoài",`<div class="swot-grid">${q}</div>`);
+}
+
+function renderPorter(d){
+  const p=d.lenses?.porter;
+  const keys=p?Object.keys(FORCE_LABEL).filter(k=>p[k]):[];
+  if(!keys.length) return "";
+  const cards=keys.map(k=>`<div class="force"><div class="fh"><span class="fn">${FORCE_LABEL[k]}</span></div>
+    <p>${esc(p[k])}</p></div>`).join("");
+  const v=p.verdict?`<div class="pf-verdict">${esc(p.verdict)}</div>`:"";
+  return sec("3.4","Cấu trúc ngành (Porter — năm lực lượng)",`<div class="forces">${cards}</div>${v}`);
+}
+
+function renderParty(d){
+  const p=d.lenses?.party_mode; if(!p||!(p.panel||[]).length) return "";
+  const cards=(p.panel||[]).map(x=>`<div class="pcard lean-${x.lean}">
+    <div class="ph"><div><span class="pn">${esc(x.persona)}</span> <span class="prole">${esc(x.role||"")}</span></div>
+      <span class="plean lean-${x.lean}">${VERDICT_LABEL[x.lean]||esc(x.lean)}</span></div>
+    <details class="pdetails"><summary>Lập luận của persona này</summary>
+      <div class="parg">${esc(x.argument)}</div>
+      ${x.biggest_concern?`<div class="pcon">⚠ ${esc(x.biggest_concern)}</div>`:""}</details></div>`).join("");
+  let clash="";
+  if((p.clashes||[]).length){
+    const items=p.clashes.map(c=>`<div class="clash"><b>${(c.between||[]).map(esc).join(" ⚔ ")}</b> — ${esc(c.tension)}</div>`).join("");
+    clash=`<div class="clashes"><div class="ct">Nơi panel xung đột (rủi ro thật cư trú ở đây)</div>${items}</div>`;
+  }
+  const syn=p.synthesis?`<div class="psyn">${esc(p.synthesis)}</div>`:"";
+  return sec("3.5","Hội đồng tranh luận (nhiều góc nhìn)",`<div class="party">${cards}</div>${clash}${syn}`);
+}
+
+function renderCoaching(d){
+  const c=d.coaching; if(!c) return "";
+  const moves=(c.next_moves||[]).map((m,i)=>`<li class="move">
+    <span class="mi">${String(i+1).padStart(2,"0")}</span>
+    <div><span class="ma">${esc(m.action)}</span>${m.tied_to?`<span class="mt">↳ ${esc(m.tied_to)}</span>`:""}
+      ${m.why?`<div class="mw">${esc(m.why)}</div>`:""}</div></li>`).join("");
+  const gaps=(c.capability_gaps||[]).map(g=>`<li>${esc(g)}</li>`).join("");
+  const inner=`<div class="coach">
+    <div class="ch">Cố vấn cho anh</div>
+    ${c.stance?`<div class="stance">${esc(c.stance)}</div>`:""}
+    ${moves?`<div class="ck">Bước đi tiếp theo</div><ul class="moves">${moves}</ul>`:""}
+    <div class="coach-grid">
+      ${c.watch_risk?`<div><div class="ck">Rủi ro cần canh</div><div class="watch">${esc(c.watch_risk)}</div></div>`:""}
+      ${gaps?`<div><div class="ck">Khoảng trống năng lực</div><ul class="gaps">${gaps}</ul></div>`:""}
+    </div>
+    ${c.advisor_note?`<div class="advisor"><div class="al">Lời cố vấn</div>${esc(c.advisor_note)}</div>`:""}
+  </div>`;
+  return sec("1.3","Lời cố vấn",inner);
+}
+
+function renderMatrix(d){
+  const mx=d.lenses?.decision_matrix; if(!mx) return "";
+  const crit=mx.criteria||[]; const opts=mx.options||[]; const sc=mx.scores||{}; const wt=mx.weighted_totals||{};
+  // verify: recompute
+  let maxOpt=null,maxVal=-1,mismatch=false;
+  const recomputed={};
+  opts.forEach(o=>{
+    let sum=0; crit.forEach(c=>{ sum+=(sc[o]?.[c.name]||0)*(c.weight||0); });
+    sum=Math.round(sum*1000)/1000; recomputed[o]=sum;
+    if(wt[o]!=null && Math.abs(wt[o]-sum)>0.005) mismatch=true;
+    if(sum>maxVal){maxVal=sum;maxOpt=o;}
+  });
+  const head=`<tr><th>Phương án</th>${crit.map(c=>`<th>${esc(c.name)}<span class="wt">trọng số ${fmt(c.weight)}</span></th>`).join("")}<th>Tổng</th></tr>`;
+  const body=opts.map(o=>{
+    const cells=crit.map(c=>`<td class="val">${fmt(sc[o]?.[c.name])}</td>`).join("");
+    const tot=wt[o]!=null?wt[o]:recomputed[o];
+    return `<tr class="${o===maxOpt?"winner":""}"><td>${esc(o)}${o===maxOpt?" ★":""}</td>${cells}<td class="total">${fmt(tot)}</td></tr>`;
+  }).join("");
+  const verify=mismatch
+    ? `<div class="verify bad">⚠ Tổng điểm lệch với số hệ thống tự tính — cần kiểm tra lại</div>`
+    : `<div class="verify">✓ Tổng điểm khớp với số hệ thống tự tính lại</div>`;
+  return sec("3.6","Bảng so sánh phương án",
+    `<table class="matrix"><thead>${head}</thead><tbody>${body}</tbody></table>${verify}`);
+}
+
+function renderProfitFirst(d){
+  const p=d.lenses?.profit_first; if(!p) return "";
+  const row=(k,v)=>v?`<div class="row"><div class="k">${k}</div><div>${esc(v)}</div></div>`:"";
+  const inner=`<div class="kv">
+    ${row("Lời mỗi khách (sau chi phí)",p.unit_margin)}
+    ${row("Bao lâu thu hồi vốn",p.payback_period)}
+    ${row("Có lời khi còn nhỏ?",p.profitable_at_small_scale)}
+    ${p.watch?`<div class="row"><div class="k">Cần canh</div><div class="watch">${esc(p.watch)}</div></div>`:""}
+  </div>${p.verdict?`<div class="pf-verdict">${esc(p.verdict)}</div>`:""}`;
+  return sec("3.7","Tính chuyện có lời",inner);
+}
+
+function renderJournal(d){
+  const dec=d.decision; if(!dec) return "";
+  const j=dec.journal||{};
+  const list=(arr)=>arr&&arr.length?`<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"<p>—</p>";
+  const inner=`<div class="journal">
+    <div class="meta">Quyết định bởi <b>${esc(j.decided_by||"—")}</b> · ${esc((j.decided_at||"").slice(0,10))}
+      · <span class="tag-type">${TYPE_LABEL[dec.decision_type]||esc(dec.decision_type||"")}</span></div>
+    <div class="jrow"><div class="jk">Giả định nền</div>${list(j.key_assumptions)}</div>
+    <div class="jrow"><div class="jk">Điều kiện cần xem lại quyết định</div>${list(j.reversal_conditions)}</div>
+  </div>`;
+  return sec("4.2","Nhật ký quyết định",inner);
+}
+
+function renderPlan(d){
+  const g=d.gtm_plan; const lc=d.lifecycle; // render khi có dữ liệu — không chặn theo verdict (plan-mode: sản phẩm đang sống = GO sẵn)
+  if(!g&&!lc) return "";
+  const chips=arr=>`<div class="chips">${(arr||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join("")}</div>`;
+  const steps=arr=>`<ul class="steps">${(arr||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`;
+  const kv=rows=>rows?`<div class="kv">${rows}</div>`:"";
+  // 1 · Ra mắt như thế nào
+  let launch="";
+  if(g){
+    if(g.positioning) launch+=`<div class="row"><div class="k">Định vị</div><div>${esc(g.positioning)}</div></div>`;
+    if(g.beachhead) launch+=`<div class="row"><div class="k">Nhóm khách đầu cầu</div><div>${esc(g.beachhead)}</div></div>`;
+    if(g.messaging) launch+=`<div class="row"><div class="k">Thông điệp chính</div>${steps(g.messaging)}</div>`;
+    if(g.channels) launch+=`<div class="row"><div class="k">Kênh</div>${chips(g.channels)}</div>`;
+    if(g.launch_steps) launch+=`<div class="row"><div class="k">Bước launch</div><ol class="stepper">${g.launch_steps.map(x=>`<li><span class="n"></span><span>${esc(x)}</span></li>`).join("")}</ol></div>`;
+  }
+  // 2 · Đo cái gì
+  let measure="";
+  if(g){
+    if(g.north_star_metric) measure+=`<div class="ns-card"><div class="nk">Chỉ số quan trọng nhất (North Star)</div><div class="nv">${esc(g.north_star_metric)}</div></div>`;
+    if(g.aarrr&&Object.keys(g.aarrr).length){
+      const st=Object.entries(g.aarrr).map(([k,v])=>`<div class="funnel-step"><div class="fl">${AARRR_LABEL[k]||esc(k)}</div><p>${esc(v)}</p></div>`).join("");
+      measure+=`<div class="row"><div class="k">Khung đo AARRR — 5 bước khách đi qua</div><div class="funnel">${st}</div></div>`;
+    }
+    if(g.okrs) measure+=g.okrs.map(o=>`<div class="row"><div class="k">Mục tiêu: ${esc(o.objective)}</div>${steps(o.key_results)}</div>`).join("");
+  }
+  if(lc){
+    if(lc.funnel_metrics) measure+=`<div class="row"><div class="k">Chỉ số phễu cần đo</div>${chips(lc.funnel_metrics)}</div>`;
+    if(lc.cohort_retention) measure+=`<div class="row"><div class="k">Giữ khách theo cohort</div><div>${esc(lc.cohort_retention)}</div></div>`;
+  }
+  // 3 · Rồi sao nữa
+  let later="";
+  if(lc&&(lc.expand_criteria||lc.sunset_criteria)){
+    const ok=lc.expand_criteria?`<div class="branch branch-ok"><div class="bh">Nếu đạt → Mở rộng</div><ul>${lc.expand_criteria.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:"";
+    const stop=lc.sunset_criteria?`<div class="branch branch-stop"><div class="bh">Nếu không đạt → Thu hẹp</div><ul>${lc.sunset_criteria.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:"";
+    later+=`<div class="branches">${ok}${stop}</div>`;
+  }
+  if(lc&&lc.revalidation) later+=`<div class="loop">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><polyline points="21 3 21 9 15 9"/></svg>
+    <span><b>Xem lại định kỳ:</b> ${esc(lc.revalidation.trigger)} → chạy lại tầng ${(lc.revalidation.stages_to_recheck||[]).join(", ")}</span></div>`;
+  let inner="";
+  if(launch) inner+=`<div class="pv-sub">Ra mắt như thế nào</div>${kv(launch)}`;
+  if(measure) inner+=`<div class="pv-sub">Đo cái gì</div>${kv(measure)}`;
+  if(later) inner+=`<div class="pv-sub">Rồi sao nữa</div>${later}`;
+  return sec("4.1","Kế hoạch & vòng đời",inner);
+}
+
+function render(d){
+  if((d.meta?.schema_version||"").split(".")[0]!=="1"){
+    document.getElementById("main").innerHTML=
+      `<section><p>⚠ schema_version ${esc(d.meta?.schema_version)} không tương thích template 1.x.</p></section>`;
+    return;
+  }
+  renderHeader(d);
+  SEC_N=0;
+  const ch1=[renderContext(d),renderExec(d),renderCoaching(d)].join("");
+  const ch2=[renderPipeline(d),renderFraming(d)].join("");
+  const ch3=[renderCritique(d),renderHats(d),renderSwot(d),renderPorter(d),renderParty(d),renderMatrix(d),renderProfitFirst(d)].join("");
+  const ch4=[renderPlan(d),renderJournal(d)].join("");
+  let html="";
+  if(ch1) html+=chapter(1,ch1);
+  if(ch2) html+=chapter(2,ch2);
+  if(ch3) html+=chapter(3,ch3);
+  if(ch4) html+=chapter(4,ch4);
+  document.getElementById("main").innerHTML=html+
+  `<footer><span>dossier ${esc(d.meta?.dossier_id||"")} · schema ${esc(d.meta?.schema_version||"")}</span>
+    <span>render ${esc((d.render?.rendered_at||"").slice(0,16).replace("T"," "))} · template ${esc(d.render?.template_version||"1.0.0")}</span></footer>`;
+  buildNav();
+}
+render(DOSSIER);
+glossify(document.getElementById("main"));
+</script>
+</body>
+</html>
