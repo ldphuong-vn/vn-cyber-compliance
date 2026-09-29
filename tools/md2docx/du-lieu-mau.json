@@ -818,9 +818,9 @@
       "C12_LOAI_HINH": "Phục vụ hoạt động nội bộ (điểm a khoản 2 Điều 9)",
       "C12_THANH_PHAN": "Máy chủ ứng dụng và CSDL Intranet (10.10.20.11–12); dịch vụ thư điện tử đám mây; đăng nhập qua Active Directory",
       "C12_NGOAI_PHAM_VI": "HT-04-LAN (mạng, Active Directory – hồ sơ riêng, cấp độ 2); HT-03-ERP (liên kết qua đường dẫn, không trao đổi dữ liệu)",
-      "C12_DOI_TUONG": "Nhân viên Công ty, khoảng 120 tài khoản; không có người dùng bên ngoài",
+      "C12_DOI_TUONG": "Nhân viên, cộng tác viên của Công ty, khoảng 40 tài khoản; không có người dùng bên ngoài",
       "C12_LOAI_THONG_TIN": "Thông tin riêng (văn bản, thông báo nội bộ); thông tin cá nhân của nhân viên (họ tên, chức danh, điện thoại, email). Không có thông tin bí mật nhà nước",
-      "C12_SO_CHU_THE": "DLCN cơ bản: khoảng 120 chủ thể (nhân viên); DLCN nhạy cảm: 0 (chốt ngày 05/10/2026)",
+      "C12_SO_CHU_THE": "DLCN cơ bản: khoảng 40 chủ thể (nhân viên, cộng tác viên); DLCN nhạy cảm (ảnh thẻ căn cước, giấy khám sức khỏe — lưu trong hồ sơ nhân sự): dưới 40 chủ thể (chốt ngày 05/10/2026)",
       "C12_VI_TRI": "Phòng máy trụ sở (Tầng 3); thư điện tử dùng dịch vụ đám mây",
       "C12_TINH_TRANG": "Đang vận hành; chưa từng được xác định cấp độ",
       "C12_B_CO": [
@@ -964,7 +964,7 @@
       "C12_EMAIL_VAN_HANH": "vanhanh@example.vn",
       "C12_DICH_VU_THUE_NGOAI": "Thư điện tử đám mây (Công ty TNHH Dịch vụ Thư Mẫu); bản quyền và bảo trì phần mềm ERP (Công ty TNHH Phần mềm Kế toán Mẫu); đường truyền Internet (nhà mạng Mẫu)",
       "C12_HT1_PHAM_VI": "Cổng Intranet, văn phòng điện tử (văn bản, phê duyệt, thông báo); thư điện tử công việc trên dịch vụ đám mây",
-      "C12_HT1_QUY_MO": "120 tài khoản; khoảng 200 GB dữ liệu văn bản; hoạt động giờ hành chính",
+      "C12_HT1_QUY_MO": "40 tài khoản; khoảng 80 GB dữ liệu văn bản; hoạt động giờ hành chính",
       "C12_HT1_DOI_TUONG": "Toàn bộ nhân viên Công ty",
       "C12_HT2_PHAM_VI": "Phân hệ kế toán, tiền lương, hồ sơ nhân sự; CSDL tại phòng máy trụ sở",
       "C12_HT2_QUY_MO": "25 tài khoản nghiệp vụ; hồ sơ khoảng 150 người lao động (kể cả đã nghỉ việc); khoảng 50 GB",
@@ -1231,7 +1231,7 @@
       "C12_PHIEN_BAN_HO_SO": "1.0 ngày 12/10/2026 (kèm phụ lục bổ sung ngày 20/10/2026)",
       "C12_BO_SUNG_HO_SO": "ngày 19/10/2026 Phòng An ninh mạng đề nghị bổ sung quy hoạch địa chỉ IP vùng Wi-Fi và danh mục phần mềm được phép trên máy trạm; ngày 20/10/2026 nhận đủ hồ sơ bổ sung.",
       "C12_NHAN_XET_THANH_PHAN": "Hồ sơ đủ thành phần theo khoản 1 đến khoản 4 Điều 21 Nghị định số 331/2026/NĐ-CP (khoản 5 không áp dụng với cấp độ 1, cấp độ 2); tài liệu thiết kế là tài liệu có giá trị tương đương (sơ đồ mạng, quy hoạch IP, hồ sơ cấu hình). Quy chế bảo đảm an ninh mạng đã ban hành trước khi phê duyệt.",
-      "C12_Y_KIEN_CAP_DO": "Phù hợp. HT-02-INTRANET, HT-03-ERP phục vụ nội bộ, xử lý thông tin riêng và thông tin cá nhân của khoảng 120 nhân viên, không xử lý thông tin bí mật nhà nước (khoản 1 Điều 12); HT-04-LAN là hạ tầng phục vụ một tổ chức (khoản 3 Điều 12); HT-05-BANGTIN phục vụ nội bộ, chỉ hiển thị thông tin công cộng, không có tài khoản người dùng (khoản 1 Điều 11). Không hệ thống nào có tiêu chí của Điều 13; phạm vi hệ thống không bị chia tách hoặc hợp nhất hình thức (khoản 3 Điều 8); kết quả nhận diện rủi ro sơ bộ không cho thấy mức rủi ro cao hơn cấp độ đề xuất (khoản 5 Điều 10).",
+      "C12_Y_KIEN_CAP_DO": "Phù hợp. HT-02-INTRANET, HT-03-ERP phục vụ nội bộ, xử lý thông tin riêng và thông tin cá nhân của khoảng 40 nhân viên, cộng tác viên, không xử lý thông tin bí mật nhà nước (khoản 1 Điều 12); HT-04-LAN là hạ tầng phục vụ một tổ chức (khoản 3 Điều 12); HT-05-BANGTIN phục vụ nội bộ, chỉ hiển thị thông tin công cộng, không có tài khoản người dùng (khoản 1 Điều 11). Không hệ thống nào có tiêu chí của Điều 13; phạm vi hệ thống không bị chia tách hoặc hợp nhất hình thức (khoản 3 Điều 8); kết quả nhận diện rủi ro sơ bộ không cho thấy mức rủi ro cao hơn cấp độ đề xuất (khoản 5 Điều 10).",
       "C12_Y_KIEN_PHUONG_AN_THIET_KE": "Phù hợp. Sơ đồ mạng, quy hoạch IP và hồ sơ cấu hình khớp hiện trạng kiểm tra thực tế; kiến trúc có tường lửa biên và phân vùng máy chủ, người dùng; phương án dùng chung tường lửa, sao lưu, phòng chống mã độc cho các hệ thống. Tồn tại: vùng Wi-Fi khách chưa tách riêng; bản sao lưu chưa lưu tách biệt.",
       "C12_Y_KIEN_PHUONG_AN_VAN_HANH": "Phù hợp. Phương án vận hành mô tả cách triển khai cho từng nhóm yêu cầu tại mục 3 (cấp độ 1) và mục 4 (cấp độ 2) TCVN 14423:2026, có người thực hiện, tần suất và bằng chứng. Tồn tại: hợp đồng phần mềm ERP thiếu cam kết bảo mật; chưa làm rõ vị trí lưu trữ dữ liệu thư điện tử đám mây.",
       "C12_MA_HTTT": [
@@ -1540,7 +1540,7 @@
       "C12_BVDLCN_NCC": "Bộ phận Bảo vệ dữ liệu cá nhân (bà Ngô Thị Lan)",
       "C12_EMAIL_BVDLCN_NCC": "baove-dlcn@dlm.example.vn",
       "C12_DIEN_THOAI_BVDLCN_NCC": "028 8765 4321",
-      "C12_DICH_VU": "dịch vụ thư điện tử trên nền tảng điện toán đám mây cho khoảng 120 hộp thư của Bên A (thuộc hệ thống HT-02-INTRANET), gồm lưu trữ thư, lịch, danh bạ, lọc thư rác và mã độc, sao lưu",
+      "C12_DICH_VU": "dịch vụ thư điện tử trên nền tảng điện toán đám mây cho khoảng 40 hộp thư của Bên A (thuộc hệ thống HT-02-INTRANET), gồm lưu trữ thư, lịch, danh bạ, lọc thư rác và mã độc, sao lưu",
       "C12_MUC_DICH": "cung cấp, vận hành, bảo trì, hỗ trợ kỹ thuật dịch vụ thư điện tử cho hoạt động của Bên A",
       "C12_PL_CHU_THE": [
         "Người lao động của Bên A",
