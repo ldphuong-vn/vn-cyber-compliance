@@ -62,9 +62,9 @@ Luật cho phép ghi âm, ghi hình tại nơi công cộng theo cùng điều k
 
 Luật **không đặt con số chung**. Không có văn bản nào quy định thời hạn lưu video chung cho doanh nghiệp, văn phòng, nhà máy, tòa nhà, cửa hàng. Video ghi tại nơi công cộng chỉ được lưu trong thời gian **cần thiết cho mục đích** thu thập, trừ khi luật khác quy định, rồi phải xóa. Doanh nghiệp tự quyết định và ghi lý do trong Chính sách lưu trữ, xóa. Nhà cung cấp gợi ý mặc định 30 ngày cho video an ninh — đây là gợi ý vận hành, không phải quy định. Lưu quá thời gian cần thiết: phạt 20–40 triệu đồng và buộc xóa.
 
-**Ngoại lệ — ngành có thời hạn tối thiểu riêng** cho nhóm camera thuộc phạm vi quy định: doanh nghiệp chế xuất (camera cổng, kho: 12 tháng, kết nối với hải quan); kho ngoại quan (12 tháng); địa điểm thu gom hàng lẻ (06 tháng); máy ATM (100 ngày); casino (06 tháng); trạm thu phí đường bộ (video làn, ảnh phương tiện 05 năm); xe ô tô kinh doanh vận tải (theo quy định về thiết bị giám sát hành trình). Doanh nghiệp thuộc các ngành này không dùng mức 30 ngày cho nhóm camera đó. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** — thời hạn ngành trích từ nguồn thứ cấp; đối chiếu văn bản gốc trước khi áp dụng.
+**Ngoại lệ:** một số ngành có quy định riêng buộc lưu lâu hơn hoặc kết nối camera với cơ quan quản lý (ví dụ hải quan, ngân hàng, casino, trạm thu phí, vận tải). Nếu thuộc các ngành này, doanh nghiệp tra văn bản chuyên ngành và cấu hình theo đó — **[CẦN ĐỐI CHIẾU pháp luật chuyên ngành]**.
 
-*Căn cứ:* khoản 3 Điều 3, khoản 4 Điều 32 Luật BVDLCN; điểm c khoản 1 Điều 39 Nghị định 330. Văn bản ngành: Điều 28a Nghị định số 134/2016/NĐ-CP; Nghị định số 68/2016/NĐ-CP (sửa đổi bởi Nghị định số 67/2020/NĐ-CP); Thông tư số 36/2012/TT-NHNN (sửa đổi bởi Thông tư số 20/2016/TT-NHNN); Nghị định số 03/2017/NĐ-CP; Thông tư số 34/2024/TT-BGTVT. Mẫu: K4.
+*Căn cứ:* khoản 3 Điều 3, khoản 4 Điều 32 Luật BVDLCN; điểm c khoản 1 Điều 39 Nghị định 330.
 
 ## C. Nhận diện khuôn mặt cho nhân viên
 

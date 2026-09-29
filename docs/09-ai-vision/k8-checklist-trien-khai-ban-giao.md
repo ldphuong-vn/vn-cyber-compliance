@@ -37,7 +37,7 @@
 - **V2** — tài khoản hỗ trợ từ xa của nhà cung cấp *(M2)*: mặc định vô hiệu; chỉ bật theo phiên có phê duyệt và nhật ký (mục D5).
 - **V6** — máy chủ cloud ở nước ngoài: mục A9 đánh "Không đạt" nếu chưa có hồ sơ chuyển dữ liệu xuyên biên giới hoặc căn cứ miễn.
 - Các hạng mục kỹ thuật như NTP, phân vùng mạng **không có điều khoản riêng** trong `sources/`; cột căn cứ ghi "Thực hành tốt" và nguyên tắc chung.
-- **Thời hạn lưu theo ngành (A11, B1):** không có quy định chung về thời hạn lưu video; một số ngành có mức sàn riêng (doanh nghiệp chế xuất, kho ngoại quan, CFS, ATM, casino, trạm thu phí, xe kinh doanh vận tải) — xem bảng "Thời hạn tối thiểu theo ngành" trong K4. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**
+- **Thời hạn lưu theo ngành (A11, B1):** không có quy định chung về thời hạn lưu video; một số ngành có quy định riêng (ví dụ hải quan, ngân hàng, casino, trạm thu phí, vận tải) — khách hàng tự tra văn bản chuyên ngành, xem K4 **[CẦN ĐỐI CHIẾU pháp luật chuyên ngành]**.
 - **Hợp quy thiết bị (B21):** theo nguồn thứ cấp, từ 01/07/2026 camera giám sát, camera nhận dạng thuộc danh mục sản phẩm rủi ro trung bình của Bộ Công an, phải công bố hợp quy QCVN 11:2026/BCA và gắn dấu CR (TT 48/2026/TT-BCA; TT 125/2026/TT-BCA). **Chưa xác minh** đầu đọc khuôn mặt, camera biển số, đầu ghi NVR có thuộc danh mục không, và điều khoản chuyển tiếp cho hàng nhập trước 01/07/2026. Vì vậy B21 **chưa** là mục chặn; trở thành mục chặn khi đã xác minh thiết bị thuộc danh mục. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**
 
 ---
@@ -69,7 +69,7 @@
 | A8 | Camera tại nơi làm việc: khách hàng đã ban hành K3 và phổ biến cho người lao động **(chặn)** | Luật 91 Đ25.3.a; NĐ 330 Đ61.2.c | ☐ Đạt ☐ Không ☐ N/A | |
 | A9 | Nơi lưu dữ liệu đã xác định: ☐ tại chỗ ☐ cloud tại Việt Nam ☐ cloud ở nước ngoài. Nếu ở nước ngoài hoặc hỗ trợ từ nước ngoài: đã có hồ sơ chuyển dữ liệu xuyên biên giới hoặc căn cứ miễn | Luật 91 Đ20.1–20.2, Đ20.6 | ☐ Đạt ☐ Không ☐ N/A | Vị trí: {{VI_TRI_MAY_CHU}} |
 | A10 | Đầu ghi, máy chủ, thiết bị lưu dữ liệu khuôn mặt đặt trong phòng, tủ có khóa; danh sách người được vào | Luật 91 Đ31.4.a; NĐ 330 Đ70.1.c | ☐ Đạt ☐ Không ☐ N/A | |
-| A11 | Khách hàng có thuộc ngành có **thời hạn lưu hình ảnh tối thiểu** hoặc **nghĩa vụ kết nối camera** không: doanh nghiệp chế xuất (12 tháng, kết nối hải quan); kho ngoại quan (12 tháng); CFS (06 tháng); ATM (100 ngày); casino (06 tháng); trạm thu phí (video làn, ảnh phương tiện 05 năm); xe kinh doanh vận tải. Nếu có: đã xác định nhóm camera thuộc phạm vi, cấu hình theo K4 dòng 1a, dung lượng lưu trữ đủ cho thời hạn đó; phương án kết nối (doanh nghiệp chế xuất: QĐ 247/QĐ-TCHQ) đã thống nhất với khách hàng | Luật 91 Đ3.3, Đ32.4; văn bản ngành tại K4 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** | ☐ Đạt ☐ Không ☐ N/A | Ngành: ......; thời hạn: ...... |
+| A11 | Khách hàng có thuộc ngành có **quy định riêng về thời hạn lưu hình ảnh** hoặc **nghĩa vụ kết nối camera** với cơ quan quản lý không (ví dụ hải quan, ngân hàng, casino, trạm thu phí, vận tải). Nếu có: đã cấu hình dòng 1a của K4 theo văn bản chuyên ngành khách hàng cung cấp, đủ dung lượng lưu trữ, thống nhất cách kết nối | Luật 91 Đ3.3, Đ32.4; văn bản chuyên ngành **[CẦN ĐỐI CHIẾU]** | ☐ Đạt ☐ Không ☐ N/A | Ngành: ......; thời hạn: ...... |
 
 ## B. Cấu hình
 

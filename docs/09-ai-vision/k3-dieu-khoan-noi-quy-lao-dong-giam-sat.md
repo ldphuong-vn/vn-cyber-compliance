@@ -56,34 +56,18 @@ Không gộp hai nội dung vào một chữ ký. Ký chung làm sự đồng ý
 
 ### Thủ tục ban hành theo pháp luật lao động
 
-**Đã đối chiếu toàn văn** BLLĐ 2019 Đ118–Đ121 (văn bản hợp nhất 18/VBHN-VPQH, Công báo số 131 ngày 28/02/2026 — `sources/van-ban-goc/toan-van/vbhn-18-2026-vpqh-bo-luat-lao-dong.txt`) ngày 29/09/2026. **Chưa có toàn văn trong sources/ — [CẦN ĐỐI CHIẾU]:** NĐ 145/2020 Đ69.1 (dưới 10 người lao động); thẩm quyền của cơ quan nội vụ sau sắp xếp bộ máy (NĐ 129/2025/NĐ-CP; QĐ 628/QĐ-BNV) — văn bản hợp nhất BLLĐ vẫn ghi "cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh" và "cấp huyện". Kiểm tra thủ tục đang công bố trên Cổng dịch vụ công trước khi nộp.
+Quy định này là nội dung sửa đổi, bổ sung nội quy lao động, nên đi theo thủ tục nội quy của Bộ luật Lao động (BLLĐ 2019 Đ118–Đ121 — đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH). Bộ khung chỉ nêu các điểm ảnh hưởng tới thời điểm bật camera, nhận diện:
 
-| Bước | Nội dung | Căn cứ |
-|---|---|---|
-| 1. Xác định diện | **Từ 10 người lao động trở lên:** nội quy lao động phải bằng văn bản và phải đăng ký. **Dưới 10 người:** không bắt buộc nội quy bằng văn bản, nhưng phải thỏa thuận kỷ luật lao động, trách nhiệm vật chất trong HĐLĐ — dùng Phần 4 (Phụ lục HĐLĐ); nếu vẫn ban hành Quy định bằng văn bản thì không phải đăng ký | BLLĐ Đ118.1, Đ119.1; NĐ 145 Đ69.1 |
-| 2. Tham khảo ý kiến | Trước khi ban hành **hoặc sửa đổi, bổ sung** nội quy, tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở, nếu có. Quy định này là nội dung bổ sung nội quy nên vẫn phải làm bước này. Không có tổ chức đại diện thì không có bước này | BLLĐ Đ118.3 |
-| 3. Thông báo, niêm yết | Thông báo Quy định đến người lao động; niêm yết nội dung chính tại nơi cần thiết | BLLĐ Đ118.4 |
-| 4. Đăng ký | Trong **10 ngày** kể từ ngày ban hành, nộp hồ sơ tại cơ quan chuyên môn về nội vụ thuộc UBND cấp tỉnh (**Sở Nội vụ**) nơi đăng ký kinh doanh, hoặc cơ quan chuyên môn về nội vụ cấp xã nếu được cấp tỉnh ủy quyền. Nộp qua Cổng dịch vụ công, trực tiếp hoặc qua bưu chính. Có chi nhánh ở tỉnh khác: gửi nội quy đã đăng ký tới cơ quan nơi đặt chi nhánh. Doanh nghiệp trong khu công nghiệp, khu kinh tế: hỏi Ban quản lý khu — chưa xác minh Ban quản lý còn nhận đăng ký sau 01/7/2025 | BLLĐ Đ119.1–119.2, Đ119.4–119.5; NĐ 129/2025/NĐ-CP; QĐ 628/QĐ-BNV (thẩm quyền từ 01/7/2025) |
-| 5. Hồ sơ | (a) văn bản đề nghị đăng ký nội quy lao động; (b) nội quy lao động — ở đây là Quyết định và Quy định kèm theo; (c) văn bản góp ý của tổ chức đại diện người lao động tại cơ sở, nếu có; (d) văn bản của người sử dụng lao động có quy định về kỷ luật lao động, trách nhiệm vật chất, nếu có | BLLĐ Đ120 |
-| 6. Cơ quan xử lý | Trong **07 ngày làm việc** kể từ ngày nhận hồ sơ, nếu nội quy có nội dung trái pháp luật, cơ quan thông báo, hướng dẫn sửa đổi, bổ sung và đăng ký lại | BLLĐ Đ119.3 |
-| 7. Hiệu lực | Từ 10 người lao động: **sau 15 ngày kể từ ngày cơ quan nhận đủ hồ sơ đăng ký**. Dưới 10 người lao động có nội quy bằng văn bản: do người sử dụng lao động quyết định trong nội quy | BLLĐ Đ121 |
-
-- **Nội quy sửa đổi, bổ sung có phải đăng ký lại không:** BLLĐ không có điều riêng. Cách hiểu phổ biến, cũng là cách an toàn: nộp hồ sơ đăng ký như nội quy mới, và Quy định chỉ có hiệu lực sau 15 ngày kể từ ngày cơ quan nhận đủ hồ sơ (suy từ Đ119.3 "sửa đổi, bổ sung và đăng ký lại" và Đ121). Mẫu theo cách này.
-- **Chưa xác minh:** NQ 24/2026/NQ-CP và QĐ 530/QĐ-BNV (cắt giảm thủ tục hành chính lĩnh vực nội vụ) có đổi thành phần hồ sơ hoặc cách nộp hay không. Kiểm tra thủ tục "Đăng ký nội quy lao động của doanh nghiệp" trên Cổng dịch vụ công trước khi nộp.
-- **Điều 2 của Quyết định** có hai phương án hiệu lực: Phương án 1 cho đơn vị từ 10 người lao động trở lên (sau 15 ngày kể từ ngày cơ quan nhận đủ hồ sơ); Phương án 2 cho đơn vị dưới 10 người (ngày do Công ty quyết định). Không ghi "có hiệu lực từ ngày ký" cho Phương án 1.
-
-**Khoảng chờ hiệu lực (Phương án 1).** Từ ngày ký đến ngày Quy định có hiệu lực mất ít nhất 15 ngày; khoảng 25 ngày nếu nộp hồ sơ vào ngày cuối của hạn 10 ngày; lâu hơn nếu phải sửa và đăng ký lại. Chọn một trong hai cách:
-
-1. **Chưa bật** camera giám sát tại nơi làm việc và chưa bật chấm công, ra vào bằng khuôn mặt cho đến ngày Quy định có hiệu lực. Đây là cách an toàn nhất.
-2. **Nếu phải bật sớm:** trước khi bật, phát Quy định cho từng người lao động và thu Phiếu xác nhận đã được thông báo (Phần 3) để bảo đảm người lao động biết rõ biện pháp (Luật 91 Đ25.3.a; tránh vi phạm NĐ 330 Đ61.2.c). Đăng ký khuôn mặt vẫn cần Phiếu đồng ý riêng theo K2. Trong khoảng chờ, không xử lý kỷ luật lao động dựa trên Quy định này.
-
-**Chế tài theo pháp luật lao động:** NĐ 283/2026/NĐ-CP (thay NĐ 12/2022/NĐ-CP, hiệu lực 10/9/2026) xử phạt vi phạm về nội quy lao động. Điều khoản và mức phạt cụ thể **chưa xác minh** — không ghi con số. Mức phạt về dữ liệu cá nhân của người lao động ở bảng trên theo NĐ 330, áp dụng song song.
+- **Từ 10 người lao động trở lên:** tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở (nếu có), đăng ký nội quy trong 10 ngày kể từ ngày ban hành; Quy định **có hiệu lực sau 15 ngày kể từ ngày cơ quan nhận đủ hồ sơ** (BLLĐ Đ118.3, Đ119.2, Đ121). Vì vậy Điều 2 của Quyết định có hai phương án; không ghi "có hiệu lực từ ngày ký" cho đơn vị từ 10 người lao động.
+- **Dưới 10 người lao động:** hiệu lực do Công ty quyết định (BLLĐ Đ121); không có nội quy bằng văn bản thì dùng Phần 4 (Phụ lục HĐLĐ).
+- **Khoảng chờ hiệu lực:** chưa bật camera tại nơi làm việc, chấm công, ra vào bằng khuôn mặt cho đến ngày Quy định có hiệu lực. Nếu phải bật sớm: phát Quy định và thu Phiếu xác nhận đã được thông báo (Phần 3) trước khi bật (Luật 91 Đ25.3.a; NĐ 330 Đ61.2.c); đăng ký khuôn mặt vẫn cần Phiếu đồng ý K2.
+- Cơ quan nhận hồ sơ, thành phần hồ sơ, xử phạt theo pháp luật lao động: tra thủ tục đang công bố trên Cổng dịch vụ công — ngoài phạm vi bộ khung **[CẦN ĐỐI CHIẾU]**.
 
 ### Lưu ý vùng xám
 
 - **V3** — chấm công khuôn mặt dựa vào thực hiện HĐLĐ (Luật 91 Đ19.1.d) hay phải xin đồng ý: mẫu chọn cách thận trọng — **xin đồng ý riêng và có phương thức thay thế**.
 - **V5** — khu vực dùng chung nhân viên và khách: áp cả Quy định này và biển báo (a) của K1.
-- **V9** — thời hạn lưu chấm công: tách **bảng chấm công tổng hợp tháng** (tài liệu kế toán, tối thiểu 05 năm, khuyến nghị 10 năm — Luật Kế toán Đ41.5; NĐ 174/2016 Đ12–Đ13) và **nhật ký chấm công thô** (không có con số luật định; giá trị nội bộ gợi ý 24 tháng, ghi thành thỏa thuận). **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**. Còn mở: chọn 05 hay 10 năm cho bảng chấm công.
+- **V9** — thời hạn lưu bảng chấm công theo pháp luật kế toán nằm ngoài phạm vi bộ khung; khách hàng hỏi kế toán trưởng **[CẦN ĐỐI CHIẾU]**. Nhật ký chấm công thô: giá trị nội bộ, ghi thành thỏa thuận tại Điều 9.
 
 ---
 
