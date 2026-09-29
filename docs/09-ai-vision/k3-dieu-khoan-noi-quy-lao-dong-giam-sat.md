@@ -1,12 +1,12 @@
 # Mẫu Quy định bổ sung Nội quy lao động về giám sát bằng camera và nhận diện khuôn mặt (K3)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ4.1, Đ9.2, Đ9.4, Đ14.3, Đ25.2–25.3, Đ31.4.a, Đ37.2.a; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.đ, Đ4.2, Đ5, Đ6.4, Đ10.3, Đ10.6, Đ23.7; NĐ 330/2026/NĐ-CP Đ7.1, Đ39.1.a, Đ43.1.a, Đ43.1.h, Đ61.2–61.3, Đ67.2.a–c, Đ67.3.b, Đ70.2.b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ4.1, Đ9.2, Đ9.4, Đ14.3, Đ25.2–25.3, Đ31.4.a, Đ37.2.a; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.đ, Đ4.2, Đ5, Đ6.4, Đ10.3, Đ10.6, Đ23.7; NĐ 330/2026/NĐ-CP Đ7.1, Đ39.1.a, Đ43.1.a, Đ43.1.h, Đ61.2–61.3, Đ67.2.a–c, Đ67.3.b, Đ70.2.b; BLLĐ 2019 (45/2019/QH14) Đ118–Đ121, Đ190; NĐ 145/2020/NĐ-CP Đ69.1; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
 **Ai dùng:** khách hàng với tư cách **người sử dụng lao động** và **bên kiểm soát dữ liệu** của người lao động. Nhà cung cấp {{TEN_NHA_CUNG_CAP}} chỉ cung cấp mẫu và thông tin kỹ thuật (vị trí camera, cách hệ thống nhận diện hoạt động — tài liệu B3); không ban hành, không ký thay.
 
-**Khi nào:** trước khi lắp camera tại nơi làm việc hoặc trước khi bật kiểm soát ra vào, chấm công bằng khuôn mặt; khi thêm khu vực, đổi mục đích, đổi thời hạn lưu; khi tiếp nhận người lao động mới.
+**Khi nào:** trước khi lắp camera tại nơi làm việc hoặc trước khi bật kiểm soát ra vào, chấm công bằng khuôn mặt; khi thêm khu vực, đổi mục đích, đổi thời hạn lưu; khi tiếp nhận người lao động mới. Đơn vị từ 10 người lao động trở lên cần tính ngược thời gian: Quy định chỉ có hiệu lực **sau 15 ngày** kể từ ngày cơ quan đăng ký nhận đủ hồ sơ (xem mục Thủ tục ban hành).
 
 **Mô hình:** mọi mô hình M1–M5. Với **M3/M4**, Điều 6 khoản 6 nêu tên nhà cung cấp dịch vụ xử lý (NĐ 356 Đ23.7) và phải có hợp đồng xử lý dữ liệu với nhà cung cấp trước khi đưa dữ liệu lên nền tảng (Luật 91 Đ37.2.a).
 
@@ -15,7 +15,7 @@
 1. Quyết định ban hành Quy định (bổ sung Nội quy lao động).
 2. Quy định về giám sát bằng camera và sử dụng nhận diện khuôn mặt tại nơi làm việc.
 3. Phiếu xác nhận **đã được thông báo** — người lao động ký.
-4. Điều khoản mẫu cho **Phụ lục hợp đồng lao động** — dùng khi khách hàng chưa sửa được Nội quy lao động hoặc không thuộc diện phải có Nội quy bằng văn bản.
+4. Điều khoản mẫu cho **Phụ lục hợp đồng lao động** — dùng khi khách hàng không thuộc diện phải có Nội quy bằng văn bản, trong khoảng chờ Quy định có hiệu lực, và để ghi nhận **thỏa thuận** thời hạn lưu nhật ký chấm công sau khi nghỉ việc.
 
 ### Hai việc khác nhau, hai giấy tờ khác nhau
 
@@ -54,15 +54,36 @@ Không gộp hai nội dung vào một chữ ký. Ký chung làm sự đồng ý
 | Quyết định tự động bất lợi (trừ công, từ chối ra vào) không cho yêu cầu con người đánh giá lại | 70–100 triệu đồng; đình chỉ hệ thống 03–06 tháng | NĐ 330 Đ67.3.b, Đ67.4.b |
 | Dùng dữ liệu khuôn mặt chấm công cho mục đích khác khi chưa có đồng ý | 70–150 triệu đồng; tịch thu máy chủ lưu sinh trắc học | NĐ 330 Đ70.2.b, Đ70.3.a |
 
-### Thủ tục ban hành theo pháp luật lao động — [CẦN ĐỐI CHIẾU]
+### Thủ tục ban hành theo pháp luật lao động
 
-Bộ luật Lao động và văn bản hướng dẫn **không có trong `sources/`**. Trước khi ban hành, khách hàng cần đối chiếu: (1) có thuộc diện phải có Nội quy lao động bằng văn bản không; (2) thủ tục **tham khảo ý kiến tổ chức đại diện người lao động** tại cơ sở (nếu có); (3) thủ tục **đăng ký** Nội quy lao động (hoặc nội quy sửa đổi, bổ sung) với cơ quan quản lý nhà nước về lao động và thời hạn đăng ký; (4) cách **thông báo, niêm yết** tại nơi làm việc; (5) thời điểm có hiệu lực. Mẫu để trống các căn cứ này bằng `{{CAN_CU_PHAP_LUAT_LAO_DONG}}`.
+**[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** — áp cho cả mục này. Nội dung lấy từ kết quả tra cứu ngày 29/09/2026 (đoạn trích trên trang văn bản pháp luật, nguồn thứ cấp), chưa đối chiếu Công báo. Đối chiếu BLLĐ 2019 Đ118–Đ121, NĐ 145/2020 Đ69 và thủ tục hành chính đang công bố trên Cổng dịch vụ công trước khi nộp.
+
+| Bước | Nội dung | Căn cứ |
+|---|---|---|
+| 1. Xác định diện | **Từ 10 người lao động trở lên:** nội quy lao động phải bằng văn bản và phải đăng ký. **Dưới 10 người:** không bắt buộc nội quy bằng văn bản, nhưng phải thỏa thuận kỷ luật lao động, trách nhiệm vật chất trong HĐLĐ — dùng Phần 4 (Phụ lục HĐLĐ); nếu vẫn ban hành Quy định bằng văn bản thì không phải đăng ký | BLLĐ Đ118.1, Đ119.1; NĐ 145 Đ69.1 |
+| 2. Tham khảo ý kiến | Trước khi ban hành **hoặc sửa đổi, bổ sung** nội quy, tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở, nếu có. Quy định này là nội dung bổ sung nội quy nên vẫn phải làm bước này. Không có tổ chức đại diện thì không có bước này | BLLĐ Đ118.3 |
+| 3. Thông báo, niêm yết | Thông báo Quy định đến người lao động; niêm yết nội dung chính tại nơi cần thiết | BLLĐ Đ118.4 |
+| 4. Đăng ký | Trong **10 ngày** kể từ ngày ban hành, nộp hồ sơ tại cơ quan chuyên môn về nội vụ thuộc UBND cấp tỉnh (**Sở Nội vụ**) nơi đăng ký kinh doanh, hoặc cơ quan chuyên môn về nội vụ cấp xã nếu được cấp tỉnh ủy quyền. Nộp qua Cổng dịch vụ công, trực tiếp hoặc qua bưu chính. Có chi nhánh ở tỉnh khác: gửi nội quy đã đăng ký tới cơ quan nơi đặt chi nhánh. Doanh nghiệp trong khu công nghiệp, khu kinh tế: hỏi Ban quản lý khu — chưa xác minh Ban quản lý còn nhận đăng ký sau 01/7/2025 | BLLĐ Đ119.1–119.2, Đ119.4–119.5; NĐ 129/2025/NĐ-CP; QĐ 628/QĐ-BNV (thẩm quyền từ 01/7/2025) |
+| 5. Hồ sơ | (a) văn bản đề nghị đăng ký nội quy lao động; (b) nội quy lao động — ở đây là Quyết định và Quy định kèm theo; (c) văn bản góp ý của tổ chức đại diện người lao động tại cơ sở, nếu có; (d) văn bản của người sử dụng lao động có quy định về kỷ luật lao động, trách nhiệm vật chất, nếu có | BLLĐ Đ120 |
+| 6. Cơ quan xử lý | Trong **07 ngày làm việc** kể từ ngày nhận hồ sơ, nếu nội quy có nội dung trái pháp luật, cơ quan thông báo, hướng dẫn sửa đổi, bổ sung và đăng ký lại | BLLĐ Đ119.3 |
+| 7. Hiệu lực | Từ 10 người lao động: **sau 15 ngày kể từ ngày cơ quan nhận đủ hồ sơ đăng ký**. Dưới 10 người lao động có nội quy bằng văn bản: do người sử dụng lao động quyết định trong nội quy | BLLĐ Đ121 |
+
+- **Nội quy sửa đổi, bổ sung có phải đăng ký lại không:** BLLĐ không có điều riêng. Cách hiểu phổ biến, cũng là cách an toàn: nộp hồ sơ đăng ký như nội quy mới, và Quy định chỉ có hiệu lực sau 15 ngày kể từ ngày cơ quan nhận đủ hồ sơ (suy từ Đ119.3 "sửa đổi, bổ sung và đăng ký lại" và Đ121). Mẫu theo cách này.
+- **Chưa xác minh:** NQ 24/2026/NQ-CP và QĐ 530/QĐ-BNV (cắt giảm thủ tục hành chính lĩnh vực nội vụ) có đổi thành phần hồ sơ hoặc cách nộp hay không. Kiểm tra thủ tục "Đăng ký nội quy lao động của doanh nghiệp" trên Cổng dịch vụ công trước khi nộp.
+- **Điều 2 của Quyết định** có hai phương án hiệu lực: Phương án 1 cho đơn vị từ 10 người lao động trở lên (sau 15 ngày kể từ ngày cơ quan nhận đủ hồ sơ); Phương án 2 cho đơn vị dưới 10 người (ngày do Công ty quyết định). Không ghi "có hiệu lực từ ngày ký" cho Phương án 1.
+
+**Khoảng chờ hiệu lực (Phương án 1).** Từ ngày ký đến ngày Quy định có hiệu lực mất ít nhất 15 ngày; khoảng 25 ngày nếu nộp hồ sơ vào ngày cuối của hạn 10 ngày; lâu hơn nếu phải sửa và đăng ký lại. Chọn một trong hai cách:
+
+1. **Chưa bật** camera giám sát tại nơi làm việc và chưa bật chấm công, ra vào bằng khuôn mặt cho đến ngày Quy định có hiệu lực. Đây là cách an toàn nhất.
+2. **Nếu phải bật sớm:** trước khi bật, phát Quy định cho từng người lao động và thu Phiếu xác nhận đã được thông báo (Phần 3) để bảo đảm người lao động biết rõ biện pháp (Luật 91 Đ25.3.a; tránh vi phạm NĐ 330 Đ61.2.c). Đăng ký khuôn mặt vẫn cần Phiếu đồng ý riêng theo K2. Trong khoảng chờ, không xử lý kỷ luật lao động dựa trên Quy định này.
+
+**Chế tài theo pháp luật lao động:** NĐ 283/2026/NĐ-CP (thay NĐ 12/2022/NĐ-CP, hiệu lực 10/9/2026) xử phạt vi phạm về nội quy lao động. Điều khoản và mức phạt cụ thể **chưa xác minh** — không ghi con số. Mức phạt về dữ liệu cá nhân của người lao động ở bảng trên theo NĐ 330, áp dụng song song.
 
 ### Lưu ý vùng xám
 
 - **V3** — chấm công khuôn mặt dựa vào thực hiện HĐLĐ (Luật 91 Đ19.1.d) hay phải xin đồng ý: mẫu chọn cách thận trọng — **xin đồng ý riêng và có phương thức thay thế**.
 - **V5** — khu vực dùng chung nhân viên và khách: áp cả Quy định này và biển báo (a) của K1.
-- **V9** — thời hạn lưu nhật ký chấm công theo pháp luật lao động, kế toán **[CẦN ĐỐI CHIẾU]**; để placeholder, không tự đặt số năm.
+- **V9** — thời hạn lưu chấm công: tách **bảng chấm công tổng hợp tháng** (tài liệu kế toán, tối thiểu 05 năm, khuyến nghị 10 năm — Luật Kế toán Đ41.5; NĐ 174/2016 Đ12–Đ13) và **nhật ký chấm công thô** (không có con số luật định; giá trị nội bộ gợi ý 24 tháng, ghi thành thỏa thuận). **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**. Còn mở: chọn 05 hay 10 năm cho bảng chấm công.
 
 ---
 
@@ -74,7 +95,9 @@ Bộ luật Lao động và văn bản hướng dẫn **không có trong `source
 
 <p align="center"><b>{{CHUC_DANH_NGUOI_KY_IN_HOA}} {{TEN_KHACH_HANG_IN_HOA}}</b></p>
 
-*Căn cứ {{CAN_CU_PHAP_LUAT_LAO_DONG}};*
+*Căn cứ Bộ luật Lao động số 45/2019/QH14 ngày 20 tháng 11 năm 2019;*
+
+*Căn cứ Nghị định số 145/2020/NĐ-CP ngày 14 tháng 12 năm 2020 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động;*
 
 *Căn cứ Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15;*
 
@@ -90,11 +113,23 @@ Bộ luật Lao động và văn bản hướng dẫn **không có trong `source
 
 **Điều 1.** Ban hành kèm theo Quyết định này Quy định về giám sát bằng camera và sử dụng nhận diện khuôn mặt tại nơi làm việc. Quy định là bộ phận không tách rời của Nội quy lao động {{NOI_QUY_LAO_DONG_HIEN_HANH}}.
 
-**Điều 2.** Quyết định này có hiệu lực từ ngày {{NGAY_HIEU_LUC}}. {{BO_PHAN_HCNS}} có trách nhiệm phổ biến Quy định đến từng người lao động, niêm yết tại nơi làm việc, thu Phiếu xác nhận đã được thông báo và thực hiện thủ tục {{đăng ký nội quy lao động sửa đổi, bổ sung theo quy định của pháp luật về lao động/thông báo theo quy định của pháp luật về lao động}}.
+**Điều 2.** Hiệu lực và tổ chức thực hiện
+
+*(Phương án 1 — Công ty sử dụng từ 10 người lao động trở lên)*
+
+1. Quy định ban hành kèm theo Quyết định này có hiệu lực sau 15 ngày kể từ ngày {{CO_QUAN_DANG_KY_NOI_QUY}} nhận được đầy đủ hồ sơ đăng ký nội quy lao động, theo Điều 121 Bộ luật Lao động số 45/2019/QH14. Trong thời hạn 10 ngày kể từ ngày ký Quyết định này, {{BO_PHAN_HCNS}} nộp hồ sơ đăng ký nội quy lao động sửa đổi, bổ sung theo Điều 119, Điều 120 Bộ luật Lao động và thông báo ngày Quy định có hiệu lực cho người lao động.
+
+*(Phương án 2 — Công ty sử dụng dưới 10 người lao động)*
+
+1. Quyết định này và Quy định ban hành kèm theo có hiệu lực từ ngày {{NGAY_HIEU_LUC}}.
+
+2. {{BO_PHAN_HCNS}} có trách nhiệm phổ biến Quy định đến từng người lao động, niêm yết nội dung chính tại nơi làm việc và thu Phiếu xác nhận đã được thông báo.
+
+3. Trước ngày Quy định có hiệu lực, Công ty {{không vận hành camera giám sát tại nơi làm việc và không sử dụng nhận diện khuôn mặt cho kiểm soát ra vào, chấm công/chỉ vận hành camera giám sát tại nơi làm việc và nhận diện khuôn mặt sau khi người lao động đã nhận Quy định và ký Phiếu xác nhận đã được thông báo; không xử lý kỷ luật lao động theo Quy định này trước ngày Quy định có hiệu lực}}.
 
 **Điều 3.** {{BO_PHAN_HCNS}}, bộ phận quản trị hệ thống, bộ phận bảo vệ, nhân sự bảo vệ dữ liệu cá nhân, các trưởng bộ phận và toàn thể người lao động chịu trách nhiệm thi hành Quyết định này.
 
-| **Nơi nhận:**<br/>- Như Điều 3;<br/>- {{TO_CHUC_DAI_DIEN_NLD}};<br/>- {{NHAN_SU_BVDLCN_KH}};<br/>- Lưu: VT, {{BO_PHAN_HCNS}}. | **{{CHUC_DANH_NGUOI_KY_IN_HOA}}**<br/>*(Ký, ghi rõ họ tên, đóng dấu)*<br/><br/><br/>**{{HO_TEN_NGUOI_KY}}** |
+| **Nơi nhận:**<br/>- Như Điều 3;<br/>- {{CO_QUAN_DANG_KY_NOI_QUY}} (hồ sơ đăng ký);<br/>- {{TO_CHUC_DAI_DIEN_NLD}};<br/>- {{NHAN_SU_BVDLCN_KH}};<br/>- Lưu: VT, {{BO_PHAN_HCNS}}. | **{{CHUC_DANH_NGUOI_KY_IN_HOA}}**<br/>*(Ký, ghi rõ họ tên, đóng dấu)*<br/><br/><br/>**{{HO_TEN_NGUOI_KY}}** |
 |:---|:---:|
 
 ---
@@ -177,9 +212,12 @@ Mọi lần xem lại, trích xuất phải được ghi nhật ký. Không dùn
 | Hình ảnh camera giám sát | {{THOI_HAN_LUU_VIDEO}}, tự động ghi đè | Theo chu kỳ tự động |
 | Dữ liệu khuôn mặt | Đến khi rút lại sự đồng ý hoặc chấm dứt hợp đồng lao động | **Xóa trong {{THOI_HAN_XOA_TEMPLATE_NV}}** kể từ ngày chấm dứt |
 | Nhật ký ra vào | {{THOI_HAN_LUU_NHAT_KY_RA_VAO}} | Theo thời hạn lưu |
-| Nhật ký, bảng chấm công | {{THOI_HAN_LUU_NHAT_KY_CHAM_CONG}} theo quy định của pháp luật về lao động, kế toán | Giữ đến hết thời hạn luật định, sau đó xóa |
+| Bảng chấm công tổng hợp tháng (đã chốt, dùng để tính lương; không chứa ảnh, dữ liệu khuôn mặt) | {{THOI_HAN_LUU_BANG_CHAM_CONG}} kể từ ngày kết thúc kỳ kế toán năm, theo khoản 5 Điều 41 Luật Kế toán số 88/2015/QH13 | Giữ đến hết thời hạn, sau đó hủy |
+| Nhật ký chấm công (từng lượt ghi nhận: mã nhân viên, thời điểm, thiết bị, phương thức xác thực) | {{THOI_HAN_LUU_NHAT_KY_CHAM_CONG}} kể từ ngày kết thúc kỳ trả lương tương ứng | Giữ đến hết thời hạn theo khoản 2 Điều này, sau đó xóa |
 
-Chi tiết theo Chính sách lưu trữ, xóa, hủy dữ liệu hệ thống camera và nhận diện của Công ty. Việc xóa được thực hiện bằng biện pháp an toàn, không khôi phục được (khoản 3 Điều 14 Luật Bảo vệ dữ liệu cá nhân).
+1. Chi tiết theo Chính sách lưu trữ, xóa, hủy dữ liệu hệ thống camera và nhận diện của Công ty. Việc xóa được thực hiện bằng biện pháp an toàn, không khôi phục được (khoản 3 Điều 14 Luật Bảo vệ dữ liệu cá nhân).
+2. Người lao động và Công ty thỏa thuận: nhật ký chấm công được lưu trong {{THOI_HAN_LUU_NHAT_KY_CHAM_CONG}} kể từ ngày kết thúc kỳ trả lương tương ứng, **kể cả sau khi chấm dứt hợp đồng lao động**, để giải quyết khiếu nại, tranh chấp về tiền lương, thời giờ làm việc. Hết thời hạn, Công ty xóa nhật ký, trừ phần đang được giữ lại vì khiếu nại, tranh chấp đang giải quyết hoặc theo yêu cầu bằng văn bản của cơ quan nhà nước có thẩm quyền.
+3. Dữ liệu khuôn mặt được lưu tách khỏi bảng chấm công và nhật ký chấm công. Việc xóa dữ liệu khuôn mặt không làm mất bảng chấm công, nhật ký chấm công.
 
 **Điều 10. Quyền của người lao động**
 
@@ -231,24 +269,28 @@ Tôi xác nhận:
 
 <p align="center"><b>ĐIỀU KHOẢN MẪU</b><br/><b>Phụ lục hợp đồng lao động về giám sát bằng camera và nhận diện khuôn mặt</b></p>
 
-*(Dùng khi chưa sửa Nội quy lao động. Chèn vào phụ lục hợp đồng lao động số ........ ngày ........ giữa {{TEN_KHACH_HANG}} và người lao động.)*
+*(Dùng khi Công ty sử dụng dưới 10 người lao động và không có nội quy lao động bằng văn bản (khoản 1 Điều 69 Nghị định số 145/2020/NĐ-CP), trong thời gian chờ Quy định có hiệu lực, hoặc để ghi nhận thỏa thuận về thời hạn lưu nhật ký chấm công. Chèn vào phụ lục hợp đồng lao động số ........ ngày ........ giữa {{TEN_KHACH_HANG}} và người lao động.)*
 
 1. Người lao động được thông báo và biết rõ: Công ty lắp camera giám sát không nhận diện tại {{KHU_VUC_CAMERA_NOI_LAM_VIEC}} để {{MUC_DICH_GIAM_SAT_NOI_LAM_VIEC}}; không lắp tại nhà vệ sinh, phòng tắm, phòng thay đồ, phòng nghỉ và khu vực riêng tư khác; hình ảnh lưu {{THOI_HAN_LUU_VIDEO}}; chỉ {{CHUC_DANH_DUOC_XEM_LAI_VIDEO}} được xem lại khi có sự cố.
 2. Việc đăng ký khuôn mặt cho kiểm soát ra vào, chấm công là tự nguyện, thực hiện theo phiếu đồng ý riêng. Người lao động không đồng ý được dùng {{PHUONG_THUC_THAY_THE}} và không bị bất lợi.
 3. Kết quả chấm công, ra vào do hệ thống tự động ghi nhận được người có thẩm quyền xem xét lại khi người lao động yêu cầu; không tự động trừ lương, kỷ luật.
-4. Khi chấm dứt hợp đồng lao động, Công ty xóa dữ liệu khuôn mặt trong {{THOI_HAN_XOA_TEMPLATE_NV}}; nhật ký chấm công được lưu theo thời hạn pháp luật quy định rồi xóa.
+4. Khi chấm dứt hợp đồng lao động, Công ty xóa dữ liệu khuôn mặt trong {{THOI_HAN_XOA_TEMPLATE_NV}}. Bảng chấm công tổng hợp tháng được lưu {{THOI_HAN_LUU_BANG_CHAM_CONG}} kể từ ngày kết thúc kỳ kế toán năm theo khoản 5 Điều 41 Luật Kế toán số 88/2015/QH13. Người lao động đồng ý Công ty lưu nhật ký chấm công trong {{THOI_HAN_LUU_NHAT_KY_CHAM_CONG}} kể từ ngày kết thúc kỳ trả lương tương ứng, kể cả sau khi chấm dứt hợp đồng lao động. Hết các thời hạn này, Công ty xóa, hủy dữ liệu.
 5. Dữ liệu thu được không dùng cho mục đích khác. Người lao động có các quyền theo khoản 1 Điều 4 Luật Bảo vệ dữ liệu cá nhân, liên hệ {{NHAN_SU_BVDLCN_KH}} — {{EMAIL_BVDLCN_KH}}.
 
 ## Hướng dẫn điền
 
 | Chỗ cần điền | Cách điền |
 |---|---|
-| `{{CAN_CU_PHAP_LUAT_LAO_DONG}}` | Tên, số hiệu Bộ luật Lao động và văn bản hướng dẫn về nội quy lao động đang có hiệu lực. **[CẦN ĐỐI CHIẾU]** — không có trong `sources/`, khách hàng tự xác minh |
-| `{{TO_CHUC_DAI_DIEN_NLD}}` | Tổ chức đại diện người lao động tại cơ sở (nếu có). Không có: xóa dòng căn cứ và dòng nơi nhận tương ứng — **[CẦN ĐỐI CHIẾU]** thủ tục thay thế theo pháp luật lao động |
+| Dòng căn cứ pháp luật lao động (Quyết định) | Đã điền sẵn: BLLĐ 2019 (45/2019/QH14) và NĐ 145/2020/NĐ-CP. Trước khi ký, kiểm tra văn bản sửa đổi, thay thế — Bộ Nội vụ đang lấy ý kiến dự thảo sửa NĐ 145 (2026). **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** |
+| `{{TO_CHUC_DAI_DIEN_NLD}}` | Tổ chức đại diện người lao động tại cơ sở, nếu có. Không có: không phải tham khảo ý kiến, hồ sơ đăng ký không cần văn bản góp ý (BLLĐ Đ118.3, Đ120.3) — xóa dòng "Sau khi tham khảo ý kiến" và dòng nơi nhận tương ứng. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** |
+| Điều 2 — Phương án 1, 2 | Giữ đúng một phương án theo số người lao động; xóa tiêu đề in nghiêng. Chọn một lựa chọn ở khoản 3 theo mục "Khoảng chờ hiệu lực" |
+| `{{CO_QUAN_DANG_KY_NOI_QUY}}` | Phương án 1: "Sở Nội vụ" tỉnh, thành phố nơi Công ty đăng ký kinh doanh; hoặc cơ quan chuyên môn về nội vụ cấp xã nếu được Sở ủy quyền. Doanh nghiệp trong khu công nghiệp, khu kinh tế: hỏi Ban quản lý khu. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** |
+| `{{NGAY_HIEU_LUC}}` | Chỉ dùng ở Phương án 2 (dưới 10 người lao động) |
 | `{{KHU_VUC_CAMERA_NOI_LAM_VIEC}}`, `{{KHU_VUC_NHAN_DIEN_KHUON_MAT}}` | Lấy từ sơ đồ lắp đặt (K1, K8). Ghi cụ thể: "xưởng A, kho thành phẩm, hành lang tầng 2" |
 | `{{MUC_DICH_GIAM_SAT_NOI_LAM_VIEC}}` | Chỉ ghi mục đích thực sự cần. Không ghi "đánh giá năng suất" nếu không có đánh giá riêng về tính cần thiết |
 | `{{THOI_HAN_*}}` | Lấy từ K4. Thời hạn xem xét lại (`{{THOI_HAN_DE_NGHI_XEM_XET_LAI}}`, `{{THOI_HAN_XEM_XET_LAI}}`) do khách hàng tự đặt — văn bản trong `sources/` không quy định số ngày; gợi ý không dài hơn kỳ trả lương |
-| `{{THOI_HAN_LUU_NHAT_KY_CHAM_CONG}}` | **[CẦN ĐỐI CHIẾU]** pháp luật lao động, kế toán, thuế — không tự đặt số năm |
+| `{{THOI_HAN_LUU_BANG_CHAM_CONG}}` | Bảng chấm công tổng hợp tháng là tài liệu kế toán. **Tối thiểu 05 năm** (Luật Kế toán 88/2015/QH13 Đ41.5.a; NĐ 174/2016/NĐ-CP Đ12) khi bảng chỉ dùng cho quản lý, không trực tiếp ghi sổ. **Khuyến nghị 10 năm** (Đ41.5.b; NĐ 174 Đ13.1) khi bảng lưu kèm bộ chứng từ lương, là căn cứ trực tiếp tính lương, làm thêm giờ; mức này cũng khớp khoảng truy thu thuế 10 năm. Tính từ ngày kết thúc kỳ kế toán năm. Hỏi kế toán trưởng hoặc kiểm toán viên của khách hàng. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** |
+| `{{THOI_HAN_LUU_NHAT_KY_CHAM_CONG}}` | Nhật ký thô (từng lượt vào, ra). **Không có con số luật định** — giá trị nội bộ; gợi ý **24 tháng kể từ ngày kết thúc kỳ trả lương**. Lý do: thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm, tính **từ ngày phát hiện** hành vi vi phạm, không phải từ ngày trả lương (BLLĐ Đ190.3). Khách hàng có thể chọn 12–36 tháng nhưng phải ghi lý do. Nếu **không lập bảng tổng hợp** mà tính lương thẳng từ nhật ký thì nhật ký là chứng từ kế toán — dùng giá trị của `{{THOI_HAN_LUU_BANG_CHAM_CONG}}`. Ghi thời hạn vào Điều 9 và Phụ lục HĐLĐ để thành "thời hạn đã thỏa thuận" (Luật 91 Đ25.2.b–c): nội quy do Công ty ban hành một phía, nên với người lao động hiện có, ký Phụ lục HĐLĐ khoản 4 là bằng chứng thỏa thuận chắc hơn. Lưu quá thời hạn đã thỏa thuận là vi phạm (NĐ 330 Đ61.2.a). **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** với BLLĐ Đ190 |
 | `{{CHUC_DANH_DUOC_XEM_LAI_VIDEO}}`, `{{CHUC_DANH_PHE_DUYET_TRICH_XUAT}}` | Chức danh, không ghi tên người. Khớp với phân quyền đã cấu hình trên VMS |
 | `{{...}}` chữ thường | Chọn một phương án, xóa phương án còn lại. Dòng *(M3/M4)* xóa nếu dữ liệu chỉ lưu tại chỗ |
 
@@ -256,7 +298,8 @@ Tôi xác nhận:
 
 | Bằng chứng | Mục đích |
 |---|---|
-| Quyết định và Quy định đã ký; văn bản tham khảo ý kiến tổ chức đại diện người lao động; hồ sơ đăng ký nội quy (nếu thuộc diện) | Chứng minh người lao động biết rõ biện pháp (Luật 91 Đ25.3.a; NĐ 330 Đ61.2.c) |
+| Quyết định và Quy định đã ký; văn bản tham khảo ý kiến tổ chức đại diện người lao động; hồ sơ đăng ký nội quy (từ 10 người lao động) và giấy tờ ghi ngày cơ quan nhận đủ hồ sơ | Chứng minh người lao động biết rõ biện pháp (Luật 91 Đ25.3.a; NĐ 330 Đ61.2.c); xác định ngày Quy định có hiệu lực (BLLĐ Đ121) |
+| Phụ lục HĐLĐ đã ký có thỏa thuận thời hạn lưu nhật ký chấm công | Cơ sở lưu nhật ký sau khi nghỉ việc (Luật 91 Đ25.2.b–c; NĐ 330 Đ61.2.a) |
 | Phiếu xác nhận đã được thông báo của từng người lao động; biên bản phổ biến có danh sách người dự | Như trên; người không ký vẫn có bằng chứng đã phổ biến |
 | Ảnh niêm yết sơ đồ camera | Như trên |
 | Sổ yêu cầu xem xét lại kết quả tự động và kết quả xử lý | NĐ 330 Đ67.3.b |

@@ -120,7 +120,7 @@ Dành cho **nhà cung cấp** giải pháp AI vision và **khách hàng** triể
 | [k7-thong-bao-su-co-sinh-trac-hoc.docx](09-ai-vision/k7-thong-bao-su-co-sinh-trac-hoc.docx) | Word | Thông báo sự cố: chủ thể, công khai, Mẫu 08, biên bản xác nhận | Khách hàng | [k7-thong-bao-su-co-sinh-trac-hoc.md](../docs/09-ai-vision/k7-thong-bao-su-co-sinh-trac-hoc.md) |
 | [k8-checklist-trien-khai-ban-giao.docx](09-ai-vision/k8-checklist-trien-khai-ban-giao.docx) | Word | Checklist nghiệm thu tuân thủ, biên bản bàn giao | Kỹ thuật viên và khách hàng | [k8-checklist-trien-khai-ban-giao.md](../docs/09-ai-vision/k8-checklist-trien-khai-ban-giao.md) |
 | [k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.docx](09-ai-vision/k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.docx) | Word | Cung cấp video cho cơ quan có thẩm quyền; biên bản giao nhận | Khách hàng | [k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md](../docs/09-ai-vision/k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md) |
-| [k10-hoi-dap-khach-hang.docx](09-ai-vision/k10-hoi-dap-khach-hang.docx) | Word | 20 câu hỏi đáp cho khách hàng | Nhà cung cấp → khách hàng | [k10-hoi-dap-khach-hang.md](../docs/09-ai-vision/k10-hoi-dap-khach-hang.md) |
+| [k10-hoi-dap-khach-hang.docx](09-ai-vision/k10-hoi-dap-khach-hang.docx) | Word | 21 câu hỏi đáp cho khách hàng | Nhà cung cấp → khách hàng | [k10-hoi-dap-khach-hang.md](../docs/09-ai-vision/k10-hoi-dap-khach-hang.md) |
 | [p1-phieu-danh-gia-nhanh-khach-hang.docx](09-ai-vision/p1-phieu-danh-gia-nhanh-khach-hang.docx) | Word | Phiếu đánh giá nhanh trước báo giá, xếp mức hỗ trợ | Nhà cung cấp (bán hàng) | [p1-phieu-danh-gia-nhanh-khach-hang.md](../docs/09-ai-vision/p1-phieu-danh-gia-nhanh-khach-hang.md) |
 
 ## Cập nhật bộ mẫu

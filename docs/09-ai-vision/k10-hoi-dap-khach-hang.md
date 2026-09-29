@@ -1,6 +1,6 @@
 # Mẫu Hỏi đáp cho khách hàng về bảo vệ dữ liệu cá nhân khi dùng camera và nhận diện (K10)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ49, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71 · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ49, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71; Luật Kế toán 88/2015/QH13 Đ41.5; BLLĐ 2019 Đ190; văn bản chuyên ngành về thời hạn lưu hình ảnh (bảng tại K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -10,7 +10,7 @@
 
 **Mô hình:** câu 15 trả lời khác nhau theo M1–M5. Nhà cung cấp chưa chốt mô hình thì giữ cả bảng; đã chốt thì xóa dòng không áp dụng.
 
-**Cập nhật:** rà soát khi có văn bản mới về trí tuệ nhân tạo, quy chuẩn camera, thời hạn lưu hồ sơ lao động (vùng xám V9) và khi NQ 22 hết hiệu lực (sau 01/3/2027).
+**Cập nhật:** rà soát khi có văn bản mới về trí tuệ nhân tạo; khi có toàn văn các văn bản về quy chuẩn camera, thời hạn lưu hình ảnh theo ngành, thời hạn lưu chấm công (vùng xám V9 — câu 5, câu 8, câu 21 hiện dựa trên nguồn thứ cấp); và khi NQ 22 hết hiệu lực (sau 01/3/2027).
 
 Các câu trả lời có dấu **[CẦN ĐỐI CHIẾU]** là cách hiểu thận trọng của bộ khung; giữ nguyên dấu này khi giao cho khách hàng.
 
@@ -60,9 +60,11 @@ Luật cho phép ghi âm, ghi hình tại nơi công cộng theo cùng điều k
 
 **Câu 5. Lưu video camera bao lâu là đúng luật?**
 
-Luật **không đặt con số cố định**. Video ghi tại nơi công cộng chỉ được lưu trong thời gian **cần thiết cho mục đích** thu thập, trừ khi luật khác quy định, rồi phải xóa. Doanh nghiệp tự quyết định và ghi lý do trong Chính sách lưu trữ, xóa. Nhà cung cấp gợi ý mặc định 30 ngày cho video an ninh — đây là gợi ý vận hành, không phải quy định. Lưu quá thời gian cần thiết: phạt 20–40 triệu đồng và buộc xóa. Một số ngành có thể có quy định riêng về lưu hình ảnh (ngân hàng, kho bạc, cơ sở đặc thù) — **[CẦN ĐỐI CHIẾU]** văn bản chuyên ngành.
+Luật **không đặt con số chung**. Không có văn bản nào quy định thời hạn lưu video chung cho doanh nghiệp, văn phòng, nhà máy, tòa nhà, cửa hàng. Video ghi tại nơi công cộng chỉ được lưu trong thời gian **cần thiết cho mục đích** thu thập, trừ khi luật khác quy định, rồi phải xóa. Doanh nghiệp tự quyết định và ghi lý do trong Chính sách lưu trữ, xóa. Nhà cung cấp gợi ý mặc định 30 ngày cho video an ninh — đây là gợi ý vận hành, không phải quy định. Lưu quá thời gian cần thiết: phạt 20–40 triệu đồng và buộc xóa.
 
-*Căn cứ:* khoản 3 Điều 3, khoản 4 Điều 32 Luật BVDLCN; điểm c khoản 1 Điều 39 Nghị định 330. Mẫu: K4.
+**Ngoại lệ — ngành có thời hạn tối thiểu riêng** cho nhóm camera thuộc phạm vi quy định: doanh nghiệp chế xuất (camera cổng, kho: 12 tháng, kết nối với hải quan); kho ngoại quan (12 tháng); địa điểm thu gom hàng lẻ (06 tháng); máy ATM (100 ngày); casino (06 tháng); trạm thu phí đường bộ (video làn, ảnh phương tiện 05 năm); xe ô tô kinh doanh vận tải (theo quy định về thiết bị giám sát hành trình). Doanh nghiệp thuộc các ngành này không dùng mức 30 ngày cho nhóm camera đó. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** — thời hạn ngành trích từ nguồn thứ cấp; đối chiếu văn bản gốc trước khi áp dụng.
+
+*Căn cứ:* khoản 3 Điều 3, khoản 4 Điều 32 Luật BVDLCN; điểm c khoản 1 Điều 39 Nghị định 330. Văn bản ngành: Điều 28a Nghị định số 134/2016/NĐ-CP; Nghị định số 68/2016/NĐ-CP (sửa đổi bởi Nghị định số 67/2020/NĐ-CP); Thông tư số 36/2012/TT-NHNN (sửa đổi bởi Thông tư số 20/2016/TT-NHNN); Nghị định số 03/2017/NĐ-CP; Thông tư số 34/2024/TT-BGTVT. Mẫu: K4.
 
 ## C. Nhận diện khuôn mặt cho nhân viên
 
@@ -85,13 +87,14 @@ Kết quả tự động bất lợi (đi muộn, vắng mặt, bị từ chối
 | Dữ liệu | Xử lý |
 |---|---|
 | Dữ liệu khuôn mặt (template, ảnh đăng ký) trên máy chủ, mọi đầu đọc, cloud, bản sao lưu | **Xóa** — luật buộc xóa dữ liệu người lao động khi chấm dứt hợp đồng |
-| Nhật ký, bảng chấm công | Giữ theo thời hạn pháp luật lao động, kế toán quy định (**[CẦN ĐỐI CHIẾU]** — văn bản chưa có trong bộ nguồn), hết hạn thì xóa |
+| Bảng chấm công tổng hợp tháng (không chứa ảnh, dữ liệu khuôn mặt) | **Giữ** — là tài liệu kế toán: tối thiểu 05 năm, khuyến nghị 10 năm, kể từ ngày kết thúc kỳ kế toán năm; hết hạn thì hủy **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** |
+| Nhật ký chấm công thô (từng lượt vào, ra) | Giữ theo thời hạn doanh nghiệp đã **thỏa thuận** với người lao động trong nội quy, phụ lục hợp đồng lao động (nhà cung cấp gợi ý 24 tháng kể từ kỳ trả lương); pháp luật không đặt con số; hết hạn thì xóa. Không có thỏa thuận thì phải xóa khi chấm dứt hợp đồng |
 | Video camera có hình nhân viên | Xóa theo vòng lưu thông thường |
 | Tài khoản, quyền truy cập hệ thống camera | Thu hồi ngay |
 
 Không xóa dữ liệu người lao động khi chấm dứt hợp đồng: phạt 50–70 triệu đồng.
 
-*Căn cứ:* điểm b, c khoản 2 Điều 25 Luật BVDLCN; điểm a, b khoản 2 Điều 61 Nghị định 330. Mẫu: K4.
+*Căn cứ:* điểm b, c khoản 2 Điều 25 Luật BVDLCN; điểm a, b khoản 2 Điều 61 Nghị định 330; khoản 5 Điều 41 Luật Kế toán số 88/2015/QH13; Điều 190 Bộ luật Lao động số 45/2019/QH14 (thời hiệu tranh chấp lao động — lý do của mức 24 tháng). Mẫu: K3, K4.
 
 ## D. Nhận diện khách, danh sách đen
 
@@ -192,6 +195,16 @@ Nếu thiết bị xử lý **ẩn danh tại chỗ** — không nhận dạng, 
 
 *Căn cứ:* khoản 1 Điều 2 Luật BVDLCN (dữ liệu đã khử nhận dạng không còn là dữ liệu cá nhân); điểm a khoản 2 Điều 71 Nghị định 330.
 
+## H. Thiết bị
+
+**Câu 21. Camera nhập khẩu có phải hợp quy không?**
+
+**Có, theo thông tin tra cứu — chưa xác minh đầy đủ.** Từ 01/07/2026, thiết bị camera giám sát sử dụng giao thức Internet phải đáp ứng QCVN 11:2026/BCA (ban hành kèm Thông tư số 48/2026/TT-BCA ngày 12/5/2026, thay QCVN 135:2024/BTTTT). Theo nguồn thứ cấp, Thông tư số 125/2026/TT-BCA xếp camera giám sát, camera nhận dạng vào danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình. Khi đó nhà sản xuất, nhà nhập khẩu phải **công bố hợp quy** và gắn **dấu hợp quy CR** trước khi đưa thiết bị ra thị trường. Thiết bị lắp trên xe kinh doanh vận tải theo quy chuẩn riêng QCVN 06:2024/BCA.
+
+Chưa xác minh: đầu đọc khuôn mặt, camera biển số, đầu ghi có thuộc danh mục không; tự công bố hay phải có chứng nhận của tổ chức được chỉ định; hàng đã nhập trước 01/07/2026 xử lý thế nào. Nghĩa vụ hợp quy thuộc nhà sản xuất, nhà nhập khẩu. Doanh nghiệp mua, lắp camera nên yêu cầu nhà cung cấp giao bản công bố hợp quy, giấy chứng nhận hoặc kết quả thử nghiệm của từng model.
+
+*Căn cứ:* Thông tư số 48/2026/TT-BCA; Thông tư số 125/2026/TT-BCA — **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**. Mẫu: K8 mục B21; B4.
+
 <p align="center"><i>Liên hệ hỗ trợ tuân thủ của {{TEN_NHA_CUNG_CAP}}: {{NHAN_SU_BVDLCN_NCC}} — {{EMAIL_BVDLCN_NCC}} — {{DIEN_THOAI_BVDLCN_NCC}} — {{WEBSITE_NCC}}</i></p>
 
 ## Hướng dẫn điền
@@ -200,6 +213,7 @@ Nếu thiết bị xử lý **ẩn danh tại chỗ** — không nhận dạng, 
 2. Câu 11, câu 16: thời hạn lấy từ NĐ 356 Đ5 và Đ29 — không sửa.
 3. Khi khách hàng hỏi thêm câu mới, bổ sung vào cuối mục tương ứng, giữ cấu trúc: trả lời ngắn → điều kiện → mức phạt → căn cứ → mẫu liên quan.
 4. Trước khi đăng công khai: rà lại các dấu **[CẦN ĐỐI CHIẾU]**; khi đã có kết luận thì thay bằng câu trả lời chính thức.
+5. Câu 5 (thời hạn ngành), câu 8 (thời hạn chấm công), câu 21 (hợp quy camera) dựa trên nguồn thứ cấp tra cứu ngày 29/09/2026. Khi đã có toàn văn trong `sources/`, sửa con số, số điều cho khớp và bỏ nhãn.
 
 ## Bằng chứng cần lưu
 

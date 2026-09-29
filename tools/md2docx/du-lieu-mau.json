@@ -1498,7 +1498,7 @@
       "THOI_HAN_LUU_TEMPLATE_KHACH": "24 giờ sau khi khách ra về",
       "THOI_HAN_LUU_DU_LIEU_KHACH": "90 ngày",
       "THOI_HAN_LUU_NHAT_KY_RA_VAO": "12 tháng",
-      "THOI_HAN_LUU_NHAT_KY_CHAM_CONG": "Theo quy định pháp luật lao động, kế toán (cần đối chiếu)",
+      "THOI_HAN_LUU_NHAT_KY_CHAM_CONG": "24 tháng kể từ ngày kết thúc kỳ trả lương",
       "THOI_HAN_LUU_NHAT_KY_DIEM_DANH": "Hết năm học",
       "THOI_HAN_LUU_BIEN_SO": "Xe vãng lai 30 ngày; xe đăng ký trong thời hạn vé tháng",
       "THOI_HAN_LUU_NHAT_KY": "12 tháng",
@@ -1832,8 +1832,7 @@
       "NGAY_DANG_THONG_BAO_CONG_KHAI": "04/11/2026",
       "TAI_LIEU_KEM_THEO_SU_CO": "báo cáo kỹ thuật của nhà cung cấp",
       "TEN_DOI_TAC_DICH_VU_BVDLCN": "Công ty Luật TNHH Đối tác Mẫu",
-      "CAN_CU_PHAP_LUAT_LAO_DONG": "Bộ luật Lao động (cần đối chiếu)",
-      "CAN_CU_LUU_CHAM_CONG": "pháp luật lao động, kế toán (cần đối chiếu)",
+      "CAN_CU_LUU_CHAM_CONG": "khoản 5 Điều 41 Luật Kế toán; Điều 12, 13 Nghị định số 174/2016/NĐ-CP (cần đối chiếu)",
       "BIEN_PHAP_GIAM_SAI_LECH": "bổ sung dữ liệu huấn luyện cho nhóm có tỷ lệ từ chối nhầm cao; hiệu chỉnh ngưỡng theo khu vực",
       "BO_DU_LIEU_KIEM_THU": "bộ dữ liệu kiểm thử nội bộ (mô phỏng)",
       "CHU_KY_DANG_KY_LAI_HOC_SINH": "mỗi năm học",
@@ -1895,7 +1894,12 @@
       "NHAN_NHAM_NGUOI_LA_2": "Chưa kiểm thử",
       "THOI_HAN_XOA_TAP_TINH_CHINH": "07 ngày",
       "SO_NGUOI_DO_THU": "20",
-      "SO_LUOT_THU_NGUOI_LA": "50"
+      "SO_LUOT_THU_NGUOI_LA": "50",
+      "THOI_HAN_LUU_BANG_CHAM_CONG": "10 năm kể từ ngày kết thúc kỳ kế toán năm",
+      "CO_QUAN_DANG_KY_NOI_QUY": "Sở Nội vụ TP. Hồ Chí Minh",
+      "THOI_HAN_LUU_VIDEO_NGANH": "Không áp dụng (khách hàng không thuộc ngành có thời hạn tối thiểu)",
+      "CAN_CU_THOI_HAN_TOI_THIEU_NGANH": "Không áp dụng",
+      "NHOM_CAMERA_THEO_QUY_DINH_NGANH": "Không có"
     }
   }
 }

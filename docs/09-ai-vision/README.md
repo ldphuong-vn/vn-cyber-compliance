@@ -62,7 +62,7 @@ B5 (ma trận tính năng ↔ điều khoản) nằm trong bản thảo luận m
 | K7 | [k7-thong-bao-su-co-sinh-trac-hoc.md](k7-thong-bao-su-co-sinh-trac-hoc.md) | Thông báo sự cố cho chủ thể, thông báo công khai, Mẫu 08, biên bản xác nhận vi phạm |
 | K8 | [k8-checklist-trien-khai-ban-giao.md](k8-checklist-trien-khai-ban-giao.md) | Checklist 44 mục nghiệm thu tuân thủ; biên bản bàn giao |
 | K9 | [k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md](k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md) | Cung cấp video cho cơ quan có thẩm quyền; biên bản giao nhận; sổ theo dõi |
-| K10 | [k10-hoi-dap-khach-hang.md](k10-hoi-dap-khach-hang.md) | 20 câu hỏi đáp thường gặp |
+| K10 | [k10-hoi-dap-khach-hang.md](k10-hoi-dap-khach-hang.md) | 21 câu hỏi đáp thường gặp |
 
 ### P — Công cụ bán hàng
 

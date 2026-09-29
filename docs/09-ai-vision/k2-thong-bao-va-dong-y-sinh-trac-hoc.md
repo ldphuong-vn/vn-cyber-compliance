@@ -1,6 +1,6 @@
 # Mẫu Thông báo và văn bản đồng ý xử lý dữ liệu sinh trắc học (nhận diện khuôn mặt)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9, Đ10, Đ11.1, Đ14.1, Đ24, Đ25.2.c, Đ25.3, Đ31.2, Đ31.4, Đ39.1; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.2, Đ6, Đ10.3, Đ23.7; NĐ 330/2026/NĐ-CP Đ43, Đ45, Đ60, Đ61.2, Đ67.2.a–b, Đ67.3.b, Đ70.2.b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9, Đ10, Đ11.1, Đ14.1, Đ24, Đ25.2.b–c, Đ25.3, Đ31.2, Đ31.4, Đ39.1; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.2, Đ6, Đ10.3, Đ23.7; NĐ 330/2026/NĐ-CP Đ43, Đ45, Đ60, Đ61.2, Đ67.2.a–b, Đ67.3.b, Đ70.2.b; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -101,7 +101,11 @@ Dữ liệu **không** được dùng cho mục đích nào khác ngoài mục �
 |---|---|---|
 | Ảnh đăng ký, đặc trưng khuôn mặt | Trong thời gian anh/chị làm việc | Trong {{SO_NGAY_XOA_KHI_NGHI_VIEC}} ngày kể từ ngày chấm dứt hợp đồng lao động, hoặc khi anh/chị rút lại sự đồng ý |
 | Ảnh chụp tại thời điểm nhận diện | {{THOI_HAN_LUU_ANH_SU_KIEN}} | Tự động xóa khi hết hạn |
-| Nhật ký ra vào, chấm công (không chứa đặc trưng khuôn mặt) | {{THOI_HAN_LUU_NHAT_KY_CHAM_CONG}} | Theo chính sách lưu trữ của {{TEN_KHACH_HANG}} |
+| Nhật ký ra vào (không chứa đặc trưng khuôn mặt) | {{THOI_HAN_LUU_NHAT_KY_RA_VAO}} | Tự động xóa khi hết hạn |
+| Nhật ký chấm công — từng lượt ghi nhận (không chứa đặc trưng khuôn mặt) | {{THOI_HAN_LUU_NHAT_KY_CHAM_CONG}} kể từ ngày kết thúc kỳ trả lương | Khi hết thời hạn đã thỏa thuận tại Nội quy lao động, phụ lục hợp đồng lao động, kể cả sau khi anh/chị nghỉ việc |
+| Bảng chấm công tổng hợp tháng (không chứa ảnh, đặc trưng khuôn mặt) | {{THOI_HAN_LUU_BANG_CHAM_CONG}} kể từ ngày kết thúc kỳ kế toán năm | Khi hết thời hạn lưu tài liệu kế toán theo khoản 5 Điều 41 Luật Kế toán số 88/2015/QH13 |
+
+Xóa dữ liệu khuôn mặt khi anh/chị nghỉ việc hoặc rút lại sự đồng ý **không** xóa nhật ký chấm công và bảng chấm công; hai loại này được lưu tách riêng theo thời hạn trên.
 
 ### 6. Quyền của anh/chị
 
@@ -214,7 +218,7 @@ Tôi hiểu rằng việc rút lại không ảnh hưởng tới hoạt động 
 
 1. **Chọn biến thể** theo đối tượng; xóa các biến thể không dùng. Mẫu A thường ban hành kèm điều khoản nội quy lao động ([`k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md`](k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md)). Phiếu xác nhận "đã được thông báo" về camera trong K3 **không thay thế** Mẫu A.
 2. **Dòng "Đơn vị cung cấp dịch vụ xử lý dữ liệu cá nhân"**: bắt buộc khi nhà cung cấp vận hành cloud hoặc vận hành hộ (M3/M4 — NĐ 356 Đ23.7). Với M1 thuần (nhà cung cấp không tiếp cận dữ liệu) có thể bỏ dòng này.
-3. **Thời hạn** tại mục 5 lấy theo chính sách lưu trữ đã ban hành ([`k4-chinh-sach-luu-tru-xoa.md`](k4-chinh-sach-luu-tru-xoa.md)); thời hạn lưu hồ sơ chấm công theo pháp luật lao động, kế toán — **[CẦN ĐỐI CHIẾU]** (chưa có trong bộ nguồn).
+3. **Thời hạn** tại mục 5 lấy theo chính sách lưu trữ đã ban hành ([`k4-chinh-sach-luu-tru-xoa.md`](k4-chinh-sach-luu-tru-xoa.md)); bảng chấm công tổng hợp tháng là tài liệu kế toán: tối thiểu 05 năm, khuyến nghị 10 năm (Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13); nhật ký chấm công thô không có thời hạn luật định — giá trị nội bộ, gợi ý 24 tháng kể từ kỳ trả lương (thời hiệu tranh chấp BLLĐ 2019 Đ190 tính từ ngày phát hiện), phải ghi trong Nội quy, phụ lục HĐLĐ (K3) để thành thời hạn đã thỏa thuận (Luật 91 Đ25.2.b–c). **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**. Nếu mẫu dùng cho nơi không có chấm công, xóa hai dòng chấm công.
 4. **Cấu hình hệ thống khớp với phiếu:** chỉ bật nhận diện cho người có ô "Đồng ý" tương ứng; người chọn "Không đồng ý" được cấp phương thức thay thế trước ngày áp dụng.
 5. **Mẫu C:** dùng ngôn ngữ đơn giản; giải thích cho học sinh phù hợp lứa tuổi. **Xác minh tuổi** bằng hồ sơ học sinh trước khi xử lý (NĐ 330 Đ60.1.a). Học sinh từ đủ 07 tuổi phải cùng đồng ý (NĐ 330 Đ60.1.c) — quy định xử phạt này rộng hơn câu chữ Luật 91 Đ24.2 (Luật chỉ nêu đồng ý của trẻ khi công bố thông tin đời sống riêng tư); bộ khung theo mức chặt hơn. Phần mềm giáo dục có điểm danh, ghi hình là dịch vụ tại NĐ 356 Đ21.5 — nhà cung cấp vận hành hộ phải có Giấy chứng nhận.
 6. **Đưa mẫu đã dùng vào hồ sơ DPIA** (mục II.4 Mẫu 10 NĐ 356: "kèm theo biểu mẫu liên quan").

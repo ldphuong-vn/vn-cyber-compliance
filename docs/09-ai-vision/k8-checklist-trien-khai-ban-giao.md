@@ -1,6 +1,6 @@
 # Mẫu Checklist triển khai và nghiệm thu tuân thủ khi bàn giao (K8)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ3.2, Đ9.2, Đ14.1.b, Đ15.2.a, Đ20.1–20.2, Đ21.1, Đ24.2, Đ25.2.c, Đ25.3.a, Đ30.3–30.4, Đ31.4.a, Đ32.2, Đ32.4, Đ33.2, Đ37.2, Đ38; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.i, Đ4.2, Đ6.1–6.2, Đ10.3, Đ10.5.a, Đ10.5.c, Đ12.4, Đ13, Đ19, Đ23.7, Đ41; NĐ 330/2026/NĐ-CP Đ39.1.c, Đ43.1.a, Đ43.1.g, Đ60.1, Đ61.2.b–d, Đ67.2.b, Đ67.2.e, Đ67.2.g, Đ67.3.b, Đ69.2.b, Đ70.1.c–d, Đ71.1.a–b, Đ71.2.a–b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ9.2, Đ14.1.b, Đ15.2.a, Đ20.1–20.2, Đ21.1, Đ24.2, Đ25.2.c, Đ25.3.a, Đ30.3–30.4, Đ31.4.a, Đ32.2, Đ32.4, Đ33.2, Đ37.2, Đ38; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.i, Đ4.2, Đ6.1–6.2, Đ10.3, Đ10.5.a, Đ10.5.c, Đ12.4, Đ13, Đ19, Đ23.7, Đ41; NĐ 330/2026/NĐ-CP Đ39.1.c, Đ43.1.a, Đ43.1.g, Đ60.1, Đ61.2.b–d, Đ67.2.b, Đ67.2.e, Đ67.2.g, Đ67.3.b, Đ69.2.b, Đ70.1.c–d, Đ71.1.a–b, Đ71.2.a–b; văn bản chuyên ngành về thời hạn lưu hình ảnh (bảng tại K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -37,6 +37,8 @@
 - **V2** — tài khoản hỗ trợ từ xa của nhà cung cấp *(M2)*: mặc định vô hiệu; chỉ bật theo phiên có phê duyệt và nhật ký (mục D5).
 - **V6** — máy chủ cloud ở nước ngoài: mục A9 đánh "Không đạt" nếu chưa có hồ sơ chuyển dữ liệu xuyên biên giới hoặc căn cứ miễn.
 - Các hạng mục kỹ thuật như NTP, phân vùng mạng **không có điều khoản riêng** trong `sources/`; cột căn cứ ghi "Thực hành tốt" và nguyên tắc chung.
+- **Thời hạn lưu theo ngành (A11, B1):** không có quy định chung về thời hạn lưu video; một số ngành có mức sàn riêng (doanh nghiệp chế xuất, kho ngoại quan, CFS, ATM, casino, trạm thu phí, xe kinh doanh vận tải) — xem bảng "Thời hạn tối thiểu theo ngành" trong K4. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**
+- **Hợp quy thiết bị (B21):** theo nguồn thứ cấp, từ 01/07/2026 camera giám sát, camera nhận dạng thuộc danh mục sản phẩm rủi ro trung bình của Bộ Công an, phải công bố hợp quy QCVN 11:2026/BCA và gắn dấu CR (TT 48/2026/TT-BCA; TT 125/2026/TT-BCA). **Chưa xác minh** đầu đọc khuôn mặt, camera biển số, đầu ghi NVR có thuộc danh mục không, và điều khoản chuyển tiếp cho hàng nhập trước 01/07/2026. Vì vậy B21 **chưa** là mục chặn; trở thành mục chặn khi đã xác minh thiết bị thuộc danh mục. **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**
 
 ---
 
@@ -67,12 +69,13 @@
 | A8 | Camera tại nơi làm việc: khách hàng đã ban hành K3 và phổ biến cho người lao động **(chặn)** | Luật 91 Đ25.3.a; NĐ 330 Đ61.2.c | ☐ Đạt ☐ Không ☐ N/A | |
 | A9 | Nơi lưu dữ liệu đã xác định: ☐ tại chỗ ☐ cloud tại Việt Nam ☐ cloud ở nước ngoài. Nếu ở nước ngoài hoặc hỗ trợ từ nước ngoài: đã có hồ sơ chuyển dữ liệu xuyên biên giới hoặc căn cứ miễn | Luật 91 Đ20.1–20.2, Đ20.6 | ☐ Đạt ☐ Không ☐ N/A | Vị trí: {{VI_TRI_MAY_CHU}} |
 | A10 | Đầu ghi, máy chủ, thiết bị lưu dữ liệu khuôn mặt đặt trong phòng, tủ có khóa; danh sách người được vào | Luật 91 Đ31.4.a; NĐ 330 Đ70.1.c | ☐ Đạt ☐ Không ☐ N/A | |
+| A11 | Khách hàng có thuộc ngành có **thời hạn lưu hình ảnh tối thiểu** hoặc **nghĩa vụ kết nối camera** không: doanh nghiệp chế xuất (12 tháng, kết nối hải quan); kho ngoại quan (12 tháng); CFS (06 tháng); ATM (100 ngày); casino (06 tháng); trạm thu phí (video làn, ảnh phương tiện 05 năm); xe kinh doanh vận tải. Nếu có: đã xác định nhóm camera thuộc phạm vi, cấu hình theo K4 dòng 1a, dung lượng lưu trữ đủ cho thời hạn đó; phương án kết nối (doanh nghiệp chế xuất: QĐ 247/QĐ-TCHQ) đã thống nhất với khách hàng | Luật 91 Đ3.3, Đ32.4; văn bản ngành tại K4 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** | ☐ Đạt ☐ Không ☐ N/A | Ngành: ......; thời hạn: ...... |
 
 ## B. Cấu hình
 
 | STT | Hạng mục | Căn cứ | Kết quả | Ghi chú |
 |---|---|---|---|---|
-| B1 | Thời hạn lưu từng loại dữ liệu (video, ảnh sự kiện, nhật ký ra vào, dữ liệu khách, biển số) được cấu hình **đúng K4**; ghi giá trị thực tế vào ghi chú | Luật 91 Đ32.4; NĐ 330 Đ39.1.c | ☐ Đạt ☐ Không ☐ N/A | Video: ...... ngày |
+| B1 | Thời hạn lưu từng loại dữ liệu (video, ảnh sự kiện, nhật ký ra vào, nhật ký chấm công, dữ liệu khách, biển số) được cấu hình **đúng K4** và **không ngắn hơn thời hạn tối thiểu luật định của ngành** (nếu có — mục A11); ghi giá trị thực tế vào ghi chú | Luật 91 Đ3.3 ("trừ trường hợp pháp luật có quy định khác"), Đ32.4; NĐ 330 Đ39.1.c | ☐ Đạt ☐ Không ☐ N/A | Video: ...... ngày; camera theo quy định ngành: ...... |
 | B2 | Mã hóa khi lưu: dữ liệu khuôn mặt, video, bản sao lưu. Mã hóa khi truyền: giữa camera, đầu đọc, đầu ghi, máy chủ, cloud, ứng dụng xem | Luật 91 Đ31.4.a; NĐ 356 Đ12.4; NĐ 330 Đ69.2.b | ☐ Đạt ☐ Không ☐ N/A | *(M3/M4)* bắt buộc với cloud |
 | B3 | Đổi **toàn bộ** mật khẩu mặc định (camera, đầu ghi, đầu đọc, VMS, bộ chuyển mạch, bộ định tuyến); mỗi thiết bị một mật khẩu mạnh **(chặn)** | Luật 91 Đ30.3; NĐ 356 Đ10.5.a; NĐ 330 Đ67.2.e, g | ☐ Đạt ☐ Không ☐ N/A | |
 | B4 | Xác thực nhiều yếu tố cho tài khoản quản trị VMS, nền tảng cloud, truy cập từ xa | Luật 91 Đ30.3; NĐ 330 Đ67.2.g | ☐ Đạt ☐ Không ☐ N/A | |
@@ -94,6 +97,7 @@
 | B18 | Mọi thiết bị đồng bộ thời gian (NTP) cùng một nguồn — thời điểm trên video, nhật ký chính xác để làm chứng cứ và tính mốc 72 giờ khi có sự cố | Thực hành tốt | ☐ Đạt ☐ Không ☐ N/A | Nguồn NTP: ...... |
 | B19 | Sao lưu cấu hình; bản sao lưu dữ liệu mã hóa, có vòng quay theo K4 | Luật 91 Đ31.4.a | ☐ Đạt ☐ Không ☐ N/A | |
 | B20 | *(M3/M4)* Thông báo cho chủ thể (K1, K2) có tên tổ chức cung cấp dịch vụ xử lý | NĐ 356 Đ23.7 | ☐ Đạt ☐ Không ☐ N/A | |
+| B21 | Camera IP, camera nhận dạng, đầu ghi, đầu đọc khuôn mặt có kết nối IP đưa vào lưu hành từ 01/07/2026 đã **công bố hợp quy QCVN 11:2026/BCA** và có **dấu hợp quy CR**; đã lưu bản công bố hợp quy, giấy chứng nhận hoặc kết quả thử nghiệm. Thiết bị lắp trên xe kinh doanh vận tải: hợp quy QCVN 06:2024/BCA **(chặn khi đã xác minh thiết bị thuộc danh mục)** | TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA — nguồn thứ cấp, chưa xác minh phạm vi thiết bị **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** | ☐ Đạt ☐ Không ☐ N/A | Model, số công bố: ...... |
 
 ## C. Dữ liệu
 
@@ -145,7 +149,7 @@ Cùng thống nhất:
 
 1. **Hệ thống bàn giao:** {{TEN_SAN_PHAM}} {{PHIEN_BAN_SAN_PHAM}}; {{SO_LUONG_CAMERA}} camera, {{SO_LUONG_DAU_DOC}} đầu đọc khuôn mặt, {{SO_LUONG_CAMERA_LPR}} camera biển số; mô hình triển khai: ........; nơi lưu dữ liệu: {{VI_TRI_MAY_CHU}}.
 2. **Kết quả kiểm tra** theo Checklist triển khai và nghiệm thu tuân thủ đính kèm: ...... mục Đạt; ...... mục Không đạt; ...... mục N/A.
-3. **Cấu hình đã áp dụng:** thời hạn lưu video ...... ngày; nhật ký ra vào ...... tháng; nhận diện khuôn mặt chỉ bật trên ...... đầu đọc tại ........; nhận diện trên camera giám sát: tắt; phương thức thay thế: {{PHUONG_THUC_THAY_THE}}.
+3. **Cấu hình đã áp dụng:** thời hạn lưu video ...... ngày; camera thuộc quy định ngành (nếu có): ...... tại ........; nhật ký ra vào ...... tháng; nhận diện khuôn mặt chỉ bật trên ...... đầu đọc tại ........; nhận diện trên camera giám sát: tắt; phương thức thay thế: {{PHUONG_THUC_THAY_THE}}.
 4. **Dữ liệu:** đã đăng ký ...... khuôn mặt, tương ứng ...... phiếu đồng ý; đã xóa dữ liệu thử nghiệm; kỹ thuật viên không giữ bản sao dữ liệu.
 5. **Tài liệu đã bàn giao:** ☐ B1 ☐ B2 ☐ B3 ☐ B4 ☐ K1 ☐ K2 ☐ K3 ☐ K4 ☐ K5 ☐ K6 ☐ K7 ☐ K8 ☐ K9 ☐ K10 ☐ Danh sách tài khoản ☐ Ảnh chụp cấu hình.
 6. **Tài khoản:** tài khoản kỹ thuật viên đã vô hiệu hóa lúc ........; mật khẩu quản trị đã giao cho ông/bà ........ và đã được đổi.
@@ -172,4 +176,5 @@ Biên bản lập thành 02 bản, mỗi bên giữ 01 bản.
 | Checklist đã điền và biên bản đã ký | Cả hai bên | Chứng minh hệ thống được cấu hình bảo vệ dữ liệu khi bàn giao (NĐ 330 Đ67.2.e, Đ70.1.c–d) |
 | Ảnh chụp cấu hình, danh sách tài khoản | Khách hàng | Hồ sơ DPIA (NĐ 356 Đ19.3.đ) |
 | Ảnh biển báo, sơ đồ camera | Khách hàng | NĐ 330 Đ71.1.a |
+| Bản công bố hợp quy, giấy chứng nhận hoặc kết quả thử nghiệm QCVN 11:2026/BCA của từng model (B21) | Nhà cung cấp; bản sao cho khách hàng | Chứng minh thiết bị lưu hành hợp quy **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** |
 | Danh sách người dự đào tạo | Cả hai bên | Chứng minh chuyển giao năng lực vận hành |

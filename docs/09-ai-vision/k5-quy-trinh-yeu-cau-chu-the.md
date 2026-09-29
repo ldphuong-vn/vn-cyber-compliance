@@ -1,6 +1,6 @@
 # Mẫu Quy trình tiếp nhận và xử lý yêu cầu của chủ thể dữ liệu đối với hệ thống camera, nhận diện (K5)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ4.3–4.5, Đ10, Đ13, Đ14.1–14.2, Đ14.5, Đ15.2.a, Đ19.1, Đ24.2, Đ37.1.e; NĐ 356/2025/NĐ-CP Đ5, Đ7.6, Đ10.3, Đ10.6; NĐ 330/2026/NĐ-CP Đ7.1, Đ42.2.c, Đ44, Đ45, Đ46, Đ49.1, Đ51.1.a, Đ67.2.b–c, Đ67.3.b, Đ71.1.b, Đ71.4.b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ4.3–4.5, Đ10, Đ13, Đ14.1–14.2, Đ14.5, Đ15.2.a, Đ19.1, Đ24.2, Đ25.2.b–c, Đ37.1.e; NĐ 356/2025/NĐ-CP Đ5, Đ7.6, Đ10.3, Đ10.6; NĐ 330/2026/NĐ-CP Đ7.1, Đ42.2.c, Đ44, Đ45, Đ46, Đ49.1, Đ51.1.a, Đ67.2.b–c, Đ67.3.b, Đ71.1.b, Đ71.4.b; Luật Kế toán 88/2015/QH13 Đ41.5; BLDS 2015 Đ588 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -52,6 +52,10 @@ Lưu ý khi áp dụng:
 - **V2** — hỗ trợ từ xa (M2): nếu nhà cung cấp phải thao tác trên dữ liệu, cần hợp đồng xử lý dữ liệu và ghi nhật ký phiên.
 - Video của **người khác** trong cùng khung hình: cung cấp nguyên bản có thể xâm phạm quyền của họ (Luật 91 Đ15.2.a). Quy trình yêu cầu làm mờ; nếu không làm mờ được, cho xem tại chỗ hoặc cung cấp ảnh tĩnh đã cắt.
 - Cung cấp cho chính chủ thể theo yêu cầu **không phải là chuyển giao** dữ liệu (NĐ 356 Đ7.6), không cần thỏa thuận chuyển giao.
+- **Yêu cầu xóa dữ liệu chấm công** (mục 7.2, mục 8): tách hai loại.
+  - **Bảng chấm công tổng hợp tháng, bảng lương, chứng từ kế toán khác** phải lưu theo Luật Kế toán 88/2015/QH13 Đ41.5 (tối thiểu 05 năm; 10 năm với chứng từ dùng trực tiếp ghi sổ) **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**. Luật 91 cho xóa khi "hết thời hạn lưu trữ theo quy định của pháp luật" (Đ14.1.c) và không thực hiện yêu cầu xóa trong trường hợp tại Đ19 hoặc khi việc xóa vi phạm Đ4.3 (Đ14.2). Bộ khung hiểu: xóa chứng từ còn trong thời hạn lưu làm cản trở nghĩa vụ pháp lý của Công ty (Đ4.3.b) và thuộc "trường hợp khác theo quy định của pháp luật" (Đ19.1.đ).
+  - **Nhật ký chấm công thô** không có thời hạn luật định. Chỉ giữ được nhờ **thỏa thuận** ghi thời hạn trong nội quy, phụ lục HĐLĐ (Luật 91 Đ25.2.b; Đ19.1.d) — mẫu K3 Điều 9 và Phụ lục HĐLĐ khoản 4. Không có thỏa thuận thì xóa theo yêu cầu, và phải xóa khi chấm dứt hợp đồng (Đ25.2.c). Đây là cách hiểu của bộ khung.
+  - Cả hai trường hợp: thông báo cho người yêu cầu phần được giữ lại và lý do (Luật 91 Đ14.5).
 
 ---
 
@@ -132,7 +136,11 @@ Thời hạn theo Điều 5 Nghị định số 356/2025/NĐ-CP, tính theo ngà
 
 7.1. **Rút lại sự đồng ý, phản đối xử lý tự động:** cấp phương thức thay thế ({{PHUONG_THUC_THAY_THE}}) **ngay trong ngày**; ngừng nhận diện; xóa template theo mục 7.2. Không có bất lợi nào cho người yêu cầu (khoản 3 Điều 10 Nghị định số 356/2025/NĐ-CP).
 
-7.2. **Xóa template:** xóa trên máy chủ, **đồng bộ xóa trên mọi đầu đọc**, xóa ảnh đăng ký (nếu có); kiểm tra người đó không còn được nhận diện; ghi nhật ký. Nhật ký chấm công phải lưu theo luật không bị xóa theo yêu cầu này; thông báo cho người yêu cầu phần được giữ lại và lý do.
+7.2. **Xóa template:** xóa trên máy chủ, **đồng bộ xóa trên mọi đầu đọc**, xóa ảnh đăng ký (nếu có); kiểm tra người đó không còn được nhận diện; ghi nhật ký. Yêu cầu này không kéo theo xóa dữ liệu chấm công:
+
+- Bảng chấm công tổng hợp tháng là tài liệu kế toán, được lưu theo khoản 5 Điều 41 Luật Kế toán số 88/2015/QH13 và chỉ xóa, hủy khi hết thời hạn lưu trữ theo quy định của pháp luật (điểm c khoản 1 Điều 14 Luật Bảo vệ dữ liệu cá nhân).
+- Nhật ký chấm công được giữ đến hết thời hạn đã thỏa thuận với người lao động (điểm b khoản 2 Điều 25 Luật Bảo vệ dữ liệu cá nhân).
+- Thông báo cho người yêu cầu phần được giữ lại, lý do và thời điểm sẽ xóa (khoản 5 Điều 14 Luật Bảo vệ dữ liệu cá nhân).
 
 7.3. **Xem xét lại kết quả tự động bất lợi:** người xem xét không phải là người đã vận hành thiết bị tại thời điểm đó; đối chiếu nhật ký thiết bị, điểm so khớp, camera giám sát, xác nhận của quản lý; nếu hệ thống sai thì sửa nhật ký, bảng công và báo nhà cung cấp để kiểm tra thiết bị. Kết quả gửi người yêu cầu bằng văn bản.
 
@@ -145,7 +153,8 @@ Thời hạn theo Điều 5 Nghị định số 356/2025/NĐ-CP, tính theo ngà
 | Việc cung cấp có thể gây tổn hại quốc phòng, an ninh, trật tự, an toàn xã hội hoặc xâm phạm tính mạng, sức khỏe, tài sản của người khác | Cung cấp | Điểm a khoản 2 Điều 15 Luật Bảo vệ dữ liệu cá nhân |
 | Yêu cầu nhằm gian lận, trốn tránh nghĩa vụ; chỉnh sửa xâm phạm quyền của người khác | Chỉnh sửa | Khoản 3 Điều 46 Nghị định số 330/2026/NĐ-CP |
 | Yêu cầu không nhằm bảo vệ quyền của chính chủ thể, vượt quá phạm vi cần thiết, cản trở hoạt động hợp pháp của Công ty | Mọi loại | Khoản 3 Điều 4 Luật Bảo vệ dữ liệu cá nhân; điểm c khoản 2 Điều 42 Nghị định số 330/2026/NĐ-CP |
-| Pháp luật buộc lưu (nhật ký chấm công, chứng từ) | Xóa | Điểm b khoản 2 Điều 25 Luật Bảo vệ dữ liệu cá nhân |
+| Pháp luật buộc lưu và chưa hết thời hạn: bảng chấm công tổng hợp tháng, bảng lương, chứng từ kế toán khác | Xóa | Khoản 2 Điều 14 (dẫn điểm đ khoản 1 Điều 19, điểm b khoản 3 Điều 4), điểm c khoản 1 Điều 14, điểm b khoản 2 Điều 25 Luật Bảo vệ dữ liệu cá nhân; khoản 5 Điều 41 Luật Kế toán số 88/2015/QH13 |
+| Nhật ký chấm công còn trong thời hạn đã thỏa thuận với người lao động tại Nội quy lao động, phụ lục hợp đồng lao động | Xóa | Điểm b khoản 2 Điều 25; điểm d khoản 1 Điều 19, khoản 2 Điều 14 Luật Bảo vệ dữ liệu cá nhân. Không có thỏa thuận thì không áp dụng dòng này |
 | Không xác minh được người yêu cầu | Mọi loại | Mục 5 |
 
 Mọi trường hợp từ chối hoặc chỉ thực hiện một phần đều phải **thông báo lý do bằng văn bản** cho người yêu cầu (khoản 3 Điều 13, khoản 5 Điều 14 Luật Bảo vệ dữ liệu cá nhân).
@@ -237,7 +246,7 @@ Mọi thắc mắc xin liên hệ {{NHAN_SU_BVDLCN_KH}} — {{DIEN_THOAI_BVDLCN_
 |---|---|
 | `{{DAU_MOI_TIEP_NHAN_YEU_CAU_KH}}`, `{{URL_THONG_BAO_CAMERA}}` | Giống K1. Đầu mối phải trả lời được điện thoại trong giờ hành chính |
 | `{{SO_NGAY_DU_PHONG_NCC}}` | Gợi ý 03–05 ngày. Ghi cùng giá trị vào hợp đồng xử lý dữ liệu với nhà cung cấp |
-| `{{THOI_HAN_LUU_HO_SO_YEU_CAU}}` | Khách hàng tự quyết định; gợi ý 03 năm để chứng minh việc thực hiện quyền khi bị kiểm tra, khiếu nại. **[CẦN ĐỐI CHIẾU]** thời hiệu khiếu nại, khởi kiện |
+| `{{THOI_HAN_LUU_HO_SO_YEU_CAU}}` | Khách hàng tự quyết định; gợi ý 03 năm để chứng minh việc thực hiện quyền khi bị kiểm tra, khiếu nại. Mức này khớp thời hiệu khởi kiện yêu cầu bồi thường thiệt hại 03 năm kể từ ngày biết quyền bị xâm phạm (BLDS 2015 Đ588) **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** |
 | Các chỗ đánh dấu *(M2–M4)* | Xóa nếu khách tự vận hành toàn bộ (M1) |
 | Sổ theo dõi | Nên dùng bảng tính có công thức tính hạn; tô màu yêu cầu còn ≤ 02 ngày đến hạn |
 
