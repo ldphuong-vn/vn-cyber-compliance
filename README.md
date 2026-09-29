@@ -28,7 +28,7 @@ Cần lưu ý thêm:
 - **Văn bản còn mới, chưa đủ hướng dẫn.** Luật 116/2025 và các NĐ 330, 331, 333/2026 mới có hiệu lực; nhiều thông tư, biểu mẫu của Bộ Công an chưa ban hành. Hướng dẫn chính thức có thể khác cách hiểu của bộ khung.
 - **Phạm vi có giới hạn.** Bộ khung không bao quát quy định chuyên ngành (ngân hàng, viễn thông, y tế, chứng khoán…), bảo vệ bí mật nhà nước, hay thủ tục riêng của HTTT quan trọng về an ninh quốc gia. HTTT cấp 4–5 cần làm việc trực tiếp với Bộ Công an.
 - **Nguồn văn bản.** Một số toàn văn trong `sources/` lấy từ trang pháp luật công khai. Trước khi trích dẫn chính thức, đối chiếu Công báo hoặc bản do cơ quan ban hành công bố.
-- **Mẫu là khung tham khảo.** Phải điều chỉnh theo cơ cấu, Điều lệ, quy chế nội bộ và hệ thống thực tế của tổ chức. Dữ liệu mẫu là **mô phỏng**, chỉ tên công ty TURBO là thật.
+- **Mẫu là khung tham khảo.** Phải điều chỉnh theo cơ cấu, Điều lệ, quy chế nội bộ và hệ thống thực tế của tổ chức. Bộ khung **dùng chung** cho mọi tổ chức, không dành riêng cho TURBO. Dữ liệu mẫu là **use-case minh họa, mô phỏng**: chỉ tên công ty TURBO là thật; quy mô, cơ cấu, hệ thống, số liệu, người ký đều giả định và không phản ánh TURBO thực tế.
 - **Có thể còn sai sót.** Nội dung được soạn với sự hỗ trợ của AI (Claude Code) và đã rà soát chéo với văn bản gốc, nhưng vẫn có thể sai. Mỗi trang ghi ngày "Đối chiếu văn bản gốc"; gặp lỗi xin báo qua [Issue](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new/choose).
 - **Bản tiếng Anh** trong [`en/`](en/README.md) là bản hướng dẫn không chính thức; bản tiếng Việt và văn bản gốc có giá trị.
 - **Không bảo đảm, không chịu trách nhiệm.** Bộ khung phát hành "nguyên trạng" theo Apache License 2.0. Người dùng tự chịu trách nhiệm về quyết định và hồ sơ của mình.
