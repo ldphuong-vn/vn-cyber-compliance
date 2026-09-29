@@ -1,6 +1,6 @@
 # Mẫu Bộ thông báo sự cố dữ liệu sinh trắc học, vị trí (K7)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ23, Đ31.2, Đ31.4.b, Đ37.1.d, Đ37.2.e; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ4.1.h, Đ28, Đ29, Đ39.1, Mẫu số 08; NĐ 330/2026/NĐ-CP Đ7.1, Đ54, Đ70.1.đ–h; NQ 22/2026/NQ-CP Phụ lục I.7 · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ23, Đ31.2, Đ31.4.b, Đ37.1.d, Đ37.2.e; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ4.1.h, Đ28, Đ29, Đ39.1, Mẫu số 08; NĐ 330/2026/NĐ-CP Đ7.1, Đ54, Đ70.1.đ–h; NQ 22/2026/NQ-CP Phụ lục I.7; Luật 134/2025/QH15 Đ3.5, Đ3.8, Đ12.2.b, Đ12.4; NĐ 142/2026/NĐ-CP Đ19, Đ46.1, Phụ lục Mẫu AI01a · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -25,6 +25,29 @@
 **Nơi gửi thông báo cho cơ quan chuyên trách:** Cơ quan chuyên trách bảo vệ dữ liệu cá nhân là đơn vị thuộc Bộ Công an (NĐ 356 Đ39.1); gửi trực tiếp hoặc qua **Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân** (NĐ 356 Đ28.2). NQ 22 chỉ phân cấp cho Công an tỉnh các thủ tục **hồ sơ DPIA, hồ sơ chuyển dữ liệu xuyên biên giới, cập nhật hồ sơ** và Giấy chứng nhận dịch vụ xử lý dữ liệu (Phụ lục I.7) — không điều chỉnh thông báo vi phạm (xem [`../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md`](../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md) mục 3 dòng 5 và mục 3.2). **[CẦN ĐỐI CHIẾU]** kênh tiếp nhận thực tế tại thời điểm xảy ra sự cố; không để việc tìm kênh làm trễ mốc 72 giờ.
 
 **Sự cố an ninh mạng song song:** nếu sự cố đồng thời là sự cố an ninh mạng (tấn công, mã độc), thực hiện thêm quy trình ứng phó sự cố ANM: [`../04-chinh-sach-quy-trinh/quy-trinh-ung-pho-su-co.md`](../04-chinh-sach-quy-trinh/quy-trinh-ung-pho-su-co.md).
+
+### Nhánh riêng: sự cố AI nghiêm trọng
+
+Khách hàng là **bên triển khai** hệ thống AI (Luật 134 Đ3.5). Nếu sự kiện xảy ra trong hoạt động của hệ thống AI gây một trong các hậu quả dưới đây thì đó là **sự cố nghiêm trọng** (Luật 134 Đ3.8; NĐ 142 Đ19.1), phải báo cáo thêm qua **Cổng thông tin điện tử một cửa về trí tuệ nhân tạo**, độc lập với thông báo vi phạm DLCN:
+
+- (a) thiệt hại về tính mạng hoặc tổn hại nghiêm trọng đến sức khỏe;
+- (b) thiệt hại đáng kể về tài sản hoặc ảnh hưởng nghiêm trọng đến hoạt động của tổ chức;
+- (c) xâm phạm nghiêm trọng quyền con người, quyền và lợi ích hợp pháp (ví dụ có thể xảy ra: nhận diện nhầm hàng loạt dẫn tới từ chối ra vào, trừ công, cảnh báo an ninh sai — **[CẦN ĐỐI CHIẾU]**);
+- (d) gián đoạn nghiêm trọng dịch vụ công, dịch vụ thiết yếu, ảnh hưởng an ninh quốc gia, trật tự, an toàn xã hội.
+
+| Mốc | Việc | Căn cứ |
+|---|---|---|
+| Ngay | Ghi nhận sự cố, hạn chế hậu quả (tạm dừng tính năng, chuyển phương thức thay thế), **thông báo cho nhà cung cấp** để phối hợp khắc phục | Luật 134 Đ12.2.b; NĐ 142 Đ19.2.a |
+| T1 | **Thời điểm xác nhận sự cố:** khi có đủ cơ sở thông tin ban đầu để xác định sự cố đã thực sự xảy ra và có khả năng cao bắt nguồn từ lỗi của hệ thống AI; không chờ điều tra toàn diện. Khác T0 (thời điểm phát hiện) của thông báo DLCN | NĐ 142 Đ19.3.c |
+| ≤ T1 + 72 giờ | Báo cáo sơ bộ **Mẫu AI01a** với hậu quả (a), (d), hoặc (c) không thể kiểm soát | NĐ 142 Đ19.3.a |
+| ≤ T1 + 05 ngày làm việc | Báo cáo sơ bộ Mẫu AI01a với các sự cố nghiêm trọng còn lại | NĐ 142 Đ19.3.b |
+| ≤ 15 ngày kể từ ngày nộp báo cáo sơ bộ | Báo cáo chính thức về kết quả khắc phục; lưu nhật ký hệ thống, dữ liệu liên quan đến sự cố | NĐ 142 Đ19.4 |
+
+**Ai nộp:** nhà cung cấp **hoặc** bên triển khai nộp báo cáo (NĐ 142 Đ19.3). Thống nhất với nhà cung cấp bên nộp ngay khi nhận thông báo sự cố; ghi vào biên bản (mẫu d, mục 11). Nếu **không liên lạc được nhà cung cấp**, {{TEN_KHACH_HANG}} **tự báo cáo**. Nộp báo cáo sơ bộ đúng hạn không bị coi là thừa nhận lỗi kỹ thuật hoặc trách nhiệm pháp lý (NĐ 142 Đ19.3.c).
+
+**Nội dung Mẫu AI01a:** tên, liên hệ tổ chức; tên hệ thống, mã định danh (AI-ID), mức độ rủi ro, nhà cung cấp, bên triển khai; thời điểm phát hiện; thời điểm xác nhận mối liên hệ nhân quả với hệ thống AI; địa điểm; mô tả; loại hậu quả và số người bị ảnh hưởng ước tính; trạng thái vận hành; nguyên nhân sơ bộ; biện pháp khẩn cấp; đánh giá sơ bộ thiệt hại; kiến nghị. Nhà cung cấp cung cấp AI-ID, mức độ rủi ro và thông tin kỹ thuật.
+
+**Một kênh hay hai kênh:** NĐ 142 Đ19.5 quy định sự cố đồng thời phải báo cáo theo pháp luật an ninh mạng, bảo vệ DLCN thì "thực hiện theo quy định của pháp luật đó". Chưa rõ có miễn báo cáo qua Cổng AI không — **[CẦN ĐỐI CHIẾU]**. Khuyến nghị **báo cả hai kênh**: mẫu (c) cho cơ quan chuyên trách BVDLCN và Mẫu AI01a qua Cổng một cửa. Khi Cổng chưa vận hành chính thức, dùng phương thức do Bộ KH&CN công bố (NĐ 142 Đ46.1); địa chỉ tiếp nhận thực tế — **[CẦN ĐỐI CHIẾU]**.
 
 ### Nội dung bắt buộc
 
@@ -215,7 +238,8 @@ Cùng xác nhận các nội dung sau:
 8. **Biện pháp đã thực hiện đến thời điểm lập biên bản:** {{BIEN_PHAP_DA_THUC_HIEN}}.
 9. **Bằng chứng đã thu giữ, bảo toàn:** ........................ *(nhật ký hệ thống, ảnh chụp màn hình, bản sao ổ đĩa — kèm giá trị băm)*
 10. **Thông báo:** cơ quan chuyên trách — ☐ đã gửi lúc ........ ☐ sẽ gửi trước ........ (mốc 72 giờ); chủ thể — ☐ đã gửi lúc ........ cho ........ người ☐ thông báo công khai lúc ........
-11. **Việc tiếp theo, người chịu trách nhiệm, thời hạn:** ........................
+11. **Sự cố nghiêm trọng của hệ thống trí tuệ nhân tạo** (khoản 1 Điều 19 Nghị định số 142/2026/NĐ-CP): ☐ không ☐ có — thời điểm xác nhận sự cố ........; báo cáo sơ bộ theo Mẫu AI01a qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo do ☐ {{TEN_NHA_CUNG_CAP}} ☐ {{TEN_KHACH_HANG}} gửi, ☐ đã gửi lúc ........ ☐ hạn gửi ........; hạn báo cáo chính thức ........
+12. **Việc tiếp theo, người chịu trách nhiệm, thời hạn:** ........................
 
 Biên bản lập thành ...... bản có giá trị như nhau; mỗi bên giữ 01 bản, 01 bản lưu hồ sơ sự cố (lưu tối thiểu 05 năm kể từ ngày khắc phục xong sự cố).
 
@@ -233,6 +257,7 @@ Biên bản lập thành ...... bản có giá trị như nhau; mỗi bên giữ
 | `{{DIA_CHI_GIAO_DICH_KH}}`, `{{SO_GCN_DKDN_KH}}`, `{{NOI_CAP_GCN_DKDN_KH}}` | Theo Giấy chứng nhận đăng ký doanh nghiệp của khách hàng |
 | Mẫu (c) | Giữ đúng cấu trúc Mẫu số 08 NĐ 356; phần "Đã thông báo cho chủ thể..." ở mục Biện pháp áp dụng là thông tin bổ sung cho sự cố sinh trắc học, vị trí |
 | Mẫu (a) gửi qua email, tin nhắn | Bỏ bảng quốc hiệu và khối ký; giữ đủ 6 nội dung. Lưu bản đã gửi và nhật ký gửi |
+| Biên bản (d), mục 11 | Đánh dấu "có" khi sự cố đạt một trong các hậu quả tại NĐ 142 Đ19.1. Ghi thời điểm xác nhận (T1) theo NĐ 142 Đ19.3.c, không dùng T0. Báo cáo Mẫu AI01a là văn bản riêng theo Phụ lục NĐ 142; mẫu này không thay thế |
 
 ## Bằng chứng cần lưu
 
@@ -245,3 +270,4 @@ Lưu toàn bộ hồ sơ **tối thiểu 05 năm kể từ ngày khắc phục x
 | Thông báo đã gửi chủ thể, danh sách người nhận, nhật ký gửi; bản thông báo công khai và thời gian đăng | NĐ 356 Đ29.1.a, Đ29.3; NĐ 330 Đ70.1.e, h |
 | Thông báo của nhà cung cấp (bên xử lý) gửi khách hàng | Luật 91 Đ23.1 |
 | Nhật ký hệ thống, bằng chứng kỹ thuật kèm giá trị băm; báo cáo nguyên nhân, biện pháp khắc phục | Luật 91 Đ23.4; NĐ 330 Đ54.4 |
+| *(Sự cố AI nghiêm trọng)* Mẫu AI01a đã nộp, xác nhận của Cổng một cửa, báo cáo chính thức; văn bản thống nhất bên nộp với nhà cung cấp; nhật ký hệ thống liên quan | NĐ 142 Đ19.3, Đ19.4 |

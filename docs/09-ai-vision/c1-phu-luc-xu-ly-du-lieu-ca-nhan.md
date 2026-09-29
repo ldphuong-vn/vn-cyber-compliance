@@ -1,10 +1,12 @@
 # Mẫu Phụ lục thỏa thuận xử lý dữ liệu cá nhân (DPA) — hợp đồng cung cấp giải pháp AI vision
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ3, Đ9, Đ14.3, Đ17.1.d, Đ20, Đ21.3, Đ23.1, Đ25.3, Đ31.4, Đ32.2, Đ37; NĐ 356/2025/NĐ-CP Đ5, Đ7.1–7.2, Đ10.1, Đ12.2–12.4, Đ19.3, Đ22, Đ23.7, Đ27, Đ28, Đ29; NĐ 330/2026/NĐ-CP Đ44.2–44.3, Đ52.1.a, Đ52.3, Đ59.2.a, Đ59.3.a, Đ69.1.b, Đ70.2.b · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ3, Đ9, Đ14.3, Đ17.1.d, Đ20, Đ21.3, Đ23.1, Đ25.3, Đ31.4, Đ32.2, Đ37; NĐ 356/2025/NĐ-CP Đ5, Đ7.1–7.2, Đ10.1, Đ12.2–12.4, Đ19.3, Đ22, Đ23.7, Đ27, Đ28, Đ29; NĐ 330/2026/NĐ-CP Đ44.2–44.3, Đ52.1.a, Đ52.3, Đ59.2.a, Đ59.3.a, Đ69.1.b, Đ70.2.b; Luật 134/2025/QH15 Đ3.3–3.5, Đ7.4, Đ10.2, Đ12.2, Đ14.5, Đ29.2–29.4; NĐ 142/2026/NĐ-CP Đ6.4, Đ11.2, Đ11.3.a, Đ15.3, Đ19.3, Đ19.4 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
 Phụ lục này gắn vào hợp đồng cung cấp giải pháp AI vision (camera, VMS, nhận diện khuôn mặt, nhận diện biển số) khi **nhà cung cấp tiếp cận dữ liệu cá nhân** do khách hàng thu thập. Khách hàng là **Bên A — bên kiểm soát** (quyết định lắp camera ở đâu, nhận diện ai, để làm gì). Nhà cung cấp là **Bên B — bên xử lý** (xử lý theo yêu cầu của Bên A thông qua hợp đồng).
+
+Theo Luật 134 Đ3, đối với hệ thống AI: khách hàng (Bên A) là **bên triển khai** (Đ3.5); nhà cung cấp (Bên B) là **nhà cung cấp** (Đ3.4), đồng thời là **nhà phát triển** nếu tự huấn luyện, tinh chỉnh mô hình (Đ3.3). Hai cặp vai trò này độc lập: vai trò theo Luật 91 xét theo dữ liệu, vai trò theo Luật 134 xét theo hệ thống. Ngay cả ở M1 (Bên B không tiếp cận dữ liệu), Bên B vẫn là nhà cung cấp hệ thống AI; nếu không dùng phụ lục này, đưa Điều 10 khoản 5–6, Điều 14 khoản 4–6 vào hợp đồng mua bán.
 
 ### Khi nào cần dùng
 
@@ -30,6 +32,12 @@ Phụ lục này gắn vào hợp đồng cung cấp giải pháp AI vision (cam
 | Bảo vệ dữ liệu sinh trắc học: bảo mật vật lý, hạn chế truy cập, hệ thống theo dõi phát hiện xâm phạm | Luật 91 Đ31.4.a | Điều 5; Phụ lục 2 |
 | Xóa, hủy bằng biện pháp an toàn, ngăn khôi phục trái phép | Luật 91 Đ14.3 | Điều 13 |
 | Thời hạn thực hiện yêu cầu của chủ thể khi phải yêu cầu bên xử lý: ngừng xử lý 20 ngày; xem, chỉnh sửa, cung cấp 15 ngày; xóa 30 ngày. Bên xử lý bị phạt nếu không làm đúng thời hạn bên kiểm soát xác định | NĐ 356 Đ5.2–5.4; NĐ 330 Đ44.2, Đ44.3 | Điều 8 |
+| Bên triển khai kế thừa kết quả phân loại rủi ro của nhà cung cấp; sửa đổi, tích hợp, thay đổi chức năng, mục đích sử dụng làm phát sinh rủi ro mới hoặc cao hơn thì phối hợp nhà cung cấp phân loại lại | Luật 134 Đ10.2; NĐ 142 Đ6.4, Đ11.2 | Điều 10.5–10.6 |
+| Nhà cung cấp hệ thống rủi ro cao cung cấp cho bên triển khai thông tin về mục đích sử dụng, điều kiện vận hành an toàn, rủi ro và biện pháp quản lý rủi ro | NĐ 142 Đ15.3 | Điều 10.5 |
+| Sự cố AI nghiêm trọng: nhà cung cấp hoặc bên triển khai báo cáo qua Cổng một cửa; bên triển khai tự báo cáo nếu không liên lạc được nhà cung cấp | Luật 134 Đ12.2; NĐ 142 Đ19.3, Đ19.4 | Điều 9.4 |
+| Hệ thống rủi ro cao vận hành đúng quy định vẫn gây thiệt hại: **bên triển khai** bồi thường cho người bị thiệt hại, sau đó được yêu cầu nhà cung cấp, nhà phát triển hoàn trả **nếu có thỏa thuận** | Luật 134 Đ29.2 | Điều 14.4 |
+| Hệ thống bị bên thứ ba xâm nhập, chiếm quyền điều khiển: bên có lỗi để hệ thống bị xâm nhập phải liên đới bồi thường | Luật 134 Đ29.4 | Điều 14.5 |
+| Khuyến khích nhà cung cấp, bên triển khai tham gia bảo hiểm trách nhiệm dân sự hoặc biện pháp bảo đảm khác | Luật 134 Đ14.5 | Điều 14.6 |
 
 ### Rủi ro phạt nếu thiếu (mức cho tổ chức)
 
@@ -51,6 +59,8 @@ Phụ lục này gắn vào hợp đồng cung cấp giải pháp AI vision (cam
 - **Hồ sơ DPIA của bên xử lý:** Luật 91 Đ21.3 cho phép bên xử lý lập, lưu hồ sơ "theo thỏa thuận với bên kiểm soát", nhưng NĐ 356 Đ19.1, Đ19.4 buộc cả bên xử lý lập và nộp. Bộ khung khuyến nghị Bên B **vẫn lập và nộp** (điểm C13 tại [`../00-tong-quan/diem-can-doi-chieu.md`](../00-tong-quan/diem-can-doi-chieu.md)). Điều 10.4 viết theo hướng đó.
 - **Chuyển xuyên biên giới:** Luật 91 Đ20 không nói rõ khi bên xử lý đặt máy chủ ở nước ngoài thì bên nào là "bên chuyển" phải lập hồ sơ — **[CẦN ĐỐI CHIẾU]**. Điều 7 chọn cách an toàn: mặc định lưu tại Việt Nam; nếu có chuyển, hai bên cùng xác định bên lập hồ sơ và Bên B cung cấp đủ thông tin.
 - **Vùng xám V2** (hỗ trợ từ xa có biến M2 thành "vận hành thay mặt bên kiểm soát" theo NĐ 356 Đ21.1 không): xem bản thảo luận mục 8.
+- **Hoàn trả bồi thường (Điều 14.4).** Luật 134 Đ29.2 chỉ cho bên triển khai đòi nhà cung cấp hoàn trả khi **có thỏa thuận**. Không có Điều 14.4 thì Bên A tự chịu khoản bồi thường cho người bị thiệt hại dù lỗi thuộc thiết kế hệ thống. Luật 134 Đ29.2 chỉ nói về hệ thống **rủi ro cao**; với hệ thống mức thấp, trách nhiệm theo pháp luật dân sự (Đ29.1) và Điều 14.1–14.3. Hai bên có thể mở rộng Điều 14.4 cho mọi mức bằng cách xóa cụm "thuộc diện rủi ro cao".
+- **Chưa có nghị định xử phạt riêng về AI** (Luật 134 Đ29.5) tại 29/09/2026 — **[CẦN ĐỐI CHIẾU]**.
 
 ---
 
@@ -62,18 +72,20 @@ Phụ lục này gắn vào hợp đồng cung cấp giải pháp AI vision (cam
 
 *Căn cứ Nghị định số 356/2025/NĐ-CP ngày 31 tháng 12 năm 2025 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Bảo vệ dữ liệu cá nhân;*
 
+*Căn cứ Luật Trí tuệ nhân tạo số 134/2025/QH15 và Nghị định số 142/2026/NĐ-CP ngày 30 tháng 4 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Trí tuệ nhân tạo;*
+
 *Căn cứ Hợp đồng số {{SO_HOP_DONG}} ngày {{NGAY_HOP_DONG}} giữa hai bên (sau đây gọi là "Hợp đồng").*
 
 Hôm nay, ngày ... tháng ... năm ..., tại {{DIA_DANH}}, chúng tôi gồm:
 
-**BÊN A (Bên kiểm soát dữ liệu cá nhân): {{TEN_KHACH_HANG}}**
+**BÊN A (Bên kiểm soát dữ liệu cá nhân; bên triển khai hệ thống trí tuệ nhân tạo): {{TEN_KHACH_HANG}}**
 
 - Địa chỉ: {{DIA_CHI_KHACH_HANG}}
 - Mã số thuế: {{MST_KHACH_HANG}}
 - Người đại diện: {{DAI_DIEN_KHACH_HANG}} — Chức vụ: {{CHUC_VU_DAI_DIEN_KH}}
 - Đầu mối bảo vệ dữ liệu cá nhân: {{NHAN_SU_BVDLCN_KH}} — Điện thoại: {{DIEN_THOAI_BVDLCN_KH}} — Email: {{EMAIL_BVDLCN_KH}}
 
-**BÊN B (Bên xử lý dữ liệu cá nhân): {{TEN_NHA_CUNG_CAP}}**
+**BÊN B (Bên xử lý dữ liệu cá nhân; nhà cung cấp hệ thống trí tuệ nhân tạo): {{TEN_NHA_CUNG_CAP}}**
 
 - Địa chỉ: {{DIA_CHI_NHA_CUNG_CAP}}
 - Mã số thuế: {{MST_NHA_CUNG_CAP}}
@@ -91,6 +103,7 @@ Hai bên thống nhất ký Phụ lục này với các nội dung sau:
    d) **Sự cố dữ liệu** là việc Dữ liệu bị truy cập, thu thập, sao chép, tiết lộ, thay đổi, xóa, mất trái phép, hoặc bị xử lý sai mục đích, sai chỉ dẫn của Bên A.
 2. Đối với Dữ liệu, Bên A là bên kiểm soát dữ liệu cá nhân; Bên B là bên xử lý dữ liệu cá nhân, chỉ xử lý theo yêu cầu của Bên A thông qua Hợp đồng và Phụ lục này (khoản 7, khoản 8 Điều 2 Luật Bảo vệ dữ liệu cá nhân).
 3. Đối với thông tin của người đại diện, đầu mối liên hệ, tài khoản quản trị của Bên A mà Bên B dùng để giao kết, thực hiện Hợp đồng, mỗi bên là bên kiểm soát độc lập và tự chịu trách nhiệm theo chính sách bảo vệ dữ liệu cá nhân của mình.
+4. Đối với Hệ thống, Bên B là **nhà cung cấp** (và là nhà phát triển đối với các mô hình do Bên B huấn luyện, tinh chỉnh); Bên A là **bên triển khai** theo khoản 3, khoản 4, khoản 5 Điều 3 Luật Trí tuệ nhân tạo số 134/2025/QH15. Kết quả phân loại rủi ro của Hệ thống do Bên B xác định tại tài liệu Phân loại rủi ro hệ thống AI phiên bản {{PHIEN_BAN_TAI_LIEU_PHAN_LOAI_RUI_RO}}.
 
 ### Điều 2. Phạm vi, mục đích và thời hạn xử lý
 
@@ -151,13 +164,17 @@ Hai bên thống nhất ký Phụ lục này với các nội dung sau:
 1. Bên B thông báo cho Bên A về Sự cố dữ liệu **trong vòng {{SO_GIO_BAO_SU_CO}} giờ** kể từ khi phát hiện (khoản 1 Điều 23 Luật Bảo vệ dữ liệu cá nhân), qua đầu mối nêu tại Điều 16, kèm các thông tin đã có: thời gian, địa điểm, hành vi; loại và số lượng dữ liệu, số chủ thể liên quan; hậu quả có thể xảy ra; biện pháp đã áp dụng (khoản 1 Điều 28 Nghị định số 356/2025/NĐ-CP). Thông tin chưa có được bổ sung ngay khi có.
 2. Khi Sự cố dữ liệu liên quan đến Dữ liệu sinh trắc học, Bên B cung cấp thông tin cần thiết để Bên A thông báo cho chủ thể bị ảnh hưởng trong 72 giờ và lập hồ sơ vi phạm theo Điều 29 Nghị định số 356/2025/NĐ-CP.
 3. Bên B phối hợp ngăn chặn, khắc phục; bảo toàn nhật ký, chứng cứ; không tự thông báo cho chủ thể dữ liệu hoặc công khai Sự cố dữ liệu khi chưa thống nhất với Bên A, trừ trường hợp pháp luật hoặc cơ quan có thẩm quyền yêu cầu.
+4. **Sự cố nghiêm trọng của Hệ thống.** Khi một sự kiện trong hoạt động của Hệ thống gây ra hậu quả tại khoản 1 Điều 19 Nghị định số 142/2026/NĐ-CP (kể cả khi không phải Sự cố dữ liệu): (a) bên phát hiện thông báo ngay cho bên kia; Bên A ghi nhận, hạn chế hậu quả trong phạm vi kiểm soát của mình; Bên B áp dụng biện pháp kỹ thuật để khắc phục, tạm dừng hoặc thu hồi Hệ thống (khoản 2 Điều 12 Luật Trí tuệ nhân tạo số 134/2025/QH15); (b) Bên B lập và gửi báo cáo sơ bộ theo Mẫu AI01a qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo trong thời hạn tại khoản 3 Điều 19 Nghị định số 142/2026/NĐ-CP, và báo cáo chính thức trong 15 ngày kể từ ngày nộp báo cáo sơ bộ, trừ khi hai bên thống nhất bằng văn bản Bên A là bên nộp; Bên A cung cấp thông tin về vận hành, hậu quả tại cơ sở của mình; (c) nếu Bên A không liên lạc được với Bên B, Bên A tự thực hiện báo cáo và Bên B cung cấp thông tin kỹ thuật ngay khi liên lạc lại được; (d) hai bên lưu giữ nhật ký hệ thống, dữ liệu, thông tin liên quan đến sự cố (khoản 4 Điều 19 Nghị định số 142/2026/NĐ-CP).
 
-### Điều 10. Hỗ trợ đánh giá tác động và kiểm tra
+### Điều 10. Hỗ trợ đánh giá tác động, phân loại rủi ro và kiểm tra
 
 1. Bên B cung cấp cho Bên A tài liệu mô tả luồng dữ liệu, kiến trúc, biện pháp bảo mật của Hệ thống và phần kỹ thuật đã điền sẵn của hồ sơ đánh giá tác động xử lý dữ liệu cá nhân (khoản 3 Điều 19 Nghị định số 356/2025/NĐ-CP), cập nhật khi Hệ thống thay đổi.
 2. Bên B phối hợp khi cơ quan chuyên trách bảo vệ dữ liệu cá nhân kiểm tra hoạt động xử lý Dữ liệu.
 3. Bên A hoặc bên thứ ba độc lập do Bên A chỉ định có quyền kiểm tra việc tuân thủ Phụ lục này {{tần suất}} và khi xảy ra Sự cố dữ liệu, với thông báo trước {{SO_NGAY_BAO_TRUOC_KIEM_TRA}} ngày làm việc. Bên B có thể thay thế bằng báo cáo đánh giá độc lập còn hiệu lực nếu Bên A chấp nhận.
 4. Bên B lập, lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân đối với hoạt động xử lý theo Phụ lục này và thực hiện nghĩa vụ gửi hồ sơ theo quy định pháp luật.
+5. Bên B cung cấp cho Bên A kết quả phân loại rủi ro của Hệ thống theo pháp luật về trí tuệ nhân tạo, mục đích sử dụng và giới hạn sử dụng của Hệ thống, điều kiện vận hành an toàn, các rủi ro đã xác định và biện pháp quản lý tương ứng (khoản 3 Điều 15 Nghị định số 142/2026/NĐ-CP), và cập nhật khi Bên B phân loại lại.
+6. Bên A không sửa đổi, tích hợp Hệ thống với hệ thống khác, thay đổi chức năng, mục đích sử dụng hoặc bối cảnh lắp đặt so với mô tả tại Phụ lục 1 theo cách có thể làm phát sinh rủi ro mới hoặc rủi ro cao hơn, khi chưa thông báo cho Bên B bằng văn bản trước ít nhất {{SO_NGAY_BAO_TRUOC_DOI_MUC_DICH}} ngày. Hai bên phối hợp rà soát, phân loại lại mức độ rủi ro (khoản 2 Điều 10 Luật Trí tuệ nhân tạo số 134/2025/QH15; khoản 4 Điều 6, khoản 2 Điều 11 Nghị định số 142/2026/NĐ-CP). Nếu kết quả phân loại lại cao hơn, bên thực hiện thông báo kết quả cho cơ quan có thẩm quyền trong 15 ngày làm việc theo điểm a khoản 3 Điều 11 Nghị định số 142/2026/NĐ-CP là {{BEN_THONG_BAO_PHAN_LOAI_LAI}}; chi phí đánh giá sự phù hợp phát sinh do thay đổi của Bên A do Bên A chịu, trừ khi hai bên thỏa thuận khác.
+7. Bên A không tắt, không vô hiệu hóa cơ chế giám sát, can thiệp của con người do Hệ thống cung cấp (khoản 4 Điều 7 Luật Trí tuệ nhân tạo số 134/2025/QH15).
 
 ### Điều 11. Dữ liệu huấn luyện và cải tiến sản phẩm
 
@@ -183,6 +200,9 @@ Hai bên thống nhất ký Phụ lục này với các nội dung sau:
 1. Bên A chịu trách nhiệm trước chủ thể dữ liệu về thiệt hại do quá trình xử lý Dữ liệu gây ra (điểm g khoản 1 Điều 37 Luật Bảo vệ dữ liệu cá nhân), và chịu trách nhiệm về cơ sở pháp lý, sự đồng ý, thông báo, biển báo thuộc phạm vi Điều 3.
 2. Bên B chịu trách nhiệm trước Bên A về thiệt hại do xử lý Dữ liệu trái Phụ lục này, trái chỉ dẫn của Bên A hoặc do không thực hiện biện pháp bảo vệ tại Điều 5 (điểm d khoản 2 Điều 37 Luật Bảo vệ dữ liệu cá nhân), kể cả các khoản tiền phạt, chi phí khắc phục mà Bên A phải chịu do lỗi của Bên B.
 3. Giới hạn trách nhiệm theo Hợp đồng {{áp dụng/không áp dụng}} đối với vi phạm Phụ lục này; không áp dụng đối với hành vi cố ý hoặc vi phạm Điều 4 khoản 2.
+4. **Thỏa thuận hoàn trả bồi thường.** Trường hợp Hệ thống thuộc diện rủi ro cao theo pháp luật về trí tuệ nhân tạo, được quản lý, vận hành và sử dụng đúng quy định nhưng vẫn phát sinh thiệt hại và Bên A đã bồi thường cho người bị thiệt hại, Bên B hoàn trả cho Bên A khoản tiền bồi thường đó theo khoản 2 Điều 29 Luật Trí tuệ nhân tạo số 134/2025/QH15, trong giới hạn {{MUC_HOAN_TRA_BOI_THUONG_TOI_DA}}, với điều kiện: (a) Bên A thông báo cho Bên B trong {{SO_NGAY_BAO_YEU_CAU_BOI_THUONG}} ngày làm việc kể từ khi nhận yêu cầu bồi thường và cho Bên B tham gia giải quyết; (b) Bên A đã vận hành Hệ thống đúng mục đích, giới hạn sử dụng và hướng dẫn của Bên B, không tắt cơ chế giám sát, can thiệp của con người, không thay đổi Hệ thống trái Điều 10 khoản 6; (c) thiệt hại không thuộc trường hợp miễn trừ tại khoản 3 Điều 29 Luật này. Khoản này không hạn chế quyền của Bên A theo khoản 2 Điều này.
+5. Trường hợp Hệ thống bị bên thứ ba xâm nhập, chiếm quyền điều khiển hoặc can thiệp trái pháp luật, bên nào có lỗi trong việc để Hệ thống bị xâm nhập thì chịu phần trách nhiệm liên đới bồi thường tương ứng với lỗi của mình (khoản 4 Điều 29 Luật Trí tuệ nhân tạo số 134/2025/QH15).
+6. **Bảo hiểm.** {{CAM_KET_BAO_HIEM_TRACH_NHIEM}} *(Khuyến nghị: mỗi bên cân nhắc tham gia bảo hiểm trách nhiệm dân sự hoặc biện pháp bảo đảm thực hiện nghĩa vụ phù hợp để kịp thời khắc phục sự cố và bồi thường thiệt hại — khoản 5 Điều 14 Luật Trí tuệ nhân tạo số 134/2025/QH15.)*
 
 ### Điều 15. Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ xử lý dữ liệu cá nhân [M3/M4]
 
@@ -242,7 +262,14 @@ Mỗi bên chỉ định đầu mối nêu ở phần đầu Phụ lục này. T
 3. Thời hạn lưu tại Phụ lục 1 do **Bên A quyết định** theo mục đích; Bên B chỉ gợi ý giá trị mặc định (xem [`k4-chinh-sach-luu-tru-xoa.md`](k4-chinh-sach-luu-tru-xoa.md)).
 4. Nếu Bên B dùng đại lý lắp đặt, ghi đại lý vào Phụ lục 3 và ký điều khoản với đại lý theo [`c5-dieu-khoan-dai-ly-tich-hop.md`](c5-dieu-khoan-dai-ly-tich-hop.md).
 5. Lưu bản ký vào hồ sơ đánh giá tác động của cả hai bên (điểm b khoản 2 Điều 19 NĐ 356: bản sao hợp đồng hoặc thỏa thuận về xử lý dữ liệu cá nhân là thành phần hồ sơ).
+6. Các placeholder theo Luật 134:
+   - {{PHIEN_BAN_TAI_LIEU_PHAN_LOAI_RUI_RO}}: phiên bản B2 đang áp dụng.
+   - {{SO_NGAY_BAO_TRUOC_DOI_MUC_DICH}}: gợi ý 15–30 ngày, đủ để Bên B rà soát; nếu mức tăng, thời hạn thông báo cơ quan là 15 ngày làm việc từ khi hoàn thành rà soát (NĐ 142 Đ11.3.a).
+   - {{BEN_THONG_BAO_PHAN_LOAI_LAI}}: thường là Bên B (nhà cung cấp), vì Bên B giữ hồ sơ phân loại; ghi rõ tên bên.
+   - {{MUC_HOAN_TRA_BOI_THUONG_TOI_DA}}: ví dụ "giá trị Hợp đồng trong 12 tháng gần nhất" hoặc số tiền cụ thể; pháp chế hai bên quyết định.
+   - {{SO_NGAY_BAO_YEU_CAU_BOI_THUONG}}: gợi ý 05–10 ngày làm việc.
+   - {{CAM_KET_BAO_HIEM_TRACH_NHIEM}}: ghi cam kết cụ thể nếu có (bên mua bảo hiểm, phạm vi, hạn mức, thời hạn); không có thì ghi "Hai bên không cam kết mua bảo hiểm trách nhiệm theo Phụ lục này."
 
 ## Bằng chứng cần lưu
 
-Bản ký Phụ lục; xác nhận đồng ý của chủ thể trước mỗi đợt đăng ký khuôn mặt (Điều 3.2); danh sách bên xử lý phụ và thông báo thay đổi; thông báo sự cố và biên bản xử lý; biên bản bàn giao; biên bản xác nhận xóa khi kết thúc.
+Bản ký Phụ lục; xác nhận đồng ý của chủ thể trước mỗi đợt đăng ký khuôn mặt (Điều 3.2); danh sách bên xử lý phụ và thông báo thay đổi; thông báo sự cố và biên bản xử lý; báo cáo sự cố AI nghiêm trọng (Mẫu AI01a) nếu có; thông báo thay đổi mục đích, bối cảnh của Bên A và kết quả phân loại lại (Điều 10.6); biên bản bàn giao; biên bản xác nhận xóa khi kết thúc.

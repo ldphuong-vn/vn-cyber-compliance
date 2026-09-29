@@ -1,6 +1,6 @@
 # Mẫu Phụ lục điều khoản bảo vệ dữ liệu cá nhân trong hợp đồng đại lý, nhà tích hợp hệ thống
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ7, Đ14.3, Đ20.1, Đ23.1, Đ37.1.a, Đ37.1.đ, Đ37.2, Đ38.3; NĐ 356/2025/NĐ-CP Đ7.1, Đ7.2, Đ7.4, Đ12.3.b, Đ21.1, Đ22, Đ23.7, Đ28.1, Đ29; NĐ 330/2026/NĐ-CP Đ51.2.c, Đ52.1, Đ54.1.a, Đ59.3.a, Đ69.1.c, Đ71.2.a · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.7–2.9, Đ7, Đ14.3, Đ20.1, Đ23.1, Đ37.1.a, Đ37.1.đ, Đ37.2, Đ38.3; NĐ 356/2025/NĐ-CP Đ7.1, Đ7.2, Đ7.4, Đ12.3.b, Đ21.1, Đ22, Đ23.7, Đ28.1, Đ29; NĐ 330/2026/NĐ-CP Đ51.2.c, Đ52.1, Đ54.1.a, Đ59.3.a, Đ69.1.c, Đ71.2.a; Luật 134/2025/QH15 Đ3.4, Đ3.5, Đ7.4, Đ10.1, Đ10.2, Đ14.5, Đ29.2, Đ29.4; NĐ 142/2026/NĐ-CP Đ6.4, Đ19.2, Đ19.3 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -16,6 +16,8 @@
 | **II** — Nhà cung cấp ký, đại lý thực hiện | Nhà cung cấp | Nhà thầu phụ của nhà cung cấp | Bên xử lý của khách hàng | Nhà cung cấp ký C1, C3 với khách hàng và ghi tên đại lý là nhà thầu phụ được chấp thuận; phụ lục này chuyển tiếp nghĩa vụ xuống đại lý |
 | **III** — Nền tảng cloud của nhà cung cấp (M3, M4), đại lý bán thuê bao, triển khai | Nhà cung cấp (hoặc đại lý bán lại thuê bao — ghi rõ) | Nhà thầu phụ trong khâu triển khai; không vận hành nền tảng | Bên xử lý; tổ chức kinh doanh dịch vụ xử lý DLCN | Như II; thêm điều khoản cloud (C2). Đại lý chỉ truy cập nền tảng bằng tài khoản do khách hàng cấp |
 
+**Vai trò theo Luật Trí tuệ nhân tạo (độc lập với vai trò theo Luật 91).** Nhà cung cấp đưa hệ thống ra thị trường dưới tên, thương hiệu của mình là **nhà cung cấp** (Luật 134 Đ3.4). Khách hàng cuối là **bên triển khai** (Đ3.5). Đại lý bán lại dưới thương hiệu của nhà cung cấp không phải nhà cung cấp. Đại lý bán dưới **tên, nhãn hiệu của chính mình** (OEM, white-label) trở thành **nhà cung cấp** và tự chịu nghĩa vụ phân loại, thông báo (Đ10.1), minh bạch, xử lý sự cố. Điều 1.3 của mẫu buộc đại lý thỏa thuận trước với nhà cung cấp trong trường hợp này.
+
 Ghi chú cấu trúc I: khi đại lý (bên xử lý) nhờ nhà cung cấp hỗ trợ và nhà cung cấp tiếp cận dữ liệu, Luật 91 không quy định riêng về "bên xử lý của bên xử lý". **[CẦN ĐỐI CHIẾU]**. Cách an toàn: khách hàng chấp thuận bằng văn bản việc đại lý dùng nhà cung cấp làm nhà thầu phụ, hoặc nhà cung cấp ký C3 trực tiếp với khách hàng cho phần hỗ trợ cấp 2.
 
 | Yêu cầu | Căn cứ |
@@ -25,6 +27,11 @@ Ghi chú cấu trúc I: khi đại lý (bên xử lý) nhờ nhà cung cấp h�
 | Nội dung thỏa thuận chuyển giao (mục đích, loại dữ liệu, thời hạn, cơ sở pháp lý, trách nhiệm bảo vệ, quyền chủ thể, phối hợp khi vi phạm) | NĐ 356 Đ7.1 |
 | Tổ chức cung cấp cloud đề nghị nhà thầu phụ thực hiện nghĩa vụ bảo vệ DLCN (áp dụng trực tiếp cho M3, M4; tham chiếu cho M2) | NĐ 356 Đ12.3.b |
 | Phòng, chống nhân sự chia sẻ trái phép dữ liệu | NĐ 356 Đ7.4 |
+| Bên triển khai thay đổi chức năng, mục đích, tích hợp làm phát sinh rủi ro mới hoặc cao hơn: phối hợp nhà cung cấp phân loại lại. Đại lý thường là bên phát hiện thay đổi này khi lắp đặt | Luật 134 Đ10.2; NĐ 142 Đ6.4 |
+| Không cản trở, vô hiệu hóa cơ chế giám sát, can thiệp của con người (hành vi bị nghiêm cấm) | Luật 134 Đ7.4 |
+| Sự cố AI nghiêm trọng: bên triển khai, người sử dụng ghi nhận, thông báo cho nhà cung cấp; nhà cung cấp hoặc bên triển khai báo cáo qua Cổng một cửa | NĐ 142 Đ19.2, Đ19.3 |
+| Hệ thống rủi ro cao: bên triển khai bồi thường rồi đòi nhà cung cấp, nhà phát triển, "các bên liên quan" hoàn trả **nếu có thỏa thuận**; bên có lỗi để hệ thống bị xâm nhập liên đới bồi thường | Luật 134 Đ29.2, Đ29.4 |
+| Khuyến khích bảo hiểm trách nhiệm dân sự hoặc biện pháp bảo đảm khác | Luật 134 Đ14.5 |
 
 | Rủi ro phạt (tổ chức) | Căn cứ |
 |---|---|
@@ -45,6 +52,8 @@ Ghi chú cấu trúc I: khi đại lý (bên xử lý) nhờ nhà cung cấp h�
 *Căn cứ Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15;*
 
 *Căn cứ Nghị định số 356/2025/NĐ-CP ngày 31 tháng 12 năm 2025 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Bảo vệ dữ liệu cá nhân;*
+
+*Căn cứ Luật Trí tuệ nhân tạo số 134/2025/QH15;*
 
 *Căn cứ Hợp đồng số {{SO_HOP_DONG_DAI_LY}} ngày {{NGAY_HOP_DONG_DAI_LY}}.*
 
@@ -80,6 +89,12 @@ c) *Phụ lục xử lý dữ liệu mẫu* là mẫu Phụ lục xử lý dữ 
 
 d) *Danh mục kiểm tra triển khai* là danh mục kiểm tra triển khai và bàn giao do Bên A ban hành, phiên bản {{PHIEN_BAN_DANH_MUC_KIEM_TRA}}.
 
+đ) *Nhà cung cấp*, *bên triển khai* được hiểu theo khoản 4, khoản 5 Điều 3 Luật Trí tuệ nhân tạo số 134/2025/QH15. Đối với sản phẩm {{TEN_SAN_PHAM}}, Bên A là nhà cung cấp; khách hàng cuối là bên triển khai.
+
+e) *Tài liệu phân loại rủi ro* là tài liệu Phân loại rủi ro hệ thống AI do Bên A ban hành, gồm mức bảo vệ dữ liệu cá nhân nội bộ (BV-Thấp, BV-Trung bình, BV-Cao, BV-Không chấp nhận) và mức theo pháp luật về trí tuệ nhân tạo.
+
+3. Bên B không đưa sản phẩm ra thị trường dưới tên, thương hiệu hoặc nhãn hiệu của Bên B khi chưa có thỏa thuận bằng văn bản với Bên A. Trường hợp được chấp thuận, Bên B là nhà cung cấp theo khoản 4 Điều 3 Luật Trí tuệ nhân tạo số 134/2025/QH15 và tự thực hiện nghĩa vụ của nhà cung cấp; Bên A cung cấp thông tin kỹ thuật cần thiết theo thỏa thuận đó.
+
 **Điều 2. Phân định vai trò**
 
 Hai bên áp dụng cấu trúc sau cho từng hợp đồng với khách hàng cuối *(đánh dấu cấu trúc áp dụng; có thể áp dụng khác nhau cho từng dự án, ghi tại phiếu dự án)*:
@@ -114,9 +129,13 @@ Trong mọi cấu trúc, Bên B **không nhận vận hành hệ thống thườ
 
 1. Bên B thực hiện đầy đủ Danh mục kiểm tra triển khai cho mỗi hệ thống, tối thiểu: đổi toàn bộ mật khẩu mặc định; bật xác thực đa yếu tố cho tài khoản quản trị; bật nhật ký; đặt thời hạn lưu theo quyết định của khách hàng cuối; tách mạng camera; cập nhật firmware mới nhất; để **tắt** nhận diện khuôn mặt trên camera hướng ra khu vực công cộng; cấu hình phương thức thay thế; hướng dẫn khách hàng cuối đặt biển báo camera.
 
-2. Bên B **không bật** các tính năng được Bên A xếp mức rủi ro cao (nhận diện khuôn mặt, chấm công, danh sách đen, dựng hành trình, điểm danh học sinh) khi khách hàng cuối chưa xác nhận bằng văn bản theo mẫu của Bên A. Bên B **không cấu hình** tính năng mà Bên A xếp mức không chấp nhận, kể cả khi khách hàng cuối yêu cầu, và báo cho Bên A.
+2. Bên B **không bật** các tính năng được Bên A xếp mức BV-Cao trong Tài liệu phân loại rủi ro (nhận diện khuôn mặt, chấm công, danh sách đen, dựng hành trình, điểm danh học sinh) khi khách hàng cuối chưa xác nhận bằng văn bản theo mẫu của Bên A. Bên B **không cấu hình** tính năng mà Bên A xếp mức BV-Không chấp nhận, kể cả khi khách hàng cuối yêu cầu, và báo cho Bên A.
 
 3. Biên bản bàn giao có chữ ký của khách hàng cuối, kèm báo cáo cấu hình xuất từ sản phẩm; Bên B gửi bản sao cho Bên A trong {{SO_NGAY_GUI_BIEN_BAN_BAN_GIAO}} ngày.
+
+4. Bên B ghi bối cảnh lắp đặt và mục đích sử dụng của khách hàng cuối vào phiếu dự án. Nếu hệ thống lắp tại đầu mối giao thông, công trình công cộng quan trọng, khu vực kiểm soát an ninh hàng không, cơ sở giáo dục (giám sát, đánh giá người học), hoặc khách hàng cuối yêu cầu tích hợp, thay đổi chức năng, mục đích sử dụng khác với Tài liệu phân loại rủi ro, Bên B **báo cho Bên A trước khi cấu hình** để Bên A phối hợp với khách hàng cuối phân loại lại (khoản 2 Điều 10 Luật Trí tuệ nhân tạo số 134/2025/QH15; khoản 4 Điều 6 Nghị định số 142/2026/NĐ-CP). Bên B không tự thực hiện thay đổi đó khi chưa có ý kiến bằng văn bản của Bên A.
+
+5. Bên B không tắt, không vô hiệu hóa, không hướng dẫn khách hàng cuối tắt cơ chế xác minh, giám sát và can thiệp của con người trong sản phẩm (khoản 4 Điều 7 Luật Trí tuệ nhân tạo số 134/2025/QH15).
 
 **Điều 6. Không giữ bản sao dữ liệu**
 
@@ -135,6 +154,8 @@ Trong mọi cấu trúc, Bên B **không nhận vận hành hệ thống thườ
 2. Với sự cố liên quan dữ liệu sinh trắc học, Bên B thông báo ngay để khách hàng cuối thực hiện thông báo cho chủ thể trong 72 giờ (Điều 29 Nghị định số 356/2025/NĐ-CP).
 
 3. Bên B phối hợp ngăn chặn, khắc phục, bảo toàn chứng cứ; cung cấp nhật ký, danh sách nhân sự liên quan.
+
+4. Khi phát hiện sự kiện trong hoạt động của hệ thống trí tuệ nhân tạo có thể gây hậu quả tại khoản 1 Điều 19 Nghị định số 142/2026/NĐ-CP (ví dụ nhận diện nhầm hàng loạt dẫn tới từ chối ra vào, cảnh báo an ninh sai), Bên B thông báo ngay cho Bên A và khách hàng cuối, hỗ trợ hạn chế hậu quả, bảo toàn nhật ký hệ thống, để Bên A hoặc khách hàng cuối báo cáo qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo đúng thời hạn tại khoản 3 Điều 19 Nghị định này.
 
 **Điều 8. Chuyển dữ liệu ra nước ngoài**
 
@@ -160,6 +181,12 @@ Bên B không chuyển dữ liệu khách hàng ra ngoài lãnh thổ Việt Nam
 
 3. Mức phạt vi phạm hợp đồng: {{MUC_PHAT_VI_PHAM_HOP_DONG}}.
 
+4. **Hoàn trả bồi thường.** Trường hợp khách hàng cuối (bên triển khai) đã bồi thường cho người bị thiệt hại và yêu cầu Bên A hoàn trả theo thỏa thuận giữa khách hàng cuối và Bên A (khoản 2 Điều 29 Luật Trí tuệ nhân tạo số 134/2025/QH15), nếu thiệt hại phát sinh từ việc lắp đặt, cấu hình, hỗ trợ của Bên B trái Danh mục kiểm tra triển khai, Tài liệu phân loại rủi ro hoặc Phụ lục này, Bên B hoàn trả cho Bên A phần tương ứng. Ở cấu trúc I, Bên B là bên ký hợp đồng với khách hàng cuối; nếu Bên B chấp nhận thỏa thuận hoàn trả với khách hàng cuối thì Bên B chỉ được yêu cầu Bên A hoàn trả trong phạm vi {{PHAM_VI_HOAN_TRA_DAI_LY}}.
+
+5. Trường hợp hệ thống bị bên thứ ba xâm nhập, chiếm quyền điều khiển do lỗi lắp đặt, cấu hình, quản lý tài khoản của Bên B (ví dụ không đổi mật khẩu mặc định, mở cổng truy cập từ xa trái Điều 6.3), Bên B chịu phần trách nhiệm liên đới bồi thường tương ứng với lỗi của mình (khoản 4 Điều 29 Luật Trí tuệ nhân tạo số 134/2025/QH15).
+
+6. **Bảo hiểm.** Bên B duy trì {{YEU_CAU_BAO_HIEM_DAI_LY}} trong thời hạn Hợp đồng. *(Tham chiếu: khoản 5 Điều 14 Luật Trí tuệ nhân tạo số 134/2025/QH15 khuyến khích nhà cung cấp, bên triển khai tham gia bảo hiểm trách nhiệm dân sự; với đại lý, đây là điều kiện hợp đồng.)*
+
 **Điều 12. Chấm dứt**
 
 Khi Hợp đồng chấm dứt, trong {{SO_NGAY_KET_THUC}} ngày Bên B: gửi Bên A danh sách hệ thống đã triển khai, đang hỗ trợ và tình trạng tài khoản; phối hợp với khách hàng cuối vô hiệu hóa mọi tài khoản của Bên B; bàn giao mật khẩu, tài liệu cấu hình còn giữ cho khách hàng cuối; xóa mọi dữ liệu khách hàng còn lưu và gửi Bên A xác nhận bằng văn bản. Nghĩa vụ bảo mật tiếp tục có hiệu lực sau khi Hợp đồng chấm dứt.
@@ -177,6 +204,9 @@ Phụ lục này là bộ phận không tách rời của Hợp đồng số {{S
 - Tài liệu dẫn chiếu: Phụ lục xử lý dữ liệu mẫu (C1), Thỏa thuận hỗ trợ (C3), Cam kết bảo mật (C4), Danh mục kiểm tra triển khai (K8), Phân loại rủi ro tính năng (B2). Ghi phiên bản đang áp dụng vào {{PHIEN_BAN_PHU_LUC_XU_LY_DU_LIEU_MAU}}, {{PHIEN_BAN_DANH_MUC_KIEM_TRA}}.
 - {{SO_GIO_THONG_BAO_DAI_LY}}: nên ngắn hơn thời hạn nhà cung cấp cam kết với khách hàng tại C3 ({{SO_GIO_THONG_BAO_NCC}} giờ), vì ở cấu trúc II nhà cung cấp còn phải chuyển tiếp thông báo.
 - {{MUC_PHAT_VI_PHAM_HOP_DONG}}: theo thỏa thuận và giới hạn của pháp luật dân sự, thương mại — **[CẦN ĐỐI CHIẾU]** (văn bản chưa có trong `sources/`).
+- {{PHAM_VI_HOAN_TRA_DAI_LY}}: phạm vi Bên A đồng ý hoàn trả cho đại lý ở cấu trúc I (ví dụ "lỗi thiết kế, lỗi mô hình của sản phẩm, trong giới hạn giá trị sản phẩm của dự án"). Luật 134 Đ29.2 chỉ cho đòi hoàn trả khi **có thỏa thuận**; không ghi thì đại lý tự chịu phần đã cam kết với khách hàng cuối.
+- {{YEU_CAU_BAO_HIEM_DAI_LY}}: ví dụ "bảo hiểm trách nhiệm nghề nghiệp cho hoạt động lắp đặt, tích hợp với hạn mức tối thiểu ... đồng/vụ"; không yêu cầu thì ghi "Không bắt buộc".
+- Điều 5.4 dùng cùng danh sách bối cảnh với ô xác nhận tại B2 mục 5.3. Nhắc đại lý ghi bối cảnh vào phiếu dự án trước khi báo giá.
 - Với đại lý là hộ kinh doanh, doanh nghiệp siêu nhỏ: miễn trừ tại Luật 91 Đ38.3 (không phải lập DPIA, chỉ định nhân sự BVDLCN) không áp dụng cho tổ chức trực tiếp xử lý dữ liệu nhạy cảm. Đại lý đăng ký khuôn mặt hộ khách hàng có thể bị coi là trực tiếp xử lý — **[CẦN ĐỐI CHIẾU]**. Dù được miễn hay không, đại lý vẫn phải có đầu mối nhận thông báo sự cố và thực hiện Phụ lục này.
 
 ## Bằng chứng cần lưu
@@ -184,6 +214,7 @@ Phụ lục này là bộ phận không tách rời của Hợp đồng số {{S
 - Phụ lục đã ký với từng đại lý; phiếu dự án ghi cấu trúc áp dụng.
 - Danh sách nhân sự kỹ thuật của đại lý; bản sao cam kết bảo mật; hồ sơ đào tạo, chứng nhận nội bộ.
 - Biên bản bàn giao và báo cáo cấu hình của từng hệ thống.
+- Phiếu dự án ghi bối cảnh lắp đặt, mục đích sử dụng; thông báo của đại lý về bối cảnh, thay đổi cần phân loại lại (Điều 5.4) và ý kiến của nhà cung cấp.
 - Văn bản chấp thuận nhà thầu phụ của khách hàng cuối (cấu trúc II, III).
 - Biên bản kiểm tra đại lý; hồ sơ khắc phục; thông báo sự cố từ đại lý.
 - Xác nhận xóa dữ liệu, thu hồi tài khoản khi chấm dứt.

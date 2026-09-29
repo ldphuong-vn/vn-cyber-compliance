@@ -1,6 +1,6 @@
 # Mẫu Tuyên bố về dữ liệu huấn luyện mô hình AI
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ2.7, Đ2.11, Đ7.6, Đ8.3, Đ8.4, Đ9, Đ10.4, Đ14.6, Đ17.1–17.2, Đ20.1–20.2, Đ24, Đ30.1, Đ31.2; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ6.4, Đ7.1, Đ7.2, Đ10.1, Đ17.1; NĐ 330/2026/NĐ-CP Đ39.1.a, Đ51.3.b, Đ53, Đ56.1, Đ56.3, Đ70.2.b, Đ70.3.a · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ2.7, Đ2.11, Đ7.6, Đ8.3, Đ8.4, Đ9, Đ10.4, Đ14.6, Đ17.1–17.2, Đ20.1–20.2, Đ24, Đ30.1, Đ31.2; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ6.4, Đ7.1, Đ7.2, Đ10.1, Đ17.1; NĐ 330/2026/NĐ-CP Đ39.1.a, Đ51.3.b, Đ53, Đ56.1, Đ56.3, Đ70.2.b, Đ70.3.a; Luật 134/2025/QH15 Đ3.3, Đ3.4, Đ7.3, Đ14.1.b, Đ14.6, Đ28.3; NĐ 142/2026/NĐ-CP Đ3.5, Đ6.2, Đ12.3, Đ12.4, Đ15.2.b, Đ16.4, Đ16.6 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -24,6 +24,10 @@ Với phương án B, nhà cung cấp **tự quyết định mục đích** hu�
 | Dữ liệu đã khử nhận dạng không còn là DLCN | Luật 91 Đ2.1, Đ2.11 |
 | Cấm mua, bán DLCN, trừ trường hợp luật có quy định khác; chuyển giao theo Đ17.1 có thu phí không bị coi là mua bán | Luật 91 Đ7.6, Đ17.2 |
 | Huấn luyện ở nước ngoài, dùng nền tảng nước ngoài: chuyển dữ liệu xuyên biên giới | Luật 91 Đ20.1; NĐ 356 Đ17.1 |
+| Thu thập, xử lý, sử dụng dữ liệu để phát triển, huấn luyện, kiểm thử, vận hành hệ thống AI trái pháp luật về dữ liệu, bảo vệ DLCN, sở hữu trí tuệ, an ninh mạng là **hành vi bị nghiêm cấm** | Luật 134 Đ7.3 |
+| Hệ thống rủi ro cao theo Luật 134: quản trị dữ liệu huấn luyện, kiểm thử, vận hành bảo đảm chất lượng; bảo đảm tính phù hợp, tính đại diện của dữ liệu huấn luyện, kiểm thử, đánh giá | Luật 134 Đ14.1.b; NĐ 142 Đ15.2.b |
+| Nhà cung cấp tích hợp mô hình của bên khác phải thỏa thuận với bên cung cấp mô hình về phối hợp cung cấp thông tin kỹ thuật phục vụ minh bạch, giải trình | NĐ 142 Đ16.6 |
+| Hồ sơ phân loại, giải trình không bắt buộc tiết lộ dữ liệu huấn luyện thô; nhưng khi thanh tra, kiểm tra phải cung cấp dữ liệu huấn luyện cần thiết để xác định nguyên nhân vi phạm, sự cố | NĐ 142 Đ12.4, Đ16.4; Luật 134 Đ28.3 |
 
 | Rủi ro phạt (tổ chức) | Căn cứ |
 |---|---|
@@ -74,14 +78,23 @@ Khi đó phải lập hồ sơ đánh giá tác động chuyển dữ liệu cá
 
 | Thông tin, bằng chứng cần có | Lý do |
 |---|---|
-| Nguồn dữ liệu huấn luyện, cơ sở pháp lý, giấy phép; có dùng ảnh khuôn mặt thu thập từ Internet không | Không dùng mô hình huấn luyện trên dữ liệu thu thập trái phép (khoản 6 Điều 7, khoản 1 Điều 11 Luật Bảo vệ dữ liệu cá nhân; khoản 1 Điều 10 Nghị định số 356/2025/NĐ-CP) |
+| Nguồn dữ liệu huấn luyện, cơ sở pháp lý, giấy phép; có dùng ảnh khuôn mặt thu thập từ Internet không | Không dùng mô hình huấn luyện trên dữ liệu thu thập trái phép (khoản 6 Điều 7, khoản 1 Điều 11 Luật Bảo vệ dữ liệu cá nhân; khoản 1 Điều 10 Nghị định số 356/2025/NĐ-CP). Dùng dữ liệu trái pháp luật để phát triển, huấn luyện, vận hành hệ thống trí tuệ nhân tạo là hành vi bị nghiêm cấm (khoản 3 Điều 7 Luật Trí tuệ nhân tạo số 134/2025/QH15) |
 | Kết quả kiểm thử độ chính xác, sai lệch theo nhóm của bên cung cấp; **kiểm thử lại** trên khuôn mặt người dùng tại Việt Nam, trong điều kiện lắp đặt thực tế | Độ tin cậy của thuật toán (điểm a khoản 5 Điều 10 Nghị định số 356/2025/NĐ-CP); mô hình huấn luyện chủ yếu trên nhóm dân cư khác có thể từ chối nhầm nhiều hơn |
 | Cam kết mô hình, thư viện kèm theo không tự gửi dữ liệu ra ngoài, không có chức năng ẩn | Ngăn thu thập dữ liệu trái phép từ hệ thống (điểm đ khoản 2 Điều 37 Luật Bảo vệ dữ liệu cá nhân) |
 | Kênh phát hành bản cập nhật, vá lỗi; thời gian hỗ trợ | Bảo đảm an ninh mạng cho hệ thống AI (điểm a khoản 5 Điều 10 Nghị định số 356/2025/NĐ-CP) |
 | Giấy phép sử dụng thương mại, phạm vi lãnh thổ, quyền sửa đổi, tinh chỉnh | Pháp lý hợp đồng |
 | Quyền kiểm tra, yêu cầu thông tin khi cơ quan có thẩm quyền, khách hàng hỏi | Trách nhiệm giải trình (điểm b khoản 5 Điều 10 Nghị định số 356/2025/NĐ-CP) |
+| Thẻ mô hình (mục đích, phạm vi áp dụng, hạn chế, rủi ro, dữ liệu huấn luyện, kết quả đánh giá hiệu năng); điều khoản phối hợp cung cấp thông tin kỹ thuật | Khoản 5 Điều 3, khoản 6 Điều 16 Nghị định số 142/2026/NĐ-CP |
 
-Hợp đồng với bên cung cấp mô hình ghi rõ: bên cung cấp **không nhận** dữ liệu cá nhân từ hệ thống tại Việt Nam, trừ khi có thỏa thuận riêng và hồ sơ theo Điều 20 Luật Bảo vệ dữ liệu cá nhân. Pháp luật chuyên ngành về trí tuệ nhân tạo có thể đặt thêm nghĩa vụ với mô hình nhập khẩu — **[CẦN ĐỐI CHIẾU]**.
+Hợp đồng với bên cung cấp mô hình ghi rõ: bên cung cấp **không nhận** dữ liệu cá nhân từ hệ thống tại Việt Nam, trừ khi có thỏa thuận riêng và hồ sơ theo Điều 20 Luật Bảo vệ dữ liệu cá nhân.
+
+**Nghĩa vụ theo pháp luật về trí tuệ nhân tạo.** Luật Trí tuệ nhân tạo số 134/2025/QH15 và Nghị định số 142/2026/NĐ-CP không có thủ tục riêng cho mô hình nhập khẩu. Các nghĩa vụ liên quan:
+
+1. {{TEN_NHA_CUNG_CAP}} đưa hệ thống ra thị trường dưới tên, thương hiệu của mình nên là **nhà cung cấp**, không phụ thuộc hệ thống do mình tự phát triển hay do bên thứ ba phát triển (khoản 4 Điều 3 Luật Trí tuệ nhân tạo), và chịu toàn bộ nghĩa vụ của nhà cung cấp. Khi tự tinh chỉnh mô hình, {{TEN_NHA_CUNG_CAP}} đồng thời là **nhà phát triển** (khoản 3 Điều 3 Luật này).
+2. Việc phân loại rủi ro áp dụng cho **hệ thống**, không áp dụng cho mô hình, trừ khi mô hình được sử dụng như một thành phần của hệ thống cụ thể (khoản 2 Điều 6 Nghị định số 142/2026/NĐ-CP). Mô hình nhập khẩu được xét trong phân loại của {{TEN_SAN_PHAM}} tại tài liệu Phân loại rủi ro hệ thống AI (B2).
+3. Hợp đồng với bên cung cấp mô hình phải có điều khoản phối hợp cung cấp thông tin kỹ thuật cần thiết để {{TEN_NHA_CUNG_CAP}} thực hiện trách nhiệm minh bạch và giải trình (khoản 6 Điều 16 Nghị định số 142/2026/NĐ-CP). Hồ sơ phân loại rủi ro chỉ phải có thông tin kỹ thuật và thông tin về dữ liệu trong phạm vi quyền tiếp cận và kiểm soát hợp pháp của {{TEN_NHA_CUNG_CAP}} (khoản 3 Điều 12 Nghị định này). Yêu cầu bên cung cấp giao **thẻ mô hình** (khoản 5 Điều 3 Nghị định này).
+4. Nếu bên nước ngoài **trực tiếp** cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao tại Việt Nam dưới tên của họ, bên đó phải có đầu mối liên hệ hợp pháp tại Việt Nam; nếu hệ thống thuộc diện bắt buộc chứng nhận sự phù hợp trước khi đưa vào sử dụng thì phải có hiện diện thương mại hoặc đại diện được ủy quyền tại Việt Nam (khoản 6 Điều 14 Luật Trí tuệ nhân tạo).
+5. Với cấu hình rủi ro cao theo B2, {{TEN_NHA_CUNG_CAP}} quản trị dữ liệu huấn luyện, kiểm thử và vận hành bảo đảm chất lượng trong phạm vi khả năng kỹ thuật, phù hợp với mục đích sử dụng (điểm b khoản 1 Điều 14 Luật Trí tuệ nhân tạo). Với mô hình mua, việc này thực hiện qua thông tin bên cung cấp công bố và việc **kiểm thử lại** trên dữ liệu kiểm thử tại Việt Nam (mục 4).
 
 ## 2. Tuyên bố về việc sử dụng dữ liệu của khách hàng
 
@@ -157,6 +170,8 @@ Nguyên tắc {{TEN_NHA_CUNG_CAP}} áp dụng với từng loại nguồn:
 
 Nhãn nhóm (giới tính, độ tuổi, tông màu da) chỉ tồn tại trong bộ dữ liệu kiểm thử; không dùng để huấn luyện mô hình suy luận các thuộc tính này.
 
+Dữ liệu kiểm thử, đánh giá được chọn để đại diện cho nhóm người dùng và điều kiện lắp đặt tại Việt Nam. Với cấu hình rủi ro cao, đây là nội dung bắt buộc của hệ thống quản lý rủi ro (điểm b khoản 2 Điều 15 Nghị định số 142/2026/NĐ-CP).
+
 ## 5. Nơi huấn luyện, lưu trữ dữ liệu huấn luyện
 
 | Hạng mục | Thông tin |
@@ -172,9 +187,11 @@ Nếu dữ liệu cá nhân thu thập tại Việt Nam được chuyển ra nư
 
 1. {{TEN_NHA_CUNG_CAP}} không phát triển mô hình suy luận nguồn gốc chủng tộc, dân tộc, quan điểm chính trị, tôn giáo, tình trạng sức khỏe, xu hướng tình dục từ hình ảnh khuôn mặt.
 
-2. Mọi thay đổi về nguồn dữ liệu huấn luyện hoặc về việc sử dụng dữ liệu khách hàng được cập nhật vào tuyên bố này và thông báo cho khách hàng trước khi áp dụng {{SO_NGAY_THONG_BAO_TRUOC}} ngày.
+2. {{TEN_NHA_CUNG_CAP}} không thu thập, xử lý hoặc sử dụng dữ liệu để phát triển, huấn luyện, kiểm thử hoặc vận hành hệ thống trí tuệ nhân tạo trái với quy định của pháp luật về dữ liệu, bảo vệ dữ liệu cá nhân, sở hữu trí tuệ và an ninh mạng (khoản 3 Điều 7 Luật Trí tuệ nhân tạo số 134/2025/QH15).
 
-3. Khách hàng có quyền yêu cầu {{TEN_NHA_CUNG_CAP}} cung cấp bằng chứng cho các nội dung tại tuyên bố này theo điều khoản kiểm tra của hợp đồng.
+3. Mọi thay đổi về nguồn dữ liệu huấn luyện hoặc về việc sử dụng dữ liệu khách hàng được cập nhật vào tuyên bố này và thông báo cho khách hàng trước khi áp dụng {{SO_NGAY_THONG_BAO_TRUOC}} ngày.
+
+4. Khách hàng có quyền yêu cầu {{TEN_NHA_CUNG_CAP}} cung cấp bằng chứng cho các nội dung tại tuyên bố này theo điều khoản kiểm tra của hợp đồng.
 
 Liên hệ: {{NHAN_SU_BVDLCN_NCC}} — {{EMAIL_BVDLCN_NCC}} — {{DIEN_THOAI_BVDLCN_NCC}}.
 
@@ -187,11 +204,13 @@ Liên hệ: {{NHAN_SU_BVDLCN_NCC}} — {{EMAIL_BVDLCN_NCC}} — {{DIEN_THOAI_BVD
 - Mục 1: {{PHIEN_BAN_MO_HINH}}, {{PHIEN_BAN_MO_HINH_LIVENESS}} dùng cùng giá trị với B3. Các placeholder `NGUON_GOC_*`: ghi "Tự phát triển", "Mua của …", hoặc tên dự án mã nguồn mở và giấy phép.
 - Mục 3: mỗi bộ dữ liệu một dòng. Không rõ nguồn gốc hoặc giấy phép thì ghi "Chưa xác minh" và lên kế hoạch thay thế.
 - {{DU_LIEU_CHAN_DOAN_GUI_VE}}: liệt kê chính xác (ví dụ: mã lỗi, phiên bản firmware, nhiệt độ thiết bị, số lần nhận diện thành công/thất bại theo ngày).
-- Tuyên bố phải được rà soát mỗi khi phát hành mô hình mới.
+- Tuyên bố phải được rà soát mỗi khi phát hành mô hình mới. Đổi mô hình có thể là "thay đổi đáng kể" phải phân loại lại, đánh giá lại sự phù hợp nếu cấu hình là rủi ro cao (NĐ 142 Đ11.1.a, Đ13.1.b) — xem B2 mục 5.1.
+- Tuyên bố này không bắt buộc công bố dữ liệu huấn luyện thô (NĐ 142 Đ12.4, Đ16.4). Khi thanh tra, kiểm tra, cơ quan có thẩm quyền có thể yêu cầu cung cấp dữ liệu huấn luyện (Luật 134 Đ28.3); lưu giữ nguồn gốc, giấy phép để đáp ứng.
 
 ## Bằng chứng cần lưu
 
 - Bản tuyên bố đã ký theo từng phiên bản; lịch sử thay đổi.
 - Giấy phép, hợp đồng, mô tả nguồn gốc của từng bộ dữ liệu huấn luyện và kiểm thử.
+- Với mô hình của bên thứ ba: thẻ mô hình; hợp đồng có điều khoản phối hợp cung cấp thông tin kỹ thuật (NĐ 142 Đ16.6); hồ sơ thẩm định tại mục 1.1.
 - *(Phương án B)* Thỏa thuận riêng với từng khách hàng; bằng chứng đồng ý của chủ thể cho mục đích huấn luyện; nhật ký khử nhận dạng; nhật ký loại dữ liệu khi rút đồng ý; hồ sơ đánh giá tác động; hồ sơ chuyển xuyên biên giới (nếu có).
 - Cấu hình sản phẩm chứng minh không có luồng tự động gửi hình ảnh về nhà cung cấp (phương án A).

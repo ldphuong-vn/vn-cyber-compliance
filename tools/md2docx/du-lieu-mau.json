@@ -1899,7 +1899,28 @@
       "CO_QUAN_DANG_KY_NOI_QUY": "Sở Nội vụ TP. Hồ Chí Minh",
       "THOI_HAN_LUU_VIDEO_NGANH": "Không áp dụng (khách hàng không thuộc ngành có thời hạn tối thiểu)",
       "CAN_CU_THOI_HAN_TOI_THIEU_NGANH": "Không áp dụng",
-      "NHOM_CAMERA_THEO_QUY_DINH_NGANH": "Không có"
+      "NHOM_CAMERA_THEO_QUY_DINH_NGANH": "Không có",
+      "MA_DINH_DANH_HE_THONG_AI": "Không áp dụng — hệ thống rủi ro thấp theo Luật 134 (mô phỏng)",
+      "THE_MO_HINH_DAC_TRUNG": "Thẻ mô hình FR-3.2 (mô phỏng)",
+      "THE_MO_HINH_LIVENESS": "Thẻ mô hình LV-1.4 (mô phỏng)",
+      "THOA_THUAN_THONG_TIN_MO_HINH": "Điều 8 Hợp đồng cấp phép mô hình (mô phỏng)",
+      "THOI_HAN_LUU_NHAT_KY_AI": "12 tháng",
+      "URL_CHINH_SACH_LO_HONG": "https://example.vn/bao-mat/chinh-sach-lo-hong",
+      "CHU_KY_CAP_NHAT_TRANG_THAI_LO_HONG": "ít nhất 14 ngày/lần",
+      "BIEN_PHAP_CHONG_TAN_CONG_DOI_NGHICH": "kết hợp camera hồng ngoại và RGB; kiểm thử với mẫu tấn công in ấn (mô phỏng)",
+      "DANH_SACH_MODEL_CAMERA": "VX-E2, VX-E3 (mô phỏng)",
+      "SO_CONG_BO_HOP_QUY": "Chưa có (mô phỏng)",
+      "TO_CHUC_THU_NGHIEM_HOP_QUY": "Chưa xác định",
+      "NGAY_CONG_BO_HOP_QUY": "Chưa có",
+      "THOI_HAN_DANH_GIA_SU_CO_AI": "24",
+      "PHIEN_BAN_TAI_LIEU_PHAN_LOAI_RUI_RO": "B2 v1.1",
+      "SO_NGAY_BAO_TRUOC_DOI_MUC_DICH": "30",
+      "BEN_THONG_BAO_PHAN_LOAI_LAI": "Bên B",
+      "MUC_HOAN_TRA_BOI_THUONG_TOI_DA": "tổng giá trị Hợp đồng đã thanh toán trong 12 tháng gần nhất",
+      "SO_NGAY_BAO_YEU_CAU_BOI_THUONG": "05",
+      "CAM_KET_BAO_HIEM_TRACH_NHIEM": "Hai bên không cam kết mua bảo hiểm trách nhiệm theo Phụ lục này.",
+      "PHAM_VI_HOAN_TRA_DAI_LY": "lỗi thiết kế, lỗi mô hình của sản phẩm, trong giới hạn giá trị sản phẩm của dự án",
+      "YEU_CAU_BAO_HIEM_DAI_LY": "Không bắt buộc"
     }
   }
 }

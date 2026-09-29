@@ -1,6 +1,6 @@
 # Mẫu Tài liệu giải thích nguyên tắc hoạt động của thuật toán nhận diện khuôn mặt
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9.2, Đ14.1.a, Đ24.2, Đ25.3, Đ31.2; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.4, Đ6.4, Đ10.3, Đ10.5.a, Đ10.6, Đ23.7, Đ29; NĐ 330/2026/NĐ-CP Đ34.2.c, Đ43.1.h, Đ67.2.a, Đ67.2.b, Đ67.2.c, Đ67.3.b, Đ67.4.b, Đ67.5 · **Đối chiếu văn bản gốc:** 28/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9.2, Đ14.1.a, Đ24.2, Đ25.3, Đ31.2; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.4, Đ6.4, Đ10.3, Đ10.5.a, Đ10.6, Đ23.7, Đ29; NĐ 330/2026/NĐ-CP Đ34.2.c, Đ43.1.h, Đ67.2.a, Đ67.2.b, Đ67.2.c, Đ67.3.b, Đ67.4.b, Đ67.5; Luật 134/2025/QH15 Đ3.4, Đ4.2, Đ4.3, Đ7.4, Đ11.1, Đ14.1.d–e, Đ14.2.b, Đ14.2.đ, Đ15.1.b, Đ15.2, Đ31.1; NĐ 142/2026/NĐ-CP Đ3.1, Đ3.5, Đ3.6, Đ8.2.b, Đ11.5, Đ12.3, Đ12.4, Đ15.2.b–c, Đ16.2–16.4, Đ16.6; QĐ 33/2026/QĐ-TTg Phụ lục mục VI.6 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -13,7 +13,7 @@
 
 Nghĩa vụ thông báo và giải thích thuộc **bên kiểm soát** (NĐ 356 Đ10.3), tức là khách hàng. Nhà cung cấp soạn sẵn để khách hàng có nội dung chính xác về kỹ thuật. Với M3, M4, nhà cung cấp nên ghi thêm tên mình là tổ chức cung cấp dịch vụ xử lý trong phần A (NĐ 356 Đ23.7).
 
-**Áp dụng mô hình:** M1–M5, cho mọi tính năng mức C, TB có quyết định tự động theo B2 (kiểm soát ra vào, chấm công, điểm danh, danh sách đen, nhận diện khách). Với nhận diện biển số, dùng mục B.11.
+**Áp dụng mô hình:** M1–M5, cho mọi tính năng mức BV-Cao, BV-Trung bình có quyết định tự động theo B2 (kiểm soát ra vào, chấm công, điểm danh, danh sách đen, nhận diện khách). Với nhận diện biển số, dùng mục B.11.
 
 | Yêu cầu | Căn cứ |
 |---|---|
@@ -25,8 +25,14 @@ Nghĩa vụ thông báo và giải thích thuộc **bên kiểm soát** (NĐ 356
 | Không có cơ chế từ chối tham gia xử lý tự động: **50–70 triệu đồng** | NĐ 330 Đ67.2.b |
 | Không bảo đảm quyền chỉnh sửa, ẩn danh, xóa hồ sơ nhận dạng: **50–70 triệu đồng** | NĐ 330 Đ67.2.c |
 | Quyết định tự động ảnh hưởng quyền lợi, không cho yêu cầu đánh giá lại bởi con người: **70–100 triệu đồng**, đình chỉ 03–06 tháng | NĐ 330 Đ67.3.b, Đ67.4.b |
+| Hệ thống AI tương tác trực tiếp với con người phải được thiết kế để người sử dụng **nhận biết đang tương tác với hệ thống AI** (mọi mức rủi ro). Phần A đáp ứng một phần; nên thêm dòng chữ, biểu tượng trên màn hình thiết bị, kiosk | Luật 134 Đ11.1 |
+| Hệ thống rủi ro cao theo Luật 134: cung cấp cho người sử dụng và người bị ảnh hưởng thông tin ở mức mô tả chức năng, cách thức vận hành và cảnh báo rủi ro | Luật 134 Đ14.1.e, Đ14.2.đ |
+| Giải trình với cơ quan nhà nước ở mức mô tả chức năng; không bắt buộc tiết lộ mã nguồn, thuật toán chi tiết, dữ liệu huấn luyện, bộ tham số, bí mật kinh doanh | Luật 134 Đ14.1.e, Đ15.1.b, Đ15.2; NĐ 142 Đ16.3, Đ16.4 |
+| Duy trì khả năng giám sát, can thiệp của con người đối với mọi quyết định của hệ thống AI; cản trở, vô hiệu hóa cơ chế này là hành vi bị nghiêm cấm | Luật 134 Đ4.2, Đ7.4, Đ14.1.d |
 
-Mức phạt cho tổ chức; cá nhân bằng một nửa (NĐ 330 Đ7.1).
+Mức phạt cho tổ chức; cá nhân bằng một nửa (NĐ 330 Đ7.1). Luật 134 chưa có nghị định xử phạt riêng (Đ29.5) tại 29/09/2026 — **[CẦN ĐỐI CHIẾU]**.
+
+**Phần B dùng cho hồ sơ theo Luật 134.** Phần B có thể dùng làm **thẻ hệ thống** (NĐ 142 Đ3.6) hoặc một phần **hồ sơ kỹ thuật** (NĐ 142 Đ3.1) khi cấu hình triển khai là rủi ro cao theo B2 mục 2.3. Mục B.0 ghi nguồn gốc mô hình và thẻ mô hình (NĐ 142 Đ3.5).
 
 **Không được bịa số liệu.** Mọi chỉ số FAR, FRR, APCER, BPCER, sai lệch theo nhóm là **placeholder**; chỉ điền khi có báo cáo kiểm thử thật, ghi rõ bộ dữ liệu, điều kiện và ngày kiểm thử. Không dùng số liệu quảng cáo của nhà cung cấp linh kiện nếu chưa kiểm thử lại trên sản phẩm.
 
@@ -36,7 +42,7 @@ Mức phạt cho tổ chức; cá nhân bằng một nửa (NĐ 330 Đ7.1).
 
 **1. Hệ thống làm gì?**
 
-{{TEN_KHACH_HANG}} dùng hệ thống nhận diện khuôn mặt {{TEN_SAN_PHAM}} để {{mở cửa ra vào/chấm công/điểm danh/nhận diện khách đã đăng ký}}. Camera tại {{VI_TRI_CAMERA_NHAN_DIEN}} chụp ảnh khuôn mặt của bạn khi bạn đi qua và so với khuôn mặt bạn đã đăng ký. Nếu giống, hệ thống {{mở cửa/ghi giờ công/ghi có mặt}}.
+{{TEN_KHACH_HANG}} dùng hệ thống nhận diện khuôn mặt {{TEN_SAN_PHAM}} để {{mở cửa ra vào/chấm công/điểm danh/nhận diện khách đã đăng ký}}. Camera tại {{VI_TRI_CAMERA_NHAN_DIEN}} chụp ảnh khuôn mặt của bạn khi bạn đi qua và so với khuôn mặt bạn đã đăng ký. Nếu giống, hệ thống {{mở cửa/ghi giờ công/ghi có mặt}}. Đây là **hệ thống trí tuệ nhân tạo (AI)**: máy tự so khớp khuôn mặt, không có người trực tiếp nhận diện tại thời điểm bạn đi qua.
 
 **2. Hệ thống dùng dữ liệu gì của bạn?**
 
@@ -83,6 +89,17 @@ Gửi yêu cầu bằng văn bản (giấy hoặc thư điện tử) tới đầ
 | Phiên bản mô hình chống giả mạo | {{PHIEN_BAN_MO_HINH_LIVENESS}} |
 | Ngày ban hành | {{NGAY_BAN_HANH_TAI_LIEU}} |
 | Đầu mối kỹ thuật | {{NHAN_SU_BVDLCN_NCC}} — {{EMAIL_BVDLCN_NCC}} |
+
+## B.0. Mô hình sử dụng
+
+| Mô hình | Chức năng | Phiên bản | Nguồn gốc (tự phát triển / mua / mã nguồn mở; quốc gia của bên cung cấp) | Thẻ mô hình (tên tài liệu, ngày) |
+|---|---|---|---|---|
+| Trích xuất đặc trưng, so khớp | Nhận diện khuôn mặt | {{PHIEN_BAN_MO_HINH}} | {{NGUON_GOC_MO_HINH_DAC_TRUNG}} | {{THE_MO_HINH_DAC_TRUNG}} |
+| Chống giả mạo | Kiểm tra người thật | {{PHIEN_BAN_MO_HINH_LIVENESS}} | {{NGUON_GOC_MO_HINH_LIVENESS}} | {{THE_MO_HINH_LIVENESS}} |
+
+{{TEN_NHA_CUNG_CAP}} đưa hệ thống ra thị trường dưới tên, thương hiệu của mình nên là nhà cung cấp hệ thống, kể cả khi mô hình do bên thứ ba phát triển (khoản 4 Điều 3 Luật Trí tuệ nhân tạo số 134/2025/QH15). Thẻ mô hình là tài liệu mô tả đặc tính, mục đích sử dụng, phạm vi áp dụng, hạn chế, rủi ro tiềm ẩn, dữ liệu huấn luyện, điều kiện huấn luyện và kết quả đánh giá hiệu năng của mô hình (khoản 5 Điều 3 Nghị định số 142/2026/NĐ-CP).
+
+Với mô hình của bên thứ ba: {{TEN_NHA_CUNG_CAP}} đã thỏa thuận với bên cung cấp mô hình về việc phối hợp cung cấp thông tin kỹ thuật cần thiết cho trách nhiệm minh bạch và giải trình (khoản 6 Điều 16 Nghị định số 142/2026/NĐ-CP): {{THOA_THUAN_THONG_TIN_MO_HINH}}. Thông tin kỹ thuật và dữ liệu trong tài liệu này được cung cấp trong phạm vi quyền tiếp cận và kiểm soát hợp pháp của {{TEN_NHA_CUNG_CAP}} (khoản 3 Điều 12 Nghị định số 142/2026/NĐ-CP). Dữ liệu huấn luyện: xem Tuyên bố về dữ liệu huấn luyện (B7).
 
 ## B.1. Phạm vi
 
@@ -193,9 +210,11 @@ Ngưỡng chênh lệch chấp nhận nội bộ: {{NGUONG_CHENH_LECH_CHAP_NHAN}
 
 Nếu **chưa** kiểm thử theo nhóm, ghi rõ "Chưa kiểm thử sai lệch theo nhóm; dự kiến hoàn thành ngày {{NGAY_DU_KIEN_KIEM_THU_NHOM}}" và khuyến nghị khách hàng áp dụng mục B.8 chặt hơn.
 
+Căn cứ: nguyên tắc bảo đảm công bằng, không thiên lệch, không phân biệt đối xử trong hoạt động trí tuệ nhân tạo (khoản 3 Điều 4 Luật Trí tuệ nhân tạo số 134/2025/QH15). Với cấu hình rủi ro cao, hệ thống quản lý rủi ro của nhà cung cấp phải bảo đảm chất lượng, tính phù hợp và tính đại diện của dữ liệu huấn luyện, dữ liệu kiểm thử và dữ liệu đánh giá (điểm b khoản 2 Điều 15 Nghị định số 142/2026/NĐ-CP).
+
 ## B.8. Cơ chế con người xem xét lại
 
-Sản phẩm hỗ trợ cơ chế để con người giám sát và đánh giá lại quyết định tự động, đáp ứng điểm b khoản 3 Điều 67 Nghị định số 330/2026/NĐ-CP:
+Sản phẩm hỗ trợ cơ chế để con người giám sát và đánh giá lại quyết định tự động, đáp ứng điểm b khoản 3 Điều 67 Nghị định số 330/2026/NĐ-CP và nguyên tắc duy trì sự kiểm soát, khả năng can thiệp của con người đối với mọi quyết định của hệ thống trí tuệ nhân tạo (khoản 2 Điều 4 Luật Trí tuệ nhân tạo số 134/2025/QH15). Với cấu hình rủi ro cao, đây là nghĩa vụ thiết kế của nhà cung cấp (điểm d khoản 1 Điều 14) và nghĩa vụ duy trì của bên triển khai (điểm b khoản 2 Điều 14 Luật này; điểm c khoản 2 Điều 15 Nghị định số 142/2026/NĐ-CP):
 
 1. **Vùng "cần xác minh":** điểm tương đồng nằm giữa ngưỡng "cần xác minh" và ngưỡng chấp nhận thì sự kiện được đánh dấu để người trực xác nhận; không tự động ghi nhận kết quả bất lợi.
 
@@ -206,6 +225,10 @@ Sản phẩm hỗ trợ cơ chế để con người giám sát và đánh giá 
 4. **Ghi nhật ký:** mọi lần xem xét lại ghi người xem, thời điểm, kết luận, lý do.
 
 5. **Thống kê:** báo cáo định kỳ tỷ lệ từ chối nhầm, số yêu cầu xem xét lại, số kết quả bị đảo ngược; tỷ lệ bất thường tại một thiết bị là dấu hiệu cần kiểm tra lắp đặt.
+
+6. **Chế độ "xác minh trước khi thực thi":** mọi kết quả nhận diện (kể cả kết quả khớp) chỉ tạo hệ quả — mở cổng, chặn cổng, cảnh báo can thiệp, ghi vi phạm — sau khi người có thẩm quyền do khách hàng chỉ định xem xét và xác nhận. Người xác minh thấy ảnh sự kiện, ảnh đăng ký, điểm tương đồng, kết quả chống giả mạo và có quyền chấp nhận, từ chối hoặc thay đổi kết quả. Chế độ này dùng cho danh sách đen và cho dự án tại đầu mối giao thông, công trình công cộng quan trọng. Khi chế độ được bật và việc xác minh là thực chất, cấu hình triển khai không đáp ứng điều kiện "thực thi mà không qua xác minh độc lập của cán bộ có thẩm quyền" tại mục VI.6 Phụ lục Quyết định số 33/2026/QĐ-TTg (tinh thần điểm b khoản 2 Điều 8 Nghị định số 142/2026/NĐ-CP). Người xác minh phải có đủ thông tin, thẩm quyền để đánh giá độc lập, can thiệp hoặc bác bỏ kết quả của hệ thống (khoản 5 Điều 11 Nghị định số 142/2026/NĐ-CP).
+
+7. **Không có tùy chọn vô hiệu hóa:** với cấu hình rủi ro cao theo Luật Trí tuệ nhân tạo, sản phẩm không cung cấp tùy chọn tắt các cơ chế tại mục này. Cản trở, vô hiệu hóa hoặc làm sai lệch cơ chế giám sát, can thiệp và kiểm soát của con người là hành vi bị nghiêm cấm (khoản 4 Điều 7 Luật Trí tuệ nhân tạo số 134/2025/QH15). Mọi thay đổi cấu hình liên quan được ghi nhật ký (B4 mục 4).
 
 Khách hàng phân công người xem xét lại và thời hạn xử lý {{THOI_HAN_XEM_XET_LAI}} trong quy trình nội bộ.
 
@@ -241,11 +264,16 @@ Hệ thống phát hiện vùng biển số, đọc ký tự và so với danh s
 - {{THANG_MAU_DA}}: tên thang phân loại dùng trong bộ dữ liệu kiểm thử. Nhãn này là thuộc tính của bộ dữ liệu kiểm thử; không dùng trong sản phẩm.
 - {{PHIEN_BAN_MO_HINH}}, {{PHIEN_BAN_MO_HINH_LIVENESS}}: cập nhật tài liệu mỗi khi đổi mô hình; thông báo cho khách hàng khi độ chính xác thay đổi đáng kể.
 - Mục B.4: nêu cả giới hạn (loại tấn công chưa kiểm thử). Việc chống giả mạo có ý nghĩa vì hành vi dùng AI, deepfake giả mạo sinh trắc học để xác thực trái phép đã bị xử phạt tại NĐ 330 Đ34.2.c.
+- Mục B.0: {{THE_MO_HINH_DAC_TRUNG}}, {{THE_MO_HINH_LIVENESS}} ghi tên, ngày của thẻ mô hình (tự lập, hoặc do bên cung cấp mô hình phát hành); chưa có thì ghi "Chưa có" và đưa vào kế hoạch. {{THOA_THUAN_THONG_TIN_MO_HINH}} ghi số, ngày hợp đồng hoặc điều khoản với bên cung cấp mô hình (NĐ 142 Đ16.6); mô hình tự phát triển ghi "Không áp dụng". Giá trị nguồn gốc dùng chung với B7 mục 1.
+- Mục B.8 điểm 6: chưa có văn bản định nghĩa "đầu mối giao thông, công trình công cộng quan trọng" (QĐ 33 Phụ lục mục VI.6) — **[CẦN ĐỐI CHIẾU]**. Lập luận "xác minh trước khi thực thi đưa cấu hình ra khỏi dòng VI.6" là cách hiểu theo câu chữ của Danh mục; ghi lập luận vào hồ sơ dự án (B2 mục 2.3).
+- Khi nộp Phần B, hồ sơ kỹ thuật cho cơ quan nhà nước: **đánh dấu phần thuộc bí mật kinh doanh, bí mật công nghệ**. Cơ quan nhà nước có trách nhiệm bảo đảm bí mật hồ sơ kỹ thuật, dữ liệu huấn luyện, mã nguồn và thuật toán được cung cấp (Luật 134 Đ31.1); việc giải trình không bắt buộc tiết lộ mã nguồn, thuật toán chi tiết, bộ tham số (Luật 134 Đ14.1.e; NĐ 142 Đ16.4).
 
 ## Bằng chứng cần lưu
 
 - Bản Phần A đã ban hành, ảnh chụp nơi niêm yết, ngày niêm yết (khách hàng lưu).
 - Bản Phần B theo từng phiên bản mô hình (nhà cung cấp lưu).
+- Thẻ mô hình; hợp đồng, điều khoản phối hợp cung cấp thông tin kỹ thuật với bên cung cấp mô hình (NĐ 142 Đ16.6).
+- Ảnh chụp màn hình thiết bị, kiosk có thông báo đang tương tác với hệ thống AI (Luật 134 Đ11.1).
 - Báo cáo kiểm thử độ chính xác, chống giả mạo, sai lệch theo nhóm (bộ dữ liệu, điều kiện, ngày, đơn vị).
 - Nhật ký xem xét lại, thống kê tỷ lệ từ chối nhầm, số kết quả bị đảo ngược (khách hàng lưu).
 - Nhật ký từ chối, rút đồng ý và biên bản xóa hồ sơ nhận dạng.
