@@ -120,7 +120,7 @@
 | Phần A — Loại thông tin | Chọn theo Đ9.1: công cộng / riêng / cá nhân / bí mật nhà nước. Chỉ ghi "chỉ thông tin công cộng" khi mọi dữ liệu đều công khai, không cần xác định danh tính người xem. |
 | Phần A — Số chủ thể DLCN | Đếm tách DLCN cơ bản và nhạy cảm; ghi thời điểm chốt số. Với HTTT nội bộ, thường là số nhân viên (kể cả đã nghỉ việc còn lưu hồ sơ). Ngưỡng 100.000/10.000 chỉ là tiêu chí với **dịch vụ trực tuyến** (Đ12.2.b, Đ13.2.c). |
 | Phần B–D — cột Có/Không | Điền ☑ vào một trong hai cột, ô còn lại để ☐. Không để trống dòng nào; dòng chưa chắc chắn → ghi chú bên dưới và xin ý kiến đơn vị chuyên trách trước khi kết luận. |
-| B2 = Có | Hệ thống thuộc phạm vi bắt buộc của NĐ 331 (Đ2). Kiểm tra tiếp C4, C5 và D2–D4 thật cẩn thận; tra Phụ lục IV Luật Đầu tư cho D2 (xem [tieu-chi-cap-do.md mục 6.2](../01-xac-dinh-cap-do/tieu-chi-cap-do.md)). |
+| B2 = Có | Hệ thống thuộc phạm vi bắt buộc của NĐ 331 (Đ2). Kiểm tra tiếp C4, C5 và D2–D4 thật cẩn thận; tra Phụ lục IV Luật Đầu tư 143/2025/QH15 cho D2 (thường gặp: mục 52, 98, 111, 194–198) (xem [tieu-chi-cap-do.md mục 6.2](../01-xac-dinh-cap-do/tieu-chi-cap-do.md)). |
 | Kết luận phạm vi | Ghi rõ hệ thống thuộc diện bắt buộc hay khuyến khích (Đ2) và lý do vẫn xác định cấp độ (Luật 116 Đ10.1.a, Đ10.3). |
 | Phần E — Mức tổn hại | Lấy từ kết quả đánh giá rủi ro sơ bộ trong [hồ sơ 04](04-ho-so-de-xuat-cap-do.md). Nếu mức tổn hại cao hơn cấp theo tiêu chí → đề xuất cấp cao hơn (Đ10.5) và đánh dấu D8. |
 | Phần E — Lưu ý | Ghi các nghĩa vụ liên quan phát hiện khi sàng lọc, ví dụ dịch vụ đám mây đặt máy chủ ở nước ngoài có xử lý DLCN của nhân viên → rà soát quy định chuyển DLCN xuyên biên giới (Luật 91/2025/QH15 Đ20; NĐ 356/2025/NĐ-CP Đ17). |

@@ -1,6 +1,6 @@
 # Giao thoa An ninh mạng – Bảo vệ dữ liệu cá nhân
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2, Đ20–Đ23, Đ33, Đ37, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3, Đ4, Đ13, Đ14, Đ17–Đ29, Đ31, Đ41; NQ 22/2026/NQ-CP Đ6, Phụ lục I.7; Luật 116/2025/QH15 Đ26.2, Đ41.4; NĐ 331/2026/NĐ-CP Đ9.1, Đ10.3.b, Đ12.2.b, Đ13.2.c; NĐ 333/2026/NĐ-CP Đ15.3, Đ24.3.a; NĐ 330/2026/NĐ-CP Đ54–Đ57, Đ59, Đ61, Đ69 · **Đối chiếu văn bản gốc:** 24/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2, Đ20–Đ23, Đ33, Đ37, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3, Đ4, Đ13, Đ14, Đ17–Đ29, Đ31, Đ41; NQ 22/2026/NQ-CP Đ6, Phụ lục I.7; Luật 116/2025/QH15 Đ26.2, Đ41.4; NĐ 331/2026/NĐ-CP Đ9.1, Đ10.3.b, Đ12.2.b, Đ13.2.c; NĐ 333/2026/NĐ-CP Đ15.3, Đ24.3.a; NĐ 330/2026/NĐ-CP Đ54–Đ57, Đ59, Đ61, Đ69 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Tài liệu này **chỉ trình bày phần giao thoa** giữa tuân thủ ANM và BVDLCN — những nghĩa vụ DLCN mà người làm tuân thủ ANM gặp khi xác định cấp độ, lập phương án ANM, xử lý sự cố. Không thay thế một chương trình tuân thủ DLCN đầy đủ (quyền chủ thể, sự đồng ý, các lĩnh vực đặc thù tại Luật 91 Đ24–Đ32).
 
@@ -46,7 +46,7 @@ Tài liệu này **chỉ trình bày phần giao thoa** giữa tuân thủ ANM v
 | **Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp** | **Được lựa chọn** thực hiện hoặc không: DPIA (Luật 91 Đ21), cập nhật hồ sơ (Đ22), chỉ định bộ phận/nhân sự BVDLCN (Đ33.2) | **05 năm** kể từ 01/01/2026 | Kinh doanh dịch vụ xử lý DLCN; **trực tiếp xử lý DLCN nhạy cảm**; hoặc xử lý DLCN **từ khi quy mô đạt ≥ 100.000 chủ thể** (tích lũy tổng lượng đã xử lý) | Luật 91 Đ38.2; NĐ 356 Đ41.1 |
 | **Hộ kinh doanh, doanh nghiệp siêu nhỏ** | **Không phải** thực hiện Đ21, Đ22, Đ33.2 (không giới hạn thời gian) | Không nêu thời hạn | Như trên | Luật 91 Đ38.3; NĐ 356 Đ41.2 |
 
-> **Không thuộc diện miễn:** miễn trừ **không** bao gồm hồ sơ **chuyển DLCN xuyên biên giới** (Luật 91 Đ20) và **thông báo vi phạm 72 giờ** (Luật 91 Đ23). Doanh nghiệp nhỏ dùng cloud/SaaS đặt ở nước ngoài để xử lý dữ liệu khách hàng vẫn phải lập hồ sơ chuyển xuyên biên giới, trừ khi thuộc trường hợp miễn tại dòng 3a. Tiêu chí "doanh nghiệp nhỏ, siêu nhỏ, khởi nghiệp": **[CẦN ĐỐI CHIẾU]** pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa (không có trong bộ nguồn).
+> **Không thuộc diện miễn:** miễn trừ **không** bao gồm hồ sơ **chuyển DLCN xuyên biên giới** (Luật 91 Đ20) và **thông báo vi phạm 72 giờ** (Luật 91 Đ23). Doanh nghiệp nhỏ dùng cloud/SaaS đặt ở nước ngoài để xử lý dữ liệu khách hàng vẫn phải lập hồ sơ chuyển xuyên biên giới, trừ khi thuộc trường hợp miễn tại dòng 3a. Tiêu chí "doanh nghiệp nhỏ, siêu nhỏ": Luật 04/2017/QH14 Đ4 và NĐ 80/2021/NĐ-CP Đ5 (đã đối chiếu toàn văn; bảng ngưỡng tại [../08-bo-mau-cap-1-2/bao-ve-du-lieu-ca-nhan-cap-1-2.md](../08-bo-mau-cap-1-2/bao-ve-du-lieu-ca-nhan-cap-1-2.md) mục 4). "Doanh nghiệp khởi nghiệp" không được Luật 91 định nghĩa; gần nhất là "doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo" (Luật 04/2017 Đ3.2) **[CẦN ĐỐI CHIẾU]**.
 
 > **Ngoại lệ quan trọng nhất là "kinh doanh dịch vụ xử lý DLCN".** Một tổ chức siêu nhỏ nhưng cung cấp một trong 9 dịch vụ tại NĐ 356 Đ21 thì mất toàn bộ miễn trừ, đồng thời phải xin Giấy chứng nhận đủ điều kiện. Phạm vi 9 dịch vụ, ranh giới với việc xử lý cho chính mình, điều kiện, thủ tục và mức phạt: [`dich-vu-xu-ly-dlcn.md`](dich-vu-xu-ly-dlcn.md).
 

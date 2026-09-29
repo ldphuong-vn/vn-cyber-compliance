@@ -1,6 +1,6 @@
 # Phiếu xác định cấp độ hệ thống thông tin (worksheet)
 
-> **Căn cứ:** NĐ 331/2026/NĐ-CP Đ4, Đ5, Đ7–Đ16, Đ10.3; Luật 116/2025/QH15 Đ8.1 · **Đối chiếu văn bản gốc:** 24/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** NĐ 331/2026/NĐ-CP Đ4, Đ5, Đ7–Đ16, Đ10.3; Luật 116/2025/QH15 Đ8.1; Luật Đầu tư 143/2025/QH15 Phụ lục IV · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 **Cách dùng:** sao chép phiếu này cho **mỗi** HTTT (đặt tên `phieu-{{MA_HE_THONG}}.md`). Phiếu là tài liệu làm việc nội bộ, không phải biểu mẫu pháp định; nội dung phiếu là đầu vào cho [Thuyết minh đề xuất cấp độ](../02-ho-so-cap-do/thuyet-minh-de-xuat-cap-do.md) (NĐ 331 Đ22.4) và [Thuyết minh tổng quan](../02-ho-so-cap-do/thuyet-minh-tong-quan-httt.md) (Đ22.3). Tra tiêu chí tại [tieu-chi-cap-do.md](tieu-chi-cap-do.md), đi nhanh bằng [cay-quyet-dinh.md](cay-quyet-dinh.md).
 
@@ -87,8 +87,8 @@ Xem cách đếm thận trọng khi là bên xử lý: [tieu-chi-cap-do.md mục
 |---|---|
 | Dịch vụ trực tuyến cung cấp | `{{MO_TA_DICH_VU}}` |
 | Ngành, nghề tương ứng | `{{NGANH_NGHE}}` |
-| Thuộc danh mục ngành, nghề ĐTKD có điều kiện (Phụ lục IV Luật Đầu tư)? | ☐ Có — STT `{{STT_PHU_LUC_IV}}` ☐ Không ☐ Chưa rõ |
-| Văn bản đã tra, phiên bản, ngày tra | `{{VAN_BAN_DA_TRA}}` — **[CẦN ĐỐI CHIẾU] Phụ lục IV Luật Đầu tư chưa có trong repo** |
+| Thuộc danh mục ngành, nghề ĐTKD có điều kiện (Phụ lục IV Luật Đầu tư 143/2025/QH15)? | ☐ Có — STT `{{STT_PHU_LUC_IV}}` ☐ Không ☐ Chưa rõ |
+| Văn bản đã tra, phiên bản, ngày tra | `{{VAN_BAN_DA_TRA}}` — toàn văn Phụ lục IV: `sources/van-ban-goc/toan-van/luat-143-2025-qh15-dau-tu.txt` (hiệu lực 01/7/2026, Đ51.2); các mục hay gặp: [tieu-chi-cap-do.md mục 6.2](tieu-chi-cap-do.md) |
 | Giấy phép/điều kiện kinh doanh đang có | `{{GIAY_PHEP}}` |
 
 ## Phần G. Kết nối, liên thông

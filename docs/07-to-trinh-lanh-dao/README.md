@@ -1,11 +1,11 @@
 # 07 — Mẫu tờ trình lãnh đạo
 
-> **Căn cứ:** Luật 116/2025/QH15 Đ10, Đ25, Đ34, Đ35.2, Đ38.2, Đ44, Đ45; NĐ 331/2026/NĐ-CP Đ2, Đ18.4, Đ30.5–30.8, Đ31, Đ32, Đ35, Đ39; NĐ 333/2026/NĐ-CP Đ16, Đ19, Đ20, Đ24; NĐ 330/2026/NĐ-CP Đ7, Đ21, Đ23, Đ24, Đ29, Đ30, Đ33, Đ55–Đ57; Luật 91/2025/QH15 Đ20, Đ21, Đ23, Đ33, Đ38; NĐ 356/2025/NĐ-CP Đ13, Đ21, Đ41 · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 116/2025/QH15 Đ10, Đ25, Đ34, Đ35.2, Đ38.2, Đ44, Đ45; NĐ 331/2026/NĐ-CP Đ2, Đ18.4, Đ30.5–30.8, Đ31, Đ32, Đ35, Đ39; NĐ 333/2026/NĐ-CP Đ16, Đ19, Đ20, Đ24; NĐ 330/2026/NĐ-CP Đ7, Đ21, Đ23, Đ24, Đ29, Đ30, Đ33, Đ55–Đ57; Luật 91/2025/QH15 Đ20, Đ21, Đ23, Đ33, Đ38; NĐ 356/2025/NĐ-CP Đ13, Đ21, Đ41 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Bộ **mẫu tờ trình nội bộ** giúp bộ phận IT, an ninh mạng (ANM), pháp chế, nhân sự, tài chính đề xuất với ban lãnh đạo các việc cần làm để tuân thủ pháp luật về ANM và bảo vệ dữ liệu cá nhân (DLCN). Mỗi tờ trình nêu căn cứ pháp lý, hiện trạng, rủi ro (có mức phạt đối với tổ chức), nội dung đề xuất, kinh phí, tiến độ, phân công và kiến nghị. Cuối mỗi tờ trình có ô ý kiến phê duyệt của lãnh đạo.
 
 > **Lưu ý:**
-> - Tờ trình là **văn bản nội bộ** của doanh nghiệp (phòng ban trình ban lãnh đạo), không phải hồ sơ gửi cơ quan nhà nước. Bố cục theo thể thức văn bản hành chính phổ biến; doanh nghiệp điều chỉnh theo quy chế văn thư nội bộ. **[CẦN ĐỐI CHIẾU]** NĐ 30/2020/NĐ-CP về công tác văn thư không có trong bộ nguồn của repo.
+> - Tờ trình là **văn bản nội bộ** của doanh nghiệp (phòng ban trình ban lãnh đạo), không phải hồ sơ gửi cơ quan nhà nước. Bố cục theo thể thức văn bản hành chính phổ biến; doanh nghiệp điều chỉnh theo quy chế văn thư nội bộ. NĐ 30/2020/NĐ-CP về công tác văn thư chỉ bắt buộc với cơ quan, tổ chức nhà nước và doanh nghiệp nhà nước (Đ2.1); doanh nghiệp khác dùng thể thức tại Phụ lục I của nghị định để tham khảo.
 > - Bản Word điền sẵn dữ liệu mẫu (tô vàng) nằm trong [`templates/07-to-trinh-lanh-dao/`](../../templates/07-to-trinh-lanh-dao/), sinh bằng công cụ [`tools/md2docx`](../../tools/md2docx/README.md).
 > - Đây là tài liệu tham khảo, không phải ý kiến pháp lý. Trước khi trình, đối chiếu lại văn bản gốc và các điểm còn mở tại [`../00-tong-quan/diem-can-doi-chieu.md`](../00-tong-quan/diem-can-doi-chieu.md).
 

@@ -1,6 +1,6 @@
 # Legal Landscape and Compliance Roadmap
 
-> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 28/09/2026.
+> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 29/09/2026.
 > **Vietnamese source:** [docs/00-tong-quan/tong-quan-luat-116.md](../docs/00-tong-quan/tong-quan-luat-116.md) · [docs/00-tong-quan/danh-muc-van-ban.md](../docs/00-tong-quan/danh-muc-van-ban.md) · [docs/00-tong-quan/lo-trinh-tuan-thu.md](../docs/00-tong-quan/lo-trinh-tuan-thu.md) · [docs/00-tong-quan/README.md](../docs/00-tong-quan/README.md)
 
 This page answers three questions: which instruments apply, when they took effect, and which deadlines an organization must plan for. Vietnamese pages checked against the original texts on 24/09/2026. Full Vietnamese texts: [sources/van-ban-goc/](../sources/van-ban-goc/README.md).
@@ -18,6 +18,9 @@ This page answers three questions: which instruments apply, when they took effec
 | **Resolution 22/2026** — issued 29/4/2026 | **29/4/2026 to the end of 01/3/2027** (Art. 6.1 Resolution 22) | Prevails over other texts on the same procedures while in force (Art. 6.2) | Appendix I.7: licensing of network information security products and services, certificate for personal data processing services, filing of personal data impact assessments moved from MPS to provincial police |
 | **TCVN 14423:2026** — published by Decision 3243/QĐ-BKHCN of 24/7/2026 [TO VERIFY number and date] | Per the publishing decision | Replaces **TCVN 14423:2025 and TCVN 11930:2017** (foreword) | Basic requirements per level: clause 3 (Level 1), 4 (Level 2), 5 (Level 3), 6 (Level 4), 7 (Level 5), Appendix A (physical security). Referred to in Art. 28.1, 28.4, 29.1, 30.1 Decree 331. Copyrighted — not stored in the repository |
 | Decree 329/2026 (cybersecurity forces) and Decree 332/2026 (cybersecurity products and services business) | [TO VERIFY] | [TO VERIFY] | Full texts not in the repository; the toolkit does not cite their articles |
+| **Law on Investment 2025** (Law 143/2025/QH15) — passed 11/12/2025 | **01/3/2026**; Art. 7 and **Appendix IV** (list of conditional business lines) from **01/7/2026** (Art. 51.1–51.2) | Law on Investment 61/2020 ends 01/3/2026, except its Art. 7 and old Appendix IV, which end 01/7/2026 (Art. 51.4) | Appendix IV is the list referred to by Art. 12.2(a), 13.2(a) Decree 331 (Level 2/3 boundary). Relevant items: 98 telecommunications services; 111 cybersecurity products and services; 194–196 data intermediary, data analysis and aggregation, data exchange; 198 personal data processing services |
+
+**External references with full texts in `sources/`** (checked 29/09/2026; list in the Vietnamese catalog §3a): Labor Code 45/2019 as consolidated by 18/VBHN-VPQH (Art. 21.2, 118–119, 123–125, 129–130); Criminal Code as consolidated by 135/VBHN-VPQH (Art. 159, 286–289 — no separate personal data offence); Law 04/2017 on SME support (scanned PDF only) and Decree 80/2021 (SME thresholds); Decree 30/2020 on clerical work (binding only on state bodies and state-owned enterprises, Art. 2.1); Law on Enterprises 59/2020 Art. 43 (seals; not amended by Law 03/2022 or Law 76/2025). Sector texts available but not yet reviewed into the toolkit: Law on E-commerce 122/2025/QH15 (effective 01/7/2026), Decree 147/2024 on Internet services and online information, Circular 09/2020/TT-NHNN on information system security in banking.
 
 How they relate:
 
@@ -45,11 +48,13 @@ Key overlap: Level 2 and Level 3 criteria use the number of data subjects of **b
 |---|---|---|
 | Law 86/2015 (Network Information Security) | Ended 01/7/2026 (Art. 44.2 Law 116) | Systems already classified under it **keep their level** but must meet Law 116 conditions within 12 months from 01/7/2026 (Art. 45.1); licenses issued remain valid until expiry (Art. 45.2); products already in use must meet conditions within 12 months (Art. 45.3) |
 | Law 24/2018 (Cybersecurity) | Ended 01/7/2026 | No |
-| Decree 85/2016 (former security-level regime) | De facto replaced by Decree 331; no repeal clause [TO VERIFY] | Systems **under investment before 01/7/2026**: complete appraisal and approval **under Decree 85/2016** within **06 months** from 01/7/2026; meet Decree 331 measures within **12 months** (Art. 39.1 Decree 331) |
-| Decree 53/2022 | [TO VERIFY] | Appraisal or readiness dossiers accepted before 19/8/2026 (Art. 31 Decree 333) |
+| Decree 85/2016 (former security-level regime; scanned PDF only in `sources/`) | De facto replaced by Decree 331; no repeal clause [TO VERIFY] | Systems **under investment before 01/7/2026**: complete appraisal and approval **under Decree 85/2016** within **06 months** from 01/7/2026; meet Decree 331 measures within **12 months** (Art. 39.1 Decree 331) |
+| Decree 53/2022 (scanned PDF only in `sources/`) | [TO VERIFY] | Appraisal or readiness dossiers accepted before 19/8/2026 (Art. 31 Decree 333) |
 | Decree 13/2023 (personal data) | Ended 01/01/2026 (Art. 42.2 Decree 356) | Existing consents need not be re-collected; filed impact assessments remain usable but must be updated (Art. 39 PDPL) |
 | TCVN 14423:2025, TCVN 11930:2017 | Replaced by TCVN 14423:2026 | Not for new plans. "Network information security" in standards is read as "cybersecurity" under Decree 331 (Art. 39.2 Decree 331) |
 | Decree 108/2016 (security product and service business) | [TO VERIFY] — Resolution 22 still simplifies its procedures | Checking a vendor license issued before 01/7/2026 (Art. 45.2 Law 116) |
+| Circular 12/2022/TT-BTTTT guiding Decree 85/2016 (full text in `sources/`) | Guides Decree 85/2016, which details the expired Law 86/2015; no separate repeal found [TO VERIFY] | Method and precedent only, not a legal basis |
+| Law on Investment 61/2020 (consolidated text 09/VBHN-VPQH, in `sources/`) | Ended 01/3/2026; Art. 7 and old Appendix IV end 01/7/2026 (Art. 51.4 Law 143/2025) | Comparing the old list of conditional business lines; cite Law 143/2025 instead |
 
 ### Guidance still pending (at 24/09/2026)
 
