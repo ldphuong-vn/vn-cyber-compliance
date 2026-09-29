@@ -1,6 +1,6 @@
 # Security Levels: Determination, Authority and Dossier
 
-> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 28/09/2026.
+> **Unofficial English guide.** Condensed from the Vietnamese pages listed below; the Vietnamese version prevails. Vietnamese laws have no official English translation — renderings follow the [glossary](glossary.md). **Synced with Vietnamese version:** 29/09/2026.
 > **Vietnamese source:** [docs/01-xac-dinh-cap-do/README.md](../docs/01-xac-dinh-cap-do/README.md) · [docs/01-xac-dinh-cap-do/tieu-chi-cap-do.md](../docs/01-xac-dinh-cap-do/tieu-chi-cap-do.md) · [docs/01-xac-dinh-cap-do/cay-quyet-dinh.md](../docs/01-xac-dinh-cap-do/cay-quyet-dinh.md) · [docs/01-xac-dinh-cap-do/phieu-xac-dinh-cap-do.md](../docs/01-xac-dinh-cap-do/phieu-xac-dinh-cap-do.md) · [docs/01-xac-dinh-cap-do/tham-quyen-trinh-tu.md](../docs/01-xac-dinh-cap-do/tham-quyen-trinh-tu.md) · [docs/02-ho-so-cap-do/README.md](../docs/02-ho-so-cap-do/README.md)
 
 Every information system (*hệ thống thông tin*, IS) in scope must be assigned one of five security levels (*cấp độ*), Level 1 (lowest) to Level 5 (highest). The level decides three things: which requirements apply (see [03-requirements-by-level.md](03-requirements-by-level.md)), who appraises and approves the classification, and how long the procedure takes. This page answers three questions: **which systems**, **which level**, and **who appraises/approves, within what time**.
@@ -168,7 +168,7 @@ flowchart TD
 
     Q5 -- "b. Citizens and businesses" --> B1{"Handles administrative procedures?"}
     B1 -- Yes --> L3B["Level 3 (Art. 13.2(b))"]
-    B1 -- No --> B2{"Online service in the conditional<br/>business lines list?<br/>(check Appendix IV, Law on Investment)"}
+    B1 -- No --> B2{"Online service in the conditional<br/>business lines list?<br/>(check Appendix IV,<br/>Law on Investment 143/2025)"}
     B2 -- Yes --> L3C["Level 3 (Art. 13.2(a))"]
     B2 -- "No / unclear" --> B3{"≥100,000 basic OR<br/>≥10,000 sensitive data subjects?"}
     B3 -- Yes --> L3D["Level 3 (Art. 13.2(c))"]
@@ -201,9 +201,10 @@ Illustrative examples (hypothetical):
 |---|---|---|---|
 | Static corporate website, no login, no forms | Gray area: not "only internal" (Art. 9.2(a)), hard to call an "online service" (Art. 3.5, 9.2(b)); only public information | 1 or 2, reasoning recorded | With a contact/sign-up form collecting personal information: treat as type b, at least Level 2 |
 | Internal email / HRM | a + employees' personal information | 2 (Art. 12.1) | — |
-| E-commerce platform, 300,000 customer accounts | b + ≥ 100,000 data subjects | 3 (Art. 13.2(c)) | Also check Art. 13.2(a) |
-| Telemedicine app, 8,000 patients (health data = sensitive) | b; < 10,000 sensitive | ≥ 2; check Art. 13.2(a) | Is the medical service a conditional business line? |
-| SaaS for 50 companies, 400,000 end-customer records in total | b (possibly also c) | 3 (cautious) | Record the counting method |
+| E-commerce platform, 300,000 customer accounts | b + ≥ 100,000 data subjects | 3 (Art. 13.2(c)) | An intermediary platform is also Appendix IV item 52 (Law 143/2025) → Level 3 under Art. 13.2(a) too, even with few customers |
+| Telemedicine app, 8,000 patients (health data = sensitive) | b; < 10,000 sensitive | Likely 3 (Art. 13.2(a)) if the app itself delivers medical examination and treatment — Appendix IV item 150; booking/lookup only → 2 | Record the item number checked |
+| SaaS for 50 companies, 400,000 end-customer records in total | b (possibly also c) | 3 (cautious) | Record the counting method. SaaS is not automatically in item 98 (see section 7) |
+| Cloud (IaaS/PaaS) or data center service for customers | b (possibly also c) | 3 (Art. 13.2(a)) | Cloud and data centers are telecommunications services (Art. 3.9, 3.11 Law 24/2023) → Appendix IV item 98; also consider Art. 13.3, 14.2 |
 
 The Vietnamese [worksheet](../docs/01-xac-dinh-cap-do/phieu-xac-dinh-cap-do.md) (*phiếu xác định cấp độ*) is an internal working document (not a statutory form), one per system: it records the inputs above, the matched criteria and proposed level, and is signed by the operating unit and reviewed by the designated cybersecurity unit. It feeds the dossier statements.
 
@@ -214,7 +215,7 @@ Each is detailed in the Vietnamese criteria page (section 6) and in [gray-areas.
 | Issue | Articles | Cautious reading |
 |---|---|---|
 | Mandatory scope vs "encouraged" | Art. 2 Decree 331; Art. 1.2(a), 10.1(a) Law 116 | See section 1: classify all systems |
-| Is SaaS/cloud a conditional business line? (Level 2/3 boundary for type b) | Art. 12.2(a) vs 13.2(a) | Look up Appendix IV of the Law on Investment (current consolidated version) **[TO VERIFY]**; the test attaches to the **online service**, not to the company's registered lines. If the online service is the main way of carrying out a licensed conditional line, Level 3. If unsure, apply Art. 8.2 or ask the appraising unit; record the line number checked. Cloud/data center providers may also be type c (Art. 13.3, 14.2), whose criteria are written in terms of state administrative scope **[TO VERIFY]** |
+| Is SaaS/cloud a conditional business line? (Level 2/3 boundary for type b) | Art. 12.2(a) vs 13.2(a) | Look up Appendix IV (198 items) of the Law on Investment 143/2025/QH15 (Art. 7.1; Art. 7 and Appendix IV in force from 01/7/2026 under Art. 51.2 — before that date, Appendix IV of Law 61/2020). Items often relevant to online services: 52 (e-commerce: intermediary platforms, social networks conducting e-commerce, integrated platforms; e-contract certification), 98 (telecommunications services), 99 (trust services), 103 (social network services), 104 (games on telecom networks/the Internet), 106 (general information websites), 108 (information content services on mobile networks/the Internet), 109 (domain names), 110 (electronic authentication), 111 (cybersecurity products and services), 113 (civil cryptography), 150 (medical examination and treatment), 186, 189 (commercial banks; payment intermediary services, e-money), 194–196 (data intermediary; data analysis and aggregation; data exchanges), 197 (crypto-asset services), 198 (personal data processing services). Read the full list. **Cloud and data centers** are telecommunications services (Art. 3.9, 3.11 Law 24/2023; Art. 5.2(đ), (e) Decree 163/2024) → item 98 → Level 3. **SaaS** is not automatically in item 98 ("telecommunications application service", Art. 3.12, is distinct from "telecommunications service", Art. 3.7); it is Level 3 under Art. 13.2(a) only if its content matches another item; the SaaS/PaaS vs cloud boundary is **[TO VERIFY]**. The test attaches to the **online service**, not to the company's registered lines: internal systems of a telecom company are not Level 3 for that reason. If only part of the service is listed or unsure, apply Art. 8.2 or ask the appraising unit; record the item number checked. Cloud/data center providers may also be type c (Art. 13.3, 14.2), whose criteria are written in terms of state administrative scope **[TO VERIFY]** |
 | Counting data subjects, especially as a processor | Art. 12.2(b), 13.2(c) | Count **all** data subjects whose personal data is processed on the system, regardless of controller/processor role; unique subjects stored at filing date plus forecast over the planned lifecycle; count sensitive data separately; de-identified data is not personal data (Art. 2.1 PDPL); keep the query and results as evidence |
 | Internal system or online service? | Art. 9.2(a) vs 9.2(b) | "Supports" in Art. 9.2(b) extends type b to back-office systems of online services (CRM, core, payments, APIs, partner portals). If data flows regularly with a customer-facing front end, consider merging scope (Art. 7.2(a)) or classify as type b |
 | Industrial control outside "construction works" | Arts. 13.4–15.4 | No ICS criterion at Levels 1–2; a production line is not "construction works": consider type đ plus risk assessment **[TO VERIFY]** against MPS guidance (Art. 34.1(b)) |
@@ -363,4 +364,4 @@ Failing to prepare a level dossier for Level 3–5 systems, or putting a Level 3
 - [ ] Risk assessment completed (Art. 10.2(a), 10.3) and all Art. 21 components ready (Levels 4–5: professional opinion, Art. 21.5).
 - [ ] System cybersecurity regulation issued, or to be issued before approval (Art. 30.7).
 - [ ] Correct addressee and form for the level (sections 8, 12); timeline planned against sections 10 and 14.
-- [ ] Evidence kept: signed worksheet, scope and data flow diagrams, data subject count query, Appendix IV lookup (date, version), risk assessment report. Do not send network diagrams or public IPs over insecure channels.
+- [ ] Evidence kept: signed worksheet, scope and data flow diagrams, data subject count query, Appendix IV lookup (Law 143/2025: date, item number, any amendment), risk assessment report. Do not send network diagrams or public IPs over insecure channels.

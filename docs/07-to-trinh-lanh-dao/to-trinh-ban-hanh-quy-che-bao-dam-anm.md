@@ -1,6 +1,6 @@
 # Mẫu Tờ trình ban hành Quy chế bảo đảm an ninh mạng
 
-> **Căn cứ:** Luật 116/2025/QH15 Đ10.2.a, Đ10.3–10.4; NĐ 331/2026/NĐ-CP Đ27.2.a–b, Đ28.1, Đ30.3, Đ30.7, Đ36.6–36.7, Đ36.11; NĐ 330/2026/NĐ-CP Đ7.1, Đ23.1.a, Đ23.1.c, Đ23.3–23.4, Đ61.2.c; NĐ 333/2026/NĐ-CP Đ16.1, Đ16.6.c, Đ20.3; TCVN 14423:2026 mục 4.8, 5.8, 6.8, 7.8 · **Đối chiếu văn bản gốc:** 25/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 116/2025/QH15 Đ10.2.a, Đ10.3–10.4; NĐ 331/2026/NĐ-CP Đ27.2.a–b, Đ28.1, Đ30.3, Đ30.7, Đ36.6–36.7, Đ36.11; NĐ 330/2026/NĐ-CP Đ7.1, Đ23.1.a, Đ23.1.c, Đ23.3–23.4, Đ61.2.c; NĐ 333/2026/NĐ-CP Đ16.1, Đ16.6.c, Đ20.3; TCVN 14423:2026 mục 4.8, 5.8, 6.8, 7.8 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Khi nào dùng
 
@@ -153,7 +153,7 @@ Kính trình {{CHUC_DANH_LANH_DAO}} xem xét:
 - **Cấp 1–2:** Luật 116 Đ10.3 cho phép chủ quản HTTT cấp 1–2 "lựa chọn áp dụng" các biện pháp tại Đ10.2, nhưng NĐ 331 Đ30.7 vẫn yêu cầu có Quy chế trước khi phê duyệt hồ sơ đề xuất cấp độ, không phân biệt cấp. Và NĐ 330 Đ23.1.a xử phạt không phân biệt cấp. Khuyến nghị: mọi tổ chức đều ban hành Quy chế.
 - Dòng "tái phạm, tước giấy phép" chỉ giữ lại khi tổ chức có Giấy phép thiết lập trang thông tin điện tử tổng hợp. Nếu không có thì xóa dòng này.
 - Nếu Quy chế dùng chung cho nhiều HTTT có cấp độ khác nhau, ghi rõ ở Mục II.2.a để người phê duyệt hồ sơ cấp độ thấy Quy chế "đáp ứng yêu cầu quản lý theo cấp độ tương ứng" (NĐ 331 Đ30.7).
-- **[CẦN ĐỐI CHIẾU]** Thể thức văn bản theo NĐ 30/2020/NĐ-CP. Văn bản này không có trong bộ nguồn của repo. Doanh nghiệp áp dụng quy chế văn thư nội bộ.
+- Thể thức văn bản: NĐ 30/2020/NĐ-CP chỉ bắt buộc với cơ quan, tổ chức nhà nước và doanh nghiệp nhà nước (NĐ 30 Đ2.1). Doanh nghiệp khác áp dụng quy chế văn thư nội bộ, có thể tham khảo thể thức tại Phụ lục I của nghị định.
 
 **Mẹo thuyết phục lãnh đạo**
 

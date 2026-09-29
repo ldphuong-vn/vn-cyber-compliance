@@ -1,6 +1,6 @@
 # Tiêu chí xác định cấp độ hệ thống thông tin
 
-> **Căn cứ:** Luật 116/2025/QH15 Đ2, Đ8, Đ9; NĐ 331/2026/NĐ-CP Đ2, Đ3, Đ7–Đ16; Luật 91/2025/QH15 Đ2; NĐ 356/2025/NĐ-CP Đ3, Đ4 · **Đối chiếu văn bản gốc:** 24/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 116/2025/QH15 Đ2, Đ8, Đ9; NĐ 331/2026/NĐ-CP Đ2, Đ3, Đ7–Đ16; Luật 91/2025/QH15 Đ2; NĐ 356/2025/NĐ-CP Đ3, Đ4; Luật Đầu tư 143/2025/QH15 Đ7, Đ51, Phụ lục IV; Luật Viễn thông 24/2023/QH15 Đ3 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Tài liệu tóm lược tiêu chí để người làm tuân thủ lập luận căn cứ đề xuất cấp độ. Khi trích dẫn trong hồ sơ, dẫn nguyên văn điều khoản từ văn bản gốc. Tài liệu **không kết luận thay** đơn vị thẩm định hoặc cơ quan có thẩm quyền.
 
@@ -155,12 +155,36 @@ Phần này **nêu vấn đề và cách lập luận thận trọng**, không p
 ### 6.2. SaaS/cloud có thuộc "ngành, nghề đầu tư kinh doanh có điều kiện"? (Đ12.2.a vs Đ13.2.a)
 
 - **Vấn đề:** Đây là ranh giới cấp 2/cấp 3 của HTTT loại b. NĐ 331 không định nghĩa danh mục, chỉ dẫn chiếu "danh mục ngành, nghề đầu tư kinh doanh có điều kiện".
-- **Nguồn phải tra:** Phụ lục IV Luật Đầu tư (Danh mục ngành, nghề đầu tư kinh doanh có điều kiện), phiên bản đang có hiệu lực kèm các luật sửa đổi — **[CẦN ĐỐI CHIẾU] Luật Đầu tư và Luật Viễn thông không có trong kho văn bản của repo; cần tra cứu bản hợp nhất mới nhất**.
+- **Nguồn phải tra:** Luật Đầu tư 143/2025/QH15 Đ7.1 và **Phụ lục IV** (Danh mục ngành, nghề đầu tư kinh doanh có điều kiện, 198 mục). Theo Luật 143/2025 Đ51.2, Đ51.4, Đ7 và Phụ lục IV có hiệu lực từ **01/7/2026**; trước ngày đó áp dụng Phụ lục IV Luật Đầu tư 61/2020/QH14 (chỉ dùng khi lập luận cho giai đoạn trước 01/7/2026). Toàn văn: `sources/van-ban-goc/toan-van/luat-143-2025-qh15-dau-tu.txt`. Danh mục có thể được sửa đổi (Luật 143/2025 Đ7.6) — kiểm tra lại khi tra.
+- **Các mục thường gặp với dịch vụ trực tuyến** (Luật 143/2025 Phụ lục IV, trích đúng tên mục):
+
+  | STT | Ngành, nghề |
+  |---|---|
+  | 22, 24 | Kinh doanh chứng khoán; Kinh doanh bảo hiểm |
+  | 52 | Hoạt động thương mại điện tử: quản lý và vận hành nền tảng thương mại điện tử trung gian, mạng xã hội hoạt động thương mại điện tử, nền tảng thương mại điện tử tích hợp; chứng thực hợp đồng điện tử trong thương mại |
+  | 98 | Kinh doanh dịch vụ viễn thông |
+  | 99 | Kinh doanh dịch vụ tin cậy |
+  | 103 | Kinh doanh dịch vụ mạng xã hội |
+  | 104 | Kinh doanh trò chơi trên mạng viễn thông, mạng Internet |
+  | 106 | Kinh doanh dịch vụ thiết lập trang thông tin điện tử tổng hợp |
+  | 108 | Kinh doanh dịch vụ nội dung thông tin trên mạng viễn thông di động, mạng Internet |
+  | 109 | Kinh doanh dịch vụ đăng ký, duy trì tên miền |
+  | 110 | Kinh doanh dịch vụ xác thực điện tử |
+  | 111 | Kinh doanh sản phẩm, dịch vụ an ninh mạng (không bao gồm kinh doanh sản phẩm, dịch vụ mật mã dân sự) |
+  | 113 | Kinh doanh sản phẩm, dịch vụ mật mã dân sự |
+  | 150 | Kinh doanh dịch vụ khám bệnh, chữa bệnh |
+  | 186, 189 | Hoạt động kinh doanh của ngân hàng thương mại; Cung ứng dịch vụ trung gian thanh toán, cung ứng dịch vụ thanh toán không qua tài khoản thanh toán của khách hàng; cung ứng dịch vụ tiền di động |
+  | 194, 195, 196 | Kinh doanh sản phẩm, dịch vụ trung gian dữ liệu; Kinh doanh sản phẩm, dịch vụ phân tích, tổng hợp dữ liệu; Kinh doanh dịch vụ sàn dữ liệu |
+  | 197 | Hoạt động cung cấp dịch vụ liên quan đến tài sản mã hóa |
+  | 198 | Dịch vụ xử lý dữ liệu cá nhân |
+
+  Bảng chỉ là các mục hay gặp, **không thay thế việc đọc toàn bộ Phụ lục IV** (ví dụ giáo dục: mục 115–122; lữ hành: 165). Mục 52 không bao gồm mọi website bán hàng: nền tảng TMĐT kinh doanh trực tiếp (website bán hàng của chính doanh nghiệp) không được nêu tên trong mục 52.
 - **Câu hỏi cần trả lời:**
-  1. Dịch vụ trực tuyến của tổ chức có phải là một ngành, nghề trong Phụ lục IV không (ví dụ: dịch vụ viễn thông, dịch vụ trung gian thanh toán, kinh doanh chứng khoán, bảo hiểm, dịch vụ y tế, giáo dục, trò chơi điện tử trên mạng, thương mại điện tử có điều kiện riêng...)? — **tra danh mục, không suy đoán**.
-  2. Dịch vụ trung tâm dữ liệu, điện toán đám mây: cần kiểm tra việc phân loại theo pháp luật viễn thông hiện hành và việc có mặt trong Phụ lục IV — **[CẦN ĐỐI CHIẾU]**.
-  3. Hệ thống có trực tiếp "cung cấp dịch vụ trực tuyến thuộc" ngành nghề có điều kiện, hay chỉ là công cụ nội bộ của doanh nghiệp có ngành nghề có điều kiện? Đ13.2.a gắn với **dịch vụ trực tuyến**, không gắn với ngành nghề đăng ký của doanh nghiệp.
-- **Cách lập luận thận trọng:** Nếu dịch vụ trực tuyến là phương thức thực hiện chính một ngành nghề có điều kiện mà doanh nghiệp được cấp phép/đáp ứng điều kiện → xếp cấp 3 theo Đ13.2.a. Nếu không chắc → áp dụng Đ8.2 (cấp cao nhất) hoặc xin ý kiến đơn vị thẩm định; ghi rõ mã ngành, số thứ tự trong Phụ lục IV đã tra.
+  1. Dịch vụ trực tuyến của tổ chức có **chính là** hoạt động của một mục trong Phụ lục IV không? Ghi STT đã tra hoặc "không thuộc" — **tra danh mục, không suy đoán**.
+  2. Dịch vụ trung tâm dữ liệu, điện toán đám mây: là **dịch vụ viễn thông** (Luật Viễn thông 24/2023 Đ3.9, Đ3.11; NĐ 163/2024 Đ5.2.đ, e — dịch vụ viễn thông giá trị gia tăng; phải đăng ký/thông báo theo Luật Viễn thông Đ20.1, Đ41 và NĐ 163/2024 Đ45.1) ⇒ thuộc Luật 143/2025 Phụ lục IV **mục 98**. HTTT dùng để cung cấp dịch vụ cloud/DC cho khách hàng là dịch vụ trực tuyến thuộc danh mục ⇒ **cấp 3 theo NĐ 331 Đ13.2.a**.
+  3. **SaaS, ứng dụng thông thường** không tự động thuộc mục 98: việc chạy trên cloud của bên khác không biến ứng dụng thành dịch vụ viễn thông; dịch vụ dùng mạng viễn thông để cung cấp ứng dụng trong lĩnh vực khác là "dịch vụ ứng dụng viễn thông" (Luật Viễn thông Đ3.12), khác với "dịch vụ viễn thông" (Đ3.7). SaaS chỉ thuộc Đ13.2.a khi **nội dung** dịch vụ khớp một mục khác (vd 52, 103, 189, 194–196, 198). **[CẦN ĐỐI CHIẾU]** ranh giới giữa SaaS/PaaS và "dịch vụ điện toán đám mây" (định nghĩa Đ3.11 rộng: xử lý, lưu trữ, truy xuất thông tin "thông qua điện toán đám mây") chưa có hướng dẫn; nhà cung cấp PaaS/hosting nên coi là cloud.
+  4. Hệ thống có trực tiếp "cung cấp dịch vụ trực tuyến thuộc" ngành nghề có điều kiện, hay chỉ là công cụ nội bộ của doanh nghiệp có ngành nghề có điều kiện? Đ13.2.a gắn với **dịch vụ trực tuyến**, không gắn với ngành nghề đăng ký của doanh nghiệp: HTTT nội bộ (kế toán, nhân sự) của một doanh nghiệp viễn thông không vì thế mà là cấp 3.
+- **Cách lập luận thận trọng:** Nếu dịch vụ trực tuyến là phương thức thực hiện một ngành nghề trong Phụ lục IV → xếp cấp 3 theo Đ13.2.a, ghi STT mục. Nếu chỉ một phần dịch vụ thuộc danh mục hoặc không chắc → áp dụng Đ8.2 (cấp cao nhất) hoặc xin ý kiến đơn vị thẩm định.
 - **Lưu ý thêm cho nhà cung cấp cloud/DC:** Có thể đồng thời là HTTT loại c (CSHTTT phục vụ nhiều tổ chức — Đ9.2.c). Khi đó cần xét Đ13.3 (phạm vi một bộ/ngành/tỉnh/một số tỉnh) và Đ14.2 (toàn quốc, 24/7). Tiêu chí Đ13.3/Đ14.2 viết theo phạm vi hành chính nhà nước, áp dụng cho CSHTTT thương mại **[CẦN ĐỐI CHIẾU]**.
 
 ### 6.3. Đếm chủ thể dữ liệu (Đ12.2.b, Đ13.2.c) — đặc biệt khi là bên xử lý
@@ -203,7 +227,7 @@ Phần này **nêu vấn đề và cách lập luận thận trọng**, không p
 - [ ] Đã ghi lập luận phạm vi theo 4 căn cứ Đ7.2.a và xem xét liên thông (Đ7.2.b).
 - [ ] Đã phân loại thông tin (Đ9.1) và loại hình (Đ9.2); tra danh mục Bộ Công an công bố (Đ9.2.e).
 - [ ] Đã đếm chủ thể DLCN cơ bản/nhạy cảm và lưu phương pháp đếm.
-- [ ] Đã tra Phụ lục IV Luật Đầu tư cho dịch vụ trực tuyến (ghi số thứ tự ngành nghề hoặc "không thuộc").
+- [ ] Đã tra Phụ lục IV Luật Đầu tư 143/2025/QH15 cho dịch vụ trực tuyến (ghi số thứ tự ngành nghề hoặc "không thuộc").
 - [ ] Đã xét tiêu chí Đ16 (quan trọng về ANQG).
 - [ ] Đã đánh giá rủi ro sơ bộ (Đ10.3) và áp dụng Đ10.5.
 - [ ] Đã áp dụng Đ8.2 (cấp cao nhất) và ghi các tiêu chí khớp.
@@ -215,5 +239,5 @@ Phần này **nêu vấn đề và cách lập luận thận trọng**, không p
 | Phiếu xác định cấp độ đã ký | [phieu-xac-dinh-cap-do.md](phieu-xac-dinh-cap-do.md) |
 | Sơ đồ phạm vi, luồng dữ liệu | Đính kèm thuyết minh tổng quan |
 | Truy vấn/báo cáo đếm chủ thể DLCN | Có ngày chạy, người chạy |
-| Bản tra cứu Phụ lục IV Luật Đầu tư | Ghi ngày tra và phiên bản văn bản |
+| Bản tra cứu Phụ lục IV Luật Đầu tư 143/2025/QH15 | Ghi ngày tra, STT mục và văn bản sửa đổi (nếu có) |
 | Báo cáo đánh giá rủi ro | [../02-ho-so-cap-do/bao-cao-danh-gia-rui-ro.md](../02-ho-so-cap-do/bao-cao-danh-gia-rui-ro.md) |

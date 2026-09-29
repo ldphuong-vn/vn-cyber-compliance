@@ -1,6 +1,6 @@
 # Thuyết minh đề xuất cấp độ — khung
 
-> **Căn cứ:** NĐ 331/2026/NĐ-CP Đ8, Đ9, Đ10, Đ11–Đ16, Đ21.3, Đ22.2.b, Đ22.4, Đ22.5; Luật 116/2025/QH15 Đ8.1 · **Đối chiếu văn bản gốc:** 24/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** NĐ 331/2026/NĐ-CP Đ8, Đ9, Đ10, Đ11–Đ16, Đ21.3, Đ22.2.b, Đ22.4, Đ22.5; Luật 116/2025/QH15 Đ8.1; Luật Đầu tư 143/2025/QH15 Phụ lục IV · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 Thành phần 3 của hồ sơ (Đ21.3), phần b) của thuyết minh (Đ22.2.b). Nội dung bắt buộc: **Đ22.4.a–c** cho mọi cấp; **Đ22.5.a–d** bổ sung cho cấp 4–5. Đầu vào: [phiếu xác định cấp độ](../01-xac-dinh-cap-do/phieu-xac-dinh-cap-do.md), [tiêu chí](../01-xac-dinh-cap-do/tieu-chi-cap-do.md), [báo cáo đánh giá rủi ro](bao-cao-danh-gia-rui-ro.md).
 
@@ -36,7 +36,7 @@ Phương pháp đếm chủ thể: {{PHUONG_PHAP_DEM}} *(thời điểm chốt, 
 
 **b) Loại hệ thống thông tin (Đ9.2)**
 
-Loại hình: {{LOAI_HINH}}. Lý do: {{LY_DO}}. *(Nếu loại b: nêu dịch vụ trực tuyến cung cấp, lĩnh vực; kết quả tra danh mục ngành, nghề đầu tư kinh doanh có điều kiện — Phụ lục IV Luật Đầu tư, số thứ tự hoặc "không thuộc" **[CẦN ĐỐI CHIẾU văn bản đang có hiệu lực]**; có giải quyết thủ tục hành chính không.)*
+Loại hình: {{LOAI_HINH}}. Lý do: {{LY_DO}}. *(Nếu loại b: nêu dịch vụ trực tuyến cung cấp, lĩnh vực; kết quả tra danh mục ngành, nghề đầu tư kinh doanh có điều kiện — Phụ lục IV Luật Đầu tư 143/2025/QH15 (hiệu lực 01/7/2026), số thứ tự hoặc "không thuộc", ví dụ "mục 98 — Kinh doanh dịch vụ viễn thông" cho dịch vụ cloud; có giải quyết thủ tục hành chính không.)*
 
 **c) Căn cứ đề xuất cấp độ**
 
