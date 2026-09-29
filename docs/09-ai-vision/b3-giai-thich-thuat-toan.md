@@ -113,7 +113,28 @@ Template là biểu diễn toán học dùng để so khớp. Sản phẩm khôn
 | Chế độ so khớp | {{1:1/1:N}} | Có | 1:1 giảm nhận nhầm đáng kể so với 1:N khi danh sách lớn |
 | Số lần thử lại trước khi chuyển phương thức thay thế | {{SO_LAN_THU_LAI}} | Có | |
 
-Với 1:N, xác suất nhận nhầm tăng khi danh sách đăng ký lớn. Khuyến nghị: danh sách trên {{NGUONG_KICH_THUOC_DANH_SACH}} người thì dùng 1:1 hoặc tăng ngưỡng.
+### Nhận nhầm người lạ khi so khớp 1:N với danh sách lớn
+
+FAR là tỷ lệ nhận nhầm trên **một cặp** so khớp. Ở chế độ 1:N, mỗi khuôn mặt đi qua camera được so với **toàn bộ N người** trong danh sách. Với một người **chưa đăng ký** đi qua, xác suất hệ thống khớp nhầm với ít nhất một người trong danh sách xấp xỉ:
+
+**P(nhận nhầm người lạ) ≈ 1 − (1 − FAR)<sup>N</sup> ≈ N × FAR** (khi N × FAR nhỏ)
+
+Ví dụ minh họa (không phải số đo của {{TEN_SAN_PHAM}}):
+
+| FAR mỗi cặp | N = 50 | N = 500 | N = 5.000 |
+|---|---|---|---|
+| 0,1% | ≈ 4,9% | ≈ 39% | ≈ 99% |
+| 0,01% | ≈ 0,5% | ≈ 4,9% | ≈ 39% |
+| 0,001% | ≈ 0,05% | ≈ 0,5% | ≈ 4,9% |
+
+Hệ quả:
+
+1. Cùng một ngưỡng, **danh sách càng lớn thì càng dễ nhận nhầm người lạ** thành người có quyền ra vào. Tăng ngưỡng giảm nhận nhầm nhưng tăng từ chối nhầm (FRR): người thật bị từ chối nhiều hơn và phải dùng phương thức thay thế.
+2. {{TEN_NHA_CUNG_CAP}} công bố **quy mô danh sách tối đa khuyến nghị cho mỗi điểm nhận diện** ở từng ngưỡng: {{QUY_MO_DANH_SACH_TOI_DA}} người ở ngưỡng mặc định. Hệ thống cảnh báo khi danh sách gán cho một đầu đọc, camera vượt mức này.
+3. Khi vượt quy mô khuyến nghị, chọn một hoặc kết hợp: chia danh sách theo cửa, khu vực (mỗi đầu đọc chỉ nạp người có quyền qua cửa đó); dùng **1:1** (thẻ hoặc mã nhân viên kết hợp khuôn mặt); tăng ngưỡng kèm phương thức thay thế; không dùng kết quả nhận diện để tự động kết luận bất lợi.
+4. Số đo trên ảnh đăng ký chất lượng tốt thường **tốt hơn** thực tế lắp đặt (ánh sáng, góc nghiêng, chuyển động). Kỹ thuật viên đo thử tại hiện trường khi bàn giao (K8).
+
+Căn cứ: nguyên tắc bảo đảm tính chính xác của dữ liệu cá nhân (khoản 3 Điều 3 Luật Bảo vệ dữ liệu cá nhân; không bảo đảm tính chính xác bị phạt 20–40 triệu đồng theo điểm b khoản 1 Điều 39 Nghị định số 330/2026/NĐ-CP); độ tin cậy của thuật toán (điểm a khoản 5 Điều 10 Nghị định số 356/2025/NĐ-CP); quyết định tự động phải có cơ chế để con người đánh giá lại (điểm b khoản 3 Điều 67 Nghị định số 330/2026/NĐ-CP).
 
 ## B.4. Chống giả mạo khuôn mặt
 
@@ -132,11 +153,13 @@ Luồng video từ camera thường (không có cảm biến hồng ngoại, chi
 
 **FAR** (tỷ lệ nhận nhầm): tỷ lệ lần so khớp giữa hai người khác nhau bị hệ thống coi là cùng một người. **FRR** (tỷ lệ từ chối nhầm): tỷ lệ lần so khớp đúng người nhưng hệ thống không nhận ra.
 
-| Ngưỡng | FAR | FRR | Chế độ | Bộ dữ liệu kiểm thử | Điều kiện |
-|---|---|---|---|---|---|
-| {{NGUONG_SO_KHOP_MAC_DINH}} (mặc định) | {{FAR_KIEM_THU}} | {{FRR_KIEM_THU}} | {{1:1/1:N với N = ...}} | {{BO_DU_LIEU_KIEM_THU}} | {{DIEU_KIEN_KIEM_THU}} |
-| {{NGUONG_THAY_THE_1}} | {{FAR_NGUONG_1}} | {{FRR_NGUONG_1}} | | | |
-| {{NGUONG_THAY_THE_2}} | {{FAR_NGUONG_2}} | {{FRR_NGUONG_2}} | | | |
+| Ngưỡng | FAR (mỗi cặp) | FRR | Nhận nhầm người lạ ước tính với N = {{QUY_MO_DANH_SACH_THAM_CHIEU}} | Chế độ | Bộ dữ liệu kiểm thử | Điều kiện |
+|---|---|---|---|---|---|---|
+| {{NGUONG_SO_KHOP_MAC_DINH}} (mặc định) | {{FAR_KIEM_THU}} | {{FRR_KIEM_THU}} | {{NHAN_NHAM_NGUOI_LA_MAC_DINH}} | {{1:1/1:N với N = ...}} | {{BO_DU_LIEU_KIEM_THU}} | {{DIEU_KIEN_KIEM_THU}} |
+| {{NGUONG_THAY_THE_1}} | {{FAR_NGUONG_1}} | {{FRR_NGUONG_1}} | {{NHAN_NHAM_NGUOI_LA_1}} | | | |
+| {{NGUONG_THAY_THE_2}} | {{FAR_NGUONG_2}} | {{FRR_NGUONG_2}} | {{NHAN_NHAM_NGUOI_LA_2}} | | | |
+
+Cột "nhận nhầm người lạ" tính theo công thức tại mục B.3. Ghi rõ số người, số mẫu của bộ kiểm thử; bộ kiểm thử nhỏ (vài trăm người) chỉ cho kết quả sơ bộ, chưa đủ để công bố là độ chính xác của sản phẩm.
 
 Nguồn số liệu: báo cáo kiểm thử số {{SO_BAO_CAO_KIEM_THU}} ngày {{NGAY_KIEM_THU}} do {{DON_VI_KIEM_THU}} thực hiện. Số liệu trong phòng thí nghiệm thường tốt hơn thực tế lắp đặt; khách hàng nên theo dõi tỷ lệ từ chối nhầm thực tế theo mục B.8.
 

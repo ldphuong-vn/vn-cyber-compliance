@@ -107,6 +107,7 @@ Tính năng mới được thêm vào bảng theo quy trình tại mục 5.
 | Công cụ chỉnh sửa, ẩn danh, xóa hồ sơ nhận dạng | | ● | ● | NĐ 356 Đ10.6; NĐ 330 Đ67.2.c |
 | Mã hóa template và dữ liệu nhạy cảm khi lưu, truyền; bảo mật vật lý thiết bị; xác thực đa yếu tố cho quản trị | | | ● | Luật 91 Đ31.4.a; NĐ 330 Đ70.1.c–d |
 | Kiểm thử độ chính xác, sai lệch theo nhóm người, chống giả mạo trước mỗi phiên bản mô hình | | | ● | NĐ 356 Đ10.5.a (độ tin cậy của thuật toán) |
+| Nhận diện 1:N: công bố quy mô danh sách tối đa cho mỗi điểm nhận diện theo ngưỡng; cảnh báo khi vượt; hỗ trợ chế độ 1:1 và chia danh sách theo cửa (B3 mục B.3) | | | ● | Luật 91 Đ3.3; NĐ 330 Đ39.1.b |
 | Giám sát sau triển khai: thống kê tỷ lệ từ chối nhầm, số khiếu nại, số lần xem xét lại | | | ● | NĐ 356 Đ10.5.b |
 | Đánh giá tuân thủ bảo vệ dữ liệu cá nhân định kỳ 01 năm/lần | ● | ● | ● | NĐ 356 Đ10.5.đ; NĐ 330 Đ67.1 |
 
@@ -117,7 +118,8 @@ Mức **KCN**: không có biện pháp nào làm tính năng trở nên chấp n
 ### 5.1. Khi nào phải xét duyệt
 
 - Tính năng mới có xử lý hình ảnh người, biển số hoặc dữ liệu gắn với người.
-- Thay đổi mô hình AI làm thay đổi dữ liệu đầu vào, đầu ra, hoặc thay đổi đáng kể độ chính xác.
+- Thay đổi mô hình AI làm thay đổi dữ liệu đầu vào, đầu ra, hoặc thay đổi đáng kể độ chính xác; **thay mô hình tự phát triển bằng mô hình mua, nhập từ bên thứ ba** (kể cả bên nước ngoài) hoặc ngược lại — thẩm định theo B7 mục 1.1.
+- Cung cấp chức năng **tinh chỉnh mô hình tại chỗ** trên dữ liệu của khách hàng (B7 phương án C).
 - Mở rộng tính năng cũ sang bối cảnh mới (ví dụ từ văn phòng sang trường học, từ nội bộ sang khu vực công cộng).
 - Tính năng được yêu cầu riêng cho một khách hàng (dự án tùy biến).
 

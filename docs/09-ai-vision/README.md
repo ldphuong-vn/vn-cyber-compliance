@@ -60,7 +60,7 @@ B5 (ma trận tính năng ↔ điều khoản) nằm trong bản thảo luận m
 | K5 | [k5-quy-trinh-yeu-cau-chu-the.md](k5-quy-trinh-yeu-cau-chu-the.md) | Quy trình yêu cầu của chủ thể theo thời hạn NĐ 356 Đ5; phiếu yêu cầu; sổ theo dõi |
 | K6 | [k6-dpia-dien-san-phan-ky-thuat.md](k6-dpia-dien-san-phan-ky-thuat.md) | Hồ sơ DPIA theo Mẫu 10 NĐ 356, điền sẵn phần kỹ thuật |
 | K7 | [k7-thong-bao-su-co-sinh-trac-hoc.md](k7-thong-bao-su-co-sinh-trac-hoc.md) | Thông báo sự cố cho chủ thể, thông báo công khai, Mẫu 08, biên bản xác nhận vi phạm |
-| K8 | [k8-checklist-trien-khai-ban-giao.md](k8-checklist-trien-khai-ban-giao.md) | Checklist 42 mục nghiệm thu tuân thủ; biên bản bàn giao |
+| K8 | [k8-checklist-trien-khai-ban-giao.md](k8-checklist-trien-khai-ban-giao.md) | Checklist 44 mục nghiệm thu tuân thủ; biên bản bàn giao |
 | K9 | [k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md](k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md) | Cung cấp video cho cơ quan có thẩm quyền; biên bản giao nhận; sổ theo dõi |
 | K10 | [k10-hoi-dap-khach-hang.md](k10-hoi-dap-khach-hang.md) | 20 câu hỏi đáp thường gặp |
 

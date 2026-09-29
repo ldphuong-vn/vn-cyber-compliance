@@ -51,7 +51,7 @@ Bộ mẫu do **khách hàng** (bên kiểm soát) ban hành trước khi đăng
 
 - **Mỗi mục đích một ô tích.** Không gộp "ra vào, chấm công, an ninh, phân tích" vào một câu đồng ý.
 - **Phương thức thay thế phải dùng được thật** (thẻ, mã PIN, QR, ký sổ). Nếu không có phương án thay thế, đồng ý của người lao động khó được coi là tự nguyện.
-- **Không đưa mục đích huấn luyện mô hình** của nhà cung cấp vào mẫu này. Nếu có, phải là thỏa thuận và đồng ý riêng (xem [`b7-tuyen-bo-du-lieu-huan-luyen.md`](b7-tuyen-bo-du-lieu-huan-luyen.md)).
+- **Không đưa mục đích huấn luyện mô hình dùng chung** của nhà cung cấp vào mẫu này; nếu có, phải là thỏa thuận và đồng ý riêng (B7 phương án B). Riêng **tinh chỉnh tại chỗ** chỉ cho hệ thống của khách hàng (B7 phương án C; C1 Điều 11 khoản 4) được đưa vào Mẫu A bằng dòng tùy chọn riêng; ô tích để trống, không bắt buộc.
 - **Thời hạn xử lý yêu cầu rút đồng ý:** phản hồi trong 02 ngày làm việc, thực hiện trong 15 ngày; nếu phải yêu cầu bên xử lý (nhà cung cấp) ngừng xử lý thì 20 ngày; được gia hạn một lần không quá 15 ngày (NĐ 356 Đ5.2).
 - **Kiosk điện tử:** hiển thị toàn văn Mẫu B (hoặc bản rút gọn kèm liên kết, mã QR tới toàn văn), ô tích để trống, lưu nhật ký: mã phiếu, thời điểm, phiên bản thông báo, ảnh đăng ký gắn với phiếu.
 
@@ -84,8 +84,9 @@ Bộ mẫu do **khách hàng** (bên kiểm soát) ban hành trước khi đăng
 |---|---|---|
 | Kiểm soát ra vào {{khu vực}} bằng khuôn mặt | ☐ | ☐ {{thẻ từ/mã PIN/mã QR}} |
 | Chấm công bằng khuôn mặt | ☐ | ☐ {{thẻ từ/mã PIN/ký sổ}} |
+| *(Tùy chọn — xóa dòng này nếu không áp dụng)* Dùng ảnh nhận diện của tôi để **tinh chỉnh, nâng độ chính xác** của hệ thống tại {{TEN_KHACH_HANG}}; dữ liệu không rời hệ thống của {{TEN_KHACH_HANG}}, không dùng cho tổ chức khác | ☐ | ☐ Không tham gia — không ảnh hưởng tới việc dùng khuôn mặt cho các mục đích trên |
 
-Dữ liệu **không** được dùng cho mục đích nào khác ngoài mục đích anh/chị đã chọn, **không** dùng để huấn luyện mô hình trí tuệ nhân tạo, **không** bán hoặc chia sẻ cho bên thứ ba, trừ trường hợp cơ quan nhà nước có thẩm quyền yêu cầu theo quy định của pháp luật.
+Dữ liệu **không** được dùng cho mục đích nào khác ngoài mục đích anh/chị đã chọn, **không** dùng để huấn luyện mô hình trí tuệ nhân tạo dùng chung cho tổ chức khác, **không** bán hoặc chia sẻ cho bên thứ ba, trừ trường hợp cơ quan nhà nước có thẩm quyền yêu cầu theo quy định của pháp luật.
 
 ### 4. Cách hệ thống hoạt động và ảnh hưởng tới anh/chị
 

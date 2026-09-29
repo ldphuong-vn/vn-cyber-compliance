@@ -1887,7 +1887,15 @@
       "SO_NGAY_AP_DUNG_SUA_DOI": "30",
       "SO_NGAY_GUI_BIEN_BAN_BAN_GIAO": "03",
       "SO_NGAY_KHAC_PHUC": "15",
-      "SO_NGAY_THONG_BAO_NGHI_VIEC": "03"
+      "SO_NGAY_THONG_BAO_NGHI_VIEC": "03",
+      "QUY_MO_DANH_SACH_TOI_DA": "Chưa xác định (chờ kiểm thử)",
+      "QUY_MO_DANH_SACH_THAM_CHIEU": "500",
+      "NHAN_NHAM_NGUOI_LA_MAC_DINH": "Chưa kiểm thử",
+      "NHAN_NHAM_NGUOI_LA_1": "Chưa kiểm thử",
+      "NHAN_NHAM_NGUOI_LA_2": "Chưa kiểm thử",
+      "THOI_HAN_XOA_TAP_TINH_CHINH": "07 ngày",
+      "SO_NGUOI_DO_THU": "20",
+      "SO_LUOT_THU_NGUOI_LA": "50"
     }
   }
 }

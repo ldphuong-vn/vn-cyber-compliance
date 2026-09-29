@@ -57,6 +57,32 @@ Với phương án B, nhà cung cấp **tự quyết định mục đích** hu�
 
 Với mô hình mua hoặc mã nguồn mở, {{TEN_NHA_CUNG_CAP}} ghi thông tin dữ liệu huấn luyện do bên cung cấp mô hình công bố và nêu rõ phần không xác minh được.
 
+### 1.1. Mô hình mua, nhận chuyển giao từ bên thứ ba, kể cả bên nước ngoài
+
+**Khi nào phát sinh chuyển dữ liệu cá nhân xuyên biên giới.** Việc nhận tệp mô hình (trọng số) từ nước ngoài vào Việt Nam là chiều ngược lại với các trường hợp tại khoản 1 Điều 20 Luật Bảo vệ dữ liệu cá nhân, và tệp mô hình không chứa dữ liệu cá nhân thu thập tại Việt Nam. Tuy vậy, **có** chuyển xuyên biên giới nếu xảy ra một trong các trường hợp sau:
+
+| Trường hợp | Căn cứ |
+|---|---|
+| Suy luận (so khớp khuôn mặt, đọc biển số) chạy trên máy chủ, API của bên cung cấp mô hình ở nước ngoài | Luật 91 Đ20.1.c |
+| Sản phẩm gửi dữ liệu chẩn đoán có hình ảnh, template, biển số về bên cung cấp mô hình ở nước ngoài | Luật 91 Đ20.1.a–b |
+| Bên cung cấp mô hình truy cập từ xa hệ thống tại Việt Nam để hỗ trợ, cập nhật | Luật 91 Đ20.1.b–c |
+| Gửi dữ liệu thu thập tại Việt Nam cho bên nước ngoài để tinh chỉnh, đánh giá mô hình | Luật 91 Đ20.1.b |
+
+Khi đó phải lập hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới (mục 5). {{TEN_NHA_CUNG_CAP}} ưu tiên cấu hình để **mọi suy luận chạy tại Việt Nam** (trên thiết bị, máy chủ tại chỗ hoặc cloud đặt tại Việt Nam) và bên cung cấp mô hình **không nhận dữ liệu** từ hệ thống của khách hàng.
+
+**Thẩm định bên cung cấp mô hình.** Trước khi đưa mô hình của bên thứ ba vào sản phẩm:
+
+| Thông tin, bằng chứng cần có | Lý do |
+|---|---|
+| Nguồn dữ liệu huấn luyện, cơ sở pháp lý, giấy phép; có dùng ảnh khuôn mặt thu thập từ Internet không | Không dùng mô hình huấn luyện trên dữ liệu thu thập trái phép (khoản 6 Điều 7, khoản 1 Điều 11 Luật Bảo vệ dữ liệu cá nhân; khoản 1 Điều 10 Nghị định số 356/2025/NĐ-CP) |
+| Kết quả kiểm thử độ chính xác, sai lệch theo nhóm của bên cung cấp; **kiểm thử lại** trên khuôn mặt người dùng tại Việt Nam, trong điều kiện lắp đặt thực tế | Độ tin cậy của thuật toán (điểm a khoản 5 Điều 10 Nghị định số 356/2025/NĐ-CP); mô hình huấn luyện chủ yếu trên nhóm dân cư khác có thể từ chối nhầm nhiều hơn |
+| Cam kết mô hình, thư viện kèm theo không tự gửi dữ liệu ra ngoài, không có chức năng ẩn | Ngăn thu thập dữ liệu trái phép từ hệ thống (điểm đ khoản 2 Điều 37 Luật Bảo vệ dữ liệu cá nhân) |
+| Kênh phát hành bản cập nhật, vá lỗi; thời gian hỗ trợ | Bảo đảm an ninh mạng cho hệ thống AI (điểm a khoản 5 Điều 10 Nghị định số 356/2025/NĐ-CP) |
+| Giấy phép sử dụng thương mại, phạm vi lãnh thổ, quyền sửa đổi, tinh chỉnh | Pháp lý hợp đồng |
+| Quyền kiểm tra, yêu cầu thông tin khi cơ quan có thẩm quyền, khách hàng hỏi | Trách nhiệm giải trình (điểm b khoản 5 Điều 10 Nghị định số 356/2025/NĐ-CP) |
+
+Hợp đồng với bên cung cấp mô hình ghi rõ: bên cung cấp **không nhận** dữ liệu cá nhân từ hệ thống tại Việt Nam, trừ khi có thỏa thuận riêng và hồ sơ theo Điều 20 Luật Bảo vệ dữ liệu cá nhân. Pháp luật chuyên ngành về trí tuệ nhân tạo có thể đặt thêm nghĩa vụ với mô hình nhập khẩu — **[CẦN ĐỐI CHIẾU]**.
+
 ## 2. Tuyên bố về việc sử dụng dữ liệu của khách hàng
 
 ### Phương án A — Không sử dụng dữ liệu của khách hàng
@@ -94,6 +120,18 @@ Với mô hình mua hoặc mã nguồn mở, {{TEN_NHA_CUNG_CAP}} ghi thông tin
 8. **Hồ sơ.** {{TEN_NHA_CUNG_CAP}} lập, cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân cho hoạt động huấn luyện với vai trò bên kiểm soát.
 
 Nếu không đáp ứng các điều kiện trên, {{TEN_NHA_CUNG_CAP}} không sử dụng dữ liệu của khách hàng. Sử dụng dữ liệu sinh trắc học vượt quá mục đích ban đầu khi chưa có đồng ý có thể bị phạt đến 150 triệu đồng và tịch thu máy chủ lưu sinh trắc học (điểm b khoản 2, điểm a khoản 3 Điều 70 Nghị định số 330/2026/NĐ-CP).
+
+### Phương án C — Tinh chỉnh tại chỗ, chỉ cho hệ thống của chính khách hàng
+
+Áp dụng khi khách hàng muốn nâng độ chính xác nhận diện tại cơ sở của mình (ví dụ camera ở khu vực thiếu sáng) bằng cách tinh chỉnh mô hình trên dữ liệu của chính họ. {{TEN_NHA_CUNG_CAP}} chỉ thực hiện khi đáp ứng **đồng thời**:
+
+1. **Khách hàng quyết định và chỉ dẫn bằng văn bản** (khoản 4 Điều 11 Phụ lục thỏa thuận xử lý dữ liệu cá nhân). Mục đích duy nhất là nâng độ chính xác cho hệ thống của khách hàng đó. Trong phạm vi này {{TEN_NHA_CUNG_CAP}} là bên xử lý, thực hiện theo chỉ dẫn của khách hàng (khoản 8 Điều 2, điểm b khoản 2 Điều 37 Luật Bảo vệ dữ liệu cá nhân).
+2. **Đồng ý riêng của từng chủ thể** cho mục đích "cải thiện độ chính xác nhận diện", tách khỏi đồng ý cho kiểm soát ra vào, chấm công (điểm a khoản 4 Điều 9 Luật Bảo vệ dữ liệu cá nhân). Chỉ dùng dữ liệu của người đã đồng ý; không đồng ý không ảnh hưởng đến quyền lợi. Dùng dữ liệu sinh trắc học cho mục đích mới khi chưa có đồng ý có thể bị phạt đến 150 triệu đồng (điểm b khoản 2 Điều 70 Nghị định số 330/2026/NĐ-CP).
+3. **Dữ liệu không rời hệ thống của khách hàng.** Tập dữ liệu tinh chỉnh và quá trình tinh chỉnh ở trên hạ tầng của khách hàng tại Việt Nam; kỹ thuật viên truy cập theo Thỏa thuận hỗ trợ từ xa; không sao chép dữ liệu ra ngoài.
+4. **Mô hình sau tinh chỉnh chỉ dùng cho khách hàng đó.** {{TEN_NHA_CUNG_CAP}} không mang mô hình đã tinh chỉnh, hoặc kết quả học được từ dữ liệu của khách hàng, sang khách hàng khác hay vào sản phẩm chung. Nếu muốn làm như vậy thì chuyển sang phương án B, với vai trò bên kiểm soát. **[CẦN ĐỐI CHIẾU]** — trọng số mô hình sau tinh chỉnh có bị coi là dữ liệu cá nhân hay không (khoản 2 Điều 10 Nghị định số 356/2025/NĐ-CP về kết quả suy luận có thể xác định con người).
+5. **Kiểm thử trước khi dùng.** Đo lại độ chính xác, sai lệch theo nhóm, chống giả mạo trước khi đưa mô hình tinh chỉnh vào vận hành; giữ khả năng quay về mô hình gốc.
+6. **Xóa tập dữ liệu tinh chỉnh** trong {{THOI_HAN_XOA_TAP_TINH_CHINH}} sau khi hoàn thành; lập biên bản. Chủ thể rút đồng ý: loại khỏi tập dữ liệu cho các lần tinh chỉnh sau.
+7. **Hồ sơ.** Khách hàng bổ sung mục đích mới vào hồ sơ đánh giá tác động và cập nhật theo Điều 22 Luật Bảo vệ dữ liệu cá nhân (phát sinh mục đích xử lý mới — khoản 1 Điều 20 Nghị định số 356/2025/NĐ-CP).
 
 ## 3. Nguồn dữ liệu huấn luyện
 

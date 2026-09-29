@@ -163,7 +163,8 @@ Hai bên thống nhất ký Phụ lục này với các nội dung sau:
 
 1. Bên B **không** sử dụng Dữ liệu để huấn luyện, kiểm thử hoặc cải tiến mô hình trí tuệ nhân tạo.
 2. Bên B được sử dụng dữ liệu kỹ thuật không chứa dữ liệu cá nhân (thông số hoạt động, mã lỗi, thống kê tổng hợp đã khử nhận dạng) để bảo trì, cải tiến Hệ thống.
-3. Mọi ngoại lệ đối với khoản 1 phải lập thành thỏa thuận riêng, nêu rõ phạm vi dữ liệu, biện pháp khử nhận dạng, cơ sở pháp lý đối với từng chủ thể và thời hạn xóa.
+3. Mọi ngoại lệ đối với khoản 1, trừ trường hợp tại khoản 4, phải lập thành thỏa thuận riêng, nêu rõ phạm vi dữ liệu, biện pháp khử nhận dạng, cơ sở pháp lý đối với từng chủ thể và thời hạn xóa.
+4. *(Tùy chọn)* **Tinh chỉnh tại chỗ.** Bên A có thể chỉ dẫn bằng văn bản cho Bên B tinh chỉnh mô hình trên Hệ thống của Bên A, chỉ nhằm nâng độ chính xác nhận diện cho Hệ thống của Bên A, với điều kiện: (a) chỉ dùng dữ liệu của chủ thể đã đồng ý riêng cho mục đích cải thiện độ chính xác; (b) dữ liệu và quá trình tinh chỉnh không rời Hệ thống của Bên A; (c) mô hình sau tinh chỉnh chỉ dùng cho Bên A, Bên B không sử dụng cho khách hàng khác hoặc sản phẩm chung; (d) Bên B kiểm thử lại độ chính xác trước khi đưa vào vận hành; (e) tập dữ liệu tinh chỉnh được xóa trong {{THOI_HAN_XOA_TAP_TINH_CHINH}} sau khi hoàn thành, có biên bản.
 
 ### Điều 12. Nhân sự của Bên B làm việc tại cơ sở Bên A
 
