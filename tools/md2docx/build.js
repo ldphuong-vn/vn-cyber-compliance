@@ -12,7 +12,7 @@
 //   - File không có "---": xuất toàn bộ (tiêu đề "# ..." thành tên văn bản).
 //   - Dừng tại các mục chỉ dành cho người soạn: "Hướng dẫn điền", "Bằng chứng cần lưu",
 //     "Checklist rà soát…", "Checklist thẩm định…", "Checklist trước khi ký".
-// Nhận diện bảng: bảng có "CỘNG HÒA" = khối quốc hiệu; bảng có "Nơi nhận" = khối ký;
+// Nhận diện bảng: bảng có "CỘNG HÒA" = khối quốc hiệu; bảng có "Nơi nhận" = khối ký; bảng có "ĐẠI DIỆN BÊN" = khối ký hai bên;
 // còn lại = bảng dữ liệu (AutoFit, vừa khổ trang; bảng ≥ 9 cột chuyển trang ngang).
 // {{PLACEHOLDER}} được thay bằng dữ liệu mẫu trong du-lieu-mau.json (nếu có) và tô vàng.
 
@@ -93,6 +93,22 @@ const TARGETS = [
     "13-quy-trinh-yeu-cau-chu-the-du-lieu", "14-cam-ket-bao-mat-du-lieu-nhan-su", "15-phu-luc-hop-dong-bvdlcn",
     "16-bien-bao-camera",
   ].map((f) => `docs/08-bo-mau-cap-1-2/${f}.md`),
+  ...[
+    "a1-qd-chi-dinh-nhan-su-bvdlcn", "a2-chinh-sach-bvdlcn", "a3-so-dang-ky-hoat-dong-xu-ly",
+    "a6-de-an-cap-giay-chung-nhan-dich-vu-xu-ly-dlcn", "a7-quy-trinh-su-co-dlcn-sinh-trac-hoc",
+    "a8-bao-cao-danh-gia-tuan-thu-he-thong-ai",
+    "b1-mo-ta-luong-du-lieu-kien-truc", "b2-phan-loai-rui-ro-he-thong-ai", "b3-giai-thich-thuat-toan",
+    "b4-tai-lieu-bao-mat-san-pham", "b7-tuyen-bo-du-lieu-huan-luyen",
+    "c1-phu-luc-xu-ly-du-lieu-ca-nhan", "c3-thoa-thuan-ho-tro-tu-xa", "c4-cam-ket-bao-mat-nhan-su-dai-ly",
+    "c5-dieu-khoan-dai-ly-tich-hop",
+    "k1-bien-bao-camera", "k2-thong-bao-va-dong-y-sinh-trac-hoc", "k3-dieu-khoan-noi-quy-lao-dong-giam-sat",
+    "k4-chinh-sach-luu-tru-xoa", "k5-quy-trinh-yeu-cau-chu-the", "k6-dpia-dien-san-phan-ky-thuat",
+    "k7-thong-bao-su-co-sinh-trac-hoc", "k8-checklist-trien-khai-ban-giao",
+    "k9-quy-trinh-cung-cap-video-co-quan-chuc-nang", "k10-hoi-dap-khach-hang",
+    "k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac", "k12-quy-trinh-van-hanh-diem-kiem-soat-ra-vao",
+    "k13-bien-ban-do-thu-do-chinh-xac-hien-truong",
+    "p1-phieu-danh-gia-nhanh-khach-hang", "s1-ho-so-tinh-huong-dia-diem-nhieu-don-vi",
+  ].map((f) => `docs/09-ai-vision/${f}.md`),
 ];
 
 const STOP_HEADINGS = /^#{1,4}\s+(Hướng dẫn điền|Bằng chứng cần lưu|Checklist rà soát|Checklist thẩm định|Checklist trước khi ký)/i;
@@ -230,6 +246,23 @@ function signatureBlock(rows, W_TOTAL) {
   return new Table({
     width: { size: W_TOTAL, type: WidthType.DXA }, columnWidths: W,
     layout: TableLayoutType.FIXED, borders: NO_BORDERS, rows: rows.map(mk),
+  });
+}
+
+// Khối ký hai bên (hợp đồng, phụ lục, biên bản): bảng 2 cột có "ĐẠI DIỆN BÊN", không viền, hai cột căn giữa.
+function twoPartySignatureBlock(rows, W_TOTAL) {
+  const W = [Math.round(W_TOTAL / 2), W_TOTAL - Math.round(W_TOTAL / 2)];
+  const col = (c, w) => {
+    const ps = splitCell(c || "").map((ln) => para(ln || " ", {
+      align: AlignmentType.CENTER, after: 0, line: 1,
+      run: { size: CFG.size, bold: /^\*\*/.test(ln) },
+    }));
+    return new TableCell({ width: { size: w, type: WidthType.DXA }, borders: NO_BORDERS, children: ps.length ? ps : [new Paragraph({})] });
+  };
+  return new Table({
+    width: { size: W_TOTAL, type: WidthType.DXA }, columnWidths: W,
+    layout: TableLayoutType.FIXED, borders: NO_BORDERS,
+    rows: rows.map((r) => new TableRow({ children: [col(r[0], W[0]), col(r[1], W[1])] })),
   });
 }
 
@@ -424,6 +457,9 @@ function convert(md, rel) {
       } else if (/Nơi nhận/.test(joined) && n === 2) {
         out.push(para("", { after: 0 }));
         out.push(signatureBlock(rows, W()));
+      } else if (/ĐẠI DIỆN BÊN/.test(joined) && n === 2) {
+        out.push(para("", { after: 0 }));
+        out.push(twoPartySignatureBlock(rows.filter((r) => r.some((c) => c.trim())), W()));
       } else if (n >= 9 && !cur.landscape) {
         newSection(true);
         out.push(dataTable(rows, W()));

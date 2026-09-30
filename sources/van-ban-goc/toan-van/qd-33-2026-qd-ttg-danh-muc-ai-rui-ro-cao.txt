@@ -1,0 +1,1152 @@
+Nguồn: https://vanban.chinhphu.vn/?docid=218658&pageid=27160 (PDF ký số: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/33-qdttg.signed.pdf, sha256 f51e3098...a99b, 16 trang). Tải ngày 29/09/2026 qua bản sao GitHub nguyencunghoangnam/Van-ban-Tri-tue-nhan-tao (hash khớp).
+CẢNH BÁO: text dưới đây là OCR (tesseract, vie) từ bản PDF ký số dạng ảnh — có lỗi chính tả do OCR. Cột 'Đánh giá sự phù hợp' (dấu x) KHÔNG đọc được bằng OCR; đã xác định bằng mắt từ ảnh trang và ghi trong báo cáo bao-cao-luat-ai.md mục 3.1.
+
+
+=== Trang 1 ===
+Cơ quan: VĂN PHONG CHÍNH PHỦ
+
+Người ký: CÔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ
+Email: thongtinchinhphu@)chinhphu.vn
+Thời gian ký: 02.07. 2026 16:39:02 +07:00
+
+Cổ
+
+THỦ TƯỚNG CHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+———— Độc lập - Tự do - Hạnh phúc
+
+Số: 33/2026/QĐ-TTg . Hà Nội, ngày 30 tháng 6 năm 2026
+
+QUYÉT ĐỊNH
+
+Ban hành Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao
+
+Căn cứ Luật Tổ chức Chính phủ số 63/2025/QH15,
+Căn cứ Luật Trí tuệ nhân tạo số 134/2025/QH15;
+
+Căn cứ Nghị định số 142/2026/NĐ-CP của Chính phủ quy định chỉ tiết một
+
+số điều và biện pháp thi hành Luật Trí tuệ nhân tạo;
+Theo đề nghị của Bộ trưởng Bộ Khoa học và Công nghệ,
+
+Thủ tướng Chính phủ ban hành Quyết định Danh mục hệ thông trí tuệ
+
+nhân tạo CÓ rủi ro cao.
+-Ö-À « '.À kx
+Điều 1. Phạm vi điều chỉnh
+
+1. Ban hành kèm theo Quyết định này “Danh mục hệ thống trí tuệ nhân
+tạo có rủi ro cao” (Phụ lục kèm theo Quyết định này).
+
+2. Hệ thống trí tuệ nhân tạo phải đáp ứng các nguyên tắc hoạt động cơ bản
+theo quy định của pháp luật về trí tuệ nhân tạo; việc sử dụng hệ thống trí tuệ
+nhân tạo không làm thay đổi, chuyển giao hoặc loại trừ thẩm quyền, trách nhiệm
+của cơ quan, tổ chức, cá nhân có thẳm quyên: theo quy định của pháp luật; bảo
+đảm sự giám sát, kiểm soát và khả năng can thiệp của con người trong quá trình
+vận hành hệ thống; không thực hiện các hành vi bị nghiêm cấm theo quy định
+của pháp luật.
+
+=== Trang 2 ===
+Điều 2. Tiêu chí xác định hệ thống trí tuệ nhân tạo rủi ro cao
+
+Các hệ thông trí tuệ nhân tạo được xác định là có rủi ro cao căn cứ trên
+các tiêu chí sau đây:
+
+1. Hệ thống có thể gây thiệt hại đáng kể đến tính mạng, sức khỏe, quyền
+và lợi ích hợp pháp của tô chức, cá nhân, lợi ích quốc gia, lợi ích công cộng, an
+ninh quốc gia theo quy định tại Điều 9 Luật Trí tuệ nhân tạo; khoản 1 Điều 8
+của Nghị định số 142/2026/NĐ-CP quy định chỉ tiết một số điều và biện pháp
+thi hành Luật Trí tuệ nhân tạo.
+
+2. Hệ thống không được loại trừ theo quy định tại khoản 2 Điều 8 của Nghị
+định số 142/2026/NĐ-CP quy định chỉ tiết một số điều và biện pháp thi hành
+Luật Trí tuệ nhân tạo.
+
+Điều 3. Hiệu lực và trách nhiệm thi hành
+1. Quyết định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2026.
+
+2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân
+dân các tỉnh, thành phố trực thuộc trung ương và Thủ trưởng các cơ quan, tô
+chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này.
+
+Điều 4. Điều khoản chuyến tiếp
+
+1. Đối với các hệ thống trí tuệ nhân tạo thuộc Danh mục ban hành kèm
+theo Quyết định này đã được đưa vào hoạt động trước ngày Quyết định này có
+hiệu lực, nhà cung cấp và bên triển khai có trách nhiệm hoàn thành các nghĩa
+vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo theo lộ trình sau:
+
+a) Trước ngày 01 tháng 9 năm 2027 đối với các hệ thống trí tuệ nhân tạo
+trong lĩnh vực y tế, giáo dục và tài chính;
+
+b) Trước ngày 01 tháng 3 năm 2027 đối với các hệ thống trí tuệ nhân tạo
+thuộc các lĩnh vực còn lại trong Danh mục.
+
+2. Trong thời hạn chuyên tiếp quy định tại khoản 1 Điều này, các hệ thống
+trí tuệ nhân tạo nêu trên được phép tiếp tục hoạt động, trừ trường hợp cơ quan
+nhà nước có thâm quyền xác định hệ thống có nguy cơ gây thiệt hại nghiêm
+trọng và yêu cầu tạm đừng hoặc chấm dứt hoạt động theo quy định tại khoản 2
+Điều 35 Luật Trí tuệ nhân tạo.
+
+=== Trang 3 ===
+3. Đối với các hệ thống trí tưệ nhân tạo được đưa vào hoạt động trong thời
+gian 06 tháng kê từ ngày Quyết định này có hiệu lực, nhà cung cấp và bên triển
+khai có trách nhiệm hoàn thành các nghĩa vụ tuân thủ theo quy định của pháp
+luật về trí tuệ nhân tạo trước ngày 01 tháng 3 năm 2027. ”
+
+Nơi nhận:
+- Ban Bí thư Trung ương Đảng;
+- Thủ tướng, các Phó Thủ tướng Chính phủ;
+- Các bộ, cơ quan ngang bộ;
+- HĐND, UBND các tỉnh, thành phố trực thuộc trung ươrlt
+- Văn phòng Trung ương và các Ban của Đảng;
+- Văn phòng Tổng Bí thư;
+- Văn phòng Chủ tịch nước;
+- Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+- Văn phòng Quốc hội; .
+- Toà án nhân dân tối cao;
+- Viện kiểm sát nhân dân tối cao;
+- Kiểm toán nhà nước;
+- Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam;
+- Cơ quan trung ương của các tổ chức chính trị - xã hội;
+- VPCP: BTCN, các PCN, Trợ lý TTg,
+các Vụ, Cục, Công báo;
+- Lưu: VT, CĐS (02)-2,
+
+Trà. TA
+4@“Quôc Dũng
+
+=== Trang 4 ===
+Phụ lục
+GTRÍ TUỆ NHÂN: TẠO CÓ RỦI RO CAO
+
+ị
+SÊN te J luyết định số 33/2026/QĐ-TTg
+
+kíp ăm 2026 của Thủ tướng Chính phủ)
+
+hà
+
+bass)
+
+A= ĐÁ ^ s2 BÀ «bÁ Đánh giá
+STT Tên hệ thống Mô tả hệ thông sự phù hợp
+Theo |Theo
+quy định|quy định
+
+tại điểm tại điểm
+b, khoản|a, khoản
+2 Điều2 Điều
+13, Luật|13, Luật
+Trí tuệfrí tuệ
+nhân tạo nhân tạo
+
+I | Lĩnh vực giáo dục
+
+Chỉ áp dụng khi hệ thống
+trí tuệ nhân tạo:
+- Cung cấp nội dung tự
+động phục vụ hoạt động
+Hệ thống trí tuệ nhân tạo | tự học của người học theo
+cung cấp nội dung tự học | chương trình giáo dục;
+theo chương trình giáo | - Dữ liệu nội dung học tập
+dục, có sử dụng các | được đưa vào không có
+nguồn dữ liệu không kiểm soát;
+kiểm soát - Được triển khai trên quy
+mô lớn có khả năng tạo ra
+rủi ro mang tính hệ thống
+hoặc tác động trên diện
+rộng tới người học.
+
+Chỉ áp dụng khi hệ thống
+trí tuệ nhân tạo:
+- Được sử dụng để thực
+hiện việc kiểm tra, đánh
+Hệ thống có sử dụng AI | giá người học một cách tự
+tự động kiêm tra, đánh | động;
+giá kết quả, xếp hạng |- Kết quả do hệ thống tạo
+người học ra được sử dụng làm căn
+cứ chính thức đề đánh giá
+kết quả học tập, đánh giá
+năng lực hoặc xếp hạng
+
+người học;
+
+=== Trang 5 ===
+' 7c ˆ
+
+- Việc đánh: giá được thực"
+hiện trong Hệ thống giáo -
+dục quốc dân. :; "` -.
+
+Hệ thống có sử dụng AI để
+giám sát, phân tích hành vi
+người học
+
+Chỉ áp dụng - khi hệ thống
+AI giám “sát, - phân, 1 tích
+hành vi người 'ioc“
+
+Sử dụng dữ liệu sinh trắc
+học (nhận diện khuôn
+mặt, ánh mắt, hành vi,
+cảm xúc cá nhân) hoặc
+thiết lập các cơ chế phản
+hồi, cảnh báo tự động tần
+suất cao về trạng thái chú
+ý, biểu cảm cá nhân, kết
+quả học tập, đánh giá
+người học gây căng thẳng
+tâm lý hoặc xâm phạm
+quyền riêng tư của người
+học trong quá trình học
+tập.
+
+H
+
+Lĩnh vực dân tộc và tôn
+
+láo
+
+Hệ thống trí tuệ nhân tạo
+tự động chấm điểm, phân
+loại, xếp hạng hồ sơ để
+xác định đối tượng, địa
+bàn thụ hưởng chính sách
+dân tộc
+
+Chỉ áp dụng khi hệ thống trí
+tuệ nhân tạo:
+
+- Tự động chấm điểm và kết
+quả được sử dụng làm căn cứ
+để cơ quan nhà nước có thẩm
+quyền quyết định ban hành
+(quyết định phê duyệt, từ
+chối hoặc ưu tiên hồ sơ, xác
+định danh sách đối tượng,
+địa bàn thụ hưởng chính
+sách; ảnh hưởng trực tiếp
+đến quyền, lợi ích hợp pháp
+của cá nhân, cộng đồng hoặc
+việ phân bổ nguồn lực
+công).
+
+- Không áp dụng làm kết
+quả chính thức đề công bố.
+
+Hệ thống trí tuệ nhân tạo
+tự động xác thực và quyết
+định tính hợp lệ của
+thông tin liên quan đến
+dân tộc và tôn giáo
+
+Chỉ áp dụng khi hệ thống
+trí tuệ nhân tạo:
+
+- Tự động kiểm tra, đối
+chiếu và xác thực thông tin
+liên quan đến. dân tộc và
+tôn giáo và đưa ra quyết
+
+
+=== Trang 6 ===
+3
+
+định chấp nhận hoặc từ
+chối thông tin;
+
+- Thực thi mà không có sự
+xem xét, phê duyệt lại của
+cơ quan có thâm quyên.
+
+Chỉ áp dụng khi hệ thống trí
+tuệ nhân tạo:
+- Tự động đưa ra quyết định
+
+Hệ thống ( trí tuệ nhân tạo tự | cuối cùng về việc chấp thuận
+động quyết định chấp thuận | hoặc từ chối hồ sơ đăng ký,
+hoặc từ chối hồ sơ đăng ký, | gia hạn hoặc hủy bỏ các
+gia bạn hoặc hủy bỏ các | quyết định quản lý nhà nước
+quyết định quản lý nhà | trong lĩnh vực dân tộc và tôn
+nước trong lĩnh vực dân tộc | giáo;
+
+Và tôn giáo - Thực thi mà không có sự
+xem xét, can thiệp hoặc phê
+duyệt lại của cơ quan có
+thâm quyên.
+
+Chỉ áp dụng khi hệ thống
+Hệ thống trí tuệ nhân tạo tự | trí tuệ nhân tạo:
+động ra quyết định cuối | Tự động ra quyết định, bao
+cùng về phê duyệt hoặc từ | gồm quyết định làm phát
+chối hồ sơ xác định đối | sinh, thay đổi hoặc chấm
+tượng, địa bàn thụ hưởng | dứt quyên, lợi ích hợp
+chính sách dân tộc pháp của cá nhân, cộng
+
+đồng.
+
+Chỉ áp dụng khi hệ thống
+| trí tuệ nhân tạo:
+
+- Tự động kích hoạt biện
+pháp làm gián đoạn quyền
+hưởng lợi hoặc tiếp cận tài
+sản, dịch vụ của đôi tượng;
+- Thực thi mà không có
+bước xác minh độc lập
+trước khi biện pháp có
+hiệu lực.
+
+Hệ thống trí tuệ nhân tạo tự
+động thực thi việc dừng chị
+trả, thu hồi hoặc khóa
+quyền hưởng hỗ trợ do
+nghi ngờ gian lận
+
+Chỉ áp dụng khi hệ thống
+có quyên thực thi hoặc tự
+động thực thị phương án
+phân bố nguồn ngân sách,
+chính sách hỗ trợ sau khi
+quyết định phân bổ hoặc
+điêu phối nguồn ngân sách
+có hiệu lực
+
+Hệ thống trí tuệ nhân tạo
+tự động ra lệnh phân bổ
+hoặc điều phối nguồn
+ngân sách, chính sách hỗ
+trợ theo thuật toán
+
+
+=== Trang 7 ===
+4
+
+Hệ thống trí tuệ nhân tạo
+suy đoán, phân loại về
+dân tộc, tín ngưỡng, tôn
+giáo để áp dụng biện
+pháp quản lý
+
+Chỉ áp dụng khi hệ thống:
+- Tự động thực hiện tạo lập
+phân loại cá nhân, nhóm
+cộng đồng theo thuộc tính
+dân tộc, tính ngưỡng, tôn
+giáo;
+
+- Kết quả được sử dụng
+làm căn cứ áp dụng biện
+pháp quản lý, kiểm tra
+hoặc xử lý hành chính.
+
+"
+
+Lĩnh vực y tế
+
+Hệ thống trí tuệ nhân tạo
+hỗ trợ phâu thuậtrô-bốt
+phâu thuật
+
+Chỉ áp dụng đối với hệ
+thống trí tuệ nhân tạo:
+
+- Tích hợp vào rô bốt tham
+gia trực tiếp vào quá trình
+can thiệp hoặc dẫn hướng
+thao tác;
+
+- Tích hợp vào Rô-bốt tự
+động hoàn toàn, rô-bốt
+thông minh trong việc thực
+hiện thay các hành vi con
+TPƯỜI.
+
+| Hệ thống trí tuệ nhân tạo
+
+hỗ trợ phẫu thuậtrô-bốt
+phẫu thuật
+
+(Hệ thống máy móc, thiết
+bị rô-bốt sử dụng trí tuệ
+nhân tạo điều khiển tự
+động)
+
+Chỉ áp dụng khi hệ thống
+trí tuệ nhân tạo:
+
+- Tích hợp vào rô bốt trực
+tiếp thực thi hành tác động
+điều trị theo y lệnh lên cơ
+thể người bệnh;
+
+- Thực thi mà không cần
+lệnh xác nhận từ nhân viên
+y tế cho mỗi bước thay đổi
+thông số.
+
+IV
+
+Lĩnh vực ngần hàng
+
+Hệ thống trí tuệ nhân tạo
+tự động thực hiện giao
+dịch điện tử trong hoạt
+động ngân hàng
+
+Chỉ áp dụng đối với hệ
+thống trí tuệ nhân tạo tự
+động thực hiện giao dịch
+điện tử trong hoạt động
+ngân hàng khi đáp ứng các
+điều kiện sau:
+
+- Hệ thống có khả năng tự
+tạo, sửa đổi, xác nhận và
+phê duyệt giao dịch;
+
+
+=== Trang 8 ===
+5
+
+- Giao dịch có mức giá trị
+cao theo quy định của
+Ngân hàng Nhà nước;
+
+- Không có sự kiểm tra,
+phê duyệt hoặc kiểm soát
+của con người trước khi
+giao dịch được thực hiện.
+
+Chỉ áp dụng đối với hệ thống
+trí tuệ nhân tạo thực hiện
+chấm điểm tín dụng, đánh giá
+khả năng trả nợ và tự động
+đưa ra quyết định cấp tín
+dụng hoặc giải ngân khi đáp
+ứng các điều kiện sau:
+
+- Hệ thống đưa ra quyết
+định cuối cùng về việc phê
+duyệt hoặc từ chối cấp tín
+dụng;
+
+- Quyết định của hệ thống
+được sử dụng trực tiếp để
+cấp tín dụng hoặc giải ngân
+mà không có sự phê duyệt
+độc lập của cán bộ tín dụng;
+
+- Khoản vay có mức giá trỊ
+theo quy định của Ngân
+hàng Nhà nước.
+
+Hệ thống trí tuệ nhân tạo tự
+động quyêt định câp tín dụng
+
+Lĩnh vực tô tụng
+
+Chỉ áp dụng khi hệ thống
+Hệ thống trí tuệ nhân tạo | trí tuệ nhân tạo nhận dạng
+nhận dạng sinh trắc học | sinh trắc học được áp dụng
+diện rộng phục vụ giải | diện rộng tại nơi xảy ra
+quyết vụ án đân sự công ích | hành vi vi phạm hoặc nơi
+
+xảy ra hậu quả thiệt hại.
+
+VỊ
+
+Lĩnh vực giao thông vận tải
+
+Chỉ áp dụng đối với các hệ
+thống trí tuệ nhân tạo:
+- Điều khiển phương tiện
+Hệ thông trí tuệ nhân tạo |giao thông đường bộ,
+điều khiển tự hành cấp độ | đường sắt, đường thủy nội
+cao trên phương tiện giao | địa, hàng hải, hàng không
+thông ở mức độ không yêu cầu
+sự giám sát, can thiệp liên
+tục của con người trong
+quá trình vận hành;
+
+
+=== Trang 9 ===
+6
+
+|- Hoặc trong trường hợp
+quyết định của hệ thống trí
+tuệ nhân tạo là căn cứ trực
+tiếp để phương tiện thực
+hiện hành vi điều khiển có
+thể ảnh hưởng đến an toàn
+tính mạng, sức khỏe, tài
+sản của con người.
+
+Chỉ áp dụng đối với các hệ
+thống trí tuệ nhân tạo:
+
+- Được kết nối trực tiếp VỚI
+trung tâm điều khiển giao
+thông đường bộ hoặc hệ
+thống điều độ chạy tàu và
+có quyền tự động thay đổi
+tín hiệu, chu kỳ điều khiển,
+tổ chức luồng tuyến, thiết
+lập đường chạy, điều độ
+phương tiện;
+
+- Thực thi mà không qua
+bước phê duyệt độc lập
+của người có thẩm quyền;
+
+- Có khả năng ảnh hưởng
+trực tiếp đến an toàn giao
+thông, an toàn chạy tàu và
+người tham gia g1ao thông.
+
+Hệ thống trí tuệ nhân tạo
+điều khiên hoặc tự động
+vận hành tín hiệu, điều độ
+giao thông đường bộ và
+đường sắt
+
+Chỉ áp dụng đối với các hệ
+thông trí tuệ nhân tạo:
+- Có quyền truy cập và can
+thiệp trực tiếp vào hệ thống
+điều khiến, giám sát vận
+hành của hầm đường bộ,
+Hệ thống trí tuệ nhân tạo | cầu lớn, „ tuyến cao tốc, công
+điều hành, kiểm soát vận trình đầu mối giao thông
+hành công trình giao thông | hoặc hệ thống hạ tầng kỹ
+và hạ tầng kỹ thuật trọng | thuật trọng yêu bao gôm cập
+yếu nước, thoát nước,. chiếu
+sáng đô thị.
+- Kết quả đầu ra của hệ
+thống trí tuệ nhân tạo được
+sử dụng để thực thi ngay
+hoặc làm thay đổi trạng thái
+vận hành vật lý của công
+trình.
+
+
+=== Trang 10 ===
+7
+
+Hệ thống trí tuệ nhân tạo
+tự động phát hiện, đánh
+giá nguy cơ sự cố và phát
+lệnh hạn chế hoặc dừng
+khai thác công trình, kết
+cầu hạ tầng
+
+Chỉ áp dụng đối với các hệ
+thống trí tuệ nhân tạo:
+
+- Tự động đánh giá tình
+trạng an toàn công trình,
+kết cầu hạ tầng giao thông,
+công trình xây dựng hoặc
+hạ tâng kỹ thuật trọng yêu
+và kết quả của hệ thống
+được dùng trực tiếp để ra
+quyết định hạn chế khai
+thác, dừng khai thác, cô
+lập hoặc chuyển trạng thái
+vận hành;
+
+- Thực thi mà không có
+bước thắm định độc lập bắt
+buộc của con người.
+
+x
+
+Hệ thống trí tuệ nhân tạo
+tự động thâm định, chấm
+điểm, xếp hạng hoặc
+phân loại hồ sơ để làm
+căn cứ quyết định cuối
+cùng
+
+Chỉ áp dụng đối với các hệ
+thống trí tuệ nhân tạo:
+
+- Sử dụng trong hoạt động
+quản lý nhà nước, cung cấp
+dịch vụ công thuộc phạm vi
+Bộ Xây dựng mà kết quả
+đầu ra được sử dụng làm căn
+cứ trực tiếp để chập thuận,
+từ chối, tạm đừng, hạn chế
+hoặc thay đổi hiệu lực của
+hồ sơ, thủ tục hành chính,
+giấy phép, chứng chỉ, điều
+kiện hoạt động của tổ chức,
+cá nhân;
+
+- Thực thí mà không có
+bước xem xét, phê duyệt
+độc lập của người có thầm
+quyền.
+
+Hệ thống trí tuệ nhân tạo tự
+động phát hiện vi phạm
+hoặc nhận diện sinh trắc
+học theo thời gian thực để
+phục vụ kiểm soát, xử lý
+
+Chỉ áp dụng đối với các hệ
+thống trí tuệ nhân tạo:
+
+- Tự động phát hiện vi
+phạm, xác định đối tượng,
+phân tích hình ảnh, dữ liệu
+cảm biến hoặc nhận diện
+sinh trắc học theo thời gian
+thực tại đầu mối giao
+thông, công trình công
+cộng quan trọng và kết quả
+
+
+=== Trang 11 ===
+8
+
+được sử dụng trực tiếp để
+phục vụ xử lý vi phạm,
+cưỡng chế, kiểm soát an
+ninh, trật tự, hạn chế tiếp
+cận hoặc áp dụng biện
+pháp quản lý;
+
+- Thực thi mà không qua
+xác minh độc lập của cán
+bộ có thâm quyền.
+
+Hệ thống trí tuệ nhân tạo
+quản lý không lưu tự động
+(Automated Air Traffic
+Management— A-A TM) ra
+quyết định phân luồng,
+điều hướng phương tiện
+bay
+
+Chỉ áp dụng khi hệ thống trí
+tuệ nhân tạo:
+
+- Tự động phát lệnh điều
+hướng, thay đôi độ cao hoặc
+phân luồng phương tiện bay
+mà không có sự giám sát và
+phê duyệt trực tiếp của kiểm
+soát viên không lưu;
+
+- Không áp dụng đối với hệ
+thống chỉ cung cấp gợi ý,
+cảnh báo tham khảo.
+
+Hệ thống trí tuệ nhân tạo
+hễ trợ hoặc thay thế kiểm
+soát viên không lưu trong
+ra quyết định phân tách
+máy bay, cấp phép cất/hạ
+cánh (AI-ATC Decision
+Support System)
+
+Chí áp dụng khi:
+
+- Hệ thống trực tiếp đưa ra
+hoặc thực thi quyết định
+phân tách máy bay, cập phép
+cất/hạ cánh hoặc điều hướng
+bay;
+
+- Thực thi mà không có sự
+phê duyệt độc lập của kiểm
+soát viên không lưu.
+
+Hệ thống trí tuệ nhân tạo
+dự báo xung đột quỹ đạo
+tàu bay và tự động phát
+lệnh tránh va chạm
+(Trajectory Confiict
+Prediction & Resolution)
+
+Chỉ áp dụng khi hệ thống:
+- Tự động phát hiện nguy
+cơ xung đột và đưa ra hoặc
+thực thi biện pháp tách tàu
+bay;
+
+- Thực thi mà không có sự
+phê duyệt của kiểm soát
+viên không lưu.
+
+10
+
+Hệ thống trí tuệ nhân tạo
+tự động điều phối slot
+cấu/hạ cánh và phân bổ
+công ra tàu bay tại cảng
+
+hàng không (ATFM/CDM)
+
+Chỉ áp dụng khi hệ thống
+trí tuệ nhân tạo:
+
+- Áp dụng tại cảng hàng
+không quốc tế có lưu
+lượng trên 5 triệu hành
+khách/năm;
+
+
+=== Trang 12 ===
+9
+
+- Tự động phân bỗ và xác
+nhận slot mà không có cơ
+chê phúc tra của điêu phôi
+viên cảng; không áp dụng
+đối với hệ thống DSS chỉ
+cung cấp gợi ý.
+
+lãi
+
+Hệ thống điều khiển bay
+tự hành tích hợp AI
+(AutopiloVFMS§) có khả
+năng ra quyết định điều
+hướng độc lập trong tình
+huống bất thường
+
+Chỉ áp dụng đối với hệ
+thống trí tuệ nhân tạo tích
+hợp với thiết bị tự hành:
+
+- Hệ thống AI có khả năng
+tự động điều chỉnh hành
+trình, độ cao hoặc xử lý
+tình huống khẩn cấp mà
+không yêu cầu sự can thiệp
+và xác nhận của phi công;
+không bao gồm hệ thống
+autopilot thông thường đã
+được chứng nhận loại trước
+ngày Luật Hàng không dân
+dụng có hiệu lực.
+
+12
+
+Hệ thống trí tuệ nhân tạo
+tự động cảnh báo va
+chạm và điều hướng
+tránh va chạm (Collision
+Avodanee System  —
+CAS) thế hệ mới trên tàu
+bay
+
+Chỉ áp dụng đối với hệ
+thống CAS tích hợp AI có
+khả năng tự động điều
+khiển tàu bay né tránh mà
+không yêu cầu hành động
+của phi công; không áp
+dụng đối với hệ thông
+TCAS/ACAS truyền thống
+đã có chứng nhận loại
+trước ngày Luật Hàng
+không dân dụng Việt Nam
+có hiệu lực.
+
+13
+
+Hệ thống trí tuệ nhân tạo
+dự báo và xử lý tình
+huống khẩn nguy bay (AI
+Emergency Flipht Decision
+System)
+
+Chỉ áp dụng khi hệ thống:
+
+- Tự động đề xuất hoặc thực
+thi quyết định chuyển hướng,
+hạ cánh khẩn cấp;
+
+- Thực thi mà không có xác
+nhận của phi công hoặc kiểm
+soát viên không lưu.
+
+14
+
+Hệ thống trí tuệ nhâri tạo
+dự báo thời tiết hàng
+không có chức nắng tự
+động phát lệnh đóng
+đường băng hoặc hủy chuyển
+
+Chỉ áp dụng khi hệ thống:
+
+- Tự động ra quyết định đóng
+đường băng hoặc hủy(tri
+hoãn chuyến bay;
+
+
+=== Trang 13 ===
+10
+
+- Thực thi mà không qua
+phê duyệt của cơ quan khí
+tượng hàng không có thẩm
+quyên.
+
+15
+
+Hệ thống trí tuệ nhân tạo
+
+điều hành hoạt động tàu:
+
+bay trên mặt đất tại sân
+bay (ASMGCS Level 3-4)
+
+Chỉ áp dụng khi hệ thống:
+- Tự động cấp phép di
+chuyển taxi, phân bổ
+đường lăn hoặc điều phối
+vị trí đỗ máy bay trong khu
+bay;
+
+- Thực thi mà không có xác.
+nhận của kiểm soát viên
+mặt đất.
+
+16
+
+Hệ thống trí tuệ nhân tạo
+phân bỗ vị trí đỗ tàu bay
+và công ra tàu bay tự động
+(Stand/Gate Allocation)
+
+Chỉ áp dụng khi hệ thống:
+- Tự động quyết định phân
+bổ vị trí đỗ hoặc cổng ra
+tàu bay trong điều kiện
+khai thác thực tế;
+
+- Thực thi mà không có sự
+phê duyệt của nhân viên
+điều hành cảng.
+
+17
+
+Hệ thống trí tuệ nhân tạo
+điều khiến phương tiện tự
+hành trong khu bay
+(follow-me car, xe nạp
+hành lý, xe tiêp nhiên
+liệu)
+
+Chỉ áp dụng khi hệ thống:
+- Điều khiển phương tiện
+
+.vận hành tự động trong
+
+khu vực airside có nguy cơ
+gây va chạm với tàu bay
+hoặc hạ tâng sân bay;
+
+- Không có giám sát trực
+tiệp của người điều khiên.
+
+18
+
+Hệ thống trí tuệ nhân tạo
+điều khiển droneUAV
+được cấp phép trong
+không phận kiểm soát sân
+bay (U-Space/ƯTM)
+
+Chỉ áp dụng khi hệ thống:
+
+- Tự động điều hướng UAV
+được cấp phép hoạt động
+trong vùng kiểm soát không
+lưu sân bay hoặc gần đường
+cất hạ cánh;
+
+- Không có sự giám sát trực
+tiếp của cơ quan kiểm soát
+không lưu.
+
+- Không áp dụng đối với hệ
+
+thống chống UAV xâm
+
+phạm trái phép.
+
+
+=== Trang 14 ===
+11
+
+19
+
+Hệ thống trí tuệ nhân tạo
+tự động phân tích dữ liệu
+kỹ thuật và ra quyết định
+cho phép/không cho phép
+tu bay khai thác
+(Predictive Maintenance
+AI
+
+Chỉ áp dụng khi hệ thống:
+- Tự động ban hành lệnh
+đình bay (prounding
+order) hoặc quyết định cho
+phép tàu bay tiếp tục khai
+thác dựa trên phân tích AI;
+- Thực thi mà không qua
+xem xét, ký duyệt của kỹ
+sư hàng không có chứng
+chỉ phê chuẩn.
+
+20
+
+Hệ thống trí tuệ nhân tạo
+quản lý nhiên liệu hàng
+không tự động (tự động
+ra lệnh nạp nhiên liệu)
+
+Chỉ áp dụng khi hệ thống:
+- Tự động xác định lượng
+và thời điểm nạp nhiên liệu
+cho tàu bay;
+
+- Thực thi mà không có xác
+nhận của kỹ sư khai thác
+bay về loại nhiên liệu.
+
+21
+
+Hệ thống trí tuệ nhân tạo
+phân tích hình ảnh soi
+chiếu và tự động phát
+hiện, phân loại vật phẩm
+nguy hiểm trong hành lý
+tại cửa kiểm tra an ninh
+(Automated Threat IXtection)
+
+Chỉ áp dụng khi hệ thống:
+- Tự động đưa ra quyết
+định cảnh báo, phân loại
+mối đe dọa, kích hoạt báo
+động hoặc cách ly hành lý;
+- Thực thi mà không có
+bước kiểm tra lại bắt buộc
+của nhân viên an ninh hàng
+không; có thể gây rủi ro cả
+hai chiều: bỏ sót vật nguy
+hiểm hoặc gây báo động
+nhằm làm gián đoạn khai
+thác.
+
+22
+
+Hệ thống trí tuệ nhân tạo
+phân tích hành vi hành
+khách qua camera
+
+(Behavior Detection AI) |
+
+tại khu vực kiểm soát an
+ninh
+
+Chỉ áp dụng khi hệ thống:
+
+- Tự động xác định hành vi
+nghi vân và kích hoạt cảnh
+báo an ninh hoặc biện pháp
+can thiệp;
+
+- Thực thi mà không có xác
+nhận ban đầu của nhân
+viên an ninh; ảnh hưởng
+trực tiếp đến quyền tự do
+cá nhân.
+
+
+=== Trang 15 ===
+12
+
+23
+
+Hệ thống trí tuệ nhân tạo
+quản lý an ninh hàng không
+và tự động xác định đối
+tượng nguy cơ/từ chối vận
+chuyên hành khách
+
+Chỉ áp dụng khi hệ thống:
+
+- Tự động từ chối vận chuyển
+hành khách hoặc kích hoạt
+biện pháp an ninh;
+
+- Thực thi mà không có xác.
+
+minh của nhân viên an ninh
+hàng không có thâm quyền.
+
+x
+
+24
+
+Hệ thống trí tuệ nhân tạo
+tự động phát hiện và xử lý
+thiết bị bay không người
+lá (UAV/drone) xâm
+phạm vùng cấm bay
+quanh cảng hàng không
+(Counter-UAYV)
+
+Chỉ áp dụng khi hệ thống:
+
+- Tự động thực thi biện pháp
+đối kháng (vô hiệu hóa tín
+hiệu, bắn hạ hoặc chiếm
+quyền điều khiển UAV xâm
+phạm trái phép);
+
+- Thực thì mà không có
+lệnh xác nhận của lực lượng
+an ninh hàng không hoặc cơ
+quan quân sự có thâm quyên.
+
+25
+
+Hệ thống trí tuệ nhân tạo
+điều khiển tự động luồng
+năng lượng và dự phòng
+tại các trạm điện/đài kiểm
+soát không lưu(SCADAICS)
+
+Chỉ áp dụng cho các hệ thống:
+- Có quyền can thiệp trực
+tiếp vào lưới điều khiển
+vật lý (SCADA/ICS) của
+hạ tầng hàng không quan
+trọng quốc gia;
+
+- Thực thi mà không có xác
+nhận của kỹ sư vận hành.
+
+26
+
+Hệthôngtrítiệnhântạo giám sát
+và phát hiện xâm nhập khu bay
+(Runway/Taxiway
+[ncursion Detection)
+
+Chỉ áp dụng khi hệ thống:
+- Tự động phát hiện vật
+thêphương  tiện/người
+xâm nhập khu bay và kích
+hoạt biện pháp kiểm soát
+hạ tầng vật lý (đóng đường
+băng, bật đèn cảnh báo);
+
+- Thực thi mà không cần
+xác nhận của nhân viên
+điều hành sân bay.
+
+27
+
+Hệ thống trí tuệ nhân tạo
+giám sát tình trạng đường
+cất hạ cánh và phát hiện
+vật thể lạ trên đường
+băng (FOD Detection)
+
+Chỉ áp dụng khi hệ thống: -
+
+- Tự động phát hiện vật thể
+lạ hoặc nguy cơ mất an
+toàn trên đường băng và
+kích hoạt cảnh báo hoặc
+hạn chế khai thác;
+
+- Thực thi mà không có xác
+nhận của nhân viên khai
+thác sân bay.
+
+
+=== Trang 16 ===
+13
+
+28
+
+Hệ thống trí tuệ nhân tạo
+giám sát và điều khiển hạ
+tầng sân bay (đèn hiệu
+đường băng, hệ thống
+ILS/GBAS, cấp điện)
+
+Chỉ áp dụng khi hệ thống:
+- Có quyên truy cập và
+điều khiển trực tiếp vào hệ
+thống hạ tầng kỹ thuật
+quan trọng của sân bay,
+ảnh hưởng đến hoạt động
+dẫn đường và hạ cánh của
+tàu bay.
+
+b$
+
+29
+
+Hệ thống trí tuệ nhân tạo
+kiểm soát thiết bị hỗ trợ
+hạ cánh chính xác tích
+hợp AI (ILS/GBAS với
+AI)
+
+Chỉ áp dụng khi hệ thống
+dẫn đường hạ cánh trong
+điều kiện tầm nhìn hạn chế
+có tích hợp thành phần AI
+quyết định tự động; ảnh
+hưởng trực tiếp đến an
+
+.| toàn hạ cánh của tàu bay.
+
+30
+
+Hệ thống trí tuệ nhân tạo
+đánh giá rủi ro an ninh
+đối với hồ sơ cấp thẻ
+kiểm soát an ninh hàng
+không
+
+Chỉ áp dụng khi kết quả
+đánh giá của AI là căn cứ
+duy nhất để từ chối cấp thẻ
+hoặc hạn chế quyền tiếp cận
+khu vực hạn chế của cá nhân
+mà không có sự xem xét độc
+lập của hội đồng thâm định.
+
+31
+
+Hệ thống trí tuệ nhân tạo tự
+động thanh tra, kiểm tra và
+cảnh báo vi phạm về tĩnh
+không sân bay qua dữ liệu
+vệ tih/ảnh hàng không
+
+Chỉ áp dụng khi hệ thống:
+Được SỬ. dụng làm căn cứ
+pháp lý để ra quyết định đình
+
+chỉ công trình vi phạm tĩnh |
+
+không hoặc xử phạt hành
+chính mà không qua thẩm
+định thực địa.
+
