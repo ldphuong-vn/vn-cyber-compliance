@@ -1,6 +1,6 @@
 # Mẫu Hỏi đáp cho khách hàng về bảo vệ dữ liệu cá nhân khi dùng camera và nhận diện (K10)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ49, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71; Luật Kế toán 88/2015/QH13 Đ41.5; BLLĐ 2019 Đ190; văn bản chuyên ngành về thời hạn lưu hình ảnh (bảng tại K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ49, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71; QĐ 33/2026/QĐ-TTg Phụ lục mục I.3; Luật Kế toán 88/2015/QH13 Đ41.5; BLLĐ 2019 Đ190; văn bản chuyên ngành về thời hạn lưu hình ảnh (K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -164,12 +164,13 @@ Trong **72 giờ** kể từ khi phát hiện: thông báo **cơ quan chuyên tr
 
 - Đồng ý của **cha, mẹ hoặc người giám hộ**. Nghị định 330 còn phạt việc xử lý dữ liệu của trẻ từ đủ 07 tuổi mà không có **đồng thời** sự đồng ý của trẻ và người đại diện — rộng hơn câu chữ của Luật (Luật chỉ yêu cầu đồng ý của trẻ khi công bố, tiết lộ đời sống riêng tư). **[CẦN ĐỐI CHIẾU]**; cách thận trọng: xin cả hai với trẻ từ đủ 07 tuổi.
 - Phương thức thay thế (thẻ, điểm danh thủ công); không dùng nhận diện cảm xúc, chấm điểm hành vi.
+- Theo Luật Trí tuệ nhân tạo: điểm danh chỉ để xác nhận có mặt, không theo dõi liên tục trong lớp, không phân tích mức độ chú ý, cảm xúc, không cảnh báo tự động tần suất cao thì có thể lập luận là **không** thuộc mục I.3 Danh mục rủi ro cao (hệ thống giám sát, phân tích hành vi người học). Camera lớp học theo dõi liên tục, cảnh báo tự động thì coi là rủi ro cao. **[CẦN ĐỐI CHIẾU]** — chưa có hướng dẫn chính thức.
 - DPIA, nhân sự bảo vệ dữ liệu cá nhân (dữ liệu nhạy cảm, không được miễn).
 - Nhà cung cấp vận hành phần mềm giáo dục có điểm danh, ghi hình (cloud) là kinh doanh dịch vụ xử lý dữ liệu cá nhân — cần Giấy chứng nhận.
 
 Không có đồng ý hợp lệ: 30–50 triệu đồng; không xóa dữ liệu trẻ em khi phải xóa: 100–200 triệu đồng.
 
-*Căn cứ:* khoản 2 Điều 24 Luật BVDLCN; khoản 5 Điều 21 Nghị định 356; khoản 1, khoản 3 Điều 60 Nghị định 330.
+*Căn cứ:* khoản 2 Điều 24 Luật BVDLCN; khoản 5 Điều 21 Nghị định 356; khoản 1, khoản 3 Điều 60 Nghị định 330; Quyết định 33/2026/QĐ-TTg Phụ lục mục I.3.
 
 **Câu 18. Hệ thống cũ đã xin đồng ý theo Nghị định 13/2023 có phải xin lại không?**
 
