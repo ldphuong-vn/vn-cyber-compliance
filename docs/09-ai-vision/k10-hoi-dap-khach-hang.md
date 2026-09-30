@@ -1,6 +1,6 @@
 # Mẫu Hỏi đáp cho khách hàng về bảo vệ dữ liệu cá nhân khi dùng camera và nhận diện (K10)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ49, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71; QĐ 33/2026/QĐ-TTg Phụ lục mục I.3; Luật Kế toán 88/2015/QH13 Đ41.5; BLLĐ 2019 Đ190; văn bản chuyên ngành về thời hạn lưu hình ảnh (K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.a, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ7.1–7.2, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ48.2, Đ49, Đ52.1.a, Đ52.3, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71; QĐ 33/2026/QĐ-TTg Phụ lục mục I.3; Luật Kế toán 88/2015/QH13 Đ41.5; BLLĐ 2019 Đ190; văn bản chuyên ngành về thời hạn lưu hình ảnh (K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -205,6 +205,20 @@ Nếu thiết bị xử lý **ẩn danh tại chỗ** — không nhận dạng, 
 Chưa xác minh: đầu đọc khuôn mặt, camera biển số, đầu ghi có thuộc danh mục không; tự công bố hay phải có chứng nhận của tổ chức được chỉ định; hàng đã nhập trước 01/07/2026 xử lý thế nào. Nghĩa vụ hợp quy thuộc nhà sản xuất, nhà nhập khẩu. Doanh nghiệp mua, lắp camera nên yêu cầu nhà cung cấp giao bản công bố hợp quy, giấy chứng nhận hoặc kết quả thử nghiệm của từng model.
 
 *Căn cứ:* Thông tư số 48/2026/TT-BCA; Thông tư số 125/2026/TT-BCA — **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**. Mẫu: K8 mục B21; B4.
+
+## I. Người lao động của đơn vị khác làm việc tại địa điểm
+
+**Câu 22. Người lao động của đơn vị đối tác làm việc tại địa điểm của chúng tôi. Đơn vị đối tác gửi danh sách, ảnh để chúng tôi đăng ký khuôn mặt. Cần làm gì?**
+
+- Doanh nghiệp là **bên kiểm soát** dữ liệu khuôn mặt nhưng **không** có hợp đồng lao động với những người này, nên không dựa vào nội quy lao động. Xin **đồng ý của từng người** (Mẫu E), nộp trực tiếp cho doanh nghiệp; người không đồng ý ra vào bằng thẻ hoặc mã QR.
+- Đơn vị đối tác gửi danh sách, ảnh cho doanh nghiệp là **chuyển giao dữ liệu cá nhân**. Hai bên ký **thỏa thuận chuyển giao** nêu mục đích, loại dữ liệu, thời hạn xóa, cơ sở pháp lý, trách nhiệm bảo vệ, thực hiện quyền của người lao động và phối hợp khi vi phạm (K11).
+- **Nên chụp ảnh trực tiếp tại bàn đăng ký** thay vì nhận ảnh từ đơn vị đối tác. Nếu nhận ảnh: chỉ qua kênh mã hóa, không qua nhóm chat, thư điện tử thường; xóa tệp sau khi đăng ký.
+- Dùng nhật ký ra vào để đối chiếu ngày công, thanh toán với đơn vị đối tác: gửi **số liệu tổng hợp không gắn tên**; bảng có tên chỉ gồm người đã đồng ý riêng cho mục đích này.
+- Đơn vị đối tác phải báo khi người lao động thôi làm việc tại địa điểm để doanh nghiệp khóa quyền và xóa dữ liệu khuôn mặt.
+
+Chuyển ảnh không mã hóa: 50–80 triệu đồng; thỏa thuận chuyển giao thiếu trách nhiệm các bên: 20–30 triệu đồng; dùng dữ liệu nhận qua chuyển giao cho mục đích khác: 50–80 triệu đồng.
+
+*Căn cứ:* Điều 9, khoản 1 Điều 17 Luật BVDLCN; khoản 1, khoản 2 Điều 7 Nghị định 356; khoản 2 Điều 48, khoản 1 và khoản 3 Điều 52 Nghị định 330. Mẫu: K2 Mẫu E; K11.
 
 <p align="center"><i>Liên hệ hỗ trợ tuân thủ của {{TEN_NHA_CUNG_CAP}}: {{NHAN_SU_BVDLCN_NCC}} — {{EMAIL_BVDLCN_NCC}} — {{DIEN_THOAI_BVDLCN_NCC}} — {{WEBSITE_NCC}}</i></p>
 

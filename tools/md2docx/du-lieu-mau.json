@@ -1621,6 +1621,11 @@
       "DL_DIEN_THOAI_BVDLCN": "028 1234 5688",
       "DL_KHU_VUC_CAMERA": "sảnh lễ tân và cửa ra vào trụ sở Công ty",
       "DL_THOI_GIAN_LUU_CAMERA": "30 ngày"
+    },
+    "09-ai-vision/k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac": {
+      "SO_HOP_DONG": "HĐ-DV/2026/015 (mô phỏng)",
+      "NGAY_HOP_DONG": "15/9/2026",
+      "SO_PHU_LUC": "02"
     }
   },
   "_theo_thu_muc": {
@@ -2095,7 +2100,29 @@
       "SO_NGAY_BAO_YEU_CAU_BOI_THUONG": "05",
       "CAM_KET_BAO_HIEM_TRACH_NHIEM": "Hai bên không cam kết mua bảo hiểm trách nhiệm theo Phụ lục này.",
       "PHAM_VI_HOAN_TRA_DAI_LY": "lỗi thiết kế, lỗi mô hình của sản phẩm, trong giới hạn giá trị sản phẩm của dự án",
-      "YEU_CAU_BAO_HIEM_DAI_LY": "Không bắt buộc"
+      "YEU_CAU_BAO_HIEM_DAI_LY": "Không bắt buộc",
+      "TEN_DON_VI_DOI_TAC": "Công ty TNHH Dịch vụ Kỹ thuật Mẫu",
+      "TEN_DON_VI_DOI_TAC_IN_HOA": "CÔNG TY TNHH DỊCH VỤ KỸ THUẬT MẪU",
+      "DIA_CHI_DON_VI_DOI_TAC": "Số 10, đường Mẫu, TP. Hồ Chí Minh",
+      "MST_DON_VI_DOI_TAC": "2222222222 (mô phỏng)",
+      "DAI_DIEN_DON_VI_DOI_TAC": "Đỗ Văn Nam",
+      "CHUC_VU_DAI_DIEN_DOI_TAC": "Giám đốc",
+      "DAU_MOI_DON_VI_DOI_TAC": "Ngô Thị Thu, Phụ trách nhân sự — 0909 000 222 — nhansu@doitac.example.vn",
+      "DAU_MOI_TIEP_NHAN_DU_LIEU_BEN_A": "Phạm Minh Tuấn, Phụ trách an ninh địa điểm — 0274 000 1250",
+      "SO_NGAY_XOA_KHI_ROI_DIA_DIEM": "07",
+      "SO_NGAY_KHONG_RA_VAO": "30",
+      "THOI_HAN_LUU_BANG_TONG_HOP_NGAY_CONG": "Đến khi quyết toán hợp đồng với đơn vị đối tác và 12 tháng sau đó",
+      "SO_NGUOI_TOI_THIEU_TONG_HOP": "05",
+      "KENH_CHUYEN_GIAO_DU_LIEU": "thư mục chia sẻ trên máy chủ đặt tại địa điểm, tài khoản riêng cho từng đơn vị đối tác",
+      "SO_NGAY_XOA_TEP_CHUYEN_GIAO": "03",
+      "SO_NGAY_THONG_BAO_BIEN_DONG": "02",
+      "SO_NGAY_XOA_KHI_KET_THUC_HD": "30",
+      "SO_NGAY_CHUYEN_YEU_CAU": "02",
+      "SO_NGAY_XEM_XET_LAI": "05",
+      "SO_GIO_THONG_BAO_SU_CO_DOI_TAC": "24",
+      "CHU_KY_GUI_BANG_TONG_HOP": "Hằng tháng, trước ngày 05 của tháng sau",
+      "DO_PHAN_GIAI_ANH_DANG_KY": "640 × 480 điểm ảnh",
+      "SO_THANG_ANH_TOI_DA": "06"
     }
   }
 }

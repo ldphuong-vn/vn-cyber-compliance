@@ -54,15 +54,16 @@ B5 (ma trận tính năng ↔ điều khoản) nằm trong bản thảo luận m
 | Mã | File | Nội dung |
 |---|---|---|
 | K1 | [k1-bien-bao-camera.md](k1-bien-bao-camera.md) | Bốn biển báo (công cộng, nơi làm việc, nhận diện khuôn mặt, bãi xe) và thông báo đầy đủ |
-| K2 | [k2-thong-bao-va-dong-y-sinh-trac-hoc.md](k2-thong-bao-va-dong-y-sinh-trac-hoc.md) | Thông báo, đồng ý sinh trắc học cho người lao động, khách, phụ huynh và học sinh; đơn rút lại đồng ý |
+| K2 | [k2-thong-bao-va-dong-y-sinh-trac-hoc.md](k2-thong-bao-va-dong-y-sinh-trac-hoc.md) | Thông báo, đồng ý sinh trắc học cho người lao động, khách, phụ huynh và học sinh, người lao động của đơn vị đối tác; đơn rút lại đồng ý |
 | K3 | [k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md](k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md) | Quy định giám sát bằng camera, nhận diện tại nơi làm việc; phiếu xác nhận đã được thông báo |
 | K4 | [k4-chinh-sach-luu-tru-xoa.md](k4-chinh-sach-luu-tru-xoa.md) | Chính sách lưu trữ, xóa, hủy 15 loại dữ liệu; giữ lại khi có tranh chấp; biên bản xóa |
 | K5 | [k5-quy-trinh-yeu-cau-chu-the.md](k5-quy-trinh-yeu-cau-chu-the.md) | Quy trình yêu cầu của chủ thể theo thời hạn NĐ 356 Đ5; phiếu yêu cầu; sổ theo dõi |
 | K6 | [k6-dpia-dien-san-phan-ky-thuat.md](k6-dpia-dien-san-phan-ky-thuat.md) | Hồ sơ DPIA theo Mẫu 10 NĐ 356, điền sẵn phần kỹ thuật |
 | K7 | [k7-thong-bao-su-co-sinh-trac-hoc.md](k7-thong-bao-su-co-sinh-trac-hoc.md) | Thông báo sự cố cho chủ thể, thông báo công khai, Mẫu 08, biên bản xác nhận vi phạm |
-| K8 | [k8-checklist-trien-khai-ban-giao.md](k8-checklist-trien-khai-ban-giao.md) | Checklist 44 mục nghiệm thu tuân thủ; biên bản bàn giao |
+| K8 | [k8-checklist-trien-khai-ban-giao.md](k8-checklist-trien-khai-ban-giao.md) | Checklist 47 mục nghiệm thu tuân thủ; biên bản bàn giao |
 | K9 | [k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md](k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md) | Cung cấp video cho cơ quan có thẩm quyền; biên bản giao nhận; sổ theo dõi |
-| K10 | [k10-hoi-dap-khach-hang.md](k10-hoi-dap-khach-hang.md) | 21 câu hỏi đáp thường gặp |
+| K10 | [k10-hoi-dap-khach-hang.md](k10-hoi-dap-khach-hang.md) | 22 câu hỏi đáp thường gặp |
+| K11 | [k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md](k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md) | Phụ lục hợp đồng giữa khách hàng và đơn vị đối tác: chuyển danh sách, ảnh khuôn mặt, bảng tổng hợp ngày có mặt |
 
 ### P — Công cụ bán hàng
 

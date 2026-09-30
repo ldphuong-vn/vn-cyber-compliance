@@ -105,6 +105,7 @@ const TARGETS = [
     "k4-chinh-sach-luu-tru-xoa", "k5-quy-trinh-yeu-cau-chu-the", "k6-dpia-dien-san-phan-ky-thuat",
     "k7-thong-bao-su-co-sinh-trac-hoc", "k8-checklist-trien-khai-ban-giao",
     "k9-quy-trinh-cung-cap-video-co-quan-chuc-nang", "k10-hoi-dap-khach-hang",
+    "k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac",
     "p1-phieu-danh-gia-nhanh-khach-hang",
   ].map((f) => `docs/09-ai-vision/${f}.md`),
 ];

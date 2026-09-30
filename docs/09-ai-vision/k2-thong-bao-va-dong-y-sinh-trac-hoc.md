@@ -1,6 +1,6 @@
 # Mẫu Thông báo và văn bản đồng ý xử lý dữ liệu sinh trắc học (nhận diện khuôn mặt)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9, Đ10, Đ11.1, Đ14.1, Đ24, Đ25.2.b–c, Đ25.3, Đ31.2, Đ31.4, Đ39.1; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.2, Đ6, Đ10.3, Đ23.7; NĐ 330/2026/NĐ-CP Đ43, Đ45, Đ60, Đ61.2, Đ67.2.a–b, Đ67.3.b, Đ70.2.b; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9, Đ10, Đ11.1, Đ14.1, Đ17.1.a, Đ19.1.d, Đ24, Đ25.2.b–c, Đ25.3, Đ31.2, Đ31.4, Đ39.1; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.2, Đ6, Đ7.1, Đ7.2, Đ10.3, Đ23.7; NĐ 330/2026/NĐ-CP Đ43, Đ45, Đ48.2, Đ52.3, Đ60, Đ61.2, Đ67.2.a–b, Đ67.3.b, Đ70.2.b; Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13; BLLĐ 2019 Đ190 **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -12,6 +12,7 @@ Bộ mẫu do **khách hàng** (bên kiểm soát) ban hành trước khi đăng
 | **Mẫu B** | Khách đến làm việc: đăng ký tại kiosk, lễ tân | Màn hình kiosk (ô tích không chọn sẵn) hoặc giấy |
 | **Mẫu C** | Học sinh, trẻ em: điểm danh bằng khuôn mặt | Phụ huynh hoặc người đại diện theo pháp luật ký |
 | **Mẫu D** | Đơn rút lại sự đồng ý | Giấy hoặc điện tử |
+| **Mẫu E** | Người lao động của **đơn vị đối tác** (đơn vị khác) làm việc tại địa điểm do khách hàng quản lý: kiểm soát ra vào bằng khuôn mặt; tổng hợp ngày có mặt gửi đơn vị đối tác | Giấy, nộp trực tiếp cho khách hàng tại bàn đăng ký. Dùng cùng thỏa thuận giữa hai đơn vị ([`k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md`](k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md)) |
 
 ### Vì sao phải xin đồng ý riêng
 
@@ -32,6 +33,7 @@ Bộ mẫu do **khách hàng** (bên kiểm soát) ban hành trước khi đăng
 | Thông báo việc xử lý tự động, giải thích nguyên tắc thuật toán và ảnh hưởng; cho lựa chọn không tham gia | NĐ 356 Đ10.3; NĐ 330 Đ67.2.a–b | Mục 4; tài liệu giải thích [`b3-giai-thich-thuat-toan.md`](b3-giai-thich-thuat-toan.md) |
 | Người lao động biết rõ biện pháp công nghệ, kỹ thuật được áp dụng | Luật 91 Đ25.3.a; NĐ 330 Đ61.2.c | Mẫu A; kèm điều khoản nội quy [`k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md`](k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md) |
 | [M3/M4] Chủ thể biết tên **tổ chức cung cấp dịch vụ xử lý dữ liệu cá nhân** | NĐ 356 Đ23.7 | Dòng "Đơn vị cung cấp dịch vụ xử lý" ở mục 2 |
+| Mẫu E: chủ thể biết rõ **bên kiểm soát** là khách hàng, không phải đơn vị sử dụng lao động của mình; đồng ý riêng cho việc đơn vị đối tác **chuyển ảnh** cho khách hàng và cho việc khách hàng **gửi bảng tổng hợp có tên** cho đơn vị đối tác | Luật 91 Đ9.2.b, Đ17.1.a; NĐ 356 Đ7.1 | Mục 2, mục 3, mục 4 của Mẫu E |
 | Trẻ em: người đại diện theo pháp luật thực hiện quyền thay; **trẻ từ đủ 07 tuổi: cần đồng thời đồng ý của trẻ và người đại diện**; xác minh tuổi trước khi xử lý | Luật 91 Đ24.2; NĐ 330 Đ60.1.a–c | Mẫu C, phần xác nhận của học sinh |
 
 ### Rủi ro phạt (mức cho tổ chức)
@@ -46,6 +48,8 @@ Bộ mẫu do **khách hàng** (bên kiểm soát) ban hành trước khi đăng
 | Xử lý dữ liệu trẻ em không xác minh tuổi; trẻ dưới 07 tuổi không có đồng ý của người đại diện; trẻ từ đủ 07 tuổi không có **đồng thời** đồng ý của trẻ và người đại diện | 30–50 triệu | NĐ 330 Đ60.1 |
 | Không xóa dữ liệu trẻ em khi phụ huynh rút lại sự đồng ý hoặc đã hoàn thành mục đích | 100–200 triệu | NĐ 330 Đ60.3 |
 | Không xóa dữ liệu người lao động khi chấm dứt hợp đồng | 50–70 triệu | NĐ 330 Đ61.2.b |
+| Mẫu E: dùng dữ liệu nhận được qua chuyển giao cho mục đích khác ngoài mục đích chủ thể đã đồng ý | 50–80 triệu | NĐ 330 Đ48.2 |
+| Mẫu E: chuyển ảnh khuôn mặt không mã hóa, không có biện pháp bảo mật (gửi qua ứng dụng nhắn tin, thư điện tử thường) | 50–80 triệu | NĐ 330 Đ52.3 |
 
 ### Lưu ý khi điền
 
@@ -202,6 +206,7 @@ Căn cứ Điều 10 Luật Bảo vệ dữ liệu cá nhân, tôi đề nghị:
 | Rút lại sự đồng ý đối với mục đích kiểm soát ra vào bằng khuôn mặt | ☐ |
 | Rút lại sự đồng ý đối với mục đích chấm công bằng khuôn mặt | ☐ |
 | Rút lại sự đồng ý đối với mục đích điểm danh bằng khuôn mặt | ☐ |
+| Rút lại sự đồng ý đối với việc đưa tên tôi vào bảng tổng hợp ngày có mặt gửi đơn vị đối tác | ☐ |
 | Xóa ảnh đăng ký và đặc trưng khuôn mặt của tôi (hoặc của người tôi đại diện) | ☐ |
 | Cấp phương thức thay thế: {{thẻ/mã PIN/QR}} | ☐ |
 
@@ -214,6 +219,85 @@ Tôi hiểu rằng việc rút lại không ảnh hưởng tới hoạt động 
 
 **Phần xử lý (do {{TEN_KHACH_HANG}} ghi):** Ngày nhận: ....../....../...... · Ngày phản hồi (≤ 02 ngày làm việc): ....../....../...... · Ngày ngừng xử lý, xóa trên hệ thống (≤ 15 ngày; ≤ 20 ngày nếu phải yêu cầu bên xử lý): ....../....../...... · Người thực hiện: .............................. · Mã nhật ký xóa trên hệ thống: ..............................
 
+---
+
+| **{{TEN_KHACH_HANG}}**<br/>------- | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**<br/>**Độc lập - Tự do - Hạnh phúc**<br/>--------------- |
+|:---:|:---:|
+| Mã phiếu: {{MA_PHIEU}} | *{{DIA_DANH}}, ngày ... tháng ... năm ...* |
+
+<p align="center"><b>MẪU E — THÔNG BÁO VÀ ĐỒNG Ý XỬ LÝ DỮ LIỆU SINH TRẮC HỌC</b><br/><b>(Nhận diện khuôn mặt dành cho người lao động của đơn vị đối tác làm việc tại địa điểm)</b></p>
+
+**Phiên bản thông báo:** {{PHIEN_BAN_THONG_BAO}} — áp dụng từ ngày {{NGAY_HIEU_LUC}}
+
+Anh/chị là người lao động của {{TEN_DON_VI_DOI_TAC}} (sau đây gọi là "đơn vị đối tác"), làm việc tại {{DIA_DIEM_LAP_DAT}} (sau đây gọi là "địa điểm") do {{TEN_KHACH_HANG}} quản lý. {{TEN_KHACH_HANG}} kiểm soát ra vào địa điểm bằng hệ thống {{TEN_SAN_PHAM}}. Phiếu này do {{TEN_KHACH_HANG}} ban hành; anh/chị nộp phiếu trực tiếp cho {{TEN_KHACH_HANG}} tại bàn đăng ký.
+
+### 1. Dữ liệu được xử lý
+
+- **Thông tin để cấp quyền ra vào:** họ tên; đơn vị đối tác; tổ, nhóm công việc; thời gian dự kiến làm việc tại địa điểm; mã thẻ hoặc mã QR được cấp.
+- **Ảnh khuôn mặt đăng ký** và **đặc trưng khuôn mặt** (dãy số do hệ thống tạo ra từ ảnh để nhận dạng) — **dữ liệu sinh trắc học, thuộc dữ liệu cá nhân nhạy cảm** theo điểm đ khoản 1 Điều 4 Nghị định số 356/2025/NĐ-CP. Chỉ xử lý nếu anh/chị chọn đồng ý tại mục 3.
+- **Nhật ký ra vào:** thời điểm, cổng ra vào, phương thức (khuôn mặt, thẻ, mã QR), ảnh chụp tại thời điểm nhận diện.
+- {{TEN_KHACH_HANG}} **không** thu ảnh hoặc bản sao giấy tờ tùy thân cho các mục đích của phiếu này.
+
+### 2. Các bên liên quan
+
+- **Bên kiểm soát dữ liệu:** {{TEN_KHACH_HANG}}, địa chỉ {{DIA_CHI_KHACH_HANG}}. Đầu mối bảo vệ dữ liệu cá nhân: {{NHAN_SU_BVDLCN_KH}} — điện thoại {{DIEN_THOAI_BVDLCN_KH}} — email {{EMAIL_BVDLCN_KH}}.
+- **Đơn vị đối tác:** {{TEN_DON_VI_DOI_TAC}} — đơn vị sử dụng lao động của anh/chị; cung cấp danh sách người lao động (và ảnh khuôn mặt, nếu anh/chị chọn tại mục 4) cho {{TEN_KHACH_HANG}}; nhận bảng tổng hợp ngày có mặt nếu anh/chị đồng ý tại mục 3. Đầu mối: {{DAU_MOI_DON_VI_DOI_TAC}}.
+- **Nhà cung cấp hệ thống:** {{TEN_NHA_CUNG_CAP}} — chỉ tiếp cận dữ liệu khi lắp đặt, bảo hành, hỗ trợ kỹ thuật theo hợp đồng và chỉ dẫn của {{TEN_KHACH_HANG}}.
+- **Nơi lưu dữ liệu:** {{VI_TRI_MAY_CHU}}.
+
+### 3. Mục đích — anh/chị chọn riêng từng mục đích
+
+Quyền ra vào bằng {{thẻ/mã QR}} được cấp cho mọi người lao động có tên trong danh sách của đơn vị đối tác, **không phụ thuộc** lựa chọn dưới đây.
+
+| Mục đích | Đồng ý | Không đồng ý |
+|---|---|---|
+| 1. Kiểm soát ra vào địa điểm bằng khuôn mặt | ☐ | ☐ Ra vào bằng {{thẻ/mã QR}}, bảo vệ đối chiếu |
+| 2. Dùng nhật ký ra vào của tôi để tổng hợp ngày, giờ có mặt; gửi bảng tổng hợp **có tên tôi** cho đơn vị đối tác để đối chiếu ngày công, thanh toán giữa hai đơn vị và đối chiếu ngày công của tôi | ☐ | ☐ Tên tôi không có trong bảng tổng hợp gửi đơn vị đối tác; {{TEN_KHACH_HANG}} chỉ gửi số liệu tổng hợp không gắn với tên người |
+
+Dữ liệu **không** được dùng cho mục đích nào khác ngoài mục đích anh/chị đã chọn, **không** dùng để huấn luyện mô hình trí tuệ nhân tạo, **không** chia sẻ cho bên thứ ba nào khác, trừ trường hợp cơ quan nhà nước có thẩm quyền yêu cầu theo quy định của pháp luật.
+
+### 4. Cách đăng ký khuôn mặt — chỉ khi anh/chị đồng ý mục đích 1
+
+| Cách đăng ký | Chọn |
+|---|---|
+| Chụp ảnh trực tiếp tại bàn đăng ký của {{TEN_KHACH_HANG}} | ☐ |
+| Tôi đồng ý để {{TEN_DON_VI_DOI_TAC}} chụp và chuyển ảnh khuôn mặt của tôi cho {{TEN_KHACH_HANG}} qua kênh có mã hóa; đơn vị đối tác xóa ảnh sau khi {{TEN_KHACH_HANG}} xác nhận đã đăng ký | ☐ |
+
+### 5. Cách hệ thống hoạt động và ảnh hưởng tới anh/chị
+
+- Hệ thống so sánh khuôn mặt trước camera với đặc trưng đã đăng ký. Nếu mức giống nhau vượt ngưỡng cài đặt, hệ thống ghi nhận là anh/chị. Hệ thống có kiểm tra người thật để chống dùng ảnh, video giả.
+- Hệ thống **có thể nhận nhầm hoặc không nhận ra**. Khi đó bảo vệ kiểm tra và cho anh/chị ra vào bằng {{thẻ/mã QR}}; lượt ra vào vẫn được ghi nhận.
+- Kết quả nhận diện và bảng tổng hợp **không tự động** dẫn tới xử phạt, trừ công, trừ tiền. Khi thấy ghi nhận sai, anh/chị có quyền yêu cầu {{TEN_KHACH_HANG}} hoặc đơn vị đối tác **xem xét lại**.
+- Giải thích chi tiết nguyên tắc hoạt động: {{đường dẫn/nơi nhận tài liệu giải thích thuật toán}}.
+
+### 6. Thời hạn lưu trữ và xóa
+
+| Dữ liệu | Thời hạn lưu | Khi nào xóa |
+|---|---|---|
+| Ảnh đăng ký, đặc trưng khuôn mặt | Trong thời gian anh/chị làm việc tại địa điểm | Trong {{SO_NGAY_XOA_KHI_ROI_DIA_DIEM}} ngày kể từ khi đơn vị đối tác thông báo anh/chị thôi làm việc tại địa điểm, hoặc sau {{SO_NGAY_KHONG_RA_VAO}} ngày liên tục không ra vào, hoặc khi anh/chị rút lại sự đồng ý; chậm nhất khi hợp đồng giữa {{TEN_KHACH_HANG}} và đơn vị đối tác kết thúc |
+| Ảnh chụp tại thời điểm nhận diện | {{THOI_HAN_LUU_ANH_SU_KIEN}} | Tự động xóa khi hết hạn |
+| Nhật ký ra vào (không chứa đặc trưng khuôn mặt) | {{THOI_HAN_LUU_NHAT_KY_RA_VAO}} | Tự động xóa khi hết hạn |
+| Bảng tổng hợp ngày có mặt | {{THOI_HAN_LUU_BANG_TONG_HOP_NGAY_CONG}} | Khi hết thời hạn |
+
+### 7. Quyền của anh/chị
+
+Anh/chị có quyền: được biết về hoạt động xử lý; đồng ý hoặc không đồng ý, rút lại sự đồng ý; xem, yêu cầu chỉnh sửa; yêu cầu cung cấp, xóa, hạn chế xử lý, phản đối xử lý; khiếu nại, tố cáo, khởi kiện, yêu cầu bồi thường thiệt hại (khoản 1 Điều 4 Luật Bảo vệ dữ liệu cá nhân).
+
+- **Không đồng ý hoặc rút lại sự đồng ý không ảnh hưởng** tới việc anh/chị được ra vào, làm việc tại địa điểm. Đơn vị đối tác đã cam kết với {{TEN_KHACH_HANG}} không vì lý do này mà gây bất lợi cho anh/chị.
+- Rút lại sự đồng ý: gửi Đơn theo Mẫu D tới đầu mối của {{TEN_KHACH_HANG}} tại mục 2, hoặc qua đơn vị đối tác (đơn vị đối tác chuyển cho {{TEN_KHACH_HANG}}). {{TEN_KHACH_HANG}} phản hồi trong 02 ngày làm việc và ngừng xử lý, xóa đặc trưng khuôn mặt trong 15 ngày (khoản 2 Điều 5 Nghị định số 356/2025/NĐ-CP).
+- Nếu dữ liệu sinh trắc học của anh/chị bị lộ, {{TEN_KHACH_HANG}} thông báo cho anh/chị trong 72 giờ kể từ khi phát hiện.
+
+### 8. Xác nhận của người lao động
+
+Tôi đã đọc, được giải thích và hiểu nội dung trên, biết rằng dữ liệu khuôn mặt là **dữ liệu cá nhân nhạy cảm**. Lựa chọn của tôi tại mục 3 và mục 4 là **tự nguyện**.
+
+- Họ và tên: ................................................ Mã số tại địa điểm: ....................
+- Đơn vị đối tác: ................................................ Tổ, nhóm: ....................
+- Ngày ký: ....../....../............
+
+| **NGƯỜI LAO ĐỘNG**<br/>*(Ký, ghi rõ họ tên)*<br/><br/><br/><br/> | **ĐẠI DIỆN BÊN KIỂM SOÁT DỮ LIỆU**<br/>*(Người tiếp nhận phiếu ký, ghi rõ họ tên)*<br/><br/><br/><br/> |
+|:---:|:---:|
+
 ## Hướng dẫn điền
 
 1. **Chọn biến thể** theo đối tượng; xóa các biến thể không dùng. Mẫu A thường ban hành kèm điều khoản nội quy lao động ([`k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md`](k3-dieu-khoan-noi-quy-lao-dong-giam-sat.md)). Phiếu xác nhận "đã được thông báo" về camera trong K3 **không thay thế** Mẫu A.
@@ -221,8 +305,14 @@ Tôi hiểu rằng việc rút lại không ảnh hưởng tới hoạt động 
 3. **Thời hạn** tại mục 5 lấy theo chính sách lưu trữ đã ban hành ([`k4-chinh-sach-luu-tru-xoa.md`](k4-chinh-sach-luu-tru-xoa.md)); bảng chấm công tổng hợp tháng là tài liệu kế toán: tối thiểu 05 năm, khuyến nghị 10 năm (Luật Kế toán 88/2015/QH13 Đ41.5; NĐ 174/2016/NĐ-CP Đ12–Đ13); nhật ký chấm công thô không có thời hạn luật định — giá trị nội bộ, gợi ý 24 tháng kể từ kỳ trả lương (thời hiệu tranh chấp BLLĐ 2019 Đ190 tính từ ngày phát hiện), phải ghi trong Nội quy, phụ lục HĐLĐ (K3) để thành thời hạn đã thỏa thuận (Luật 91 Đ25.2.b–c). **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]**. Nếu mẫu dùng cho nơi không có chấm công, xóa hai dòng chấm công.
 4. **Cấu hình hệ thống khớp với phiếu:** chỉ bật nhận diện cho người có ô "Đồng ý" tương ứng; người chọn "Không đồng ý" được cấp phương thức thay thế trước ngày áp dụng.
 5. **Mẫu C:** dùng ngôn ngữ đơn giản; giải thích cho học sinh phù hợp lứa tuổi. **Xác minh tuổi** bằng hồ sơ học sinh trước khi xử lý (NĐ 330 Đ60.1.a). Học sinh từ đủ 07 tuổi phải cùng đồng ý (NĐ 330 Đ60.1.c) — quy định xử phạt này rộng hơn câu chữ Luật 91 Đ24.2 (Luật chỉ nêu đồng ý của trẻ khi công bố thông tin đời sống riêng tư); bộ khung theo mức chặt hơn. Phần mềm giáo dục có điểm danh, ghi hình là dịch vụ tại NĐ 356 Đ21.5 — nhà cung cấp vận hành hộ phải có Giấy chứng nhận.
-6. **Đưa mẫu đã dùng vào hồ sơ DPIA** (mục II.4 Mẫu 10 NĐ 356: "kèm theo biểu mẫu liên quan").
+6. **Mẫu E** — người lao động của đơn vị khác làm việc tại địa điểm do khách hàng quản lý:
+   - Khách hàng không có hợp đồng lao động với những người này, nên **không dùng Mẫu A và điều khoản nội quy K3** cho họ. Ký kèm thỏa thuận giữa khách hàng và đơn vị đối tác ([`k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md`](k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md)) trước khi nhận danh sách đầu tiên.
+   - **Nộp phiếu trực tiếp cho khách hàng**, không qua người quản lý của đơn vị đối tác, để lựa chọn thực sự tự nguyện. Đơn vị đối tác chỉ cần biết ai chọn cách đăng ký thứ hai tại mục 4.
+   - **Khuyến nghị chụp ảnh trực tiếp tại bàn đăng ký.** Cách này không phát sinh chuyển giao ảnh, ảnh đạt chuẩn nên ít bị từ chối nhầm, và xác minh được đúng người. Chỉ dùng cách đơn vị đối tác chuyển ảnh khi không bố trí được bàn đăng ký.
+   - Mục đích 2 dùng khi khách hàng dùng nhật ký ra vào để đối chiếu ngày công, thanh toán với đơn vị đối tác. Người không đồng ý: chỉ gửi số liệu tổng hợp không gắn tên. Không dùng thì xóa dòng này và dòng tương ứng ở Mẫu D.
+   - Nếu có tinh chỉnh mô hình tại chỗ, chép dòng tùy chọn của Mẫu A vào mục 3.
+7. **Đưa mẫu đã dùng vào hồ sơ DPIA** (mục II.4 Mẫu 10 NĐ 356: "kèm theo biểu mẫu liên quan").
 
 ## Bằng chứng cần lưu
 
-Phiếu đồng ý đã ký hoặc nhật ký đồng ý điện tử (người đồng ý, thời điểm, mục đích, phiên bản thông báo); các phiên bản thông báo đã dùng; danh sách người được cấp phương thức thay thế; đơn rút lại sự đồng ý và nhật ký xóa tương ứng; tài liệu giải thích thuật toán đã cung cấp.
+Phiếu đồng ý đã ký hoặc nhật ký đồng ý điện tử (người đồng ý, thời điểm, mục đích, phiên bản thông báo); các phiên bản thông báo đã dùng; danh sách người được cấp phương thức thay thế; đơn rút lại sự đồng ý và nhật ký xóa tương ứng; tài liệu giải thích thuật toán đã cung cấp. Với Mẫu E: thỏa thuận K11 đã ký với từng đơn vị đối tác; biên bản xóa tệp ảnh nhận được qua chuyển giao.

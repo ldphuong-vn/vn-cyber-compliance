@@ -10,7 +10,7 @@
 
 | Mức | Nội dung | Ai làm |
 |---|---|---|
-| **Mức 0 — Bộ công cụ** | Tính năng bảo vệ dữ liệu bật mặc định; bộ K1–K10; tài liệu sản phẩm B1–B7. Khách hàng tự điền, tự ban hành | Khách hàng |
+| **Mức 0 — Bộ công cụ** | Tính năng bảo vệ dữ liệu bật mặc định; bộ K1–K11; tài liệu sản phẩm B1–B7. Khách hàng tự điền, tự ban hành | Khách hàng |
 | **Mức 1 — Hỗ trợ kỹ thuật lập hồ sơ** | Nhà cung cấp điền phần kỹ thuật DPIA (K6), vẽ sơ đồ luồng dữ liệu, cấu hình thời hạn lưu, phân quyền, đào tạo quản trị viên. **Không** tư vấn pháp lý, **không** quyết định thay khách hàng | Nhà cung cấp (hỗ trợ kỹ thuật cho sản phẩm của mình) |
 | **Mức 2 — Dịch vụ bảo vệ dữ liệu cá nhân** | Nhân sự bảo vệ dữ liệu cá nhân thuê ngoài; soạn trọn bộ hồ sơ; tư vấn tuân thủ | **Đối tác đủ điều kiện** (tổ chức có tối thiểu 03 nhân sự đủ điều kiện năng lực, hồ sơ năng lực — NĐ 356 Đ15.2, Đ16.1). Nhà cung cấp chưa đủ điều kiện mà tự làm: 30–50 triệu đồng, đình chỉ 06–12 tháng (NĐ 330 Đ58.2.b, Đ58.4.b) |
 
@@ -56,7 +56,7 @@
 |---|---|---|---|
 | 1 | Quý khách dự kiến dùng những tính năng nào? | ☐ Camera giám sát, không nhận diện ☐ Kiểm soát ra vào bằng khuôn mặt ☐ Chấm công bằng khuôn mặt ☐ Quản lý khách (đăng ký tại kiosk) ☐ Điểm danh học sinh, sinh viên ☐ Nhận diện biển số, bãi xe ☐ Đếm người, bản đồ nhiệt ☐ Nhận diện khách VIP, khách quay lại ☐ Danh sách đen, cảnh báo đối tượng ☐ Phân tích hành vi, cảm xúc, tuổi, giới tính | Bất kỳ ô khuôn mặt, điểm danh → **S**. VIP, danh sách đen, phân tích hành vi, cảm xúc → **C** |
 | 2 | Có bật nhận diện khuôn mặt cho bất kỳ mục đích nào không? | ☐ Có ☐ Không ☐ Chưa quyết định | Có hoặc Chưa quyết định → **S** |
-| 3 | Đối tượng có hình ảnh, dữ liệu bị xử lý | ☐ Người lao động ☐ Khách đến làm việc ☐ Khách hàng mua sắm, công chúng ☐ Cư dân ☐ Học sinh, trẻ em ☐ Chủ phương tiện | Học sinh, trẻ em → **E** |
+| 3 | Đối tượng có hình ảnh, dữ liệu bị xử lý | ☐ Người lao động ☐ Người lao động của đơn vị đối tác làm việc tại địa điểm ☐ Khách đến làm việc ☐ Khách hàng mua sắm, công chúng ☐ Cư dân ☐ Học sinh, trẻ em ☐ Chủ phương tiện | Học sinh, trẻ em → **E**; người lao động của đơn vị đối tác → cần K2 Mẫu E, K11 |
 | 4 | Có camera tại khu vực làm việc của nhân viên không? | ☐ Có ☐ Không | Có → cần K3 |
 | 5 | Số người dự kiến có **dữ liệu khuôn mặt** trong hệ thống (tích lũy, gồm cả người đã nghỉ, khách) | ☐ Dưới 1.000 ☐ 1.000 đến dưới 10.000 ☐ Từ 10.000 trở lên ☐ Không dùng khuôn mặt | Từ 10.000 → **Q** |
 | 6 | Tổng số người có dữ liệu được xử lý (tích lũy: nhân viên, khách, chủ xe, học sinh…) | ☐ Dưới 100.000 ☐ Từ 100.000 trở lên | Từ 100.000 → **Q** |

@@ -1,6 +1,6 @@
 # Mẫu Checklist triển khai và nghiệm thu tuân thủ khi bàn giao (K8)
 
-> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ9.2, Đ14.1.b, Đ15.2.a, Đ20.1–20.2, Đ21.1, Đ24.2, Đ25.2.c, Đ25.3.a, Đ30.3–30.4, Đ31.4.a, Đ32.2, Đ32.4, Đ33.2, Đ37.2, Đ38; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.i, Đ4.2, Đ6.1–6.2, Đ10.3, Đ10.5.a, Đ10.5.c, Đ12.4, Đ13, Đ19, Đ23.7, Đ41; NĐ 330/2026/NĐ-CP Đ39.1.c, Đ43.1.a, Đ43.1.g, Đ60.1, Đ61.2.b–d, Đ67.2.b, Đ67.2.e, Đ67.2.g, Đ67.3.b, Đ69.2.b, Đ70.1.c–d, Đ71.1.a–b, Đ71.2.a–b; văn bản chuyên ngành về thời hạn lưu hình ảnh (bảng tại K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 91/2025/QH15 Đ3.2–3.3, Đ9.2, Đ14.1.b, Đ15.2.a, Đ17.1, Đ20.1–20.2, Đ21.1, Đ24.2, Đ25.2.c, Đ25.3.a, Đ30.3–30.4, Đ31.4.a, Đ32.2, Đ32.4, Đ33.2, Đ37.2, Đ38; NĐ 356/2025/NĐ-CP Đ4.1.c, Đ4.1.i, Đ4.2, Đ6.1–6.2, Đ7.1–7.2, Đ10.3, Đ10.5.a, Đ10.5.c, Đ12.4, Đ13, Đ19, Đ23.7, Đ41; NĐ 330/2026/NĐ-CP Đ39.1.c, Đ43.1.a, Đ43.1.g, Đ52.1.a, Đ52.3, Đ60.1, Đ61.2.b–d, Đ67.2.b, Đ67.2.e, Đ67.2.g, Đ67.3.b, Đ69.2.b, Đ70.1.c–d, Đ71.1.a–b, Đ71.2.a–b; văn bản chuyên ngành về thời hạn lưu hình ảnh (K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
 ## Hướng dẫn sử dụng
 
@@ -106,6 +106,7 @@
 | C1 | Chỉ đăng ký khuôn mặt cho người **đã ký đồng ý** theo K2; nhật ký đồng ý ghi ai, lúc nào, mục đích, phiên bản thông báo **(chặn)** | NĐ 356 Đ6.1–6.2; NĐ 330 Đ43.1.a, g | ☐ Đạt ☐ Không ☐ N/A | |
 | C2 | Đối chiếu danh sách khuôn mặt đã đăng ký với danh sách đồng ý: số lượng khớp, không có người thừa | NĐ 330 Đ43.1.a | ☐ Đạt ☐ Không ☐ N/A | Đăng ký: ...... / Đồng ý: ...... |
 | C3 | Trẻ em (trường học, điểm danh): có đồng ý của người đại diện theo pháp luật; trẻ từ đủ 07 tuổi có thêm đồng ý của trẻ | Luật 91 Đ24.2; NĐ 330 Đ60.1.b–c | ☐ Đạt ☐ Không ☐ N/A | |
+| C3a | Người lao động của **đơn vị đối tác**: đã ký K11 với từng đơn vị đối tác trước khi nhận danh sách; phiếu Mẫu E nộp trực tiếp cho khách hàng; ảnh nhận từ đơn vị đối tác (nếu có) qua kênh mã hóa và tệp trung chuyển đã xóa; bảng tổng hợp có tên chỉ gồm người đã đồng ý **(chặn)** | Luật 91 Đ17.1; NĐ 356 Đ7.1–7.2; NĐ 330 Đ52.1.a, Đ52.3 | ☐ Đạt ☐ Không ☐ N/A | Số đơn vị đối tác: ...... / Đã ký K11: ...... |
 | C4 | Đã xóa **dữ liệu thử nghiệm** trên mọi thiết bị: khuôn mặt của kỹ thuật viên, ảnh mẫu, video, biển số thử | Luật 91 Đ14.1.b; NĐ 330 Đ39.1.c | ☐ Đạt ☐ Không ☐ N/A | |
 | C5 | Kỹ thuật viên, đại lý không giữ bản sao dữ liệu (máy tính, USB, điện thoại, ổ đĩa cá nhân); ký cam kết bảo mật (C4) | Luật 91 Đ37.2.b–c | ☐ Đạt ☐ Không ☐ N/A | |
 | C6 | Dữ liệu nhập từ hệ thống cũ (ảnh nhân viên, danh sách xe) chỉ gồm người còn hiệu lực; căn cứ đồng ý cũ đã được khách hàng rà soát (Luật 91 Đ39.1) | Luật 91 Đ39.1; NĐ 356 Đ6.4 | ☐ Đạt ☐ Không ☐ N/A | |
@@ -115,7 +116,7 @@
 | STT | Hạng mục | Căn cứ | Kết quả | Ghi chú |
 |---|---|---|---|---|
 | D1 | Bàn giao tài liệu sản phẩm B1 (luồng dữ liệu, kiến trúc), B2 (phân loại rủi ro AI), B3 (giải thích thuật toán), B4 (bảo mật thiết bị) | NĐ 356 Đ10.3, Đ19.3.c, Đ19.3.đ; Luật 91 Đ30.4 | ☐ Đạt ☐ Không ☐ N/A | |
-| D2 | Bàn giao bộ công cụ K1–K10 và hướng dẫn điền; giải thích phần khách hàng phải tự ban hành | — | ☐ Đạt ☐ Không ☐ N/A | |
+| D2 | Bàn giao bộ công cụ K1–K11 và hướng dẫn điền; giải thích phần khách hàng phải tự ban hành | — | ☐ Đạt ☐ Không ☐ N/A | |
 | D3 | Đào tạo quản trị viên của khách hàng: phân quyền, trích xuất và làm mờ, xóa khuôn mặt, giữ nguyên dữ liệu khi có yêu cầu (K5), nhận biết và báo sự cố (K7), cung cấp cho cơ quan chức năng (K9) | Luật 91 Đ3.4 | ☐ Đạt ☐ Không ☐ N/A | Danh sách người dự |
 | D4 | Bàn giao mật khẩu quản trị qua kênh an toàn; khách hàng đổi mật khẩu ngay sau bàn giao | Luật 91 Đ30.3 | ☐ Đạt ☐ Không ☐ N/A | |
 | D5 | **Thu hồi, vô hiệu hóa** tài khoản của kỹ thuật viên, tài khoản cài đặt tạm; *(M2)* truy cập từ xa tắt hoặc chỉ bật theo phiên có phê duyệt, ghi nhật ký **(chặn)** | Luật 91 Đ37.2.a–b; NĐ 330 Đ67.2.g | ☐ Đạt ☐ Không ☐ N/A | |
