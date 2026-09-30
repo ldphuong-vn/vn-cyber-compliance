@@ -86,7 +86,7 @@
 | B9 | Phương thức thay thế ({{PHUONG_THUC_THAY_THE}}) được cấu hình tại mọi điểm có đầu đọc và đã thử **(chặn)** | Luật 91 Đ9.2; NĐ 356 Đ10.3; NĐ 330 Đ67.2.b | ☐ Đạt ☐ Không ☐ N/A | |
 | B10 | Chống giả mạo khuôn mặt (liveness) bật; ngưỡng so khớp theo khuyến nghị tài liệu B3; kết quả điểm thấp gắn cờ "cần xác minh", không tự động kết luận | NĐ 356 Đ10.5.a; NĐ 330 Đ67.3.b | ☐ Đạt ☐ Không ☐ N/A | Ngưỡng: ...... |
 | B10a | Chế độ 1:N: số người đăng ký trên mỗi đầu đọc, camera không vượt quy mô tối đa khuyến nghị tại B3 mục B.3 ở ngưỡng đang đặt; nếu vượt: đã chia danh sách theo cửa, chuyển 1:1 (thẻ + khuôn mặt) hoặc tăng ngưỡng kèm phương thức thay thế | Luật 91 Đ3.3; NĐ 330 Đ39.1.b | ☐ Đạt ☐ Không ☐ N/A | Lớn nhất: ...... người/đầu đọc |
-| B10b | Đo thử tại hiện trường: tỷ lệ từ chối nhầm với ít nhất {{SO_NGUOI_DO_THU}} người đã đăng ký; thử người **chưa đăng ký** đi qua ít nhất {{SO_LUOT_THU_NGUOI_LA}} lượt; ghi kết quả vào biên bản | NĐ 356 Đ10.5.a | ☐ Đạt ☐ Không ☐ N/A | Từ chối nhầm: ......; nhận nhầm người lạ: ...... |
+| B10b | Đo thử tại hiện trường: tỷ lệ từ chối nhầm với ít nhất {{SO_NGUOI_DO_THU}} người đã đăng ký; thử người **chưa đăng ký** đi qua ít nhất {{SO_LUOT_THU_NGUOI_LA}} lượt; ghi kết quả vào biên bản đo thử (K13) | NĐ 356 Đ10.5.a | ☐ Đạt ☐ Không ☐ N/A | Từ chối nhầm: ......; nhận nhầm người lạ: ...... |
 | B11 | Bảng công, báo cáo ra vào cho phép người có thẩm quyền xem xét lại và sửa kết quả, có ghi vết | NĐ 330 Đ67.3.b | ☐ Đạt ☐ Không ☐ N/A | |
 | B12 | Chức năng làm mờ khuôn mặt, biển số khi xuất video hoạt động; quản trị viên biết dùng | Luật 91 Đ15.2.a; NĐ 330 Đ71.2.b | ☐ Đạt ☐ Không ☐ N/A | |
 | B13 | Xóa dữ liệu khuôn mặt khi nghỉ việc: ☐ đồng bộ tự động với hệ thống nhân sự ☐ thao tác một bước; đã thử xóa và **đồng bộ xóa trên mọi đầu đọc** | Luật 91 Đ25.2.c; NĐ 330 Đ61.2.b | ☐ Đạt ☐ Không ☐ N/A | |
@@ -116,7 +116,7 @@
 | STT | Hạng mục | Căn cứ | Kết quả | Ghi chú |
 |---|---|---|---|---|
 | D1 | Bàn giao tài liệu sản phẩm B1 (luồng dữ liệu, kiến trúc), B2 (phân loại rủi ro AI), B3 (giải thích thuật toán), B4 (bảo mật thiết bị) | NĐ 356 Đ10.3, Đ19.3.c, Đ19.3.đ; Luật 91 Đ30.4 | ☐ Đạt ☐ Không ☐ N/A | |
-| D2 | Bàn giao bộ công cụ K1–K11 và hướng dẫn điền; giải thích phần khách hàng phải tự ban hành | — | ☐ Đạt ☐ Không ☐ N/A | |
+| D2 | Bàn giao bộ công cụ K1–K13 và hướng dẫn điền; giải thích phần khách hàng phải tự ban hành | — | ☐ Đạt ☐ Không ☐ N/A | |
 | D3 | Đào tạo quản trị viên của khách hàng: phân quyền, trích xuất và làm mờ, xóa khuôn mặt, giữ nguyên dữ liệu khi có yêu cầu (K5), nhận biết và báo sự cố (K7), cung cấp cho cơ quan chức năng (K9) | Luật 91 Đ3.4 | ☐ Đạt ☐ Không ☐ N/A | Danh sách người dự |
 | D4 | Bàn giao mật khẩu quản trị qua kênh an toàn; khách hàng đổi mật khẩu ngay sau bàn giao | Luật 91 Đ30.3 | ☐ Đạt ☐ Không ☐ N/A | |
 | D5 | **Thu hồi, vô hiệu hóa** tài khoản của kỹ thuật viên, tài khoản cài đặt tạm; *(M2)* truy cập từ xa tắt hoặc chỉ bật theo phiên có phê duyệt, ghi nhật ký **(chặn)** | Luật 91 Đ37.2.a–b; NĐ 330 Đ67.2.g | ☐ Đạt ☐ Không ☐ N/A | |

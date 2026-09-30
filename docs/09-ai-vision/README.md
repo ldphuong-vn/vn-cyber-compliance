@@ -64,12 +64,20 @@ B5 (ma trận tính năng ↔ điều khoản) nằm trong bản thảo luận m
 | K9 | [k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md](k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md) | Cung cấp video cho cơ quan có thẩm quyền; biên bản giao nhận; sổ theo dõi |
 | K10 | [k10-hoi-dap-khach-hang.md](k10-hoi-dap-khach-hang.md) | 22 câu hỏi đáp thường gặp |
 | K11 | [k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md](k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md) | Phụ lục hợp đồng giữa khách hàng và đơn vị đối tác: chuyển danh sách, ảnh khuôn mặt, bảng tổng hợp ngày có mặt |
+| K12 | [k12-quy-trinh-van-hanh-diem-kiem-soat-ra-vao.md](k12-quy-trinh-van-hanh-diem-kiem-soat-ra-vao.md) | Quy trình vận hành điểm kiểm soát ra vào: bàn đăng ký, xử lý tại cổng, khóa quyền và xóa, rà soát định kỳ, bảng tổng hợp; sổ theo dõi |
+| K13 | [k13-bien-ban-do-thu-do-chinh-xac-hien-truong.md](k13-bien-ban-do-thu-do-chinh-xac-hien-truong.md) | Biên bản đo thử độ chính xác tại hiện trường theo từng cổng: từ chối nhầm, nhận nhầm người lạ, giả mạo; chốt chế độ so khớp, ngưỡng |
 
 ### P — Công cụ bán hàng
 
 | Mã | File | Nội dung |
 |---|---|---|
 | P1 | [p1-phieu-danh-gia-nhanh-khach-hang.md](p1-phieu-danh-gia-nhanh-khach-hang.md) | Phiếu đánh giá nhanh 16 câu trước báo giá; xếp khách vào mức hỗ trợ 0/1/2 và danh sách tài liệu K cần giao |
+
+### S — Hồ sơ tình huống
+
+| Mã | File | Nội dung |
+|---|---|---|
+| S1 | [s1-ho-so-tinh-huong-dia-diem-nhieu-don-vi.md](s1-ho-so-tinh-huong-dia-diem-nhieu-don-vi.md) | Địa điểm có nhân viên, người lao động của nhiều đơn vị đối tác và khách; máy chủ tại chỗ; M1 + M2. Sáu quyết định cần chốt; danh mục 22 hồ sơ theo giai đoạn; cấu hình khuyến nghị |
 
 ## Lưu ý chung
 

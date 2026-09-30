@@ -99,7 +99,7 @@ Dành cho tổ chức chỉ có HTTT cấp độ 1–2 (điển hình doanh nghi
 
 ## 7. Ngành AI vision: camera, nhận diện khuôn mặt, nhận diện biển số
 
-Dành cho **nhà cung cấp** giải pháp AI vision và **khách hàng** triển khai kiểm soát ra vào, chấm công, điểm danh, bãi xe. Mã A = tổ chức của nhà cung cấp; B = hồ sơ sản phẩm; C = hợp đồng; K = bộ công cụ giao khách hàng; P = công cụ bán hàng. Dữ liệu mẫu mô phỏng: TURBO là nhà cung cấp, "Công ty TNHH Sản xuất Mẫu" là khách hàng giả lập; tên sản phẩm, số liệu đều giả lập. Hướng dẫn tổng thể và cách chọn mẫu theo mô hình kinh doanh: [docs/09-ai-vision/README.md](../docs/09-ai-vision/README.md).
+Dành cho **nhà cung cấp** giải pháp AI vision và **khách hàng** triển khai kiểm soát ra vào, chấm công, điểm danh, bãi xe. Mã A = tổ chức của nhà cung cấp; B = hồ sơ sản phẩm; C = hợp đồng; K = bộ công cụ giao khách hàng; P = công cụ bán hàng; S = hồ sơ tình huống. Dữ liệu mẫu mô phỏng: TURBO là nhà cung cấp, "Công ty TNHH Sản xuất Mẫu" là khách hàng giả lập; tên sản phẩm, số liệu đều giả lập. Hướng dẫn tổng thể và cách chọn mẫu theo mô hình kinh doanh: [docs/09-ai-vision/README.md](../docs/09-ai-vision/README.md).
 
 | File | Loại | Dùng để | Người ký/lập | Hướng dẫn |
 |---|---|---|---|---|
@@ -129,7 +129,10 @@ Dành cho **nhà cung cấp** giải pháp AI vision và **khách hàng** triể
 | [k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.docx](09-ai-vision/k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.docx) | Word | Cung cấp video cho cơ quan có thẩm quyền; biên bản giao nhận | Khách hàng | [k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md](../docs/09-ai-vision/k9-quy-trinh-cung-cap-video-co-quan-chuc-nang.md) |
 | [k10-hoi-dap-khach-hang.docx](09-ai-vision/k10-hoi-dap-khach-hang.docx) | Word | 22 câu hỏi đáp cho khách hàng | Nhà cung cấp → khách hàng | [k10-hoi-dap-khach-hang.md](../docs/09-ai-vision/k10-hoi-dap-khach-hang.md) |
 | [k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.docx](09-ai-vision/k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.docx) | Word | Phụ lục hợp đồng chuyển giao dữ liệu với đơn vị đối tác: danh sách, ảnh khuôn mặt, bảng tổng hợp ngày có mặt | Khách hàng và đơn vị đối tác ký | [k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md](../docs/09-ai-vision/k11-thoa-thuan-chuyen-giao-du-lieu-don-vi-doi-tac.md) |
+| [k12-quy-trinh-van-hanh-diem-kiem-soat-ra-vao.docx](09-ai-vision/k12-quy-trinh-van-hanh-diem-kiem-soat-ra-vao.docx) | Word | Quy trình vận hành điểm kiểm soát ra vào; sổ theo dõi đăng ký, xóa; biên bản rà soát định kỳ | Khách hàng | [k12-quy-trinh-van-hanh-diem-kiem-soat-ra-vao.md](../docs/09-ai-vision/k12-quy-trinh-van-hanh-diem-kiem-soat-ra-vao.md) |
+| [k13-bien-ban-do-thu-do-chinh-xac-hien-truong.docx](09-ai-vision/k13-bien-ban-do-thu-do-chinh-xac-hien-truong.docx) | Word | Biên bản đo thử độ chính xác nhận diện tại hiện trường | Khách hàng và nhà cung cấp ký | [k13-bien-ban-do-thu-do-chinh-xac-hien-truong.md](../docs/09-ai-vision/k13-bien-ban-do-thu-do-chinh-xac-hien-truong.md) |
 | [p1-phieu-danh-gia-nhanh-khach-hang.docx](09-ai-vision/p1-phieu-danh-gia-nhanh-khach-hang.docx) | Word | Phiếu đánh giá nhanh trước báo giá, xếp mức hỗ trợ | Nhà cung cấp (bán hàng) | [p1-phieu-danh-gia-nhanh-khach-hang.md](../docs/09-ai-vision/p1-phieu-danh-gia-nhanh-khach-hang.md) |
+| [s1-ho-so-tinh-huong-dia-diem-nhieu-don-vi.docx](09-ai-vision/s1-ho-so-tinh-huong-dia-diem-nhieu-don-vi.docx) | Word | Danh mục hồ sơ dự án theo giai đoạn, cấu hình khuyến nghị — địa điểm có nhiều đơn vị làm việc | Nhà cung cấp và khách hàng | [s1-ho-so-tinh-huong-dia-diem-nhieu-don-vi.md](../docs/09-ai-vision/s1-ho-so-tinh-huong-dia-diem-nhieu-don-vi.md) |
 
 ## Cập nhật bộ mẫu
 

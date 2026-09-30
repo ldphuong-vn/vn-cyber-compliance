@@ -1626,6 +1626,12 @@
       "SO_HOP_DONG": "HĐ-DV/2026/015 (mô phỏng)",
       "NGAY_HOP_DONG": "15/9/2026",
       "SO_PHU_LUC": "02"
+    },
+    "09-ai-vision/k12-quy-trinh-van-hanh-diem-kiem-soat-ra-vao": {
+      "HO_TEN_NGUOI_KY": "Lê Thị Hoa",
+      "CHUC_DANH_NGUOI_KY": "Giám đốc Công ty",
+      "CHUC_DANH_NGUOI_KY_IN_HOA": "GIÁM ĐỐC",
+      "SO_VB": "07/2026"
     }
   },
   "_theo_thu_muc": {
@@ -2122,7 +2128,15 @@
       "SO_GIO_THONG_BAO_SU_CO_DOI_TAC": "24",
       "CHU_KY_GUI_BANG_TONG_HOP": "Hằng tháng, trước ngày 05 của tháng sau",
       "DO_PHAN_GIAI_ANH_DANG_KY": "640 × 480 điểm ảnh",
-      "SO_THANG_ANH_TOI_DA": "06"
+      "SO_THANG_ANH_TOI_DA": "06",
+      "SO_DIEM_KIEM_SOAT": "04 cổng (02 cổng chính, 01 cổng phụ, 01 cổng xe)",
+      "BO_PHAN_BAO_VE": "Tổ bảo vệ",
+      "BO_PHAN_DANG_KY": "Tổ quản lý ra vào — Phòng Hành chính",
+      "CHU_KY_DOI_CHIEU_DANH_SACH": "tuần",
+      "QUAN_TRI_HE_THONG_KH": "Quản trị hệ thống — Phòng CNTT",
+      "MUC_FRR_CHAP_NHAN": "......% (hai bên chốt trước khi đo)",
+      "MUC_NHAN_NHAM_CHAP_NHAN": "......% (hai bên chốt trước khi đo)",
+      "SO_BIEN_BAN_DO_THU": "01/2026/BBĐT"
     }
   }
 }

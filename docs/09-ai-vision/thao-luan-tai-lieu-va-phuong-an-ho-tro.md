@@ -8,7 +8,7 @@ Tài liệu này dành cho **nhà cung cấp giải pháp AI vision**: camera gi
 2. Khách hàng dùng sản phẩm **phải làm gì** theo từng tình huống sử dụng (mục 3)?
 3. Nhà cung cấp **hỗ trợ khách hàng** bằng tài liệu, tính năng và dịch vụ nào, và dịch vụ nào cần điều kiện riêng (mục 5–7)?
 
-Các mẫu khai triển từ bản thảo luận này (A1–A8, B1–B7, C1–C5, K1–K11, P1) đã được soạn thành file riêng — danh mục tại [README.md](README.md). Phần nghĩa vụ chung (DPIA, chuyển xuyên biên giới, nhân sự BVDLCN, thông báo 72 giờ) đã có tại [`../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md`](../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md). Tài liệu này chỉ trình bày phần **riêng của AI vision**.
+Các mẫu khai triển từ bản thảo luận này (A1–A8, B1–B7, C1–C5, K1–K13, P1, S1) đã được soạn thành file riêng — danh mục tại [README.md](README.md). Phần nghĩa vụ chung (DPIA, chuyển xuyên biên giới, nhân sự BVDLCN, thông báo 72 giờ) đã có tại [`../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md`](../05-nghia-vu-lien-quan/dlcn-giao-thoa-anm.md). Tài liệu này chỉ trình bày phần **riêng của AI vision**.
 
 Mức phạt nêu trong tài liệu là mức **cho tổ chức**; cá nhân bị phạt bằng một nửa (NĐ 330 Đ7.1).
 
@@ -87,7 +87,7 @@ Trong phần lớn tình huống, **khách hàng là bên kiểm soát** (hoặc
 | 3.7 | **Điểm danh học sinh, sinh viên; camera lớp học** | Trẻ em: người đại diện theo pháp luật đồng ý, thực hiện quyền thay (Luật 91 Đ24.2); trẻ **từ đủ 07 tuổi** cần **đồng thời** đồng ý của trẻ và người đại diện, phải xác minh tuổi (NĐ 330 Đ60.1.a–c, 30–50 tr) | Mẫu đồng ý cho phụ huynh; phương án thay thế; không dùng nhận diện cảm xúc, chấm điểm hành vi nếu không thật cần | Với **nhà cung cấp**: phần mềm giáo dục có điểm danh, ghi hình, nhận diện cảm xúc là dịch vụ tại **NĐ 356 Đ21.5** → cần Giấy chứng nhận nếu nhà cung cấp vận hành (M3, M4) |
 | 3.8 | **Bãi xe, LPR** | Xe đăng ký (cư dân, nhân viên, vé tháng): thực hiện thỏa thuận (Đ19.1.d). Xe vãng lai: ghi hình vì an ninh (Đ32.1.a) kèm biển báo | Biển báo tại lối vào; thời hạn lưu cho xe vãng lai ngắn; không dựng hành trình xe khi không cần; cung cấp dữ liệu cho cơ quan chức năng khi có yêu cầu bằng văn bản (Luật 91 Đ17.1.đ) | Như 3.1 |
 | 3.9 | **Đếm người, bản đồ nhiệt, phân tích luồng khách** | Nếu xử lý **ẩn danh tại thiết bị** (không nhận dạng, chỉ xuất số đếm): rủi ro thấp. Nếu theo dấu từng người: như 3.3 | Cấu hình không lưu ảnh, chỉ lưu số liệu tổng hợp; ghi lại trong DPIA | Như 3.3; với nhà cung cấp vận hành phân tích: dịch vụ NĐ 356 Đ21.6 |
-| 3.10 | **Người lao động của đơn vị đối tác** làm việc tại địa điểm do khách hàng quản lý; kiểm soát ra vào bằng khuôn mặt, tổng hợp ngày có mặt gửi đơn vị đối tác | Khách hàng không có hợp đồng lao động với họ → không dùng nội quy (K3). Khuôn mặt: **đồng ý** của từng người (Luật 91 Đ9, Đ11.1). Danh sách cấp thẻ: thực hiện thỏa thuận (Đ19.1.d) — **[CẦN ĐỐI CHIẾU]**. Đơn vị đối tác chuyển danh sách, ảnh; khách hàng gửi bảng tổng hợp có tên: chuyển giao (Đ17.1) | Thỏa thuận chuyển giao đủ 7 nội dung (NĐ 356 Đ7.1) với từng đơn vị đối tác (K11); phiếu đồng ý nộp trực tiếp cho khách hàng (K2 Mẫu E); ưu tiên chụp ảnh tại chỗ; ảnh do đơn vị đối tác gửi phải qua kênh mã hóa (NĐ 356 Đ7.2); bảng tổng hợp không gắn tên nếu người lao động không đồng ý; xóa đặc trưng khi người lao động rời địa điểm | Thỏa thuận thiếu trách nhiệm các bên: 20–30 tr (NĐ 330 Đ52.1.a); chuyển ảnh không mã hóa: 50–80 tr (Đ52.3); dùng dữ liệu chuyển giao cho mục đích khác: 50–80 tr (Đ48.2) |
+| 3.10 | **Người lao động của đơn vị đối tác** làm việc tại địa điểm do khách hàng quản lý; kiểm soát ra vào bằng khuôn mặt, tổng hợp ngày có mặt gửi đơn vị đối tác | Khách hàng không có hợp đồng lao động với họ → không dùng nội quy (K3). Khuôn mặt: **đồng ý** của từng người (Luật 91 Đ9, Đ11.1). Danh sách cấp thẻ: thực hiện thỏa thuận (Đ19.1.d) — **[CẦN ĐỐI CHIẾU]**. Đơn vị đối tác chuyển danh sách, ảnh; khách hàng gửi bảng tổng hợp có tên: chuyển giao (Đ17.1) | Thỏa thuận chuyển giao đủ 7 nội dung (NĐ 356 Đ7.1) với từng đơn vị đối tác (K11); phiếu đồng ý nộp trực tiếp cho khách hàng (K2 Mẫu E); ưu tiên chụp ảnh tại chỗ; ảnh do đơn vị đối tác gửi phải qua kênh mã hóa (NĐ 356 Đ7.2); bảng tổng hợp không gắn tên nếu người lao động không đồng ý; xóa đặc trưng khi người lao động rời địa điểm. Bộ hồ sơ đầy đủ: S1 | Thỏa thuận thiếu trách nhiệm các bên: 20–30 tr (NĐ 330 Đ52.1.a); chuyển ảnh không mã hóa: 50–80 tr (Đ52.3); dùng dữ liệu chuyển giao cho mục đích khác: 50–80 tr (Đ48.2) |
 
 **Ghi chú về chuyển tiếp:** hệ thống đã triển khai và đã có đồng ý theo NĐ 13/2023 trước 01/01/2026 thì **không phải xin đồng ý lại** (Luật 91 Đ39.1). Hồ sơ DPIA đã được tiếp nhận theo NĐ 13/2023 tiếp tục dùng, việc cập nhật theo luật mới (Đ39.2). Nên rà soát xem đồng ý cũ có nêu rõ là dữ liệu sinh trắc học hay không.
 
@@ -167,6 +167,8 @@ Bộ công cụ đi kèm sản phẩm, khách hàng tự điền và ban hành. 
 | K9 | **Quy trình cung cấp video cho cơ quan chức năng** | Chỉ cung cấp khi có yêu cầu bằng văn bản; ghi biên bản; làm mờ người không liên quan nếu được | Luật 91 Đ17.1.đ; NĐ 330 Đ71.2.b |
 | K10 | **Câu hỏi thường gặp** cho khách hàng | "Tôi là doanh nghiệp nhỏ, có phải làm DPIA không?"; "Có phải xin đồng ý khi lắp camera an ninh không?"; "Nhân viên từ chối chấm công khuôn mặt thì sao?"… | Mục 1, 3 |
 | K11 | **Thỏa thuận chuyển giao dữ liệu với đơn vị đối tác** có người lao động làm việc tại địa điểm | Mục đích; loại dữ liệu từng luồng (danh sách, ảnh, bảng tổng hợp); cơ sở pháp lý; kênh mã hóa; thời hạn xóa; quyền của người lao động; phối hợp khi sự cố | NĐ 356 Đ7.1, Đ7.2; NĐ 330 Đ52 |
+| K12 | **Quy trình vận hành điểm kiểm soát ra vào** | Bàn đăng ký; phương thức thay thế tại cổng; xử lý không nhận diện được, nhận nhầm; khóa quyền, xóa khi rời địa điểm; đối chiếu danh sách định kỳ; bảng tổng hợp ngày có mặt | Luật 91 Đ3.3, Đ31.4.a; NĐ 330 Đ67.3.b |
+| K13 | **Biên bản đo thử độ chính xác tại hiện trường** | Từ chối nhầm, nhận nhầm người lạ, giả mạo theo từng cổng; tiêu chí chấp nhận chốt trước; cấu hình chốt; điều kiện đo lại | Luật 91 Đ3.3; NĐ 356 Đ10.5.a |
 
 ## 7. Phương án hỗ trợ khách hàng — các mức dịch vụ
 
@@ -174,7 +176,7 @@ Cần tách **hỗ trợ kỹ thuật sản phẩm** khỏi **dịch vụ bảo 
 
 | Mức | Nội dung | Điều kiện pháp lý với nhà cung cấp |
 |---|---|---|
-| **0 — Có sẵn trong sản phẩm** | Tính năng mục 5 bật mặc định; bộ công cụ K1–K11; tài liệu B1–B7 | Không có điều kiện riêng. Đây là phần nên làm trước, chi phí thấp, lợi ích bán hàng lớn |
+| **0 — Có sẵn trong sản phẩm** | Tính năng mục 5 bật mặc định; bộ công cụ K1–K13; tài liệu B1–B7 | Không có điều kiện riêng. Đây là phần nên làm trước, chi phí thấp, lợi ích bán hàng lớn |
 | **1 — Hỗ trợ kỹ thuật lập hồ sơ** | Điền phần kỹ thuật của DPIA; vẽ sơ đồ luồng dữ liệu cho hệ thống của khách; cấu hình thời hạn lưu, phân quyền; đào tạo quản trị viên của khách | Nên định vị là **hỗ trợ kỹ thuật cho sản phẩm của mình**, không tư vấn pháp lý, không quyết định thay khách. Nếu truy cập dữ liệu của khách → cần DPA (C1, C3) |
 | **2 — Dịch vụ bảo vệ DLCN** | Làm nhân sự BVDLCN thuê ngoài cho khách; soạn trọn bộ hồ sơ; nộp DPIA thay; tư vấn tuân thủ | Là "tổ chức cung cấp dịch vụ BVDLCN" (NĐ 356 Đ16): ngành nghề công nghệ hoặc pháp lý; **tối thiểu 03 nhân sự** có cao đẳng trở lên, **≥ 03 năm kinh nghiệm**, **đã đào tạo chuyên sâu** về BVDLCN (Đ15.2); hồ sơ năng lực; hợp đồng dịch vụ và thỏa thuận xử lý dữ liệu **trước khi** cung cấp. Thiếu 03 nhân sự: 30–50 tr, đình chỉ 06–12 tháng (NĐ 330 Đ58.2, Đ58.4.b). **Phương án thay thế:** hợp tác với công ty luật hoặc tư vấn đã đủ điều kiện; nhà cung cấp lo phần kỹ thuật |
 | **3 — Đánh giá tuân thủ định kỳ** | Đánh giá hằng năm hệ thống AI của khách (khách phải làm theo NĐ 356 Đ10.5.đ) | **[CẦN ĐỐI CHIẾU]** có bị coi là dịch vụ BVDLCN (mức 2) không. Có xung đột lợi ích khi tự đánh giá sản phẩm của mình → nên dùng bên thứ ba hoặc đối tác |
@@ -205,7 +207,7 @@ Cần tách **hỗ trợ kỹ thuật sản phẩm** khỏi **dịch vụ bảo 
 | Giai đoạn | Việc | Sản phẩm |
 |---|---|---|
 | **1. Nền móng** (2–4 tuần) | Xác định mô hình kinh doanh thực tế (M1–M5) và doanh thu từng mô hình; quyết định có xin Giấy chứng nhận không; chỉ định nhân sự BVDLCN; ra DPA mẫu | A1, A2, A3, C1, C3, C4; quyết định về A6 |
-| **2. Hồ sơ sản phẩm và bộ công cụ** (4–8 tuần) | Soạn hồ sơ sản phẩm cho từng dòng; rà khoảng trống tính năng so với mục 5; soạn bộ công cụ cho khách | B1–B7, K1–K11; danh sách tính năng cần bổ sung vào lộ trình sản phẩm |
+| **2. Hồ sơ sản phẩm và bộ công cụ** (4–8 tuần) | Soạn hồ sơ sản phẩm cho từng dòng; rà khoảng trống tính năng so với mục 5; soạn bộ công cụ cho khách | B1–B7, K1–K13; danh sách tính năng cần bổ sung vào lộ trình sản phẩm |
 | **3. Dịch vụ và đối tác** | Chọn tự làm hay hợp tác cho mức 2; đào tạo đại lý; lịch đánh giá hằng năm | Phiếu đánh giá nhanh; hợp đồng đối tác; A8 |
 
 **Câu hỏi cần anh quyết định trước khi soạn mẫu:**
