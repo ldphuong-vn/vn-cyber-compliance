@@ -108,7 +108,7 @@ Các văn bản dưới đây có thể đặt yêu cầu **cao hơn** NĐ 333 v
 | Các thông tư khác hướng dẫn NĐ 85/2016, Luật 86/2015 | **[CẦN ĐỐI CHIẾU]** — không có trong bộ nguồn | — | Có thể tham khảo phương pháp nhưng không trích làm căn cứ pháp lý |
 | Luật Đầu tư 61/2020/QH14 — **VBHN 09/VBHN-VPQH** ngày 24/02/2025 (`vbhn-09-vpqh-luat-dau-tu.txt`, Phụ lục IV cũ từ dòng 4007) | Hết hiệu lực từ **01/3/2026**; riêng Điều 7 và Phụ lục IV cũ hết hiệu lực từ **01/7/2026** | Luật 143/2025 Đ51.4 | Chỉ để đối chiếu danh mục ngành, nghề đầu tư kinh doanh có điều kiện trước 01/7/2026. Dẫn chiếu hiện hành: **Luật 143/2025/QH15 Phụ lục IV** (mục 1, dòng 11) |
 
-## 4. Văn bản còn chờ ban hành (tại 24/09/2026)
+## 4. Văn bản còn chờ ban hành (tại 24/09/2026; rà soát lại 01/10/2026 — không thấy văn bản thay thế các dòng 1–11, xem mục 4b)
 
 Các nội dung dưới đây được luật/nghị định **giao** cho cơ quan khác quy định, nhưng repo chưa có văn bản. Trong khi chờ, bộ khung ghi **"chờ hướng dẫn của Bộ Công an"** kèm điều khoản giao việc và đưa phương án tạm thời.
 
@@ -125,6 +125,18 @@ Các nội dung dưới đây được luật/nghị định **giao** cho cơ qu
 | 9 | Quy chuẩn kỹ thuật quốc gia về ANM | Bộ trưởng Bộ Công an | Luật 116 Đ27.5 | Chứng nhận/công bố hợp quy sản phẩm ANM | **[CẦN ĐỐI CHIẾU]** — chưa rõ đã ban hành |
 | 10 | Văn bản thay thế các thủ tục trong NQ 22 trước 01/3/2027 | Bộ Công an trình / ban hành thông tư | NQ 22 Đ4.1.b–c | Thủ tục nộp hồ sơ DLCN, giấy phép sau 01/3/2027 | Theo dõi trước 01/3/2027 |
 | 11 | Quy chế hoạt động Mạng lưới ứng phó, khắc phục sự cố ANM quốc gia | Bộ Công an điều phối | NĐ 333 Đ9.8; hành vi vi phạm tại NĐ 330 Đ21.1.d | Nghĩa vụ khai báo đầu mối ứng cứu (NĐ 330 Đ21.1.b) | **[CẦN ĐỐI CHIẾU]** |
+
+## 4b. Văn bản đã phát hiện, chưa có toàn văn (rà soát 01/10/2026)
+
+Phát hiện qua tìm kiếm web (trang luật tư nhân, báo chí; các trang chính thức bị chặn khi tải trực tiếp). **Chưa có toàn văn nên bộ khung không trích điều khoản và không sửa nội dung nghiệp vụ.** Chi tiết: [báo cáo 2026-10](cap-nhat-dinh-ky/2026-10.md).
+
+| Văn bản | Thông tin phát hiện | Mức xác thực | Trạng thái |
+|---|---|---|---|
+| NĐ 329/2026/NĐ-CP (lực lượng bảo vệ ANM) | Ban hành và có hiệu lực 19/8/2026 | Trang tin pháp luật tư nhân; chưa đối chiếu nguồn chính thức | Đã phát hiện, chưa có toàn văn |
+| NĐ 332/2026/NĐ-CP (kinh doanh sản phẩm, dịch vụ ANM) | Ban hành và có hiệu lực 19/8/2026; 4 chương, 22 điều; giấy phép kinh doanh, giấy phép xuất nhập khẩu sản phẩm ANM | Trang tin pháp luật tư nhân và báo chính phủ (qua kết quả tìm kiếm); chưa đối chiếu toàn văn | Đã phát hiện, chưa có toàn văn |
+| TT 47/2026/TT-BCA (kết quả tìm kiếm ghi: quy chuẩn kỹ thuật ANM cho HTTT lưu trữ tài liệu điện tử; ban hành 12/5/2026, hiệu lực 01/7/2026) | Tên, phạm vi **[CẦN ĐỐI CHIẾU]** — không phải thông tư về đánh giá rủi ro (mục 4, dòng 1 vẫn chờ) | Chỉ thấy tiêu đề trên trang tư nhân | Đã phát hiện, chưa có toàn văn |
+| CV 2656/BCA-A05 năm 2026 (hướng dẫn triển khai công tác bảo đảm ANM, thông tin, dữ liệu) | Chỉ thấy tiêu đề; ngày, nội dung **[CẦN ĐỐI CHIẾU]** | Chỉ thấy tiêu đề trên trang tư nhân | Đã phát hiện, chưa có toàn văn |
+| QĐ 778/QĐ-BCA-A05 năm 2026 (công bố, bãi bỏ thủ tục hành chính BVDLCN) | Chỉ thấy tiêu đề; ngày, nội dung **[CẦN ĐỐI CHIẾU]** | Chỉ thấy tiêu đề trên trang tư nhân | Đã phát hiện, chưa có toàn văn |
 
 ## 5. Quy ước trích dẫn trong bộ khung
 
