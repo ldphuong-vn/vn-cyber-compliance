@@ -15,4 +15,5 @@ Nguyên tắc:
 | Kỳ | Ngày | Nội dung chính | Báo cáo |
 |---|---|---|---|
 | Phát hành | 24/09/2026 | Bản khung v0.1: Luật 116/2025/QH15; NĐ 330, 331, 333/2026/NĐ-CP; TCVN 14423:2026; Luật 91/2025/QH15, NĐ 356/2025/NĐ-CP, NQ 22/2026/NQ-CP. Rà soát trích dẫn 3 lượt; bộ mẫu Word/Excel; tài liệu kinh doanh dịch vụ xử lý DLCN | — |
-| 10/2026 | 01/10/2026 | *(kỳ rà soát đầu tiên)* | `2026-10.md` |
+| 10/2026 | 01/10/2026 | Kỳ rà soát đầu tiên: không có Issue; phát hiện NĐ 329, NĐ 332, TT 47/2026/TT-BCA, CV 2656/BCA-A05, QĐ 778/QĐ-BCA-A05 (chưa có toàn văn, chưa sửa nội dung) | [`2026-10.md`](2026-10.md) |
+| 11/2026 | 01/11/2026 | *(dự kiến)* | `2026-11.md` |
