@@ -54,6 +54,8 @@ Also note:
 
 Details: [01-overview.md](01-overview.md).
 
+> **Key dates:** first annual report to the MPS before **25/12/2026**; IS under investment approved by **31/12/2026**; Resolution 22 ends **01/3/2027**; level measures in place and e-commerce filings redone by **30/6/2027**; the SME option on DPIA ends after **31/12/2030**. Full list: [01-overview.md §3](01-overview.md).
+
 ## How to use the toolkit
 
 ```mermaid

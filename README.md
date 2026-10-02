@@ -70,6 +70,8 @@ flowchart LR
 
 Quy chế bảo đảm ANM phải được ban hành **trước** khi phê duyệt hồ sơ đề xuất cấp độ (NĐ 331 Đ30.7).
 
+> **Mốc thời gian quan trọng:** báo cáo năm đầu tiên gửi Bộ Công an trước **25/12/2026**; HTTT đang đầu tư phê duyệt cấp độ trước **31/12/2026**; NQ 22 hết hiệu lực **01/3/2027**; đáp ứng biện pháp theo cấp độ và làm lại thủ tục TMĐT trước **30/6/2027**; DN nhỏ hết quyền chọn miễn DPIA sau **31/12/2030**. Đầy đủ (mốc một lần, định kỳ, theo sự kiện): [lộ trình tuân thủ](docs/00-tong-quan/lo-trinh-tuan-thu.md).
+
 Để bắt đầu trong doanh nghiệp, bộ phận IT/an ninh mạng có thể dùng các **mẫu tờ trình** trong [`docs/07-to-trinh-lanh-dao/`](docs/07-to-trinh-lanh-dao/README.md) để xin ban lãnh đạo phê duyệt chủ trương, nhân lực và ngân sách — mỗi tờ trình nêu căn cứ pháp lý, rủi ro và mức phạt nếu không thực hiện.
 
 ## Mốc cần nhớ

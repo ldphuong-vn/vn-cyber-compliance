@@ -185,18 +185,34 @@ Users (Art. 42) must protect their digital account details and comply with autho
 
 ## 3. Key deadlines
 
+### Coming up (updated 02/10/2026)
+
+| When | What to do | Who | Basis |
+|---|---|---|---|
+| **Now** (19/8/2026 has passed) | IS in operation but never classified: determine the level and prepare the dossier under Art. 20 Decree 331 (no specific transition — see the transition gap note below) | Owner, operating unit | Art. 20, 38 Decree 331 |
+| **Within 60 days** of starting to process personal data | Prepare and file the impact assessment (unless exempt); how this applies to processing that began before 01/01/2026 [TO VERIFY] | Controllers, processors | Art. 21 PDPL; Art. 19.4 Decree 356 |
+| **14/12 → 20/12 → 25/12/2026** | Data cut-off; internal reports; first annual report (Form 08) to the MPS — Level 1–2 included | Designated and operating units → owner | Art. 35.3–35.4 Decree 331 |
+| **31/12/2026** (safe date) | IS under investment before 01/7/2026 complete level appraisal and approval | Investor, owner | Art. 39.1 Decree 331 |
+| **01/3/2027** | Resolution 22 ends — watch for the replacement personal data filing procedure | Controllers | Art. 6.1 Resolution 22 |
+| **30/6/2027** (safe date) | Previously classified IS and IS under investment meet level measures; e-commerce websites and apps redo their filings under Law 122/2025 | Owners; e-commerce operators | Art. 45.1, 45.3 Law 116; Art. 39.1 Decree 331; Art. 41 Law 122 |
+
 ### One-off dates
 
 | Date | Event / who must act | Basis |
 |---|---|---|
-| **01/01/2026** | PDPL and Decree 356 take effect; Decree 13/2023 ends. Controllers and processors apply the new rules | Art. 38.1 PDPL; Art. 42.1–42.2 Decree 356 |
+| **24/12/2024 – 01/01/2025** | Decree 163/2024 (Telecommunications Law details) in force 24/12/2024; its data-center and cloud rules from 01/01/2025. Decree 147/2024 (Internet and online information) in force 25/12/2024 | Art. 84.1 Decree 163; Art. 83.1 Decree 147 |
+| **01/01/2026** | PDPL and Decree 356 take effect; Decree 13/2023 ends. Controllers and processors apply the new rules. Transition: processing already consented or agreed under Decree 13/2023 needs no new consent; impact assessments already accepted under Decree 13/2023 remain valid and are updated under the PDPL | Art. 38.1, 39 PDPL; Art. 42.1–42.2 Decree 356 |
+| **01/3/2026** | Law on Investment 143/2025 takes effect, replacing Law 61/2020 (except Art. 7 and Appendix IV — see 01/7/2026) | Art. 51.1, 51.4 Law 143 |
 | **29/4/2026** | Resolution 22 takes effect (until 01/3/2027); personal data impact assessments filed under the decentralized procedure (MPS receives, provincial police handle) | Art. 6.1, Appendix I.7(B) Resolution 22 |
-| **01/7/2026** | Law 116 takes effect; Laws 86/2015 and 24/2018 end | Art. 44 Law 116 |
+| **01/7/2026** | Law 116 takes effect; Laws 86/2015 and 24/2018 end. Information-security business licenses issued under Law 86/2015 stay valid until they expire | Art. 44, 45.2 Law 116 |
+| **01/7/2026** | Law on Investment 143/2025: **Art. 7 and Appendix IV** (198 conditional business lines) take effect — re-check online-service level criteria (Art. 12.2(a) / 13.2(a) Decree 331): cloud and data centers (item 98), personal data processing services (item 198) | Art. 51.2, Appendix IV Law 143 |
+| **01/7/2026** | E-commerce Law 122/2025 takes effect | Art. 40 Law 122 |
 | **19/8/2026** | Decrees 330, 331, 333 take effect. Level-based duties apply from this date, except transitional cases; Decree 330 fines apply to acts from this date | Art. 38 Decree 331; Art. 30 Decree 333; Art. 80, 81.1 Decree 330 |
 | **06 months from 01/7/2026** (safe date **31/12/2026**) | IS **under investment before 01/7/2026** complete level appraisal and approval under Decree 85/2016 | Art. 39.1 (first sentence) Decree 331 |
 | **Before 15/01/2027** (and yearly) | MPS publishes the list of IS by type; owners re-check their classification | Art. 9.2(e) Decree 331 |
 | **01/3/2027** | Resolution 22 ends; MPS due to submit/issue replacement texts | Art. 4.1(b)–(c), 6.1 Resolution 22 |
 | **12 months from 01/7/2026** (safe date **30/6/2027**) | (1) IS **already classified under Law 86/2015** keep their level but must meet Law 116 conditions, standards and measures. (2) IS under investment before 01/7/2026 must meet Decree 331 measures. (3) Products and solutions already in use must meet cybersecurity conditions | Art. 45.1, 45.3 Law 116; Art. 39.1 (second sentence) Decree 331 |
+| **End of 30/6/2027** | E-commerce websites and apps notified or registered before 01/7/2026 may operate under their old filing only until this date; the same applies to registered e-contract certification providers | Art. 41.1–41.2 Law 122 |
 | **24 months from 19/8/2026** (19/8/2028) | State bodies and SOEs review and train the persons in Art. 34.1 Law 116 | Art. 24.8(a) Decree 333 |
 | **36 months from 19/8/2026** (19/8/2029) | Owners of Level 3–5 IS **in the state sector** train their administrators and operators (private companies: see open question in [04-enterprise-obligations.md](04-enterprise-obligations.md)) | Art. 34.2 Law 116; Art. 24.8(b) Decree 333 |
 | **05 years from 01/01/2026** (safe date **31/12/2030**) | End of the period in which small businesses and start-ups may **choose** not to perform personal data impact assessments or appoint personal data protection staff | Art. 38.2 PDPL; Art. 41.1 Decree 356 |
@@ -222,6 +238,12 @@ Users (Art. 42) must protect their digital account details and comply with autho
 | | Every **06 months** if changed; **10 days** for changes needing immediate update | Update | Art. 22 PDPL; Art. 20 Decree 356 |
 | Authority requests (service providers) | **24 h** (urgent **03 h**) | Provide user information | Art. 25.2(a) Law 116; Art. 16.3(c) Decree 333 |
 | | **24 h** (urgent **06 h**) | Block or remove content, services, apps | Art. 25.2(b) Law 116; Art. 16.4(b) Decree 333 |
+| Data subject requests | **02 working days** | Respond and explain the procedure, for every request type | Art. 5.2–5.4 Decree 356 |
+| | **10 days** (with a processor or third party: 15; one extension ≤ 10) | Access, correction, provision of data | Art. 5.3 Decree 356 |
+| | **15 days** (with a processor or third party: 20; one extension ≤ 15) | Withdrawal of consent, restriction, objection | Art. 5.2 Decree 356 |
+| | **20 days** (with a processor or third party: 30; one extension ≤ 20) | Erasure | Art. 5.4 Decree 356 |
+| Limitation period for fines | **01 year** | For cybersecurity and personal data violations. An unfulfilled duty (e.g. no level dossier) counts as ongoing until done; detailed counting follows the Law on Handling Administrative Violations [TO VERIFY — not in the source set] | Art. 3.1–3.3 Decree 330 |
+| Enterprise size review (toolkit suggestion) | Yearly, after filing the annual financial statements | SME size uses the previous year's figures → re-check the personal data exemption (template 17) | Art. 7–9 Decree 80/2021; Art. 41 Decree 356 |
 | Level appraisal / approval | 05 working days (incomplete dossier); 15 working days (Level 3 appraisal); 25 working days (Level 4–5 appraisal); 07 working days (approval) | Time limits for the appraising or approving body | Art. 23.2, 23.3, 24.2 Decree 331 |
 
 > **First annual report (2026).** The data period 15/12/2025 – 14/12/2026 starts before Decree 331 took effect, and there is no special rule [TO VERIFY with MPS]. Recommended: file before 25/12/2026 with data up to 14/12/2026.
@@ -230,15 +252,20 @@ Users (Art. 42) must protect their digital account details and comply with autho
 timeline
     title Main legal dates (cybersecurity + personal data)
     01/01/2026 : PDPL and Decree 356 in force
+    01/3/2026 : Law on Investment 143/2025 in force
     29/4/2026 : Resolution 22 in force (to 01/3/2027)
     01/7/2026 : Law 116 in force
+              : Appendix IV Law 143 (198 conditional lines) in force
+              : E-commerce Law 122/2025 in force
     19/8/2026 : Decrees 330, 331, 333 in force
     25/12/2026 : First annual report to MPS
     31/12/2026 : 6-month safe date - IS under investment approved
     01/3/2027 : Resolution 22 ends
     30/6/2027 : 12-month safe date - level measures in place
+              : Old e-commerce filings expire (Art. 41 Law 122)
     19/8/2028 : Training deadline, Art. 34.1 persons
     19/8/2029 : Training deadline, Level 3-5 state-sector administrators
+    31/12/2030 : End of SME option on DPIA and data protection staff
 ```
 
 ## 4. Suggested roadmap for an organization starting now
