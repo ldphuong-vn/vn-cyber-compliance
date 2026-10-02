@@ -75,7 +75,7 @@ Toàn bộ mẫu văn bản (Word) và bảng tính (Excel) để **tải về, 
 
 ## 6. Bộ mẫu rút gọn cho HTTT cấp độ 1–2
 
-Dành cho tổ chức chỉ có HTTT cấp độ 1–2 (điển hình doanh nghiệp vừa và nhỏ). Đơn vị chuyên trách ANM tự thẩm định và phê duyệt (NĐ 331 Đ18.1, Đ20.3.a); không dùng Mẫu 02–05, 07. Báo cáo năm dùng [Mẫu 08](02-ho-so-cap-do/mau-08-bao-cao.docx). Hướng dẫn tổng thể: [docs/08-bo-mau-cap-1-2/README.md](../docs/08-bo-mau-cap-1-2/README.md).
+Dành cho tổ chức chỉ có HTTT cấp độ 1–2 (điển hình doanh nghiệp vừa và nhỏ). Đơn vị chuyên trách ANM tự thẩm định và phê duyệt (NĐ 331 Đ18.1, Đ20.3.a); không dùng Mẫu 02–05, 07. Báo cáo năm: [Mẫu 08 điền sẵn cho cấp 1–2](08-bo-mau-cap-1-2/23-bao-cao-nam-mau-08-cap-1-2.docx). Hướng dẫn tổng thể: [docs/08-bo-mau-cap-1-2/README.md](../docs/08-bo-mau-cap-1-2/README.md).
 
 | File | Loại | Dùng để | Người ký/lập | Hướng dẫn |
 |---|---|---|---|---|
@@ -95,6 +95,13 @@ Dành cho tổ chức chỉ có HTTT cấp độ 1–2 (điển hình doanh nghi
 | [14-cam-ket-bao-mat-du-lieu-nhan-su.docx](08-bo-mau-cap-1-2/14-cam-ket-bao-mat-du-lieu-nhan-su.docx) | Word | Bản cam kết bảo mật thông tin và bảo vệ DLCN của nhân sự (cả nhân sự nhà cung cấp có quyền truy cập) | Người lao động ký; Phòng Hành chính – Nhân sự xác nhận | [14-cam-ket-bao-mat-du-lieu-nhan-su.md](../docs/08-bo-mau-cap-1-2/14-cam-ket-bao-mat-du-lieu-nhan-su.md) |
 | [15-phu-luc-hop-dong-bvdlcn.docx](08-bo-mau-cap-1-2/15-phu-luc-hop-dong-bvdlcn.docx) | Word | Phụ lục hợp đồng BVDLCN với bên xử lý, nhà cung cấp cloud, phần mềm: vai trò, luồng dữ liệu, bảo mật, bên xử lý phụ, vị trí lưu trữ, thông báo vi phạm, xóa khi kết thúc | Hai bên ký | [15-phu-luc-hop-dong-bvdlcn.md](../docs/08-bo-mau-cap-1-2/15-phu-luc-hop-dong-bvdlcn.md) |
 | [16-bien-bao-camera.docx](08-bo-mau-cap-1-2/16-bien-bao-camera.docx) | Word | Biển thông báo khu vực có camera: mục đích, thời gian lưu, liên hệ yêu cầu truy xuất hình ảnh | — (niêm yết) | [16-bien-bao-camera.md](../docs/08-bo-mau-cap-1-2/16-bien-bao-camera.md) |
+| [17-phieu-xac-dinh-mien-tru-bvdlcn.docx](08-bo-mau-cap-1-2/17-phieu-xac-dinh-mien-tru-bvdlcn.docx) | Word | Phiếu xác định quy mô DN và diện miễn trừ DPIA, nhân sự BVDLCN; quyết định lựa chọn | Người lập; người đứng đầu duyệt | [17-phieu-xac-dinh-mien-tru-bvdlcn.md](../docs/08-bo-mau-cap-1-2/17-phieu-xac-dinh-mien-tru-bvdlcn.md) |
+| [18-qd-chi-dinh-nhan-su-bvdlcn.docx](08-bo-mau-cap-1-2/18-qd-chi-dinh-nhan-su-bvdlcn.docx) | Word | QĐ chỉ định nhân sự BVDLCN + thỏa thuận bảo mật | Người đứng đầu | [18-qd-chi-dinh-nhan-su-bvdlcn.md](../docs/08-bo-mau-cap-1-2/18-qd-chi-dinh-nhan-su-bvdlcn.md) |
+| [19-quy-dinh-bvdlcn.docx](08-bo-mau-cap-1-2/19-quy-dinh-bvdlcn.docx) | Word | QĐ ban hành + Quy định BVDLCN nội bộ (lưu trữ – xóa – hủy, phân quyền, bên xử lý, sự cố, DPIA) | Người đứng đầu | [19-quy-dinh-bvdlcn.md](../docs/08-bo-mau-cap-1-2/19-quy-dinh-bvdlcn.md) |
+| [20-ho-so-dpia.docx](08-bo-mau-cap-1-2/20-ho-so-dpia.docx) | Word | Hồ sơ DPIA: Mẫu 02a + Mẫu 10 NĐ 356, đánh giá rủi ro, phiếu theo dõi nộp và cập nhật | Người đại diện theo pháp luật; nhân sự BVDLCN lập | [20-ho-so-dpia.md](../docs/08-bo-mau-cap-1-2/20-ho-so-dpia.md) |
+| [21-thong-bao-vi-pham-dlcn.docx](08-bo-mau-cap-1-2/21-thong-bao-vi-pham-dlcn.docx) | Word | Thông báo vi phạm BVDLCN Mẫu 08 NĐ 356 (≤ 72 giờ) + biên bản xác nhận | Người đại diện theo pháp luật | [21-thong-bao-vi-pham-dlcn.md](../docs/08-bo-mau-cap-1-2/21-thong-bao-vi-pham-dlcn.md) |
+| [22-bien-ban-van-hanh-dinh-ky.docx](08-bo-mau-cap-1-2/22-bien-ban-van-hanh-dinh-ky.docx) | Word | Bằng chứng vận hành năm: đào tạo, rà soát tài khoản, khôi phục sao lưu, rà soát nhật ký, diễn tập, tự đánh giá | Chuyên trách ANM, đơn vị vận hành | [22-bien-ban-van-hanh-dinh-ky.md](../docs/08-bo-mau-cap-1-2/22-bien-ban-van-hanh-dinh-ky.md) |
+| [23-bao-cao-nam-mau-08-cap-1-2.docx](08-bo-mau-cap-1-2/23-bao-cao-nam-mau-08-cap-1-2.docx) | Word | Báo cáo năm Mẫu 08 NĐ 331 điền cho HTTT cấp 1–2 | Người đứng đầu chủ quản | [23-bao-cao-nam-mau-08-cap-1-2.md](../docs/08-bo-mau-cap-1-2/23-bao-cao-nam-mau-08-cap-1-2.md) |
 | [checklist-cap-1-2.xlsx](08-bo-mau-cap-1-2/checklist-cap-1-2.xlsx) | Excel | Danh mục HTTT, checklist TCVN mục 3/4 tự lọc theo cấp, tổng hợp, lịch, sổ sự cố, kế hoạch khắc phục, kiểm kê DLCN | — | [checklist-cap-1-2.md](../docs/08-bo-mau-cap-1-2/checklist-cap-1-2.md) |
 
 ## Cập nhật bộ mẫu

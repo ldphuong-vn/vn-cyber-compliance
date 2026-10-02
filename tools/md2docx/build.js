@@ -91,7 +91,8 @@ const TARGETS = [
     "08-quy-trinh-su-co-rut-gon", "09-ke-hoach-anm-nam",
     "10-thong-bao-xu-ly-dlcn-nguoi-lao-dong", "11-thong-bao-xu-ly-dlcn-ung-vien", "12-phieu-dong-y-xu-ly-dlcn",
     "13-quy-trinh-yeu-cau-chu-the-du-lieu", "14-cam-ket-bao-mat-du-lieu-nhan-su", "15-phu-luc-hop-dong-bvdlcn",
-    "16-bien-bao-camera",
+    "16-bien-bao-camera", "17-phieu-xac-dinh-mien-tru-bvdlcn", "18-qd-chi-dinh-nhan-su-bvdlcn", "19-quy-dinh-bvdlcn",
+    "20-ho-so-dpia", "21-thong-bao-vi-pham-dlcn", "22-bien-ban-van-hanh-dinh-ky", "23-bao-cao-nam-mau-08-cap-1-2",
   ].map((f) => `docs/08-bo-mau-cap-1-2/${f}.md`),
 ];
 

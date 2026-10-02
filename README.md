@@ -28,7 +28,7 @@ Cần lưu ý thêm:
 - **Văn bản còn mới, chưa đủ hướng dẫn.** Luật 116/2025 và các NĐ 330, 331, 333/2026 mới có hiệu lực; nhiều thông tư, biểu mẫu của Bộ Công an chưa ban hành. Hướng dẫn chính thức có thể khác cách hiểu của bộ khung.
 - **Phạm vi có giới hạn.** Bộ khung không bao quát quy định chuyên ngành (ngân hàng, viễn thông, y tế, chứng khoán…), bảo vệ bí mật nhà nước, hay thủ tục riêng của HTTT quan trọng về an ninh quốc gia. HTTT cấp 4–5 cần làm việc trực tiếp với Bộ Công an.
 - **Nguồn văn bản.** Một số toàn văn trong `sources/` lấy từ trang pháp luật công khai. Trước khi trích dẫn chính thức, đối chiếu Công báo hoặc bản do cơ quan ban hành công bố.
-- **Mẫu là khung tham khảo.** Phải điều chỉnh theo cơ cấu, Điều lệ, quy chế nội bộ và hệ thống thực tế của tổ chức. Dữ liệu mẫu là **mô phỏng**, chỉ tên công ty TURBO là thật.
+- **Mẫu là khung tham khảo.** Phải điều chỉnh theo cơ cấu, Điều lệ, quy chế nội bộ và hệ thống thực tế của tổ chức. Bộ khung **dùng chung** cho mọi tổ chức, không dành riêng cho TURBO. Dữ liệu mẫu là **use-case minh họa, mô phỏng**: chỉ tên công ty TURBO là thật; quy mô, cơ cấu, hệ thống, số liệu, người ký đều giả định và không phản ánh TURBO thực tế.
 - **Có thể còn sai sót.** Nội dung được soạn với sự hỗ trợ của AI (Claude Code) và đã rà soát chéo với văn bản gốc, nhưng vẫn có thể sai. Mỗi trang ghi ngày "Đối chiếu văn bản gốc"; gặp lỗi xin báo qua [Issue](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new/choose).
 - **Bản tiếng Anh** trong [`en/`](en/README.md) là bản hướng dẫn không chính thức; bản tiếng Việt và văn bản gốc có giá trị.
 - **Không bảo đảm, không chịu trách nhiệm.** Bộ khung phát hành "nguyên trạng" theo Apache License 2.0. Người dùng tự chịu trách nhiệm về quyết định và hồ sơ của mình.
@@ -49,7 +49,7 @@ Cần lưu ý thêm:
 | [`docs/07-to-trinh-lanh-dao/`](docs/07-to-trinh-lanh-dao/README.md) | **9 mẫu tờ trình nội bộ** để bộ phận IT/an ninh mạng, pháp chế… trình ban lãnh đạo phê duyệt: chương trình tuân thủ, bộ phận chuyên trách, Quy chế, kinh phí giải pháp kỹ thuật, thuê đánh giá/kiểm thử, Hội đồng thẩm định, đào tạo–diễn tập, bảo vệ DLCN, lưu trữ dữ liệu và nhật ký tại VN; bảng luận cứ (nghĩa vụ – căn cứ – mức phạt – mốc) | Xin chủ trương, nhân lực, ngân sách |
 | [`docs/08-bo-mau-cap-1-2/`](docs/08-bo-mau-cap-1-2/README.md) | **Bộ mẫu rút gọn cho HTTT cấp độ 1–2** (doanh nghiệp vừa và nhỏ: email, văn phòng điện tử, kế toán, nhân sự, mạng nội bộ): phiếu sàng lọc, QĐ phân công, Quy chế rút gọn, hồ sơ đề xuất cấp độ gộp một file, Mẫu 01, biên bản thẩm định, QĐ phê duyệt do đơn vị chuyên trách ban hành, quy trình sự cố, kế hoạch năm, bảng tính Excel |
 | [`en/`](en/README.md) | **Bản hướng dẫn tiếng Anh** (không chính thức, cô đọng) cho doanh nghiệp FDI, tập đoàn mẹ, kiểm toán, tư vấn nước ngoài: tổng quan luật, cấp độ, yêu cầu theo cấp, nghĩa vụ doanh nghiệp, mức phạt, dữ liệu cá nhân, vùng xám, bảng thuật ngữ Việt–Anh. Biểu mẫu nộp cơ quan quản lý giữ tiếng Việt | Người đọc tiếng Anh |
-| [`templates/`](templates/README.md) | **Bộ mẫu tải về dùng ngay:** 49 văn bản Word (thể thức NĐ 30/2020, có dữ liệu mẫu tô vàng) và 5 bảng tính Excel (checklist tự đánh giá cấp 1–5, ma trận yêu cầu, sổ đăng ký rủi ro, RACI, bảng tính quản lý ANM cấp 1–2) — sinh tự động từ `docs/` bằng [`tools/`](tools/md2docx/README.md) | Soạn văn bản thực tế, tự đánh giá |
+| [`templates/`](templates/README.md) | **Bộ mẫu tải về dùng ngay:** 56 văn bản Word (thể thức NĐ 30/2020, có dữ liệu mẫu tô vàng) và 5 bảng tính Excel (checklist tự đánh giá cấp 1–5, ma trận yêu cầu, sổ đăng ký rủi ro, RACI, bảng tính quản lý ANM cấp 1–2) — sinh tự động từ `docs/` bằng [`tools/`](tools/md2docx/README.md) | Soạn văn bản thực tế, tự đánh giá |
 | [`sources/van-ban-goc/`](sources/van-ban-goc/README.md) | Toàn văn các văn bản quy phạm pháp luật để tra cứu | Kiểm tra trích dẫn |
 
 ## Quy trình sử dụng
@@ -69,6 +69,8 @@ flowchart LR
 > **HTTT chỉ ở cấp độ 1–2?** Dùng bộ rút gọn [`docs/08-bo-mau-cap-1-2/`](docs/08-bo-mau-cap-1-2/README.md): đơn vị chuyên trách ANM của tổ chức tự thẩm định và phê duyệt, không cần Mẫu 02–05, 07; một hồ sơ gộp cho nhiều hệ thống.
 
 Quy chế bảo đảm ANM phải được ban hành **trước** khi phê duyệt hồ sơ đề xuất cấp độ (NĐ 331 Đ30.7).
+
+> **Mốc thời gian quan trọng:** báo cáo năm đầu tiên gửi Bộ Công an trước **25/12/2026**; HTTT đang đầu tư phê duyệt cấp độ trước **31/12/2026**; NQ 22 hết hiệu lực **01/3/2027**; đáp ứng biện pháp theo cấp độ và làm lại thủ tục TMĐT trước **30/6/2027**; DN nhỏ hết quyền chọn miễn DPIA sau **31/12/2030**. Đầy đủ (mốc một lần, định kỳ, theo sự kiện): [lộ trình tuân thủ](docs/00-tong-quan/lo-trinh-tuan-thu.md).
 
 Để bắt đầu trong doanh nghiệp, bộ phận IT/an ninh mạng có thể dùng các **mẫu tờ trình** trong [`docs/07-to-trinh-lanh-dao/`](docs/07-to-trinh-lanh-dao/README.md) để xin ban lãnh đạo phê duyệt chủ trương, nhân lực và ngân sách — mỗi tờ trình nêu căn cứ pháp lý, rủi ro và mức phạt nếu không thực hiện.
 

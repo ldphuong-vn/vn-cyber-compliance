@@ -32,7 +32,7 @@ Also note:
 - **The rules are new and guidance is incomplete.** Law 116/2025 and Decrees 330, 331 and 333/2026 have only just taken effect; several MPS circulars and forms are still pending. Official guidance may differ from the toolkit's reading.
 - **Limited scope.** Sector rules (banking, telecommunications, health, securities…), state-secret protection and the separate procedures for information systems critical to national security are not covered in depth. Level 4–5 systems require direct engagement with the MPS.
 - **Sources.** Some full texts in `sources/` come from public legal websites; check the Official Gazette or the issuing body's version before citing formally.
-- **Templates are starting points.** Adapt them to your structure, charter, internal rules and actual systems. Sample data is **simulated** (only the company name TURBO is real).
+- **Templates are starting points.** Adapt them to your structure, charter, internal rules and actual systems. The toolkit is **generic**, not tailored to TURBO. Sample data is an **illustrative, simulated use-case**: only the company name TURBO is real; size, structure, systems, figures and signatories are fictitious and do not describe the actual company.
 - **Errors are possible.** Content was drafted with AI assistance (Claude Code) and cross-checked against the original texts, but mistakes may remain. Each page shows its check date; please report errors via [Issues](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new/choose).
 - **This English guide is unofficial**; the Vietnamese pages and the original Vietnamese legal texts prevail.
 - **No warranty, no liability.** Provided "as is" under the Apache License 2.0. Users remain responsible for their own decisions and filings.
@@ -53,6 +53,8 @@ Also note:
 10. The system owner sends an **annual report (Form 08)** to the Ministry of Public Security (MPS) **before 25 December** every year.
 
 Details: [01-overview.md](01-overview.md).
+
+> **Key dates:** first annual report to the MPS before **25/12/2026**; IS under investment approved by **31/12/2026**; Resolution 22 ends **01/3/2027**; level measures in place and e-commerce filings redone by **30/6/2027**; the SME option on DPIA ends after **31/12/2030**. Full list: [01-overview.md §3](01-overview.md).
 
 ## How to use the toolkit
 

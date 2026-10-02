@@ -49,7 +49,7 @@ HTTT **thuần nội bộ** của doanh nghiệp tư (như bốn hệ thống tr
 | 5 | Thẩm định (hướng dẫn bổ sung trong 05 ngày làm việc nếu hồ sơ chưa hợp lệ) | Đơn vị chuyên trách ANM | [06](06-bien-ban-tham-dinh.md) | Đ18.1, Đ23.1, Đ23.2 |
 | 6 | Phê duyệt; báo cáo chủ quản | Đơn vị chuyên trách ANM | [07](07-qd-phe-duyet-cap-do.md) | Đ18.1, Đ20.3.a |
 
-Quy chế phải được ban hành **trước khi** hồ sơ đề xuất cấp độ được phê duyệt (Đ30.7). Sau bước 6: triển khai, duy trì theo [kế hoạch năm](09-ke-hoach-anm-nam.md), xử lý sự cố theo [quy trình rút gọn](08-quy-trinh-su-co-rut-gon.md), báo cáo năm theo Mẫu 08.
+Quy chế phải được ban hành **trước khi** hồ sơ đề xuất cấp độ được phê duyệt (Đ30.7). Sau bước 6: triển khai, duy trì theo [kế hoạch năm](09-ke-hoach-anm-nam.md), xử lý sự cố theo [quy trình rút gọn](08-quy-trinh-su-co-rut-gon.md), báo cáo năm theo [Mẫu 08 điền sẵn](23-bao-cao-nam-mau-08-cap-1-2.md).
 
 ```mermaid
 sequenceDiagram
@@ -100,8 +100,14 @@ Bản Word/Excel được sinh bằng `tools/md2docx` và `tools/md2xlsx` vào `
 | [14-cam-ket-bao-mat-du-lieu-nhan-su.md](14-cam-ket-bao-mat-du-lieu-nhan-su.md) | [.docx](../../templates/08-bo-mau-cap-1-2/14-cam-ket-bao-mat-du-lieu-nhan-su.docx) | Bản cam kết bảo mật thông tin và bảo vệ DLCN của nhân sự (cả nhân sự nhà cung cấp có quyền truy cập) | — | Người lao động ký; Phòng Hành chính – Nhân sự xác nhận |
 | [15-phu-luc-hop-dong-bvdlcn.md](15-phu-luc-hop-dong-bvdlcn.md) | [.docx](../../templates/08-bo-mau-cap-1-2/15-phu-luc-hop-dong-bvdlcn.docx) | Phụ lục hợp đồng BVDLCN với bên xử lý, nhà cung cấp cloud, phần mềm: vai trò, luồng dữ liệu, bảo mật, bên xử lý phụ, vị trí lưu trữ, thông báo vi phạm, xóa khi kết thúc | — | Hai bên ký |
 | [16-bien-bao-camera.md](16-bien-bao-camera.md) | [.docx](../../templates/08-bo-mau-cap-1-2/16-bien-bao-camera.docx) | Biển thông báo khu vực có camera: mục đích, thời gian lưu, liên hệ yêu cầu truy xuất hình ảnh | — | — (niêm yết) |
+| [17-phieu-xac-dinh-mien-tru-bvdlcn.md](17-phieu-xac-dinh-mien-tru-bvdlcn.md) | [.docx](../../templates/08-bo-mau-cap-1-2/17-phieu-xac-dinh-mien-tru-bvdlcn.docx) | Phiếu xác định quy mô DN (NĐ 80) và diện miễn trừ DPIA, nhân sự BVDLCN; 3 trường hợp mất miễn trừ (có vùng xám C19); quyết định lựa chọn; rà soát hằng năm | Luật 91 Đ38.2–38.3; NĐ 356 Đ4.1, Đ21, Đ41; NĐ 80 Đ5–Đ10 | Người lập; người đứng đầu duyệt |
+| [18-qd-chi-dinh-nhan-su-bvdlcn.md](18-qd-chi-dinh-nhan-su-bvdlcn.md) | [.docx](../../templates/08-bo-mau-cap-1-2/18-qd-chi-dinh-nhan-su-bvdlcn.docx) | QĐ chỉ định bộ phận/nhân sự BVDLCN (điều kiện, nhiệm vụ, cơ sở chỉ định: bắt buộc / mất miễn trừ / tự nguyện) + thỏa thuận bảo mật. DN nhỏ được chọn đến 31/12/2030; siêu nhỏ không phải làm — trừ 3 ngoại lệ | Luật 91 Đ33.2; NĐ 356 Đ13–Đ16; NĐ 330 Đ57 | Người đứng đầu; nhân sự BVDLCN ký thỏa thuận |
+| [19-quy-dinh-bvdlcn.md](19-quy-dinh-bvdlcn.md) | [.docx](../../templates/08-bo-mau-cap-1-2/19-quy-dinh-bvdlcn.docx) | QĐ ban hành + Quy định BVDLCN nội bộ 12 điều: nguyên tắc, vai trò, phân loại, căn cứ xử lý, lưu trữ – xóa – hủy, phân quyền, bên xử lý, sự cố, DPIA. Nên có ở mọi quy mô | Luật 91 Đ3, Đ14, Đ19, Đ21–Đ23, Đ25; NĐ 356 Đ4, Đ7, Đ12, Đ19, Đ20 | Người đứng đầu |
+| [20-ho-so-dpia.md](20-ho-so-dpia.md) | [.docx](../../templates/08-bo-mau-cap-1-2/20-ho-so-dpia.docx) | Hồ sơ đánh giá tác động xử lý DLCN: Mẫu 02a + Mẫu 10 NĐ 356 (nguyên văn), đánh giá rủi ro theo nhóm dữ liệu, tài liệu kèm theo, phiếu theo dõi nộp, cập nhật. Bắt buộc với DN vừa, lớn; DN nhỏ được chọn; siêu nhỏ không — trừ 3 ngoại lệ | Luật 91 Đ21, Đ22, Đ38; NĐ 356 Đ19, Đ20, Mẫu 02a, 10; NQ 22/2026; NĐ 330 Đ55 | Người đại diện theo pháp luật; nhân sự BVDLCN lập |
+| [21-thong-bao-vi-pham-dlcn.md](21-thong-bao-vi-pham-dlcn.md) | [.docx](../../templates/08-bo-mau-cap-1-2/21-thong-bao-vi-pham-dlcn.docx) | Thông báo vi phạm quy định về BVDLCN theo Mẫu 08 NĐ 356 (≤ 72 giờ) + biên bản xác nhận. Mọi quy mô, không miễn trừ | Luật 91 Đ23; NĐ 356 Đ28, Mẫu 08; NĐ 330 Đ54 | Người đại diện theo pháp luật; nhân sự BVDLCN chủ trì biên bản |
+| [22-bien-ban-van-hanh-dinh-ky.md](22-bien-ban-van-hanh-dinh-ky.md) | [.docx](../../templates/08-bo-mau-cap-1-2/22-bien-ban-van-hanh-dinh-ky.docx) | Bằng chứng vận hành năm: danh sách đào tạo ANM–BVDLCN, biên bản rà soát tài khoản, khôi phục thử sao lưu, rà soát nhật ký, diễn tập tabletop (nhánh DLCN 72 giờ), báo cáo tự đánh giá độc lập | NĐ 331 Đ28.5, Đ31.2.c–d, Đ31.3, Đ32.5, Đ33.3; Luật 91 Đ23; TCVN mục 3.6–3.8, 3.11–3.13, 3.15 / 4.6–4.8, 4.11–4.13, 4.15 | Đơn vị vận hành, chuyên trách ANM lập; chuyên trách xác nhận |
+| [23-bao-cao-nam-mau-08-cap-1-2.md](23-bao-cao-nam-mau-08-cap-1-2.md) | [.docx](../../templates/08-bo-mau-cap-1-2/23-bao-cao-nam-mau-08-cap-1-2.docx) | Báo cáo năm Mẫu 08 NĐ 331 (nguyên văn) điền cho HTTT cấp 1–2, kèm phụ lục Đ36; cấp 1–2 vẫn gửi Bộ Công an trước 25/12 | NĐ 331 Đ35, Đ36, Mẫu 08 | Người đứng đầu chủ quản |
 | [bao-ve-du-lieu-ca-nhan-cap-1-2.md](bao-ve-du-lieu-ca-nhan-cap-1-2.md) | — | Bảo vệ dữ liệu cá nhân với tổ chức có HTTT cấp 1–2: nghĩa vụ không ai được miễn, miễn trừ DN nhỏ, dữ liệu nhân sự nhạy cảm, cloud, 10 việc nên làm | Luật 91; NĐ 356; NĐ 330 Mục 6 | — |
-| [Mẫu 08 (bộ đầy đủ)](../02-ho-so-cap-do/mau-08-bao-cao.md) | [.docx](../../templates/02-ho-so-cap-do/mau-08-bao-cao.docx) | Báo cáo năm — dùng mẫu hiện có, không tạo file mới | Đ35, Đ36 | Chủ quản |
 
 Số thứ tự 05 là Mẫu 01 (giữ tên `mau-01-…` để công cụ xuất Word nhận diện đúng biểu mẫu nguyên văn).
 
@@ -117,9 +123,10 @@ Khi được kiểm tra, tổ chức cần xuất trình được:
 6. Biên bản thẩm định (06).
 7. QĐ phê duyệt cấp độ và báo cáo chủ quản (07).
 8. Quy trình sự cố và danh sách đầu mối (08); sổ sự cố (sheet trong checklist Excel).
-9. Kế hoạch ANM năm (09) và bằng chứng thực hiện: danh sách đào tạo, biên bản diễn tập, báo cáo tự đánh giá, kết quả quét lỗ hổng, rà soát tài khoản, nhật ký.
+9. Kế hoạch ANM năm (09) và bằng chứng thực hiện ([22](22-bien-ban-van-hanh-dinh-ky.md)): danh sách đào tạo, biên bản diễn tập, báo cáo tự đánh giá, kết quả quét lỗ hổng, rà soát tài khoản, nhật ký, khôi phục thử sao lưu.
 10. Checklist tự đánh giá TCVN mục 3/4 đã điền, kế hoạch khắc phục.
-11. Báo cáo năm Mẫu 08 và bằng chứng gửi (Đ35).
+11. Báo cáo năm Mẫu 08 ([23](23-bao-cao-nam-mau-08-cap-1-2.md)) và bằng chứng gửi (Đ35).
+12. **Bảo vệ DLCN** (chế độ riêng, không phụ thuộc cấp độ): phiếu xác định miễn trừ (17); Quy định BVDLCN (19); thông báo, phiếu đồng ý, quy trình yêu cầu, cam kết, phụ lục hợp đồng, biển báo (10–16); khi không được miễn hoặc chọn thực hiện: QĐ chỉ định nhân sự BVDLCN (18), hồ sơ DPIA và biên nhận nộp (20); thông báo vi phạm và biên bản khi phát sinh (21).
 
 Không cần: Mẫu 02, 03, 05, 07; ý kiến chuyên môn (Đ21.5 chỉ cấp 4–5); báo cáo đánh giá rủi ro chi tiết (Đ22.5 chỉ cấp 4–5); Mẫu 04 (Đ24.1.b chỉ bắt buộc ý kiến thẩm định với cấp 3 trở lên — biên bản 06 thay thế làm bằng chứng).
 
@@ -153,7 +160,7 @@ Chu kỳ "tối thiểu 01 lần/năm" lấy theo TCVN 14423:2026 mục 3, mục
 | [Mẫu 05](../02-ho-so-cap-do/mau-05-to-trinh-phe-duyet.md) | Không dùng | Cấp 1–2 không trình chủ quản phê duyệt (Đ20.3.a) → báo cáo chủ quản kèm [07](07-qd-phe-duyet-cap-do.md) |
 | [Mẫu 06](../02-ho-so-cap-do/mau-06-quyet-dinh-phe-duyet-cap-do.md) | Điều chỉnh | [07](07-qd-phe-duyet-cap-do.md): giữ cấu trúc Mẫu 06, do đơn vị chuyên trách ban hành **[CẦN ĐỐI CHIẾU]** thể thức |
 | [Mẫu 07](../02-ho-so-cap-do/mau-07-quyet-dinh-phe-duyet-phuong-an-anm.md) | Không dùng | Chỉ cấp 5 và HTTT thuộc Danh mục ANQG (Đ20.3.c, Đ20.4) |
-| [Mẫu 08](../02-ho-so-cap-do/mau-08-bao-cao.md) | **Dùng lại** | Báo cáo năm, mọi cấp (Đ35, Đ36) |
+| [Mẫu 08](../02-ho-so-cap-do/mau-08-bao-cao.md) | **Dùng lại, đã điền sẵn** | [23](23-bao-cao-nam-mau-08-cap-1-2.md): nguyên văn Mẫu 08, điền cho cấp 1–2 (Đ35, Đ36) |
 | [Phiếu xác định cấp độ](../01-xac-dinh-cap-do/phieu-xac-dinh-cap-do.md) | Thay | [01 phiếu sàng lọc](01-phieu-sang-loc-cap-do.md); dùng lại phiếu đầy đủ khi có dấu hiệu cấp 3 |
 | Thuyết minh [tổng quan](../02-ho-so-cap-do/thuyet-minh-tong-quan-httt.md), [đề xuất cấp độ](../02-ho-so-cap-do/thuyet-minh-de-xuat-cap-do.md), [phương án ANM](../02-ho-so-cap-do/thuyet-minh-phuong-an-anm.md), [báo cáo đánh giá rủi ro](../02-ho-so-cap-do/bao-cao-danh-gia-rui-ro.md) | Gộp | [04 hồ sơ đề xuất cấp độ](04-ho-so-de-xuat-cap-do.md) (một hồ sơ nhiều HTTT — Đ22.4.a); rủi ro ở mức sơ bộ (Đ22.4.c) |
 | [QĐ chỉ định đơn vị chuyên trách](../04-chinh-sach-quy-trinh/qd-chi-dinh-don-vi-bo-phan-chuyen-trach-anm.md), [QĐ giao đơn vị vận hành](../04-chinh-sach-quy-trinh/qd-giao-don-vi-van-hanh.md) | Gộp | [02 QĐ phân công](02-qd-phan-cong-anm.md) |
@@ -189,7 +196,7 @@ Ghi chú: Đ23.1.b–d (không xây dựng hồ sơ, đưa vào vận hành khi 
 
 Các file trong bộ được điền sẵn bằng một kịch bản **giả lập** để bản Word dễ hình dung. Chỉ tên **Công ty cổ phần Giải pháp Công nghệ TURBO** là thật; họ tên, phòng ban, số văn bản, địa chỉ, email (`example.vn`), địa chỉ IP (`192.0.2.0/24`, dải riêng `10.x`) và mọi số liệu đều mô phỏng, không phản ánh thực tế. Giá trị mẫu của bộ nằm trong `tools/md2docx/du-lieu-mau.json`, mục `_theo_file` (khóa riêng từng văn bản, dạng `08-bo-mau-cap-1-2/<tên file>`); khóa nào không khai ở đó sẽ lấy khóa chung (đang mang kịch bản cấp 3). Không đưa dữ liệu thật lên repo công khai.
 
-**Hệ thống thông tin** (một hồ sơ gồm nhiều HTTT — NĐ 331 Đ22.4.a; khoảng 120 nhân viên; máy chủ tại phòng máy trụ sở, Tầng 3):
+**Hệ thống thông tin** (một hồ sơ gồm nhiều HTTT — NĐ 331 Đ22.4.a; doanh nghiệp nhỏ, 38 lao động, 40 người dùng nội bộ; máy chủ tại phòng máy trụ sở, Tầng 3):
 
 | Mã | HTTT | Cấp đề xuất | Tiêu chí |
 |---|---|---|---|
@@ -214,7 +221,13 @@ Thư điện tử dùng dịch vụ đám mây: nếu máy chủ đặt ở nư�
 | 07 QĐ phê duyệt cấp độ | 03/2026/QĐ-PANM | 26/10/2026 | Trưởng phòng An ninh mạng (theo QĐ 40/2026) |
 | 07 kèm: Báo cáo chủ quản | 04/2026/BC-PANM | 27/10/2026 | Trưởng phòng An ninh mạng |
 | 09 Kế hoạch ANM năm 2027 | 52/2026/KH-TURBO | 16/11/2026 | Tổng Giám đốc |
-| Báo cáo năm (Mẫu 08) | — | nội bộ trước 20/12; gửi Bộ Công an trước 25/12 | Chủ quản |
+| 17 Phiếu xác định miễn trừ BVDLCN | — | 02/11/2026 | Tổng Giám đốc duyệt |
+| 18 QĐ chỉ định nhân sự BVDLCN | 55/2026/QĐ-TURBO | 02/11/2026 | Tổng Giám đốc |
+| 19 Quy định BVDLCN (ban hành kèm QĐ) | 56/2026/QĐ-TURBO | 02/11/2026 | Tổng Giám đốc |
+| 20 Hồ sơ DPIA (lập 20/11) — Mẫu 02a gửi hồ sơ | 60/2026/CV-TURBO | 25/11/2026 | Tổng Giám đốc |
+| 21 Biên bản xác nhận vi phạm DLCN; thông báo Mẫu 08 NĐ 356 | 01/2026/BB-DLCN; 75/2026/TB-TURBO | 09/12/2026; 10/12/2026 | Nhân sự BVDLCN; Tổng Giám đốc |
+| 23 Báo cáo năm 2026 (Mẫu 08) | 78/2026/BC-TURBO | 22/12/2026 (nội bộ trước 20/12; gửi Bộ Công an trước 25/12) | Tổng Giám đốc |
+| 22 Biên bản vận hành định kỳ | theo từng biên bản | năm 2027, theo kế hoạch 09 | Chuyên trách ANM, đơn vị vận hành |
 
 ## 9. Điểm cần lưu ý
 
