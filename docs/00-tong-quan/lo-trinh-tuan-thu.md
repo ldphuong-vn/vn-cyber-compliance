@@ -1,6 +1,6 @@
 # Lộ trình tuân thủ
 
-> **Căn cứ:** Luật 116/2025/QH15 Đ11.1.b, Đ44, Đ45; NĐ 331/2026/NĐ-CP Đ9.2.e, Đ10, Đ18–Đ24, Đ30.6–30.7, Đ31, Đ35, Đ38, Đ39; NĐ 333/2026/NĐ-CP Đ8.5.b, Đ24.8, Đ30; NĐ 330/2026/NĐ-CP Đ80; Luật 91/2025/QH15 Đ21–Đ23, Đ38; NĐ 356/2025/NĐ-CP Đ18–Đ20, Đ41, Đ42; NQ 22/2026/NQ-CP Đ4, Đ6 · **Đối chiếu văn bản gốc:** 24/09/2026 · **Trạng thái:** Bản khung v0.1
+> **Căn cứ:** Luật 116/2025/QH15 Đ11.1.b, Đ44, Đ45; NĐ 331/2026/NĐ-CP Đ9.2.e, Đ10, Đ18–Đ24, Đ30.6–30.7, Đ31, Đ35, Đ38, Đ39; NĐ 333/2026/NĐ-CP Đ8.5.b, Đ24.8, Đ30; NĐ 330/2026/NĐ-CP Đ80; Luật 91/2025/QH15 Đ21–Đ23, Đ38; NĐ 356/2025/NĐ-CP Đ18–Đ20, Đ41, Đ42; NQ 22/2026/NQ-CP Đ4, Đ6; Luật 143/2025/QH15 Đ51; Luật 122/2025/QH15 Đ40, Đ41; NĐ 147/2024/NĐ-CP; NĐ 163/2024/NĐ-CP · **Đối chiếu văn bản gốc:** 02/10/2026 · **Trạng thái:** Bản khung v0.1
 
 Tài liệu gồm hai phần: (A) **các mốc pháp lý** bắt buộc, có điều khoản; (B) **lộ trình triển khai đề xuất** cho một tổ chức mới bắt đầu. Phần B là khuyến nghị thực hành, thời lượng các giai đoạn là ước tính, không phải quy định.
 
@@ -8,18 +8,36 @@ Tài liệu gồm hai phần: (A) **các mốc pháp lý** bắt buộc, có đi
 
 ## A. Các mốc pháp lý
 
+### A.0. Mốc sắp tới (cập nhật 02/10/2026)
+
+| Khi nào | Việc cần làm | Ai | Căn cứ |
+|---|---|---|---|
+| **Ngay** (đã quá 19/8/2026) | HTTT đang vận hành chưa có cấp độ: xác định cấp độ, lập hồ sơ theo NĐ 331 Đ20 (không có điều khoản chuyển tiếp riêng — xem lưu ý khoảng trống chuyển tiếp dưới A.1) | Chủ quản, đơn vị vận hành | NĐ 331 Đ20, Đ38 |
+| **Trong 60 ngày** kể từ ngày bắt đầu xử lý DLCN | Lập, nộp hồ sơ đánh giá tác động (nếu không thuộc diện miễn) — cách tính với xử lý có từ trước 01/01/2026 **[CẦN ĐỐI CHIẾU]** | Bên kiểm soát, bên xử lý DLCN | Luật 91 Đ21; NĐ 356 Đ19.4 |
+| **14/12/2026 → 20/12 → 25/12/2026** | Chốt số liệu; báo cáo nội bộ; gửi Bộ Công an báo cáo năm đầu tiên (Mẫu 08) — kể cả HTTT cấp 1–2 | Chuyên trách, vận hành → chủ quản | NĐ 331 Đ35.3–35.4 |
+| **31/12/2026** (mốc an toàn) | HTTT đang đầu tư trước 01/7/2026 hoàn thành thẩm định, phê duyệt cấp độ | Chủ đầu tư, chủ quản | NĐ 331 Đ39.1 |
+| **01/3/2027** | NQ 22 hết hiệu lực — theo dõi thủ tục nộp hồ sơ DLCN thay thế | Bên kiểm soát DLCN | NQ 22 Đ6.1 |
+| **30/6/2027** (mốc an toàn) | HTTT đã có cấp độ cũ, HTTT đang đầu tư: đáp ứng đủ biện pháp ANM theo cấp độ; website, ứng dụng TMĐT làm lại thủ tục theo Luật 122 | Chủ quản; chủ website TMĐT | Luật 116 Đ45.1, Đ45.3; NĐ 331 Đ39.1; Luật 122 Đ41 |
+
+Bảng này lọc từ A.1–A.2 và được rà lại khi cập nhật định kỳ ([cap-nhat-dinh-ky](cap-nhat-dinh-ky/)).
+
 ### A.1. Mốc một lần
 
 | Mốc | Sự kiện | Ai phải làm gì | Căn cứ |
 |---|---|---|---|
-| **01/01/2026** | Luật 91/2025 và NĐ 356/2025 có hiệu lực; NĐ 13/2023 hết hiệu lực | Bên kiểm soát/xử lý DLCN áp dụng quy định mới (đánh giá tác động, chuyển xuyên biên giới, nhân sự BVDLCN, thông báo vi phạm) | Luật 91 Đ38.1; NĐ 356 Đ42.1–42.2 |
+| **24/12/2024 – 01/01/2025** | NĐ 163/2024 (chi tiết Luật Viễn thông) có hiệu lực 24/12/2024; quy định về dịch vụ trung tâm dữ liệu, điện toán đám mây có hiệu lực 01/01/2025. NĐ 147/2024 (Internet, thông tin trên mạng) có hiệu lực 25/12/2024 | Doanh nghiệp cung cấp cloud, trung tâm dữ liệu, dịch vụ trên Internet — xem [lưu trữ dữ liệu tại Việt Nam](../05-nghia-vu-lien-quan/luu-tru-du-lieu-tai-viet-nam-website-saas.md) | NĐ 163 Đ84.1; NĐ 147 Đ83.1 |
+| **01/01/2026** | Luật 91/2025 và NĐ 356/2025 có hiệu lực; NĐ 13/2023 hết hiệu lực | Bên kiểm soát/xử lý DLCN áp dụng quy định mới (đánh giá tác động, chuyển xuyên biên giới, nhân sự BVDLCN, thông báo vi phạm). Chuyển tiếp: xử lý đã có đồng ý/thỏa thuận theo NĐ 13/2023 **không phải xin lại**; hồ sơ đánh giá tác động đã được tiếp nhận theo NĐ 13/2023 tiếp tục dùng, cập nhật theo Luật 91 | Luật 91 Đ38.1, Đ39; NĐ 356 Đ42.1–42.2 |
+| **01/3/2026** | Luật Đầu tư 143/2025 có hiệu lực, thay Luật Đầu tư 61/2020 (trừ Đ7 và Phụ lục IV — xem 01/7/2026) | Theo dõi khi xác định ngành, nghề đầu tư kinh doanh có điều kiện | Luật 143 Đ51.1, Đ51.4 |
 | **29/4/2026** | NQ 22/2026 có hiệu lực (đến hết 01/3/2027) | Nộp hồ sơ đánh giá tác động DLCN theo thủ tục phân cấp: BCA tiếp nhận, chuyển Công an tỉnh xử lý | NQ 22 Đ6.1, Phụ lục I.7 mục B |
-| **01/7/2026** | Luật 116/2025 có hiệu lực; Luật 86/2015 và Luật 24/2018 hết hiệu lực | Mọi chủ quản HTTT, doanh nghiệp cung cấp dịch vụ trên không gian mạng | Luật 116 Đ44 |
+| **01/7/2026** | Luật 116/2025 có hiệu lực; Luật 86/2015 và Luật 24/2018 hết hiệu lực | Mọi chủ quản HTTT, doanh nghiệp cung cấp dịch vụ trên không gian mạng. Giấy phép kinh doanh sản phẩm, dịch vụ ATTT mạng cấp theo Luật 86/2015 dùng đến hết thời hạn ghi trên giấy phép | Luật 116 Đ44, Đ45.2 |
+| **01/7/2026** | Luật Đầu tư 143/2025: **Đ7 và Phụ lục IV** (198 ngành, nghề đầu tư kinh doanh có điều kiện) có hiệu lực | Rà lại tiêu chí cấp độ dịch vụ trực tuyến (NĐ 331 Đ12.2.a / Đ13.2.a): cloud, trung tâm dữ liệu (mục 98), dịch vụ xử lý DLCN (mục 198)… — xem [tieu-chi-cap-do.md mục 6.2](../01-xac-dinh-cap-do/tieu-chi-cap-do.md) | Luật 143 Đ51.2, Phụ lục IV |
+| **01/7/2026** | Luật Thương mại điện tử 122/2025 có hiệu lực | Website, ứng dụng TMĐT; nền tảng TMĐT | Luật 122 Đ40 |
 | **19/8/2026** | NĐ 330, NĐ 331, NĐ 333 có hiệu lực | Xác định cấp độ theo NĐ 331; nghĩa vụ NĐ 333; mức phạt NĐ 330 áp dụng cho hành vi từ ngày này | NĐ 331 Đ38; NĐ 333 Đ30; NĐ 330 Đ80, Đ81.1 |
 | **06 tháng kể từ 01/7/2026** (mốc an toàn: **31/12/2026**) | HTTT **đang đầu tư, xây dựng trước 01/7/2026** phải hoàn thành thẩm định, phê duyệt cấp độ theo NĐ 85/2016 | Chủ đầu tư, chủ quản HTTT | NĐ 331 Đ39.1 câu 1 |
 | **Trước 15/01/2027** (và hằng năm) | Bộ Công an cập nhật, công bố danh mục HTTT theo loại hình | Chủ quản rà lại phân loại HTTT của mình khi danh mục được công bố | NĐ 331 Đ9.2.e |
 | **01/3/2027** | NQ 22 hết hiệu lực; hạn Bộ Công an trình văn bản/ban hành thông tư thay thế | Theo dõi thủ tục DLCN mới | NQ 22 Đ4.1.b–c, Đ6.1 |
 | **12 tháng kể từ 01/7/2026** (mốc an toàn: **30/6/2027**) | (1) HTTT **đã có cấp độ theo Luật 86/2015** giữ cấp độ nhưng phải đáp ứng điều kiện, tiêu chuẩn, biện pháp ANM tương ứng theo Luật 116. (2) HTTT đang đầu tư trước 01/7/2026 phải bảo đảm biện pháp theo NĐ 331. (3) Sản phẩm, giải pháp ATTT mạng đã đưa vào sử dụng phải đáp ứng điều kiện ANM | Chủ quản HTTT, đơn vị vận hành | Luật 116 Đ45.1, Đ45.3; NĐ 331 Đ39.1 câu 2 |
+| **Hết 30/6/2027** | Website, ứng dụng TMĐT đã thông báo, đăng ký trước 01/7/2026 chỉ được hoạt động theo hồ sơ cũ đến hết ngày này; tổ chức chứng thực hợp đồng điện tử đã đăng ký trước 01/7/2026 cũng hoạt động đến hết ngày này | Chủ website, ứng dụng TMĐT — làm lại thủ tục theo Luật 122 trước mốc | Luật 122 Đ41.1–41.2 |
 | **24 tháng kể từ 19/8/2026** (19/8/2028) | Cơ quan, tổ chức, DNNN rà soát, tổ chức tập huấn cho người thuộc lực lượng bảo vệ ANM tại Luật 116 Đ34.1 | Bộ, ngành, UBND tỉnh, cơ quan quản lý HTTT quan trọng ANQG, DNNN | NĐ 333 Đ24.8.a |
 | **36 tháng kể từ 19/8/2026** (19/8/2029) | Chủ quản HTTT cấp 3–5 **trong cơ quan, tổ chức, doanh nghiệp Nhà nước** tổ chức tập huấn cho người trực tiếp quản trị, vận hành | Chủ quản HTTT cấp 3–5 khu vực nhà nước (doanh nghiệp tư nhân: xem vùng chưa rõ tại [nd-333](../05-nghia-vu-lien-quan/nd-333-nghia-vu-doanh-nghiep.md)) | Luật 116 Đ34.2; NĐ 333 Đ24.8.b |
 | **05 năm kể từ 01/01/2026** (mốc an toàn: **31/12/2030**) | Hết thời gian doanh nghiệp nhỏ, khởi nghiệp được **lựa chọn** không thực hiện đánh giá tác động DLCN, cập nhật hồ sơ, chỉ định nhân sự BVDLCN | DN nhỏ, khởi nghiệp (trừ trường hợp loại trừ) | Luật 91 Đ38.2; NĐ 356 Đ41.1 |
@@ -46,6 +64,12 @@ Tài liệu gồm hai phần: (A) **các mốc pháp lý** bắt buộc, có đi
 | | Định kỳ **06 tháng** khi có thay đổi; **10 ngày** với thay đổi phải cập nhật ngay | Cập nhật hồ sơ | Luật 91 Đ22; NĐ 356 Đ20 |
 | **Yêu cầu của lực lượng chuyên trách** (DN cung cấp dịch vụ) | **24 giờ** (khẩn cấp **03 giờ**) | Cung cấp thông tin người dùng | Luật 116 Đ25.2.a; NĐ 333 Đ16.3.c |
 | | **24 giờ** (khẩn cấp **06 giờ**) | Ngăn chặn, xóa bỏ thông tin, gỡ dịch vụ, ứng dụng vi phạm | Luật 116 Đ25.2.b; NĐ 333 Đ16.4.b |
+| **Yêu cầu của chủ thể dữ liệu** | **02 ngày làm việc** | Phản hồi, hướng dẫn thủ tục cho mọi loại yêu cầu | NĐ 356 Đ5.2–5.4 |
+| | **10 ngày** (có bên xử lý, bên thứ ba: 15 ngày; gia hạn 01 lần ≤ 10 ngày) | Xem, chỉnh sửa, cung cấp DLCN | NĐ 356 Đ5.3 |
+| | **15 ngày** (có bên xử lý, bên thứ ba: 20 ngày; gia hạn 01 lần ≤ 15 ngày) | Rút lại đồng ý, hạn chế, phản đối xử lý | NĐ 356 Đ5.2 |
+| | **20 ngày** (có bên xử lý, bên thứ ba: 30 ngày; gia hạn 01 lần ≤ 20 ngày) | Xóa DLCN | NĐ 356 Đ5.4 |
+| **Thời hiệu xử phạt** | **01 năm** | Thời hiệu xử phạt vi phạm hành chính về ANM và BVDLCN. Hành vi chưa thực hiện xong nghĩa vụ (ví dụ chưa lập hồ sơ cấp độ) được coi là đang thực hiện cho đến khi làm xong — thời hiệu chưa chạy; cách tính chi tiết theo Luật Xử lý vi phạm hành chính **[CẦN ĐỐI CHIẾU]** (không có trong bộ nguồn) | NĐ 330 Đ3.1–3.3 |
+| **Rà soát quy mô doanh nghiệp** (đề xuất của bộ khung) | Hằng năm, sau khi nộp báo cáo tài chính năm | Quy mô DN nhỏ, siêu nhỏ tính theo số liệu năm trước liền kề → rà lại diện miễn trừ BVDLCN ([phiếu 17](../08-bo-mau-cap-1-2/17-phieu-xac-dinh-mien-tru-bvdlcn.md)) | NĐ 80/2021 Đ7–Đ9; NĐ 356 Đ41 |
 | **Thẩm định/phê duyệt cấp độ** | 05 ngày làm việc (phản hồi hồ sơ chưa hợp lệ); 15 ngày làm việc (thẩm định cấp 3); 25 ngày làm việc (thẩm định cấp 4–5); 07 ngày làm việc (phê duyệt) | Thời hạn xử lý của đơn vị thẩm định/phê duyệt | NĐ 331 Đ23.2, Đ23.3, Đ24.2 |
 
 ### A.3. Dòng thời gian tổng hợp
@@ -54,16 +78,21 @@ Tài liệu gồm hai phần: (A) **các mốc pháp lý** bắt buộc, có đi
 timeline
     title Mốc pháp lý chính (ANM + DLCN)
     01/01/2026 : Luật 91 và NĐ 356 có hiệu lực
+    01/3/2026 : Luật Đầu tư 143/2025 có hiệu lực
     29/4/2026 : NQ 22 có hiệu lực (đến 01/3/2027)
     01/7/2026 : Luật 116 có hiệu lực
               : Luật 86/2015 và Luật 24/2018 hết hiệu lực
+              : Phụ lục IV Luật Đầu tư 143 (198 ngành nghề có điều kiện) có hiệu lực
+              : Luật TMĐT 122/2025 có hiệu lực
     19/8/2026 : NĐ 330, 331, 333 có hiệu lực
     25/12/2026 : Hạn gửi báo cáo năm đầu tiên cho BCA (NĐ 331 Đ35.4.b)
     31/12/2026 : Mốc an toàn 06 tháng - HTTT đang đầu tư hoàn thành phê duyệt cấp độ (NĐ 331 Đ39.1)
     01/3/2027 : NQ 22 hết hiệu lực
     30/6/2027 : Mốc an toàn 12 tháng - đáp ứng biện pháp theo cấp độ (Luật 116 Đ45, NĐ 331 Đ39.1)
+              : Hết hạn hoạt động theo hồ sơ TMĐT cũ (Luật 122 Đ41)
     19/8/2028 : Hạn tập huấn đối tượng Luật 116 Đ34.1 (NĐ 333 Đ24.8.a)
     19/8/2029 : Hạn tập huấn quản trị HTTT cấp 3-5 khu vực nhà nước (NĐ 333 Đ24.8.b)
+    31/12/2030 : Hết thời gian DN nhỏ, khởi nghiệp được chọn không làm DPIA, nhân sự BVDLCN (Luật 91 Đ38.2)
 ```
 
 > **Báo cáo năm 2026:** NĐ 331 có hiệu lực 19/8/2026, kỳ số liệu 15/12/2025 – 14/12/2026 bắt đầu trước ngày hiệu lực. Văn bản không có quy định riêng cho kỳ đầu tiên → **[CẦN ĐỐI CHIẾU]** hướng dẫn của Bộ Công an. Khuyến nghị: vẫn lập và gửi báo cáo trước 25/12/2026, số liệu tính đến 14/12/2026. Hướng dẫn lập: [../06-kiem-tra-bao-cao/bao-cao-nam-mau-08.md](../06-kiem-tra-bao-cao/bao-cao-nam-mau-08.md).

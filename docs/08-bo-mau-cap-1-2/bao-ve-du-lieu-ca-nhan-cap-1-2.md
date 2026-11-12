@@ -65,7 +65,7 @@ Tiêu chí phân loại (Luật Hỗ trợ DNNVV 04/2017/QH14 Đ4; NĐ 80/2021/N
 
 DN **vừa** (thương mại, dịch vụ: ≤ 100 lao động; doanh thu ≤ 300 tỷ hoặc vốn ≤ 100 tỷ đồng — NĐ 80 Đ5.3) không thuộc diện miễn trừ của Luật 91 Đ38.2–38.3, vì điều này chỉ nêu doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp, hộ kinh doanh, doanh nghiệp siêu nhỏ.
 
-"Doanh nghiệp khởi nghiệp" trong Luật 91 không được định nghĩa riêng; gần nhất là "doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo" — "doanh nghiệp nhỏ và vừa được thành lập để thực hiện ý tưởng trên cơ sở khai thác tài sản trí tuệ, công nghệ, mô hình kinh doanh mới và có khả năng tăng trưởng nhanh" (Luật 04/2017 Đ3.2). Việc dùng định nghĩa này cho Luật 91 là suy luận **[CẦN ĐỐI CHIẾU]**. Ngưỡng trong bảng đã đối chiếu toàn văn NĐ 80/2021 Đ5 (`sources/van-ban-goc/toan-van/nd-80-2021-nd-cp-ho-tro-dnnvv.txt`) và bản PDF Luật 04/2017 Đ3.2, Đ4 (`ban-goc-tai-ve/luat-04-2017-qh14-ho-tro-dnnvv.pdf`, bản scan, đọc trực tiếp trang 1–2). Kịch bản mẫu TURBO (dịch vụ CNTT, khoảng 120 lao động) **không** phải DN nhỏ → phải làm đủ DPIA và chỉ định nhân sự BVDLCN.
+"Doanh nghiệp khởi nghiệp" trong Luật 91 không được định nghĩa riêng; gần nhất là "doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo" — "doanh nghiệp nhỏ và vừa được thành lập để thực hiện ý tưởng trên cơ sở khai thác tài sản trí tuệ, công nghệ, mô hình kinh doanh mới và có khả năng tăng trưởng nhanh" (Luật 04/2017 Đ3.2). Việc dùng định nghĩa này cho Luật 91 là suy luận **[CẦN ĐỐI CHIẾU]**. Ngưỡng trong bảng đã đối chiếu toàn văn NĐ 80/2021 Đ5 (`sources/van-ban-goc/toan-van/nd-80-2021-nd-cp-ho-tro-dnnvv.txt`) và bản PDF Luật 04/2017 Đ3.2, Đ4 (`ban-goc-tai-ve/luat-04-2017-qh14-ho-tro-dnnvv.pdf`, bản scan, đọc trực tiếp trang 1–2). Kịch bản mẫu TURBO (dịch vụ CNTT; 38 lao động tham gia BHXH bình quân năm 2025, doanh thu năm 2025 42 tỷ đồng) là **DN nhỏ** → được chọn không làm DPIA, cập nhật hồ sơ, chỉ định nhân sự BVDLCN đến hết 31/12/2030. Nhưng TURBO có lưu ảnh thẻ căn cước và giấy khám sức khỏe của người lao động (DLCN nhạy cảm — NĐ 356 Đ4.1.i, Đ4.1.d), nên theo cách đọc thận trọng tại mục 5 (C19) là **mất miễn trừ** → vẫn lập DPIA và chỉ định nhân sự BVDLCN. Ghi kết luận bằng [phiếu xác định miễn trừ (17)](17-phieu-xac-dinh-mien-tru-bvdlcn.md).
 
 Nếu đã chỉ định nhân sự BVDLCN: phải bằng văn bản nêu chức năng, nhiệm vụ; nhân sự từ cao đẳng trở lên, **≥ 02 năm** kinh nghiệm ở lĩnh vực liên quan (pháp chế, CNTT, an ninh mạng, quản trị rủi ro, nhân sự…), đã được đào tạo BVDLCN; ký thỏa thuận bảo mật (NĐ 356 Đ13). Vi phạm: cảnh cáo hoặc 10–20 tr (NĐ 330 Đ57.1).
 
@@ -93,12 +93,12 @@ Nếu đã chỉ định nhân sự BVDLCN: phải bằng văn bản nêu chức
 ## 7. Mười việc nên làm trước
 
 1. **Kiểm kê dữ liệu:** mỗi HTTT xử lý loại DLCN nào (cơ bản/nhạy cảm), của ai, bao nhiêu chủ thể, lưu ở đâu (VN/nước ngoài), ai truy cập.
-2. **Xác định có phải DN nhỏ/siêu nhỏ và còn được miễn trừ không** (mục 4, mục 5.a); ghi kết luận bằng văn bản.
+2. **Xác định có phải DN nhỏ/siêu nhỏ và còn được miễn trừ không** (mục 4, mục 5.a); ghi kết luận bằng [phiếu 17](17-phieu-xac-dinh-mien-tru-bvdlcn.md).
 3. **Giảm dữ liệu nhạy cảm không cần thiết:** thôi lưu ảnh CCCD khi không bắt buộc; cân nhắc chấm công không sinh trắc học.
 4. **Thông báo xử lý DLCN** cho người lao động (kèm hợp đồng lao động, nội quy) và ứng viên (trên tin tuyển dụng); lấy và lưu đồng ý khi cần.
 5. **Quy trình quyền chủ thể dữ liệu:** kênh tiếp nhận, phản hồi 02 ngày làm việc, thời hạn thực hiện 10/15/20 ngày.
 6. **Thời hạn lưu và xóa:** hồ sơ ứng viên không trúng tuyển; dữ liệu nhân viên nghỉ việc; video camera.
 7. **Cloud, nhà cung cấp:** rà hợp đồng (vai trò, luồng dữ liệu, bảo mật, xóa khi kết thúc); bật mã hóa; xác định dữ liệu nào ra nước ngoài.
 8. **Hồ sơ chuyển DLCN xuyên biên giới** nếu có dữ liệu khách hàng, đối tác trên cloud nước ngoài — nộp trong 60 ngày.
-9. **DPIA và nhân sự BVDLCN** nếu không thuộc diện miễn (hoặc đã mất miễn trừ).
-10. **Gộp vào quy trình sự cố:** nhánh vi phạm DLCN 72 giờ, biên bản xác nhận; biển báo camera; đào tạo nhận thức gộp chung với đào tạo ANM hằng năm.
+9. **DPIA và nhân sự BVDLCN** nếu không thuộc diện miễn (hoặc đã mất miễn trừ): [QĐ chỉ định (18)](18-qd-chi-dinh-nhan-su-bvdlcn.md), [hồ sơ DPIA (20)](20-ho-so-dpia.md); ở mọi quy mô nên ban hành [Quy định BVDLCN (19)](19-quy-dinh-bvdlcn.md).
+10. **Gộp vào quy trình sự cố:** nhánh vi phạm DLCN 72 giờ, biên bản xác nhận ([mẫu 21](21-thong-bao-vi-pham-dlcn.md)); biển báo camera; đào tạo nhận thức gộp chung với đào tạo ANM hằng năm.
