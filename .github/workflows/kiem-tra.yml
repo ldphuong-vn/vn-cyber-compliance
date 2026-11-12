@@ -1,0 +1,30 @@
+name: Kiểm tra
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  kiem-tra:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Quy ước tên tệp
+        run: node tools/ci/check-filenames.mjs
+
+      - name: Link nội bộ
+        run: node tools/ci/check-links.mjs
+
+      - name: Khối căn cứ đầu trang
+        run: node tools/ci/check-headers.mjs

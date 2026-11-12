@@ -20,6 +20,20 @@ Cảm ơn bạn quan tâm tới bộ khung tuân thủ An ninh mạng Việt Nam
 6. Sửa mẫu văn bản trong `docs/` xong thì sinh lại bộ mẫu: `cd tools/md2docx && node build.js` và `python3 tools/md2xlsx/build.py` (xem `tools/md2docx/README.md`).
 7. Tiếng Việt có dấu; tên file kebab-case không dấu; đầu mỗi tài liệu giữ khối **Căn cứ · Đối chiếu văn bản gốc · Trạng thái** và cập nhật ngày đối chiếu.
 
+## Kiểm tra tự động
+
+Mỗi pull request chạy ba kiểm tra trong `.github/workflows/kiem-tra.yml`:
+
+| Kiểm tra | Quy tắc |
+|---|---|
+| Tên tệp | ASCII, chữ thường, không khoảng trắng, không dấu tiếng Việt. Chỉ tệp bắt đầu bằng `README` được viết hoa |
+| Link nội bộ | Mọi link tương đối trong `docs/`, `en/`, `sources/` và `templates/README.md` phải trỏ tới tệp hoặc thư mục có thật |
+| Khối căn cứ | 10 dòng đầu của mỗi tài liệu trong `docs/` phải có `Căn cứ` và `Đối chiếu` |
+
+Chạy tại máy trước khi đẩy: `node tools/ci/check-filenames.mjs`, `node tools/ci/check-links.mjs`, `node tools/ci/check-headers.mjs`.
+
+Chưa có kiểm tra tự động cho việc sinh lại bộ mẫu Word từ Markdown — hiện vẫn phải nhớ chạy `node build.js`.
+
 ## Ghi nhận
 
 Người đóng góp được ghi nhận trong Pull Request, trong báo cáo cập nhật tháng tại `docs/00-tong-quan/cap-nhat-dinh-ky/` và trong danh sách Contributors của repo. Nếu bạn muốn được ghi tên kèm đơn vị công tác, nêu rõ trong Issue hoặc Pull Request.
