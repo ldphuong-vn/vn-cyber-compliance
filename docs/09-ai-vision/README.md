@@ -2,6 +2,8 @@
 
 > **Căn cứ:** Luật 91/2025/QH15; NĐ 356/2025/NĐ-CP; NĐ 330/2026/NĐ-CP; NĐ 331/2026/NĐ-CP; NQ 22/2026/NQ-CP; Luật 134/2025/QH15; NĐ 142/2026/NĐ-CP; QĐ 33/2026/QĐ-TTg · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
+> **Cảnh báo nguồn:** QĐ 33/2026/QĐ-TTg trong `sources/` là bản OCR có lỗi chính tả và **thiếu cột "Đánh giá sự phù hợp"**. Mọi trích dẫn mục I.2, I.3, V.1, VI.6 của QĐ 33 trong tài liệu này **[CẦN ĐỐI CHIẾU]** với PDF ký số trước khi dùng làm căn cứ.
+
 Hướng dẫn theo ngành cho **nhà cung cấp** camera giám sát, phần mềm quản lý video, nhận diện khuôn mặt, nhận diện biển số dùng cho kiểm soát ra vào, chấm công, điểm danh, bãi xe; và bộ công cụ cho **khách hàng** triển khai các giải pháp này. Bản Word: [`templates/09-ai-vision/`](../../templates/README.md#7-ngành-ai-vision-camera-nhận-diện-khuôn-mặt-nhận-diện-biển-số).
 
 **Đọc trước:** [thao-luan-tai-lieu-va-phuong-an-ho-tro.md](thao-luan-tai-lieu-va-phuong-an-ho-tro.md) — phân loại dữ liệu, vai trò nhà cung cấp theo mô hình M1–M5, nghĩa vụ khách hàng theo tình huống, các mức dịch vụ hỗ trợ, vùng xám V1–V9.

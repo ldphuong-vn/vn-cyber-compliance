@@ -2,6 +2,8 @@
 
 > **Căn cứ:** Luật 91/2025/QH15 Đ2, Đ8, Đ9, Đ11, Đ14, Đ17, Đ19–Đ25, Đ30–Đ33, Đ37–Đ39; NĐ 356/2025/NĐ-CP Đ3–Đ7, Đ10, Đ12, Đ13, Đ15, Đ16, Đ19–Đ23, Đ28, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39, Đ43, Đ52, Đ55, Đ58, Đ59, Đ61, Đ67, Đ69–Đ71; NĐ 331/2026/NĐ-CP Đ12.2.b, Đ13.2; Luật 134/2025/QH15 Đ3, Đ7, Đ9–Đ15, Đ35; NĐ 142/2026/NĐ-CP Đ6, Đ12, Đ19; QĐ 33/2026/QĐ-TTg · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản thảo luận v0.1 — chưa phải mẫu ban hành
 
+> **Cảnh báo nguồn:** QĐ 33/2026/QĐ-TTg trong `sources/` là bản OCR có lỗi chính tả và **thiếu cột "Đánh giá sự phù hợp"**. Mọi trích dẫn mục I.2, I.3, V.1, VI.6 của QĐ 33 trong tài liệu này **[CẦN ĐỐI CHIẾU]** với PDF ký số trước khi dùng làm căn cứ.
+
 Tài liệu này dành cho **nhà cung cấp giải pháp AI vision**: camera giám sát, phần mềm quản lý video (VMS), nhận diện khuôn mặt, nhận diện biển số (LPR), dùng cho kiểm soát ra vào, chấm công, điểm danh, bãi xe. Tài liệu trả lời ba câu hỏi:
 
 1. Nhà cung cấp **cần có những tài liệu gì** để chính mình tuân thủ Luật 91/2025 (mục 2, 4)?

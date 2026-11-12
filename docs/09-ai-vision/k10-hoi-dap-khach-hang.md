@@ -2,6 +2,8 @@
 
 > **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.3, Đ4.1, Đ8, Đ9, Đ15.2, Đ17.1.a, Đ17.1.đ, Đ19, Đ20, Đ21, Đ23, Đ24.2, Đ25, Đ31, Đ32, Đ33.2, Đ37.2.a, Đ38, Đ39; NĐ 356/2025/NĐ-CP Đ3.6–3.7, Đ4.1, Đ5, Đ6.4, Đ7.1–7.2, Đ10.1, Đ10.3, Đ13, Đ17.3, Đ21.1, Đ21.5, Đ21.8, Đ22, Đ23.7, Đ29, Đ41; NĐ 330/2026/NĐ-CP Đ7, Đ39.1.c, Đ43.1, Đ47.3, Đ48.2, Đ49, Đ52.1.a, Đ52.3, Đ54, Đ55, Đ56, Đ60, Đ61.2, Đ67.2–67.3, Đ70, Đ71; QĐ 33/2026/QĐ-TTg Phụ lục mục I.3; Luật Kế toán 88/2015/QH13 Đ41.5; BLLĐ 2019 Đ190; văn bản chuyên ngành về thời hạn lưu hình ảnh (K4); TT 48/2026/TT-BCA (QCVN 11:2026/BCA); TT 125/2026/TT-BCA **[CẦN ĐỐI CHIẾU — chưa có toàn văn trong sources/, trừ BLLĐ 2019 đã đối chiếu văn bản hợp nhất 18/VBHN-VPQH]** · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
+> **Cảnh báo nguồn:** QĐ 33/2026/QĐ-TTg trong `sources/` là bản OCR có lỗi chính tả và **thiếu cột "Đánh giá sự phù hợp"**. Mọi trích dẫn mục I.2, I.3, V.1, VI.6 của QĐ 33 trong tài liệu này **[CẦN ĐỐI CHIẾU]** với PDF ký số trước khi dùng làm căn cứ.
+
 ## Hướng dẫn sử dụng
 
 **Ai dùng:** nhà cung cấp {{TEN_NHA_CUNG_CAP}} giao cho khách hàng, đăng trên trang hỗ trợ, dùng trong đào tạo bán hàng và kỹ thuật viên. Nội dung rút từ bản thảo luận [`thao-luan-tai-lieu-va-phuong-an-ho-tro.md`](thao-luan-tai-lieu-va-phuong-an-ho-tro.md) mục 1, 3, 8.

@@ -2,6 +2,8 @@
 
 > **Căn cứ:** Luật 91/2025/QH15 Đ4.1, Đ9.2, Đ14.1.a, Đ24.2, Đ25.3, Đ31.2; NĐ 356/2025/NĐ-CP Đ4.1.đ, Đ5.4, Đ6.4, Đ10.3, Đ10.5.a, Đ10.6, Đ23.7, Đ29; NĐ 330/2026/NĐ-CP Đ34.2.c, Đ43.1.h, Đ67.2.a, Đ67.2.b, Đ67.2.c, Đ67.3.b, Đ67.4.b, Đ67.5; Luật 134/2025/QH15 Đ3.4, Đ4.2, Đ4.3, Đ7.4, Đ11.1, Đ14.1.d–e, Đ14.2.b, Đ14.2.đ, Đ15.1.b, Đ15.2, Đ31.1; NĐ 142/2026/NĐ-CP Đ3.1, Đ3.5, Đ3.6, Đ8.2.b, Đ11.5, Đ12.3, Đ12.4, Đ15.2.b–c, Đ16.2–16.4, Đ16.6; QĐ 33/2026/QĐ-TTg Phụ lục mục VI.6 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
+> **Cảnh báo nguồn:** QĐ 33/2026/QĐ-TTg trong `sources/` là bản OCR có lỗi chính tả và **thiếu cột "Đánh giá sự phù hợp"**. Mọi trích dẫn mục I.2, I.3, V.1, VI.6 của QĐ 33 trong tài liệu này **[CẦN ĐỐI CHIẾU]** với PDF ký số trước khi dùng làm căn cứ.
+
 ## Hướng dẫn sử dụng
 
 **Mã tài liệu:** B3. Gồm hai phần:

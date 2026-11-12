@@ -2,6 +2,8 @@
 
 > **Căn cứ:** Luật 91/2025/QH15 Đ2.1, Đ3.2, Đ3.3, Đ9.2, Đ19.1.a, Đ19.2, Đ24, Đ25.3, Đ30.1, Đ30.3, Đ30.4, Đ30.5, Đ31.2, Đ31.4.a, Đ32.2, Đ32.4, Đ37.1.b; NĐ 356/2025/NĐ-CP Đ4.1, Đ6.3, Đ6.4, Đ10.2, Đ10.3, Đ10.5, Đ10.6, Đ19.3.g, Đ21.5, Đ21.6; NĐ 330/2026/NĐ-CP Đ67.1, Đ67.2.a–d, Đ67.3.b, Đ67.4.b, Đ70.1.c–d, Đ70.2.b, Đ71.1.a, Đ71.2.a; Luật 134/2025/QH15 Đ3.3–3.5, Đ4.2, Đ7, Đ9, Đ10, Đ11.1, Đ12.2, Đ13, Đ14, Đ29.5, Đ35; NĐ 142/2026/NĐ-CP Đ5.8, Đ6, Đ8, Đ9, Đ10, Đ11, Đ12, Đ13, Đ14, Đ15, Đ19; QĐ 33/2026/QĐ-TTg Đ4, Phụ lục mục I.2, I.3, V.1, VI.6, VI.22, VI.23 · **Đối chiếu văn bản gốc:** 29/09/2026 · **Trạng thái:** Bản khung v0.1
 
+> **Cảnh báo nguồn:** QĐ 33/2026/QĐ-TTg trong `sources/` là bản OCR có lỗi chính tả và **thiếu cột "Đánh giá sự phù hợp"**. Mọi trích dẫn mục I.2, I.3, V.1, VI.6 của QĐ 33 trong tài liệu này **[CẦN ĐỐI CHIẾU]** với PDF ký số trước khi dùng làm căn cứ.
+
 ## Hướng dẫn sử dụng
 
 **Mã tài liệu:** B2. **Ai lập:** nhóm sản phẩm của nhà cung cấp, nhân sự BVDLCN thẩm tra, lãnh đạo phụ trách sản phẩm phê duyệt. **Khi nào:** lập lần đầu cho toàn bộ tính năng AI hiện có, trước khi đưa hệ thống vào sử dụng; phân loại lại khi thêm tính năng, đổi mô hình AI, đổi mục đích sử dụng được quảng bá, đổi bối cảnh triển khai, hoặc theo chu kỳ tại mục 6.

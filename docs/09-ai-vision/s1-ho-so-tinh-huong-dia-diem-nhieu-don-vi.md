@@ -2,6 +2,8 @@
 
 > **Căn cứ:** Luật 91/2025/QH15 Đ3.3, Đ9, Đ11.1, Đ17.1, Đ19.1.d, Đ21.1, Đ25.3, Đ31.4, Đ32.2, Đ33.2, Đ37.2.a, Đ38.2; NĐ 356/2025/NĐ-CP Đ5.2, Đ6.4, Đ7.1, Đ7.2, Đ10.3, Đ19, Đ20.1, Đ21.1; NĐ 330/2026/NĐ-CP Đ39.1.b, Đ43.1, Đ48.3.c–d, Đ52.1.a, Đ52.3, Đ55, Đ57, Đ67.2.b, Đ67.3.b, Đ70.1.c–d; Luật 134/2025/QH15 Đ9, Đ10, Đ11.1; QĐ 33/2026/QĐ-TTg Phụ lục · **Đối chiếu văn bản gốc:** 30/09/2026 · **Trạng thái:** Bản khung v0.1
 
+> **Cảnh báo nguồn:** QĐ 33/2026/QĐ-TTg trong `sources/` là bản OCR có lỗi chính tả và **thiếu cột "Đánh giá sự phù hợp"**. Mọi trích dẫn mục I.2, I.3, V.1, VI.6 của QĐ 33 trong tài liệu này **[CẦN ĐỐI CHIẾU]** với PDF ký số trước khi dùng làm căn cứ.
+
 ## Hướng dẫn sử dụng
 
 **Mã tài liệu:** S1 (S = hồ sơ tình huống). S1 không tạo nghĩa vụ mới. S1 gom các mẫu đã có thành **một bộ hồ sơ cho một dự án**, xếp theo thứ tự thời gian, ghi rõ ai lập, ai ký, chọn biến thể nào và cấu hình khuyến nghị. Nhà cung cấp dùng S1 khi chào giá, lập kế hoạch triển khai; khách hàng dùng phần xuất Word làm danh mục theo dõi.

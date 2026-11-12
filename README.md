@@ -26,7 +26,7 @@ Bộ khung giúp tổ chức **hiểu nghĩa vụ, tự rà soát và soạn nha
 Cần lưu ý thêm:
 
 - **Văn bản còn mới, chưa đủ hướng dẫn.** Luật 116/2025 và các NĐ 330, 331, 333/2026 mới có hiệu lực; nhiều thông tư, biểu mẫu của Bộ Công an chưa ban hành. Hướng dẫn chính thức có thể khác cách hiểu của bộ khung.
-- **Phạm vi có giới hạn.** Bộ khung không bao quát quy định chuyên ngành (ngân hàng, viễn thông, y tế, chứng khoán…), bảo vệ bí mật nhà nước, hay thủ tục riêng của HTTT quan trọng về an ninh quốc gia. HTTT cấp 4–5 cần làm việc trực tiếp với Bộ Công an.
+- **Phạm vi có giới hạn.** Bộ khung không bao quát quy định chuyên ngành (ngân hàng, viễn thông, y tế, chứng khoán…), bảo vệ bí mật nhà nước, hay thủ tục riêng của HTTT quan trọng về an ninh quốc gia — **trừ những ngành đã có thư mục riêng** (hiện là `docs/09-ai-vision/`). HTTT cấp 4–5 cần làm việc trực tiếp với Bộ Công an.
 - **Nguồn văn bản.** Một số toàn văn trong `sources/` lấy từ trang pháp luật công khai. Trước khi trích dẫn chính thức, đối chiếu Công báo hoặc bản do cơ quan ban hành công bố.
 - **Mẫu là khung tham khảo.** Phải điều chỉnh theo cơ cấu, Điều lệ, quy chế nội bộ và hệ thống thực tế của tổ chức. Dữ liệu mẫu là **mô phỏng**, chỉ tên công ty TURBO là thật.
 - **Có thể còn sai sót.** Nội dung được soạn với sự hỗ trợ của AI (Claude Code) và đã rà soát chéo với văn bản gốc, nhưng vẫn có thể sai. Mỗi trang ghi ngày "Đối chiếu văn bản gốc"; gặp lỗi xin báo qua [Issue](https://github.com/ldphuong-vn/vn-cyber-compliance/issues/new/choose).
@@ -52,6 +52,8 @@ Cần lưu ý thêm:
 | [`en/`](en/README.md) | **Bản hướng dẫn tiếng Anh** (không chính thức, cô đọng) cho doanh nghiệp FDI, tập đoàn mẹ, kiểm toán, tư vấn nước ngoài: tổng quan luật, cấp độ, yêu cầu theo cấp, nghĩa vụ doanh nghiệp, mức phạt, dữ liệu cá nhân, vùng xám, bảng thuật ngữ Việt–Anh. Biểu mẫu nộp cơ quan quản lý giữ tiếng Việt | Người đọc tiếng Anh |
 | [`templates/`](templates/README.md) | **Bộ mẫu tải về dùng ngay:** 86 văn bản Word (thể thức NĐ 30/2020, có dữ liệu mẫu tô vàng) và 5 bảng tính Excel (checklist tự đánh giá cấp 1–5, ma trận yêu cầu, sổ đăng ký rủi ro, RACI, bảng tính quản lý ANM cấp 1–2) — sinh tự động từ `docs/` bằng [`tools/`](tools/md2docx/README.md) | Soạn văn bản thực tế, tự đánh giá |
 | [`sources/van-ban-goc/`](sources/van-ban-goc/README.md) | Toàn văn các văn bản quy phạm pháp luật để tra cứu | Kiểm tra trích dẫn |
+
+> **Hai trục tổ chức:** `docs/00`–`08` xếp theo **chức năng** (xác định cấp độ, hồ sơ, yêu cầu, chính sách, kiểm tra…). `docs/09` trở đi xếp theo **ngành**. Khi thêm ngành mới, đánh số tiếp (`10`, `11`…) và không trộn vào `00`–`08`.
 
 ## Quy trình sử dụng
 
