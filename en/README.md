@@ -5,6 +5,8 @@
 
 [Tiếng Việt](../README.md) · **English**
 
+> **Language coverage:** the Vietnamese pages now include a sector section for AI vision, cameras and biometrics ([`docs/09-ai-vision/`](../docs/09-ai-vision/README.md)). It is **not yet translated**; this English guide covers sections 00–08 only.
+
 ## What this is
 
 An open toolkit for **security level determination** of information systems (IS), preparing the **security level proposal dossier** (*hồ sơ đề xuất cấp độ*) and complying with Vietnam's new cybersecurity and personal data rules. The Vietnamese pages contain the working documents: criteria, decision trees, Decree 331 forms, internal decisions, policies, procedures, checklists, and 42 Word and 5 Excel templates.
